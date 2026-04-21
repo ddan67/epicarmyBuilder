@@ -320,6 +320,17 @@ var ArmyforgeUI = {
 
 	createFormationDetailsContent:function(formation) {
 		var content = new Element('div', {'class':'formationDetailsContent'});
+		var compositionUnits = formation.upgrades.uniq().map(function(upgrade) {
+			return (formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name;
+		});
+		if (formation.type.units) {
+			compositionUnits = [formation.type.units].concat(compositionUnits);
+		}
+		if (compositionUnits.empty()) {
+			compositionUnits = [formation.type.name];
+		}
+		content.insert(new Element('div', {'class':'formationComposition'}).update(compositionUnits.join(', ')));
+
 		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
 
 		if (profiles.length < 1) {
