@@ -476,6 +476,7 @@ var ArmyforgeUI = {
 		detailsToggle.observe('click', function(event) {
 			Event.stop(event);
 			ArmyforgeUI.toggleDetailsRow(detailsToggle.readAttribute('data-details-row-id'), detailsToggle);
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 		});
 		labelCell.insert({top:detailsToggle});
 		if (formation.type.units) {
@@ -510,6 +511,7 @@ var ArmyforgeUI = {
 			}
 			else {
 				detailsRow.toggle();
+				ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 			}
 		});
 
@@ -517,6 +519,7 @@ var ArmyforgeUI = {
 				ArmyforgeUI.renderUpgrade( formation,x );
 			});
 			ArmyforgeUI.refreshFormationDetailsContent(formation);
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 
 		},
 
@@ -648,6 +651,10 @@ var ArmyforgeUI = {
 		ArmyforgeUI.updateFormationPoints(formation);
 		ArmyforgeUI.updatePoints();
 		ArmyforgeUI.refreshFormationDetailsContent(formation);
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (detailsRow) {
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
+		}
 	},
 
 	upgradeRowsFor:function(formation) {
