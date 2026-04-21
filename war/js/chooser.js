@@ -199,6 +199,109 @@ var ArmyforgeUI = {
 		return $('formation_'+formation.id);
 	},
 
+	formationDetailsRowFor:function(formation) {
+		return $('formationDetails_'+formation.id);
+	},
+
+	findUnitProfileByName:function(displayName) {
+		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return null;
+		}
+		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+	},
+
+	normalizeUnitToken:function(text) {
+		if (!text) {
+			return '';
+		}
+		return text.replace(/\([^)]*\)/g, ' ')
+				   .replace(/^\s*\d+\s*[xX]?\s*/g, '')
+				   .replace(/\s+/g, ' ')
+				   .strip();
+	},
+
+	unitTokensFromText:function(text) {
+		if (!text) {
+			return [];
+		}
+		var normalized = text.replace(/\band\b/gi, ',');
+		var parts = normalized.split(',');
+		var tokens = [];
+		parts.each(function(part) {
+			var cleaned = ArmyforgeUI.normalizeUnitToken(part);
+			if (cleaned) {
+				tokens.push(cleaned);
+				if (/s$/.test(cleaned)) {
+					tokens.push(cleaned.slice(0, -1));
+				}
+			}
+		});
+		return tokens;
+	},
+
+	uniqueProfilesForFormation:function(formation) {
+		var candidates = [];
+		var seen = {};
+		var profiles = [];
+
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
+
+		candidates.each(function(name) {
+			var profile = ArmyforgeUI.findUnitProfileByName(name);
+			if (profile && !seen[profile.name]) {
+				seen[profile.name] = true;
+				profiles.push(profile);
+			}
+		});
+
+		return profiles;
+	},
+
+	createProfileCard:function(profile) {
+		var card = new Element('div', {'class':'profileCard'});
+		card.insert(new Element('div', {'class':'profileName'}).update(profile.name));
+		card.insert(new Element('div', {'class':'profileStats'}).update(
+			'Type: ' + profile.type + ' | Speed: ' + profile.speed + ' | Armour: ' + profile.armour + ' | CC: ' + profile.cc + ' | FF: ' + profile.ff
+		));
+
+		var weapons = new Element('ul', {'class':'profileWeapons'});
+		profile.weapons.each(function(w) {
+			var notes = (w.notes && w.notes.length) ? (' [' + w.notes.join(', ') + ']') : '';
+			weapons.insert(new Element('li').update(w.name + ' — ' + w.range + ' — ' + w.firepower + notes));
+		});
+		card.insert(new Element('div', {'class':'profileSubheading'}).update('Weapons'));
+		card.insert(weapons);
+
+		var abilities = new Element('ul', {'class':'profileAbilities'});
+		profile.abilities.each(function(a) {
+			abilities.insert(new Element('li').update(a));
+		});
+		card.insert(new Element('div', {'class':'profileSubheading'}).update('Abilities / Notes'));
+		card.insert(abilities);
+
+		return card;
+	},
+
+	createFormationDetailsContent:function(formation) {
+		var content = new Element('div', {'class':'formationDetailsContent'});
+		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
+
+		if (profiles.length < 1) {
+			content.insert(new Element('div', {'class':'noProfileData'}).update('No profile data yet'));
+			return content;
+		}
+
+		profiles.each(function(profile) {
+			content.insert(ArmyforgeUI.createProfileCard(profile));
+		});
+		return content;
+	},
+
 	initPage:function() {
 		// event listeners...
 		$('viewText').on('click', ArmyforgeUI.viewPlainText);
@@ -266,6 +369,10 @@ var ArmyforgeUI = {
             if (Force.canRemove(formation)) {
 		Force.formations.remove( formation );
 		ArmyforgeUI.upgradeRowsFor(formation).each( Element.remove );
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (detailsRow) {
+			detailsRow.remove();
+		}
 		ArmyforgeUI.formationRowFor(formation).remove();
 		ArmyforgeUI.updatePoints();
 		ArmyforgeUI.checkUpgradeMenuItems();
@@ -292,6 +399,16 @@ var ArmyforgeUI = {
 	renderFormation:function(formation) {
 
 		//alert('renderFormation');
+		// avoid duplicate rows when rendering an already-present formation
+		ArmyforgeUI.upgradeRowsFor(formation).each( Element.remove );
+		var existingDetailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (existingDetailsRow) {
+			existingDetailsRow.remove();
+		}
+		var existingFormationRow = ArmyforgeUI.formationRowFor(formation);
+		if (existingFormationRow) {
+			existingFormationRow.remove();
+		}
 
 		var dropDown = ArmyforgeUI.createUpgradesPopup( formation );
 		var labelCell = new Element('td').update(formation.type.name).insert( dropDown );
@@ -310,11 +427,25 @@ var ArmyforgeUI = {
 		else {
 			$('formationDivider').insert({before:newRow});
 		}
+
+		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
+			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+		);
+		newRow.insert({after:detailsRow});
 	
 		dropDown.hide();
+		detailsRow.hide();
 		newRow.observe('mouseover', function() { dropDown.show(); });
 		newRow.observe('mouseout', function() { dropDown.hide(); });
-		newRow.observe('click', ArmyforgeUI.removeFormation.bind(this, formation));		
+		// preserve existing row-click behavior (remove formation) and also toggle details row
+		newRow.observe('click', function() {
+			if (Force.canRemove(formation)) {
+				ArmyforgeUI.removeFormation(formation);
+			}
+			else {
+				detailsRow.toggle();
+			}
+		});
 
 		formation.upgrades.uniq().each( function(x) {
 			ArmyforgeUI.renderUpgrade( formation,x );
@@ -350,7 +481,13 @@ var ArmyforgeUI = {
 			}
 		}
 		else {
-			ArmyforgeUI.formationRowFor(formation).insert({after:newRow});
+			var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+			if (detailsRow) {
+				detailsRow.insert({after:newRow});
+			}
+			else {
+				ArmyforgeUI.formationRowFor(formation).insert({after:newRow});
+			}
 		}
 	
 
@@ -491,4 +628,3 @@ var ArmyforgeUI = {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.on('dom:loaded', ArmyforgeUI.initPage );
-

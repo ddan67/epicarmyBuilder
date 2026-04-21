@@ -80,6 +80,33 @@ tr.orbatUpgrade > td {
 tr.mandatory > td {
 	color:black;
 }
+.orbat tr.orbatDetails > td {
+	font-size:x-small;
+	padding-top:0.2em;
+	padding-bottom:0.5em;
+	color:#555;
+}
+.formationDetailsContent .profileCard {
+	border:1px solid #ddd;
+	padding:0.4em 0.6em;
+	margin:0.25em 0;
+	background:#fafafa;
+}
+.formationDetailsContent .profileName {
+	font-weight:bold;
+	color:#222;
+}
+.formationDetailsContent .profileStats,
+.formationDetailsContent .profileSubheading {
+	margin-top:0.25em;
+}
+.formationDetailsContent ul {
+	margin:0.2em 0 0.4em 1.3em;
+	padding:0;
+}
+.formationDetailsContent .noProfileData {
+	font-style:italic;
+}
 .orbat tbody {
 	border-top:dotted 1px gray;			
 }
