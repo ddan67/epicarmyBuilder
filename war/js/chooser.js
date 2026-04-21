@@ -210,6 +210,37 @@ var ArmyforgeUI = {
 		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
 	},
 
+	findKnightWorldProfileMatch:function(formation, displayName) {
+		if (displayName) {
+			var directProfile = ArmyforgeUI.findUnitProfileByName(displayName);
+			if (directProfile) {
+				return directProfile;
+			}
+		}
+
+		if (!formation) {
+			return null;
+		}
+
+		var candidates = [];
+		if (displayName) {
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(displayName));
+		}
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
+
+		var match = null;
+		candidates.find(function(name) {
+			match = ArmyforgeUI.findUnitProfileByName(name);
+			return !!match;
+		});
+		return match;
+	},
+
 	normalizeUnitToken:function(text) {
 		if (!text) {
 			return '';
@@ -289,6 +320,17 @@ var ArmyforgeUI = {
 
 	createFormationDetailsContent:function(formation) {
 		var content = new Element('div', {'class':'formationDetailsContent'});
+		var compositionUnits = formation.upgrades.uniq().map(function(upgrade) {
+			return (formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name;
+		});
+		if (formation.type.units) {
+			compositionUnits = [formation.type.units].concat(compositionUnits);
+		}
+		if (compositionUnits.empty()) {
+			compositionUnits = [formation.type.name];
+		}
+		content.insert(new Element('div', {'class':'formationComposition'}).update(compositionUnits.join(', ')));
+
 		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
 
 		if (profiles.length < 1) {
@@ -300,6 +342,16 @@ var ArmyforgeUI = {
 			content.insert(ArmyforgeUI.createProfileCard(profile));
 		});
 		return content;
+	},
+
+	refreshFormationDetailsContent:function(formation) {
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (!detailsRow || !detailsRow.down('td')) {
+			return;
+		}
+		var expanded = detailsRow.getStyle('display') != 'none';
+		detailsRow.down('td').update(ArmyforgeUI.createFormationDetailsContent(formation));
+		detailsRow.setStyle({display: expanded ? 'table-row' : 'none'});
 	},
 
 	initPage:function() {
