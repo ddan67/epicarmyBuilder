@@ -495,8 +495,10 @@ var ArmyforgeUI = {
 			$('formationDivider').insert({before:newRow});
 		}
 
+		var detailsContent = ArmyforgeUI.createFormationDetailsContent(formation);
+		detailsContent.select('.formationComposition').each(function(x) { x.remove(); });
 		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
-			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+			new Element('td', {'colspan':'2'}).update(detailsContent)
 		);
 		newRow.insert({after:detailsRow});
 	
