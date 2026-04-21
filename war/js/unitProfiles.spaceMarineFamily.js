@@ -10,6 +10,7 @@
 var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
 
 ArmyforgeUnitProfiles.spaceMarineFamily = {
+	armyIds: ['SM_codex_NETEA','SM_impfists_NETEA','SM_Raven_Guard_NETEA','SM_salamanders_NETEA','SM_scions_NETEA','SM_spacewolves_NETEA','SM_scars_NETEA'],
 	profiles: {
 		tactical_marines:{name:'Tactical Marines',type:'INF',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Bolters',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:[]},
 		assault_marines:{name:'Assault Marines',type:'INF',speed:'30cm',armour:'4+',cc:'3+',ff:'4+',weapons:[{name:'Bolt Pistols',range:'15cm',firepower:'Small Arms',notes:[]},{name:'Chainswords',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)']}],abilities:['Jump Packs']},
@@ -58,11 +59,11 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 		fenrisian_wolves:{name:'Fenrisian Wolves',type:'INF',speed:'20cm',armour:'6+',cc:'4+',ff:'-',weapons:[{name:'Teeth and Claws',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)']}],abilities:['Infiltrator']}
 	},
 	nameToKey: {
-			'tactical':'tactical_marines','tactical marines':'tactical_marines','tactical units':'tactical_marines','tacticals':'tactical_marines','tacticals plus transport':'tactical_marines','salamander tactical units':'tactical_marines',
-			'assault':'assault_marines','assault marines':'assault_marines','assault units':'assault_marines',
-			'devastator':'devastators','devastators':'devastators','devastator units':'devastators','devastators plus transport':'devastators','salamander devastator units':'devastators',
-			'scout':'scouts','scouts':'scouts','scout units':'scouts','scout units plus transport':'scouts','sniper':'scouts','snipers':'scouts','wolf scouts':'wolf_scouts',
-			'terminator':'terminators','terminators':'terminators','terminator units':'terminators','wolf guard terminators':'wolf_guard_terminators',
+		'tactical marines':'tactical_marines','tactical units':'tactical_marines','tacticals':'tactical_marines','salamander tactical units':'tactical_marines',
+		'assault marines':'assault_marines','assault units':'assault_marines',
+		'devastators':'devastators','devastator units':'devastators','salamander devastator units':'devastators',
+		'scouts':'scouts','scout units':'scouts','sniper':'scouts','snipers':'scouts','wolf scouts':'wolf_scouts',
+		'terminators':'terminators','terminator units':'terminators','wolf guard terminators':'wolf_guard_terminators',
 		'vanguard veteran units':'vanguard_veterans','vanguard assault veteran units':'vanguard_veterans','sternguard veteran units':'sternguard_veterans',
 		'bike unit':'bikes','bike':'bikes','white scars bikes':'bikes','attack bike':'attack_bike','white scar attack bike':'attack_bike','multi melta attack bike':'attack_bike',
 		'land speeder':'land_speeder','landspeeder':'land_speeder','land speeder tornado':'landspeeder_tornado','landspeeder tornado':'landspeeder_tornado',
@@ -79,15 +80,14 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 	}
 };
 
-ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName) {
+ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName, listId) {
 	if (!displayName) {
 		return null;
 	}
-	var normalized = displayName.toLowerCase()
-		.replace(/^\s*\d+\s*x?\s*/,' ')
-		.replace(/[^a-z0-9\s]/g, ' ')
-		.replace(/\s+/g, ' ')
-		.strip();
+	if (listId && !ArmyforgeUnitProfiles.spaceMarineFamily.armyIds.member(listId)) {
+		return null;
+	}
+	var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
 	var key = ArmyforgeUnitProfiles.spaceMarineFamily.nameToKey[normalized];
 	if (!key) {
 		return null;
