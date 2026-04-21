@@ -302,19 +302,6 @@ var ArmyforgeUI = {
 		return content;
 	},
 
-	toggleDetailsRow:function(detailsRowId, toggleControl) {
-		var detailsRow = $(detailsRowId);
-		if (!detailsRow) {
-			return;
-		}
-		var willExpand = (detailsRow.getStyle('display') == 'none');
-		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
-		if (toggleControl) {
-			toggleControl.update(willExpand ? '[-]' : '[+]');
-			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
-		}
-	},
-
 	initPage:function() {
 		// event listeners...
 		$('viewText').on('click', ArmyforgeUI.viewPlainText);
@@ -455,9 +442,9 @@ var ArmyforgeUI = {
 			$('formationDivider').insert({before:newRow});
 		}
 
-			var detailsRow = new Element('tr', {'id':detailsRowId, 'class':'orbatDetails'}).update(
-				new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
-			);
+		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
+			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+		);
 		newRow.insert({after:detailsRow});
 	
 		dropDown.hide();
@@ -465,14 +452,14 @@ var ArmyforgeUI = {
 		newRow.observe('mouseover', function() { dropDown.show(); });
 		newRow.observe('mouseout', function() { dropDown.hide(); });
 		// preserve existing row-click behavior (remove formation) and also toggle details row
-			newRow.observe('click', function() {
-				if (Force.canRemove(formation)) {
-					ArmyforgeUI.removeFormation(formation);
-				}
-				else {
-					ArmyforgeUI.toggleDetailsRow(detailsRowId, detailsToggle);
-				}
-			});
+		newRow.observe('click', function() {
+			if (Force.canRemove(formation)) {
+				ArmyforgeUI.removeFormation(formation);
+			}
+			else {
+				detailsRow.toggle();
+			}
+		});
 
 		formation.upgrades.uniq().each( function(x) {
 			ArmyforgeUI.renderUpgrade( formation,x );
