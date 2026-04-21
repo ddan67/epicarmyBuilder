@@ -210,23 +210,6 @@ var ArmyforgeUI = {
 		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
 	},
 
-	// Knight World-specific helper: map a displayed token to {key, profile}
-	findKnightWorldProfileMatch:function(displayName) {
-		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
-			return null;
-		}
-		var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
-		var key = ArmyforgeUnitProfiles.knightWorld.nameToKey[normalized];
-		if (!key) {
-			return null;
-		}
-		var profile = ArmyforgeUnitProfiles.knightWorld.profiles[key];
-		if (!profile) {
-			return null;
-		}
-		return {key:key, profile:profile};
-	},
-
 	normalizeUnitToken:function(text) {
 		if (!text) {
 			return '';
@@ -256,124 +239,23 @@ var ArmyforgeUI = {
 		return tokens;
 	},
 
-	isKnightWorldList:function() {
-		return ArmyList && ArmyList.data && ArmyList.data.id == 'Knight World';
-	},
-
-	// Knight World extraction rules:
-	// - read unit composition text (formation units + chosen upgrades), not just title
-	// - split mixed entries on +, commas, semicolons, "and", and line breaks
-	// - strip counts like "4x" and allow alias matching (e.g. "Paladins" -> "Paladin")
-	extractKnightWorldUnitTokens:function(text) {
-		if (!text || !window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
-			return [];
-		}
-
-		var normalized = text.toLowerCase()
-			.replace(/<br\s*\/?>/gi, ',')
-			.replace(/\band\b/gi, ',')
-			.replace(/\+/g, ',')
-			.replace(/;/g, ',');
-
-		var segments = normalized.split(',');
-		var tokens = [];
-		var aliases = Object.keys(ArmyforgeUnitProfiles.knightWorld.nameToKey);
-
-		segments.each(function(segment) {
-			var cleaned = ArmyforgeUI.normalizeUnitToken(segment);
-			if (!cleaned) {
-				return;
-			}
-			tokens.push(cleaned);
-			if (/s$/.test(cleaned)) {
-				tokens.push(cleaned.slice(0, -1));
-			}
-
-			aliases.each(function(alias) {
-				var pattern = new RegExp('(^|\\s)' + alias.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '(\\s|$)');
-				if (pattern.test(cleaned)) {
-					tokens.push(alias);
-				}
-			});
-		});
-
-		return tokens.uniq();
-	},
-
-	// Knight World source for extraction:
-	// We parse the rendered formation composition block (units line + rendered upgrade rows),
-	// because reading formation title text misses mixed-unit composition lines.
-	// If rows are not in DOM yet, fall back to the same underlying sources used to render them.
-	knightWorldCompositionTextsForFormation:function(formation) {
-		var texts = [];
-		var formationRow = ArmyforgeUI.formationRowFor(formation);
-		if (formationRow) {
-			var unitsDiv = formationRow.down('div.units');
-			if (unitsDiv) {
-				texts.push((unitsDiv.textContent || unitsDiv.innerText || '').strip());
-			}
-		}
-		ArmyforgeUI.upgradeRowsFor(formation).each(function(row) {
-			var firstCell = row.down('td');
-			if (!firstCell) {
-				return;
-			}
-			var rendered = (firstCell.textContent || firstCell.innerText || '').replace(/\s+/g, ' ').strip();
-			if (rendered) {
-				texts.push(rendered);
-			}
-		});
-
-		// Fallback before upgrade rows are rendered, using the data that drives those rows.
-		if (texts.length < 1) {
-			if (formation.type.units) {
-				texts.push(formation.type.units);
-			}
-			formation.upgrades.uniq().each(function(u) {
-				var count = formation.count(u);
-				texts.push((count > 1 ? (count + 'x ') : '') + u.name);
-			});
-		}
-
-		return texts;
-	},
-
 	uniqueProfilesForFormation:function(formation) {
+		var candidates = [];
 		var seen = {};
 		var profiles = [];
-		var matches = [];
 
-		if (ArmyforgeUI.isKnightWorldList()) {
-			ArmyforgeUI.knightWorldCompositionTextsForFormation(formation).each(function(text) {
-				ArmyforgeUI.extractKnightWorldUnitTokens(text).each(function(token) {
-					var match = ArmyforgeUI.findKnightWorldProfileMatch(token);
-					if (match) {
-						matches.push(match);
-					}
-				});
-			});
-		}
-		else {
-			// existing generic fallback for non-Knight World lists
-			var candidates = [];
-			candidates.push(formation.type.name);
-			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
-			formation.upgrades.uniq().each(function(u) {
-				candidates.push(u.name);
-				candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
-			});
-			candidates.each(function(name) {
-				var profile = ArmyforgeUI.findUnitProfileByName(name);
-				if (profile) {
-					matches.push({key:profile.name, profile:profile});
-				}
-			});
-		}
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
 
-		matches.each(function(match) {
-			if (!seen[match.key]) {
-				seen[match.key] = true;
-				profiles.push(match.profile);
+		candidates.each(function(name) {
+			var profile = ArmyforgeUI.findUnitProfileByName(name);
+			if (profile && !seen[profile.name]) {
+				seen[profile.name] = true;
+				profiles.push(profile);
 			}
 		});
 
@@ -418,37 +300,6 @@ var ArmyforgeUI = {
 			content.insert(ArmyforgeUI.createProfileCard(profile));
 		});
 		return content;
-	},
-
-	refreshFormationDetailsContent:function(formation) {
-		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
-		if (!detailsRow) {
-			return;
-		}
-		var detailsCell = detailsRow.down('td');
-		if (!detailsCell) {
-			return;
-		}
-		detailsCell.update(ArmyforgeUI.createFormationDetailsContent(formation));
-	},
-
-	safeRefreshFormationDetailsContent:function(formation) {
-		if (ArmyforgeUI.refreshFormationDetailsContent) {
-			ArmyforgeUI.refreshFormationDetailsContent(formation);
-		}
-	},
-
-	toggleDetailsRow:function(detailsRowId, toggleControl) {
-		var detailsRow = $(detailsRowId);
-		if (!detailsRow) {
-			return;
-		}
-		var willExpand = (detailsRow.getStyle('display') == 'none');
-		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
-		if (toggleControl) {
-			toggleControl.update(willExpand ? '[-]' : '[+]');
-			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
-		}
 	},
 
 	initPage:function() {
@@ -591,9 +442,9 @@ var ArmyforgeUI = {
 			$('formationDivider').insert({before:newRow});
 		}
 
-			var detailsRow = new Element('tr', {'id':detailsRowId, 'class':'orbatDetails'}).update(
-				new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
-			);
+		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
+			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+		);
 		newRow.insert({after:detailsRow});
 	
 		dropDown.hide();
@@ -601,19 +452,19 @@ var ArmyforgeUI = {
 		newRow.observe('mouseover', function() { dropDown.show(); });
 		newRow.observe('mouseout', function() { dropDown.hide(); });
 		// preserve existing row-click behavior (remove formation) and also toggle details row
-			newRow.observe('click', function() {
-				if (Force.canRemove(formation)) {
-					ArmyforgeUI.removeFormation(formation);
-				}
-				else {
-					ArmyforgeUI.toggleDetailsRow(detailsRowId, detailsToggle);
-				}
-			});
+		newRow.observe('click', function() {
+			if (Force.canRemove(formation)) {
+				ArmyforgeUI.removeFormation(formation);
+			}
+			else {
+				detailsRow.toggle();
+			}
+		});
 
 			formation.upgrades.uniq().each( function(x) {
 				ArmyforgeUI.renderUpgrade( formation,x );
 			});
-			ArmyforgeUI.safeRefreshFormationDetailsContent(formation);
+			ArmyforgeUI.refreshFormationDetailsContent(formation);
 
 		},
 
@@ -744,7 +595,7 @@ var ArmyforgeUI = {
 
 		ArmyforgeUI.updateFormationPoints(formation);
 		ArmyforgeUI.updatePoints();
-		ArmyforgeUI.safeRefreshFormationDetailsContent(formation);
+		ArmyforgeUI.refreshFormationDetailsContent(formation);
 	},
 
 	upgradeRowsFor:function(formation) {
@@ -803,21 +654,6 @@ if (!ArmyforgeUI.toggleDetailsRow) {
 			toggleControl.update(willExpand ? '[-]' : '[+]');
 			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
 		}
-	};
-}
-
-// runtime safety: ensure details content refresh is always available on ArmyforgeUI
-if (!ArmyforgeUI.refreshFormationDetailsContent) {
-	ArmyforgeUI.refreshFormationDetailsContent = function(formation) {
-		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
-		if (!detailsRow) {
-			return;
-		}
-		var detailsCell = detailsRow.down('td');
-		if (!detailsCell) {
-			return;
-		}
-		detailsCell.update(ArmyforgeUI.createFormationDetailsContent(formation));
 	};
 }
 
