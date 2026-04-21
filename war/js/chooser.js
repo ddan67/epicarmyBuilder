@@ -639,6 +639,22 @@ var ArmyforgeUI = {
 	}
 };
 
+// runtime safety: ensure dedicated details toggling is always available on ArmyforgeUI
+if (!ArmyforgeUI.toggleDetailsRow) {
+	ArmyforgeUI.toggleDetailsRow = function(detailsRowId, toggleControl) {
+		var detailsRow = $(detailsRowId);
+		if (!detailsRow) {
+			return;
+		}
+		var willExpand = (detailsRow.getStyle('display') == 'none');
+		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
+		if (toggleControl) {
+			toggleControl.update(willExpand ? '[-]' : '[+]');
+			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
+		}
+	};
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.on('dom:loaded', ArmyforgeUI.initPage );
