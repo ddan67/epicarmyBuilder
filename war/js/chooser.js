@@ -320,6 +320,17 @@ var ArmyforgeUI = {
 
 	createFormationDetailsContent:function(formation) {
 		var content = new Element('div', {'class':'formationDetailsContent'});
+		var compositionUnits = formation.upgrades.uniq().map(function(upgrade) {
+			return (formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name;
+		});
+		if (formation.type.units) {
+			compositionUnits = [formation.type.units].concat(compositionUnits);
+		}
+		if (compositionUnits.empty()) {
+			compositionUnits = [formation.type.name];
+		}
+		content.insert(new Element('div', {'class':'formationComposition'}).update(compositionUnits.join(', ')));
+
 		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
 
 		if (profiles.length < 1) {
@@ -331,66 +342,6 @@ var ArmyforgeUI = {
 			content.insert(ArmyforgeUI.createProfileCard(profile));
 		});
 		return content;
-	},
-
-	compositionTextAboveDetailsFor:function(formation) {
-		var formationRow = ArmyforgeUI.formationRowFor(formation);
-		if (!formationRow) {
-			return '';
-		}
-		var unitsBlock = formationRow.down('.units');
-		return ArmyforgeUI.normalizeCompositionText(unitsBlock ? unitsBlock.innerText : '');
-	},
-
-	normalizeCompositionText:function(text) {
-		if (!text) {
-			return '';
-		}
-		return text.toLowerCase()
-				   .replace(/[^a-z0-9]+/g, ' ')
-				   .replace(/\s+/g, ' ')
-				   .strip();
-	},
-
-	compositionTextForUpgradeRow:function(upgradeRow) {
-		var labelCell = upgradeRow.down('td');
-		if (!labelCell) {
-			return {full:'', withoutCount:''};
-		}
-		var multiplier = labelCell.down('.upgradeMultiplier');
-		var multiplierText = multiplier ? multiplier.innerText : '';
-		var labelText = labelCell.innerText.replace(/\s+/g, ' ').strip();
-		var labelWithoutCount = labelText.replace(/^\s*\d+\s*x?\s*/i, '').strip();
-		var full = ArmyforgeUI.normalizeCompositionText((multiplierText ? multiplierText + ' ' : '') + labelWithoutCount);
-		return {
-			full: full,
-			withoutCount: ArmyforgeUI.normalizeCompositionText(labelWithoutCount)
-		};
-	},
-
-	syncDuplicateCompositionRows:function(formation, detailsRow) {
-		var isExpanded = detailsRow && detailsRow.getStyle('display') != 'none';
-		var upperCompositionText = ArmyforgeUI.compositionTextAboveDetailsFor(formation);
-
-		ArmyforgeUI.upgradeRowsFor(formation).each(function(upgradeRow) {
-			if (!isExpanded) {
-				if (upgradeRow.readAttribute('data-hidden-duplicate') == 'true') {
-					upgradeRow.show();
-					upgradeRow.writeAttribute('data-hidden-duplicate', 'false');
-				}
-				return;
-			}
-
-			var rowComposition = ArmyforgeUI.compositionTextForUpgradeRow(upgradeRow);
-			var rowCompositionText = rowComposition.full;
-			var rowWithoutCount = rowComposition.withoutCount;
-			var isDuplicate = !!upperCompositionText &&
-				(rowCompositionText && (upperCompositionText.include(rowCompositionText) || upperCompositionText.include(rowWithoutCount)));
-			if (isDuplicate) {
-				upgradeRow.hide();
-				upgradeRow.writeAttribute('data-hidden-duplicate', 'true');
-			}
-		});
 	},
 
 	refreshFormationDetailsContent:function(formation) {
@@ -773,19 +724,7 @@ if (!ArmyforgeUI.compositionTextAboveDetailsFor) {
 			return '';
 		}
 		var unitsBlock = formationRow.down('.units');
-		return ArmyforgeUI.normalizeCompositionText(unitsBlock ? unitsBlock.innerText : '');
-	};
-}
-
-if (!ArmyforgeUI.normalizeCompositionText) {
-	ArmyforgeUI.normalizeCompositionText = function(text) {
-		if (!text) {
-			return '';
-		}
-		return text.toLowerCase()
-				   .replace(/[^a-z0-9]+/g, ' ')
-				   .replace(/\s+/g, ' ')
-				   .strip();
+		return unitsBlock ? unitsBlock.innerText.toLowerCase() : '';
 	};
 }
 
@@ -793,17 +732,13 @@ if (!ArmyforgeUI.compositionTextForUpgradeRow) {
 	ArmyforgeUI.compositionTextForUpgradeRow = function(upgradeRow) {
 		var labelCell = upgradeRow.down('td');
 		if (!labelCell) {
-			return {full:'', withoutCount:''};
+			return '';
 		}
 		var multiplier = labelCell.down('.upgradeMultiplier');
-		var multiplierText = multiplier ? multiplier.innerText : '';
+		var multiplierText = multiplier ? multiplier.innerText.replace(/\s+/g, '') : '';
 		var labelText = labelCell.innerText.replace(/\s+/g, ' ').strip();
-		var labelWithoutCount = labelText.replace(/^\s*\d+\s*x?\s*/i, '').strip();
-		var full = ArmyforgeUI.normalizeCompositionText((multiplierText ? multiplierText + ' ' : '') + labelWithoutCount);
-		return {
-			full: full,
-			withoutCount: ArmyforgeUI.normalizeCompositionText(labelWithoutCount)
-		};
+		labelText = labelText.replace(/^\d+x\s*/i, '').replace(/^\d+\s*/i, '').strip();
+		return ((multiplierText ? multiplierText + ' ' : '') + labelText).toLowerCase().strip();
 	};
 }
 
@@ -821,11 +756,10 @@ if (!ArmyforgeUI.syncDuplicateCompositionRows) {
 				return;
 			}
 
-			var rowComposition = ArmyforgeUI.compositionTextForUpgradeRow(upgradeRow);
-			var rowCompositionText = rowComposition.full;
-			var rowWithoutCount = rowComposition.withoutCount;
+			var rowCompositionText = ArmyforgeUI.compositionTextForUpgradeRow(upgradeRow);
+			var rowWithoutCount = rowCompositionText.replace(/^\d+x\s*/i, '').strip();
 			var isDuplicate = !!upperCompositionText &&
-				(rowCompositionText && (upperCompositionText.include(rowCompositionText) || upperCompositionText.include(rowWithoutCount)));
+				(upperCompositionText.include(rowCompositionText) || upperCompositionText.include(rowWithoutCount));
 			if (isDuplicate) {
 				upgradeRow.hide();
 				upgradeRow.writeAttribute('data-hidden-duplicate', 'true');
