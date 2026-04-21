@@ -329,7 +329,7 @@ var ArmyforgeUI = {
 		if (compositionUnits.empty()) {
 			compositionUnits = [formation.type.name];
 		}
-		content.insert(new Element('div', {'class':'formationComposition'}).update(compositionUnits.join(', ')));
+
 
 		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
 
