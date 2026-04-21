@@ -204,10 +204,54 @@ var ArmyforgeUI = {
 	},
 
 	findUnitProfileByName:function(displayName) {
-		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+		if (!window.ArmyforgeUnitProfiles) {
 			return null;
 		}
-		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId == 'AMTL_knight_world_NETEA' && ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		}
+		if (listId == 'ORK_ghazgkhull_NETEA' && ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
+		}
+		return null;
+	},
+
+	findKnightWorldProfileMatch:function(formation, displayName) {
+		if (displayName) {
+			var directProfile = ArmyforgeUI.findUnitProfileByName(displayName);
+			if (directProfile) {
+				return directProfile;
+			}
+		}
+
+		if (!formation) {
+			return null;
+		}
+
+		var candidates = [];
+		if (displayName) {
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(displayName));
+		}
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
+
+		var match = null;
+		candidates.find(function(name) {
+			match = ArmyforgeUI.findUnitProfileByName(name);
+			return !!match;
+		});
+		return match;
 	},
 
 	findKnightWorldProfileMatch:function(formation, displayName) {
