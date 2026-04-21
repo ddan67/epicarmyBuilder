@@ -320,6 +320,17 @@ var ArmyforgeUI = {
 
 	createFormationDetailsContent:function(formation) {
 		var content = new Element('div', {'class':'formationDetailsContent'});
+		var compositionUnits = formation.upgrades.uniq().map(function(upgrade) {
+			return (formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name;
+		});
+		if (formation.type.units) {
+			compositionUnits = [formation.type.units].concat(compositionUnits);
+		}
+		if (compositionUnits.empty()) {
+			compositionUnits = [formation.type.name];
+		}
+		content.insert(new Element('div', {'class':'formationComposition'}).update(compositionUnits.join(', ')));
+
 		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
 
 		if (profiles.length < 1) {
@@ -339,9 +350,7 @@ var ArmyforgeUI = {
 			return;
 		}
 		var expanded = detailsRow.getStyle('display') != 'none';
-		var nextContent = ArmyforgeUI.createFormationDetailsContent(formation);
-		nextContent.select('.formationComposition').each(function(x) { x.remove(); });
-		detailsRow.down('td').update(nextContent);
+		detailsRow.down('td').update(ArmyforgeUI.createFormationDetailsContent(formation));
 		detailsRow.setStyle({display: expanded ? 'table-row' : 'none'});
 	},
 
@@ -467,6 +476,7 @@ var ArmyforgeUI = {
 		detailsToggle.observe('click', function(event) {
 			Event.stop(event);
 			ArmyforgeUI.toggleDetailsRow(detailsToggle.readAttribute('data-details-row-id'), detailsToggle);
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 		});
 		labelCell.insert({top:detailsToggle});
 		if (formation.type.units) {
@@ -503,6 +513,7 @@ var ArmyforgeUI = {
 			}
 			else {
 				detailsRow.toggle();
+				ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 			}
 		});
 
@@ -510,6 +521,7 @@ var ArmyforgeUI = {
 				ArmyforgeUI.renderUpgrade( formation,x );
 			});
 			ArmyforgeUI.refreshFormationDetailsContent(formation);
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
 
 		},
 
@@ -641,6 +653,10 @@ var ArmyforgeUI = {
 		ArmyforgeUI.updateFormationPoints(formation);
 		ArmyforgeUI.updatePoints();
 		ArmyforgeUI.refreshFormationDetailsContent(formation);
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (detailsRow) {
+			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
+		}
 	},
 
 	upgradeRowsFor:function(formation) {
@@ -699,6 +715,58 @@ if (!ArmyforgeUI.toggleDetailsRow) {
 			toggleControl.update(willExpand ? '[-]' : '[+]');
 			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
 		}
+	};
+}
+
+// runtime safety: ensure duplicate-composition helpers are available before any call sites run
+if (!ArmyforgeUI.compositionTextAboveDetailsFor) {
+	ArmyforgeUI.compositionTextAboveDetailsFor = function(formation) {
+		var formationRow = ArmyforgeUI.formationRowFor(formation);
+		if (!formationRow) {
+			return '';
+		}
+		var unitsBlock = formationRow.down('.units');
+		return unitsBlock ? unitsBlock.innerText.toLowerCase() : '';
+	};
+}
+
+if (!ArmyforgeUI.compositionTextForUpgradeRow) {
+	ArmyforgeUI.compositionTextForUpgradeRow = function(upgradeRow) {
+		var labelCell = upgradeRow.down('td');
+		if (!labelCell) {
+			return '';
+		}
+		var multiplier = labelCell.down('.upgradeMultiplier');
+		var multiplierText = multiplier ? multiplier.innerText.replace(/\s+/g, '') : '';
+		var labelText = labelCell.innerText.replace(/\s+/g, ' ').strip();
+		labelText = labelText.replace(/^\d+x\s*/i, '').replace(/^\d+\s*/i, '').strip();
+		return ((multiplierText ? multiplierText + ' ' : '') + labelText).toLowerCase().strip();
+	};
+}
+
+if (!ArmyforgeUI.syncDuplicateCompositionRows) {
+	ArmyforgeUI.syncDuplicateCompositionRows = function(formation, detailsRow) {
+		var isExpanded = detailsRow && detailsRow.getStyle('display') != 'none';
+		var upperCompositionText = ArmyforgeUI.compositionTextAboveDetailsFor(formation);
+
+		ArmyforgeUI.upgradeRowsFor(formation).each(function(upgradeRow) {
+			if (!isExpanded) {
+				if (upgradeRow.readAttribute('data-hidden-duplicate') == 'true') {
+					upgradeRow.show();
+					upgradeRow.writeAttribute('data-hidden-duplicate', 'false');
+				}
+				return;
+			}
+
+			var rowCompositionText = ArmyforgeUI.compositionTextForUpgradeRow(upgradeRow);
+			var rowWithoutCount = rowCompositionText.replace(/^\d+x\s*/i, '').strip();
+			var isDuplicate = !!upperCompositionText &&
+				(upperCompositionText.include(rowCompositionText) || upperCompositionText.include(rowWithoutCount));
+			if (isDuplicate) {
+				upgradeRow.hide();
+				upgradeRow.writeAttribute('data-hidden-duplicate', 'true');
+			}
+		});
 	};
 }
 
