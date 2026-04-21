@@ -10,6 +10,7 @@
 var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
 
 ArmyforgeUnitProfiles.spaceMarineFamily = {
+	armyIds: ['SM_codex_NETEA','SM_impfists_NETEA','SM_Raven_Guard_NETEA','SM_salamanders_NETEA','SM_scions_NETEA','SM_spacewolves_NETEA','SM_scars_NETEA'],
 	profiles: {
 		tactical_marines:{name:'Tactical Marines',type:'INF',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Bolters',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:[]},
 		assault_marines:{name:'Assault Marines',type:'INF',speed:'30cm',armour:'4+',cc:'3+',ff:'4+',weapons:[{name:'Bolt Pistols',range:'15cm',firepower:'Small Arms',notes:[]},{name:'Chainswords',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)']}],abilities:['Jump Packs']},
@@ -79,8 +80,11 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 	}
 };
 
-ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName) {
+ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName, listId) {
 	if (!displayName) {
+		return null;
+	}
+	if (listId && !ArmyforgeUnitProfiles.spaceMarineFamily.armyIds.member(listId)) {
 		return null;
 	}
 	var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
