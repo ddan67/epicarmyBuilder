@@ -412,11 +412,25 @@ var ArmyforgeUI = {
 
 		var dropDown = ArmyforgeUI.createUpgradesPopup( formation );
 		var labelCell = new Element('td').update(formation.type.name).insert( dropDown );
+		var detailsRowId = 'formationDetails_' + formation.id;
+		var newRowId = 'formation_' + formation.id;
+		var detailsToggle = new Element('a', {
+			'href':'javascript:void(0)',
+			'class':'detailsToggle',
+			'data-details-row-id':detailsRowId,
+			'aria-expanded':'false',
+			'title':'Show/hide unit profiles'
+		}).update('[+]');
+		detailsToggle.observe('click', function(event) {
+			Event.stop(event);
+			ArmyforgeUI.toggleDetailsRow(detailsToggle.readAttribute('data-details-row-id'), detailsToggle);
+		});
+		labelCell.insert({top:detailsToggle});
 		if (formation.type.units) {
 			labelCell.insert(
 				new Element('div', {'class':'units'}).update(formation.type.units));
 		}
-		var newRow = new Element('tr', {'id':'formation_'+formation.id, 'class':'orbatFormation interactive'}).update(
+		var newRow = new Element('tr', {'id':newRowId, 'class':'orbatFormation interactive', 'data-details-row-id':detailsRowId}).update(
 						labelCell
 					 ).insert(
 						new Element('td', {'id':'formationPoints_'+formation.id, 'class':'points'}).update(formation.calcPoints()) );

@@ -147,6 +147,13 @@ tr.mandatory > td {
 	font-weight:normal;
 //	color:black;
 }
+.detailsToggle {
+	float:right;
+	font-size:x-small;
+	font-weight:normal;
+	text-decoration:none;
+	margin-left:0.6em;
+}
 
 
 /* DROP DOWN */
