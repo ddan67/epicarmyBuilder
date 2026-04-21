@@ -92,6 +92,10 @@ tr.mandatory > td {
 	margin:0.25em 0;
 	background:#fafafa;
 }
+.formationDetailsContent .formationComposition {
+	margin:0.15em 0 0.45em;
+	color:#444;
+}
 .formationDetailsContent .profileName {
 	font-weight:bold;
 	color:#222;
