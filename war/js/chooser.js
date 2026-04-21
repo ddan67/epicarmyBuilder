@@ -210,23 +210,6 @@ var ArmyforgeUI = {
 		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
 	},
 
-	// Knight World-specific helper: map a displayed token to {key, profile}
-	findKnightWorldProfileMatch:function(displayName) {
-		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
-			return null;
-		}
-		var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
-		var key = ArmyforgeUnitProfiles.knightWorld.nameToKey[normalized];
-		if (!key) {
-			return null;
-		}
-		var profile = ArmyforgeUnitProfiles.knightWorld.profiles[key];
-		if (!profile) {
-			return null;
-		}
-		return {key:key, profile:profile};
-	},
-
 	normalizeUnitToken:function(text) {
 		if (!text) {
 			return '';
@@ -256,91 +239,23 @@ var ArmyforgeUI = {
 		return tokens;
 	},
 
-	isKnightWorldList:function() {
-		return ArmyList && ArmyList.data && ArmyList.data.id == 'Knight World';
-	},
-
-	// Knight World extraction rules:
-	// - read unit composition text (formation units + chosen upgrades), not just title
-	// - split mixed entries on +, commas, semicolons, "and", and line breaks
-	// - strip counts like "4x" and allow alias matching (e.g. "Paladins" -> "Paladin")
-	extractKnightWorldUnitTokens:function(text) {
-		if (!text || !window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
-			return [];
-		}
-
-		var normalized = text.toLowerCase()
-			.replace(/<br\s*\/?>/gi, ',')
-			.replace(/\band\b/gi, ',')
-			.replace(/\+/g, ',')
-			.replace(/;/g, ',');
-
-		var segments = normalized.split(',');
-		var tokens = [];
-		var aliases = Object.keys(ArmyforgeUnitProfiles.knightWorld.nameToKey);
-
-		segments.each(function(segment) {
-			var cleaned = ArmyforgeUI.normalizeUnitToken(segment);
-			if (!cleaned) {
-				return;
-			}
-			tokens.push(cleaned);
-			if (/s$/.test(cleaned)) {
-				tokens.push(cleaned.slice(0, -1));
-			}
-
-			aliases.each(function(alias) {
-				var pattern = new RegExp('(^|\\s)' + alias.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '(\\s|$)');
-				if (pattern.test(cleaned)) {
-					tokens.push(alias);
-				}
-			});
-		});
-
-		return tokens.uniq();
-	},
-
 	uniqueProfilesForFormation:function(formation) {
+		var candidates = [];
 		var seen = {};
 		var profiles = [];
-		var matches = [];
 
-		if (ArmyforgeUI.isKnightWorldList()) {
-			var compositionTexts = [];
-			compositionTexts.push(formation.type.units);
-			formation.upgrades.uniq().each(function(u) {
-				compositionTexts.push(u.name);
-			});
-			compositionTexts.each(function(text) {
-				ArmyforgeUI.extractKnightWorldUnitTokens(text).each(function(token) {
-					var match = ArmyforgeUI.findKnightWorldProfileMatch(token);
-					if (match) {
-						matches.push(match);
-					}
-				});
-			});
-		}
-		else {
-			// existing generic fallback for non-Knight World lists
-			var candidates = [];
-			candidates.push(formation.type.name);
-			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
-			formation.upgrades.uniq().each(function(u) {
-				candidates.push(u.name);
-				candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
-			});
-			candidates.each(function(name) {
-				var profile = ArmyforgeUI.findUnitProfileByName(name);
-				if (profile) {
-					matches.push({key:profile.name, profile:profile});
-				}
-			});
-		}
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
 
-		matches.each(function(match) {
-			if (!seen[match.key]) {
-				seen[match.key] = true;
-				profiles.push(match.profile);
+		candidates.each(function(name) {
+			var profile = ArmyforgeUI.findUnitProfileByName(name);
+			if (profile && !seen[profile.name]) {
+				seen[profile.name] = true;
+				profiles.push(profile);
 			}
 		});
 
@@ -385,19 +300,6 @@ var ArmyforgeUI = {
 			content.insert(ArmyforgeUI.createProfileCard(profile));
 		});
 		return content;
-	},
-
-	toggleDetailsRow:function(detailsRowId, toggleControl) {
-		var detailsRow = $(detailsRowId);
-		if (!detailsRow) {
-			return;
-		}
-		var willExpand = (detailsRow.getStyle('display') == 'none');
-		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
-		if (toggleControl) {
-			toggleControl.update(willExpand ? '[-]' : '[+]');
-			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
-		}
 	},
 
 	initPage:function() {
@@ -540,9 +442,9 @@ var ArmyforgeUI = {
 			$('formationDivider').insert({before:newRow});
 		}
 
-			var detailsRow = new Element('tr', {'id':detailsRowId, 'class':'orbatDetails'}).update(
-				new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
-			);
+		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
+			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+		);
 		newRow.insert({after:detailsRow});
 	
 		dropDown.hide();
@@ -550,14 +452,14 @@ var ArmyforgeUI = {
 		newRow.observe('mouseover', function() { dropDown.show(); });
 		newRow.observe('mouseout', function() { dropDown.hide(); });
 		// preserve existing row-click behavior (remove formation) and also toggle details row
-			newRow.observe('click', function() {
-				if (Force.canRemove(formation)) {
-					ArmyforgeUI.removeFormation(formation);
-				}
-				else {
-					ArmyforgeUI.toggleDetailsRow(detailsRowId, detailsToggle);
-				}
-			});
+		newRow.observe('click', function() {
+			if (Force.canRemove(formation)) {
+				ArmyforgeUI.removeFormation(formation);
+			}
+			else {
+				detailsRow.toggle();
+			}
+		});
 
 		formation.upgrades.uniq().each( function(x) {
 			ArmyforgeUI.renderUpgrade( formation,x );
