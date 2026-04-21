@@ -716,6 +716,58 @@ if (!ArmyforgeUI.toggleDetailsRow) {
 	};
 }
 
+// runtime safety: ensure duplicate-composition helpers are available before any call sites run
+if (!ArmyforgeUI.compositionTextAboveDetailsFor) {
+	ArmyforgeUI.compositionTextAboveDetailsFor = function(formation) {
+		var formationRow = ArmyforgeUI.formationRowFor(formation);
+		if (!formationRow) {
+			return '';
+		}
+		var unitsBlock = formationRow.down('.units');
+		return unitsBlock ? unitsBlock.innerText.toLowerCase() : '';
+	};
+}
+
+if (!ArmyforgeUI.compositionTextForUpgradeRow) {
+	ArmyforgeUI.compositionTextForUpgradeRow = function(upgradeRow) {
+		var labelCell = upgradeRow.down('td');
+		if (!labelCell) {
+			return '';
+		}
+		var multiplier = labelCell.down('.upgradeMultiplier');
+		var multiplierText = multiplier ? multiplier.innerText.replace(/\s+/g, '') : '';
+		var labelText = labelCell.innerText.replace(/\s+/g, ' ').strip();
+		labelText = labelText.replace(/^\d+x\s*/i, '').replace(/^\d+\s*/i, '').strip();
+		return ((multiplierText ? multiplierText + ' ' : '') + labelText).toLowerCase().strip();
+	};
+}
+
+if (!ArmyforgeUI.syncDuplicateCompositionRows) {
+	ArmyforgeUI.syncDuplicateCompositionRows = function(formation, detailsRow) {
+		var isExpanded = detailsRow && detailsRow.getStyle('display') != 'none';
+		var upperCompositionText = ArmyforgeUI.compositionTextAboveDetailsFor(formation);
+
+		ArmyforgeUI.upgradeRowsFor(formation).each(function(upgradeRow) {
+			if (!isExpanded) {
+				if (upgradeRow.readAttribute('data-hidden-duplicate') == 'true') {
+					upgradeRow.show();
+					upgradeRow.writeAttribute('data-hidden-duplicate', 'false');
+				}
+				return;
+			}
+
+			var rowCompositionText = ArmyforgeUI.compositionTextForUpgradeRow(upgradeRow);
+			var rowWithoutCount = rowCompositionText.replace(/^\d+x\s*/i, '').strip();
+			var isDuplicate = !!upperCompositionText &&
+				(upperCompositionText.include(rowCompositionText) || upperCompositionText.include(rowWithoutCount));
+			if (isDuplicate) {
+				upgradeRow.hide();
+				upgradeRow.writeAttribute('data-hidden-duplicate', 'true');
+			}
+		});
+	};
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.on('dom:loaded', ArmyforgeUI.initPage );
