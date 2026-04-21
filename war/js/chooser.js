@@ -461,11 +461,12 @@ var ArmyforgeUI = {
 			}
 		});
 
-		formation.upgrades.uniq().each( function(x) {
-			ArmyforgeUI.renderUpgrade( formation,x );
-		});
+			formation.upgrades.uniq().each( function(x) {
+				ArmyforgeUI.renderUpgrade( formation,x );
+			});
+			ArmyforgeUI.refreshFormationDetailsContent(formation);
 
-	},
+		},
 
 	renderUpgrade:function(formation, upgradeType) {
 
@@ -594,6 +595,7 @@ var ArmyforgeUI = {
 
 		ArmyforgeUI.updateFormationPoints(formation);
 		ArmyforgeUI.updatePoints();
+		ArmyforgeUI.refreshFormationDetailsContent(formation);
 	},
 
 	upgradeRowsFor:function(formation) {
