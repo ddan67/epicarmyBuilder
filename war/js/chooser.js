@@ -199,6 +199,207 @@ var ArmyforgeUI = {
 		return $('formation_'+formation.id);
 	},
 
+	formationDetailsRowFor:function(formation) {
+		return $('formationDetails_'+formation.id);
+	},
+
+	findUnitProfileByName:function(displayName) {
+		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return null;
+		}
+		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+	},
+
+	// Knight World-specific helper: map a displayed token to {key, profile}
+	findKnightWorldProfileMatch:function(displayName) {
+		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
+			return null;
+		}
+		var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
+		var key = ArmyforgeUnitProfiles.knightWorld.nameToKey[normalized];
+		if (!key) {
+			return null;
+		}
+		var profile = ArmyforgeUnitProfiles.knightWorld.profiles[key];
+		if (!profile) {
+			return null;
+		}
+		return {key:key, profile:profile};
+	},
+
+	normalizeUnitToken:function(text) {
+		if (!text) {
+			return '';
+		}
+		return text.replace(/\([^)]*\)/g, ' ')
+				   .replace(/^\s*\d+\s*[xX]?\s*/g, '')
+				   .replace(/\s+/g, ' ')
+				   .strip();
+	},
+
+	unitTokensFromText:function(text) {
+		if (!text) {
+			return [];
+		}
+		var normalized = text.replace(/\band\b/gi, ',');
+		var parts = normalized.split(',');
+		var tokens = [];
+		parts.each(function(part) {
+			var cleaned = ArmyforgeUI.normalizeUnitToken(part);
+			if (cleaned) {
+				tokens.push(cleaned);
+				if (/s$/.test(cleaned)) {
+					tokens.push(cleaned.slice(0, -1));
+				}
+			}
+		});
+		return tokens;
+	},
+
+	isKnightWorldList:function() {
+		return ArmyList && ArmyList.data && ArmyList.data.id == 'Knight World';
+	},
+
+	// Knight World extraction rules:
+	// - read unit composition text (formation units + chosen upgrades), not just title
+	// - split mixed entries on +, commas, semicolons, "and", and line breaks
+	// - strip counts like "4x" and allow alias matching (e.g. "Paladins" -> "Paladin")
+	extractKnightWorldUnitTokens:function(text) {
+		if (!text || !window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.knightWorld) {
+			return [];
+		}
+
+		var normalized = text.toLowerCase()
+			.replace(/<br\s*\/?>/gi, ',')
+			.replace(/\band\b/gi, ',')
+			.replace(/\+/g, ',')
+			.replace(/;/g, ',');
+
+		var segments = normalized.split(',');
+		var tokens = [];
+		var aliases = Object.keys(ArmyforgeUnitProfiles.knightWorld.nameToKey);
+
+		segments.each(function(segment) {
+			var cleaned = ArmyforgeUI.normalizeUnitToken(segment);
+			if (!cleaned) {
+				return;
+			}
+			tokens.push(cleaned);
+			if (/s$/.test(cleaned)) {
+				tokens.push(cleaned.slice(0, -1));
+			}
+
+			aliases.each(function(alias) {
+				var pattern = new RegExp('(^|\\s)' + alias.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '(\\s|$)');
+				if (pattern.test(cleaned)) {
+					tokens.push(alias);
+				}
+			});
+		});
+
+		return tokens.uniq();
+	},
+
+	uniqueProfilesForFormation:function(formation) {
+		var seen = {};
+		var profiles = [];
+		var matches = [];
+
+		if (ArmyforgeUI.isKnightWorldList()) {
+			var compositionTexts = [];
+			compositionTexts.push(formation.type.units);
+			formation.upgrades.uniq().each(function(u) {
+				compositionTexts.push(u.name);
+			});
+			compositionTexts.each(function(text) {
+				ArmyforgeUI.extractKnightWorldUnitTokens(text).each(function(token) {
+					var match = ArmyforgeUI.findKnightWorldProfileMatch(token);
+					if (match) {
+						matches.push(match);
+					}
+				});
+			});
+		}
+		else {
+			// existing generic fallback for non-Knight World lists
+			var candidates = [];
+			candidates.push(formation.type.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+			formation.upgrades.uniq().each(function(u) {
+				candidates.push(u.name);
+				candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+			});
+			candidates.each(function(name) {
+				var profile = ArmyforgeUI.findUnitProfileByName(name);
+				if (profile) {
+					matches.push({key:profile.name, profile:profile});
+				}
+			});
+		}
+
+		matches.each(function(match) {
+			if (!seen[match.key]) {
+				seen[match.key] = true;
+				profiles.push(match.profile);
+			}
+		});
+
+		return profiles;
+	},
+
+	createProfileCard:function(profile) {
+		var card = new Element('div', {'class':'profileCard'});
+		card.insert(new Element('div', {'class':'profileName'}).update(profile.name));
+		card.insert(new Element('div', {'class':'profileStats'}).update(
+			'Type: ' + profile.type + ' | Speed: ' + profile.speed + ' | Armour: ' + profile.armour + ' | CC: ' + profile.cc + ' | FF: ' + profile.ff
+		));
+
+		var weapons = new Element('ul', {'class':'profileWeapons'});
+		profile.weapons.each(function(w) {
+			var notes = (w.notes && w.notes.length) ? (' [' + w.notes.join(', ') + ']') : '';
+			weapons.insert(new Element('li').update(w.name + ' — ' + w.range + ' — ' + w.firepower + notes));
+		});
+		card.insert(new Element('div', {'class':'profileSubheading'}).update('Weapons'));
+		card.insert(weapons);
+
+		var abilities = new Element('ul', {'class':'profileAbilities'});
+		profile.abilities.each(function(a) {
+			abilities.insert(new Element('li').update(a));
+		});
+		card.insert(new Element('div', {'class':'profileSubheading'}).update('Abilities / Notes'));
+		card.insert(abilities);
+
+		return card;
+	},
+
+	createFormationDetailsContent:function(formation) {
+		var content = new Element('div', {'class':'formationDetailsContent'});
+		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation);
+
+		if (profiles.length < 1) {
+			content.insert(new Element('div', {'class':'noProfileData'}).update('No profile data yet'));
+			return content;
+		}
+
+		profiles.each(function(profile) {
+			content.insert(ArmyforgeUI.createProfileCard(profile));
+		});
+		return content;
+	},
+
+	toggleDetailsRow:function(detailsRowId, toggleControl) {
+		var detailsRow = $(detailsRowId);
+		if (!detailsRow) {
+			return;
+		}
+		var willExpand = (detailsRow.getStyle('display') == 'none');
+		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
+		if (toggleControl) {
+			toggleControl.update(willExpand ? '[-]' : '[+]');
+			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
+		}
+	},
+
 	initPage:function() {
 		// event listeners...
 		$('viewText').on('click', ArmyforgeUI.viewPlainText);
@@ -266,6 +467,10 @@ var ArmyforgeUI = {
             if (Force.canRemove(formation)) {
 		Force.formations.remove( formation );
 		ArmyforgeUI.upgradeRowsFor(formation).each( Element.remove );
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (detailsRow) {
+			detailsRow.remove();
+		}
 		ArmyforgeUI.formationRowFor(formation).remove();
 		ArmyforgeUI.updatePoints();
 		ArmyforgeUI.checkUpgradeMenuItems();
@@ -292,14 +497,38 @@ var ArmyforgeUI = {
 	renderFormation:function(formation) {
 
 		//alert('renderFormation');
+		// avoid duplicate rows when rendering an already-present formation
+		ArmyforgeUI.upgradeRowsFor(formation).each( Element.remove );
+		var existingDetailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (existingDetailsRow) {
+			existingDetailsRow.remove();
+		}
+		var existingFormationRow = ArmyforgeUI.formationRowFor(formation);
+		if (existingFormationRow) {
+			existingFormationRow.remove();
+		}
 
 		var dropDown = ArmyforgeUI.createUpgradesPopup( formation );
 		var labelCell = new Element('td').update(formation.type.name).insert( dropDown );
+		var detailsRowId = 'formationDetails_' + formation.id;
+		var newRowId = 'formation_' + formation.id;
+		var detailsToggle = new Element('a', {
+			'href':'javascript:void(0)',
+			'class':'detailsToggle',
+			'data-details-row-id':detailsRowId,
+			'aria-expanded':'false',
+			'title':'Show/hide unit profiles'
+		}).update('[+]');
+		detailsToggle.observe('click', function(event) {
+			Event.stop(event);
+			ArmyforgeUI.toggleDetailsRow(detailsToggle.readAttribute('data-details-row-id'), detailsToggle);
+		});
+		labelCell.insert({top:detailsToggle});
 		if (formation.type.units) {
 			labelCell.insert(
 				new Element('div', {'class':'units'}).update(formation.type.units));
 		}
-		var newRow = new Element('tr', {'id':'formation_'+formation.id, 'class':'orbatFormation interactive'}).update(
+		var newRow = new Element('tr', {'id':newRowId, 'class':'orbatFormation interactive', 'data-details-row-id':detailsRowId}).update(
 						labelCell
 					 ).insert(
 						new Element('td', {'id':'formationPoints_'+formation.id, 'class':'points'}).update(formation.calcPoints()) );
@@ -310,11 +539,25 @@ var ArmyforgeUI = {
 		else {
 			$('formationDivider').insert({before:newRow});
 		}
+
+			var detailsRow = new Element('tr', {'id':detailsRowId, 'class':'orbatDetails'}).update(
+				new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+			);
+		newRow.insert({after:detailsRow});
 	
 		dropDown.hide();
+		detailsRow.hide();
 		newRow.observe('mouseover', function() { dropDown.show(); });
 		newRow.observe('mouseout', function() { dropDown.hide(); });
-		newRow.observe('click', ArmyforgeUI.removeFormation.bind(this, formation));		
+		// preserve existing row-click behavior (remove formation) and also toggle details row
+			newRow.observe('click', function() {
+				if (Force.canRemove(formation)) {
+					ArmyforgeUI.removeFormation(formation);
+				}
+				else {
+					ArmyforgeUI.toggleDetailsRow(detailsRowId, detailsToggle);
+				}
+			});
 
 		formation.upgrades.uniq().each( function(x) {
 			ArmyforgeUI.renderUpgrade( formation,x );
@@ -350,7 +593,13 @@ var ArmyforgeUI = {
 			}
 		}
 		else {
-			ArmyforgeUI.formationRowFor(formation).insert({after:newRow});
+			var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+			if (detailsRow) {
+				detailsRow.insert({after:newRow});
+			}
+			else {
+				ArmyforgeUI.formationRowFor(formation).insert({after:newRow});
+			}
 		}
 	
 
@@ -488,7 +737,22 @@ var ArmyforgeUI = {
 	}
 };
 
+// runtime safety: ensure dedicated details toggling is always available on ArmyforgeUI
+if (!ArmyforgeUI.toggleDetailsRow) {
+	ArmyforgeUI.toggleDetailsRow = function(detailsRowId, toggleControl) {
+		var detailsRow = $(detailsRowId);
+		if (!detailsRow) {
+			return;
+		}
+		var willExpand = (detailsRow.getStyle('display') == 'none');
+		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
+		if (toggleControl) {
+			toggleControl.update(willExpand ? '[-]' : '[+]');
+			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
+		}
+	};
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.on('dom:loaded', ArmyforgeUI.initPage );
-
