@@ -204,10 +204,85 @@ var ArmyforgeUI = {
 	},
 
 	findUnitProfileByName:function(displayName) {
-		if (!window.ArmyforgeUnitProfiles || !ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+		if (!window.ArmyforgeUnitProfiles) {
 			return null;
 		}
-		return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		var spaceMarineFamilyLists = {
+			'SM_codex_NETEA':true,
+			'SM_impfists_NETEA':true,
+			'SM_Raven_Guard_NETEA':true,
+			'SM_salamanders_NETEA':true,
+			'SM_scions_NETEA':true,
+			'SM_spacewolves_NETEA':true,
+			'SM_scars_NETEA':true
+		};
+		var isSpaceMarineFamilyList = !!spaceMarineFamilyLists[listId];
+		if (listId == 'AMTL_knight_world_NETEA' && ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		}
+		if (isSpaceMarineFamilyList && ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName) {
+			return ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName(displayName);
+		}
+		if (listId == 'ORK_ghazgkhull_NETEA' && ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
+		}
+		if (listId == 'ORK_gargant_NETEA' && ArmyforgeUnitProfiles.findOrkGargantMobProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkGargantMobProfileByName(displayName);
+		}
+		if (listId == 'ORK_feral_NETEA' && ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
+			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName) {
+			var smProfile = ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName(displayName);
+			if (smProfile) {
+				return smProfile;
+			}
+		}
+		if (ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findOrkGargantMobProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkGargantMobProfileByName(displayName);
+		}
+		if (ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName) {
+			return ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName(displayName);
+		}
+		return null;
+	},
+
+	findKnightWorldProfileMatch:function(formation, displayName) {
+		if (displayName) {
+			var directProfile = ArmyforgeUI.findUnitProfileByName(displayName);
+			if (directProfile) {
+				return directProfile;
+			}
+		}
+
+		if (!formation) {
+			return null;
+		}
+
+		var candidates = [];
+		if (displayName) {
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(displayName));
+		}
+		candidates.push(formation.type.name);
+		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
+		formation.upgrades.uniq().each(function(u) {
+			candidates.push(u.name);
+			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
+		});
+
+		var match = null;
+		candidates.find(function(name) {
+			match = ArmyforgeUI.findUnitProfileByName(name);
+			return !!match;
+		});
+		return match;
 	},
 
 	normalizeUnitToken:function(text) {
@@ -300,6 +375,17 @@ var ArmyforgeUI = {
 			content.insert(ArmyforgeUI.createProfileCard(profile));
 		});
 		return content;
+	},
+
+	refreshFormationDetailsContent:function(formation) {
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (!detailsRow || !detailsRow.down('td')) {
+			return;
+		}
+		var expanded = detailsRow.getStyle('display') != 'none';
+		var nextContent = ArmyforgeUI.createFormationDetailsContent(formation);
+		detailsRow.down('td').update(nextContent);
+		detailsRow.setStyle({display: expanded ? 'table-row' : 'none'});
 	},
 
 	initPage:function() {
@@ -442,8 +528,9 @@ var ArmyforgeUI = {
 			$('formationDivider').insert({before:newRow});
 		}
 
+		var detailsContent = ArmyforgeUI.createFormationDetailsContent(formation);
 		var detailsRow = new Element('tr', {'id':'formationDetails_'+formation.id, 'class':'orbatDetails'}).update(
-			new Element('td', {'colspan':'2'}).update(ArmyforgeUI.createFormationDetailsContent(formation))
+			new Element('td', {'colspan':'2'}).update(detailsContent)
 		);
 		newRow.insert({after:detailsRow});
 	
