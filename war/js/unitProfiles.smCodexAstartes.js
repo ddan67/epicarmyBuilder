@@ -9,8 +9,8 @@
 
 var ArmyforgeUnitProfiles = ArmyforgeUnitProfiles || {};
 
-ArmyforgeUnitProfiles.spaceMarineFamily = {
-	armyIds: ['SM_codex_NETEA','SM_impfists_NETEA','SM_Raven_Guard_NETEA','SM_salamanders_NETEA','SM_scions_NETEA','SM_spacewolves_NETEA','SM_scars_NETEA'],
+ArmyforgeUnitProfiles.smCodexAstartes = {
+	armyIds: ['SM_codex_NETEA'],
 	profiles: {
 		tactical_marines:{name:'Tactical Marines',type:'INF',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Missile Launcher',range:'45cm',firepower:'AP5+/AT6+',notes:[]}],abilities:[]},
 		assault_marines:{name:'Assault Marines',type:'INF',speed:'30cm',armour:'4+',cc:'3+',ff:'5+',weapons:[{name:'Bolt Pistols',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:['Jump Packs']},
@@ -122,7 +122,7 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 	}
 };
 
-ArmyforgeUnitProfiles.normalizeSpaceMarineFamilyName = function(displayName) {
+ArmyforgeUnitProfiles.normalizeSpaceMarineListName = function(displayName) {
 	if (!displayName) {
 		return '';
 	}
@@ -137,17 +137,18 @@ ArmyforgeUnitProfiles.normalizeSpaceMarineFamilyName = function(displayName) {
 		.strip();
 };
 
-ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName, listId) {
+ArmyforgeUnitProfiles.findSmCodexAstartesProfileByName = function(displayName, listId) {
 	if (!displayName) {
 		return null;
 	}
-	if (listId && !ArmyforgeUnitProfiles.spaceMarineFamily.armyIds.member(listId)) {
+	if (listId && !ArmyforgeUnitProfiles.smCodexAstartes.armyIds.member(listId)) {
 		return null;
 	}
-	var normalized = ArmyforgeUnitProfiles.normalizeSpaceMarineFamilyName(displayName);
-	var key = ArmyforgeUnitProfiles.spaceMarineFamily.nameToKey[normalized];
+	var normalized = ArmyforgeUnitProfiles.normalizeSpaceMarineListName(displayName);
+	var key = ArmyforgeUnitProfiles.smCodexAstartes.nameToKey[normalized];
 	if (!key) {
 		return null;
 	}
-	return ArmyforgeUnitProfiles.spaceMarineFamily.profiles[key] || null;
+	return ArmyforgeUnitProfiles.smCodexAstartes.profiles[key] || null;
 };
+
