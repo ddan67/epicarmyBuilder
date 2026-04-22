@@ -213,6 +213,7 @@ var ArmyforgeUI = {
 			'ORK_ghazgkhull_NETEA': ArmyforgeUnitProfiles.findOrkWarHordeProfileByName,
 			'ORK_feral_NETEA': ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName,
 			'ORK_gargant_NETEA': ArmyforgeUnitProfiles.findOrkGargantMobProfileByName,
+			'ORK_kult_NETEA': ArmyforgeUnitProfiles.findOrkSpeedFreeksProfileByName,
 			'SM_codex_NETEA': ArmyforgeUnitProfiles.findSmCodexAstartesProfileByName,
 			'SM_impfists_NETEA': ArmyforgeUnitProfiles.findSmImperialFistsProfileByName,
 			'SM_Raven_Guard_NETEA': ArmyforgeUnitProfiles.findSmRavenGuardProfileByName,
