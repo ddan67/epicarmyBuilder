@@ -23,7 +23,11 @@ ArmyforgeUnitProfiles.orkFeralOrks = {
 		'warlord':'warlord','boyz':'boyz','boyz optional grotz':'boyz','grotz':'grotz','nobz':'nobz',
 		'wildboyz':'wildboyz','two wildboyz units':'wildboyz','boarboyz':'boarboyz','madboyz':'madboyz',
 		'squig katapult':'squig_katapult','squiggoth':'squiggoth','wyrdboy':'wyrdboy','orkeosaurus':'orkeosaurus',
-		'junka trukks':'junka_trukks','junka trukk':'junka_trukks','steam gargant':'steam_gargant'
+		'junka trukks':'junka_trukks','junka trukk':'junka_trukks','steam gargant':'steam_gargant',
+		'warband':'boyz','warband big':'boyz','warband uge':'boyz',
+		'wildboyz big':'wildboyz','wildboyz uge':'wildboyz',
+		'boarboyz horde':'boarboyz','boarboyz horde big':'boarboyz','boarboyz horde uge':'boarboyz',
+		'madboyz horde':'madboyz','junka brigade':'junka_trukks','junka brigade big':'junka_trukks','trappas':'wildboyz'
 	}
 };
 

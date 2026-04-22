@@ -25,7 +25,14 @@ ArmyforgeUnitProfiles.orkGargantMob = {
 		fighta_bommer: {name:'Fighta Bommer', type:'AC Fighter-Bomber', speed:'n/a', armour:'6+', cc:'n/a', ff:'n/a', weapons:[{name:'Heavy Shootas', range:'15cm', firepower:'AP5+/AA5+', notes:[]},{name:'Tankbusta Rokkits', range:'30cm', firepower:'AT4+', notes:[]}], abilities:[]},
 		bommer: {name:'Bommer', type:'AC Bomber', speed:'n/a', armour:'6+', cc:'n/a', ff:'n/a', weapons:[{name:'Big Bombs', range:'15cm', firepower:'3BP', notes:['FxF']},{name:'Big Shootas', range:'15cm', firepower:'AP6+/AA6+', notes:[]}], abilities:[]},
 		battlekroozer: {name:'Battlekroozer', type:'SC', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Orbital Bombardment', range:'n/a', firepower:'D6+3BP', notes:['MW']}], abilities:['Slow and Steady','Transport']},
-		kill_kroozer: {name:'KillKroozer', type:'SC', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Orbital Bombardment', range:'n/a', firepower:'D6+1BP', notes:['MW']}], abilities:[]}
+		kill_kroozer: {name:'KillKroozer', type:'SC', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Orbital Bombardment', range:'n/a', firepower:'D6+1BP', notes:['MW']}], abilities:[]},
+		big_gun_or_skorcha_head: {name:'Big Gun or Skorcha Head', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a Gargant head upgrade that swaps the head armament.']},
+		banna: {name:'Banna', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a Gargant command/banner upgrade.']},
+		eavy_armour: {name:'Eavy Armour', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for an armour upgrade that improves the Gargant chassis.']},
+		flak_gunz: {name:'Flak Gunz', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Flak Gunz', range:'30cm', firepower:'AA6+', notes:[]}], abilities:['Reference card for an anti-aircraft weapon upgrade.']},
+		gork_or_mork_head: {name:'Gork or Mork Head', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a distinctive Gargant head upgrade.']},
+		kart: {name:'Kart', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a transport/kart upgrade option.']},
+		ordz_duruk: {name:'Ordz Duruk', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a named Gargant upgrade option.']}
 	},
 	nameToKey: {
 		'mekboy big boss':'mekboy_big_boss','big gunz':'big_gunz','boyz':'boyz','boyz grotz':'boyz','grotz':'grotz','nobz':'nobz',
@@ -33,8 +40,12 @@ ArmyforgeUnitProfiles.orkGargantMob = {
 		'stompa':'stompa','stompa with 2x big guns and kombat ammer':'stompa','stompa with 3x big guns':'stompa',
 		'oddboy':'oddboy','oddboy with power fields':'oddboy','oddboy with soopagunz':'oddboy','oddboy with supa zzap gun':'oddboy',
 		'battlefortress':'battlefortress','gunfortress':'gunfortress','gargant':'gargant','great gargant':'great_gargant','mega gargant':'mega_gargant',
-		'supa stompa':'supa_stompa','fighta bommer':'fighta_bommer','fighta bombers':'fighta_bommer','bommer':'bommer',
-		'battlekroozer':'battlekroozer','battle kroozer':'battlekroozer','killkroozer':'kill_kroozer','kill kroozer':'kill_kroozer','kroozer':'kill_kroozer'
+		'supa stompa':'supa_stompa','fighta bommer':'fighta_bommer','fighta bombers':'fighta_bommer','fighta sqwadron':'fighta_bommer','bommer':'bommer',
+		'battlekroozer':'battlekroozer','battle kroozer':'battlekroozer','killkroozer':'kill_kroozer','kill kroozer':'kill_kroozer','kroozer':'kill_kroozer',
+		'big gun or skorcha head':'big_gun_or_skorcha_head','banna':'banna','eavy armour':'eavy_armour','flak gunz':'flak_gunz','gork or mork head':'gork_or_mork_head','kart':'kart','ordz duruk':'ordz_duruk'
+		,'kan mob normal':'killa_kan','kan mob big':'killa_kan','kan mob uge':'killa_kan',
+		'loota warband normal':'big_gunz','loota warband big':'big_gunz','loota warband uge':'big_gunz',
+		'stompa mob normal':'stompa','stompa mob big':'stompa','stompa mob uge':'stompa','supa stompa mob':'supa_stompa'
 	}
 };
 

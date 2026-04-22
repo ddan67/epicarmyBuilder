@@ -186,6 +186,71 @@ ArmyforgeUnitProfiles.knightWorld = {
 				'Units in a gun emplacement may not be barged by a war engine.'
 			]
 		},
+		trench_and_razor_wire: {
+			name: 'Trench and Razor Wire',
+			type: 'Battlefield Works',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [],
+			abilities: [
+				'Represents 52cm of trench and 52cm of razor wire.',
+				'Reference card only; this is a battlefield fortification upgrade rather than a unit profile.'
+			]
+		},
+		knight_household: {
+			name: 'Knight Household',
+			type: 'Formation',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [],
+			abilities: [
+				'Reference card for the core Knight Household formation.',
+				'Typically built from Knight Paladins and associated character upgrades.'
+			]
+		},
+		custodian_household: {
+			name: 'Custodian Household',
+			type: 'Formation',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [],
+			abilities: [
+				'Reference card for a Custodian Household.',
+				'Typically built from Knight Castellans or Knight Crusaders plus command upgrades.'
+			]
+		},
+		lancer_household: {
+			name: 'Lancer Household',
+			type: 'Formation',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [],
+			abilities: [
+				'Reference card for a Lancer Household.',
+				'Typically built from Knight Lancers plus command upgrades.'
+			]
+		},
+		warden_household: {
+			name: 'Warden Household',
+			type: 'Formation',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [],
+			abilities: [
+				'Reference card for a Warden Household.',
+				'Typically built from Knight Wardens plus command upgrades.'
+			]
+		},
 		howitzer: {
 			name: 'Howitzer',
 			type: 'LV',
@@ -386,7 +451,18 @@ ArmyforgeUnitProfiles.knightWorld = {
 		'marauder': 'marauder_bomber',
 		'thunderbolt fighter': 'thunderbolt_fighter',
 		'thunderbolt fighters': 'thunderbolt_fighter',
-		'thunderbolt': 'thunderbolt_fighter'
+		'thunderbolt': 'thunderbolt_fighter',
+		'aa gun battery': 'aa_gun',
+		'howitzer battery': 'howitzer',
+		'infantry platoon': 'infantry_levy',
+		'rough rider platoon': 'rough_riders',
+		'marauder squadron': 'marauder_bomber',
+		'thunderbolt squadron': 'thunderbolt_fighter',
+		'52cm of trench and 52cm of razor wire': 'trench_and_razor_wire',
+		'knight household': 'knight_household',
+		'custodian household': 'custodian_household',
+		'lancer household': 'lancer_household',
+		'warden household': 'warden_household'
 	}
 };
 

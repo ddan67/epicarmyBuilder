@@ -42,8 +42,13 @@ ArmyforgeUnitProfiles.orkWarHorde = {
 		'stompa with 2x big guns and kombat ammer':'stompa','stompa with 3x big guns':'stompa',
 		'battlefortress':'battlefortress','gunfortress':'gunfortress','gargant':'gargant','great gargant':'great_gargant',
 		'supa stompa':'supa_stompa','supa-stompa':'supa_stompa','supa stompa with 2x soopagunz and mega choppa':'supa_stompa','supa stompa with 3x soopagunz':'supa_stompa',
-		'fighta bomma':'fighta_bommer','fighta bommer':'fighta_bommer','fighta bombers':'fighta_bommer',
-		'landa':'landa','battlekroozer':'battlekroozer','battle kroozer':'battlekroozer','kill kroozer':'kill_kroozer','kroozer':'kill_kroozer'
+		'fighta bomma':'fighta_bommer','fighta bomba':'fighta_bommer','fighta bommer':'fighta_bommer','fighta bombers':'fighta_bommer','fighta skwadron':'fighta_bommer',
+		'landa':'landa','battlekroozer':'battlekroozer','battle kroozer':'battlekroozer','kill kroozer':'kill_kroozer','kroozer':'kill_kroozer',
+		'warband':'boyz','warband big':'boyz','warband uge':'boyz','kommando warhorde':'kommandos','stormboyz warhorde':'stormboyz',
+		'kult of speed':'warbikes','kult of speed big':'warbikes','kult of speed uge':'warbikes',
+		'blitz brigade':'battlewagon','blitz brigade big':'battlewagon','blitz brigade uge':'battlewagon',
+		'mekboy gunzmob':'big_gunz','mekboy gunzmob big':'big_gunz','mekboy gunzmob uge':'big_gunz',
+		'mekboy stompamob':'stompa','mekboy stompamob big':'stompa','mekboy stompamob uge':'stompa'
 	}
 };
 
