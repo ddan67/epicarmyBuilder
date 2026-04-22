@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "army_name": "Warlord Snagga Snagga’s Feral Ork Horde",
+    "source_url": "https://tp.net-armageddon.org/army-lists/ork-feral-orks.html",
+    "page_title": "Warlord Snagga Snagga’s Feral Ork Horde Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "3+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all Ork formations."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Boarboyz Horde",
+      "cost": "100 175 250",
+      "units_text": "Five Boarboyz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of Boarboyz for +25 points each\nAdd up to one Wyrdboy character to any unit for +50 points",
+      "raw_text": "Boarboyz Horde | Five Boarboyz | 100 | 175 | 250",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Junka Brigade",
+      "cost": "175 300 n/a",
+      "units_text": "Six Boyz and six Junkatrukks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of Boyz with a Junkatrukk for +25 points each\nAdd up to one Nobz with a Junkatrukk for +50 points\nAdd up to one Wyrdboy character to any unit for +50 points",
+      "raw_text": "Junka Brigade | Six Boyz and six Junkatrukks | 175 | 300 | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Madboyz Horde",
+      "cost": "100 n/a n/a",
+      "units_text": "Six Madboyz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to six Madboyz for +15 points each\nAdd up to three Wyrdboy characters to any unit(s) for +50 points each",
+      "raw_text": "0–1 Madboyz Horde | Six Madboyz | 100 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Steam Gargant",
+      "cost": "200 350 500",
+      "units_text": "One Steam Gargant",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None",
+      "raw_text": "0–1 Steam Gargant | One Steam Gargant | 200 | 350 | 500",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Trappas",
+      "cost": "150 n/a n/a",
+      "units_text": "Six Wildboyz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to one Nobz for +35 points\nNote: All units in the formation have Scout",
+      "raw_text": "Trappas | Six Wildboyz | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warband",
+      "cost": "200 350 500",
+      "units_text": "Two Nobz, six Boyz and two Grotz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Boarboyz, Boyz with an optional Grotz, two Wildboyz\nAdd any number of Squiggoths for +50 points each\nAdd up to three Squig Katapults for +25 points each\nAdd up to one Nobz for +35 points\nAdd up to one Wyrdboy character to any unit for +50 points\nAdd up to one Orkeosaurus for +175 points",
+      "raw_text": "Warband | Two Nobz, six Boyz and two Grotz | 200 | 350 | 500",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Wildboyz",
+      "cost": "125 225 325",
+      "units_text": "Two Nobz and six Wildboyz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Boarboyz, two Wildboyz\nAdd any number of Squiggoths for +50 points each\nAdd up to three Squig Katapults for +25 points each\nAdd up to one Nobz for +35 points\nAdd up to one Wyrdboy character to any unit for +50 points\nAdd up to one Orkeosaurus for +175 points",
+      "raw_text": "Wildboyz | Two Nobz and six Wildboyz | 125 | 225 | 325",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Warlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Big Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wyrdboy",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Fist of Gork",
+          "range": "45cm",
+          "firepower": "MW5+/AA5+",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boarboyz",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted"
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grotz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Formations that include at least one Ork unit don't count Grot units that are lost in an assault when working out who has won the combat."
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Madboyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nobz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Choppas",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Squig Katapult",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Squig Katapult",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wildboyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Wildboyz."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Junkatrukk",
+      "type": "LV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Squiggoth",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Teeth and Horns",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+D3)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport four of the following units: Boyz, Grotz, Nobz, Wildboyz; plus two units of Grotz."
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Orkeosaurus",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "4x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Goring Tusks",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+D3)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Goring Tusks",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May Transport twelve of the following units: Boyz, Grotz, Nobz, Wildboyz; plus six units of Grotz). Critical Hit Effect: The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit."
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Orkeosaurus."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Steam Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "0-2x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-2x Mega Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Fist of Gork",
+          "range": "45cm",
+          "firepower": "MW5+/AA5+",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with any two of the following weapons: Soopagun, Mega-Choppa. Critical Hit Effect: The unit is destroyed. All units within 2D6cm suffer a hit."
+      ],
+      "source_section": "Feral Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "0-2x Soopagun",
+        "0-2x Mega Choppa"
+      ],
+      "is_reference_or_ambiguous": true
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:\nType\nThe name of the formation.\nCore Units\nThe units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’uge formation.\nCost\nMost Ork formations have three values. The first value is the cost for the basic formation, the second is its cost if it is a big formation, and the third value is its cost if it is a ’uge formation. If the formation only has one cost then it may not be increased in size. Up to one third of the points available to an Ork army can be spent on aircraft and Gargants.\nExtra Units\nAn Ork formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. All of the core, extra, and free units in an Ork formation count as being part of one large formation. The different units may not move off on their own."
+    }
+  ],
+  "extraction_warnings": []
+}

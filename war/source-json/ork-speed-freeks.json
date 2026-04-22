@@ -1,0 +1,720 @@
+{
+  "metadata": {
+    "army_name": "Burning Death Speed Freeks",
+    "source_url": "https://tp.net-armageddon.org/army-lists/ork-speed-freeks.html",
+    "page_title": "Burning Death Speed Freeks Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "3+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all Ork formations."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Blitz Brigade",
+      "cost": "150 250 350",
+      "units_text": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Boyz, Guntrukk, Skorcha, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon\nAdd up to one of the following units for +35 points each: Nobz (and a Trukk), Nob Warbikes\nAdd up to one Mekboy Speedsta for +50 points\nAdd any number of Gunfortresses for +125 points each",
+      "raw_text": "Blitz Brigade | Any four of the following units: Deth Kopta, Flakwagon, Gunwagon | 150 | 250 | 350",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Fortress Mob",
+      "cost": "275 475 675",
+      "units_text": "Any two of the following units: Battlefortress, Gunfortress",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of Boyz for +25 points each\nAdd any number of Flakwagons for +35 points each\nAdd up to one of the following units for +35 points each: Nobz (and a Trukk), Nob Warbikes\nAdd any number of Battlefortresses for +115 points each\nAdd any number of Gunfortresses for +125 points each",
+      "raw_text": "Fortress Mob | Any two of the following units: Battlefortress, Gunfortress | 275 | 475 | 675",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Kill Kroozer",
+      "cost": "150 n/a n/a",
+      "units_text": "One Kill Kroozer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Replace the Kill Kroozer with a Battlekroozer for +50 points",
+      "raw_text": "0–1 Kill Kroozer | One Kill Kroozer | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Kult Of Speed",
+      "cost": "200 350 500",
+      "units_text": "Any eight of the following units: Guntrukk, Skorcha, Warbikes, Warbuggy",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Guntrukk, Skorcha, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon\nAdd up to one Nob Warbikes for +35 points\nAdd up to one Mekboy Speedsta for +50 points",
+      "raw_text": "Kult Of Speed | Any eight of the following units: Guntrukk, Skorcha, Warbikes, Warbuggy | 200 | 350 | 500",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warband",
+      "cost": "200 375 550",
+      "units_text": "One Nobz, three Boyz and four Trukks, plus any four of the following units: Guntrukk, Skorcha, Warbikes, Warbuggy",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Big Gunz, Boyz and a Trukk, Guntrukk, Skorcha, Stormboyz, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Battlewagon, Deth Kopta, Flakwagon, Gunwagon\nAdd up to one Nobz (and a Trukk) for +35 points\nAdd up to one Mekboy Speedsta for +50 points\nReplace any number of Nobz (and a Trukk) with an equal number of Nob Warbikes for free",
+      "raw_text": "Warband | One Nobz, three Boyz and four Trukks, plus any four of the following units: Guntrukk, Skorcha, Warbikes, Warbuggy | 200 | 375 | 550",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warbike Outriders",
+      "cost": "150 250 350",
+      "units_text": "Five Warbikes",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None\nNote: All units in the formation have Scout",
+      "raw_text": "Warbike Outriders | Five Warbikes | 150 | 250 | 350",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Fighta Sqwadron",
+      "cost": "150 n/a n/a",
+      "units_text": "Three Fighter Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to six Fighter-Bombers for +50 points each",
+      "raw_text": "Fighta Sqwadron | Three Fighter Bombers | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Landa",
+      "cost": "200 n/a n/a",
+      "units_text": "One Landa",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None",
+      "raw_text": "Landa | One Landa | 200 | n/a | n/a",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Big Gunz",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mekboy Bad Ork Bikerboy",
+      "type": "INF",
+      "speed": "40cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sawn-Off Custom Blasta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Sawn-Off Custom Blasta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Choppa Blades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Mounted",
+        "Supreme Commander"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Mekboy Bad Ork Bikerboy."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nob Warbikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Choppas",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Mounted"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nobz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Choppas",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormboyz",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Scout"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Twin Sawn-Off Big Shoota",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deth Kopta",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Guntrukk",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skorcha",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Skorcha",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Trukk",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry units without Jump Packs or Mounted . With the exception of Big Gunz, transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Trukk."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Warbuggy",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlewagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ; only one of the two units may be a Big Gunz; plus one unit of Grotz."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flakwagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Flak Gun",
+          "range": "30cm",
+          "firepower": "2x AP6+/AT6+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted ."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gunwagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted ."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mekboy Speedsta",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Kustom Kannon",
+          "range": "45cm",
+          "firepower": "MW4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "D3 Power Fields"
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlefortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "4x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport eight infantry units without Jump Packs or Mounted ; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gunfortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "5x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "3x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport four infantry units without Jump Packs or Mounted ; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fighta Bommer",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Heavy Shootas",
+          "range": "15cm",
+          "firepower": "AP5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Tankbusta Rokkits",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Landa",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gun Turrets",
+          "range": "15cm",
+          "firepower": "D6+3x AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "2x Tankbusta Rokkits",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May transport ten infantry units (except Big Gunz), light vehicle units, Killa Kans or Dreadnoughts; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlekroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+3BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport twelve Landas and the units being carried on them."
+      ],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kill Kroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+1BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Speed Freek Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:\nType\nThe name of the formation.\nCore Units\nThe units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’uge formation.\nCost\nMost Ork formations have three values. The first value is the cost for the basic formation, the second is its cost if it is a big formation, and the third value is its cost if it is a ’uge formation. If the formation only has one cost then it may not be increased in size. Up to one third of the points available to an Ork army can be spent on aircraft and Gargants.\nExtra Units\nAn Ork formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. All of the core, extra, and free units in an Ork formation count as being part of one large formation. The different units may not move off on their own."
+    }
+  ],
+  "extraction_warnings": []
+}

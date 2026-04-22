@@ -15,6 +15,22 @@ const PAGE_CONFIGS = [
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-codex-astartes.html'
 	},
 	{
+		id: 'ork-war-horde',
+		url: 'https://tp.net-armageddon.org/army-lists/ork-war-horde.html'
+	},
+	{
+		id: 'ork-feral-orks',
+		url: 'https://tp.net-armageddon.org/army-lists/ork-feral-orks.html'
+	},
+	{
+		id: 'ork-speed-freeks',
+		url: 'https://tp.net-armageddon.org/army-lists/ork-speed-freeks.html'
+	},
+	{
+		id: 'ork-gargant-mob',
+		url: 'https://tp.net-armageddon.org/army-lists/ork-gargant-mob.html'
+	},
+	{
 		id: 'space-marine-imperial-fists',
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-imperial-fists.html'
 	},
@@ -429,7 +445,8 @@ function parseCostFromLine(line) {
 }
 
 function lineLooksLikeCost(line) {
-	return /^(?:\+\d+|\d+)\s+points(?:\s+(?:each|per pair))?$/i.test(line);
+	return /^(?:\+\d+|\d+)\s+points(?:\s+(?:each|per pair))?$/i.test(line) ||
+		/^(?:\d+|n\/a)$/i.test(line);
 }
 
 function splitEntryNameAndBody(content, isUpgradeRow) {
@@ -559,6 +576,38 @@ function extractFormationData(sections, warnings) {
 			i += (armyListSection.lines[i] === 'Cost' ? 1 : 0);
 			continue;
 		}
+		if (/^Ork Formations$/i.test(line) ||
+			/^Ork Aircraft(?: and Gargant)? Formations\b/i.test(line) ||
+			/^Gargant Mob Gargant Formations$/i.test(line) ||
+			/^Gargant Mob Support(?: and Aircraft Formations)?\b/i.test(line) ||
+			/^Gargant Mob Aircraft\b/i.test(line)) {
+			currentCategory = 'army_list';
+			columnMode = 'formation_5col';
+			expectedColumns = 5;
+			i += 1;
+			while (i < armyListSection.lines.length && /^\(/.test(armyListSection.lines[i])) {
+				i += 1;
+			}
+			while (i < armyListSection.lines.length && /^(?:Cost|Type|Core Units|Normal|Big|['’‘]Uge|Extra Units|Upgrades)$/i.test(armyListSection.lines[i])) {
+				i += 1;
+			}
+			continue;
+		}
+		if (/^(?:Gargant Mob Weapons and Upgrades|Support Upgrades|Kustom Upgrades \(Each upgrade may be added to a Great Gargant, Gargant or Supa-Stompa once\.\)|Gargant Weapons \(Each weapon mount in the formation must be mounted with a weapon\.\)|Supa-Stompa Weapons \(Each weapon mount in the formation must be mounted with a weapon\.\))$/i.test(line)) {
+			currentCategory = 'upgrades';
+			columnMode = null;
+			expectedColumns = 0;
+			continue;
+		}
+		if (/^[*-]\s+/.test(line) || /^(?:n\/a|none|add|replace|note|may|up to|for|and|or|all|then|use)\b/i.test(line)) {
+			if (formations.length) {
+				const last = formations[formations.length - 1];
+				const note = normalizeBullet ? normalizeBullet(line) : line;
+				last.restrictions_or_notes = last.restrictions_or_notes ? `${last.restrictions_or_notes}\n${note}` : note;
+			}
+			i += 1;
+			continue;
+		}
 		if (/^upgrade$/i.test(line) && armyListSection.lines[i + 1] === 'Units' && armyListSection.lines[i + 2] === 'Cost') {
 			currentCategory = 'upgrades';
 			columnMode = 'upgrade_3col';
@@ -582,11 +631,12 @@ function extractFormationData(sections, warnings) {
 		if (expectedColumns && i + expectedColumns - 1 < armyListSection.lines.length) {
 			const cells = armyListSection.lines.slice(i, i + expectedColumns);
 			if (lineLooksLikeCost(cells[expectedColumns - 1])) {
+				const costText = expectedColumns === 5 ? cells.slice(2, 5).join(' ') : cells[expectedColumns - 1];
 				const record = {
 					category: currentCategory,
 					entry_type: columnMode === 'upgrade_3col' ? 'upgrade' : 'formation',
 					name: cells[0] || null,
-					cost: cells[expectedColumns - 1],
+					cost: costText,
 					units_text: cells[1] || null,
 					upgrades_or_options_text: expectedColumns === 4 ? (cells[2] || null) : null,
 					restrictions_or_notes: null,

@@ -1,0 +1,1449 @@
+{
+  "metadata": {
+    "army_name": "Orkimedes' Gargant Big Mob",
+    "source_url": "https://tp.net-armageddon.org/army-lists/ork-gargant-mob.html",
+    "page_title": "Orkimedes' Gargant Big Mob Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "3+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all formations."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Gargant",
+      "cost": "475 n/a n/a",
+      "units_text": "One Gargant and three Gargant or Supa-Stompa Weapons",
+      "upgrades_or_options_text": "0–2 Kustom Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Gargant | One Gargant and three Gargant or Supa-Stompa Weapons | 475 n/a n/a | 0–2 Kustom Upgrades",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Great Gargant",
+      "cost": "650 n/a n/a",
+      "units_text": "One Great Gargant and three Gargant or Supa-Stompa Weapons",
+      "upgrades_or_options_text": "0–2 Kustom Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Great Gargant | One Great Gargant and three Gargant or Supa-Stompa Weapons | 650 n/a n/a | 0–2 Kustom Upgrades",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mega Gargant",
+      "cost": "1000 n/a n/a",
+      "units_text": "One Mega Gargant with a Gork or Mork Head",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Mega Gargant | One Mega Gargant with a Gork or Mork Head | 1000 n/a n/a | None",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Kan Mob",
+      "cost": "200 350 500",
+      "units_text": "Eight Killa Kans",
+      "upgrades_or_options_text": "Dreadnought, Flakwagon, Killa Kan, Stompa",
+      "restrictions_or_notes": null,
+      "raw_text": "Kan Mob | Eight Killa Kans | 200 350 500 | Dreadnought, Flakwagon, Killa Kan, Stompa",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Kill Kroozer",
+      "cost": "150 n/a n/a",
+      "units_text": "One Kill Kroozer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Replace the Kill Kroozer with a Battlekroozer for +50 points",
+      "raw_text": "0–1 Kill Kroozer | One Kill Kroozer | 150 n/a n/a | Replace the Kill Kroozer with a Battlekroozer for +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Loota Warband",
+      "cost": "150 275 375",
+      "units_text": "Six Boyz, two Grotz and one Big Gunz or Killa Kan",
+      "upgrades_or_options_text": "0–1 Battlefortress, Big Gunz, Boyz, Deth Kopta, Dreadnought, Flakwagon, 0–2 Gunfortress, Killa Kan, 0–1 Nobz, 0–1 Oddboy, Stompa",
+      "restrictions_or_notes": null,
+      "raw_text": "Loota Warband | Six Boyz, two Grotz and one Big Gunz or Killa Kan | 150 275 375 | 0–1 Battlefortress, Big Gunz, Boyz, Deth Kopta, Dreadnought, Flakwagon, 0–2 Gunfortress, Killa Kan, 0–1 Nobz, 0–1 Oddboy, Stompa",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mekboy Stompamob",
+      "cost": "175 300 425",
+      "units_text": "Three Stompas",
+      "upgrades_or_options_text": "Dreadnought, Flakwagon, Killa Kan, 0–1 Oddboy, Stompa",
+      "restrictions_or_notes": null,
+      "raw_text": "Mekboy Stompamob | Three Stompas | 175 300 425 | Dreadnought, Flakwagon, Killa Kan, 0–1 Oddboy, Stompa",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Supa-Stompa Mob",
+      "cost": "150 n/a n/a",
+      "units_text": "One Supa-Stompa and three Supa-Stompa Weapons",
+      "upgrades_or_options_text": "Dreadnought, Flakwagon, Killa Kan, 0–1 Kustom Upgrade, Stompa",
+      "restrictions_or_notes": null,
+      "raw_text": "Supa-Stompa Mob | One Supa-Stompa and three Supa-Stompa Weapons | 150 n/a n/a | Dreadnought, Flakwagon, Killa Kan, 0–1 Kustom Upgrade, Stompa",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Fighta Sqwadron",
+      "cost": "150 n/a n/a",
+      "units_text": "Three Fighta Bommers",
+      "upgrades_or_options_text": "Add up to six Fighta Bommers for +50 points each",
+      "restrictions_or_notes": null,
+      "raw_text": "Fighta Sqwadron | Three Fighta Bommers | 150 n/a n/a | Add up to six Fighta Bommers for +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Bommer",
+      "cost": "175 n/a n/a",
+      "units_text": "One Bommer",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Bommer | One Bommer | 175 n/a n/a | None",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Banna",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Banna."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Big Gun or Skorcha Head",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Skorcha",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "0-1x Skorcha",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Armed with either a Big Gun or Skorcha."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Big Gun or Skorcha Head."
+      ],
+      "ambiguity_reasons": [
+        "0-1x Big Gun",
+        "0-1x Skorcha",
+        "Armed with either a Big Gun or Skorcha."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Deth Kannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Deth Kannon",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "'Eavy Armour",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Increase the unit's starting damage capacity by D3."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in 'Eavy Armour."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Flak Gunz",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Flak Gunz",
+          "range": "30cm",
+          "firepower": "D3+1x AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gatling Cannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Gatling Cannon",
+          "range": "45cm",
+          "firepower": "6x AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gork or Mork Head",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "The unit may add its current DC to the unit count of all Ork formations for the purposes of Mob Rule , so long as it has a line of fire to and is within 15cm of a single unit in the formation. If the unit is destroyed all Ork formations receive a Blast marker if a single unit in the formation is within 15cm of the unit and has a line of fire to it."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Gork or Mork Head."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Kart",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "For every point of starting damage capacity the unit may transport: two infantry units without Jump Packs or Mounted , light vehicle units, Killa Kans, or Dreadnoughts; plus one unit of Grotz. Light vehicles and Dreadnoughts count as two units each. A maximum of one unit of Big Gunz may be transported."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Kart."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Krooz Missiles",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Krooz Missile",
+          "range": "Unlimited",
+          "firepower": "MW3+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Krusha",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Krusha",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+D3)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lifta-Droppa",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Lifta-Droppa",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Lifta-Droppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Lifta-Droppa."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Loadz o' Guns",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2-4x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Skorcha",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "0-1x Skorcha",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "0-1x Flak Gun",
+          "range": "30cm",
+          "firepower": "2x AP6+/AT6+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Armed with four Big Guns, one of which may be replaced with a Skorcha and another of which may be replaced with a Flak Gun."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Loadz o' Guns."
+      ],
+      "ambiguity_reasons": [
+        "2-4x Big Gun",
+        "0-1x Skorcha",
+        "0-1x Flak Gun"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Mega-Choppa",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Mega-Choppa",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Mega-Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Mega-Choppa."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mega-Lobba",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Mega-Lobba",
+          "range": "60cm",
+          "firepower": "D3+3BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mekboy Big Boss",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Kustom Blastas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Oddboy",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Supa-Zzap-Gun",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 Power Fields."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "0-1x Supa-Zzap-Gun",
+        "0-1x Soopagun"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Ordz Duruk",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "D3 Power Fields"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Ordz Duruk."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Soopagun",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Snappa",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Snappa",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Snappa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Snappa."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supa-Lifta-Droppa",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Supa-Lifta-Droppa",
+          "range": "45cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK(D6)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supa-Zzap-Gun",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Supa-Zzap-Gun",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Twin Soopagun",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Soopagun",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ultra-Lobba",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Ultra-Lobba",
+          "range": "60cm",
+          "firepower": "2D3+3BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Big Gunz",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grotz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Formations that include at least one Ork unit don't count Grot units that are lost in an assault when working out who has won the combat."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nobz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Choppas",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deth Kopta",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Kombat Klaws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flakwagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Flak Gun",
+          "range": "30cm",
+          "firepower": "2x AP6+/AT6+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted ."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Killa Kan",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Kombat Klaws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stompa",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2-3x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Kombat 'Ammer",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Kombat 'Ammer",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Stompa."
+      ],
+      "ambiguity_reasons": [
+        "2-3x Big Gun",
+        "0-1x Kombat 'Ammer",
+        "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Battlefortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "4x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport eight infantry units without Jump Packs or Mounted ; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "D3+3 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Gargant.",
+        "Incomplete weapon line in Gargant."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Great Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "0-2x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-2x Skorcha",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "0-2x Skorcha",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 12",
+        "Fearless",
+        "D6+6 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either two Big Guns or Skorchas, or one of each. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Great Gargant.",
+        "Incomplete weapon line in Great Gargant.",
+        "Incomplete weapon line in Great Gargant."
+      ],
+      "ambiguity_reasons": [
+        "0-2x Big Gun",
+        "0-2x Skorcha",
+        "Armed with either two Big Guns or Skorchas, or one of each. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Gunfortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "5x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "3x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport four infantry units without Jump Packs or Mounted ; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mega Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "Mega-Cannon",
+          "range": "75cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "7x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Krooz Missile",
+          "range": "Unlimited",
+          "firepower": "MW3+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Supa-Zzap-Gun",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Supa-Lifta-Droppa",
+          "range": "45cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FxF",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Fist of Gork",
+          "range": "45cm",
+          "firepower": "MW5+/AA5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "2x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Krusha",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+D3)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 16",
+        "Fearless",
+        "D6+6 Power Fields",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Walker",
+        "May transport 32 infantry units without Jump Packs or Mounted , light vehicle units, Killa Kans, or Dreadnoughts; plus 16 units of Grotz. Big Gunz, light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supa-Stompa",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "D3 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Supa-Stompa.",
+        "Incomplete weapon line in Supa-Stompa."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Fighta Bommer",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Heavy Shootas",
+          "range": "15cm",
+          "firepower": "AP5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Tankbusta Rokkits",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bommer",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Gun Turrets",
+          "range": "15cm",
+          "firepower": "D6+3x AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "Blasta Bombs",
+          "range": "15cm",
+          "firepower": "D3+1BP",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlekroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+3BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport twelve Landas and the units being carried on them."
+      ],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kill Kroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+1BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Gargant Mob Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Ork army that is based on Orkimedes’ Gargant Big Mob that fought in the Third War for Armageddon. It can also be used as a stand in army list for other Gargant mobs as well.\nOrkimedes’ Gargant Big Mob formations come in three types: Gargant , support and aircraft formations . Each Gargant formation you include in the army allows you to field any three support or aircraft formations. Additionally, no more than one third of the points available can be spent on aircraft formations. Although you can only take a support or aircraft formation if you first take a Gargant formation, they are treated as separate independent formations during a battle and do not have to move around together.\nUnlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The different types of Ork formations you may choose are shown on the army list that follows, which the following information:\nType\nThe name of the formation.\nCore Units\nThe units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’uge formation.\nEach Gargant, Great Gargant ans Soopa-Stompa comes with exactly three Gargant and/or Supa-Stompa Weapons. The cost of these are found in the Gargant and Soopa-Stompa Weapon charts and are not included in the cost for the formation. They are manditory upgrades that the formation must take and pay for.\nCost\nMost Ork formations have three values. The first value is the cost for the basic formation, the second is its cost if it is a big formation, and the third value is its cost if it is a ’uge formation. If the formation only has one cost then it may not be increased in size.\nUpgrades\nAn Ork formation may include upgrades. Which upgrades a formation may be given are listed in the Upgrades column. Each upgrade that is taken adds to the cost of the formation, as shown on the Gargant Mob Weapons and Upgrades charts. You may include any number of upgrades in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Loota Warband can include 0–1 Oddboy, a big can include 0–2, and a ’uge 0–3. All of the core units and upgrades in an Ork formation count as being part of one large formation. The different units may not move off on their own."
+    }
+  ],
+  "extraction_warnings": []
+}

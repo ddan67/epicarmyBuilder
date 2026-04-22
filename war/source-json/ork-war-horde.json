@@ -1,0 +1,1059 @@
+{
+  "metadata": {
+    "army_name": "Ghazghkull Mag Uruk Thraka’s Ork War Horde",
+    "source_url": "https://tp.net-armageddon.org/army-lists/ork-war-horde.html",
+    "page_title": "Ghazghkull Mag Uruk Thraka’s Ork War Horde Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "3+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Mob Rule (see Mob Rule ) and Power of the Waaagh! (see Power of the Waaagh! ) rules apply to all Ork formations."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Blitz Brigade",
+      "cost": "150 250 350",
+      "units_text": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Skorcha, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon\nAdd up to one Gunfortress for +125 points\nAdd up to one Oddboy character to a Gunfortress or Gunwagon unit for +50 points",
+      "raw_text": "Blitz Brigade | Any four of the following units: Deth Kopta, Flakwagon, Gunwagon | 150 | 250 | 350",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Kill Kroozer",
+      "cost": "150 n/a n/a",
+      "units_text": "One Kill Kroozer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Replace the Kill Kroozer with a Battlekroozer for +50 points",
+      "raw_text": "0–1 Kill Kroozer | One Kill Kroozer | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Kommando Warhorde",
+      "cost": "150 n/a n/a",
+      "units_text": "Six Kommandos",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy\nAdd any number of Deth Koptas for +35 points each",
+      "raw_text": "Kommando Warhorde | Six Kommandos | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Kult Of Speed",
+      "cost": "200 350 500",
+      "units_text": "Any eight of the following units: Skorcha, Warbikes, Warbuggy",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Skorcha, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon\nAdd up to one Oddboy character to a Gunwagon unit for +50 points",
+      "raw_text": "Kult Of Speed | Any eight of the following units: Skorcha, Warbikes, Warbuggy | 200 | 350 | 500",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mekboy Gunzmob",
+      "cost": "125 225 325",
+      "units_text": "Five Big Gunz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Battlewagon, Big Gunz\nAdd any number of Flakwagons for +35 points each\nAdd up to one Nobz for +35 points\nAdd up to one Oddboy character to a Big Gunz unit for +50 points",
+      "raw_text": "Mekboy Gunzmob | Five Big Gunz | 125 | 225 | 325",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mekboy Stompamob",
+      "cost": "175 300 425",
+      "units_text": "Three Stompas",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of Kill Kans for +25 points each\nAdd any number of the following units for +35 points each: Dreadnought, Flakwagon\nAdd any number of Stompas for +50 points each\nAdd up to one Supa-Stompa for +275 points",
+      "raw_text": "Mekboy Stompamob | Three Stompas | 175 | 300 | 425",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Stormboyz Warhorde",
+      "cost": "150 n/a n/a",
+      "units_text": "Six Stormboyz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy\nAdd any number of Deth Koptas for +35 points each",
+      "raw_text": "Stormboyz Warhorde | Six Stormboyz | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warband",
+      "cost": "200 350 500",
+      "units_text": "Two Nobz, six Boyz and two Grotz",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add any number of the following units for +25 points each: Battlewagon, Big Gunz, Boyz and an optional Grotz, Killa Kan, Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy\nAdd any number of the following units for +35 points each: Deth Kopta, Dreadnought, Flakwagon, Gunwagon\nAdd up to two Nobz for +35 points each\nAdd any number of Stompas for +50 points each\nAdd any number of Battlefortresses for +115 points each\nAdd any number of Gunfortresses for +125 points each\nAdd up to one Oddboy character to a Battlefortresses, Big Gunz, Gunfortress or Gunwagon unit for +50 points",
+      "raw_text": "Warband | Two Nobz, six Boyz and two Grotz | 200 | 350 | 500",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Fighta Sqwadron",
+      "cost": "150 n/a n/a",
+      "units_text": "Three Fighta Bommers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to six Fighta Bommers for +50 points each",
+      "raw_text": "Fighta Sqwadron | Three Fighta Bommers | 150 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Gargant",
+      "cost": "650 n/a n/a",
+      "units_text": "One Gargant",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None",
+      "raw_text": "Gargant | One Gargant | 650 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Great Gargant",
+      "cost": "850 n/a n/a",
+      "units_text": "One Great Gargant",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None",
+      "raw_text": "Great Gargant | One Great Gargant | 850 | n/a | n/a",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Landa",
+      "cost": "200 n/a n/a",
+      "units_text": "One Landa",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "None",
+      "raw_text": "Landa | One Landa | 200 | n/a | n/a",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Oddboy",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Supa-Zzap-Gun",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 Power Fields."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "0-1x Supa-Zzap-Gun",
+        "0-1x Soopagun"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Warlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Big Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Big Gunz",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boyz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grotz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Formations that include at least one Ork unit don't count Grot units that are lost in an assault when working out who has won the combat."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kommandos",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nobz",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Choppas",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormboyz",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Shootas",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Scout"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Twin Sawn-Off Big Shoota",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deth Kopta",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skorcha",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Skorcha",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbuggy",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlewagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ; only one of the two units may be a Big Gunz; plus one unit of Grotz."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Kombat Klaws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flakwagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Flak Gun",
+          "range": "30cm",
+          "firepower": "2x AP6+/AT6+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted ."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gunwagon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted ."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Killa Kan",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Big Shoota",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Kombat Klaws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stompa",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2-3x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Kombat 'Ammer",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Kombat 'Ammer",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Stompa."
+      ],
+      "ambiguity_reasons": [
+        "2-3x Big Gun",
+        "0-1x Kombat 'Ammer",
+        "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Battlefortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "4x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport eight infantry units without Jump Packs or Mounted ; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "2-3x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Supa-Zzap-Gun",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Mega-Choppa",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "0-1x Mega-Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "D3+3 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either three Soopaguns, or two Soopaguns and one of the following: Mega-Choppa, Supa-Zzap-Gun. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Gargant."
+      ],
+      "ambiguity_reasons": [
+        "2-3x Soopagun",
+        "0-1x Supa-Zzap-Gun",
+        "0-1x Mega-Choppa",
+        "Armed with either three Soopaguns, or two Soopaguns and one of the following: Mega-Choppa, Supa-Zzap-Gun. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Great Gargant",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "2x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "1-2x Twin Soopagun",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Lifta-Droppa",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Lifta-Droppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 12",
+        "Fearless",
+        "D6+6 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Great Gargant."
+      ],
+      "ambiguity_reasons": [
+        "1-2x Twin Soopagun",
+        "0-1x Lifta-Droppa",
+        "Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Gunfortress",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "5x Twin Big Shoota",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "3x Big Gun",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Transport",
+        "May transport four infantry units without Jump Packs or Mounted ; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supa-Stompa",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Mork",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "2-3x Soopagun",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Mega-Choppa",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "0-1x Mega-Choppa",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "D3 Power Fields",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either three Soopaguns, or two Soopaguns and a Mega-Choppa. Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Supa-Stompa."
+      ],
+      "ambiguity_reasons": [
+        "2-3x Soopagun",
+        "0-1x Mega-Choppa",
+        "Armed with either three Soopaguns, or two Soopaguns and a Mega-Choppa. Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Fighta Bommer",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Heavy Shootas",
+          "range": "15cm",
+          "firepower": "AP5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Tankbusta Rokkits",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Landa",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gun Turrets",
+          "range": "15cm",
+          "firepower": "D6+3x AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "2x Tankbusta Rokkits",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May transport ten infantry units (except Big Gunz), light vehicle units, Killa Kans or Dreadnoughts; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battlekroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+3BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport twelve Landas and the units being carried on them."
+      ],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kill Kroozer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "D6+1BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ork Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:\nType\nThe name of the formation.\nCore Units\nThe units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’uge formation.\nCost\nMost Ork formations have three values. The first value is the cost for the basic formation, the second is its cost if it is a big formation, and the third value is its cost if it is a ’uge formation. If the formation only has one cost then it may not be increased in size. Up to one third of the points available to an Ork army can be spent on aircraft and Gargants.\nExtra Units\nAn Ork formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a ’uge Kult of Speed can include 0–3. All of the core, extra, and free units in an Ork formation count as being part of one large formation. The different units may not move off on their own."
+    }
+  ],
+  "extraction_warnings": []
+}
