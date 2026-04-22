@@ -113,6 +113,19 @@ function getUrl(url, redirectCount) {
 	});
 }
 
+async function getUrlWithRetry(url, attempts) {
+	let lastError = null;
+	for (let i = 0; i < attempts; i += 1) {
+		try {
+			return await getUrl(url, 0);
+		}
+		catch (error) {
+			lastError = error;
+		}
+	}
+	throw lastError;
+}
+
 function decodeEntities(text) {
 	return text
 		.replace(/&nbsp;/gi, ' ')
@@ -142,33 +155,26 @@ function stripTags(html) {
 		.trim();
 }
 
-function parseTables(html) {
+function htmlToLines(html) {
 	const cleaned = html
 		.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
-		.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '');
-	const tables = [];
-	const tableRegex = /<table\b[^>]*>([\s\S]*?)<\/table>/gi;
-	let tableMatch;
-	while ((tableMatch = tableRegex.exec(cleaned))) {
-		const rows = [];
-		const rowRegex = /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi;
-		let rowMatch;
-		while ((rowMatch = rowRegex.exec(tableMatch[1]))) {
-			const cells = [];
-			const cellRegex = /<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi;
-			let cellMatch;
-			while ((cellMatch = cellRegex.exec(rowMatch[1]))) {
-				cells.push(stripTags(cellMatch[2]));
-			}
-			if (cells.length) {
-				rows.push(cells);
-			}
-		}
-		if (rows.length) {
-			tables.push(rows);
-		}
-	}
-	return tables;
+		.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '')
+		.replace(/<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi, '')
+		.replace(/<br\s*\/?>/gi, '\n')
+		.replace(/<li\b[^>]*>/gi, '\n* ')
+		.replace(/<\/li>/gi, '\n')
+		.replace(/<h[1-6]\b[^>]*>/gi, '\n## ')
+		.replace(/<\/h[1-6]>/gi, '\n')
+		.replace(/<(?:p|div|section|article|table|tr|ul|ol|blockquote|main|header|footer)\b[^>]*>/gi, '\n')
+		.replace(/<\/(?:p|div|section|article|table|tr|ul|ol|blockquote|main|header|footer)>/gi, '\n')
+		.replace(/<[^>]+>/g, ' ');
+	return decodeEntities(cleaned)
+		.replace(/\r/g, '')
+		.split('\n')
+		.map(function(line) {
+			return line.replace(/\s+/g, ' ').trim();
+		})
+		.filter(Boolean);
 }
 
 function normalizeBasic(value) {
@@ -234,36 +240,155 @@ function rowLooksStatLike(cells) {
 	return statHits.length >= 4;
 }
 
-function extractCandidateRows(html) {
-	return parseTables(html).reduce(function(allRows, table) {
-		return allRows.concat(table.filter(rowLooksStatLike));
-	}, []);
+function isDatasheetSection(line) {
+	return /^##\s+.+(forces|positions)$/i.test(line);
 }
 
-function inferSourceProfileFromRow(profileName, row) {
-	if (!row || row.length < 6) {
+function isTypeToken(value) {
+	return /^(INF|AV|WE|LV|AC|SC|CH|FORT)$/i.test(value);
+}
+
+function isSpeedToken(value) {
+	return /^(?:\d+cm|0cm|-|n\/a|Bomber|Fighter-Bomber|Fighter|Spacecraft)$/i.test(value);
+}
+
+function isStatToken(value) {
+	return /^(?:\d+\+|-|n\/a)$/i.test(value);
+}
+
+function parseProfileHeaderAt(lines, index) {
+	if (index + 5 >= lines.length) {
 		return null;
 	}
-	const inferred = {
-		name: row[0],
-		type: row[1],
-		speed: row[2],
-		armour: row[3],
-		cc: row[4],
-		ff: row[5],
-		weapons: [],
-		abilities: []
+	if (!isTypeToken(lines[index + 1])) {
+		return null;
+	}
+	if (!isSpeedToken(lines[index + 2])) {
+		return null;
+	}
+	if (!isStatToken(lines[index + 3]) || !isStatToken(lines[index + 4]) || !isStatToken(lines[index + 5])) {
+		return null;
+	}
+	return {
+		name: lines[index],
+		type: lines[index + 1],
+		speed: lines[index + 2],
+		armour: lines[index + 3],
+		cc: lines[index + 4],
+		ff: lines[index + 5]
 	};
-	if (row[6]) {
-		inferred.weapons = [normalizeBasic(row[6])];
+}
+
+function isWeaponLine(line) {
+	return /(?:\d+cm|\(\d+cm\)|\(bc\)|\bbc\b|n\/a)$/i.test(line) && !/^critical hit effect:/i.test(line);
+}
+
+function normalizeBullet(line) {
+	return line.replace(/^[*-]\s*/, '').trim();
+}
+
+function parseProfileBlock(header, blockLines, section) {
+	const profile = {
+		name: header.name,
+		type: header.type,
+		speed: header.speed,
+		armour: header.armour,
+		cc: header.cc,
+		ff: header.ff,
+		weapons: [],
+		abilities: [],
+		sourceSection: section
+	};
+
+	for (let i = 0; i < blockLines.length; i += 1) {
+		const line = blockLines[i];
+		if (/^[*-]\s+/.test(line)) {
+			profile.abilities.push(normalizeBullet(line));
+			continue;
+		}
+		if (isWeaponLine(line)) {
+			const weapon = {
+				name: line,
+				range: '',
+				firepower: '',
+				notes: []
+			};
+			const weaponMatch = line.match(/^(.*?)\s+(\d+cm|\(\d+cm\)|\(bc\)|bc|n\/a)$/i);
+			if (weaponMatch) {
+				weapon.name = weaponMatch[1];
+				weapon.range = weaponMatch[2];
+			}
+			if (i + 1 < blockLines.length && !/^[*-]\s+/.test(blockLines[i + 1]) && !isWeaponLine(blockLines[i + 1]) && !parseProfileHeaderAt(blockLines, i + 1)) {
+				weapon.firepower = blockLines[i + 1];
+				i += 1;
+			}
+			while (i + 1 < blockLines.length && /^[*-]\s+/.test(blockLines[i + 1])) {
+				weapon.notes.push(normalizeBullet(blockLines[i + 1]));
+				i += 1;
+			}
+			while (i + 1 < blockLines.length && /^or\b/i.test(blockLines[i + 1])) {
+				weapon.notes.push(blockLines[i + 1]);
+				i += 1;
+				if (i + 1 < blockLines.length && !/^[*-]\s+/.test(blockLines[i + 1]) && !isWeaponLine(blockLines[i + 1]) && !parseProfileHeaderAt(blockLines, i + 1)) {
+					weapon.notes.push(blockLines[i + 1]);
+					i += 1;
+				}
+				while (i + 1 < blockLines.length && /^[*-]\s+/.test(blockLines[i + 1])) {
+					weapon.notes.push(normalizeBullet(blockLines[i + 1]));
+					i += 1;
+				}
+			}
+			profile.weapons.push(weapon);
+			continue;
+		}
+		profile.abilities.push(line);
 	}
-	if (row[7]) {
-		inferred.abilities = row.slice(7).join(' | ').split(/\s*\|\s*/).map(normalizeBasic).filter(Boolean);
+
+	return profile;
+}
+
+function extractProfilesFromSection(lines, section) {
+	const profiles = [];
+	for (let i = 0; i < lines.length; i += 1) {
+		const header = parseProfileHeaderAt(lines, i);
+		if (!header) {
+			continue;
+		}
+		let nextIndex = i + 6;
+		while (nextIndex < lines.length && !parseProfileHeaderAt(lines, nextIndex)) {
+			nextIndex += 1;
+		}
+		profiles.push(parseProfileBlock(header, lines.slice(i + 6, nextIndex), section));
+		i = nextIndex - 1;
 	}
-	if (normalizeLabel(inferred.name) !== normalizeLabel(profileName)) {
-		return null;
+	return profiles;
+}
+
+function extractCandidateRows(html) {
+	const lines = htmlToLines(html);
+	const profiles = [];
+	let currentSection = '';
+	let currentSectionLines = [];
+
+	function flushSection() {
+		if (currentSection && isDatasheetSection(`## ${currentSection}`)) {
+			profiles.push.apply(profiles, extractProfilesFromSection(currentSectionLines, currentSection));
+		}
+		currentSectionLines = [];
 	}
-	return inferred;
+
+	lines.forEach(function(line) {
+		if (/^##\s+/.test(line)) {
+			flushSection();
+			currentSection = line.replace(/^##\s+/, '');
+			return;
+		}
+		if (currentSection) {
+			currentSectionLines.push(line);
+		}
+	});
+	flushSection();
+	return profiles;
 }
 
 function compareArrays(localArray, sourceArray) {
@@ -278,35 +403,46 @@ function compareArrays(localArray, sourceArray) {
 	return true;
 }
 
+function buildSourceComparable(profile) {
+	return {
+		name: normalizeBasic(profile.name),
+		type: normalizeBasic(profile.type),
+		speed: normalizeBasic(profile.speed),
+		armour: normalizeBasic(profile.armour),
+		cc: normalizeBasic(profile.cc),
+		ff: normalizeBasic(profile.ff),
+		weapons: flattenWeapons(profile.weapons),
+		abilities: normalizeAbilityList(profile.abilities)
+	};
+}
+
 function compareProfile(profileKey, profile, sourceRows) {
 	const local = buildLocalComparable(profile);
-	const row = sourceRows.find(function(candidate) {
-		return normalizeLabel(candidate[0]) === normalizeLabel(profile.name);
+	const candidates = sourceRows.filter(function(candidate) {
+		return normalizeLabel(candidate.name) === normalizeLabel(profile.name);
 	});
-	if (!row) {
+	if (!candidates.length) {
 		return {
 			status: 'unverifiable',
 			reason: 'no_confident_source_row'
 		};
 	}
-	const source = inferSourceProfileFromRow(profile.name, row);
-	if (!source) {
-		return {
-			status: 'unverifiable',
-			reason: 'row_parse_not_confident'
-		};
+	let source = candidates[0];
+	let sourceComparable = buildSourceComparable(source);
+	if (candidates.length > 1) {
+		let bestScore = Infinity;
+		candidates.forEach(function(candidate) {
+			const comparable = buildSourceComparable(candidate);
+			const score = ['type', 'speed', 'armour', 'cc', 'ff'].reduce(function(total, field) {
+				return total + (local[field] === comparable[field] ? 0 : 1);
+			}, 0);
+			if (score < bestScore) {
+				bestScore = score;
+				source = candidate;
+				sourceComparable = comparable;
+			}
+		});
 	}
-
-	const sourceComparable = {
-		name: normalizeBasic(source.name),
-		type: normalizeBasic(source.type),
-		speed: normalizeBasic(source.speed),
-		armour: normalizeBasic(source.armour),
-		cc: normalizeBasic(source.cc),
-		ff: normalizeBasic(source.ff),
-		weapons: source.weapons,
-		abilities: normalizeAbilityList(source.abilities)
-	};
 
 	const mismatches = [];
 	['name', 'type', 'speed', 'armour', 'cc', 'ff'].forEach(function(field) {
@@ -348,7 +484,7 @@ function compareProfile(profileKey, profile, sourceRows) {
 }
 
 async function fetchSourceRows(url) {
-	const html = await getUrl(url, 0);
+	const html = await getUrlWithRetry(url, 3);
 	return extractCandidateRows(html);
 }
 
