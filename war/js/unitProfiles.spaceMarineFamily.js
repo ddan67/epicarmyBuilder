@@ -36,18 +36,31 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 		whirlwind:{name:'Whirlwind',type:'AV',speed:'25cm',armour:'5+',cc:'6+',ff:'5+',weapons:[{name:'Whirlwind Missile Launcher',range:'60cm',firepower:'1BP',notes:['Ind']}],abilities:[]},
 		hunter:{name:'Hunter',type:'AV',speed:'25cm',armour:'5+',cc:'6+',ff:'5+',weapons:[{name:'Hunter-Killer Missiles',range:'45cm',firepower:'AA4+',notes:[]}],abilities:[]},
 		dreadnought:{name:'Dreadnought',type:'AV',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Assault Cannon',range:'30cm',firepower:'AP5+/AT6+',notes:[]},{name:'Power Fist',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)','MW']}],abilities:['Walker']},
+		venerable_dreadnought:{name:'Venerable Dreadnought',type:'AV',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Assault Cannon',range:'30cm',firepower:'AP5+/AT6+',notes:[]},{name:'Power Fist',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)','MW']}],abilities:['Walker','Leader']},
 		dreadnought_hellfire:{name:'Dreadnought (Hellfire config.)',type:'AV',speed:'15cm',armour:'4+',cc:'5+',ff:'4+',weapons:[{name:'Hellfire Missiles',range:'45cm',firepower:'1BP',notes:['Ind']}],abilities:['Walker']},
+		vulcan_dreadnought:{name:'Vulcan Dreadnought',type:'AV',speed:'15cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Twin Heavy Flamers',range:'15cm',firepower:'AP4+',notes:['IC']},{name:'Power Fist',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)','MW']}],abilities:['Walker']},
 		land_raider:{name:'Land Raider',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Twin Lascannon',range:'45cm',firepower:'AT4+',notes:[]},{name:'Heavy Bolter',range:'30cm',firepower:'AP5+',notes:[]}],abilities:['Reinforced Armour','Transport']},
 		land_raider_crusader:{name:'Land Raider Crusader',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Hurricane Bolters',range:'30cm',firepower:'AP5+',notes:[]},{name:'Assault Cannon',range:'30cm',firepower:'AP5+/AT6+',notes:[]}],abilities:['Reinforced Armour','Transport']},
 		land_raider_achilles:{name:'Land Raider Achilles',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Thunderfire Cannon',range:'45cm',firepower:'1BP',notes:['Ind']}],abilities:['Reinforced Armour','Transport']},
 		land_raider_redeemer:{name:'Land Raider Redeemer',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Flamestorm Cannons',range:'15cm',firepower:'AP3+',notes:['IC']}],abilities:['Reinforced Armour','Transport']},
 		land_raider_helios:{name:'Land Raider Helios',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Helios Missile Launcher',range:'60cm',firepower:'1BP / AA5+',notes:['Ind']}],abilities:['Reinforced Armour','Transport']},
 		land_raider_prometheus:{name:'Land Raider Prometheus',type:'AV',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Quad Heavy Bolters',range:'30cm',firepower:'AP5+',notes:[]}],abilities:['Reinforced Armour','Transport','Commander']},
+		landing_craft:{name:'Landing Craft',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Battle Cannon',range:'75cm',firepower:'AP4+/AT4+',notes:['FxF']}],abilities:['Damage Capacity 3','Planetfall','Reinforced Armour','Transport']},
+		strike_cruiser:{name:'Strike Cruiser',type:'SC',speed:'n/a',armour:'n/a',cc:'n/a',ff:'n/a',weapons:[{name:'Orbital Bombardment',range:'n/a',firepower:'D3BP',notes:['MW']}],abilities:['Slow and Steady']},
+		battle_barge:{name:'Battle Barge',type:'SC',speed:'n/a',armour:'n/a',cc:'n/a',ff:'n/a',weapons:[{name:'Orbital Bombardment',range:'n/a',firepower:'D6BP',notes:['MW']}],abilities:['Slow and Steady','Transport']},
 		thunderhawk:{name:'Thunderhawk',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Battle Cannon',range:'75cm',firepower:'AP4+/AT4+',notes:['FxF']}],abilities:['Damage Capacity 2','Planetfall','Transport']},
 		thunderhawk_sat:{name:'Thunderhawk (Saturation Bombing configuration)',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Bomb Racks',range:'15cm',firepower:'3BP',notes:['FxF']}],abilities:['Damage Capacity 2','Planetfall','Transport']},
 		thunderhawk_cas:{name:'Thunderhawk (Close Air Support configuration)',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Close Air Support Weapons',range:'30cm',firepower:'AP4+/AT5+',notes:['FxF']}],abilities:['Damage Capacity 2','Planetfall','Transport']},
+		thunderhawk_transporter:{name:'Thunderhawk Transporter',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Battle Cannon',range:'75cm',firepower:'AP4+/AT4+',notes:['FxF']}],abilities:['Damage Capacity 2','Planetfall','Transport']},
+		thunderbolt_fighter:{name:'Thunderbolt Fighter',type:'AC Fighter-Bomber',speed:'n/a',armour:'6+',cc:'n/a',ff:'n/a',weapons:[{name:'Multilaser',range:'30cm',firepower:'AP5+/AT6+/AA5+',notes:['FxF']},{name:'Underwing Rockets',range:'30cm',firepower:'AT4+',notes:['FxF']},{name:'Storm Bolters',range:'15cm',firepower:'AP4+/AA5+',notes:['FxF']}],abilities:[]},
+		marauder_bomber:{name:'Marauder Bomber',type:'AC Bomber',speed:'n/a',armour:'4+',cc:'n/a',ff:'n/a',weapons:[{name:'Twin Lascannon',range:'45cm',firepower:'AT4+/AA4+',notes:['FxF']},{name:'Bomb Racks',range:'15cm',firepower:'3BP',notes:['FxF']},{name:'2× Twin Heavy Bolter',range:'15cm',firepower:'AA5+',notes:[]}],abilities:[]},
+		storm_talon_gunship:{name:'Storm Talon Gunship',type:'AC Fighter-Bomber',speed:'n/a',armour:'5+',cc:'n/a',ff:'n/a',weapons:[{name:'Assault Cannon',range:'30cm',firepower:'AP5+/AT6+',notes:['FxF']},{name:'Skyhammer Missiles',range:'30cm',firepower:'AT4+/AA5+',notes:['FxF']}],abilities:[]},
+		storm_eagle:{name:'Storm Eagle',type:'AC/WE',speed:'n/a',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Vengeance Launcher',range:'45cm',firepower:'AP4+/AT5+',notes:['FxF']},{name:'Twin Multi-melta',range:'15cm',firepower:'AT4+',notes:['FxF','MW']}],abilities:['Damage Capacity 2','Planetfall','Transport']},
 		thunderfire_cannon:{name:'Thunderfire Cannon',type:'INF',speed:'10cm',armour:'-',cc:'6+',ff:'5+',weapons:[{name:'Thunderfire',range:'45cm',firepower:'1BP',notes:['Ind']}],abilities:[]},
 		rapier:{name:'Rapier',type:'INF',speed:'10cm',armour:'-',cc:'6+',ff:'5+',weapons:[{name:'Laser Destroyer',range:'45cm',firepower:'AP6+/AT4+',notes:[]}],abilities:[]},
+		centurion:{name:'Centurion',type:'INF',speed:'10cm',armour:'4+',cc:'4+',ff:'4+',weapons:[{name:'Heavy Bolters',range:'30cm',firepower:'AP5+',notes:[]},{name:'Siege Drills',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)']}],abilities:['Reinforced Armour']},
+		hyperios_platform:{name:'Hyperios Platform',type:'INF',speed:'0cm',armour:'5+',cc:'6+',ff:'5+',weapons:[{name:'Hyperios Missiles',range:'60cm',firepower:'AA4+',notes:[]}],abilities:['Immobile']},
+		tarantula_sentry_gun:{name:'Tarantula Sentry Gun',type:'INF',speed:'0cm',armour:'5+',cc:'6+',ff:'5+',weapons:[{name:'Twin Heavy Bolter',range:'30cm',firepower:'AP5+',notes:[]}],abilities:['Immobile']},
 		fellblade:{name:'Fellblade',type:'WE',speed:'25cm',armour:'4+',cc:'6+',ff:'4+',weapons:[{name:'Fellblade Cannon',range:'75cm',firepower:'AP4+/AT4+',notes:[]}],abilities:['Damage Capacity 2','Reinforced Armour']},
 		bastion:{name:'Bastion',type:'Fortification',speed:'n/a',armour:'4+',cc:'n/a',ff:'5+',weapons:[{name:'Heavy Bolters',range:'30cm',firepower:'AP5+',notes:[]}],abilities:['Immobile']},
 		blood_claws:{name:'Blood Claws',type:'INF',speed:'15cm',armour:'4+',cc:'3+',ff:'5+',weapons:[{name:'Bolt Pistols and Chainswords',range:'15cm/base',firepower:'Small Arms / Assault Weapons',notes:['EA(+1)']}],abilities:[]},
@@ -59,25 +72,45 @@ ArmyforgeUnitProfiles.spaceMarineFamily = {
 		fenrisian_wolves:{name:'Fenrisian Wolves',type:'INF',speed:'20cm',armour:'6+',cc:'4+',ff:'-',weapons:[{name:'Teeth and Claws',range:'base contact',firepower:'Assault Weapons',notes:['EA(+1)']}],abilities:['Infiltrator']}
 	},
 	nameToKey: {
-		'tactical marines':'tactical_marines','tactical units':'tactical_marines','tacticals':'tactical_marines','salamander tactical units':'tactical_marines',
-		'assault marines':'assault_marines','assault units':'assault_marines',
-		'devastators':'devastators','devastator units':'devastators','salamander devastator units':'devastators',
-		'scouts':'scouts','scout units':'scouts','sniper':'scouts','snipers':'scouts','wolf scouts':'wolf_scouts',
-		'terminators':'terminators','terminator units':'terminators','wolf guard terminators':'wolf_guard_terminators',
+		'tactical':'tactical_marines','tactical marine':'tactical_marines','tactical marines':'tactical_marines','tactical unit':'tactical_marines','tactical units':'tactical_marines','tacticals':'tactical_marines','heavy tactical':'tactical_marines','salamander tactical units':'tactical_marines',
+		'assault':'assault_marines','assault marine':'assault_marines','assault marines':'assault_marines','assault unit':'assault_marines','assault units':'assault_marines','assaults':'assault_marines',
+		'devastator':'devastators','devastators':'devastators','devastator unit':'devastators','devastator units':'devastators','salamander devastator units':'devastators',
+		'sternguard veteran':'sternguard_veterans','vanguard assault veteran':'vanguard_veterans','vanguard veteran':'vanguard_veterans',
+		'scout':'scouts','scouts':'scouts','scout unit':'scouts','scout units':'scouts','sniper':'scouts','snipers':'scouts','wolf scout':'wolf_scouts','wolf scouts':'wolf_scouts','wolf scouts pack':'wolf_scouts',
+		'terminator':'terminators','terminators':'terminators','terminator unit':'terminators','terminator units':'terminators','wolf guard terminators':'wolf_guard_terminators',
 		'vanguard veteran units':'vanguard_veterans','vanguard assault veteran units':'vanguard_veterans','sternguard veteran units':'sternguard_veterans',
-		'bike unit':'bikes','bike':'bikes','white scars bikes':'bikes','attack bike':'attack_bike','white scar attack bike':'attack_bike','multi melta attack bike':'attack_bike',
-		'land speeder':'land_speeder','landspeeder':'land_speeder','land speeder tornado':'landspeeder_tornado','landspeeder tornado':'landspeeder_tornado',
+		'bike':'bikes','bikes':'bikes','bike unit':'bikes','bike units':'bikes','bike close assault':'bikes','white scars bikes':'bikes','swiftclaw bikes':'bikes','swiftclaw bikes pack':'bikes','attack bike':'attack_bike','attack bikes':'attack_bike','white scar attack bike':'attack_bike','multi melta attack bike':'attack_bike','multi melta attack bikes':'attack_bike','swiftclaw attack bikes':'attack_bike',
+		'land speeder':'land_speeder','land speeders':'land_speeder','landspeeder':'land_speeder','landspeeders':'land_speeder','land speeder tornado':'landspeeder_tornado','landspeeder tornado':'landspeeder_tornado',
 		'land speeder typhoon':'landspeeder_typhoon','landspeeder typhoon':'landspeeder_typhoon','typhoon':'landspeeder_typhoon','tornado':'landspeeder_tornado',
 		'land speeder storm':'landspeeder_storm','land speeder tempest':'landspeeder_tempest',
-		'rhino':'rhino','rhinos':'rhino','razorback':'razorback_hb','razorbacks':'razorback_hb','razorback twin heavy bolter':'razorback_hb','razorback hb':'razorback_hb','razorback twin laser cannon':'razorback_lc','razorback twin laser canon':'razorback_lc','razorback las':'razorback_lc',
-		'annihilator':'predator_annihilator','predator annihilator':'predator_annihilator','predator anhinilator':'predator_annihilator','destructor':'predator_destructor','predator destructor':'predator_destructor','predator incinerator':'predator_incinerator',
-		'vindicator':'vindicator','white scars vindicator':'vindicator','whirlwind':'whirlwind','whirlwinds':'whirlwind','hunter':'hunter',
-		'dreadnought':'dreadnought','dreadnought power fist config':'dreadnought','hellfire dreadnought':'dreadnought_hellfire','dreadnought hellfire config':'dreadnought_hellfire',
-		'land raider':'land_raider','land raiders':'land_raider','land raider crusader':'land_raider_crusader','land raider achilles':'land_raider_achilles','land raider redeemer':'land_raider_redeemer','land raider helios':'land_raider_helios','land raider prometheus':'land_raider_prometheus',
-		'thunderhawk':'thunderhawk','thunderhawk saturation bombing configuration':'thunderhawk_sat','thunderhawk close air support configuration':'thunderhawk_cas',
-		'thunderfire cannon':'thunderfire_cannon','thunderfire cannons':'thunderfire_cannon','rapier':'rapier','fellblade':'fellblade','bastion':'bastion',
-		'blood claws':'blood_claws','grey hunters':'grey_hunters','long fangs':'long_fangs','skyclaws':'sky_claws','sky claws':'sky_claws','fenrisian wolves':'fenrisian_wolves'
+		'rhino':'rhino','rhinos':'rhino','razorback':'razorback_hb','razorbacks':'razorback_hb','razorback twin heavy bolter':'razorback_hb','razorback hb':'razorback_hb','razorback twin laser cannon':'razorback_lc','razorback twin laser canon':'razorback_lc','razorback twin lascannon':'razorback_lc','razorback las':'razorback_lc',
+		'predator':'predator_destructor','predators':'predator_destructor','annihilator':'predator_annihilator','predator annihilator':'predator_annihilator','predator anhinilator':'predator_annihilator','destructor':'predator_destructor','predator destructor':'predator_destructor','predator incinerator':'predator_incinerator',
+		'vindicator':'vindicator','vindicators':'vindicator','white scars vindicator':'vindicator','whirlwind':'whirlwind','whirlwinds':'whirlwind','whirlwind battery':'whirlwind','hunter':'hunter',
+		'dreadnought':'dreadnought','dreadnought power fist config':'dreadnought','hellfire dreadnought':'dreadnought_hellfire','dreadnought hellfire config':'dreadnought_hellfire','venerable dreadnought':'venerable_dreadnought','vulcan dreadnought':'vulcan_dreadnought',
+		'land raider':'land_raider','land raiders':'land_raider','helios':'land_raider_helios','land raider crusader':'land_raider_crusader','land raider achilles':'land_raider_achilles','land raider redeemer':'land_raider_redeemer','land raider helios':'land_raider_helios','land raider prometheus':'land_raider_prometheus',
+		'landing craft':'landing_craft','strike cruiser':'strike_cruiser','battle barge':'battle_barge',
+		'thunderhawk':'thunderhawk','thunderhawk gunship':'thunderhawk','thunderhawk saturation bombing configuration':'thunderhawk_sat','thunderhawk close air support configuration':'thunderhawk_cas','thunderhawk sb':'thunderhawk_sat','thunderhawk cas':'thunderhawk_cas','thunderhawk transporters':'thunderhawk_transporter','thunderhawk transporter':'thunderhawk_transporter',
+		'thunderbolt fighter':'thunderbolt_fighter','thunderbolt fighters':'thunderbolt_fighter','thunderbolt squadron':'thunderbolt_fighter',
+		'marauder bomber':'marauder_bomber','marauder bombers':'marauder_bomber','marauder squadron':'marauder_bomber',
+		'storm talon':'storm_talon_gunship','storm talons':'storm_talon_gunship','storm talon gunship':'storm_talon_gunship','storm talon squadron':'storm_talon_gunship','storm eagle':'storm_eagle',
+		'thunderfire battery':'thunderfire_cannon','thunderfire cannon':'thunderfire_cannon','thunderfire cannons':'thunderfire_cannon','rapier':'rapier','centurion':'centurion','hyperios platforms':'hyperios_platform','hyperios platform':'hyperios_platform','tarantula sentry guns':'tarantula_sentry_gun','tarantula sentry gun':'tarantula_sentry_gun','fellblade':'fellblade','bastion':'bastion',
+		'blood claws':'blood_claws','blood claws pack':'blood_claws','great company':'grey_hunters','grey hunter':'grey_hunters','grey hunters':'grey_hunters','long fangs':'long_fangs','long fangs pack':'long_fangs','skyclaws':'sky_claws','sky claws':'sky_claws','skyclaws assault':'sky_claws','skyclaws assault pack':'sky_claws','fenrisian wolves':'fenrisian_wolves'
 	}
+};
+
+ArmyforgeUnitProfiles.normalizeSpaceMarineFamilyName = function(displayName) {
+	if (!displayName) {
+		return '';
+	}
+	return displayName.toLowerCase()
+		.replace(/[^a-z0-9\s]/g, ' ')
+		.replace(/\b(one|two|three|four|five|six)\b/g, '')
+		.replace(/\bplus transport\b/g, '')
+		.replace(/\btransport\b/g, '')
+		.replace(/\b(detachment|detachments|pack)\b/g, '')
+		.replace(/\b(space marine|space wolves|salamander|salamanders|white scar|white scars)\b/g, '')
+		.replace(/\s+/g, ' ')
+		.strip();
 };
 
 ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName, listId) {
@@ -87,7 +120,7 @@ ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName = function(displayName,
 	if (listId && !ArmyforgeUnitProfiles.spaceMarineFamily.armyIds.member(listId)) {
 		return null;
 	}
-	var normalized = displayName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').strip();
+	var normalized = ArmyforgeUnitProfiles.normalizeSpaceMarineFamilyName(displayName);
 	var key = ArmyforgeUnitProfiles.spaceMarineFamily.nameToKey[normalized];
 	if (!key) {
 		return null;

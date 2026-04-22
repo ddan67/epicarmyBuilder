@@ -208,17 +208,25 @@ var ArmyforgeUI = {
 			return null;
 		}
 		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
-		if (listId == 'AMTL_knight_world_NETEA' && ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
-			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
-		}
-		if (listId == 'ORK_ghazgkhull_NETEA' && ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
-			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
-		}
-		if (ArmyforgeUnitProfiles.findKnightWorldProfileByName) {
-			return ArmyforgeUnitProfiles.findKnightWorldProfileByName(displayName);
-		}
-		if (ArmyforgeUnitProfiles.findOrkWarHordeProfileByName) {
-			return ArmyforgeUnitProfiles.findOrkWarHordeProfileByName(displayName);
+		var profileFindersByListId = {
+			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
+			'ORK_ghazgkhull_NETEA': ArmyforgeUnitProfiles.findOrkWarHordeProfileByName,
+			'ORK_feral_NETEA': ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName,
+			'ORK_gargant_NETEA': ArmyforgeUnitProfiles.findOrkGargantMobProfileByName,
+			'SM_codex_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_impfists_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_Raven_Guard_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_salamanders_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_scions_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_spacewolves_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName,
+			'SM_scars_NETEA': ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName
+		};
+		var profileFinder = profileFindersByListId[listId];
+		if (profileFinder) {
+			if (profileFinder == ArmyforgeUnitProfiles.findSpaceMarineFamilyProfileByName) {
+				return profileFinder(displayName, listId);
+			}
+			return profileFinder(displayName);
 		}
 		return null;
 	},
