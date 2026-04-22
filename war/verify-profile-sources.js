@@ -8,6 +8,7 @@ const https = require('https');
 const http = require('http');
 
 const WAR_DIR = __dirname;
+const HIGH_CONFIDENCE_ONLY = process.argv.indexOf('--high-confidence') !== -1;
 
 const DATASETS = [
 	{
@@ -213,10 +214,11 @@ function flattenWeapons(weapons) {
 }
 
 function buildLocalComparable(profile) {
+	const header = canonicalizeHeader(profile);
 	return {
 		name: normalizeBasic(profile.name),
-		type: normalizeBasic(profile.type),
-		speed: normalizeBasic(profile.speed),
+		type: header.type,
+		speed: header.speed,
 		armour: normalizeBasic(profile.armour),
 		cc: normalizeBasic(profile.cc),
 		ff: normalizeBasic(profile.ff),
@@ -249,7 +251,7 @@ function isTypeToken(value) {
 }
 
 function isSpeedToken(value) {
-	return /^(?:\d+cm|0cm|-|n\/a|Bomber|Fighter-Bomber|Fighter|Spacecraft)$/i.test(value);
+	return /^(?:\d+cm|0cm|-|n\/a|Bomber|Fighter-Bomber|Fighter|Spacecraft|Walker|Immobile)$/i.test(value);
 }
 
 function isStatToken(value) {
@@ -283,8 +285,69 @@ function isWeaponLine(line) {
 	return /(?:\d+cm|\(\d+cm\)|\(bc\)|\bbc\b|n\/a)$/i.test(line) && !/^critical hit effect:/i.test(line);
 }
 
+function isRangeToken(line) {
+	return /^(?:\d+cm|\(\d+cm\)|\(bc\)|bc|base contact|n\/a|unlimited)$/i.test(normalizeBasic(line));
+}
+
+function isFirepowerToken(line) {
+	return /^(?:small arms|assault weapons|\d+bp|[\d+x×d6+\/atapaa mw tk ic ind fxf fwa slw fs left right d or ss +().\-]+)$/i.test(normalizeBasic(line));
+}
+
+function looksLikeRulesText(line) {
+	const normalized = normalizeBasic(line);
+	return /^critical hit effect:/.test(normalized) ||
+		/^armed with /.test(normalized) ||
+		/^may transport /.test(normalized) ||
+		/^counts as /.test(normalized) ||
+		/^replace /.test(normalized) ||
+		/^formations that include /.test(normalized) ||
+		/^after the /.test(normalized) ||
+		/^if added to /.test(normalized);
+}
+
+function looksLikeOptionText(line) {
+	const normalized = normalizeBasic(line);
+	return /^0[–-]1x /.test(normalized) ||
+		/^\d+[–-]\d+x /.test(normalized) ||
+		/^and$/.test(normalized) ||
+		/^or$/.test(normalized) ||
+		/^armed with either /.test(normalized);
+}
+
 function normalizeBullet(line) {
 	return line.replace(/^[*-]\s*/, '').trim();
+}
+
+function canonicalizeHeader(profile) {
+	const rawType = normalizeBasic(profile.type);
+	const rawSpeed = normalizeBasic(profile.speed);
+	const typeMatch = rawType.match(/^(ac|sc)\s+(bomber|fighter-bomber|fighter|spacecraft)$/);
+	if (typeMatch && (rawSpeed === 'n/a' || rawSpeed === '-')) {
+		return {
+			type: typeMatch[1],
+			speed: typeMatch[2]
+		};
+	}
+	return {
+		type: rawType,
+		speed: rawSpeed
+	};
+}
+
+function isLikelyReferenceCard(profile) {
+	const normalizedName = normalizeBasic(profile.name);
+	if (/household|battery|platoon|squadron|warband|mob|brigade|horde|fortified positions|trench|razor wire/.test(normalizedName)) {
+		return true;
+	}
+	if (/ or /.test(normalizedName) || /\+/.test(normalizedName)) {
+		return true;
+	}
+	if ((profile.abilities || []).some(function(entry) {
+		return /reference card/i.test(entry);
+	})) {
+		return true;
+	}
+	return false;
 }
 
 function parseProfileBlock(header, blockLines, section) {
@@ -297,13 +360,21 @@ function parseProfileBlock(header, blockLines, section) {
 		ff: header.ff,
 		weapons: [],
 		abilities: [],
-		sourceSection: section
+		sourceSection: section,
+		parseConfidence: 'high',
+		parseWarnings: []
 	};
 
 	for (let i = 0; i < blockLines.length; i += 1) {
 		const line = blockLines[i];
 		if (/^[*-]\s+/.test(line)) {
 			profile.abilities.push(normalizeBullet(line));
+			continue;
+		}
+		if (looksLikeOptionText(line)) {
+			profile.parseWarnings.push(`option:${line}`);
+			profile.parseConfidence = 'low';
+			profile.abilities.push(line);
 			continue;
 		}
 		if (isWeaponLine(line)) {
@@ -339,6 +410,32 @@ function parseProfileBlock(header, blockLines, section) {
 				}
 			}
 			profile.weapons.push(weapon);
+			continue;
+		}
+		if (i + 2 < blockLines.length && isRangeToken(blockLines[i + 1]) && isFirepowerToken(blockLines[i + 2])) {
+			const weapon = {
+				name: line,
+				range: blockLines[i + 1],
+				firepower: blockLines[i + 2],
+				notes: []
+			};
+			i += 2;
+			while (i + 1 < blockLines.length && /^[*-]\s+/.test(blockLines[i + 1])) {
+				weapon.notes.push(normalizeBullet(blockLines[i + 1]));
+				i += 1;
+			}
+			profile.weapons.push(weapon);
+			continue;
+		}
+		if (looksLikeRulesText(line)) {
+			profile.parseWarnings.push(`rules:${line}`);
+			profile.abilities.push(line);
+			continue;
+		}
+		if (isRangeToken(line) || isFirepowerToken(line)) {
+			profile.parseWarnings.push(`orphan:${line}`);
+			profile.parseConfidence = 'low';
+			profile.abilities.push(line);
 			continue;
 		}
 		profile.abilities.push(line);
@@ -404,10 +501,11 @@ function compareArrays(localArray, sourceArray) {
 }
 
 function buildSourceComparable(profile) {
+	const header = canonicalizeHeader(profile);
 	return {
 		name: normalizeBasic(profile.name),
-		type: normalizeBasic(profile.type),
-		speed: normalizeBasic(profile.speed),
+		type: header.type,
+		speed: header.speed,
 		armour: normalizeBasic(profile.armour),
 		cc: normalizeBasic(profile.cc),
 		ff: normalizeBasic(profile.ff),
@@ -416,7 +514,35 @@ function buildSourceComparable(profile) {
 	};
 }
 
+function isCanonicalComparableProfile(profile) {
+	if (isLikelyReferenceCard(profile)) {
+		return false;
+	}
+	if (!profile || !profile.weapons || !profile.weapons.length) {
+		return false;
+	}
+	if (profile.parseConfidence !== 'high') {
+		return false;
+	}
+	if ((profile.parseWarnings || []).length) {
+		return false;
+	}
+	return true;
+}
+
+function hasHighConfidenceAbilitySet(profile) {
+	return !(profile.abilities || []).some(function(entry) {
+		return looksLikeRulesText(entry) || looksLikeOptionText(entry);
+	});
+}
+
 function compareProfile(profileKey, profile, sourceRows) {
+	if (isLikelyReferenceCard(profile)) {
+		return {
+			status: 'unverifiable',
+			reason: 'reference_or_mixed_option_profile'
+		};
+	}
 	const local = buildLocalComparable(profile);
 	const candidates = sourceRows.filter(function(candidate) {
 		return normalizeLabel(candidate.name) === normalizeLabel(profile.name);
@@ -427,21 +553,32 @@ function compareProfile(profileKey, profile, sourceRows) {
 			reason: 'no_confident_source_row'
 		};
 	}
-	let source = candidates[0];
+	const canonicalCandidates = candidates.filter(isCanonicalComparableProfile);
+	if (!canonicalCandidates.length) {
+		return {
+			status: 'unverifiable',
+			reason: 'source_row_low_confidence'
+		};
+	}
+	let source = canonicalCandidates[0];
 	let sourceComparable = buildSourceComparable(source);
-	if (candidates.length > 1) {
-		let bestScore = Infinity;
-		candidates.forEach(function(candidate) {
-			const comparable = buildSourceComparable(candidate);
-			const score = ['type', 'speed', 'armour', 'cc', 'ff'].reduce(function(total, field) {
-				return total + (local[field] === comparable[field] ? 0 : 1);
-			}, 0);
-			if (score < bestScore) {
-				bestScore = score;
-				source = candidate;
-				sourceComparable = comparable;
-			}
-		});
+	let bestScore = Infinity;
+	canonicalCandidates.forEach(function(candidate) {
+		const comparable = buildSourceComparable(candidate);
+		const score = ['type', 'speed', 'armour', 'cc', 'ff'].reduce(function(total, field) {
+			return total + (local[field] === comparable[field] ? 0 : 1);
+		}, 0);
+		if (score < bestScore) {
+			bestScore = score;
+			source = candidate;
+			sourceComparable = comparable;
+		}
+	});
+	if (canonicalCandidates.length > 1 && bestScore > 1) {
+		return {
+			status: 'unverifiable',
+			reason: 'multiple_possible_source_rows'
+		};
 	}
 
 	const mismatches = [];
@@ -458,7 +595,7 @@ function compareProfile(profileKey, profile, sourceRows) {
 	if (sourceComparable.weapons.length) {
 		const localWeaponText = local.weapons.join(' || ');
 		const sourceWeaponText = sourceComparable.weapons.join(' || ');
-		if (localWeaponText !== normalizeBasic(sourceWeaponText)) {
+		if (localWeaponText !== sourceWeaponText) {
 			mismatches.push({
 				field: 'weapons',
 				local: profile.weapons,
@@ -467,7 +604,7 @@ function compareProfile(profileKey, profile, sourceRows) {
 		}
 	}
 
-	if (sourceComparable.abilities.length && !compareArrays(local.abilities, sourceComparable.abilities)) {
+	if (hasHighConfidenceAbilitySet(source) && sourceComparable.abilities.length && !compareArrays(local.abilities, sourceComparable.abilities)) {
 		mismatches.push({
 			field: 'abilities',
 			local: profile.abilities,
@@ -475,9 +612,22 @@ function compareProfile(profileKey, profile, sourceRows) {
 		});
 	}
 
+	if (HIGH_CONFIDENCE_ONLY) {
+		const noisyField = mismatches.some(function(mismatch) {
+			return mismatch.field === 'weapons' || mismatch.field === 'abilities';
+		});
+		if (noisyField && mismatches.length === 1) {
+			return {
+				status: 'unverifiable',
+				reason: 'comparison_low_confidence'
+			};
+		}
+	}
+
 	return mismatches.length ? {
 		status: 'mismatch',
-		mismatches: mismatches
+		mismatches: mismatches,
+		confidence: 'high'
 	} : {
 		status: 'ok'
 	};
@@ -557,8 +707,10 @@ function printDatasetReport(report) {
 		}
 		if (entry.result.status === 'unverifiable') {
 			unverifiableCount += 1;
-			console.log(`profile: ${entry.profileKey} :: ${entry.profileName}`);
-			console.log(`  unverifiable: ${entry.result.reason}`);
+			if (!HIGH_CONFIDENCE_ONLY) {
+				console.log(`profile: ${entry.profileKey} :: ${entry.profileName}`);
+				console.log(`  unverifiable: ${entry.result.reason}`);
+			}
 		}
 	});
 
