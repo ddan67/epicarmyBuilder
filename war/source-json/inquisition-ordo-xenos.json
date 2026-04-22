@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "army_name": "Codex Astartes Space Marine",
-    "source_url": "https://tp.net-armageddon.org/army-lists/space-marine-codex-astartes.html",
-    "page_title": "Codex Astartes Space Marine Army List"
+    "army_name": "Ordo Xenos Inquisition",
+    "source_url": "https://tp.net-armageddon.org/army-lists/inquisition-ordo-xenos.html",
+    "page_title": "Ordo Xenos Inquisition Army List"
   },
   "army_stats": {
     "strategy_rating": "5",
     "initiative_rating": {
       "entries": [
         {
-          "scope": "Imperial Navy aircraft formations",
+          "scope": "Inducted Imperial Guard and Inquisitorial support formations, and Imperial Navy aircraft formations",
           "value": "2+"
         },
         {
@@ -22,7 +22,7 @@
   "special_rules": [
     {
       "name": "Special Rules",
-      "text": "The They Shall Know No Fear rule applies to all Codex Astartes detachment formations (see They Shall Know No Fear )."
+      "text": "The They Shall Know No Fear rule applies to all Deathwatch detachment formations (see They Shall Know No Fear )."
     },
     {
       "name": "They Shall Know No Fear",
@@ -34,44 +34,22 @@
       "category": "army_list",
       "entry_type": "formation",
       "name": "Assault",
-      "cost": "175 points",
-      "units_text": "Four Assault units",
-      "upgrades_or_options_text": "Commander, Vindicators",
+      "cost": "225 points",
+      "units_text": "Four Deathwatch Assault units",
+      "upgrades_or_options_text": "Commander, Corvus Blackstars",
       "restrictions_or_notes": null,
-      "raw_text": "Assault | Four Assault units | Commander, Vindicators | 175 points",
+      "raw_text": "Assault | Four Deathwatch Assault units | Commander, Corvus Blackstars | 225 points",
       "parse_warnings": []
     },
     {
       "category": "army_list",
       "entry_type": "formation",
       "name": "Bike",
-      "cost": "150 points",
-      "units_text": "Five Attack Bikes",
-      "upgrades_or_options_text": "Commander, Bikes",
+      "cost": "225 points",
+      "units_text": "Four Deathwatch Bike units",
+      "upgrades_or_options_text": "Commander, Corvus Blackstars",
       "restrictions_or_notes": null,
-      "raw_text": "Bike | Five Attack Bikes | Commander, Bikes | 150 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "army_list",
-      "entry_type": "formation",
-      "name": "Devastator",
-      "cost": "250 points",
-      "units_text": "Four Devastator units plus transport",
-      "upgrades_or_options_text": "Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks",
-      "restrictions_or_notes": null,
-      "raw_text": "Devastator | Four Devastator units plus transport | Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks | 250 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "army_list",
-      "entry_type": "formation",
-      "name": "Land Raider",
-      "cost": "325 points",
-      "units_text": "Four Land Raiders",
-      "upgrades_or_options_text": "Commander, Hunter, Vindicators",
-      "restrictions_or_notes": null,
-      "raw_text": "Land Raider | Four Land Raiders | Commander, Hunter, Vindicators | 325 points",
+      "raw_text": "Bike | Four Deathwatch Bike units | Commander, Corvus Blackstars | 225 points",
       "parse_warnings": []
     },
     {
@@ -79,43 +57,21 @@
       "entry_type": "formation",
       "name": "Land Speeder",
       "cost": "200 points",
-      "units_text": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+      "units_text": "Five Land Speeder Tornadoes",
       "upgrades_or_options_text": "Commander, Typhoons",
-      "restrictions_or_notes": null,
-      "raw_text": "Land Speeder | Any five of the following units: Land Speeder, Land Speeder Tornado | Commander, Typhoons | 200 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "army_list",
-      "entry_type": "formation",
-      "name": "Landing Craft",
-      "cost": "350 points",
-      "units_text": "One Landing Craft",
-      "upgrades_or_options_text": "None",
-      "restrictions_or_notes": null,
-      "raw_text": "Landing Craft | One Landing Craft | None | 350 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "army_list",
-      "entry_type": "formation",
-      "name": "Predator",
-      "cost": "250 points",
-      "units_text": "Any four of the following units: Predator Annihilator, Predator Destructor",
-      "upgrades_or_options_text": "Commander, Hunter, Vindicators",
-      "restrictions_or_notes": null,
-      "raw_text": "Predator | Any four of the following units: Predator Annihilator, Predator Destructor | Commander, Hunter, Vindicators | 250 points",
+      "restrictions_or_notes": "Landing Craft\nOne Landing Craft\n350 points",
+      "raw_text": "Land Speeder | Five Land Speeder Tornadoes | Commander, Typhoons | 200 points",
       "parse_warnings": []
     },
     {
       "category": "army_list",
       "entry_type": "formation",
       "name": "Scout",
-      "cost": "150 points",
-      "units_text": "Four Scout units plus transport",
-      "upgrades_or_options_text": "Commander, Razorbacks, Snipers",
+      "cost": "250 points",
+      "units_text": "Four Deathwatch Scout units plus transport",
+      "upgrades_or_options_text": "Commander, Corvus Blackstars, Razorbacks",
       "restrictions_or_notes": null,
-      "raw_text": "Scout | Four Scout units plus transport | Commander, Razorbacks, Snipers | 150 points",
+      "raw_text": "Scout | Four Deathwatch Scout units plus transport | Commander, Corvus Blackstars, Razorbacks | 250 points",
       "parse_warnings": []
     },
     {
@@ -132,45 +88,78 @@
     {
       "category": "army_list",
       "entry_type": "formation",
-      "name": "Tactical",
-      "cost": "275 points",
-      "units_text": "Six Tactical units plus transport",
-      "upgrades_or_options_text": "Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks, Vindicators",
-      "restrictions_or_notes": null,
-      "raw_text": "Tactical | Six Tactical units plus transport | Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks, Vindicators | 275 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "army_list",
-      "entry_type": "formation",
       "name": "Terminator",
       "cost": "350 points",
-      "units_text": "Four Terminator units",
-      "upgrades_or_options_text": "Commander, Dreadnoughts, Land Raiders, Vindicators",
+      "units_text": "Four Deathwatch Terminator units",
+      "upgrades_or_options_text": "Commander, Corvus Blackstars, Dreadnoughts, Land Raiders",
       "restrictions_or_notes": null,
-      "raw_text": "Terminator | Four Terminator units | Commander, Dreadnoughts, Land Raiders, Vindicators | 350 points",
+      "raw_text": "Terminator | Four Deathwatch Terminator units | Commander, Corvus Blackstars, Dreadnoughts, Land Raiders | 350 points",
       "parse_warnings": []
     },
     {
       "category": "army_list",
       "entry_type": "formation",
-      "name": "Vindicator",
+      "name": "Veterans",
+      "cost": "225 points",
+      "units_text": "Four Deathwatch Veteran units plus transport",
+      "upgrades_or_options_text": "Commander, Corvus Blackstars, Dreadnoughts, Land Raiders, Razorbacks",
+      "restrictions_or_notes": "Inducted Imperial Guard and Inquisitorial Support Formations\n(Any one Inducted Imperial Guard or Inquisitorial support formation may be fielded per each Deathwatch detachment.)",
+      "raw_text": "Veterans | Four Deathwatch Veteran units plus transport | Commander, Corvus Blackstars, Dreadnoughts, Land Raiders, Razorbacks | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Infantry",
+      "cost": "250 points",
+      "units_text": "One Ordo Xenos Inquisitor and twelve Infantry units",
+      "upgrades_or_options_text": "Commissar, Hydra, Inquisitor Lord",
+      "restrictions_or_notes": "(add seven Chimera)\n(+150 points)",
+      "raw_text": "Infantry | One Ordo Xenos Inquisitor and twelve Infantry units | Commissar, Hydra, Inquisitor Lord | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Rough Rider",
+      "cost": "150 points",
+      "units_text": "Six Rough Riders",
+      "upgrades_or_options_text": "Commissar",
+      "restrictions_or_notes": null,
+      "raw_text": "Rough Rider | Six Rough Riders | Commissar | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Sentinel",
+      "cost": "100 points",
+      "units_text": "Four Sentinels",
+      "upgrades_or_options_text": "Commissar",
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinel | Four Sentinels | Commissar | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Storm Trooper",
       "cost": "200 points",
-      "units_text": "Four Vindicators",
-      "upgrades_or_options_text": "Commander, Hunter",
-      "restrictions_or_notes": null,
-      "raw_text": "Vindicator | Four Vindicators | Commander, Hunter | 200 points",
+      "units_text": "One Ordo Xenos Inquisitor, seven Inquisitorial Storm Troopers and four Rhinos",
+      "upgrades_or_options_text": "Commissar, Inquisitor Lord",
+      "restrictions_or_notes": "(replace four Rhinos with four Chimera or Valkyries)\n(+100 or +150 points)",
+      "raw_text": "Storm Trooper | One Ordo Xenos Inquisitor, seven Inquisitorial Storm Troopers and four Rhinos | Commissar, Inquisitor Lord | 200 points",
       "parse_warnings": []
     },
     {
       "category": "army_list",
       "entry_type": "formation",
-      "name": "Whirlwind",
-      "cost": "275 points",
-      "units_text": "Four Whirlwinds",
-      "upgrades_or_options_text": "Commander, Hunter",
-      "restrictions_or_notes": "(Each upgrade may be taken once per detachment.)",
-      "raw_text": "Whirlwind | Four Whirlwinds | Commander, Hunter | 275 points",
+      "name": "Leman Russ",
+      "cost": "400 points",
+      "units_text": "Six Leman Russ",
+      "upgrades_or_options_text": "Commissar, Hydra",
+      "restrictions_or_notes": "Ordo Xenos Upgrades\n(Each upgrade may be taken once per formation.)",
+      "raw_text": "Leman Russ | Six Leman Russ | Commissar, Hydra | 400 points",
       "parse_warnings": []
     },
     {
@@ -180,19 +169,8 @@
       "cost": "+150 points",
       "units_text": "Replace the Strike Cruiser with a Battle Barge",
       "upgrades_or_options_text": null,
-      "restrictions_or_notes": null,
-      "raw_text": "Battle Barge | Replace the Strike Cruiser with a Battle Barge | +150 points",
-      "parse_warnings": []
-    },
-    {
-      "category": "upgrades",
-      "entry_type": "upgrade",
-      "name": "Bikes",
-      "cost": "+10 points each",
-      "units_text": "Replace up to five Attack Bikes with an equal number of Bikes or Mutli-melta Attack Bikes",
-      "upgrades_or_options_text": null,
       "restrictions_or_notes": "Commander\nAdd any one of the following characters to any unit in the formation:\nCaptain, Chaplain, Librarian",
-      "raw_text": "Bikes | Replace up to five Attack Bikes with an equal number of Bikes or Mutli-melta Attack Bikes | +10 points each",
+      "raw_text": "Battle Barge | Replace the Strike Cruiser with a Battle Barge | +150 points",
       "parse_warnings": []
     },
     {
@@ -209,23 +187,45 @@
     {
       "category": "upgrades",
       "entry_type": "upgrade",
-      "name": "Dreadnoughts",
-      "cost": "+50 points each",
-      "units_text": "Add up to two Dreadnoughts",
+      "name": "Commissar",
+      "cost": "+25 points",
+      "units_text": "Add one Commissar character to any unit in the formation",
       "upgrades_or_options_text": null,
       "restrictions_or_notes": null,
-      "raw_text": "Dreadnoughts | Add up to two Dreadnoughts | +50 points each",
+      "raw_text": "Commissar | Add one Commissar character to any unit in the formation | +25 points",
       "parse_warnings": []
     },
     {
       "category": "upgrades",
       "entry_type": "upgrade",
-      "name": "Hunter",
-      "cost": "+75 points",
-      "units_text": "Add one Hunter",
+      "name": "Corvus Blackstars",
+      "cost": "+50 points each",
+      "units_text": "Add any number of Corvus Blackstars, up to the number required to transport the formation",
       "upgrades_or_options_text": null,
       "restrictions_or_notes": null,
-      "raw_text": "Hunter | Add one Hunter | +75 points",
+      "raw_text": "Corvus Blackstars | Add any number of Corvus Blackstars, up to the number required to transport the formation | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnoughts",
+      "cost": "+75 points each",
+      "units_text": "Add up to two Venerable Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnoughts | Add up to two Venerable Dreadnoughts | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hydra",
+      "cost": "+50 points",
+      "units_text": "Add one Hydra",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hydra | Add one Hydra | +50 points",
       "parse_warnings": []
     },
     {
@@ -233,10 +233,21 @@
       "entry_type": "upgrade",
       "name": "Land Raiders",
       "cost": "+75 points each",
-      "units_text": "Add up to four Land Raiders",
+      "units_text": "Add any number of Land Raiders, up to the number required to transport the formation",
       "upgrades_or_options_text": null,
       "restrictions_or_notes": "+125 points per pair",
-      "raw_text": "Land Raiders | Add up to four Land Raiders | +75 points each",
+      "raw_text": "Land Raiders | Add any number of Land Raiders, up to the number required to transport the formation | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Inquisitor Lord",
+      "cost": "+50 points",
+      "units_text": "Add one Ordo Xenos Inquisitor Lord character per army to an Ordo Xenos Inquisitor unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Inquisitor Lord | Add one Ordo Xenos Inquisitor Lord character per army to an Ordo Xenos Inquisitor unit | +50 points",
       "parse_warnings": []
     },
     {
@@ -253,38 +264,16 @@
     {
       "category": "upgrades",
       "entry_type": "upgrade",
-      "name": "Snipers",
-      "cost": "+10 points each",
-      "units_text": "Give up to four Scout units Sniper",
-      "upgrades_or_options_text": null,
-      "restrictions_or_notes": null,
-      "raw_text": "Snipers | Give up to four Scout units Sniper | +10 points each",
-      "parse_warnings": []
-    },
-    {
-      "category": "upgrades",
-      "entry_type": "upgrade",
       "name": "Typhoons",
       "cost": "+10 points each",
       "units_text": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
       "upgrades_or_options_text": null,
-      "restrictions_or_notes": null,
+      "restrictions_or_notes": "Imperial Ally and Deathwatch Aircraft Formations\n(Up to a third of the points available may be spent on these formations.)\nImperial Navy Aircraft",
       "raw_text": "Typhoons | Replace up to five Land Speeders with an equal number of Land Speeder Typhoons | +10 points each",
       "parse_warnings": []
     },
     {
       "category": "upgrades",
-      "entry_type": "upgrade",
-      "name": "Vindicators",
-      "cost": "+50 points each",
-      "units_text": "Add up to two Vindicators",
-      "upgrades_or_options_text": null,
-      "restrictions_or_notes": "+75 points per pair\n(Up to a third of the points available may be spent on these formations.)\nImperial Navy Aircraft",
-      "raw_text": "Vindicators | Add up to two Vindicators | +50 points each",
-      "parse_warnings": []
-    },
-    {
-      "category": "allied_formations",
       "entry_type": "formation",
       "name": "Marauder Squadron",
       "cost": "250 points",
@@ -295,7 +284,7 @@
       "parse_warnings": []
     },
     {
-      "category": "allied_formations",
+      "category": "upgrades",
       "entry_type": "formation",
       "name": "Thunderbolt Squadron",
       "cost": "175 points",
@@ -345,7 +334,7 @@
       "cost": "825 points",
       "units_text": "One Warlord Class Titan",
       "upgrades_or_options_text": null,
-      "restrictions_or_notes": "Space Marine Aircraft",
+      "restrictions_or_notes": "Deathwatch Aircraft",
       "raw_text": "Warlord | One Warlord Class Titan | 825 points",
       "parse_warnings": []
     },
@@ -385,7 +374,7 @@
         "Invulnerable Save",
         "Leader"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -414,7 +403,36 @@
         "Invulnerable Save",
         "Leader"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Inspiring",
+        "Leader"
+      ],
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -451,7 +469,46 @@
         "Invulnerable Save",
         "Leader"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ordo Xenos Inquisitor Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Smite",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Sniper"
+      ],
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -479,18 +536,18 @@
         "Invulnerable Save",
         "Supreme Commander"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Assault",
+      "name": "Deathwatch Assault",
       "type": "INF",
       "speed": "30cm",
       "armour": "4+",
-      "cc": "3+",
+      "cc": "4+",
       "ff": "5+",
       "weapons": [
         {
@@ -498,23 +555,32 @@
           "range": "(15cm)",
           "firepower": "Small Arms",
           "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
       "abilities_or_notes": [
         "Jump Packs"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Bike",
+      "name": "Deathwatch Bike",
       "type": "INF",
       "speed": "35cm",
       "armour": "4+",
-      "cc": "3+",
+      "cc": "4+",
       "ff": "4+",
       "weapons": [
         {
@@ -522,88 +588,66 @@
           "range": "(15cm)",
           "firepower": "Small Arms",
           "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
         }
       ],
       "abilities_or_notes": [
         "Mounted"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Devastator",
+      "name": "Deathwatch Scout",
       "type": "INF",
       "speed": "15cm",
       "armour": "4+",
-      "cc": "5+",
-      "ff": "3+",
+      "cc": "3+",
+      "ff": "4+",
       "weapons": [
         {
-          "name": "2x Missile Launcher",
-          "range": "45cm",
-          "firepower": "AP5+/AT6+",
-          "notes": []
-        }
-      ],
-      "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
-      "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
-    },
-    {
-      "name": "Scout",
-      "type": "INF",
-      "speed": "15cm",
-      "armour": "5+",
-      "cc": "4+",
-      "ff": "5+",
-      "weapons": [
-        {
-          "name": "Heavy Bolter",
+          "name": "Stalker Pattern Bolters",
           "range": "30cm",
-          "firepower": "AP5+",
-          "notes": []
+          "firepower": "AP4+",
+          "notes": [
+            "D",
+            "S"
+          ]
+        },
+        {
+          "name": "Stalker Pattern Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "S"
+          ]
         }
       ],
       "abilities_or_notes": [
         "Infiltrator",
         "Scout"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
-      "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
-    },
-    {
-      "name": "Tactical",
-      "type": "INF",
-      "speed": "15cm",
-      "armour": "4+",
-      "cc": "4+",
-      "ff": "4+",
-      "weapons": [
-        {
-          "name": "Missile Launcher",
-          "range": "45cm",
-          "firepower": "AP5+/AT6+",
-          "notes": []
-        }
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Deathwatch Scout."
       ],
-      "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
-      "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Terminator",
+      "name": "Deathwatch Terminator",
       "type": "INF",
       "speed": "15cm",
       "armour": "4+",
@@ -611,9 +655,9 @@
       "ff": "3+",
       "weapons": [
         {
-          "name": "2x Assault Cannon",
-          "range": "30cm",
-          "firepower": "AP5+/AT5+",
+          "name": "2x Cyclone Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
           "notes": []
         },
         {
@@ -631,66 +675,152 @@
         "Teleport",
         "Thick Rear Armour"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Attack Bike",
-      "type": "LV",
-      "speed": "35cm",
+      "name": "Deathwatch Veteran",
+      "type": "INF",
+      "speed": "15cm",
       "armour": "4+",
-      "cc": "5+",
-      "ff": "5+",
+      "cc": "3+",
+      "ff": "4+",
       "weapons": [
         {
-          "name": "Heavy Bolter",
+          "name": "Hellfire Heavy Bolter",
           "range": "30cm",
-          "firepower": "AP5+",
+          "firepower": "AP4+",
           "notes": []
+        },
+        {
+          "name": "Hellfire Heavy Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
         }
       ],
       "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
-      "parse_warnings": [],
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Deathwatch Veteran."
+      ],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Land Speeder",
-      "type": "LV",
-      "speed": "35cm",
-      "armour": "4+",
+      "name": "Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
       "cc": "6+",
       "ff": "5+",
       "weapons": [
         {
-          "name": "Multi-melta",
-          "range": "15cm",
-          "firepower": "MW5+",
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
           "notes": []
         },
         {
-          "name": "Multi-melta",
+          "name": "Lasguns",
           "range": "(15cm)",
           "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has an Autocannon."
+      ],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitorial Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ordo Xenos Inquisitor",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rough Riders",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
           "notes": [
-            "MW"
+            "EA(+1)",
+            "FS"
           ]
         }
       ],
       "abilities_or_notes": [
-        "Scout",
-        "Skimmer"
+        "Infiltrator",
+        "Mounted",
+        "Scout"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
-      "parse_warnings": [
-        "Boolean weapon line folded into previous weapon for Land Speeder."
-      ],
+      "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
@@ -719,7 +849,7 @@
         "Scout",
         "Skimmer"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -750,109 +880,135 @@
         "Scout",
         "Skimmer"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Multi-melta Attack Bike",
+      "name": "Sentinel",
       "type": "LV",
-      "speed": "35cm",
-      "armour": "4+",
-      "cc": "5+",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
       "ff": "5+",
       "weapons": [
         {
-          "name": "Multi-melta",
-          "range": "15cm",
-          "firepower": "MW5+",
-          "notes": []
-        },
-        {
-          "name": "Multi-melta",
-          "range": "(15cm)",
-          "firepower": "Small Arms",
-          "notes": [
-            "MW"
-          ]
-        }
-      ],
-      "abilities_or_notes": [
-        "Counts as an Attack Bike for the purposes of being transported."
-      ],
-      "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
-      "parse_warnings": [
-        "Boolean weapon line folded into previous weapon for Multi-melta Attack Bike."
-      ],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
-    },
-    {
-      "name": "Dreadnought",
-      "type": "AV",
-      "speed": "15cm",
-      "armour": "3+",
-      "cc": "4+",
-      "ff": "4+",
-      "weapons": [
-        {
-          "name": "0-1x Missile Launcher",
-          "range": "45cm",
+          "name": "Multilaser",
+          "range": "30cm",
           "firepower": "AP5+/AT6+",
           "notes": []
-        },
-        {
-          "name": "0-1x Twin Lascannon",
-          "range": "45cm",
-          "firepower": "AT4+",
-          "notes": []
-        },
-        {
-          "name": "0-1x Assault Cannon",
-          "range": "30cm",
-          "firepower": "AP5+/AT5+",
-          "notes": []
-        },
-        {
-          "name": "0-1x Power Fist",
-          "range": "(bc)",
-          "firepower": "Assault Weapons",
-          "notes": [
-            "EA(+1)",
-            "MW"
-          ]
         }
       ],
       "abilities_or_notes": [
-        "Walker",
-        "Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist."
+        "Scout",
+        "Walker"
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Hunter",
+      "name": "Corvus Blackstar",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Blackstar Rocket Launcher",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Blackstar Rocket Launcher",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Skimmer",
+        "Transport",
+        "May transport two infantry units. Terminator units and units with Mounted or Jump Packs count as two units each. May not be transported by a Landing Craft."
+      ],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Corvus Blackstar."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
       "type": "AV",
       "speed": "30cm",
       "armour": "5+",
       "cc": "6+",
-      "ff": "6+",
+      "ff": "5+",
       "weapons": [
         {
-          "name": "Hunter-Killer",
-          "range": "60cm",
-          "firepower": "AT4+/AA4+",
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
           "notes": []
         }
       ],
       "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -885,52 +1041,30 @@
         "Transport",
         "May transport one Terminator unit or two infantry units without Jump Packs or Mounted ."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Predator Annihilator",
+      "name": "Leman Russ",
       "type": "AV",
-      "speed": "30cm",
+      "speed": "20cm",
       "armour": "4+",
       "cc": "6+",
-      "ff": "5+",
+      "ff": "4+",
       "weapons": [
         {
-          "name": "Twin Lascannon",
-          "range": "45cm",
-          "firepower": "AT4+",
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
           "notes": []
         },
         {
-          "name": "2x Lascannon",
+          "name": "Lascannon",
           "range": "45cm",
           "firepower": "AT5+",
-          "notes": []
-        }
-      ],
-      "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
-      "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
-    },
-    {
-      "name": "Predator Destructor",
-      "type": "AV",
-      "speed": "30cm",
-      "armour": "4+",
-      "cc": "6+",
-      "ff": "3+",
-      "weapons": [
-        {
-          "name": "Autocannon",
-          "range": "45cm",
-          "firepower": "AP5+/AT6+",
           "notes": []
         },
         {
@@ -940,8 +1074,10 @@
           "notes": []
         }
       ],
-      "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -972,7 +1108,7 @@
         "Transport",
         "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted . Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -997,57 +1133,97 @@
         "Transport",
         "May transport two infantry units (except Terminator units) without Jump Packs or Mounted ."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Vindicator",
+      "name": "Valkyrie",
       "type": "AV",
-      "speed": "25cm",
-      "armour": "4+",
-      "cc": "6+",
-      "ff": "4+",
-      "weapons": [
-        {
-          "name": "Demolisher",
-          "range": "30cm",
-          "firepower": "AP3+/AT4+",
-          "notes": [
-            "IC"
-          ]
-        }
-      ],
-      "abilities_or_notes": [
-        "Walker"
-      ],
-      "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
-      "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
-    },
-    {
-      "name": "Whirlwind",
-      "type": "AV",
-      "speed": "30cm",
+      "speed": "35cm",
       "armour": "5+",
       "cc": "6+",
       "ff": "5+",
       "weapons": [
         {
-          "name": "Whirlwind",
-          "range": "45cm",
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
           "firepower": "1BP",
           "notes": [
-            "Ind"
+            "D",
+            "SS"
           ]
         }
       ],
-      "abilities_or_notes": [],
-      "source_section": "Space Marine Forces",
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Ordo Xenos Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "0-1x Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist. Counts as a Dreadnought for the purposes of being transported."
+      ],
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -1082,7 +1258,7 @@
         "Transport",
         "May transport twelve infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up. Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -1136,7 +1312,7 @@
         "Transport",
         "May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -1164,7 +1340,7 @@
         "Transport",
         "May transport 60 infantry units, Attack Bikes, or Dreadnoughts; plus 60 armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -1191,14 +1367,14 @@
         "Transport",
         "May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
       "is_reference_or_ambiguous": false
     },
     {
-      "name": "Drop Pod",
+      "name": "Deathwatch Drop Pod",
       "type": "Special",
       "speed": "n/a",
       "armour": "n/a",
@@ -1215,9 +1391,9 @@
       "abilities_or_notes": [
         "Planetfall",
         "Transport",
-        "May transport one formation of only Dreadnoughts or infantry units without Jump Packs , Mounted , Reinforced Armour or Scout . After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked."
+        "May transport one formation of only the following units: Deathwatch Scout, Deathwatch Terminator, Deathwatch Veteran, Venerable Dreadnought. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked. Counts as a Drop Pod for the purposes of being transported. Counts as a Drop Pod for the purposes of being transported."
       ],
-      "source_section": "Space Marine Forces",
+      "source_section": "Ordo Xenos Forces",
       "parse_confidence": "high",
       "parse_warnings": [],
       "ambiguity_reasons": [],
@@ -1491,15 +1667,11 @@
   "army_notes": [
     {
       "name": "Using The Army List",
-      "text": "The following army list allows you to field an army based on one of the Space Marine Chapters that closely follows the teachings of the Codex Astartes. It can also be used as a stand in army list for other Space Marine Chapters that do not follow the Codex Astartes, such as the Blood Angels, Dark Angels and Space Wolves.\nSpace Marines are organised into small formations called detachments . Each detachment is made up of one or more units, and may also include a number of extra units called upgrades .\nThe detachments that may be taken in a Codex Astartes army are shown on the chart that follows. The chart also shows what units comprise the detachment, what upgrades are allowed, and its points cost. For example, an Assault detachment consists of four Space Marine Assault units for 175 points, and may include the Commander and Vindicator upgrades at an additional cost in points.\nEach upgrade that is taken adds to the cost of the detachment, as shown on the upgrade chart . The upgrade chart also lists the units that make up the upgrade. Note that these will sometimes replace units in the detachment they are taken for, and sometimes takes the form of additional units for the detachment. Each upgrade may be taken once per formation. For example, an Assault detachment could include one Commander and one Vindicator. If both were taken it would cost 175 + 50 +75 = 300 points.\nCodex Astartes armies may be supported by Imperial Navy aircraft, Titan Legion battlegroup and Codex Astartes aircraft formations. A maximum of up to a third of the points available to the army may be spent on these formations."
+      "text": "The following army list allows you to field an army based on the Ordo Xenos of the Inquisition.\nOrdo Xenos formations come in two types: Deathwatch detachments and Inducted Imperial Guard and Inquisitorial support formations . Each detachment you include in the army allows you to field any one support formations. Although you can only take a support formation if you first take a detachment, they are treated as separate independent formations during a battle and do not have to move around together.\nIn addition, formations may be given upgrades. Each type of upgrade can only be taken once by a formation. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.\nOrdo Xenos armies may be supported by Imperial Navy aircraft, Titan Legion battlegroup or Deathwatch aircraft formations. A maximum of up to a third of the points available to the army may be spent on these formations."
     },
     {
-      "name": "Space Marine Transports",
-      "text": ""
-    },
-    {
-      "name": "Space Marine Transports",
-      "text": "If a formation comes with Rhinos, and can also take Land Raiders and Razorbacks via upgrades, how do you determine how many Rhinos the formation receives?\nAdd any Land Raiders to a formation first. Next, add any number of Razorbacks to the formation, up to the number required to transport those units not being transported in Land Raiders. Finally, the formation receives Rhinos to transport those units not being transported in Land Raiders or Razorbacks.\nThe Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!\nNote that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.\nAlso note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall ). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from.\nBefore each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
+      "name": "Deathwatch Transports",
+      "text": "The Deathwatch is a highly mobile army. Because of this, the points cost of certain formations includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover the loss of other transports.\nNote that many formations don’t receive Rhinos, usually because they can’t fit into them. Formations that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\nYou may choose to replace a formation’s Rhinos with Deathwatch Drop Pods before each game, after the opposing army is known but before objectives are placed. Formations making a planetfall via Deathwatch Drop Pods (or by another unit with that ability) may be upgraded with Corvus Blackstars, these are assumed to make planetfall alongside the infantry and do not need to be transported in another unit with planetfall ."
     }
   ],
   "extraction_warnings": []

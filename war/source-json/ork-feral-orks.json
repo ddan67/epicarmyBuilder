@@ -123,12 +123,10 @@
         "Supreme Commander"
       ],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Wyrdboy",
@@ -149,13 +147,10 @@
       ],
       "abilities_or_notes": [],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "0-2x Soopagun",
-        "0-2x Mega Choppa"
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Boarboyz",

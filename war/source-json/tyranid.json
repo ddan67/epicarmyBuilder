@@ -1,0 +1,829 @@
+{
+  "metadata": {
+    "army_name": "Hive Fleet Onachus Tyranid",
+    "source_url": "https://tp.net-armageddon.org/army-lists/tyranid.html",
+    "page_title": "Hive Fleet Onachus Tyranid Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "1",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All Tyranid formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Mobility rule applies to all Tyranid units (see Xeno-Biology ). Additionally, formations with synapse units may return brood units to play via Swarming (see Xeno-Sociology )."
+    }
+  ],
+  "formations": [],
+  "profiles": [
+    {
+      "name": "Brood Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Symbiote",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Synapse (+1)",
+        "If added to the Dominatrix the unit will additionally loose supreme commander and synapse (+1) on a Critical Hit Effect roll of a 6."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gargoyles",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Flamespurts",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Brood (2)",
+        "Expendable",
+        "Jump Packs"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Genestealers",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "2+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hormagaunts",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "-",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Brood (1)",
+        "Expendable",
+        "Infiltrator"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Hormagaunts."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Raveners",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Twin Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Brood (2)",
+        "Expendable",
+        "Infiltrator",
+        "Tunneler"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Termagants",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Fleshborers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Brood (1)",
+        "Expendable"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tyranid Warriors",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "2+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Deathspitters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Synapse (1)"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Biovore",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Spore Mines",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D",
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lictor",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Flesh Hooks",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Lictor Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "S"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Zoanthrope",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Zoanthrope."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Carnifex",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bio-Plasma",
+          "range": "15cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Large Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dactylis",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bile Pods",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "D",
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Exocrine",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bio-Cannon",
+          "range": "45cm",
+          "firepower": "2x AP4+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Haruspex",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Acid Jets and Frag Spines",
+          "range": "15cm",
+          "firepower": "2x AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Claws and Mandibles",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hive Tyrant",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Venon Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Lash Whip and Bonesword",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Synapse (2)"
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Malefactor",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Frag Spines",
+          "range": "15cm",
+          "firepower": "2x AP5+",
+          "notes": []
+        },
+        {
+          "name": "Arms",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dominatrix",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bio-Titan Bio-Cannon",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Energy Pulse",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Energy Pulse",
+          "range": "45cm",
+          "firepower": "AA5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Massive Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Commander",
+        "Fearless",
+        "Invulnerable Save",
+        "Leader",
+        "Regeneration",
+        "Reinforced Armour",
+        "Synapse (2)",
+        "May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses commander , leader and synapse (2) ."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Dominatrix."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harridan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Harridan Bio-Cannon",
+          "range": "45cm",
+          "firepower": "2x AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Large Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "Skimmer",
+        "Transport",
+        "May transport four Gargoyles. Critical Hit Effect: The unit takes an extra point of damage."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Trygon",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Bio-Electric Field",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Large Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Tunneler",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hierodule Bio-Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "0-1x Bile Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Bio-Titan Bio-Cannon",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Cluster Spines",
+          "range": "45cm",
+          "firepower": "4BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Pyro-Acid Spray",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FwA",
+            "IC"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Massive Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Invulnerable Save",
+        "Regeneration",
+        "Reinforced Armour",
+        "May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Hierodule Bio-Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hierophant Bio-Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "0-1x Bile Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Bio-Titan Bio-Cannon",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Cluster Spines",
+          "range": "45cm",
+          "firepower": "4BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Pyro-Acid Spray",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FwA",
+            "IC"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Ripper Tentacles",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "FS"
+          ]
+        },
+        {
+          "name": "2x Gigantic Scything Talons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Invulnerable Save",
+        "Regeneration",
+        "Reinforced Armour",
+        "May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+      ],
+      "source_section": "Tyranid Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Hierophant Bio-Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Hive Fleet Onachus Tyranid formations come in three types: synapse swarms, independent swarms and war engines. Each synapse swarm you include in the army allows you to field one independent swarm. No more than one third of the points available may be spent on war engines.\nFinally, Tyranid Individuals includes special characters and objective options. Each individual may only be taken once by the army. The rules for using each individual are listed in the Notes column.\nThe army list includes the following information:\nType\nThe name of the formation.\nCore Units\nThe units that make up the formation. The core units of a formation may be doubled or tripled. A formation with the normal number of core units is called a small ( S ) formation, a formation with double the number of core units is called a medium ( M ) formation, and a formation with triple the number of core units is called a large ( L ) formation.\nCost\nThe point costs of a formation are listed under S , M and L (the costs for a small, medium or large formation, respectively).\nUpgrades\nA formation may add any of the units noted here for their listed cost. If there is a limit on the number of units that may be added then this limit is doubled for medium formations and tripled for large formations.\nAll of a formation’s core and upgrade units count as being part of one formation. The different units may not activate on their own."
+    }
+  ],
+  "extraction_warnings": [
+    "No formation or upgrade rows parsed from army list section."
+  ]
+}

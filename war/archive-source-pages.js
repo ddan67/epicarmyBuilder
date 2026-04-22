@@ -105,6 +105,46 @@ const PAGE_CONFIGS = [
 	{
 		id: 'space-marine-white-scars',
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-white-scars.html'
+	},
+	{
+		id: 'eldar-biel-tan',
+		url: 'https://tp.net-armageddon.org/army-lists/eldar-biel-tan.html'
+	},
+	{
+		id: 'eldar-saim-hann',
+		url: 'https://tp.net-armageddon.org/army-lists/eldar-saim-hann.html'
+	},
+	{
+		id: 'eldar-iyanden',
+		url: 'https://tp.net-armageddon.org/army-lists/eldar-iyanden.html'
+	},
+	{
+		id: 'eldar-alaitoc',
+		url: 'https://tp.net-armageddon.org/army-lists/eldar-alaitoc.html'
+	},
+	{
+		id: 'necron',
+		url: 'https://tp.net-armageddon.org/army-lists/necron.html'
+	},
+	{
+		id: 'tau',
+		url: 'https://tp.net-armageddon.org/army-lists/tau.html'
+	},
+	{
+		id: 'squat',
+		url: 'https://tp.net-armageddon.org/army-lists/squat.html'
+	},
+	{
+		id: 'inquisition-ordo-xenos',
+		url: 'https://tp.net-armageddon.org/army-lists/inquisition-ordo-xenos.html'
+	},
+	{
+		id: 'dark-eldar',
+		url: 'https://tp.net-armageddon.org/army-lists/dark-eldar.html'
+	},
+	{
+		id: 'tyranid',
+		url: 'https://tp.net-armageddon.org/army-lists/tyranid.html'
 	}
 ];
 

@@ -1,0 +1,1314 @@
+{
+  "metadata": {
+    "army_name": "Kabal of Pain’s Way Dark Eldar",
+    "source_url": "https://tp.net-armageddon.org/army-lists/dark-eldar.html",
+    "page_title": "Kabal of Pain’s Way Dark Eldar Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Dark Eldar Kabals, Tormentor and Executor formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Hit & Run Tactics rule (see Hit & Run Tactics ) and Fleet of Foot rule (see Fleet of Foot ) apply to all Dark Eldar formations. Additionally, certain units and weapons have special abilities described in Dark Eldar Technology (see Dark Eldar Technology )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Kabal Coterie",
+      "cost": "250 points",
+      "units_text": "Four Incubi, one with a Dracon character, plus transport",
+      "upgrades_or_options_text": "Haemonculi, Incubi, Mandrakes, Ravager, Scourges, Sybarite, Warriors, Wyches",
+      "restrictions_or_notes": "Kabal Flotilla\nFour or six Ravagers\nDracon, Sybarite, Vessel of Pain\n250 or 350 points",
+      "raw_text": "0–1 Kabal Coterie | Four Incubi, one with a Dracon character, plus transport | Haemonculi, Incubi, Mandrakes, Ravager, Scourges, Sybarite, Warriors, Wyches | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Kabal Syndicate",
+      "cost": "200 points",
+      "units_text": "Six Warriors plus transport",
+      "upgrades_or_options_text": "Dracon, Haemonculi, Mandrakes, Ravager, Scourges, Sybarite, Warriors, Wyches",
+      "restrictions_or_notes": "Dark Eldar Partisans\n(Each kabal you include in the army allows you to field any two partisans. Each formation may never exceed more than eight infantry units.)",
+      "raw_text": "Kabal Syndicate | Six Warriors plus transport | Dracon, Haemonculi, Mandrakes, Ravager, Scourges, Sybarite, Warriors, Wyches | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Haemonculi Coven",
+      "cost": "250 points",
+      "units_text": "Two Haemonculi and four Grotesques, plus transport",
+      "upgrades_or_options_text": "Haemonculi, Perditors, Sybarite, Talos",
+      "restrictions_or_notes": null,
+      "raw_text": "Haemonculi Coven | Two Haemonculi and four Grotesques, plus transport | Haemonculi, Perditors, Sybarite, Talos | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Heavy Barges",
+      "cost": "250 points each",
+      "units_text": "Up to two Vessels of Pain",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Barges | Up to two Vessels of Pain | None | 250 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Hellion Murder",
+      "cost": "200 points",
+      "units_text": "Six Hellions",
+      "upgrades_or_options_text": "Hellions, Sybarite",
+      "restrictions_or_notes": null,
+      "raw_text": "Hellion Murder | Six Hellions | Hellions, Sybarite | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mandrake Throng",
+      "cost": "225 points",
+      "units_text": "Six Mandrakes",
+      "upgrades_or_options_text": "Mandrakes",
+      "restrictions_or_notes": null,
+      "raw_text": "Mandrake Throng | Six Mandrakes | Mandrakes | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Reaver Gang",
+      "cost": "200 points",
+      "units_text": "Six Reavers",
+      "upgrades_or_options_text": "Reavers, Sybarite",
+      "restrictions_or_notes": null,
+      "raw_text": "Reaver Gang | Six Reavers | Reavers, Sybarite | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Scourge Flight",
+      "cost": "225 points",
+      "units_text": "Six Scourges",
+      "upgrades_or_options_text": "Scourges, Sybarite",
+      "restrictions_or_notes": null,
+      "raw_text": "Scourge Flight | Six Scourges | Scourges, Sybarite | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Talos Swarm",
+      "cost": "200 points",
+      "units_text": "Four Talos plus transport",
+      "upgrades_or_options_text": "Perditors, Talos",
+      "restrictions_or_notes": null,
+      "raw_text": "Talos Swarm | Four Talos plus transport | Perditors, Talos | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Wych Cult",
+      "cost": "200 points",
+      "units_text": "Six Wyches plus transport",
+      "upgrades_or_options_text": "Hellions, Reavers, Sybarite, Warp Beasts, Wyches",
+      "restrictions_or_notes": "Dark Eldar Upgrades",
+      "raw_text": "Wych Cult | Six Wyches plus transport | Hellions, Reavers, Sybarite, Warp Beasts, Wyches | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dracon",
+      "cost": "+50 points",
+      "units_text": "Add a maximum of one Dracon character to any unit in the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dracon | Add a maximum of one Dracon character to any unit in the formation | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Haemonculi",
+      "cost": "+100 points",
+      "units_text": "Add one Haemonculi unit and one Grotesques unit, plus transport",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Haemonculi | Add one Haemonculi unit and one Grotesques unit, plus transport | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellions",
+      "cost": "+50 points",
+      "units_text": "Add two Hellions",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellions | Add two Hellions | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Incubi",
+      "cost": "+75 points",
+      "units_text": "Add two Incubi plus transport",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Incubi | Add two Incubi plus transport | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Mandrakes",
+      "cost": "+75 points",
+      "units_text": "Add two Mandrakes",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mandrakes | Add two Mandrakes | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Perditors",
+      "cost": "+150 points each",
+      "units_text": "Add up to two Perditors",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Perditors | Add up to two Perditors | +150 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Ravager",
+      "cost": "+50 points",
+      "units_text": "Add one Ravager",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ravager | Add one Ravager | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Reavers",
+      "cost": "+50 points",
+      "units_text": "Add two Reavers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Reavers | Add two Reavers | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Scourges",
+      "cost": "+75 points",
+      "units_text": "Add two Scourges",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Scourges | Add two Scourges | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Sybarite",
+      "cost": "+25 points",
+      "units_text": "Add a maximum of one Sybarite character to any unit in the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sybarite | Add a maximum of one Sybarite character to any unit in the formation | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Talos",
+      "cost": "+50 points each",
+      "units_text": "Add up to two Talos",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Talos | Add up to two Talos | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Vessel of Pain",
+      "cost": "+250 points",
+      "units_text": "Add a maximum of one Vessel of Pain",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vessel of Pain | Add a maximum of one Vessel of Pain | +250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Warp Beasts",
+      "cost": "+50 points",
+      "units_text": "Add two Warp Beasts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warp Beasts | Add two Warp Beasts | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Warriors",
+      "cost": "+50 points",
+      "units_text": "Add two Warriors plus transport",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warriors | Add two Warriors plus transport | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Wyches",
+      "cost": "+50 points",
+      "units_text": "Add two Wyches plus transport",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dark Eldar Transport\nType\nUnits\nCost",
+      "raw_text": "Wyches | Add two Wyches plus transport | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Barge of Pleasure",
+      "cost": "+125 points each",
+      "units_text": "Add up to two Barge of Pleasures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Raider\nAdd up to four Raiders\nFree",
+      "raw_text": "Barge of Pleasure | Add up to two Barge of Pleasures | +125 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Slavebringer",
+      "cost": "200 points",
+      "units_text": "One Slavebringer Assault Boat",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dark Eldar Aircraft, Spacecraft and Other Horrors\n(Up to a third of the points available may be spent on these formations.)",
+      "raw_text": "Slavebringer | One Slavebringer Assault Boat | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Executor",
+      "cost": "750 points",
+      "units_text": "One Executor Landing Module",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Executor | One Executor Landing Module | 750 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Ravens",
+      "cost": "100 points each",
+      "units_text": "Two to three Raven Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ravens | Two to three Raven Fighters | 100 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Razorwings",
+      "cost": "125 points each",
+      "units_text": "Two to three Razorwing Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Spacecraft\nOne Torture Class Cruiser or",
+      "raw_text": "Razorwings | Two to three Razorwing Bombers | 125 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "300 points or",
+      "cost": "150 points each",
+      "units_text": "up to three Corsair Class Escorts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "300 points or | up to three Corsair Class Escorts | 150 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Tormentor",
+      "cost": "500 points",
+      "units_text": "One Tormentor Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tormentor | One Tormentor Titan | 500 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Archon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Agonizer",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Invulnerable Save",
+        "Supreme Commander"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dracon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Agonizer",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sybarite",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Punisher",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grotesques",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Grotesques."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Haemonculi",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Arcane Terrors",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Leader"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellions",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Hellglaives",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Scout"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Incubi",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Tormentor Helms",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Punishers",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mandrakes",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Splinter Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrator",
+        "Teleport"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Reavers",
+      "type": "INF",
+      "speed": "40cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Splinter Rifles",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Skimmer"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Scourges",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Dark Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        },
+        {
+          "name": "Splinter Rifles",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Teleport"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warp Beasts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "(5+)",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Teeth and Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrator",
+        "In an assault the unit counts as having an armour value of 5+."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warriors",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Splinter Cannon",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wyches",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "(5+)",
+      "cc": "3+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Splinter Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrator",
+        "In an assault the unit counts as having an armour value of 5+."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raider",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Dark Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        },
+        {
+          "name": "Horrorfex",
+          "range": "15cm",
+          "firepower": "AP6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport",
+        "May transport two infantry units (except Warp Beasts) without Jump Packs or Mounted ; plus one unit of Mandrakes. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravager",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Dark Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        },
+        {
+          "name": "Disintegrator",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Horrorfex",
+          "range": "15cm",
+          "firepower": "AP6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Talos",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Paralyzer",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": [
+            "D"
+          ]
+        },
+        {
+          "name": "Talos Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Barge of Pleasure",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Dark Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        },
+        {
+          "name": "Long-Barrel Splinter Cannon",
+          "range": "45cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Desolator",
+          "range": "30cm",
+          "firepower": "2BP",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "2 Shadowfields",
+        "Skimmer",
+        "Transport",
+        "May transport four infantry units without Jump Packs or Mounted ; plus two units of Mandrakes. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Executor Landing Module",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Disintegrator Array",
+          "range": "60cm",
+          "firepower": "2x AA4+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Phantom Lance",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Twin Desolators",
+          "range": "30cm",
+          "firepower": "4BP",
+          "notes": [
+            "FwA",
+            "D"
+          ]
+        },
+        {
+          "name": "Hail of Splinters",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Hail of Splinters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "Self Planetfall",
+        "4 Shadowfields",
+        "Support Craft",
+        "Transport",
+        "Webway Portal",
+        "May transport eight armoured vehicle, light vehicle or war engine units; war engines count as a number of units equal to their starting damage capacity; plus 16 infantry units. Critical Hit Effect: The unit loses all of its weapons, has no close combat value and a firefight value of 6+. Subsequent critical hits cause one point of damage."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Executor Landing Module."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kashnarak",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Massive Claws and Teeth",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Infiltrator",
+        "Inspiring",
+        "Scout",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Perditor",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Widowmaker",
+          "range": "30cm",
+          "firepower": "2BP",
+          "notes": [
+            "D",
+            "Ind"
+          ]
+        },
+        {
+          "name": "Perditor Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: The unit is destroyed."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tormentor Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Phantom Lances",
+          "range": "45cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "Hail of Splinters",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Hail of Splinters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "Tormentor Blades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Jump Packs",
+        "Reinforced Armour",
+        "3 Shadowfields",
+        "Walker",
+        "Critical Hit Effect: The unit's speed value is reduced to 25cm and it loses the Jump Packs ability. Subsequent critical hits cause one point of damage."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Tormentor Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vessel of Pain",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Phantom Lances",
+          "range": "45cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "2x Long-Barrel Splinter Cannon",
+          "range": "45cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Desolator",
+          "range": "30cm",
+          "firepower": "2BP",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "2 Shadowfields",
+        "Skimmer",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm are subject to an AP5+ attack."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raven Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Dark Lance",
+          "range": "30cm",
+          "firepower": "AT4+/AA5+",
+          "notes": [
+            "FxF",
+            "L"
+          ]
+        },
+        {
+          "name": "Long-Barrel Splinter Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Razorwing",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Razor Lances",
+          "range": "30cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "Slw",
+            "TK"
+          ]
+        },
+        {
+          "name": "2x Long-Barrel Splinter Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Horrorfex",
+          "range": "15cm",
+          "firepower": "AP6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Slavebringer Assault Boat",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Dark Lance",
+          "range": "30cm",
+          "firepower": "AT4+/AA5+",
+          "notes": [
+            "FxF",
+            "L"
+          ]
+        },
+        {
+          "name": "Turreted Splinter Cannons",
+          "range": "30cm",
+          "firepower": "AP5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "1 Shadowfield",
+        "Transport",
+        "May transport eight Talos or infantry units without Mounted ; Talos count as two units each; plus four units of Mandrakes. Critical Hit Effect: The unit and all units being carried are destroyed."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Corsair Class Escort",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "2BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "The Pin-Point Attack may be forfeited to transport three Slavebringer Assault Bolts and one Executor Landing Module plus the units being carried on them."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Torture Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "6BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Pin-Point Attacks",
+          "range": "n/a",
+          "firepower": "2x MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport Six Slavebringer Assault Boats and an Executor Landing Module plus the units being carried on them. The Pin-Point Attacks may be forfeited to transport an additional four Slavebringer Assault Boats and two Executor Landing modules plus the units being carried on them."
+      ],
+      "source_section": "Dark Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Kabal of Pain’s Way Dark Eldar formations come in two types: kabals and partisans . Each kabal you include in the army allows you to field any two partisan formations. Although you can only take a partisans formation if you first take a kabal, they are treated as separate independent formations during a battle and do not have to move around together.\nIn addition, formations may be given upgrades. Which upgrades a formation may be given are listed in the Upgrades column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart. Note that you may never exceed more than eight infantry units in a formation.\nDark Eldar armies may be supported by Dark Eldar Aircraft, Spacecraft and Other Horror formations. A maximum of up to a third of the points available to the army may be spent on these formations.\nFinally, Dark Eldar Individuals includes special characters, formations and objective options. Each individual may only be taken once by the army. The rules for using each individual are listed in the Notes column."
+    }
+  ],
+  "extraction_warnings": []
+}

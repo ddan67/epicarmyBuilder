@@ -185,13 +185,10 @@
         "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 Power Fields."
       ],
       "source_section": "Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "0-1x Supa-Zzap-Gun",
-        "0-1x Soopagun"
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Warlord",
@@ -642,16 +639,12 @@
         "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
       ],
       "source_section": "Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [
         "Boolean weapon line folded into previous weapon for Stompa."
       ],
-      "ambiguity_reasons": [
-        "2-3x Big Gun",
-        "0-1x Kombat 'Ammer",
-        "Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Battlefortress",
@@ -746,17 +739,12 @@
         "Armed with either three Soopaguns, or two Soopaguns and one of the following: Mega-Choppa, Supa-Zzap-Gun. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
       ],
       "source_section": "Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [
         "Boolean weapon line folded into previous weapon for Gargant."
       ],
-      "ambiguity_reasons": [
-        "2-3x Soopagun",
-        "0-1x Supa-Zzap-Gun",
-        "0-1x Mega-Choppa",
-        "Armed with either three Soopaguns, or two Soopaguns and one of the following: Mega-Choppa, Supa-Zzap-Gun. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Great Gargant",
@@ -917,16 +905,12 @@
         "Armed with either three Soopaguns, or two Soopaguns and a Mega-Choppa. Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
       ],
       "source_section": "Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [
         "Boolean weapon line folded into previous weapon for Supa-Stompa."
       ],
-      "ambiguity_reasons": [
-        "2-3x Soopagun",
-        "0-1x Mega-Choppa",
-        "Armed with either three Soopaguns, or two Soopaguns and a Mega-Choppa. Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Fighta Bommer",

@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "army_name": "Scarab Conflict Necron",
+    "source_url": "https://tp.net-armageddon.org/army-lists/necron.html",
+    "page_title": "Scarab Conflict Necron Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Implacable Advance rule applies to all Necron formations (see Implacable Advance ) and the Phase Out rule applies to certain formations (see Phase Out ). Additionally, certain units and weapons have special abilities described in Necron Technology (see Necron Technology )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 C’tan",
+      "cost": "300 points",
+      "units_text": "One of the following units: The Deceiver, The Nightbringer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 C’tan | One of the following units: The Deceiver, The Nightbringer | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Harvester Engine",
+      "cost": "600 points",
+      "units_text": "One of the following units: Abattoir, Æonic Orb",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harvester Engine | One of the following units: Abattoir, Æonic Orb | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Spacecraft",
+      "cost": "350 points",
+      "units_text": "One Scythe Class Harvester",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Spacecraft | One Scythe Class Harvester | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Pylon",
+      "cost": "200 points",
+      "units_text": "One Pylon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Pylon | One Pylon | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warbarque",
+      "cost": "300 points",
+      "units_text": "One Warbarque",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warbarque | One Warbarque | 300 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Necron Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Staff of Light",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Staff of Light",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Necron Lord."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Necron Overlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Destroyers",
+      "type": "INF",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Necron",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flayed Ones",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Necron",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Flayed Ones."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Heavy Destroyers",
+      "type": "INF",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AT3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Necron",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Immortals",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gauss Blasters",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Necron Warriors",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gauss Flayers",
+          "range": "15cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pariahs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "War Scythes",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "War Scythes",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Pariahs."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wraiths",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Invulnerable Save",
+        "Jump Packs",
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Monolith",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Particle Whip",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Living Metal",
+        "Portal",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Obelisk",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Particle Flail",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tomb Spyder",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scarab Swarm",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Scarab Swarm",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Scarab Swarm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Leader",
+        "Skimmer",
+        "Walker"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Tomb Spyder.",
+        "Boolean weapon line folded into previous weapon for Tomb Spyder."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Abattoir",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "3x Scarab Swarm",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "3x Scarab Swarm",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "3x Scarab Swarm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Harvesters",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Infiltrator",
+        "Living Metal",
+        "Portal",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The unit and all units within 5cm of the unit suffer a titan killer hit on a roll of 4+."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Abattoir.",
+        "Boolean weapon line folded into previous weapon for Abattoir."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Aeonic Orb",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Solar Flare",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "MW",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Solar Flare",
+          "range": "90cm",
+          "firepower": "12BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Living Metal",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: Center the barrage template that is 12cm across on the unit and resolve the effect as if it were a 3BP macro-weapon barrage."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Aeonic Orb."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pylon",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Particle Accelerator",
+          "range": "120cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Particle Accelerator",
+          "range": "90cm",
+          "firepower": "AA4+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Living Metal",
+        "Teleport",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Pylon."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "The Deceiver",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Despair",
+          "range": "45cm",
+          "firepower": "4BP",
+          "notes": [
+            "D"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Inspiring",
+        "Living Metal",
+        "Skimmer",
+        "Supreme Commander",
+        "Teleport",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "The Nightbringer",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lightning Arc",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Gaze of Death",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Scythe",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Inspiring",
+        "Living Metal",
+        "Skimmer",
+        "Supreme Commander",
+        "Teleport",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbarque",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Particle Cannon",
+          "range": "60cm",
+          "firepower": "AP5+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "2x War Cannon",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Damage Capacity 3",
+        "Fearless",
+        "Living Metal",
+        "Portal",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The unit looses Portal . Subsequent critical hits destroy the unit."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Scythe Class Harvester",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "4BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Scarab Conflict Necron formations come in three types, the first two are phalanxes and support formations. Each phalanx you include in the army allows you to field any three support formations. Although you can only take a support formation if you first take a phalanx, they are treated as separate independent formations during a battle and do not have to move around together. The third type of formation are Harvestor formations. A maximum of up to a third of the points available to the army may be spent on these formations.\nFinally, Necron Individuals includes special characters, formations and objective options. Each individual may only be taken once by the army. The rules for using each individual are listed in the Notes column.\nThe army list includes the following information:\nFormation\nThe name of the formation.\nUnits\nThe core units that make up the formation.\nExtras\nA Necron formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. All of the core and extra units in a formation count as being part of one formation. The different units may not move off on their own.\nCost\nThe points value of the formation."
+    }
+  ],
+  "extraction_warnings": []
+}

@@ -1,0 +1,1420 @@
+{
+  "metadata": {
+    "army_name": "Eldar Biel-Tan Craftworld",
+    "source_url": "https://tp.net-armageddon.org/army-lists/eldar-biel-tan.html",
+    "page_title": "Eldar Biel-Tan Craftworld Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Avatar, Aspect Warrior, Phantom, Revenants and Warlock formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Hit & Run Tactics rule applies to all Eldar formations (see Hit & Run Tactics ). Additionally, certain units and weapons have special abilities described in Farsight (see Farsight ) and Eldar Technology (see Eldar Technology )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Nightwings",
+      "cost": "300 points",
+      "units_text": "Three Nightwing Interceptors",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Nightwings | Three Nightwing Interceptors | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Phantom",
+      "cost": "750 points",
+      "units_text": "One Phantom Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Phantom | One Phantom Titan | 750 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Phoenix",
+      "cost": "325 points",
+      "units_text": "Three Phoenix Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Phoenix | Three Phoenix Bombers | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Revenants",
+      "cost": "650 points",
+      "units_text": "Two Revenant Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Spacecraft",
+      "raw_text": "Revenants | Two Revenant Titans | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Any one of the following units:",
+      "cost": "150 points",
+      "units_text": "Wraithship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dragonship\n300 points",
+      "raw_text": "Any one of the following units: | Wraithship | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Vampire",
+      "cost": "200 points",
+      "units_text": "One Vampire Raider",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vampire | One Vampire Raider | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Warlock",
+      "cost": "850 points",
+      "units_text": "One Warlock Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Warlock | One Warlock Titan | 850 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Autarch",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Autarch Ranged Weapon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Autarch Close Combat Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Invulnerable Save",
+        "Supreme Commander"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Court of the Young King",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Ancient Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Exarch",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Exarch Ranged Weapon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "0-1x Exarch Close Combat Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Exarchs added to units of Dire Avengers, Howling Banshees, Shining Spears or Striking Scorpions have an Exarch Close Combat weapon. Exarchs added to a unit of Dark Reapers, Fire Dragons, Swooping Hawks or Warp Spiders have an Exarch Ranged Weapon."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Reapers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Reaper Missile Launchers",
+          "range": "45cm",
+          "firepower": "2x AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dire Avengers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Shuriken Catapults",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Farseer",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Witch Blades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Farsight",
+        "Invulnerable Save"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Dragons",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Fusion Guns",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Fusion Guns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Fire Dragons."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Guardians",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Shuriken Catapults",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy Weapon Platform",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Howling Banshees",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "2+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Banshee Masks",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Jetbikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Shuriken Catapults",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Skimmer"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rangers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Long Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Shining Spears",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Shuriken Catapults",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "L"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Skimmer"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Striking Scorpions",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Shuriken Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Mandiblasters",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Weapon Platform",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "D-Cannon",
+          "range": "30cm",
+          "firepower": "MW5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Swooping Hawks",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lasblasters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warp Spiders",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Death Spinners",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrator",
+        "Jump Packs"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wraithguard",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Wraithcannons",
+          "range": "15cm",
+          "firepower": "2x MW5+",
+          "notes": []
+        },
+        {
+          "name": "Wraithcannons",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Wraithguard."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vyper",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "War Walker",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Bright Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Falcon",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Pulse Laser",
+          "range": "45cm",
+          "firepower": "2x AT4+",
+          "notes": []
+        },
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport",
+        "May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Prism",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Prism Cannon",
+          "range": "60cm",
+          "firepower": "AP4+/AT2+",
+          "notes": [
+            "L"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Firestorm",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Firestorm Battery",
+          "range": "45cm",
+          "firepower": "2x AP5+/AT5+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport",
+        "May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Night Spinner",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Night Spinner",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "D",
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport",
+        "May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wave Serpent",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Shuriken Cannon",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer",
+        "Transport",
+        "May transport one Wraithguard unit or two infantry units (except Support Weapon Platforms) without Jump Packs or Mounted ; Wraithguard count as two units each."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wraithlord",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bright Lance",
+          "range": "30cm",
+          "firepower": "AT5+",
+          "notes": [
+            "L"
+          ]
+        },
+        {
+          "name": "Power Fists",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Avatar",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "2+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Wailing Doom",
+          "range": "30cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Wailing Doom",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Damage Capacity 3",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed. All Eldar formations with a unit with a line of fire to the Avatar receive a Blast marker."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Avatar."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cobra",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Cobra D-Cannon",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "IC",
+            "MW"
+          ]
+        },
+        {
+          "name": "Cobra D-Cannon",
+          "range": "30cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FxF",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Eldar Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "Shuriken Cannon",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Skimmer",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Cobra."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Phantom Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "1-2x Titan Pulsar",
+          "range": "75cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "30cm",
+          "firepower": "6x AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+3)"
+          ]
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Twin Eldar Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Holofield",
+        "Leader",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with either two Titan Pulsars, or a Titan Pulsar and Power Fist. May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Phantom Titan.",
+        "Boolean weapon line folded into previous weapon for Phantom Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Revenant Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Revenant Pulse Laser",
+          "range": "45cm",
+          "firepower": "2x MW3+",
+          "notes": []
+        },
+        {
+          "name": "2x Eldar Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Holofield",
+        "Jump Packs",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits destroy the unit."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Scorpion",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scorpion Twin Pulsar",
+          "range": "75cm",
+          "firepower": "2x MW2+",
+          "notes": []
+        },
+        {
+          "name": "Shuriken Cannon",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Skimmer",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Storm Serpent",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Storm Serpent Pulse Laser",
+          "range": "45cm",
+          "firepower": "2x AT3+",
+          "notes": []
+        },
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Skimmer",
+        "Webway Portal",
+        "Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the walker ability may use the Storm Serpent's Webway Portal to enter play. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Void Spinner",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Void Spinner Array",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "D",
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Skimmer",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warlock Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Psychic Lance",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "D",
+            "IC",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Psychic Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Titan Pulsar",
+          "range": "75cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "TK"
+          ]
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "30cm",
+          "firepower": "6x AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+3)"
+          ]
+        },
+        {
+          "name": "0-1x Titan Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Twin Eldar Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Farsight",
+        "Fearless",
+        "Holofield",
+        "Inspiring",
+        "Leader",
+        "Reinforced Armour",
+        "Walker",
+        "Armed with a Psychic Lance, and either a Titan Pulsar or Power Fist. May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Warlock Titan.",
+        "Boolean weapon line folded into previous weapon for Warlock Titan.",
+        "Boolean weapon line folded into previous weapon for Warlock Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nightwing Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Shuriken Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Bright Lance",
+          "range": "30cm",
+          "firepower": "AT4+/AA5+",
+          "notes": [
+            "FxF",
+            "L"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Phoenix Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Shuriken Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Pulse Laser",
+          "range": "45cm",
+          "firepower": "2x AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Night Spinner",
+          "range": "15cm",
+          "firepower": "1BP",
+          "notes": [
+            "FxF",
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vampire Raider",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Pulse Laser",
+          "range": "45cm",
+          "firepower": "2x AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Scatter Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May transport eight infantry units without Mounted . Wraithguard count as two units each. Critical Hit Effect: The unit and all units on board are destroyed."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dragonship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Pin-Point Attacks",
+          "range": "n/a",
+          "firepower": "2x MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or Pin-Point Attacks."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wraithship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "4BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Armed with either an Orbital Bombardment or Pin-Point Attack."
+      ],
+      "source_section": "Eldar Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "Eldar Biel-Tan Craftworld formations come in three types, the first two are warhost and troupe formations. Each warhost you include in the army allows you to field any three troupe formations. Although you can only take a troupe formation if you first take a warhost, they are treated as separate independent formations during a battle and do not have to move around together. The third type of formation are Biel-Tan Craftworld Spacecraft, Aircraft & Titan formations. A maximum of up to a third of the points available to the army may be spent on these formations.\nFinally, Biel-Tan Craftworld Individuals includes special characters, formations and objective options. Each individual may only be taken once by the army. The rules for using each individual are listed in the Notes column.\nThe army list includes the following information:\nFormation\nThe name of the formation.\nUnits\nThe core units that make up the formation.\nExtras\nAn Eldar formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. All of the core and extra units in a formation count as being part of one formation. The different units may not move off on their own.\nCost\nThe points value of the formation."
+    }
+  ],
+  "extraction_warnings": []
+}
