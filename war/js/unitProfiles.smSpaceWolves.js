@@ -87,9 +87,9 @@ ArmyforgeUnitProfiles.smSpaceWolves = {
 		land_raiders_or_redeemers:{name:'4 Land Raiders or Redeemers',type:'Formation Upgrade',speed:'n/a',armour:'n/a',cc:'n/a',ff:'n/a',weapons:[],abilities:['Reference card for a mixed Land Raider / Land Raider Redeemer upgrade group.']},
 		blood_claws:{name:'Blood Claws',type:'INF',speed:'15cm',armour:'4+',cc:'3+',ff:'6+',weapons:[{name:'Bolt Pistols',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:[]},
 		grey_hunters:{name:'Grey Hunters',type:'INF',speed:'15cm',armour:'4+',cc:'3+',ff:'4+',weapons:[{name:'Bolters',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:[]},
-		long_fangs:{name:'Long Fangs',type:'INF',speed:'15cm',armour:'4+',cc:'5+',ff:'3+',weapons:[{name:'Heavy Weapons',range:'45cm',firepower:'AP5+/AT6+',notes:[]}],abilities:[]},
+		long_fangs:{name:'Long Fangs',type:'INF',speed:'15cm',armour:'4+',cc:'5+',ff:'3+',weapons:[{name:'Missile Launcher and Lascannon',range:'45cm',firepower:'3x AP5+/AT5+',notes:[]}],abilities:[]},
 		sky_claws:{name:'Sky Claws',type:'INF',speed:'30cm',armour:'4+',cc:'3+',ff:'5+',weapons:[{name:'Bolt Pistols',range:'15cm',firepower:'Small Arms',notes:[]}],abilities:['Jump Packs']},
-		wolf_guard_terminators:{name:'Wolf Guard Terminators',type:'INF',speed:'15cm',armour:'4+',cc:'3+',ff:'3+',weapons:[{name:'Storm Bolters',range:'15cm',firepower:'AP5+/AT5+',notes:[]}],abilities:['Teleport']},
+		wolf_guard_terminators:{name:'Wolf Guard Terminators',type:'INF',speed:'15cm',armour:'4+',cc:'3+',ff:'3+',weapons:[{name:'2x Assault Cannon',range:'30cm',firepower:'AP5+/AT5+',notes:[]},{name:'Power Weapons',range:'(bc)',firepower:'Assault Weapons',notes:['EA(+1)','MW']}],abilities:['Reinforced Armour','Thick Rear Armour','Counts as a Terminator unit for the purposes of being transported.']},
 		wolf_scouts:{name:'Wolf Scouts',type:'INF',speed:'15cm',armour:'5+',cc:'4+',ff:'5+',weapons:[{name:'Heavy Bolter',range:'30cm',firepower:'AP5+',notes:[]}],abilities:['Infiltrator','Scout','Teleport']},
 		fenrisian_wolves:{name:'Fenrisian Wolves',type:'INF',speed:'20cm',armour:'5+',cc:'4+',ff:'-',weapons:[],abilities:['Infiltrator']}
 	},
