@@ -1,0 +1,1000 @@
+{
+  "metadata": {
+    "army_name": "Baran Siegemasters Imperial Guard",
+    "source_url": "https://tp.net-armageddon.org/army-lists/imperial-guard-baran-siegemasters.html",
+    "page_title": "Baran Siegemasters Imperial Guard Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "1",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Commissars rule applies to Baran Siegemasters Imperial Guard armies (see Commissars )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Infantry Company",
+      "cost": "175 points",
+      "units_text": "One Commander unit and nine Siege Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Company | One Commander unit and nine Siege Infantry units | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "1 Regimental HQ",
+      "cost": "225 points",
+      "units_text": "One Supreme Commander unit and nine Siege Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Baran Siegemaster Company Upgrades\n(Up to three company upgrades may be taken once per company.)",
+      "raw_text": "1 Regimental HQ | One Supreme Commander unit and nine Siege Infantry units | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Griffon Battery",
+      "cost": "+50 points",
+      "units_text": "Add three Griffons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Griffon Battery | Add three Griffons | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhound Squadron",
+      "cost": "+25 points each",
+      "units_text": "Add up to three Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound Squadron | Add up to three Hellhounds | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rapier Platoon",
+      "cost": "+75 points",
+      "units_text": "Add three Rapier Laser Destroyer units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rapier Platoon | Add three Rapier Laser Destroyer units | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Siege Infantry Platoon",
+      "cost": "+75 points",
+      "units_text": "Add six Siege Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Siege Infantry Platoon | Add six Siege Infantry units | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers",
+      "cost": "+25 points each",
+      "units_text": "Add up to two Snipers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Snipers | Add up to two Snipers | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Thudd Gun Platoon",
+      "cost": "+75 points",
+      "units_text": "Add three Thudd Gun units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Baran Siegemaster Support Formations\n(Any two support formations may be fielded per each company.)",
+      "raw_text": "Thudd Gun Platoon | Add three Thudd Gun units | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Artillery Battery",
+      "cost": "150 points",
+      "units_text": "Three Götterdämmerung Howitzers and three Bruenhilde",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Battery | Three Götterdämmerung Howitzers and three Bruenhilde | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Artillery Company",
+      "cost": "425 points",
+      "units_text": "Nine Götterdämmerung Howitzers and nine Gun Emplacements",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Company | Nine Götterdämmerung Howitzers and nine Gun Emplacements | 425 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Bombard Battery",
+      "cost": "250 points",
+      "units_text": "Three Bombards",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Bombard Battery | Three Bombards | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "0–1 Deathstrike Battery",
+      "cost": "200 points",
+      "units_text": "Two Deathstrikes",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Deathstrike Battery | Two Deathstrikes | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Flak Battery",
+      "cost": "125 points",
+      "units_text": "Three Blitzen AA Guns and either three Bruenhilde or three Gun Emplacements",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak Battery | Three Blitzen AA Guns and either three Bruenhilde or three Gun Emplacements | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Heavy Tank Platoon",
+      "cost": "300 points",
+      "units_text": "Six Ragnarok Heavy Tanks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Tank Platoon | Six Ragnarok Heavy Tanks | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Light Tank Platoon",
+      "cost": "150 points",
+      "units_text": "Six Siegfried Light Tanks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Light Tank Platoon | Six Siegfried Light Tanks | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Rough Rider Platoon",
+      "cost": "150 points",
+      "units_text": "Six Rough Rider units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Sapper Platoon",
+      "raw_text": "Rough Rider Platoon | Six Rough Rider units | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Eight Sappers",
+      "cost": "250 points",
+      "units_text": "(The units may be split up and added to one or more companies in the army, or fielded as a single formation in their own right.)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eight Sappers | (The units may be split up and added to one or more companies in the army, or fielded as a single formation in their own right.) | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Super-heavy Tank Platoon",
+      "cost": "200 points",
+      "units_text": "One Baneblade or Shadowsword",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Baran Siegemaster Fortified Positions\n(One may be fielded per each company.)\nType\nNotes\nCost",
+      "raw_text": "Super-heavy Tank Platoon | One Baneblade or Shadowsword | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Fortified Positions",
+      "cost": "+75 points",
+      "units_text": "Up to 52cm of trenches and 52cm of razor wire, plus up to six of the following: Gun Emplacements, Bunkers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Imperial Navy Aircraft\n(Up to a fourth of the points available may be spent on these formations.)",
+      "raw_text": "Fortified Positions | Up to 52cm of trenches and 52cm of razor wire, plus up to six of the following: Gun Emplacements, Bunkers | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "250 points",
+      "units_text": "Two Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | Two Marauder Bombers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Inspiring",
+        "Leader"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rapier Laser Destroyer",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rapier Laser Destroyer",
+          "range": "45cm",
+          "firepower": "AP6+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rough Riders",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted",
+        "Scout"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sappers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Melta Bombs",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Sappers."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Siege Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Snipers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thudd Gun",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thudd Gun",
+          "range": "45cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blitzen AA Gun",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Blitzen Cannon",
+          "range": "60cm",
+          "firepower": "AP6+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bruenhilde",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one of the following units: Blitzen AA Gun, Götterdämmerung Howitzer, Rapier Laser Destroyer, Thudd Gun."
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "May transport one of the following units: Blitzen AA Gun, Götterdämmerung Howitzer, Rapier Laser Destroyer, Thudd Gun."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Götterdämmerung Howitzer",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "range": "90cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Siegfried Light Tank",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bombard",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Siege Mortar",
+          "range": "45cm",
+          "firepower": "2BP",
+          "notes": [
+            "IC",
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathstrike",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Deathstrike Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Griffon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Mortar",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ragnarok Heavy Tank",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Ragnarok Battlecannon",
+          "range": "60cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Baneblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Baneblade Battle Cannon",
+          "range": "75cm",
+          "firepower": "2x AP3+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "3x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Shadowsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Baran Siegemaster Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Imperial Guard army that is based on a Siege regiment of the type typified by the Baran Siegemasters. It can also be used as a stand in army list for other Imperial Guard Siege regiments, other kinds of static defence regiment, as well as being an excellent army list to use to represent the planetary defence forces fielded by Imperial Governors all across the Imperium.\nBaran Siegemaster formations come in two types: companies and support formations . Each company you include in the army allows you to field any two support formations, plus one set of Fortified Positions. Although you can only take a support formation if you first take a company, they are treated as separate independent formations during a battle and do not have to move around together.\nIn addition, companies may be given up to three company upgrades. Each type of upgrade can only be taken once by a company. Upgrades are added to the company and are not a separate formation. Support formations may not be given company upgrades. Each upgrade that is taken adds to the cost of the company, as shown on the upgrade chart. Note that you may take any type of upgrade for any type of company.\nBaran Siegemasters Imperial Guard armies may be supported by Imperial Navy aircraft. A maximum of up to a fourth of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

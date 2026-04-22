@@ -1,0 +1,1439 @@
+{
+  "metadata": {
+    "army_name": "Armageddon Steel Legion Imperial Guard",
+    "source_url": "https://tp.net-armageddon.org/army-lists/imperial-guard-steel-legion.html",
+    "page_title": "Armageddon Steel Legion Imperial Guard Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Titan Legion battlegroup formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Artillery Company",
+      "cost": "550 points",
+      "units_text": "Any nine of the following units: Basilisk, Manticore",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Company | Any nine of the following units: Basilisk, Manticore | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Infantry Company",
+      "cost": "250 points",
+      "units_text": "One Commander unit and twelve Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Company | One Commander unit and twelve Infantry units | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Mechanized Infantry Company",
+      "cost": "400 points",
+      "units_text": "One Commander unit, twelve Infantry units and seven Chimera",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mechanized Infantry Company | One Commander unit, twelve Infantry units and seven Chimera | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Regimental HQ",
+      "cost": "475 points",
+      "units_text": "One Supreme Commander unit, twelve Infantry units and seven Chimera",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Regimental HQ | One Supreme Commander unit, twelve Infantry units and seven Chimera | 475 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Super-heavy Tank Company",
+      "cost": "500 points",
+      "units_text": "Any three of the following units: Baneblade, Shadowsword",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Super-heavy Tank Company | Any three of the following units: Baneblade, Shadowsword | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Tank Company",
+      "cost": "650 points",
+      "units_text": "Ten Leman Russ",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(replace one Leman Russ with a Leman Russ Vanquisher)\n(Free)\nSteel Legion Company Upgrades\n(Up to three company upgrades may be taken once per company.)",
+      "raw_text": "Tank Company | Ten Leman Russ | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support Platoon*",
+      "cost": "+100 points",
+      "units_text": "Add four Support Squad units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support Platoon* | Add four Support Squad units | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Flak",
+      "cost": "+50 points",
+      "units_text": "Add one Hydra",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak | Add one Hydra | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Griffon Battery",
+      "cost": "+50 points",
+      "units_text": "Add three Griffons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Griffon Battery | Add three Griffons | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhound Squadron",
+      "cost": "+25 points each",
+      "units_text": "Add up to three Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound Squadron | Add up to three Hellhounds | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Platoon*",
+      "cost": "+100 points",
+      "units_text": "Add six Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Platoon* | Add six Infantry units | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Ogryns*",
+      "cost": "+25 points each",
+      "units_text": "Add up to two Ogryns",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ogryns* | Add up to two Ogryns | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers*",
+      "cost": "+25 points each",
+      "units_text": "Add up to two Snipers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Snipers* | Add up to two Snipers | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Tank Squadron",
+      "cost": "+175 points",
+      "units_text": "Add three Leman Russ or Leman Russ Demolishers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "These upgrades may add up to one Chimera per each of their units for +25 points each. All infantry units in the formation must be transported in Chimera if any are taken but you may not take more than one Chimera per unit in the formation.\nSteel Legion Support Formations\n(Any two support formations may be fielded per each company.)",
+      "raw_text": "Tank Squadron | Add three Leman Russ or Leman Russ Demolishers | +175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Artillery Battery",
+      "cost": "250 points",
+      "units_text": "Three Bombards or Manticores",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Battery | Three Bombards or Manticores | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Basilisk Battery",
+      "cost": "225 points",
+      "units_text": "Three Basilisks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Basilisk Battery | Three Basilisks | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "0–1 Deathstrike Battery",
+      "cost": "200 points",
+      "units_text": "Two Deathstrikes",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Deathstrike Battery | Two Deathstrikes | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Flak Battery",
+      "cost": "150 points",
+      "units_text": "Three Hydras",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak Battery | Three Hydras | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Rough Rider Platoon",
+      "cost": "150 points",
+      "units_text": "Six Rough Riders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rough Rider Platoon | Six Rough Riders | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Sentinel Squadron",
+      "cost": "100 points",
+      "units_text": "Four Sentinels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinel Squadron | Four Sentinels | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Storm Trooper Platoon",
+      "cost": "200 points",
+      "units_text": "Eight Storm Troopers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(add four Chimera or Valkyries)\n(+100 or +150 points)",
+      "raw_text": "Storm Trooper Platoon | Eight Storm Troopers | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Super-heavy Tank Platoon",
+      "cost": "200 points",
+      "units_text": "One Baneblade or Shadowsword",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Super-heavy Tank Platoon | One Baneblade or Shadowsword | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Vulture Squadron",
+      "cost": "300 points",
+      "units_text": "Four Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Imperial Ally Formations\n(Up to a third of the points available may be spent on these formations.)\nImperial Navy Assets",
+      "raw_text": "Vulture Squadron | Four Vultures | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "250 points",
+      "units_text": "Two Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | Two Marauder Bombers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "0–1 Orbital Support",
+      "cost": "150 points",
+      "units_text": "Lunar Class Cruiser or Emperor Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Orbital Support | Lunar Class Cruiser or Emperor Class Battleship | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Reaver",
+      "cost": "650 points",
+      "units_text": "One Reaver Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Reaver | One Reaver Class Titan | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Warhound",
+      "cost": "275 points",
+      "units_text": "One Warhound Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound | One Warhound Class Titan | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Warhound Pack",
+      "cost": "500 points",
+      "units_text": "Two Warhound Class Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound Pack | Two Warhound Class Titans | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Warlord",
+      "cost": "825 points",
+      "units_text": "One Warlord Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warlord | One Warlord Class Titan | 825 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Inspiring",
+        "Leader"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has an Autocannon."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ogryns",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Ripper Guns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Ogryn Combat Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Counts as two units each for the purposes of being transported."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rough Riders",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted",
+        "Scout"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Snipers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Basilisk",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Basilisk."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bombard",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Siege Mortar",
+          "range": "45cm",
+          "firepower": "2BP",
+          "notes": [
+            "IC",
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathstrike",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Deathstrike Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Griffon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Mortar",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Vanquisher",
+          "range": "75cm",
+          "firepower": "AP4+/AT2+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Manticore",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rocket Launcher",
+          "range": "150cm",
+          "firepower": "2BP",
+          "notes": [
+            "D",
+            "Ind",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "D",
+            "SS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellstrike",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "SS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer"
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Baneblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Baneblade Battle Cannon",
+          "range": "75cm",
+          "firepower": "2x AP3+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "3x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Shadowsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Imperial Guard Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Reaver Class Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4x AP5+/AT3+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Rocket Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warhound Class Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Blastgun",
+          "range": "45cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "FwA",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can't move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warlord Class Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FwA",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Gatling Blaster",
+          "range": "60cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "2x Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4x AP5+/AT3+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "6 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Imperial Guard army that is based on an Armageddon Steel Legion regiment. It can also be used as a stand in army list for other Imperial Guard regiments, such as Cadian Shock Troops, Mordian Iron Guard or Valhallan Ice Warriors, among many others. Note that we have based the number of units in the infantry formations on what will be found in a typical field formation, rather than what is found in a full-strength company when first enlisted.\nSteel Legion formations come in two types: companies and support formations . Each company you include in the army allows you to field any two support formations. Although you can only take a support formation if you first take a company, they are treated as separate independent formations during a battle and do not have to move around together. For example, taking a Steel Legion Tank Company would entitle you to take two formations from the support formation chart. If you decided to take an artillery battery then it and the tank company would operate as two separate formations.\nIn addition, companies may be given up to three company upgrades. Each type of upgrade can only be taken once by a company (i.e., an infantry company could have an Ogryn and a Sniper upgrade, but not two Sniper upgrades). Upgrades are added to the company and are not a separate formation. Support formations may not be given company upgrades. Each upgrade that is taken adds to the cost of the company, as shown on the upgrade chart. For example, if you took a Tank Company and added a mechanised infantry platoon to it as an upgrade, then the cost of the tank company would be 650 + 100 + 75 (for the Chimera) = 825 points. Note that you may take any type of upgrade for any type of company; so, for example, if you want to include a platoon of Leman Russ tanks in an infantry company or snipers in a Tank Company then you may do so.\nArmageddon Steel Legion Imperial Guard armies may be supported by Imperial Navy assets and Titan Legion battlegroups. A maximum of up to a third of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

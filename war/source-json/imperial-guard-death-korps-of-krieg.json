@@ -1,0 +1,1707 @@
+{
+  "metadata": {
+    "army_name": "Death Korps of Krieg Imperial Guard",
+    "source_url": "https://tp.net-armageddon.org/army-lists/imperial-guard-death-korps-of-krieg.html",
+    "page_title": "Death Korps of Krieg Imperial Guard Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Titan Legion battlegroup formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Commissars and Fortified Positions rules apply to Death Korps of Krieg Imperial Guard armies (see Commissars and Fortified Positions )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Death Rider Company per 1500 points",
+      "cost": "250 points",
+      "units_text": "Twelve Death Riders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Death Rider Company per 1500 points | Twelve Death Riders | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Infantry Company",
+      "cost": "300 points",
+      "units_text": "One Commander unit and nineteen Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Company | One Commander unit and nineteen Infantry units | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Regimental HQ",
+      "cost": "400 points",
+      "units_text": "One Supreme Commander unit and nineteen Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Death Korps of Krieg Company Upgrades\n(Up to three company upgrades may be taken once per company.)",
+      "raw_text": "0–1 Regimental HQ | One Supreme Commander unit and nineteen Infantry units | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support Battery",
+      "cost": "+75 points",
+      "units_text": "Add four Fire Support units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support Battery | Add four Fire Support units | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Gorgon Siege Transporters",
+      "cost": "+200 points",
+      "units_text": "Add two Gorgons (may not be added to a Death Rider Company)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(add one Gorgon Mortars character to each Gorgon)\n(+25 points)",
+      "raw_text": "Gorgon Siege Transporters | Add two Gorgons (may not be added to a Death Rider Company) | +200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Heavy Tank",
+      "cost": "+125 points",
+      "units_text": "Add one Macharius",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Tank | Add one Macharius | +125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhound Squadron",
+      "cost": "+100 points",
+      "units_text": "Add three Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound Squadron | Add three Hellhounds | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Platoon",
+      "cost": "+175 points",
+      "units_text": "Add ten Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Platoon | Add ten Infantry units | +175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Tank Squadron",
+      "cost": "+140 points",
+      "units_text": "Add any three Leman Russ variants, none of which may be a Leman Russ Vanquisher",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Death Korps of Krieg Support Formations\n(Any two support formations may be fielded per each company.)",
+      "raw_text": "Tank Squadron | Add any three Leman Russ variants, none of which may be a Leman Russ Vanquisher | +140 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Artillery Support Company",
+      "cost": "600 points",
+      "units_text": "Nine Earthshaker Platforms and nine of the following: Gun Emplacements, Trojans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Support Company | Nine Earthshaker Platforms and nine of the following: Gun Emplacements, Trojans | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "0–1 Deathstrike Silo",
+      "cost": "250 points",
+      "units_text": "One Deathstrike Silo",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Death Rider Scout Platoon",
+      "raw_text": "0–1 Deathstrike Silo | One Deathstrike Silo | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Six Death Riders",
+      "cost": "150 points",
+      "units_text": "Note: All units in the formation have Scout",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Six Death Riders | Note: All units in the formation have Scout | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Engineers Platoon",
+      "cost": "250 points",
+      "units_text": "Eight Engineers and a Hades Breaching Drill",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Engineers Platoon | Eight Engineers and a Hades Breaching Drill | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Grenadiers Platoon",
+      "cost": "225 points",
+      "units_text": "Eight Grenadiers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(add one Gorgon or eight Centaurs)\nNote: When a Gorgon is added all units in the formation lose Scout\n(+75 points)\nHeavy Support Battery",
+      "raw_text": "Grenadiers Platoon | Eight Grenadiers | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Three Gun Emplacements and one of the following options:",
+      "cost": "+125 points",
+      "units_text": "Any three of the following: Heavy AA Platform, Hydra Platform",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Three Earthshaker Platforms",
+      "raw_text": "Three Gun Emplacements and one of the following options: | Any three of the following: Heavy AA Platform, Hydra Platform | +125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "+200 points",
+      "cost": "+275 points",
+      "units_text": "Three Medusa Platforms",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(replace three Gun Emplacements with three Trojans)\n(+25 points)",
+      "raw_text": "+200 points | Three Medusa Platforms | +275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Heavy Tank Platoon",
+      "cost": "325 points",
+      "units_text": "One Macharius Command and two Macharius",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Tank Platoon | One Macharius Command and two Macharius | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Light Support Battery",
+      "cost": "200 points",
+      "units_text": "Four Heavy Mortars or Quad Launchers, and either four Centaurs or 20cm of Trenches",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Light Support Battery | Four Heavy Mortars or Quad Launchers, and either four Centaurs or 20cm of Trenches | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Self-Propelled Heavy Support",
+      "cost": "250 points",
+      "units_text": "Three Bombards",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Self-Propelled Heavy Support | Three Bombards | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Super-Heavy Tank Platoon",
+      "cost": "200 points",
+      "units_text": "One Baneblade, Shadowsword, Stormblade or Stormsword",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Super-Heavy Tank Platoon | One Baneblade, Shadowsword, Stormblade or Stormsword | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Super-Heavy Tank Support Company",
+      "cost": "500 points",
+      "units_text": "Any three of the following units: Baneblade, Shadowsword, Stormblade, Stormsword",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Super-Heavy Tank Support Company | Any three of the following units: Baneblade, Shadowsword, Stormblade, Stormsword | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Tank Platoon",
+      "cost": "280 points",
+      "units_text": "Add any six Leman Russ variants, up to one of which may be a Leman Russ Vanquisher",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Leman Russ Variants\nUnit",
+      "raw_text": "Tank Platoon | Add any six Leman Russ variants, up to one of which may be a Leman Russ Vanquisher | 280 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Cost",
+      "cost": "+20 points",
+      "units_text": "Leman Russ",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Leman Russ Demolisher",
+      "raw_text": "Cost | Leman Russ | +20 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "+20 points",
+      "cost": "+50 points",
+      "units_text": "Leman Russ Vanquisher",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Thunderer\nFree\nDeath Korps of Krieg Fortified Positions\n(One may be fielded per each each Regimental HQ or Infantry Company.)\nType\nNotes\nCost",
+      "raw_text": "+20 points | Leman Russ Vanquisher | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Trenchworks",
+      "cost": "+75 points",
+      "units_text": "Four Bunkers and 80 cm of Trenches",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Imperial Ally Formations\n(Up to a third of the points available may be spent on these formations.)\nImperial Navy Aircraft",
+      "raw_text": "Trenchworks | Four Bunkers and 80 cm of Trenches | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Heavy Marauder",
+      "cost": "150 points",
+      "units_text": "One Marauder Heavy Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Marauder | One Marauder Heavy Bomber | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Reaver",
+      "cost": "650 points",
+      "units_text": "One Reaver Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Reaver | One Reaver Class Titan | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Warhound Pack",
+      "cost": "500 points",
+      "units_text": "Two Warhound Class Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound Pack | Two Warhound Class Titans | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "titan_legion_battlegroups",
+      "entry_type": "formation",
+      "name": "Warlord",
+      "cost": "825 points",
+      "units_text": "One Warlord Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warlord | One Warlord Class Titan | 825 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Inspiring",
+        "Leader"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gorgon Mortars",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Gorgon Mortars",
+          "range": "30cm",
+          "firepower": "2BP",
+          "notes": [
+            "FwA",
+            "Ind",
+            "SS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Replace the 2x Twin Heavy Bolter with Gorgon Mortars and reduce the unit's firefight to 6+."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Riders",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted",
+        "Walker"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Engineers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Mole Launcher",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Support",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grenadiers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Grenadiers."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy Mortar",
+      "type": "INF",
+      "speed": "5cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Mortar",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Quad Launcher",
+      "type": "INF",
+      "speed": "5cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Quad Launcher",
+          "range": "45cm",
+          "firepower": "2x AP4+",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Centaur",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit with Jump Packs or Mounted . If transporting a Heavy Mortar or Quad Launcher the unit's speed is reduced to 20cm."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Earthshaker Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Earthshaker Platform."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy AA Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy AA Gun",
+          "range": "60cm",
+          "firepower": "AP5+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "2x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Medusa Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Medusa Siege Gun",
+          "range": "60cm",
+          "firepower": "1BP",
+          "notes": [
+            "D",
+            "IC",
+            "Ind"
+          ]
+        },
+        {
+          "name": "Medusa Siege Gun",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Medusa Platform."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bombard",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Siege Mortar",
+          "range": "45cm",
+          "firepower": "2BP",
+          "notes": [
+            "IC",
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Vanquisher",
+          "range": "75cm",
+          "firepower": "AP4+/AT2+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderer",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Trojan",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one of the following units: Earthshaker Platform, Heavy AA Platform, Hydra Platform, Medusa Platform."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "May transport one of the following units: Earthshaker Platform, Heavy AA Platform, Hydra Platform, Medusa Platform."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Baneblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Baneblade Battle Cannon",
+          "range": "75cm",
+          "firepower": "2x AP3+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "3x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathstrike Silo",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Deathstrike Missiles",
+          "range": "Unlimited",
+          "firepower": "2x MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D6)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Destroyed. All units within 5cm take a MW4+ hit."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gorgon",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Transport",
+        "Walker",
+        "May transport ten infantry units without Jump Packs or Mounted . Critical Hit Effect: Immobilized and D6 units being transported are hit. Subsequent critical hits destroy the unit."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Macharius",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Macharius Command",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "0-1x 2x Vanquisher",
+          "range": "75cm",
+          "firepower": "AP4+/AT2+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. Armed with either a Vulcan Megabolter or two Vanquisher."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "0-1x 2x Vanquisher",
+        "0-1x Vulcan Mega-Bolter",
+        "Critical Hit Effect: Destroyed. Armed with either a Vulcan Megabolter or two Vanquisher."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Shadowsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormblade",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Plasma Blastgun",
+          "range": "45cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "FxF",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormsword",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Siege Cannon",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "D",
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Stormsword."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Heavy Bomber",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hades Breaching Drill",
+      "type": "Special",
+      "speed": "Immobile",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Transport",
+        "Tunneler",
+        "May carry 8 Death Korps Engineer units. Note that the Hades Breaching Drill is not a unit and so may not be shot at nor have hits applied to it. It is in all respects simply a marker. No Blast Marker is generated for its parent Hades Breach Drill leaving the formation behind during the game."
+      ],
+      "source_section": "Death Korps of Krieg Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Hades Breaching Drill."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Reaver Class Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4x AP5+/AT3+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Rocket Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warhound Class Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Blastgun",
+          "range": "45cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "FwA",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can't move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warlord Class Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FwA",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Gatling Blaster",
+          "range": "60cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "2x Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4x AP5+/AT3+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "6 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Titan Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Imperial Guard army that is based on a Death Korps of Krieg siege regiment.\nDeath Korps of Krieg formations come in two types: companies and support formations . Each company you include in the army allows you to field any two support formations, plus one set of Trenchworks. Although you can only take a support formation if you first take a company, they are treated as separate independent formations during a battle and do not have to move around together. A maximum of one Death Rider Company may be fielded for every full 1,500 points of the army.\nIn addition, companies may be given up to three company upgrades. Each type of upgrade can only be taken once by a company. Upgrades are added to the company and are not a separate formation. Support formations may not be given company upgrades. Each upgrade that is taken adds to the cost of the company, as shown on the upgrade chart. Note that you may take any type of upgrade for any type of company.\nTank platoons and squadrons may be comprised of different Leman Russ variants. The number of variants, along with the maximum number of rare variants, is listed in the units column. The variants themselves are listed in the Leman Russ variant and Leman Russ rare variant charts. Each variant taken adds to the cost of the formation or upgrade.\nDeath Korps of Krieg Imperial Guard armies may be supported by Imperial Navy aircraft and Titan Legion battlegroups. A maximum of up to a third of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

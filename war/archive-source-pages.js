@@ -31,6 +31,22 @@ const PAGE_CONFIGS = [
 		url: 'https://tp.net-armageddon.org/army-lists/ork-gargant-mob.html'
 	},
 	{
+		id: 'imperial-guard-steel-legion',
+		url: 'https://tp.net-armageddon.org/army-lists/imperial-guard-steel-legion.html'
+	},
+	{
+		id: 'imperial-guard-baran-siegemasters',
+		url: 'https://tp.net-armageddon.org/army-lists/imperial-guard-baran-siegemasters.html'
+	},
+	{
+		id: 'imperial-guard-death-korps-of-krieg',
+		url: 'https://tp.net-armageddon.org/army-lists/imperial-guard-death-korps-of-krieg.html'
+	},
+	{
+		id: 'imperial-guard-minervan-tank-legion',
+		url: 'https://tp.net-armageddon.org/army-lists/imperial-guard-minervan-tank-legion.html'
+	},
+	{
 		id: 'space-marine-imperial-fists',
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-imperial-fists.html'
 	},
@@ -1005,10 +1021,17 @@ function buildArchiveForPage(config, html) {
 async function main() {
 	fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+	const requestedPageIds = process.env.PAGE_IDS ? process.env.PAGE_IDS.split(',').map(function(id) {
+		return id.trim();
+	}).filter(Boolean) : null;
+	const pageConfigs = requestedPageIds ? PAGE_CONFIGS.filter(function(config) {
+		return requestedPageIds.indexOf(config.id) !== -1;
+	}) : PAGE_CONFIGS;
+
 	let created = 0;
 	const failed = [];
 
-	for (const config of PAGE_CONFIGS) {
+	for (const config of pageConfigs) {
 		try {
 			const html = await getUrlWithRetry(config.url, 3);
 			const archive = buildArchiveForPage(config, html);
