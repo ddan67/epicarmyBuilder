@@ -1,0 +1,836 @@
+{
+  "metadata": {
+    "army_name": "House Lakar Knight World Defense Force",
+    "source_url": "https://tp.net-armageddon.org/army-lists/adeptus-mechanicus-knight-world.html",
+    "page_title": "House Lakar Knight World Defense Force Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Fortified Positions rule applies to House Lakar Knight World Defense Force armies (see Fortified Positions )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "250 points",
+      "units_text": "Two Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | Two Marauder Bombers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Aspirant",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Inspiring",
+        "Leader"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Seneschal",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Infantry Levy",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has a Heavy Bolter."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Levy Command",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rapier",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Laser Destroyer",
+          "range": "45cm",
+          "firepower": "AP6+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rough Riders",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted",
+        "Scout"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Snipers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thudd Gun",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thudd Gun",
+          "range": "45cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "AA Gun",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "AA Gun",
+          "range": "60cm",
+          "firepower": "AP6+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gun Transporter",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one of the following units: AA Gun, Howitzer, Rapier, Thudd Gun."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Howitzer",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "range": "90cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Baron",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Rapid Fire Battle Cannon",
+          "range": "75cm",
+          "firepower": "2x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Power Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Power Gauntlet",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK"
+          ]
+        },
+        {
+          "name": "0-1x Shock Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Inspiring",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Walker",
+        "Critical Hit Effect: Destroyed. Armed with either a Power Gauntlet and Shock Lance, or a Power Lance."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Castellan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Knight Quake Cannon",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Knight Quake Cannon",
+          "range": "90cm",
+          "firepower": "1BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Multi-barrelled Autocannon",
+          "range": "45cm",
+          "firepower": "3x AP5+/AT6+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Knight Castellan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Crusader",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Knight Quake Cannon",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Knight Quake Cannon",
+          "range": "90cm",
+          "firepower": "1BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Knight Crusader."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Errant",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Cannon",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Thermal Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Gauntlet",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK"
+          ]
+        },
+        {
+          "name": "Shock Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Knight Errant."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Lancer",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Power Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Scout",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Paladin",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Chainsword",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Shock Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warden",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "0-1x Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "0-1x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "2x AP5+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x AA Missile Launcher",
+          "range": "45cm",
+          "firepower": "2x AP5+/AT6+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Multilasers",
+          "range": "30cm",
+          "firepower": "2x AP5+/AT6+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "0-1x Vanquisher",
+          "range": "75cm",
+          "firepower": "AP4+/AT2+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed. Armed with either a Demolisher and Heavy Bolters; an AA Missile Launcher and Multilasers; or a Vanquisher."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "House Lakar Knight World Defense Force formations come in three types: Knight Households, Support Households and Support Levy. Each Knight Household you include in the army allows you to field one Support Household and one Support Levy.\nHouse Lakar Knight World Defense Force armies may be supported by Imperial Navy aircraft. A maximum of up to a fourth of the points available to the army may be spent on these formations.\nThe army list includes the following information:\nFormation\nThe name of the formation.\nUnits\nThe core units that make up the formation.\nExtras\nA formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. All of the core and extra units in a formation count as being part of one formation. The different units may not move off on their own.\nCost\nThe points value of the formation."
+    }
+  ],
+  "extraction_warnings": []
+}

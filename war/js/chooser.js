@@ -210,6 +210,12 @@ var ArmyforgeUI = {
 		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
 		var profileFindersByListId = {
 			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
+			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
+			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
+			'IG_steelLegion_NETEA': ArmyforgeUnitProfiles.findIgSteelLegionProfileByName,
+			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
+			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
+			'IG_minervan_NETEA': ArmyforgeUnitProfiles.findIgMinervanTankLegionProfileByName,
 			'ORK_ghazgkhull_NETEA': ArmyforgeUnitProfiles.findOrkWarHordeProfileByName,
 			'ORK_feral_NETEA': ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName,
 			'ORK_gargant_NETEA': ArmyforgeUnitProfiles.findOrkGargantMobProfileByName,
@@ -296,7 +302,10 @@ var ArmyforgeUI = {
 			return '';
 		}
 		return text.replace(/\([^)]*\)/g, ' ')
+				   .replace(/^\s*one of the following\s+/i, '')
+				   .replace(/^\s*\d+\s*[–-]\s*\d+\s*/g, '')
 				   .replace(/^\s*\d+\s*[xX]?\s*/g, '')
+				   .replace(/^\s*(?:one|two|three|four|five|six|seven|eight|nine|ten)\s+/i, '')
 				   .replace(/\s+/g, ' ')
 				   .strip();
 	},
@@ -305,9 +314,40 @@ var ArmyforgeUI = {
 		if (!text) {
 			return [];
 		}
-		var normalized = text.replace(/\band\b/gi, ',');
+		var normalized = text.replace(/\b(?:and|or)\b/gi, ',');
 		var parts = normalized.split(',');
 		var tokens = [];
+		if (/tank\s+squadron/i.test(text)) {
+			tokens.push('Leman Russ');
+			tokens.push('Leman Russ Demolisher');
+		}
+		if (/sappers?\s+unit/i.test(text)) {
+			tokens.push('Sappers');
+		}
+		if (/griffon\s+battery/i.test(text)) {
+			tokens.push('Griffon');
+		}
+		if (/rapier\s+platoon/i.test(text)) {
+			tokens.push('Rapier Laser Destroyer');
+		}
+		if (/sniper\s+unit/i.test(text)) {
+			tokens.push('Snipers');
+		}
+		if (/thudd\s+gun\s+platoon/i.test(text)) {
+			tokens.push('Thudd Gun');
+		}
+		if (/hellhound\s+squadron/i.test(text)) {
+			tokens.push('Hellhound');
+		}
+		if (/fire\s+support\s+battery/i.test(text)) {
+			tokens.push('Fire Support');
+		}
+		if (/macharius\s+command\s+tank/i.test(text)) {
+			tokens.push('Macharius Command');
+		}
+		if (/gorgons?\s+with\s+mortar\s+characters/i.test(text)) {
+			tokens.push('Gorgon Mortars');
+		}
 		parts.each(function(part) {
 			var cleaned = ArmyforgeUI.normalizeUnitToken(part);
 			if (cleaned) {

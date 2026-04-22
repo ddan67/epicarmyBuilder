@@ -1,0 +1,1739 @@
+{
+  "metadata": {
+    "army_name": "Gryphonne IV Skitarii Legion",
+    "source_url": "https://tp.net-armageddon.org/army-lists/adeptus-mechanicus-skitarii-legion.html",
+    "page_title": "Gryphonne IV Skitarii Legion Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All Mechanicus ally formations, except for Cataphractii,",
+          "value": "1+"
+        },
+        {
+          "scope": "all other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Sagitarii",
+      "cost": "250 points",
+      "units_text": "Five Sagitarii units and five Gun Servitor units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(Replace five Gun Servitor units with three Rapier units)\n(Free)",
+      "raw_text": "Sagitarii | Five Sagitarii units and five Gun Servitor units | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Skitarii",
+      "cost": "225 points",
+      "units_text": "Three Hypaspist units, two Secutor units and five additional Hypaspist or Gun Servator units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(Replace three Hypaspist units with three Secutor units)\n(+125 points)\nOrdinatus Formations\n(Any one ordinatus formation may be fielded per each demi-century.)\nMajoris",
+      "raw_text": "Skitarii | Three Hypaspist units, two Secutor units and five additional Hypaspist or Gun Servator units | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "One of the following Ordinatus Majoris:",
+      "cost": "450 points",
+      "units_text": "Mars",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Golgotha",
+      "raw_text": "One of the following Ordinatus Majoris: | Mars | 450 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "550 points",
+      "cost": "500 points",
+      "units_text": "Armageddon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "550 points | Armageddon | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Minorus",
+      "cost": "250 points",
+      "units_text": "Two Ordinatus Minorus",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(Add one Ordinatus Minorus)\n(+100 points)\nSupport Formations\n(Any two support formation may be fielded per each demi-century.)",
+      "raw_text": "Minorus | Two Ordinatus Minorus | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Assault Maniple",
+      "cost": "200 points",
+      "units_text": "Four Colossus Robots",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Assault Maniple | Four Colossus Robots | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Avengers",
+      "cost": "200 points",
+      "units_text": "Two Avenger Strike Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Avengers | Two Avenger Strike Fighters | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Orbital Support",
+      "cost": "200 points",
+      "units_text": "Ark Mechanicus Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Orbital Support | Ark Mechanicus Battleship | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Praetorian Maniple",
+      "cost": "250 points",
+      "units_text": "Five Praetorian Combat Servitor units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "(Give all infantry units in the formation Self-Reliant )\n(+25 points)\n(Add one Ordinatus Minorus)\n(+100 points)",
+      "raw_text": "Praetorian Maniple | Five Praetorian Combat Servitor units | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Scout Maniple",
+      "cost": "125 points",
+      "units_text": "Four Crusader Robots",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Demi-century Upgrades\n(Up to three demi-century upgrades may be taken once per demi-century.)",
+      "raw_text": "Scout Maniple | Four Crusader Robots | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Chimedons",
+      "cost": "+175 points",
+      "units_text": "Add ten Chimedons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chimedons | Add ten Chimedons | +175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Flak",
+      "cost": "+50 points",
+      "units_text": "Add one Hydra",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak | Add one Hydra | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Linked Neural Network",
+      "cost": "+25 points",
+      "units_text": "Give all infantry units in the formation Self-Reliant",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Linked Neural Network | Give all infantry units in the formation Self-Reliant | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Magos",
+      "cost": "+50 points",
+      "units_text": "Add one Magos character to a Secutor unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Magos | Add one Magos character to a Secutor unit | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Ordinatus",
+      "cost": "+100 points",
+      "units_text": "Add one Ordinatus Minorus",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Mechanicus Allies\n(Up to a third of the points available may be spent on these formations.)",
+      "raw_text": "Ordinatus | Add one Ordinatus Minorus | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Cataphractii",
+      "cost": "350 points",
+      "units_text": "One Macharius Command and two Macharius",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Cataphractii | One Macharius Command and two Macharius | None | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Emperor",
+      "cost": "1250 points",
+      "units_text": "One Imperator or Warmonger Class Titan",
+      "upgrades_or_options_text": "All Titan Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Emperor | One Imperator or Warmonger Class Titan | All Titan Upgrades | 1250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Reaver",
+      "cost": "550 points",
+      "units_text": "One Reaver Class Titan",
+      "upgrades_or_options_text": "All Titan Weapons and Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Reaver | One Reaver Class Titan | All Titan Weapons and Upgrades | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warhound",
+      "cost": "275 points",
+      "units_text": "One Warhound Class Titan",
+      "upgrades_or_options_text": "All Scout Titan Weapons, Veteran Princeps",
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound | One Warhound Class Titan | All Scout Titan Weapons, Veteran Princeps | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warhound Pack",
+      "cost": "500 points",
+      "units_text": "Two Warhound Class Titans",
+      "upgrades_or_options_text": "All Scout Titan Weapons, Veteran Princeps",
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound Pack | Two Warhound Class Titans | All Scout Titan Weapons, Veteran Princeps | 500 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Warlord",
+      "cost": "675 points",
+      "units_text": "One Warlord Class Titan",
+      "upgrades_or_options_text": "All Titan Weapons and Upgrades",
+      "restrictions_or_notes": "Titan Weapons and Upgrades\nBattle Titan Weapons\n(Mount each weapon mount in the formation with one of the following upgrades.)",
+      "raw_text": "Warlord | One Warlord Class Titan | All Titan Weapons and Upgrades | 675 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Upgrade",
+      "cost": "+25 points each",
+      "units_text": "Cost",
+      "upgrades_or_options_text": "Apocalypse Missile Launcher",
+      "restrictions_or_notes": null,
+      "raw_text": "Upgrade | Cost | Apocalypse Missile Launcher | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Carapace Landing Pad",
+      "cost": "+25 points each",
+      "units_text": "Free",
+      "upgrades_or_options_text": "Close Combat Weapon",
+      "restrictions_or_notes": null,
+      "raw_text": "Carapace Landing Pad | Free | Close Combat Weapon | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Corvus Assault Pod",
+      "cost": "+25 points each",
+      "units_text": "Free",
+      "upgrades_or_options_text": "Gatling Blaster",
+      "restrictions_or_notes": "Laser Blaster\n+50 points each",
+      "raw_text": "Corvus Assault Pod | Free | Gatling Blaster | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Laser Burner",
+      "cost": "+50 points each",
+      "units_text": "Free",
+      "upgrades_or_options_text": "Melta Cannon",
+      "restrictions_or_notes": null,
+      "raw_text": "Laser Burner | Free | Melta Cannon | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Plasma Cannon",
+      "cost": "+75 points each",
+      "units_text": "+25 points each",
+      "upgrades_or_options_text": "Plasma Destructor (Carapace weapon mount only)",
+      "restrictions_or_notes": null,
+      "raw_text": "Plasma Cannon | +25 points each | Plasma Destructor (Carapace weapon mount only) | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Quake Cannon",
+      "cost": "+75 points each",
+      "units_text": "+75 points each",
+      "upgrades_or_options_text": "Support Missile (Carapace weapon mount only)",
+      "restrictions_or_notes": "Volcano Cannon\n+50 points each\nScout Titan Weapons\n(Mount each weapon mount in the formation with one of the following upgrades.)\nUpgrade\nCost\nInferno Gun\nFree",
+      "raw_text": "Quake Cannon | +75 points each | Support Missile (Carapace weapon mount only) | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Plasma Blastgun",
+      "cost": "+25 points each",
+      "units_text": "Free",
+      "upgrades_or_options_text": "Turbo-Laser Destructor",
+      "restrictions_or_notes": "Vulcan Mega-Bolter\nFree\nTitan Upgrades\n(Add any of the following upgrades to a unit up to once per formation.)",
+      "raw_text": "Plasma Blastgun | Free | Turbo-Laser Destructor | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Upgrade",
+      "cost": "+50 points",
+      "units_text": "Cost",
+      "upgrades_or_options_text": "Carapace Multilasers",
+      "restrictions_or_notes": null,
+      "raw_text": "Upgrade | Cost | Carapace Multilasers | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Sacred Icon",
+      "cost": "+25 points",
+      "units_text": "+50 points",
+      "upgrades_or_options_text": "Veteran Princeps",
+      "restrictions_or_notes": null,
+      "raw_text": "Sacred Icon | +50 points | Veteran Princeps | +25 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Apocalypse Missile Launcher",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Apocalypse Missile Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Carapace Landing Pad",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "All weapons with a BP firepower in the formation do not need a line of fire when shooting as part of a sustained fire, advance or double action."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Carapace Multilasers",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Close Combat Weapon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Close Combat Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Corvus Assault Pod",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport ten infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gatling Blaster",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Gatling Blaster (Mars Pattern)",
+          "range": "60cm",
+          "firepower": "6x AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inferno Gun",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Inferno Gun",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Laser Blaster",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Laser Blaster",
+          "range": "60cm",
+          "firepower": "6x AP5+/AT3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Laser Burner",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Laser Burner",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "Laser Burner",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+4)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Laser Burner."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Magos",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Augmentations",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Supreme Commander"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Melta Cannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Melta Cannon",
+          "range": "30cm",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Melta Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "TK(D6)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Melta Cannon."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plasma Blastgun",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Plasma Blastgun",
+          "range": "45cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "Slw"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plasma Cannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Plasma Cannon",
+          "range": "60cm",
+          "firepower": "3x MW2+",
+          "notes": [
+            "Slw"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plasma Destructor",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Plasma Destructor",
+          "range": "75cm",
+          "firepower": "5x MW2+",
+          "notes": [
+            "Slw"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Quake Cannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Quake Cannon",
+          "range": "90cm",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sacred Icon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Inspiring"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Missile",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Barrage Missile",
+          "range": "Unlimited",
+          "firepower": "10BP",
+          "notes": [
+            "D",
+            "Ind",
+            "SS"
+          ]
+        },
+        {
+          "name": "0-1x Deathstrike Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "0-1x Vortex Missile",
+          "range": "Unlimited",
+          "firepower": "3BP",
+          "notes": [
+            "IC",
+            "Ind",
+            "SS",
+            "TK"
+          ]
+        },
+        {
+          "name": "0-1x Warp Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. A Warp Missile ignores Imperial Void Shields and Power Fields ."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Turbo-Laser Destructor",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4x AP5+/AT3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Veteran Princeps",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Volcano Cannon",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulcan Mega-Bolter",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gun Servitor",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hypaspist",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Praetorian Combat Servitor",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Augmentations",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sagitarii",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Phased Plasma Fusil",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Secutor",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Multi-melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "2x Multi-melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Augmentations",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Reinforced Armour"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Secutor."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rapier",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Laser Destroyer",
+          "range": "45cm",
+          "firepower": "AP6+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Crusader Robot",
+      "type": "LV",
+      "speed": "25cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Automaton",
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Crusader Robot."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimedon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Conqueror Cannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted , expect for Praetorian Combat Servitor and Rapier units."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Colossus Robot",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Autocannon",
+          "range": "30cm",
+          "firepower": "AA6+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Automaton",
+        "Walker"
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Colossus Robot."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperator Class Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Plasma Annihilator",
+          "range": "90cm",
+          "firepower": "4x MW2+",
+          "notes": [
+            "FwA",
+            "Slw",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Hellstorm Cannon",
+          "range": "60cm",
+          "firepower": "10BP",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Defense Laser",
+          "range": "90cm",
+          "firepower": "MW2+/AA4+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Quake Cannon",
+          "range": "90cm",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "4x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Tertitary Arms",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 12",
+        "Fearless",
+        "Inspiring",
+        "Reinforced Armour",
+        "Transport",
+        "8 Void Shields",
+        "Walker",
+        "May transport ten infantry units without Jump Packs or Mounted . May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Macharius",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Macharius Command",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "0-1x 2x Vanquisher",
+          "range": "75cm",
+          "firepower": "AP4+/AT2+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. Armed with either a Vulcan Megabolter or two Vanquisher."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ordinatus Majoris",
+      "type": "WE",
+      "speed": "10cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "0-1x Sonic Disruptor",
+          "range": "100cm",
+          "firepower": "10BP",
+          "notes": [
+            "FxF",
+            "D",
+            "IC"
+          ]
+        },
+        {
+          "name": "0-1x Hellfire Missiles",
+          "range": "Unlimited",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "Ind",
+            "MW",
+            "Slw"
+          ]
+        },
+        {
+          "name": "0-1x Nova Cannon",
+          "range": "100cm",
+          "firepower": "4x MW3+",
+          "notes": [
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Inspiring",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Critical Hit Effect: Destroyed. All units within 15cm of the model suffer a hit on a roll of 5+ and all Adeptus Mechanicus formations with a unit with a line of fire to the Ordinatus Majoris receive a Blast marker. Mars Ordinatus are armed with a Sonic Disruptor, Golgotha Ordinatus are armed with Hellfire Missiles (which use the barrage template that is 12cm across), and Armageddon Ordinatus are armed with a Nova Cannon."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ordinatus Minorus",
+      "type": "WE",
+      "speed": "15cm (25cm)",
+      "armour": "5+",
+      "cc": "6+ (3+)",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Critical Hit Effect: Destroyed. All units within 15cm of the model suffer a hit on a roll of 5+. If a Close Combat Weapon or a Laser Burner is mounted on the Carapace Weapon Mount the unit has a close combat value of 3+. If a Corvus Assault Pod is mounted on the Carapace Weapon Mount the unit has a speed value of 25cm."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Ordinatus Minorus."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Reaver Class Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Reaver Class Titan.",
+        "Incomplete weapon line in Reaver Class Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Warhound Class Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can't move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Warhound Class Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Warlord Class Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "6 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Warlord Class Titan.",
+        "Incomplete weapon line in Warlord Class Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Warmonger Class Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Vengeance Cannon",
+          "range": "90cm",
+          "firepower": "2x MW2+",
+          "notes": [
+            "FwA",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-8x Barrage Missile",
+          "range": "Unlimited",
+          "firepower": "10BP",
+          "notes": [
+            "D",
+            "Ind",
+            "SS"
+          ]
+        },
+        {
+          "name": "0-8x Deathstrike Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "0-8x Vortex Missile",
+          "range": "Unlimited",
+          "firepower": "3BP",
+          "notes": [
+            "IC",
+            "Ind",
+            "SS",
+            "TK"
+          ]
+        },
+        {
+          "name": "0-8x Warp Missile",
+          "range": "Unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Ind",
+            "SS",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "4x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Head Gun",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Tertitary Arms",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 12",
+        "Fearless",
+        "Inspiring",
+        "Reinforced Armour",
+        "Transport",
+        "8 Void Shields",
+        "Walker",
+        "May transport ten infantry units without Jump Packs or Mounted . Armed with any eight of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. Only one missile may be fired per turn. Warp Missiles ignore Imperial Void Shields and Power Fields . The unit's fire control center allows it to re-roll one failed to-hit roll per turn. May step over units and pieces of terrain that that are lower lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Avenger Strike Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Avenger Bolt Cannon",
+          "range": "30cm",
+          "firepower": "2x AP3+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "30cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Heavy Stubber",
+          "range": "15cm",
+          "firepower": "AA6+",
+          "notes": [
+            "RrA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lysander Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ark Mechanicus Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Pin-Point Attacks",
+          "range": "n/a",
+          "firepower": "2x MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Armed with either Pin-point Attacks or Orbital Bombardment."
+      ],
+      "source_section": "Skitarii Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Adeptus Mechanicus army that is based on an Gryphonne IV Skitarii Legion. It can also be used as a stand in army list for other Skitarii Legions as well.\nGryphonne IV Skitarii Legion formations come in three types: demi-century , ordinatus and support formations . Each demi-century you include in the army allows you to field any one ordinatus formation and any two support formations. Although you can only take an ordinatus or support formation if you first take a demi-century, they are treated as separate independent formations during a battle and do not have to move around together.\nIn addition, demi-centuries may be given up to three upgrades. Each type of upgrade can only be taken once by a company. Upgrades are added to the company and are not a separate formation. Ordinatus and support formations may not be given company upgrades (although Ordinatus Minorus formations must be given Battle Titan Weapon Upgrades). Each upgrade that is taken adds to the cost of the demi-century, as shown on the upgrade chart.\nGryphonne IV Skitarii Legion Adeptus Mechanicus armies may be supported by Mechanicus allies. A maximum of up to a third of the points available to the army may be spent on these formations. In addition, certain Mechanicus ally formations may be given Titan upgrades. Which Titan upgrades a formation may be given are listed in the upgrades column. Titan upgrades are added to the formation and are not a separate formation. Each Titan upgrade that is taken adds to the cost of the formation, as shown on the Titan upgrade chart."
+    }
+  ],
+  "extraction_warnings": []
+}

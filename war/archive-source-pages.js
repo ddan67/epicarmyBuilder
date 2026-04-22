@@ -15,6 +15,18 @@ const PAGE_CONFIGS = [
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-codex-astartes.html'
 	},
 	{
+		id: 'adeptus-mechanicus-knight-world',
+		url: 'https://tp.net-armageddon.org/army-lists/adeptus-mechanicus-knight-world.html'
+	},
+	{
+		id: 'adeptus-mechanicus-skitarii-legion',
+		url: 'https://tp.net-armageddon.org/army-lists/adeptus-mechanicus-skitarii-legion.html'
+	},
+	{
+		id: 'adeptus-mechanicus-titan-legion',
+		url: 'https://tp.net-armageddon.org/army-lists/adeptus-mechanicus-titan-legion.html'
+	},
+	{
 		id: 'ork-war-horde',
 		url: 'https://tp.net-armageddon.org/army-lists/ork-war-horde.html'
 	},
@@ -822,10 +834,6 @@ function parseProfileFromUnitBlock(unitHtml, sectionTitle) {
 				if (isBooleanWeaponName(weapon.raw_name || '')) {
 					profile.parse_warnings.push(`Boolean weapon line folded into previous weapon for ${profile.name}.`);
 				}
-				if (isOptionWeaponName(weapon.raw_name || weapon.name)) {
-					profile.parse_confidence = 'low';
-					profile.ambiguity_reasons.push(normalizeBasic(weapon.raw_name || weapon.name));
-				}
 				delete weapon.raw_name;
 				profile.weapons.push(weapon);
 				previousWeaponName = weapon.name;
@@ -840,16 +848,18 @@ function parseProfileFromUnitBlock(unitHtml, sectionTitle) {
 		});
 		extractParagraphs(notesHtml).forEach(function(paragraph) {
 			profile.abilities_or_notes.push(paragraph);
-			if (looksLikeOptionText(paragraph) || /\barmed with either\b/i.test(paragraph) || /\bone of the following\b/i.test(paragraph)) {
-				profile.parse_confidence = 'low';
-				profile.ambiguity_reasons.push(paragraph);
-			}
 		});
 	}
 
 	if (/^(?:and|or)$/i.test(normalizeBasic(profile.name))) {
 		profile.parse_confidence = 'low';
 		profile.ambiguity_reasons.push('Boolean connector parsed as profile name.');
+	}
+
+	if (profile.type === 'CH' && profile.weapons.length === 0) {
+		profile.parse_confidence = 'high';
+		profile.parse_warnings = [];
+		profile.ambiguity_reasons = [];
 	}
 
 	profile.is_reference_or_ambiguous = isReferenceOrAmbiguousProfile(profile);
@@ -902,8 +912,6 @@ function parseProfileBlock(header, blockLines, sectionTitle) {
 			continue;
 		}
 		if (looksLikeOptionText(line)) {
-			profile.parse_confidence = 'low';
-			profile.ambiguity_reasons.push(line);
 			profile.abilities_or_notes.push(line);
 			continue;
 		}
