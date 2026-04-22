@@ -1,0 +1,2 @@
+PS C:\Users\fliff\Documents\GitHub\epicarmyBuilder> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+PS C:\Users\fliff\Documents\GitHub\epicarmyBuilder> codex
