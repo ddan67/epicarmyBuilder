@@ -16,7 +16,7 @@
                         { "id":505, "name":"Terminators", "units":"4 Terminator units",         "pts":325, "upgrades":[11,12,13,14,17,22,41,42] },
                         { "id":506, "name":"Thunderfire Battery",                               "pts":250, "units":"4 Thunderfire Cannons", "upgrades":[15,17] },
                         { "id":509, "name":"Vindicator",                          "pts":50, "upgrades":[11,12,13,14,16,22] },
-                        { "id":510, "name":"Whirlwind Battery", "units":"4 Whirlwinds",                    "pts":300, "upgrades":[11,12,13,14,16,23] },
+                        { "id":510, "name":"Whirlwind Battery", "units":"4 Whirlwinds",                    "pts":275, "upgrades":[11,12,13,14,16,23] },
                         { "id":512, "name":"Fellblade", "units":"1 Fellblade",  "pts":325, "upgrades":[] },
                         { "id":513, "name":"Bastion", "units":"1 Bastion",        "pts":200, "upgrades":[15,48,49,70] }
                 ]},
