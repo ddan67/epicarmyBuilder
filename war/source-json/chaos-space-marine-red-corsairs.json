@@ -1,0 +1,1539 @@
+{
+  "metadata": {
+    "army_name": "Red Corsairs",
+    "source_url": "https://tp.net-armageddon.org/army-lists/chaos-space-marine-red-corsairs.html",
+    "page_title": "Red Corsairs Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Chaos Navy, Blight Drone, Blood Slaughterer, Brass Scorpion, Daemon Knight, Defiler and Silver Tower formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "Certain units have special abilities described in Augmented Summoning (see Augmented Summoning ) and Daemonic Focus (see Daemonic Focus )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Hounds Squadron",
+      "cost": "300 points",
+      "units_text": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "Daemonic Pact, Icon Bearer",
+      "restrictions_or_notes": null,
+      "raw_text": "Hounds Squadron | Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character | Daemonic Pact, Icon Bearer | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Renegade Warbard",
+      "cost": "275 points",
+      "units_text": "Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "All",
+      "restrictions_or_notes": "Terminator Retinue\nBetween four and six Chaos Space Marine Terminators, one with a Chaos Lord or Sorcerer Lord character\nAll except Cult Marines, Drop Pods, Havocs, Rhinos\n300 points for four\n+50 points per extra\nRed Corsair Support Formations\n(Any two support formations may be fielded per each core formation.)\nArmoured Company\nBetween four and eight of any of the following units: Chaos Predator, Chaos Land Raider\nDefilers, Hunter, Vindicators\n50 points each per Chaos Predator\n75 points each per Chaos Land Raider",
+      "raw_text": "Renegade Warbard | Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character | All | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Blight Drones",
+      "cost": "300 points",
+      "units_text": "Six Blight Drones",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Blight Drones | Six Blight Drones | None | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Blood Slaughterers",
+      "cost": "225 points",
+      "units_text": "Five Blood Slaughterers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Blood Slaughterers | Five Blood Slaughterers | None | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Brass Scorpions",
+      "cost": "250 points",
+      "units_text": "Two Brass Scorpions",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Brass Scorpions | Two Brass Scorpions | None | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Chosen",
+      "cost": "175 points",
+      "units_text": "Six Chaos Space Marine Chosen",
+      "upgrades_or_options_text": "Chaos Champion, Daemonic Pact, Drop Pods, Rhinos",
+      "restrictions_or_notes": null,
+      "raw_text": "Chosen | Six Chaos Space Marine Chosen | Chaos Champion, Daemonic Pact, Drop Pods, Rhinos | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Cult Marines",
+      "cost": "275 points",
+      "units_text": "One Chaos Lord or Sorcerer Lord character and eight Berzerkers or six Noise Marines, Plague Marines or Thousand Sons",
+      "upgrades_or_options_text": "Chaos Champion, Daemonic Pact, Defilers, Dreadnoughts, Drop Pods, Rhinos",
+      "restrictions_or_notes": null,
+      "raw_text": "Cult Marines | One Chaos Lord or Sorcerer Lord character and eight Berzerkers or six Noise Marines, Plague Marines or Thousand Sons | Chaos Champion, Daemonic Pact, Defilers, Dreadnoughts, Drop Pods, Rhinos | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Daemon Knights",
+      "cost": "250 points",
+      "units_text": "Four Daemon Knights",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Daemon Knights | Four Daemon Knights | None | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Defilers",
+      "cost": "275 points",
+      "units_text": "Four Defilers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Raptor Cult\nBetween four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character\nDaemonic Pact\n175 points for four\n+35 points per extra",
+      "raw_text": "Defilers | Four Defilers | None | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Silver Towers",
+      "cost": "300 points",
+      "units_text": "Four Silver Towers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Silver Towers | Four Silver Towers | None | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Strike Cruiser",
+      "cost": "200 points",
+      "units_text": "One Strike Cruiser",
+      "upgrades_or_options_text": "Battle Barge",
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Strike Cruiser | One Strike Cruiser | Battle Barge | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Thunderhawk",
+      "cost": "200 points",
+      "units_text": "One Chaos Thunderhawk",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Red Corsair Upgrades\n(Up to four upgrades may be taken once per formation.)",
+      "raw_text": "Thunderhawk | One Chaos Thunderhawk | None | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Battle Barge",
+      "cost": "+150 points",
+      "units_text": "Replace the Strike Cruiser with a Battle Barge",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Battle Barge | Replace the Strike Cruiser with a Battle Barge | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Champion",
+      "cost": "+50 points",
+      "units_text": "Add one Champion of Chaos character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Champion | Add one Champion of Chaos character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Chaos Warlord",
+      "cost": "+50 points",
+      "units_text": "Add one Chaos Warlord character to a unit with a Chaos Lord character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Chaos Warlord | Add one Chaos Warlord character to a unit with a Chaos Lord character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Cult Marines",
+      "cost": "+50 points",
+      "units_text": "Replace four Chaos Space Marines with four Berzerkers, Noise Marines, Plague Marines or Thousand Sons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Cult Marines | Replace four Chaos Space Marines with four Berzerkers, Noise Marines, Plague Marines or Thousand Sons | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Daemon Prince",
+      "cost": "+50 points",
+      "units_text": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Daemon Prince | Replace a unit with a Chaos Lord character with a Daemon Prince | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemonic Pact",
+      "cost": "+25 points",
+      "units_text": "Add one Minor Daemon to the Daemon Pool. The formation may summon daemons.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemonic Pact | Add one Minor Daemon to the Daemon Pool. The formation may summon daemons. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Defilers",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Defilers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Defilers | Add up to three Defilers | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnoughts",
+      "cost": "+50 points each",
+      "units_text": "Add up to three Chaos Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Drop Pods\nTransport a formation containing only infantry units and Chaos Dreadnoughts in Chaos Drop Pods\n+10 points per unit",
+      "raw_text": "Dreadnoughts | Add up to three Chaos Dreadnoughts | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Havocs",
+      "cost": "+50 points",
+      "units_text": "Replace four Chaos Space Marines with four Havocs",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havocs | Replace four Chaos Space Marines with four Havocs | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "+50 points",
+      "units_text": "Add one Hunter",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add one Hunter | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Icon Bearer",
+      "cost": "+25 points",
+      "units_text": "Add one Icon Bearer character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Icon Bearer | Add one Icon Bearer character | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Chaos Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to four Chaos Land Raiders | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Obliterators",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Obliterators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Obliterators | Add up to three Obliterators | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "+10 points each",
+      "units_text": "Add one Chaos Rhino for every two infantry units not being transported in Chaos Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add one Chaos Rhino for every two infantry units not being transported in Chaos Land Raiders | +10 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+35 points each",
+      "units_text": "Add up to three Chaos Vindicators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos Navy Formations\n(Up to a third of the points available may be spent on these formations.)",
+      "raw_text": "Vindicators | Add up to three Chaos Vindicators | +35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Harbinger",
+      "cost": "400 points",
+      "units_text": "One Harbinger",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harbinger | One Harbinger | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Blades",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Blades | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Talons",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Daemon Pool\nUnit",
+      "raw_text": "Hell Talons | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Cost",
+      "cost": "+50 points each",
+      "units_text": "Greater Daemon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Minor Daemon\n+10 points each",
+      "raw_text": "Cost | Greater Daemon | +50 points each",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Champion of Chaos",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Artifact",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        },
+        {
+          "name": "Daemon Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save",
+        "A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon. A unit with this character may be sacrificed (removed from play without its formation receiving a Blast marker) before rolling for summoning points. This changes its Augmented Summoning from (+2D3) to (+6), and a Greater Daemon must be summoned. Place the Greater Daemon within 10cm of the point where the sacrificed unit was removed."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Warlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sorcerer Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Berzerkers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Chosen",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Prince",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "3+ (4+)",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Possessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Teleport",
+        "A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havocs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Minor Daemons",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Noise Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Obliterators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "2+",
+      "weapons": [
+        {
+          "name": "3x Body Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raptors",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blight Drone",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Maw Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Skimmer"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Slaughterer",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Cleavers",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi-Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Knight",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3x AP3+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Defiler",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter-Killer",
+          "range": "60cm",
+          "firepower": "AT4+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Silver Tower",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Arcane Cannons",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Beam of Power",
+          "range": "60cm",
+          "firepower": "MW5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Skimmer"
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Brass Scorpion",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Scorpion Cannon",
+          "range": "30cm",
+          "firepower": "2x AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellmaw Cannon",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Greater Daemon",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2x Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Daemonic Focus",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May transport eight infantry units or Chaos Dreadnoughts; Chaos Space Marine Terminators, Chaos Dreadnoughts and Obliterators count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed. Counts as a Thunderhawk Gunship for the purposes of being transported."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harbinger",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "6BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Critical Hit Effect: The unit is destroyed."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Barge",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "14BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport 60 infantry units, Attack Bikes, or Dreadnoughts; plus 60 armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Drop Pod",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Deathwind",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May transport one formation of only the following units: Berzerkers, Chaos Dreadnoughts, Chaos Space Marine Chosen, Chaos Space Marines, Daemon Prince, Havocs, Noise Marines, Plague Marines, Thousand Sons. After the drop pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pod models should be removed from the board once the formation they transport has disembarked. Counts as a Drop Pod for the purposes of being transported."
+      ],
+      "source_section": "Red Corsair Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field a renegade Space Marine army based on the Red Corsairs. It can also be used as a stand in army list for other renegade chapters, such as the Angels of Ecstacy, Crimson Slaughter, Grey Death and The Scourged.\nRed Corsairs formations come in two types: core formations and support formation . Each core formation you include in the army allows you to field any two support formations. Although you can only take a support formation if you first take a retinue, they are treated as separate independent formations during the battle and do not have to move around together.\nIn addition, formations may be given up to four upgrades but each upgrade may only be taken once per formation. Which upgrades a formation may be given are listed in the Upgrades column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.\nRed Corsair armies may be supported by Chaos Navy formations. Up to a third of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

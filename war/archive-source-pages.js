@@ -59,6 +59,30 @@ const PAGE_CONFIGS = [
 		url: 'https://tp.net-armageddon.org/army-lists/imperial-guard-minervan-tank-legion.html'
 	},
 	{
+		id: 'chaos-cultist-slaves-to-darkness',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-cultist-slaves-to-darkness.html'
+	},
+	{
+		id: 'chaos-cultist-stigmatus-covenant',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-cultist-stigmatus-covenant.html'
+	},
+	{
+		id: 'chaos-space-marine-black-legion',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-space-marine-black-legion.html'
+	},
+	{
+		id: 'chaos-space-marine-emperors-children',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-space-marine-emperors-children.html'
+	},
+	{
+		id: 'chaos-space-marine-iron-warriors',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-space-marine-iron-warriors.html'
+	},
+	{
+		id: 'chaos-space-marine-red-corsairs',
+		url: 'https://tp.net-armageddon.org/army-lists/chaos-space-marine-red-corsairs.html'
+	},
+	{
 		id: 'space-marine-imperial-fists',
 		url: 'https://tp.net-armageddon.org/army-lists/space-marine-imperial-fists.html'
 	},

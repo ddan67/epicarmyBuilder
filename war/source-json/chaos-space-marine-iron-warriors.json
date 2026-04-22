@@ -1,0 +1,1465 @@
+{
+  "metadata": {
+    "army_name": "Iron Warriors Chaos Space Marine",
+    "source_url": "https://tp.net-armageddon.org/army-lists/chaos-space-marine-iron-warriors.html",
+    "page_title": "Iron Warriors Chaos Space Marine Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Chaos Navy formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Armoured Assault Company",
+      "cost": "250 points",
+      "units_text": "Six Chaos Vindicators",
+      "upgrades_or_options_text": "Vindicators",
+      "restrictions_or_notes": null,
+      "raw_text": "Armoured Assault Company | Six Chaos Vindicators | Vindicators | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Defiler Assault Pack",
+      "cost": "425 points",
+      "units_text": "Six Defilers",
+      "upgrades_or_options_text": "Defilers, Dreadnoughts, Siege Dreadnoughts",
+      "restrictions_or_notes": null,
+      "raw_text": "Defiler Assault Pack | Six Defilers | Defilers, Dreadnoughts, Siege Dreadnoughts | 425 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Grand Battery",
+      "cost": "650 points",
+      "units_text": "9 Chaos Basilisks",
+      "upgrades_or_options_text": "Emplacements, Stalker",
+      "restrictions_or_notes": null,
+      "raw_text": "Grand Battery | 9 Chaos Basilisks | Emplacements, Stalker | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Retinue",
+      "cost": "300 points",
+      "units_text": "Six Chaos Space Marines, two Havocs and one Iron Warriors Lord",
+      "upgrades_or_options_text": "All but Defilers, Dreadclaws and Emplacements",
+      "restrictions_or_notes": "Iron Warrior Siege Support Formations\n(Any two siege support formations may be fielded per each retinue.)\nFormation\nUnits\nExtras\nCost",
+      "raw_text": "Retinue | Six Chaos Space Marines, two Havocs and one Iron Warriors Lord | All but Defilers, Dreadclaws and Emplacements | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Artillery Battery",
+      "cost": "325 points",
+      "units_text": "Four Chaos Basilisks",
+      "upgrades_or_options_text": "Emplacements, Stalker",
+      "restrictions_or_notes": "Armoured Company\nBetween four and eight of any of the following units: Chaos Predator, Chaos Land Raider\nStalker, Vindicators\n50 points each per Chaos Predator\n75 points each per Chaos Land Raider",
+      "raw_text": "Artillery Battery | Four Chaos Basilisks | Emplacements, Stalker | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Daemonic Artillery",
+      "cost": "325 points",
+      "units_text": "Three Daemonic Artillery",
+      "upgrades_or_options_text": "Emplacements, Stalker",
+      "restrictions_or_notes": null,
+      "raw_text": "Daemonic Artillery | Three Daemonic Artillery | Emplacements, Stalker | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Super Heavy Company",
+      "cost": "225 points each",
+      "units_text": "Up to three Decimators",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Iron Warrior Siege Assault Formations\n(Any one siege assault formation may be fielded per each retinue.)\nFormation\nUnits\nExtras\nCost\nChaos Terminators\nBetween four and six Chaos Space Marine Terminators, and one Iron Warriors Lord\nDaemon Prince, Land Raiders, Obliterators\n275 points for four\n+60 points per extra",
+      "raw_text": "Super Heavy Company | Up to three Decimators | None | 225 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Chosen",
+      "cost": "125 points",
+      "units_text": "Four Chaos Space Marine Chosen",
+      "upgrades_or_options_text": "Dreadclaws, Dreadnoughts, Rhinos",
+      "restrictions_or_notes": null,
+      "raw_text": "Chosen | Four Chaos Space Marine Chosen | Dreadclaws, Dreadnoughts, Rhinos | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Dreadnought Assault Pack",
+      "cost": "225 points",
+      "units_text": "Five Chaos Dreadnoughts",
+      "upgrades_or_options_text": "Dreadclaws, Siege Dreadnoughts",
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnought Assault Pack | Five Chaos Dreadnoughts | Dreadclaws, Siege Dreadnoughts | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Havocs",
+      "cost": "325 points",
+      "units_text": "Four Havocs, two Chaos Land Raiders, and one Iron Warriors Lord",
+      "upgrades_or_options_text": "Daemon Prince, Dreadnoughts, Defilers, Havocs, Land Raiders, Stalker",
+      "restrictions_or_notes": null,
+      "raw_text": "Havocs | Four Havocs, two Chaos Land Raiders, and one Iron Warriors Lord | Daemon Prince, Dreadnoughts, Defilers, Havocs, Land Raiders, Stalker | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0–1 Obliterator Cult",
+      "cost": "350 points",
+      "units_text": "Four Obliterators",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Raptor Cult\nBetween four and eight Raptors, and one Iron Warriors Lord\nNone\n175 points for four\n+35 points per extra",
+      "raw_text": "0–1 Obliterator Cult | Four Obliterators | None | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Siege Hammer Company",
+      "cost": "225 points",
+      "units_text": "Six Chaos Assault Marines and one Iron Warriors Lord",
+      "upgrades_or_options_text": "Assault Marines, Daemon Prince, Dreadclaws, Dreadnoughts, Rhinos, Siege Dreadnoughts, Stalker",
+      "restrictions_or_notes": "Iron Warrior Upgrades\n(Each upgrade may be taken once per formation.)",
+      "raw_text": "Siege Hammer Company | Six Chaos Assault Marines and one Iron Warriors Lord | Assault Marines, Daemon Prince, Dreadclaws, Dreadnoughts, Rhinos, Siege Dreadnoughts, Stalker | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Assault Marines",
+      "cost": "+125 points",
+      "units_text": "Add four Chaos Assault Marines",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Assault Marines | Add four Chaos Assault Marines | +125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Daemon Prince",
+      "cost": "+50 points",
+      "units_text": "Replace a unit with a Iron Warriors Lord with a Daemon Prince",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Daemon Prince | Replace a unit with a Iron Warriors Lord with a Daemon Prince | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Defilers",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Defilers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dreadclaws\nTransport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws\n+5 points per unit",
+      "raw_text": "Defilers | Add up to three Defilers | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnoughts",
+      "cost": "+50 points each",
+      "units_text": "Add up to three Chaos Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnoughts | Add up to three Chaos Dreadnoughts | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Emplacements",
+      "cost": "+25 points",
+      "units_text": "Add one gun emplacement for every armoured vehicle unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Emplacements | Add one gun emplacement for every armoured vehicle unit | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Havocs",
+      "cost": "+150 points",
+      "units_text": "Add four Havocs",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havocs | Add four Havocs | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Chaos Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to four Chaos Land Raiders | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Obliterators",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Obliterators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Obliterators | Add up to three Obliterators | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "+10 points each",
+      "units_text": "Add one Chaos Rhino for every two infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add one Chaos Rhino for every two infantry units | +10 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Siege Dreadnought",
+      "cost": "+50 points",
+      "units_text": "Add one Chaos Siege Dreadnought",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Siege Dreadnought | Add one Chaos Siege Dreadnought | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Stalker",
+      "cost": "+50 points",
+      "units_text": "Add one Stalker",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Stalker | Add one Stalker | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+35 points each",
+      "units_text": "Add up to three Chaos Vindicators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos Navy and War Engine Formations\n(Up to a third of the points available may be spent on these formations.)\nChaos Navy",
+      "raw_text": "Vindicators | Add up to three Chaos Vindicators | +35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Harbinger",
+      "cost": "400 points",
+      "units_text": "One Harbinger",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harbinger | One Harbinger | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Blades",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Blades | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Talons",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Spacecraft\nOne Devastation Class Cruiser or",
+      "raw_text": "Hell Talons | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "150 points or",
+      "cost": "250 points",
+      "units_text": "one Despoiler Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos War Engines",
+      "raw_text": "150 points or | one Despoiler Class Battleship | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Ordinatus",
+      "cost": "625 points",
+      "units_text": "One Ordinatus Medrendgard",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ordinatus | One Ordinatus Medrendgard | 625 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Ravager",
+      "cost": "650 points",
+      "units_text": "One Ravager Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ravager | One Ravager Titan | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Siege Lord",
+      "cost": "850 points",
+      "units_text": "One Siege Lord Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Iron Warrior Individuals\n(Up to one of each type of individual may be taken per army.)\nType\nNotes\nCost",
+      "raw_text": "Siege Lord | One Siege Lord Titan | 850 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "0–1 Warsmith",
+      "cost": "+50 points",
+      "units_text": "Replace an Iron Warriors Lord with a Warsmith",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add a Warsmith to a Daemon Prince",
+      "raw_text": "0–1 Warsmith | Replace an Iron Warriors Lord with a Warsmith | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "+50 points",
+      "cost": "+100 points",
+      "units_text": "Add a Warsmith to a Dreadnought Assault Pack",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "+50 points | Add a Warsmith to a Dreadnought Assault Pack | +100 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Iron Warriors Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Servo Arm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader",
+        "Armed with either a Daemon Weapon or a Servo Arm."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warsmith",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "0-1x Servo Arm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Supreme Commander",
+        "Armed with either a Daemon Weapon or a Servo Arm."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Assault Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Chosen",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Iron Warriors Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour",
+        "Counts as a Chaos Space Marine Terminators for the purposes of being transported."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Iron Warriors Terminators."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Prince",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "3+ (4+)",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Possessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Teleport",
+        "A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havocs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Obliterators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "2+",
+      "weapons": [
+        {
+          "name": "3x Body Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raptors",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Basilisk",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Basilisk."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi-Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Siege Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Siege Drills",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker",
+        "Counts as a Chaos Dreadnought for the purposes of being transported."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonic Artillery",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Plague Catapult",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "IC",
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Defiler",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stalker",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Stalker Autocannon",
+          "range": "30cm",
+          "firepower": "2x AP5+/AT6+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Decimator",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Decimator Cannon",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "IC",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Twin Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "2x Twin Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ordinatus Medrengard",
+      "type": "WE",
+      "speed": "10cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Medrengard Siege Cannon",
+          "range": "60cm",
+          "firepower": "9BP",
+          "notes": [
+            "FxF",
+            "D",
+            "Ind"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Critical Hit Effect: Destroyed. All units within 15cm of the model suffer a hit on a roll of 4+."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravager Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Doomburner",
+          "range": "45cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "IC",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Death Storm",
+          "range": "45cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Battlehead",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Tail",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Ravager Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Siege Lord Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Hellstrike Cannon",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "IC",
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Claw",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Doomburner",
+          "range": "45cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "IC",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Tail",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "6 Void Shields",
+        "Walker",
+        "May transport ten infantry units without Jump Packs or Mounted , Chaos Dreadnoughts; Chaos Terminators, Obliterators and Chaos Dreadnoughts count as two units each. May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Siege Lord Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harbinger",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "6BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Critical Hit Effect: The unit is destroyed."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "3x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadclaw",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May transport one formation of infantry units (except Chaos Space Marine Bikes) and Chaos Dreadnoughts. The Dreadclaw does not scatter 2d6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game (see Planetfall ). Any troops carried in the Dreadclaw must disembark within 5cm of the Dreadclaw or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Dreadclaw. Dreadclaw models should be removed from the board once the formation they transport has disembarked."
+      ],
+      "source_section": "Iron Warrior Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Dreadclaw."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Iron Warriors army.\nIron Warrior formations come in three types: retinues , siege support formations and siege assault formations . Each retinue you include in the army allows you to field any two siege support formations and any one siege assault formation. Although you can only take a siege support or assault formation if you first take a retinue, they are treated as separate independent formations during the battle and do not have to move around together.\nIn addition, formations may be given up upgrades but each upgrade may only be taken once per formation. Which upgrades a formation may be given are listed in the Upgrades column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.\nIron Warrior armies may be supported by Chaos Navy and War Engine formations. Up to a third of the points available to the army may be spent on these formations.\nFinally, Iron Warrior Individuals includes the Warsmith special character. Each individual may only be taken once by the army. The rules for using each individual are listed in the Notes column."
+    }
+  ],
+  "extraction_warnings": []
+}

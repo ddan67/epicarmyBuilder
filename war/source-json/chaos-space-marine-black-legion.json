@@ -1,0 +1,1819 @@
+{
+  "metadata": {
+    "army_name": "13 th Black Crusade Black Legion",
+    "source_url": "https://tp.net-armageddon.org/army-lists/chaos-space-marine-black-legion.html",
+    "page_title": "13 th Black Crusade Black Legion Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Chaos Navy formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "Certain units have special abilities described in Augmented Summoning (see Augmented Summoning ) and Daemonic Focus (see Daemonic Focus )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Retinue",
+      "cost": "275 points",
+      "units_text": "Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "All",
+      "restrictions_or_notes": "Black Legion Elite Formations\n(Any one elite formation may be fielded per each retinue, not armoured company.)\nFormation\nUnits\nExtras\nCost\nChaos Terminators\nBetween four and six Chaos Space Marine Terminators, one with a Chaos Lord or Sorcerer Lord character\nAll except Cult Marines, Havocs, Rhinos and Vindicators\n275 points for four\n+60 points per extra",
+      "raw_text": "Retinue | Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character | All | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Chosen",
+      "cost": "125 points",
+      "units_text": "Four Chaos Space Marine Chosen",
+      "upgrades_or_options_text": "Daemonic Pact, Dreadclaws, Dreadnoughts, Rhinos",
+      "restrictions_or_notes": "Black Legion Support Formations\n(Any two support formations may be fielded per each armoured company or retinue.)\nFormation\nUnits\nExtras\nCost",
+      "raw_text": "Chosen | Four Chaos Space Marine Chosen | Daemonic Pact, Dreadclaws, Dreadnoughts, Rhinos | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Bike Company",
+      "cost": "300 points",
+      "units_text": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "Daemonic Pact, Icon Bearer",
+      "restrictions_or_notes": null,
+      "raw_text": "Bike Company | Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character | Daemonic Pact, Icon Bearer | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Defiler Assault Pack",
+      "cost": "275 points",
+      "units_text": "Four Defilers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Havocs",
+      "raw_text": "Defiler Assault Pack | Four Defilers | None | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Four Havocs, one with a Chaos Lord character, and two Chaos Rhinos or Chaos Land Raiders",
+      "cost": "350 points",
+      "units_text": "Chaos Champion, Daemon Prince, Daemonic Pact, Dreadnoughts, Icon Bearer",
+      "upgrades_or_options_text": "225 points or",
+      "restrictions_or_notes": "Raptor Cult\nBetween four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character\nDaemonic Pact\n175 points for four\n+35 points per extra\nBlack Legion Upgrades\n(Up to four upgrades may be taken once per formation.)",
+      "raw_text": "Four Havocs, one with a Chaos Lord character, and two Chaos Rhinos or Chaos Land Raiders | Chaos Champion, Daemon Prince, Daemonic Pact, Dreadnoughts, Icon Bearer | 225 points or | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Champion",
+      "cost": "+50 points",
+      "units_text": "Add one Champion of Chaos character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Champion | Add one Champion of Chaos character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Chaos Warlord",
+      "cost": "+50 points",
+      "units_text": "Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Chaos Warlord | Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Cult Marines",
+      "cost": "+150 points",
+      "units_text": "Add four Berzerkers, Noise Marines, Plague Marines or Thousand Sons to a formation that belongs to Khorne, Slaanesh, Nurgle or Tzeentch respectively",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Cult Marines | Add four Berzerkers, Noise Marines, Plague Marines or Thousand Sons to a formation that belongs to Khorne, Slaanesh, Nurgle or Tzeentch respectively | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Daemon Prince per faction",
+      "cost": "+50 points",
+      "units_text": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Daemon Prince per faction | Replace a unit with a Chaos Lord character with a Daemon Prince | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemonic Pact",
+      "cost": "+25 points",
+      "units_text": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemonic Pact | Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Defilers",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Defilers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dreadclaws\nTransport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws\n+5 points per unit",
+      "raw_text": "Defilers | Add up to three Defilers | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnoughts",
+      "cost": "+50 points each",
+      "units_text": "Add up to three Chaos Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnoughts | Add up to three Chaos Dreadnoughts | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Havocs",
+      "cost": "+150 points",
+      "units_text": "Add four Havocs",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havocs | Add four Havocs | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Icon Bearer",
+      "cost": "+25 points",
+      "units_text": "Add one Icon Bearer character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Icon Bearer | Add one Icon Bearer character | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Chaos Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to four Chaos Land Raiders | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Obliterators",
+      "cost": "+75 points each",
+      "units_text": "Add up to three Obliterators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Obliterators | Add up to three Obliterators | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "+10 points each",
+      "units_text": "Add one Chaos Rhino for every two infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add one Chaos Rhino for every two infantry units | +10 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+35 points each",
+      "units_text": "Add up to three Chaos Vindicators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos Navy and War Engine Formations\n(Up to a third of the points available may be spent on these formations.)\nChaos Navy",
+      "raw_text": "Vindicators | Add up to three Chaos Vindicators | +35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Harbinger",
+      "cost": "400 points",
+      "units_text": "One Harbinger",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harbinger | One Harbinger | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Blades",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Blades | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Talons",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Spacecraft\nOne Devastation Class Cruiser or",
+      "raw_text": "Hell Talons | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "150 points or",
+      "cost": "250 points",
+      "units_text": "one Despoiler Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos War Engines",
+      "raw_text": "150 points or | one Despoiler Class Battleship | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Banelord",
+      "cost": "800 points",
+      "units_text": "One Banelord Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Banelord | One Banelord Titan | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Deathwheels",
+      "cost": "275 points each",
+      "units_text": "Up to three Deathwheels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Deathwheels | Up to three Deathwheels | 275 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Decimators",
+      "cost": "225 points each",
+      "units_text": "Up to three Decimators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Decimators | Up to three Decimators | 225 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Feral",
+      "cost": "275 points",
+      "units_text": "One Feral Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Feral | One Feral Titan | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Ravager",
+      "cost": "650 points",
+      "units_text": "One Ravager Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Daemon Pool\nUnit",
+      "raw_text": "Ravager | One Ravager Titan | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Cost",
+      "cost": "+50 points each",
+      "units_text": "Greater Daemon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Lesser Daemon\n+15 points each",
+      "raw_text": "Cost | Greater Daemon | +50 points each",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Champion of Chaos",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Artifact",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        },
+        {
+          "name": "Daemon Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save",
+        "A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon. A unit with this character may be sacrificed (removed from play without its formation receiving a Blast marker) before rolling for summoning points. This changes its Augmented Summoning from (+2D3) to (+6), and a Greater Daemon must be summoned. Place the Greater Daemon within 10cm of the point where the sacrificed unit was removed."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Warlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sorcerer Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Berzerkers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bloodletters",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Hellblades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Chosen",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Prince",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "3+ (4+)",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Possessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Teleport",
+        "A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonettes",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "First Strike",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Daemonettes."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Daemonic Beasts",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "Infiltrator",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Daemonic Beasts."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Flamers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Flames of Tzeentch",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havocs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Noise Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Obliterators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "2+",
+      "weapons": [
+        {
+          "name": "3x Body Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguebearers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Plague of Flies",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raptors",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi-Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Defiler",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Banelord Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Hellstrike Cannon",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "IC",
+            "MW"
+          ]
+        },
+        {
+          "name": "Doomfist",
+          "range": "30cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Doomfist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "6x Havoc Missile",
+          "range": "60cm",
+          "firepower": "2BP",
+          "notes": [
+            "FwA",
+            "Ind",
+            "SS"
+          ]
+        },
+        {
+          "name": "Battlehead",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Tail",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "6 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: Move the unit 3D6cm in a random direction. If it moves into impassable terrain or another unit it can't move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 4+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Banelord Titan.",
+        "Boolean weapon line folded into previous weapon for Banelord Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bloodthirster",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Axe of Khorne",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Jump Packs",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwheel",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Critical Hit Effect: Move the unit 3D6cm in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The unit is destroyed."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Decimator",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Decimator Cannon",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF",
+            "IC",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Twin Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "2x Twin Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Feral Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Death Storm",
+          "range": "45cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Hellmouth",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "FwA",
+            "IC"
+          ]
+        },
+        {
+          "name": "Battlehead",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can't move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Great Unclean One",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Stream of Corruption",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Stream of Corruption",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Nurgling Swarm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 4",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Great Unclean One."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Keeper of Secrets",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "30cm",
+          "firepower": "3x MW4+",
+          "notes": []
+        },
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        },
+        {
+          "name": "Lash of Torment",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Keeper of Secrets."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lord of Change",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Withering Gaze",
+          "range": "45cm",
+          "firepower": "2x MW3+",
+          "notes": []
+        },
+        {
+          "name": "Withering Gaze",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Bedlam Staff",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Jump Packs",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Lord of Change."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravager Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Doomburner",
+          "range": "45cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FxF",
+            "IC",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Death Storm",
+          "range": "45cm",
+          "firepower": "4x AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Battlehead",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Tail",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: The unit's plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Ravager Titan."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harbinger",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "6BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Critical Hit Effect: The unit is destroyed."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "3x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadclaw",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May transport one formation of infantry units (except Chaos Space Marine Bikes) and Chaos Dreadnoughts. The Dreadclaw does not scatter 2d6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game (see Planetfall ). Any troops carried in the Dreadclaw must disembark within 5cm of the Dreadclaw or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Dreadclaw. Dreadclaw models should be removed from the board once the formation they transport has disembarked."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Dreadclaw."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field a Chaos Space Marine army based on Abbadon’s Black Legion. It can also be used as a stand in army list for other Traitor Legions, such as the Death Guard, World Eaters, Night Lords and Iron Warriors.\nBlack Legion formations come in three types: retinues , elite formations and support formation . Each retinue you include in the army allows you to field any one elite formation and any two support formations. Although you can only take an elite or support formation if you first take a retinue, they are treated as separate independent formations during the battle and do not have to move around together.\nIn addition, formations may be given up to four upgrades but each upgrade may only be taken once per formation. Which upgrades a formation may be given are listed in the Upgrades column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.\nBlack Legion armies may be supported by Chaos Navy and War Engine formations. Up to a third of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

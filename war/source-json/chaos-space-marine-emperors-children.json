@@ -1,0 +1,1365 @@
+{
+  "metadata": {
+    "army_name": "Emperor's Children Chaos Space Marine",
+    "source_url": "https://tp.net-armageddon.org/army-lists/chaos-space-marine-emperors-children.html",
+    "page_title": "Emperor's Children Chaos Space Marine Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Chaos Navy, Questor, Subjugator and Knight Pack formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "Certain units have special abilities described in Augmented Summoning (see Augmented Summoning ) and Daemonic Focus (see Daemonic Focus )."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Retinue",
+      "cost": "225 points",
+      "units_text": "Six Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "All",
+      "restrictions_or_notes": "Emperor's Children Elite Formations\n(Any one elite formation may be fielded per each retinue.)",
+      "raw_text": "Retinue | Six Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character | All | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Chosen",
+      "cost": "125 points",
+      "units_text": "Four Chaos Space Marine Chosen",
+      "upgrades_or_options_text": "Daemonic Pact, Dreadclaws, Dreadnoughts, Rhinos",
+      "restrictions_or_notes": "Emperor's Children Terminators\nBetween four and six Emperor's Children Terminators, one with a Chaos Lord or Sorcerer Lord character\nChaos Champion, Chaos Warlord, Daemon Prince, Daemonic Pact, Dreadclaws, Dreadnoughts, Icon Bearer, Land Raiders\n275 points for four\n+60 points per extra\nNoise Marines\nBetween six and ten Noise Marines, one with a Chaos Lord or Sorcerer Lord character\nChaos Champion, Daemonic Pact, Dreadclaws, Dreadnoughts, Icon Bearer, Land Raiders, Rhinos\n300 points for six\n+35 points per extra\nEmperor's Children Support Formations\n(Any one support formations may be fielded per each retinue.)\nArmoured Company\nBetween four and eight of any of the following units: Emperor's Children Predator, Emperor's Children Land Raider\nStalker\n55 points each per Emperor's Children Predator\n80 points each per Emperor's Children Land Raider",
+      "raw_text": "Chosen | Four Chaos Space Marine Chosen | Daemonic Pact, Dreadclaws, Dreadnoughts, Rhinos | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Bike Company",
+      "cost": "300 points",
+      "units_text": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "Daemonic Pact, Icon Bearer",
+      "restrictions_or_notes": "Raptor Cult\nBetween four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character\nDaemonic Pact\n175 points for four\n+35 points per extra\nEmperor's Children Upgrades\n(Up to four upgrades may be taken once per formation.)",
+      "raw_text": "Bike Company | Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character | Daemonic Pact, Icon Bearer | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Champion",
+      "cost": "+50 points",
+      "units_text": "Add one Champion of Chaos character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Champion | Add one Champion of Chaos character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Marines",
+      "cost": "+25 points each",
+      "units_text": "Add up to six Chaos Space Marines",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Marines | Add up to six Chaos Space Marines | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Chaos Warlord",
+      "cost": "+50 points",
+      "units_text": "Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Chaos Warlord | Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "0–1 Daemon Prince",
+      "cost": "+50 points",
+      "units_text": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0–1 Daemon Prince | Replace a unit with a Chaos Lord character with a Daemon Prince | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemonic Pact",
+      "cost": "+25 points",
+      "units_text": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Dreadclaws\nTransport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws\n+5 points per unit",
+      "raw_text": "Daemonic Pact | Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnoughts",
+      "cost": "+50 points each",
+      "units_text": "Add up to three Emperor's Children Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Havocs\nReplace two or four Chaos Space Marines with an equal number of Havocs\n+25 or +50 points",
+      "raw_text": "Dreadnoughts | Add up to three Emperor's Children Dreadnoughts | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Icon Bearer",
+      "cost": "+25 points",
+      "units_text": "Add one Icon Bearer character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Icon Bearer | Add one Icon Bearer character | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Emperor's Children Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Noise Marines\nReplace two or four Chaos Space Marines with an equal number of Noise Marines\n+25 or +50 points",
+      "raw_text": "Land Raiders | Add up to four Emperor's Children Land Raiders | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "+10 points each",
+      "units_text": "Add one Chaos Rhino for every two infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add one Chaos Rhino for every two infantry units | +10 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Stalker",
+      "cost": "+50 points",
+      "units_text": "Add one Stalker",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos Navy and War Engine Formations\n(Up to a third of the points available may be spent on these formations.)\nChaos Navy",
+      "raw_text": "Stalker | Add one Stalker | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Harbinger",
+      "cost": "400 points",
+      "units_text": "One Harbinger",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harbinger | One Harbinger | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Blades",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Blades | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Hell Talons",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Spacecraft\nOne Devastation Class Cruiser or",
+      "raw_text": "Hell Talons | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "150 points or",
+      "cost": "250 points",
+      "units_text": "one Despoiler Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Chaos War Engines",
+      "raw_text": "150 points or | one Despoiler Class Battleship | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Questor",
+      "cost": "300 points",
+      "units_text": "One Questor Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Questor | One Questor Titan | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Subjugator",
+      "cost": "250 points",
+      "units_text": "One Subjugator Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Subjugator | One Subjugator Titan | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Thunderhawk",
+      "cost": "200 points",
+      "units_text": "One Chaos Thunderhawk",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0–1 Knight Pack",
+      "raw_text": "Thunderhawk | One Chaos Thunderhawk | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Between four and six of any of the following units:",
+      "cost": "50 points each",
+      "units_text": "Hell-Strider",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Hell-Knight",
+      "raw_text": "Between four and six of any of the following units: | Hell-Strider | 50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "75 points each",
+      "cost": "90 points each",
+      "units_text": "Hell-Scourge",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Daemon Pool\nUnit",
+      "raw_text": "75 points each | Hell-Scourge | 90 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "formation",
+      "name": "Cost",
+      "cost": "+50 points each",
+      "units_text": "Greater Daemon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Lesser Daemon\n+15 points each",
+      "raw_text": "Cost | Greater Daemon | +50 points each",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Champion of Chaos",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Artifact",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        },
+        {
+          "name": "Daemon Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save",
+        "A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon. A unit with this character may be sacrificed (removed from play without its formation receiving a Blast marker) before rolling for summoning points. This changes its Augmented Summoning from (+2D3) to (+6), and a Greater Daemon must be summoned. Place the Greater Daemon within 10cm of the point where the sacrificed unit was removed."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Warlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sorcerer Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marine Chosen",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Space Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Prince",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "3+ (4+)",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Possessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Teleport",
+        "A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonettes",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "First Strike",
+        "Invulnerable Save"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Daemonettes."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Emperor's Children Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour",
+        "Counts as Chaos Space Marine Terminators for the purposes of being transported."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fiends of Slaanesh",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "Infiltrator",
+        "Invulnerable Save"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Fiends of Slaanesh."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Havocs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Noise Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Raptors",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Steeds of Slaanesh",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "First Strike",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Mounted"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Steeds of Slaanesh."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Chaos Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi-Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor's Children Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Blastmaster",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "D"
+          ]
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker",
+        "Counts as Chaos Dreadnought for the purposes of being transported."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor's Children Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Blastmaster",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted ."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor's Children Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Strider",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Hell Strider."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stalker",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Stalker Autocannon",
+          "range": "30cm",
+          "firepower": "2x AP5+/AT6+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Keeper of Secrets",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "30cm",
+          "firepower": "3x MW4+",
+          "notes": []
+        },
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        },
+        {
+          "name": "Lash of Torment",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Keeper of Secrets."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Knight",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Lance",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Thermal Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Hell-Knight."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Scourge",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3x AP3+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Questor Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3x AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can't move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Subjugator Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellblades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit's knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can't move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May transport eight infantry units or Chaos Dreadnoughts; Chaos Space Marine Terminators, Chaos Dreadnoughts and Obliterators count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed. Counts as a Thunderhawk Gunship for the purposes of being transported."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harbinger",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Left"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Right"
+          ]
+        },
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "6BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Critical Hit Effect: The unit is destroyed."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "3x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadclaw",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May transport one formation of infantry units (except Chaos Space Marine Bikes) and Chaos Dreadnoughts. The Dreadclaw does not scatter 2d6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game (see Planetfall ). Any troops carried in the Dreadclaw must disembark within 5cm of the Dreadclaw or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Dreadclaw. Dreadclaw models should be removed from the board once the formation they transport has disembarked."
+      ],
+      "source_section": "Emperor's Children Forces",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Incomplete weapon line in Dreadclaw."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": true
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Emperor’s Children army.\nEmperor’s Children formations come in three types: retinues , elite formations and support formation . Each retinue you include in the army allows you to field any one elite formation and any one support formations. Although you can only take an elite or support formation if you first take a retinue, they are treated as separate independent formations during the battle and do not have to move around together.\nIn addition, formations may be given upgrades, each upgrade may only be taken once per formation. Which upgrades a formation may be given are listed in the Upgrades column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.\nEmperor’s Children armies may be supported by Chaos Navy and War Engine formations. Up to a third of the points available to the army may be spent on these formations."
+    }
+  ],
+  "extraction_warnings": []
+}

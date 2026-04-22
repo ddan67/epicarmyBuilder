@@ -209,6 +209,12 @@ var ArmyforgeUI = {
 		}
 		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
 		var profileFindersByListId = {
+			'CHAOS_damned_NETEA': ArmyforgeUnitProfiles.findChaosCultistSlavesToDarknessProfileByName,
+			'CHAOS_latd_redux_NetEA': ArmyforgeUnitProfiles.findChaosCultistStigmatusCovenantProfileByName,
+			'CHAOS_legion_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineBlackLegionProfileByName,
+			'CHAOS_ec_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineEmperorsChildrenProfileByName,
+			'CHAOS_ironwarriors_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineIronWarriorsProfileByName,
+			'CHAOS_corsairs_playtestNETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineRedCorsairsProfileByName,
 			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
 			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
@@ -317,6 +323,15 @@ var ArmyforgeUI = {
 		var normalized = text.replace(/\b(?:and|or)\b/gi, ',');
 		var parts = normalized.split(',');
 		var tokens = [];
+		parts.each(function(part) {
+			var cleaned = ArmyforgeUI.normalizeUnitToken(part);
+			if (cleaned) {
+				tokens.push(cleaned);
+				if (/s$/.test(cleaned)) {
+					tokens.push(cleaned.slice(0, -1));
+				}
+			}
+		});
 		if (/tank\s+squadron/i.test(text)) {
 			tokens.push('Leman Russ');
 			tokens.push('Leman Russ Demolisher');
@@ -345,18 +360,25 @@ var ArmyforgeUI = {
 		if (/macharius\s+command\s+tank/i.test(text)) {
 			tokens.push('Macharius Command');
 		}
+		if (/plague\s+zombie/i.test(text)) {
+			tokens.push('Plague Zombies');
+		}
 		if (/gorgons?\s+with\s+mortar\s+characters/i.test(text)) {
 			tokens.push('Gorgon Mortars');
 		}
-		parts.each(function(part) {
-			var cleaned = ArmyforgeUI.normalizeUnitToken(part);
-			if (cleaned) {
-				tokens.push(cleaned);
-				if (/s$/.test(cleaned)) {
-					tokens.push(cleaned.slice(0, -1));
-				}
-			}
-		});
+		if (/greater\s+daemon/i.test(text)) {
+			tokens.push('Bloodthirster');
+			tokens.push('Great Unclean One');
+			tokens.push('Keeper of Secrets');
+			tokens.push('Lord of Change');
+		}
+		if (/lesser\s+daemon/i.test(text)) {
+			tokens.push('Bloodletters');
+			tokens.push('Daemonettes');
+			tokens.push('Plaguebearers');
+			tokens.push('Daemonic Beasts');
+			tokens.push('Flamers');
+		}
 		return tokens;
 	},
 

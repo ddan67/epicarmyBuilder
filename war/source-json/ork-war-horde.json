@@ -826,16 +826,12 @@
         "Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
       ],
       "source_section": "Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [
         "Boolean weapon line folded into previous weapon for Great Gargant."
       ],
-      "ambiguity_reasons": [
-        "1-2x Twin Soopagun",
-        "0-1x Lifta-Droppa",
-        "Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Gunfortress",

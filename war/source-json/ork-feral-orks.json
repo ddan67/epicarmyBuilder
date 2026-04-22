@@ -123,10 +123,12 @@
         "Supreme Commander"
       ],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "high",
+      "parse_confidence": "low",
       "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
+      "ambiguity_reasons": [
+        "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+      ],
+      "is_reference_or_ambiguous": true
     },
     {
       "name": "Wyrdboy",
@@ -147,10 +149,13 @@
       ],
       "abilities_or_notes": [],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "high",
+      "parse_confidence": "low",
       "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
+      "ambiguity_reasons": [
+        "0-2x Soopagun",
+        "0-2x Mega Choppa"
+      ],
+      "is_reference_or_ambiguous": true
     },
     {
       "name": "Boarboyz",
@@ -341,12 +346,10 @@
         "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
       ],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Squiggoth",
@@ -487,13 +490,10 @@
         "Armed with any two of the following weapons: Soopagun, Mega-Choppa. Critical Hit Effect: The unit is destroyed. All units within 2D6cm suffer a hit."
       ],
       "source_section": "Feral Ork Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "0-2x Soopagun",
-        "0-2x Mega Choppa"
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     }
   ],
   "army_notes": [

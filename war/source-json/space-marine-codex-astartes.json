@@ -386,10 +386,16 @@
         "Leader"
       ],
       "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
+      "parse_confidence": "low",
       "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
+      "ambiguity_reasons": [
+        "0-1x Missile Launcher",
+        "0-1x Twin Lascannon",
+        "0-1x Assault Cannon",
+        "0-1x Power Fist",
+        "Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist."
+      ],
+      "is_reference_or_ambiguous": true
     },
     {
       "name": "Chaplain",
@@ -415,10 +421,14 @@
         "Leader"
       ],
       "source_section": "Space Marine Forces",
-      "parse_confidence": "high",
+      "parse_confidence": "low",
       "parse_warnings": [],
-      "ambiguity_reasons": [],
-      "is_reference_or_ambiguous": false
+      "ambiguity_reasons": [
+        "0-1x Twin Lascannon",
+        "0-1x Twin Heavy Bolter",
+        "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted . Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
+      ],
+      "is_reference_or_ambiguous": true
     },
     {
       "name": "Librarian",
@@ -831,16 +841,10 @@
         "Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist."
       ],
       "source_section": "Space Marine Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "0-1x Missile Launcher",
-        "0-1x Twin Lascannon",
-        "0-1x Assault Cannon",
-        "0-1x Power Fist",
-        "Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Hunter",
@@ -979,14 +983,10 @@
         "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted . Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
       ],
       "source_section": "Space Marine Forces",
-      "parse_confidence": "low",
+      "parse_confidence": "high",
       "parse_warnings": [],
-      "ambiguity_reasons": [
-        "0-1x Twin Lascannon",
-        "0-1x Twin Heavy Bolter",
-        "May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted . Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
-      ],
-      "is_reference_or_ambiguous": true
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
     },
     {
       "name": "Rhino",
