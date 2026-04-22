@@ -302,7 +302,7 @@ ArmyforgeUnitProfiles.knightWorld = {
 			]
 		},
 		knight_warden: {
-			name: 'Knight Warden',
+			name: 'Warden',
 			type: 'WE',
 			speed: '20cm',
 			armour: '4+',
@@ -322,6 +322,33 @@ ArmyforgeUnitProfiles.knightWorld = {
 				'Walker',
 				'Armed with either a Demolisher and Heavy Bolters; an AA Missile Launcher and Multilasers; or a Vanquisher.'
 			]
+		},
+		emperor_class_battleship: {
+			name: 'Emperor Class Battleship',
+			type: 'SC',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [
+				{name: 'Orbital Bombardment', range: 'n/a', firepower: '8BP', notes: ['MW']}
+			],
+			abilities: [
+				'Slow and Steady'
+			]
+		},
+		lunar_class_cruiser: {
+			name: 'Lunar Class Cruiser',
+			type: 'SC',
+			speed: 'n/a',
+			armour: 'n/a',
+			cc: 'n/a',
+			ff: 'n/a',
+			weapons: [
+				{name: 'Orbital Bombardment', range: 'n/a', firepower: '3BP', notes: ['MW']},
+				{name: 'Pin-Point Attack', range: 'n/a', firepower: 'MW2+', notes: ['TK(D3)']}
+			],
+			abilities: []
 		},
 		knight_castellan: {
 			name: 'Knight Castellan',
@@ -440,6 +467,8 @@ ArmyforgeUnitProfiles.knightWorld = {
 		'knight warden': 'knight_warden',
 		'wardens': 'knight_warden',
 		'warden': 'knight_warden',
+		'emperor class battleship': 'emperor_class_battleship',
+		'lunar class cruiser': 'lunar_class_cruiser',
 		'knight castellan': 'knight_castellan',
 		'castellan': 'knight_castellan',
 		'knight errant': 'knight_errant',
