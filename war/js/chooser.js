@@ -410,6 +410,8 @@ var ArmyforgeUI = {
 		$('viewImport').on('click', ArmyforgeUI.viewLink);
 		$('orbatTitle').on('click', ArmyforgeUI.toggleNameEditor);
 		$('viewJSON').on('click', ArmyforgeUI.viewJSON);
+		$('expandAllProfiles').on('click', ArmyforgeUI.expandAllFormationDetails);
+		$('collapseAllProfiles').on('click', ArmyforgeUI.collapseAllFormationDetails);
 
 		// parse url parameters...
 		ArmyforgeUI.urlData.baseURL = new String(window.location).split('?')[0];
@@ -524,8 +526,7 @@ var ArmyforgeUI = {
 		}).update('[+]');
 		detailsToggle.observe('click', function(event) {
 			Event.stop(event);
-			ArmyforgeUI.toggleDetailsRow(detailsToggle.readAttribute('data-details-row-id'), detailsToggle);
-			ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
+			ArmyforgeUI.toggleFormationDetails(formation);
 		});
 		labelCell.insert({top:detailsToggle});
 		if (formation.type.units) {
@@ -561,8 +562,7 @@ var ArmyforgeUI = {
 				ArmyforgeUI.removeFormation(formation);
 			}
 			else {
-				detailsRow.toggle();
-				ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
+				ArmyforgeUI.toggleFormationDetails(formation);
 			}
 		});
 
@@ -742,6 +742,34 @@ var ArmyforgeUI = {
 		$('viewText').addClassName('selected');
 	},
 
+	toggleFormationDetails:function(formation, forceToggle) {
+		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
+		if (!detailsRow) {
+			return;
+		}
+		var toggleControl = ArmyforgeUI.formationRowFor(formation) ? ArmyforgeUI.formationRowFor(formation).down('.detailsToggle') : null;
+		ArmyforgeUI.toggleDetailsRow(detailsRow.id, toggleControl, forceToggle);
+		ArmyforgeUI.syncDuplicateCompositionRows(formation, detailsRow);
+	},
+
+	expandAllFormationDetails:function(event) {
+		if (event) {
+			Event.stop(event);
+		}
+		Force.formations.each(function(formation) {
+			ArmyforgeUI.toggleFormationDetails(formation, true);
+		});
+	},
+
+	collapseAllFormationDetails:function(event) {
+		if (event) {
+			Event.stop(event);
+		}
+		Force.formations.each(function(formation) {
+			ArmyforgeUI.toggleFormationDetails(formation, false);
+		});
+	},
+
 	wrapActivatableHandler:function(element, handler) {
 		return handler.wrap(function(proceed, event, arg1, arg2, arg3, arg4) {
 			if (!element.hasClassName('inactive')) {
@@ -753,12 +781,12 @@ var ArmyforgeUI = {
 
 // runtime safety: ensure dedicated details toggling is always available on ArmyforgeUI
 if (!ArmyforgeUI.toggleDetailsRow) {
-	ArmyforgeUI.toggleDetailsRow = function(detailsRowId, toggleControl) {
+	ArmyforgeUI.toggleDetailsRow = function(detailsRowId, toggleControl, forceToggle) {
 		var detailsRow = $(detailsRowId);
 		if (!detailsRow) {
 			return;
 		}
-		var willExpand = (detailsRow.getStyle('display') == 'none');
+		var willExpand = (typeof forceToggle === 'boolean') ? forceToggle : (detailsRow.getStyle('display') == 'none');
 		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
 		if (toggleControl) {
 			toggleControl.update(willExpand ? '[-]' : '[+]');
