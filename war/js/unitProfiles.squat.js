@@ -1104,68 +1104,12 @@ ArmyforgeUnitProfiles.squat = ArmyforgeUnitProfiles.createXenosProfileSet({
       "Options: Mole Mortar, Rapier, Tarantula, Thudd Gun."
     ]
   },
-  "gyrocopter_wing": {
-    "name": "Gyrocopter Wing",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Reference card for the Squat Gyrocopter Wing formation slot.",
-      "Options: Iron Eagle, Steel Hawk, War Hawk."
-    ]
-  },
-  "guild_robot_squadron": {
-    "name": "Guild Robot Squadron",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Reference card for the Squat Guild Robot Squadron formation slot.",
-      "Options: Colossus Class Robot, Conqueror Class Robot."
-    ]
-  },
-  "guild_squadron": {
-    "name": "Guild Squadron",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Reference card for the Squat Guild Squadron formation slot.",
-      "Options: Guild Bikers, Guild Trike."
-    ]
-  },
-  "thunderfire_battery": {
-    "name": "Thunderfire Battery",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Reference card for the Squat Thunderfire Battery formation slot.",
-      "Options: Thunderfire."
-    ]
-  }
 },
 	aliases: {
   "berserker": "berserkers",
   "thunderer": "thunderers",
   "warrior": "warriors",
   "artillery battery": "artillery_battery",
-  "gyrocopter wing": "gyrocopter_wing",
-  "guild robot squadron": "guild_robot_squadron",
-  "guild squadron": "guild_squadron",
-  "thunderfire battery": "thunderfire_battery",
   "grand warlord": "grand_warlord",
   "living ancestor": "living_ancestor",
   "colossus class robot": "colossus_class_robot",

@@ -1165,6 +1165,7 @@ aliases: {
   "corsair escorts": "corsair_class_escort",
   "fighter formation": "raven_fighter",
   "bomber formation": "razorwing",
+  "razorwing bomber": "razorwing",
   "executioner landing module": "executor_landing_module",
   "ravagers": "ravager",
   "perditors": "perditor",
