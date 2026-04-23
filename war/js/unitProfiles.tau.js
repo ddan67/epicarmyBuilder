@@ -93,7 +93,9 @@ ArmyforgeUnitProfiles.createXenosProfileSet = ArmyforgeUnitProfiles.createXenosP
 
 ArmyforgeUnitProfiles.tau = ArmyforgeUnitProfiles.createXenosProfileSet({
 	armyIds: [
-  "XENOS_tau_NETEA"
+  "XENOS_tau_NETEA",
+  "XENOS_tau_developmental_NETEA",
+  "XENOS_tau_Viorla_NETEA"
 ],
 	profiles: {
   "ethereal": {
@@ -872,9 +874,9 @@ ArmyforgeUnitProfiles.tau = ArmyforgeUnitProfiles.createXenosProfileSet({
   "crisis battlesuit": "crisis_battlesuits",
   "crisis battlesuits": "crisis_battlesuits",
   "crisis suits": "crisis_battlesuits",
-  "shas el": "shas_el",
-  "shas el character": "shas_el",
-  "shas o": "shas_o",
+  "shas el": "shasel",
+  "shas el character": "shasel",
+  "shas o": "shaso",
   "fire warrior cadre": "fire_warriors",
   "fire warrior": "fire_warriors",
   "fire warriors": "fire_warriors",
@@ -890,6 +892,7 @@ ArmyforgeUnitProfiles.tau = ArmyforgeUnitProfiles.createXenosProfileSet({
   "kroot hound": "kroot_hounds",
   "kroot hounds": "kroot_hounds",
   "krootox": "krootox",
+  "krootox herds": "krootox",
   "pathfinder group": "pathfinders",
   "pathfinder": "pathfinders",
   "pathfinders": "pathfinders",

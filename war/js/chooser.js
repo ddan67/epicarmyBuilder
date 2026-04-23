@@ -220,6 +220,8 @@ var ArmyforgeUI = {
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
 			'XENOS_necron_NETEA': ArmyforgeUnitProfiles.findNecronProfileByName,
 			'XENOS_tau_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
+			'XENOS_tau_developmental_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
+			'XENOS_tau_Viorla_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
 			'EL_dark_NETEA': ArmyforgeUnitProfiles.findDarkEldarProfileByName,
 			'XENOS_nids_NETEA': ArmyforgeUnitProfiles.findTyranidProfileByName,
 			'EL_bieltan_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
