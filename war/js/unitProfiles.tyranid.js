@@ -622,6 +622,14 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
       },
       {
         "name": "0-2x Razorclaw",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": [
+          "EA(+2)"
+        ]
+      },
+      {
+        "name": "0-2x Razorclaw",
         "range": "(bc)",
         "firepower": "Assault Weapons",
         "notes": [
@@ -687,6 +695,14 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
         "notes": [
           "FwA",
           "IC"
+        ]
+      },
+      {
+        "name": "0-2x Razorclaw",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": [
+          "EA(+2)"
         ]
       },
       {

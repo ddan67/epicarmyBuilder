@@ -682,6 +682,14 @@
         },
         {
           "name": "0-2x Razorclaw",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
           "range": "(bc)",
           "firepower": "Assault Weapons",
           "notes": [
@@ -762,6 +770,15 @@
           "firepower": "Small Arms",
           "notes": [
             "EA(+2)"
+          ]
+        },
+        {
+          "name": "0-2x Razorclaw",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
           ]
         },
         {
