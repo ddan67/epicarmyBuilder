@@ -1,0 +1,1283 @@
+{
+  "metadata": {
+    "army_name": "Blood Angels Army List",
+    "source_url": null,
+    "page_title": "Blood Angels Army List",
+    "version": "V3.1 – NetEA Developmental",
+    "source_document": "Blood Angels v3.1 - Developmental (5).pdf"
+  },
+  "army_stats": {
+    "strategy_rating": "5",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Space Marine Special Rules",
+      "text": "The Space Marine Transport and They Shall Know No Fear rules apply to Blood Angels armies."
+    },
+    {
+      "name": "Lucifer Pattern Engines",
+      "text": "Units marked as having Lucifer Pattern Engines may add +5cm to their movement when carrying out an engage action."
+    },
+    {
+      "name": "Red Thirst",
+      "text": "If any stand in the formation could reach base contact with an enemy unit, the formation receives a -1 penalty to activate using any order other than Engage. If an Engage order is chosen, the formation automatically passes the activation roll regardless of any other modifiers or penalties. There is no subsequent requirement to reach base contact if the player does not wish to."
+    }
+  ],
+  "formations": [
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Death Company",
+      "cost": "300 points",
+      "units_text": "One Blood Angels Chaplain Character and four Death Company stands plus transport.",
+      "upgrades_or_options_text": "Death Company Dreadnought.",
+      "restrictions_or_notes": "Formation may exchange transport for jump packs for +25pts.",
+      "raw_text": "Death Company | One Blood Angels Chaplain Character and four Death Company stands plus transport. | Death Company Dreadnought. | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Tactical",
+      "cost": "275 points",
+      "units_text": "Six Blood Angels Tactical Marine units plus transport.",
+      "upgrades_or_options_text": "Character, Hunter, Razorback, Land Raider, Storm Raven, Dreadnought, Vindicator.",
+      "restrictions_or_notes": null,
+      "raw_text": "Tactical | Six Blood Angels Tactical Marine units plus transport. | Character, Hunter, Razorback, Land Raider, Storm Raven, Dreadnought, Vindicator. | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Devastator",
+      "cost": "250 points",
+      "units_text": "Four Blood Angels Devastator marine units plus transport.",
+      "upgrades_or_options_text": "Character, Hunter, Razorback, Land Raider, Dreadnought.",
+      "restrictions_or_notes": null,
+      "raw_text": "Devastator | Four Blood Angels Devastator marine units plus transport. | Character, Hunter, Razorback, Land Raider, Dreadnought. | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Assault",
+      "cost": "200 points",
+      "units_text": "Four Blood Angels Assault marine units.",
+      "upgrades_or_options_text": "Character, Dreadnought, Vindicator, Storm Ravens.",
+      "restrictions_or_notes": "May add two additional stands for +50 points.",
+      "raw_text": "Assault | Four Blood Angels Assault marine units. | Character, Dreadnought, Vindicator, Storm Ravens. | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Terminator",
+      "cost": "350 points",
+      "units_text": "Four Blood Angels Terminator units.",
+      "upgrades_or_options_text": "Character, Land Raider, Storm Raven, Dreadnought, Vindicator.",
+      "restrictions_or_notes": null,
+      "raw_text": "Terminator | Four Blood Angels Terminator units. | Character, Land Raider, Storm Raven, Dreadnought, Vindicator. | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Scout",
+      "cost": "150 points",
+      "units_text": "Four Blood Angels Scout units plus transport.",
+      "upgrades_or_options_text": "Character, Sniper, Razorback.",
+      "restrictions_or_notes": null,
+      "raw_text": "Scout | Four Blood Angels Scout units plus transport. | Character, Sniper, Razorback. | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Predator",
+      "cost": "275 points",
+      "units_text": "Four Baal or Infernus Predators.",
+      "upgrades_or_options_text": "Character, Hunter, Vindicator.",
+      "restrictions_or_notes": null,
+      "raw_text": "Predator | Four Baal or Infernus Predators. | Character, Hunter, Vindicator. | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Bike",
+      "cost": "200 points",
+      "units_text": "Five Blood Angels Bike units.",
+      "upgrades_or_options_text": "Character.",
+      "restrictions_or_notes": "May replace any number of bikes with attack bikes for free.",
+      "raw_text": "Bike | Five Blood Angels Bike units. | Character. | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Land Speeder",
+      "cost": "200 points",
+      "units_text": "Five Land Speeder units.",
+      "upgrades_or_options_text": "Character.",
+      "restrictions_or_notes": "May replace any number of land speeders with Tornados for free, or Typhoons for 10 points each.",
+      "raw_text": "Land Speeder | Five Land Speeder units. | Character. | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Storm Raven Landing Craft",
+      "cost": "300 points",
+      "units_text": "Four Storm Raven units.",
+      "upgrades_or_options_text": "None.",
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Raven Landing Craft | Four Storm Raven units. | None. | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "Landing Craft",
+      "cost": "350 points",
+      "units_text": "One Landing Craft.",
+      "upgrades_or_options_text": "None.",
+      "restrictions_or_notes": null,
+      "raw_text": "Landing Craft | One Landing Craft. | None. | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "army_list",
+      "entry_type": "formation",
+      "name": "0-1 Spacecraft",
+      "cost": "200 points",
+      "units_text": "One Strike Cruiser.",
+      "upgrades_or_options_text": "Upgrade to Battle Barge.",
+      "restrictions_or_notes": "Upgrade to Battle Barge costs +150 points.",
+      "raw_text": "0-1 Spacecraft | One Strike Cruiser. | Upgrade to Battle Barge. | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Character",
+      "cost": "+50 or +100 points",
+      "units_text": "Add one Chaplain, Captain, or Librarian (+50) or one Supreme Commander (+100).",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Character | Add one Chaplain, Captain, or Librarian (+50) or one Supreme Commander (+100). | +50 or +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Company Dreadnought",
+      "cost": "+75 points each",
+      "units_text": "Add up to two Death Company Dreadnoughts.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Company Dreadnought | Add up to two Death Company Dreadnoughts. | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnought",
+      "cost": "+50 points each",
+      "units_text": "Add up to two Furioso Dreadnoughts of either type.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnought | Add up to two Furioso Dreadnoughts of either type. | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "+75 points",
+      "units_text": "Add one Hunter.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add one Hunter. | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Land Raiders of either type (+125 for two).",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to four Land Raiders of either type (+125 for two). | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Razorback",
+      "cost": "+25 points each",
+      "units_text": "Add up to one Razorback for each infantry unit in the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Razorback | Add up to one Razorback for each infantry unit in the formation. | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+50 or +75 points",
+      "units_text": "Add one (+50) or two (+75) Vindicators.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vindicators | Add one (+50) or two (+75) Vindicators. | +50 or +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Storm Raven",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Storm Raven Gunships.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Raven | Add up to four Storm Raven Gunships. | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Sniper",
+      "cost": "-50 points",
+      "units_text": "All units in the formation gain the sniper ability.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sniper | All units in the formation gain the sniper ability. | -50 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Supreme Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Supreme Commander",
+        "Invulnerable Save"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Captain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Commander",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaplain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Inspiring",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Librarian",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Smite",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Company Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker",
+        "Invulnerable Save"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Company",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Rending Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Jump Packs (Speed 30cm)"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Devastators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "2x Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "PDF Extract",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Assault Marines",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Chainswords",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Tacticals",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Missile Launchers",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "PDF Extract",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Scouts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Shotguns",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Attack Bike",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "PDF Extract",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Chainswords",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi Melta",
+          "range": "15cm",
+          "firepower": "MW5+ and Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder Tornado",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder Typhoon",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Typhoon Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Stormbolter",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter-killer",
+          "range": "60cm",
+          "firepower": "AT4++ AA",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4++",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Walker"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Baal Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+ and Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Predator Infernus",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Magna Melta",
+          "range": "15cm",
+          "firepower": "MW5+ and Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Flamestorm Cannon",
+          "range": "15cm",
+          "firepower": "AP3+ and Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Choice of Magna Melta or Flamestorm Cannon"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "choice-based loadout",
+        "or-based options"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Razorback",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4++",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+4+",
+          "notes": []
+        },
+        {
+          "name": "2x Flamestorm Cannons",
+          "range": "15cm",
+          "firepower": "AP3+ and Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Frag Launchers",
+          "range": "(bc)",
+          "firepower": "Assault Weaponss",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Furioso Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Frag Cannon",
+          "range": "15cm",
+          "firepower": "Small Arms, EA+1",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Choice of 2x Power Fists or Power Fist & Frag Cannon"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "low",
+      "parse_warnings": [],
+      "ambiguity_reasons": [
+        "choice-based loadout",
+        "or-based options"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Storm Raven Gunship",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Bloodstrike Missiles",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Hurricane Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms, EA+1",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer",
+        "Planetfall",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderhawk Gunship",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4++, FxF",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolters",
+          "range": "30cm/15cm",
+          "firepower": "AP4/AA5",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "DC2"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Landing Craft",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4++",
+          "notes": []
+        },
+        {
+          "name": "3x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4/AA5",
+          "notes": []
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "DC4"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Barge",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "14BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "Slow and Steady"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Storm Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+/AA5",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4/AA5, FxF",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "PDF Extract",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Drop Pod",
+      "type": "AV",
+      "speed": "Immobile",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Deathwind",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport"
+      ],
+      "source_section": "PDF Extract",
+      "parse_confidence": "medium",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [],
+  "extraction_warnings": [
+    "Normalized from a PDF-derived Blood Angels JSON into Codex-style schema.",
+    "Some Blood Angels entries remain partially lossy or ambiguous because the source JSON already compressed weapon/loadout text.",
+    "source_url was not available in the uploaded Blood Angels JSON and was left null."
+  ]
+}
