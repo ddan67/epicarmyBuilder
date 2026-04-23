@@ -98,17 +98,26 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
     ]
   },
   "gargoyles": {
-    "name": "4x Gargoyles",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Gargoyles",
+    "type": "INF",
+    "speed": "30cm",
+    "armour": "-",
+    "cc": "6+",
+    "ff": "5+",
+    "weapons": [
+      {
+        "name": "Flamespurts",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": [
+          "IC"
+        ]
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 75",
-      "Used in: Harridian Swarm"
+      "Brood (2)",
+      "Expendable",
+      "Jump Packs"
     ]
   },
   "genestealers": {
@@ -192,16 +201,23 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
     ]
   },
   "tyranid_warriors": {
-    "name": "2x Tyranid Warriors",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Tyranid Warriors",
+    "type": "INF",
+    "speed": "20cm",
+    "armour": "5+",
+    "cc": "2+",
+    "ff": "5+",
+    "weapons": [
+      {
+        "name": "Deathspitters",
+        "range": "30cm",
+        "firepower": "AP5+",
+        "notes": []
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 100"
+      "Fearless",
+      "Synapse (1)"
     ]
   },
   "biovore": {
@@ -606,14 +622,6 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
       },
       {
         "name": "0-2x Razorclaw",
-        "range": "(15cm)",
-        "firepower": "Small Arms",
-        "notes": [
-          "EA(+2)"
-        ]
-      },
-      {
-        "name": "0-2x Razorclaw",
         "range": "(bc)",
         "firepower": "Assault Weapons",
         "notes": [
@@ -683,14 +691,6 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
       },
       {
         "name": "0-2x Razorclaw",
-        "range": "(15cm)",
-        "firepower": "Small Arms",
-        "notes": [
-          "EA(+2)"
-        ]
-      },
-      {
-        "name": "0-2x Razorclaw",
         "range": "(bc)",
         "firepower": "Assault Weapons",
         "notes": [
@@ -738,300 +738,6 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
       "Source list formation.",
       "Section: TYRANID INDIVIDUALS",
       "Points: 50"
-    ]
-  },
-  "tyranid_swarm": {
-    "name": "Tyranid swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: SYNAPSE SWARM FORMATIONS",
-      "Points: 10",
-      "Options: Symbiote, Termagants, Hormagaunts, Tyranid Warriors, Biovore, Gargoyles, Zoanthrope, Malefactor, Carnifex, Haruspex, Raveners, Dactylis, Exocrine, Trygon"
-    ]
-  },
-  "tyranid_swarm_medium": {
-    "name": "Tyranid swarm (medium)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: SYNAPSE SWARM FORMATIONS",
-      "Points: -5",
-      "Options: Symbiote, Termagants, Hormagaunts, Tyranid Warriors, Biovore, Gargoyles, Zoanthrope, Malefactor, Carnifex, Haruspex, Raveners, Dactylis, Exocrine, Trygon"
-    ]
-  },
-  "tyranid_swarm_large": {
-    "name": "Tyranid swarm (Large)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: SYNAPSE SWARM FORMATIONS",
-      "Points: -45",
-      "Options: Symbiote, Termagants, Hormagaunts, Tyranid Warriors, Biovore, Gargoyles, Zoanthrope, Malefactor, Carnifex, Haruspex, Raveners, Dactylis, Exocrine, Trygon"
-    ]
-  },
-  "biovore_swarm": {
-    "name": "Biovore Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: INDEPENDENT SWARM FORMATIONS",
-      "Points: 0",
-      "Options: Biovore"
-    ]
-  },
-  "dactylis_swarm": {
-    "name": "Dactylis Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: INDEPENDENT SWARM FORMATIONS",
-      "Points: 0",
-      "Options: Dactylis"
-    ]
-  },
-  "exocrine_swarm": {
-    "name": "Exocrine Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: INDEPENDENT SWARM FORMATIONS",
-      "Points: 0",
-      "Options: Exocrine"
-    ]
-  },
-  "genestealer_swarm": {
-    "name": "Genestealer Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: INDEPENDENT SWARM FORMATIONS",
-      "Points: 30",
-      "Options: Genestealers, Brood Lord"
-    ]
-  },
-  "lictor_swarm": {
-    "name": "Lictor Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: INDEPENDENT SWARM FORMATIONS",
-      "Points: 10",
-      "Options: Lictors"
-    ]
-  },
-  "harridian_swarm": {
-    "name": "Harridian Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: WAR ENGINE FORMATIONS",
-      "Points: 0",
-      "Options: Harridan, Gargoyles, 4x Gargoyles"
-    ]
-  },
-  "trygon_swarm": {
-    "name": "Trygon Swarm",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list formation.",
-      "Section: WAR ENGINE FORMATIONS",
-      "Points: 20",
-      "Options: Trygon, Raveners"
-    ]
-  },
-  "tyranid_warriors_ref": {
-    "name": "3x Tyranid Warriors",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 150"
-    ]
-  },
-  "biovores_small_swarm": {
-    "name": "5 Biovores (Small Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 150"
-    ]
-  },
-  "biovores_medium_swarm": {
-    "name": "10 Biovores (Medium Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 275"
-    ]
-  },
-  "biovores_large_swarm": {
-    "name": "15 Biovores (Large Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 375"
-    ]
-  },
-  "dactylis_small_swarm": {
-    "name": "3 Dactylis (Small Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 250"
-    ]
-  },
-  "dactylis_medium_swarm": {
-    "name": "6 Dactylis (Medium Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 475"
-    ]
-  },
-  "dactylis_large_swarm": {
-    "name": "9 Dactylis (Large Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 675"
-    ]
-  },
-  "exocrines_small_swarm": {
-    "name": "3 Exocrines (Small Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 175"
-    ]
-  },
-  "exocrines_medium_swarm": {
-    "name": "6 Exocrines (Medium Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 325"
-    ]
-  },
-  "exocrines_large_swarm": {
-    "name": "9 Exocrines (Large Swarm)",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 450"
-    ]
-  },
-  "lictors": {
-    "name": "Lictors",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 35",
-      "Used in: Lictor Swarm"
     ]
   },
   "bile_launcher": {
@@ -1085,19 +791,6 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
       "Source list option.",
       "Points: 0"
     ]
-  },
-  "razorclaw": {
-    "name": "Razorclaw",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 0"
-    ]
   }
 },
 	aliases: {
@@ -1110,7 +803,9 @@ ArmyforgeUnitProfiles.tyranid = ArmyforgeUnitProfiles.createXenosProfileSet({
   "tyranid warriors": "tyranid_warriors",
   "hive tyrant": "hive_tyrant",
   "genestealers": "genestealers",
-  "gargoyles": "gargoyles"
+  "gargoyles": "gargoyles",
+  "4x gargoyles": "gargoyles",
+  "2x tyranid warriors": "tyranid_warriors"
 }
 });
 
