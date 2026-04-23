@@ -1384,11 +1384,7 @@ ArmyforgeUnitProfiles.eldarCraftworlds = {
       "ff": "n/a",
       "weapons": [],
       "abilities": [
-        "Reference card for an Eldar formation slot.",
-        "Wraithgate - 50 points; Section: INDIVIDUALS",
-        "Wraithgate - 50 points; Section: Individuals",
-        "Wraithgate - 50 points; Section: IYANDEN CRAFTWORLD INDIVIDUALS",
-        "Wraithgate - 50 points; Section: INDIVIDUALS"
+        "At the start of the game nominate one objective on your half of the table as a Wraithgate before setting up spacecraft and garrisons. The Wraithgate functions both as a Webway Portal and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the Walker ability may use the Wraithgate to enter play."
       ]
     },
     "aspect_warrior_warhost": {
@@ -1540,22 +1536,6 @@ ArmyforgeUnitProfiles.eldarCraftworlds = {
         "Phoenix Bombers - 325 points; Units: 3 Phoenix Bombers; Section: SPACECRAFT, AIRCRAFT & TITANS"
       ]
     },
-    "revenant_titans": {
-      "name": "Revenant Titans",
-      "type": "Formation",
-      "speed": "n/a",
-      "armour": "n/a",
-      "cc": "n/a",
-      "ff": "n/a",
-      "weapons": [],
-      "abilities": [
-        "Reference card for an Eldar formation slot.",
-        "Revenant Titans - 650 points; Units: 2 Revenant Titans; Section: SPACECRAFT, AIRCRAFT & TITANS",
-        "Revenant Titans - 650 points; Units: 2 Revenant Titans; Section: Spacecraft, Aircraft & Titans",
-        "Revenant Titans - 650 points; Units: 2 Revenant Titans; Section: SPACECRAFT, AIRCRAFT & TITANS",
-        "Revenant Titans - 650 points; Units: 2 Revenant Titans; Section: SPACECRAFT, AIRCRAFT & TITANS"
-      ]
-    },
     "wild_rider_clan": {
       "name": "Wild Rider Clan",
       "type": "Formation",
@@ -1635,33 +1615,6 @@ ArmyforgeUnitProfiles.eldarCraftworlds = {
       "abilities": [
         "Reference card for an Eldar formation slot.",
         "Swords of Vaul - 0 points; Upgrades: Falcon, Fire Prism, Firestorm; Section: Troupes"
-      ]
-    },
-    "spacecraft": {
-      "name": "Spacecraft",
-      "type": "Formation",
-      "speed": "n/a",
-      "armour": "n/a",
-      "cc": "n/a",
-      "ff": "n/a",
-      "weapons": [],
-      "abilities": [
-        "Reference card for an Eldar formation slot.",
-        "Spacecraft - 0 points; Section: Spacecraft, Aircraft & Titans",
-        "Spacecraft - 0 points; Section: SPACECRAFT, AIRCRAFT & TITANS"
-      ]
-    },
-    "vampire": {
-      "name": "Vampire",
-      "type": "Formation",
-      "speed": "n/a",
-      "armour": "n/a",
-      "cc": "n/a",
-      "ff": "n/a",
-      "weapons": [],
-      "abilities": [
-        "Reference card for an Eldar formation slot.",
-        "Vampire - 275 points; Units: Vampire Hunter; Section: Spacecraft, Aircraft & Titans"
       ]
     },
     "spirit_wraithguard_warhost": {
@@ -1846,14 +1799,11 @@ ArmyforgeUnitProfiles.eldarCraftworlds = {
     "nightwings": "nightwings",
     "nightwing": "nightwings",
     "phoenix bombers": "phoenix_bombers",
-    "revenant titans": "revenant_titans",
     "wild rider clan": "wild_rider_clan",
     "aspect warrior": "aspect_warrior",
     "engine of vaul": "engine_of_vaul",
     "scout rider": "scout_rider",
     "swords of vaul": "swords_of_vaul",
-    "spacecraft": "spacecraft",
-    "vampire": "vampire",
     "spirit wraithguard warhost": "spirit_wraithguard_warhost",
     "spirit wraithblade warhost": "spirit_wraithblade_warhost",
     "spirit wraithlord warhost": "spirit_wraithlord_warhost",
@@ -1863,6 +1813,97 @@ ArmyforgeUnitProfiles.eldarCraftworlds = {
     "alaitoc ranger warhost": "alaitoc_ranger_warhost",
     "pathfinder troupe": "pathfinder_troupe",
     "guardian warhost mounted": "guardian_warhost"
+  },
+  "alaitocExcludedProfileKeys": {
+    "guardian_warhost": true,
+    "pathfinder_troupe": true,
+    "aspect_warrior_troupe": true,
+    "war_walker_troupe": true,
+    "windrider_troupe": true,
+    "swords_of_vaul_troupe": true,
+    "night_spinner_troupe": true,
+    "engine_of_vaul_troupe": true,
+    "nightwings": true,
+    "nightwing_interceptors": true,
+    "phoenix_bombers": true
+  },
+  "bieltanExcludedProfileKeys": {
+    "aspect_warrior_warhost": true,
+    "guardian_warhost": true,
+    "pathfinder_troupe": true,
+    "aspect_warrior_troupe": true,
+    "war_walker_troupe": true,
+    "windrider_troupe": true,
+    "swords_of_vaul_troupe": true,
+    "night_spinner_troupe": true,
+    "engine_of_vaul_troupe": true,
+    "ranger_troupe": true,
+    "nightwings": true,
+    "nightwing_interceptors": true,
+    "phoenix_bombers": true,
+    "wild_rider_clan": true,
+    "aspect_warrior": true,
+    "engine_of_vaul": true,
+    "guardians": true,
+    "guardian_troupe": true,
+    "scout_rider": true,
+    "swords_of_vaul": true,
+    "spirit_wraithguard_warhost": true,
+    "spirit_wraithblade_warhost": true,
+    "spirit_wraithlord_warhost": true,
+    "alaitoc_ranger_warhost": true
+  },
+  "saimhannExcludedProfileKeys": {
+    "aspect_warrior_warhost": true,
+    "guardian_warhost": true,
+    "pathfinder_troupe": true,
+    "aspect_warrior_troupe": true,
+    "war_walker_troupe": true,
+    "windrider_troupe": true,
+    "swords_of_vaul_troupe": true,
+    "night_spinner_troupe": true,
+    "engine_of_vaul_troupe": true,
+    "ranger_troupe": true,
+    "nightwings": true,
+    "nightwing_interceptors": true,
+    "phoenix_bombers": true,
+    "wild_rider_clan": true,
+    "aspect_warrior": true,
+    "engine_of_vaul": true,
+    "guardians": true,
+    "guardian_troupe": true,
+    "scout_rider": true,
+    "swords_of_vaul": true,
+    "spirit_wraithguard_warhost": true,
+    "spirit_wraithblade_warhost": true,
+    "spirit_wraithlord_warhost": true,
+    "alaitoc_ranger_warhost": true
+  },
+  "iyandenExcludedProfileKeys": {
+    "aspect_warrior_warhost": true,
+    "guardian_warhost": true,
+    "pathfinder_troupe": true,
+    "aspect_warrior_troupe": true,
+    "war_walker_troupe": true,
+    "windrider_troupe": true,
+    "swords_of_vaul_troupe": true,
+    "night_spinner_troupe": true,
+    "engine_of_vaul_troupe": true,
+    "ranger_troupe": true,
+    "nightwings": true,
+    "nightwing_interceptors": true,
+    "phoenix_bombers": true,
+    "wild_rider_clan": true,
+    "aspect_warrior": true,
+    "engine_of_vaul": true,
+    "guardians": true,
+    "guardian_troupe": true,
+    "scout_rider": true,
+    "swords_of_vaul": true,
+    "spirit_wraithguard_warhost": true,
+    "spirit_wraithblade_warhost": true,
+    "spirit_wraithlord_warhost": true,
+    "alaitoc_ranger_warhost": true
   }
 };
 
@@ -1889,5 +1930,17 @@ ArmyforgeUnitProfiles.findEldarCraftworldProfileByName = function(displayName, l
 	if (!key) {
 		return null;
 	}
-	return ArmyforgeUnitProfiles.eldarCraftworlds.profiles[key] || null;
+	if (listId === 'EL_alaitoc_NETEA' && ArmyforgeUnitProfiles.eldarCraftworlds.alaitocExcludedProfileKeys[key]) {
+		return null;
+	}
+  if (listId === 'EL_bieltan_NETEA' && ArmyforgeUnitProfiles.eldarCraftworlds.bieltanExcludedProfileKeys[key]) {
+    return null;
+  }
+  if (listId === 'EL_saimhann_NETEA' && ArmyforgeUnitProfiles.eldarCraftworlds.saimhannExcludedProfileKeys[key]) {
+    return null;
+  }
+  if (listId === 'EL_iyanden_NETEA' && ArmyforgeUnitProfiles.eldarCraftworlds.iyandenExcludedProfileKeys[key]) {
+    return null;
+  }
+  return ArmyforgeUnitProfiles.eldarCraftworlds.profiles[key] || null;
 };
