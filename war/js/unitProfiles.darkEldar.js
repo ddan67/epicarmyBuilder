@@ -173,112 +173,180 @@ ArmyforgeUnitProfiles.darkEldar = ArmyforgeUnitProfiles.createXenosProfileSet({
     ]
   },
   "hellions": {
-    "name": "6 Hellions",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Hellions",
+    "type": "INF",
+    "speed": "30cm",
+    "armour": "5+",
+    "cc": "4+",
+    "ff": "5+",
+    "weapons": [
+      {
+        "name": "Hellglaives",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": []
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 0"
+      "Jump Packs",
+      "Scout"
     ]
   },
   "incubi": {
-    "name": "4 Incubi",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 0"
-    ]
+    "name": "Incubi",
+    "type": "INF",
+    "speed": "15cm",
+    "armour": "4+",
+    "cc": "3+",
+    "ff": "6+",
+    "weapons": [
+      {
+        "name": "Tormentor Helms",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": []
+      },
+      {
+        "name": "Punishers",
+        "range": "(bc)",
+        "firepower": "Assault Weapons",
+        "notes": [
+          "EA(+1)"
+        ]
+      }
+    ],
+    "abilities": []
   },
   "mandrakes": {
-    "name": "2 Mandrakes",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Mandrakes",
+    "type": "INF",
+    "speed": "15cm",
+    "armour": "5+",
+    "cc": "4+",
+    "ff": "6+",
+    "weapons": [
+      {
+        "name": "Splinter Pistols",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": []
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 75",
-      "Used in: Kabal Coterie, Kabal Syndicate"
+      "First Strike",
+      "Infiltrator",
+      "Teleport"
     ]
   },
   "reavers": {
-    "name": "6 Reavers",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Reavers",
+    "type": "INF",
+    "speed": "40cm",
+    "armour": "4+",
+    "cc": "4+",
+    "ff": "5+",
+    "weapons": [
+      {
+        "name": "Splinter Rifles",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": []
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 0"
+      "Mounted",
+      "Skimmer"
     ]
   },
   "scourges": {
-    "name": "2 Scourges",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Scourges",
+    "type": "INF",
+    "speed": "30cm",
+    "armour": "6+",
+    "cc": "6+",
+    "ff": "4+",
+    "weapons": [
+      {
+        "name": "Dark Lance",
+        "range": "30cm",
+        "firepower": "AT5+",
+        "notes": [
+          "L"
+        ]
+      },
+      {
+        "name": "Splinter Rifles",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": [
+          "EA(+1)"
+        ]
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 75",
-      "Used in: Kabal Coterie, Kabal Syndicate"
+      "Jump Packs",
+      "Teleport"
     ]
   },
   "warp_beasts": {
-    "name": "2 Warp Beasts",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Warp Beasts",
+    "type": "INF",
+    "speed": "15cm",
+    "armour": "(5+)",
+    "cc": "3+",
+    "ff": "-",
+    "weapons": [
+      {
+        "name": "Teeth and Claws",
+        "range": "(bc)",
+        "firepower": "Assault Weapons",
+        "notes": [
+          "EA(+1)"
+        ]
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 50",
-      "Used in: Wych Cult"
+      "First Strike",
+      "Infiltrator",
+      "In an assault the unit counts as having an armour value of 5+."
     ]
   },
   "warriors": {
-    "name": "2 Warriors",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
-    "abilities": [
-      "Source list option.",
-      "Points: 50",
-      "Used in: Kabal Coterie"
-    ]
+    "name": "Warriors",
+    "type": "INF",
+    "speed": "15cm",
+    "armour": "-",
+    "cc": "5+",
+    "ff": "4+",
+    "weapons": [
+      {
+        "name": "Splinter Cannon",
+        "range": "15cm",
+        "firepower": "AP5+",
+        "notes": []
+      }
+    ],
+    "abilities": []
   },
   "wyches": {
-    "name": "2 Wyches",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Wyches",
+    "type": "INF",
+    "speed": "15cm",
+    "armour": "(5+)",
+    "cc": "3+",
+    "ff": "6+",
+    "weapons": [
+      {
+        "name": "Splinter Pistols",
+        "range": "(15cm)",
+        "firepower": "Small Arms",
+        "notes": []
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 50",
-      "Used in: Kabal Coterie, Kabal Syndicate"
+      "First Strike",
+      "Infiltrator",
+      "In an assault the unit counts as having an armour value of 5+."
     ]
   },
   "raider": {
@@ -348,16 +416,34 @@ ArmyforgeUnitProfiles.darkEldar = ArmyforgeUnitProfiles.createXenosProfileSet({
     ]
   },
   "talos": {
-    "name": "4 Talos",
-    "type": "Formation",
-    "speed": "n/a",
-    "armour": "n/a",
-    "cc": "n/a",
-    "ff": "n/a",
-    "weapons": [],
+    "name": "Talos",
+    "type": "AV",
+    "speed": "15cm",
+    "armour": "4+",
+    "cc": "4+",
+    "ff": "5+",
+    "weapons": [
+      {
+        "name": "Paralyzer",
+        "range": "15cm",
+        "firepower": "AP5+",
+        "notes": [
+          "D"
+        ]
+      },
+      {
+        "name": "Talos Claws",
+        "range": "(bc)",
+        "firepower": "Assault Weapons",
+        "notes": [
+          "MW"
+        ]
+      }
+    ],
     "abilities": [
-      "Source list option.",
-      "Points: 0"
+      "Fearless",
+      "Reinforced Armour",
+      "Walker"
     ]
   },
   "barge_of_pleasure": {
@@ -774,9 +860,7 @@ ArmyforgeUnitProfiles.darkEldar = ArmyforgeUnitProfiles.createXenosProfileSet({
     "ff": "n/a",
     "weapons": [],
     "abilities": [
-      "Source list formation.",
-      "Section: INDIVIDUALS",
-      "Points: 50"
+      "At the start of the game nominate one objective on your half of the table as a Webway Portal before setting up spacecraft and garrisons. The Webway Portal functions both as a Webway Portal and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the Walker ability may use the Webway Portal to enter play."
     ]
   },
   "corsair_escorts": {
@@ -1068,10 +1152,20 @@ ArmyforgeUnitProfiles.darkEldar = ArmyforgeUnitProfiles.createXenosProfileSet({
     ]
   }
 },
-	aliases: {
+aliases: {
+  "hellions": "hellions",
+  "incubi": "incubi",
+  "mandrakes": "mandrakes",
+  "reavers": "reavers",
+  "scourges": "scourges",
+  "warp beasts": "warp_beasts",
+  "warriors": "warriors",
+  "wyches": "wyches",
+  "talos": "talos",
   "corsair escorts": "corsair_class_escort",
   "fighter formation": "raven_fighter",
-  "bomber formation": "razorwing_bomber",
+  "bomber formation": "razorwing",
+  "executioner landing module": "executor_landing_module",
   "ravagers": "ravager",
   "perditors": "perditor",
   "slavebringer": "slavebringer_assault_boat",
@@ -1092,5 +1186,12 @@ ArmyforgeUnitProfiles.findDarkEldarProfileByName = function(displayName, listId)
 		return null;
 	}
 	var key = ArmyforgeUnitProfiles.darkEldar.nameToKey[normalized] || ArmyforgeUnitProfiles.darkEldar.nameToKey[normalized.replace(/\s+/g, '')];
-	return key ? ArmyforgeUnitProfiles.darkEldar.profiles[key] : null;
+	if (!key) {
+		return null;
+	}
+	var profile = ArmyforgeUnitProfiles.darkEldar.profiles[key];
+	if (listId === "EL_dark_NETEA" && profile && profile.type === "Formation" && profile.speed === "n/a" && profile.armour === "n/a" && profile.cc === "n/a" && profile.ff === "n/a" && key !== "webway_portal") {
+		return null;
+	}
+	return profile || null;
 };
