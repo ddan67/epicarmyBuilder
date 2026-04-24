@@ -1,0 +1,364 @@
+{
+  "rules": [
+    {
+      "id": "characters",
+      "name": "Characters",
+      "category": "unit_ability",
+      "source_section": "2.1.1 Characters",
+      "text": "Certain units are noted as being characters . These units represent important individuals rather than groups of soldiers or the crew of a vehicle or war engine. Because of this they are not represented by a separate model on the tabletop, and are instead added to another unit in the army. The unit the character is added to receives any weapons and abilities that the character has noted on their datasheet. For example, Space Marine Chaplains are characters that are armed with a Power Weapon (assault weapon, macro-weapon, extra attack (+1)), and have the invulnerable save and inspiring abilities. Any unit they are added to will count as having all of these things in addition to their normal weapons and abilities. Note that characters can be added to any type of unit, including vehicles and war engines.\n\nThe unit and the character must operate together throughout the entire battle. The character can be transported in any vehicle allowed to transport the unit that he joins, and does not take up an extra space. The character should be represented by a suitable model or command banner that is added to the unit he joins. Characters that are taken as an upgrade for a formation must be added to a unit from the formation they were taken as an upgrade for.",
+      "aliases": [
+        "Characters"
+      ]
+    },
+    {
+      "id": "commanders",
+      "name": "Commanders",
+      "category": "unit_ability",
+      "source_section": "2.1.2 Commanders",
+      "text": "Some units and characters are noted as being commanders . Commanders can order up to three formations of troops to follow them when they make an assault, as long as all the formations have at least one unit within 5cm of a unit from the commander’s formation.\n\nMake a single initiative roll for all the formations, counting a -1 modifier if any have Blast markers. If the test is failed then the commander’s formation receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn).\n\nIf the test is passed then all three formations may take an engage action. Treat the three formations as if they were a single formation for all rules purposes for the duration of the assault. A 2D6 roll is used to resolve a combined assault. If the attackers lose then each formation is broken. If they win then each formation receives a number of Blast markers equal to the casualties it suffered in the combat.",
+      "aliases": [
+        "Commanders"
+      ]
+    },
+    {
+      "id": "fearless",
+      "name": "Fearless",
+      "category": "unit_ability",
+      "source_section": "2.1.3 Fearless",
+      "text": "Some units are noted as being fearless . Such units are either exceptionally brave or so crazed that they will never run away even when broken (though you can choose to have them make a withdrawal move if you want them to).\n\nUnits that are Fearless are immune to damage from losing an assault (both the additional hits and being wiped out if already broken) and from the damage inflicted by Blast markers if broken. When broken or otherwise forced to take a withdrawal move, Fearless units may choose not to withdraw, and if the unit elects to withdraw it will be destroyed only if it ends its move within 5cm of the enemy rather than 15cm. Fearless units that remain stationary do not take additional damage. Note that other units in the formation that are not fearless will be affected normally by additional hits for Blast markers or losing an assault or whatever—just don’t allocate any of the hits to the units that are immune, but hand them out as normal to units that are not.\n\nFearless units still count as part of a formation, and so will sometimes be dragged along as their formation withdraws even though they don’t have to, simply in order to stay in formation (see Formations ). Finally, note that not needing to withdraw can mean that fearless units can end an assault still in an enemy zone of control, or even in base-to-base contact with the enemy (see Zones of Control for details of how to deal with situations where units start an action in an enemy zone of control).",
+      "aliases": [
+        "Fearless"
+      ]
+    },
+    {
+      "id": "infiltrators",
+      "name": "Infiltrators",
+      "category": "unit_ability",
+      "source_section": "2.1.4 Infiltrators",
+      "text": "Some units are noted as being infiltrators . These are allowed to double their speed when they make a charge move (and only when they charge!), and they can also ignore enemy zones of control from the formation they are charging. These two special abilities allow them to sneak past enemy units when they charge in order to attack enemy units that are further back. Note that the unit coherency rules still apply to infiltrators.",
+      "aliases": [
+        "Infiltrators"
+      ]
+    },
+    {
+      "id": "inspiring",
+      "name": "Inspiring",
+      "category": "unit_ability",
+      "source_section": "2.1.5 Inspiring",
+      "text": "Some units or characters are noted as being inspiring . Each inspiring unit involved in an assault adds +1 to the result roll (as long as it survives the combat of course!)",
+      "aliases": [
+        "Inspiring"
+      ]
+    },
+    {
+      "id": "invulnerable_saves",
+      "name": "Invulnerable Saves",
+      "category": "unit_ability",
+      "source_section": "2.1.6 Invulnerable Saves",
+      "text": "Certain units or characters receive a special invulnerable save . These units either have protective devices or supernatural vitality that will allow them to survive an attack that would kill another creature. To represent this, units with an invulnerable save receive a second save of 6+ if they fail their first save for any reason. They may take this second save against any form of attack, even attacks that would normally not allow a save to be taken. No modifiers ever apply to the second save.",
+      "aliases": [
+        "Invulnerable Saves"
+      ]
+    },
+    {
+      "id": "jump_packs",
+      "name": "Jump Packs",
+      "category": "unit_ability",
+      "source_section": "2.1.7 Jump Packs",
+      "text": "Some units are noted as having jump packs . These units are equipped with special devices that allow them to fly for short distances, usually in a series of long hops .\n\nUnits equipped with jump packs may ignore dangerous or impassable terrain as they move (they jump over it). They may not land on impassable terrain, and if they land in dangerous terrain they must take a dangerous terrain test. Units equipped with jump packs may also move over other friendly units as they move, but may not land on them. Units with jump packs are affected by enemy units and zones of control normally, and cannot jump over enemy formations.",
+      "aliases": [
+        "Jump Packs"
+      ]
+    },
+    {
+      "id": "leaders",
+      "name": "Leaders",
+      "category": "unit_ability",
+      "source_section": "2.1.8 Leaders",
+      "text": "Some units or characters are noted as being leaders . A formation that includes any leaders may remove one extra Blast marker for each leader whenever it regroups or successfully rallies.",
+      "aliases": [
+        "Leaders"
+      ]
+    },
+    {
+      "id": "light_vehicles",
+      "name": "Light Vehicles",
+      "category": "unit_ability",
+      "source_section": "2.1.9 Light Vehicles",
+      "text": "Light vehicles include any unarmoured vehicles where the crew is exposed to enemy fire, such as Ork buggies and Space Marine Land Speeders. The only difference between light vehicles and armoured vehicles is that light vehicles can be affected by AP fire as well as AT fire; in effect they count as infantry targets against AP fire and armoured targets against AT fire.\n\nLight vehicles rely on speed and agility to protect them from enemy fire, and because of this their saving throw is based on these factors rather than the thickness of any armour they may carry. This aside, their saving throw works in exactly the same manner as the saving throw of any other unit, and will be ignored by macro-weapons, can be used against barrages, and so on.",
+      "aliases": [
+        "Light Vehicles"
+      ]
+    },
+    {
+      "id": "mounted",
+      "name": "Mounted",
+      "category": "unit_ability",
+      "source_section": "2.1.10 Mounted",
+      "text": "Some infantry units are noted as being mounted , and will either ride on bikes or living creatures such as horses. Mounted units count as vehicles for terrain effects, and as infantry units for all other purposes.",
+      "aliases": [
+        "Mounted"
+      ]
+    },
+    {
+      "id": "reinforced_armour",
+      "name": "Reinforced Armour",
+      "category": "unit_ability",
+      "source_section": "2.1.11 Reinforced Armour",
+      "text": "Units with reinforced armour are protected by armour many times thicker than that found on most armoured vehicles and have extremely robust internal construction too. Because of this they still take their saving throw when hit by macro-weapons (see Macro-Weapons ). In addition, they may re-roll a failed save against any non-macro-weapon hit, including those inflicted during an assault.",
+      "aliases": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "id": "scouts",
+      "name": "Scouts",
+      "category": "unit_ability",
+      "source_section": "2.1.12 Scouts",
+      "text": "Some units are noted as being scouts . These units are trained to operate on their own, scouting ahead of their formation to seek out the enemy. Scout units only have to remain within 20cm of another unit from their formation, rather than 5cm as would normally be the case. In addition, scouts are trained to spread out so they can cover a wide area, and so have a 10cm zone of control. Note that these abilities only apply to scout units and cannot be transferred to other units in the same formation or transport units carrying the scouts.",
+      "aliases": [
+        "Scouts"
+      ]
+    },
+    {
+      "id": "skimmers",
+      "name": "Skimmers",
+      "category": "unit_ability",
+      "source_section": "2.1.13 Skimmers",
+      "text": "Some units are noted as being skimmers . These units are equipped with devices that allow them to hover a short distance above the ground, so that they can fly over terrain that would slow other units down. Note that skimmers do not follow any of the rules for aircraft in Section Aerospace Operations .\n\nSkimmers may ignore dangerous or impassable terrain as they move. They may not land on impassable terrain, and if they land in dangerous terrain they must take a dangerous terrain test. Skimmers may also move over other friendly units as they move, but may not land on them. Enemy units and zones of control affect skimmers normally.\n\nA skimmer may declare that it is popping up at the start of any action that it takes, including when the skimmer goes into overwatch. A skimmer may not pop up as part of a sustained fire action or a marshal action, but may pop-up when it goes onto overwatch. Popping up counts as movement for the purposes of triggering firing by enemy units on overwatch.\n\nA skimmer that has popped up, pops down at the conclusion of the action. Skimmers on overwatch do not pop down until after they make their overwatch attack. Skimmers with a transport capacity may not embark or disembark units while they are popped up, and if they are destroyed while they are popped up then any units on board will be destroyed with no save.\n\nA skimmer that has popped up is assumed to be flying high enough that nearby intervening terrain that is closer to the skimmer than the target does not block the line of fire. To check if the line of fire is blocked, simply measure the distance between the skimmer and the terrain, and then measure the distance between the terrain and the target unit. If the skimmer is nearer to the intervening terrain then the line of fire is not blocked. If the skimmer is further from the terrain, then work out the line of fire normally. If the distance is is equal, then both the skimmer and the target unit can fire at each other, but they both count as being in cover and the cover to hit modifier will apply.\n\nSkimmers may always choose to use their firefight value in an assault, even if there are enemy units in base contact with the skimmer. If they do this then the enemy must use their firefight value also. This represents the skimmer lifting off the ground out of reach of enemy ground units.",
+      "aliases": [
+        "Skimmers"
+      ]
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "category": "unit_ability",
+      "source_section": "2.1.14 Sniper",
+      "text": "Some infantry units are noted as being snipers . Roll separately when attacking with a sniper unit. If they hit, the attacker can choose which enemy unit is hit from those within range and in the line of fire of the sniper unit. In addition the target suffers a -1 save modifier.",
+      "aliases": [
+        "Sniper"
+      ]
+    },
+    {
+      "id": "supreme_commanders",
+      "name": "Supreme Commanders",
+      "category": "unit_ability",
+      "source_section": "2.1.15 Supreme Commanders",
+      "text": "Supreme Commanders represent high-level command units. They count as commanders and leaders (see Commanders and Leaders respectively). In addition, each supreme commander unit in the army allows a player to re-roll one failed initiative test (of any type) once per turn.",
+      "aliases": [
+        "Supreme Commanders"
+      ]
+    },
+    {
+      "id": "thick_rear_armour",
+      "name": "Thick Rear Armour",
+      "category": "unit_ability",
+      "source_section": "2.1.16 Thick Rear Armour",
+      "text": "Some armoured units are noted as having thick rear armour . These vehicles have equally thick armour all round, and so ignore the -1 save modifier when they are caught in a crossfire.",
+      "aliases": [
+        "Thick Rear Armour"
+      ]
+    },
+    {
+      "id": "teleport",
+      "name": "Teleport",
+      "category": "unit_ability",
+      "source_section": "2.1.17 Teleport",
+      "text": "Units with the teleport ability can appear suddenly on the battlefield, either because they have access to technological or arcane devices that allow them to be instantaneously moved from one place to another, or because they are capable of hiding extremely well and then suddenly appear as if from nowhere .\n\nFormations where all of the units have this ability may be kept off the table, and can appear at the start of any turn. Simply place the unit anywhere you like on the table at the start of any turn, before determining who wins the strategy roll. The unit must be placed within 5cms of another unit from its own formation if there are any already in play. So, for example, if a whole formation teleported into play then the first unit could be placed anywhere, but any other units would need to be placed within 5cms of a unit that had already been placed. All units must be placed outside enemy zones of control. If placed in dangerous terrain then a dangerous terrain test must be taken when the unit is placed on the table.\n\nTeleporting is an inherently dangerous business, and doesn’t always go as planned. To represent this roll a D6 for each unit that teleports into play. On a roll of a 1 the formation that the unit belongs to receives a Blast marker.",
+      "aliases": [
+        "Teleport"
+      ]
+    },
+    {
+      "id": "walkers",
+      "name": "Walkers",
+      "category": "unit_ability",
+      "source_section": "2.1.18 Walkers",
+      "text": "Some vehicle units are noted as being walkers . They are able to negotiate dangerous terrain more easily than other vehicles. To represent this they may re-roll any failed dangerous terrain tests.\n\nRe-rolls Sometimes the rules will allow you to re-roll a dice if you don’t like the first score you rolled. Re-rolls always apply to single dice rolls—if you rolled more than one dice then the re-roll will only allow you to re-roll one of them unless the rules specifically say otherwise. No dice may be re-rolled more than once (you can’t re-roll a re-roll) and you must accept the result of the second roll.",
+      "aliases": [
+        "Walkers"
+      ]
+    },
+    {
+      "id": "re_rolls",
+      "name": "Re-rolls",
+      "category": "unit_ability",
+      "source_section": "Re-rolls",
+      "text": "Sometimes the rules will allow you to re-roll a dice if you don’t like the first score you rolled. Re-rolls always apply to single dice rolls—if you rolled more than one dice then the re-roll will only allow you to re-roll one of them unless the rules specifically say otherwise. No dice may be re-rolled more than once (you can’t re-roll a re-roll) and you must accept the result of the second roll.",
+      "aliases": [
+        "Re-rolls"
+      ]
+    },
+    {
+      "id": "slow_and_steady",
+      "name": "Slow and Steady",
+      "category": "unit_ability",
+      "source_section": "2.1.19 Slow and Steady",
+      "text": "Some spacecraft units are noted as being slow and steady . They may not be used on the first two turns of a battle unless the scenario specifically says otherwise.",
+      "aliases": [
+        "Slow and Steady"
+      ]
+    },
+    {
+      "id": "support_craft",
+      "name": "Support Craft",
+      "category": "unit_ability",
+      "source_section": "2.1.20 Support Craft",
+      "text": "Support craft are much like a hybrid between a skimmer and an aircraft. They remain high up in the air, hovering over the battlefield, firing over intervening terrain when possible. Support craft function identically to a skimmer unit that is always popped up . Support craft fire and are fired at normally (i.e. anti-aircraft ability is not required). In an assault, support craft automatically force a firefight in the same manner skimmers may choose. It is assumed that support craft transports or the troops they carry are appropriately equipped to embark and disembark troops as normal.",
+      "aliases": [
+        "Support Craft"
+      ]
+    },
+    {
+      "id": "self_planetfall",
+      "name": "Self Planetfall",
+      "category": "unit_ability",
+      "source_section": "2.1.21 Self Planetfall",
+      "text": "Self planetfall is plotted exactly as planetfall (see Planetfall ). Both the turn in which the formation arrives and the landing location is plotted. The only exception is that, because these units are much smaller than orbiting spacecraft, they may be plotted to arrive in the same turn that an enemy spacecraft is present.\n\nOn the designated turn the self planetfalling unit is activated in the normal activation sequence, as with spacecraft. Nominate the action for the formation and roll to activate. If the unit fails to activate its arrival is delayed to the next following turn. If the activation is successful, place the formation at the plotted landing zone and determine scatter according to Planetfall as if it were a normal planetfall, including loaded units disembarking up to 5cm. The formation’s action proceeds as normal in all respects from that point. In other words, the formation gets the free move from planetfall placement at the beginning of its action but in all other ways activates as normal.\n\nNote: The action is chosen at activation, before scatter is determined. Choose the action carefully as a poor scatter role could render some actions ineffective.",
+      "aliases": [
+        "Self Planetfall"
+      ]
+    },
+    {
+      "id": "expendable",
+      "name": "Expendable",
+      "category": "unit_ability",
+      "source_section": "2.1.22 Expendable",
+      "text": "Some units are seen by their allies as ablative or just plain disposable. This may be because the units are specifically created to sacrifice themselves or because the units are simply not valued.\n\nA formation does not receive a Blast marker when a unit with expendable is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move.\n\nIf an expendable unit is hit by a weapon with disrupt it does not inflict a Blast marker. If a formation is comprised completely of expendable units then they do not benefit from any of the rules above.\n\nExpendable units killed in an assault count for the purposes of working out its result (see Work Out Result ).",
+      "aliases": [
+        "Expendable"
+      ]
+    },
+    {
+      "id": "tunneler",
+      "name": "Tunneler",
+      "category": "unit_ability",
+      "source_section": "2.1.23 Tunneler",
+      "text": "Formations where all of the units have tunneler (or are transported in units that have the ability) may be kept off the table and can appear at the start of the second turn or after. Set up the units touching their own side’s table edge before the battle starts at the same time that spacecraft are setup (see Planning Spacecraft Operations ). Any units transported in the tunneler should be placed to one side at this time too.\n\nSecretly write down the location where the tunneler will surface at the same time and in the same manner that you record the coordinates of a drop zone (see Planning Spacecraft Operations ). You must also secretly record when the tunneler will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.\n\nSet up the tunneler at the start of the stated turn, before placing units with teleport, at the location you wrote down. Any units being transported are allowed to disembark immediately upon surfacing. Surfacing does not count as movement for the purposes of triggering overwatch fire. Disembarking triggers overwatch fire as normal.\n\nIf the tunneler surfaces on terrain that is impassable for it, under a friendly unit, or in an enemy zone of control then it is assumed that on-board sensor equipment will divert it towards another entry point. The unit should be moved by the opposing player to the nearest area where it can surface.\n\nFormations of multiple tunneler need only record one location where they will surface. Place a unit at this location, or within 5cm of another unit that has already been placed, so long as all units are placed within 15cm of the location and on the appropriate half of the table.\n\nTunneler, and any units being transported in them, may take an action on the turn they appear.",
+      "aliases": [
+        "Tunneler"
+      ]
+    },
+    {
+      "id": "self_reliant",
+      "name": "Self-Reliant",
+      "category": "unit_ability",
+      "source_section": "2.1.24 Self-Reliant",
+      "text": "Some units or characters are noted as being self-reliant . A formation that includes one or more self-reliant units may remove one extra Blast marker whenever it regroups or successfully rallies. Multiple self-reliant units in a formation does not allow it to remove multiple Blaster markers, simply check for the presence of one or more self-reliant units and remove one Blast marker if they are found.\n\nSome self-reliant units may have a trailing number noted in parentheses (e.g. self-reliant (x) ). If this is the case, remove a number of Blaster markers equal to x instead (e.g. a formation of self-reliant (2) units would remove two Blast markers instead of one). If a unit has multiple self-reliant abilities then use the one with the greatest number and ignore the rest. Similiarlly, if a formation contains units with different self-reliant abilities then use the one with the greatest number and ignore the rest.",
+      "aliases": [
+        "Self-Reliant"
+      ]
+    },
+    {
+      "id": "anti_aircraft_weapons",
+      "name": "Anti-aircraft Weapons",
+      "category": "weapon_ability",
+      "source_section": "2.2.1 Anti-aircraft Weapons",
+      "text": "Some of the weapons used in Epic are used in dogfights or to defend against aircraft. These weapons are collectively known as anti-aircraft weapons in the rules. Anti-aircraft weapons have an AA firepower value, in addition they may also have AP or AT firepower values. For example, the Space Marine Hunter has a Firepower value of AT 4+/ AA 4+. The rules for carrying out AA shooting are described in full in the rules for Aerospace Operations (see Aerospace Operations ).",
+      "aliases": [
+        "Anti-aircraft Weapons"
+      ]
+    },
+    {
+      "id": "disrupt",
+      "name": "Disrupt",
+      "category": "weapon_ability",
+      "source_section": "2.2.2 Disrupt",
+      "text": "Certain weapons are designed to disrupt enemy formations as much as kill enemy troops. To represent this weapons noted as having the disrupt ability inflict a Blast marker on an enemy formation for each hit they inflict instead of for each kill they inflict. Note that the hits inflicted by disruptor weapons are saved for normally. Any units that fail their save are removed as casualties but do not cause a second Blast marker to be placed on the target formation.",
+      "aliases": [
+        "Disrupt"
+      ]
+    },
+    {
+      "id": "extra_attacks",
+      "name": "Extra Attacks",
+      "category": "weapon_ability",
+      "source_section": "2.2.3 Extra Attacks",
+      "text": "Some assault and close combat weapons are noted as having extra attacks (+x) . Units armed with these weapons receive a number of extra attacks equal to x during an assault. For example, an assault weapon noted as having extra attacks (+2) would allow the unit using it to make two extra close combat attacks in an assault. Sometimes the entry will specify a dice roll rather than a fixed number. For example, a weapon that had extra attacks (D3) would attack D3 times each time it attacked. Extra attacks can apply to shooting attacks, close combat attacks, and firefight attacks.",
+      "aliases": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "id": "first_strike",
+      "name": "First Strike",
+      "category": "weapon_ability",
+      "source_section": "2.2.4 First Strike",
+      "text": "Weapons with the first strike ability attack first in an assault. Resolve the attack and inflict damage for the weapon before any enemy units make their attacks. This may result in some enemy units being destroyed before they can attack. If the ability is noted for a weapon with extra attacks (see Extra Attacks ) then only the extra attacks gets the first strike ability; otherwise it will count for all close combat attacks if noted for an assault weapon, or all firefight attacks if noted for small arms. If opposing units both have first strike weapons then all first strike attacks are resolved simultaneously and their results applied to both sides before other attacks are resolved.",
+      "aliases": [
+        "First Strike"
+      ]
+    },
+    {
+      "id": "ignore_cover",
+      "name": "Ignore Cover",
+      "category": "weapon_ability",
+      "source_section": "2.2.5 Ignore Cover",
+      "text": "Some weapons are noted as being able to ignore cover . These weapons are designed to negate the effects of cover, either by blasting it apart or simply bypassing it altogether. These weapons ignore cover to hit modifiers, and negate infantry cover saves.",
+      "aliases": [
+        "Ignore Cover"
+      ]
+    },
+    {
+      "id": "macro_weapons",
+      "name": "Macro-Weapons",
+      "category": "weapon_ability",
+      "source_section": "2.2.6 Macro-Weapons",
+      "text": "Some of the weapons used in Epic are absolutely huge. These weapons are collectively known as macro-weapons in the rules. Only units with reinforced armour or invulnerable saves receive a saving throw against hits from a macro-weapon (see Invulnerable Saves and Reinforced Armour ). Any other type of target that is hit does not get a saving throw at all. The following rules explain in detail how this works, but as long as you bear in mind the principle that macro-weapons cancel saves then you won’t go too far wrong.",
+      "aliases": [
+        "Macro-Weapons"
+      ]
+    },
+    {
+      "id": "single_shot",
+      "name": "Single Shot",
+      "category": "weapon_ability",
+      "source_section": "2.2.7 Single Shot",
+      "text": "Some weapons are noted as being single shot . These weapons may be used once per battle and may not then be fired again. You may want to record which single shot weapons have been fired on a piece of scrap paper.",
+      "aliases": [
+        "Single Shot"
+      ]
+    },
+    {
+      "id": "slow_firing",
+      "name": "Slow Firing",
+      "category": "weapon_ability",
+      "source_section": "2.2.8 Slow Firing",
+      "text": "Some weapons are noted as being slow firing . These weapons must take one turn to reload after they have fired. This means that if they fire on one turn they may not fire during the next. We have found that the best way of remembering this is simply to turn the unit around to face away from the enemy when it fires, and then turn it back again when the formation is activated again next turn, but you can use any method you prefer.",
+      "aliases": [
+        "Slow Firing"
+      ]
+    },
+    {
+      "id": "titan_killers",
+      "name": "Titan Killers",
+      "category": "weapon_ability",
+      "source_section": "2.2.9 Titan Killers",
+      "text": "Some weapons are noted as being Titan Killers . Enemy units hit by such weapons may not take a cover or armour save, even if they have reinforced armour. In addition, further special rules apply if the target unit is a war engine (see War Engines ). In all other ways, Titan killers are treated as macro-weapons.",
+      "aliases": [
+        "Titan Killers"
+      ]
+    },
+    {
+      "id": "indirect_fire",
+      "name": "Indirect Fire",
+      "category": "weapon_ability",
+      "source_section": "2.2.10 Indirect Fire",
+      "text": "Some weapons that can fire barrages are noted as having the indirect fire ability. Units armed with indirect fire weapons are allowed to fire indirectly if their formation takes a sustained fire action. Units belonging to a formation that fails the action test may shoot normally as part of their hold action, but may not fire indirectly. Units firing an indirect barrage receive the +1 modifier for taking a sustained fire action. In addition, no line of fire is required for an indirect barrage, as it is assumed that the barrage is fired high in the air so that the shots rain down on the target and ignore any intervening terrain. Co-ordinates for the barrage are provided by spotters that are either in other friendly formations that do have a line of fire, or from orbiting spy satellites or planes. Finally, the high trajectory used by weapons firing indirectly greatly increases their range, but means they cannot fire at targets that are too close by. To represent this, weapons firing indirectly double their range, but have a minimum range of 30cms.",
+      "aliases": [
+        "Indirect Fire"
+      ]
+    },
+    {
+      "id": "titan_killer_weapons",
+      "name": "Titan Killer Weapons",
+      "category": "weapon_ability",
+      "source_section": "3.2.5 Titan Killer Weapons",
+      "text": "Some units are armed with weapons that are noted as being Titan Killers (see Titan Killers ). Many of these weapons are capable of taking down a war engine with a single shot. Enemy units hit by such weapons may not take a cover or armour save, even if they have reinforced armour. Note that cover to hit modifiers do apply.\n\nIn addition, Titan Killer weapons will usually have a dice roll noted in brackets on their data sheet. For example, the Volcano Cannon mounted on an Imperial Guard Shadowsword is noted as being a Titan Killer (D3) weapon. If such a weapon hits a war engine then the war engine suffers damage equal to the roll of the appropriate sort of dice. Each point of damage will reduce the war engine’s damage capacity by 1 point. Roll for critical hits for each point of damage inflicted. Titan Killer weapons that do not have a dice roll in brackets only inflict one point of damage.\n\nWhen allocating Titan killer hits that may cause multiple points of damage, roll for damage immediately after allocating the hit. The War Engine counts as having been allocated a number of hits equal to the damage rolled. This is solely for purposes of allocation. Damage is applied as normal, only after all hits have been allocated.",
+      "aliases": [
+        "Titan Killer Weapons"
+      ]
+    }
+  ]
+}

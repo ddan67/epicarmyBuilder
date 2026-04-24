@@ -483,6 +483,7 @@ var ArmyforgeUI = {
 		$('viewText').on('click', ArmyforgeUI.viewPlainText);
 		$('viewTable').on('click', ArmyforgeUI.viewTable);
 		$('viewImport').on('click', ArmyforgeUI.viewLink);
+		$('viewPrintV2').on('click', ArmyforgeUI.printV2);
 		$('orbatTitle').on('click', ArmyforgeUI.toggleNameEditor);
 		$('viewJSON').on('click', ArmyforgeUI.viewJSON);
 		$('expandAllProfiles').on('click', ArmyforgeUI.expandAllFormationDetails);
@@ -708,6 +709,7 @@ var ArmyforgeUI = {
 	},
 
 	resetViews:function() {
+		ArmyforgeUI.exitPrintV2Mode();
 		$$('.viewDiv').each(function(x) {
 			x.hide();
 		});
@@ -815,6 +817,109 @@ var ArmyforgeUI = {
 		$('plainTextDiv').update( Force.plainText().replace(/\n/g,'<br/>') );
 		$('plainTextDiv').show();
 		$('viewText').addClassName('selected');
+	},
+
+	exitPrintV2Mode:function() {
+		var printV2Div = $('printV2Div');
+		if (printV2Div) {
+			printV2Div.hide();
+			printV2Div.update('');
+		}
+		$(document.body).removeClassName('printV2Mode');
+	},
+
+	enterPrintV2Mode:function() {
+		$(document.body).addClassName('printV2Mode');
+		$('printV2Div').show();
+	},
+
+	printV2FormationCompositionText:function(formation) {
+		var parts = [];
+		if (formation.type.units) {
+			parts.push(formation.type.units);
+		}
+		formation.upgrades.uniq().each(function(upgrade) {
+			parts.push((formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name);
+		});
+		return parts.length ? parts.join(', ') : formation.type.name;
+	},
+
+	printV2FormationUpgradesText:function(formation) {
+		var upgrades = formation.upgrades.uniq().map(function(upgrade) {
+			return (formation.count(upgrade) > 1 ? formation.count(upgrade) + 'x ' : '') + upgrade.name;
+		});
+		return upgrades.length ? upgrades.join(', ') : '-';
+	},
+
+	printV2SummaryRow:function(formation) {
+		var row = new Element('tr');
+		row.insert(new Element('td', {'class':'printV2Formation'}).update(formation.type.name));
+		row.insert(new Element('td', {'class':'printV2Points'}).update(formation.calcPoints()));
+		row.insert(new Element('td', {'class':'printV2Composition'}).update(ArmyforgeUI.printV2FormationCompositionText(formation)));
+		return row;
+	},
+
+	printV2SummaryTable:function() {
+		var table = new Element('table', {'class':'printV2Summary'});
+		table.insert(new Element('thead').update(
+			new Element('tr').insert(new Element('th').update('Formation'))
+				.insert(new Element('th', {'class':'printV2Points'}).update('Pts'))
+				.insert(new Element('th').update('Contents'))
+		));
+		var body = new Element('tbody');
+		Force.formations.each(function(formation) {
+			body.insert(ArmyforgeUI.printV2SummaryRow(formation));
+		});
+		table.insert(body);
+		return table;
+	},
+
+	printV2Profiles:function() {
+		var profiles = [];
+		var seen = [];
+		Force.formations.each(function(formation) {
+			ArmyforgeUI.uniqueProfilesForFormation(formation).each(function(profile) {
+				if (profile && !seen.include(profile)) {
+					seen.push(profile);
+					profiles.push(profile);
+				}
+			});
+		});
+		return profiles;
+	},
+
+	renderPrintV2:function() {
+		var container = new Element('div', {'class':'printV2Sheet'});
+		var header = new Element('div', {'class':'printV2Header'});
+		header.insert(new Element('div', {'class':'printV2Title'}).update(Force.name));
+		header.insert(new Element('div', {'class':'printV2Meta'}).update(Force.calcPoints() + ' points'));
+		container.insert(header);
+		container.insert(ArmyforgeUI.printV2SummaryTable());
+		container.insert(new Element('div', {'class':'printV2PageBreak'}));
+
+		var profiles = ArmyforgeUI.printV2Profiles();
+		var profilesWrap = new Element('div', {'class':'printV2Profiles'});
+		if (profiles.length < 1) {
+			profilesWrap.insert(new Element('div', {'class':'noProfileData'}).update('No profile data yet'));
+		}
+		else {
+			profiles.each(function(profile) {
+				profilesWrap.insert(ArmyforgeUI.createProfileCard(profile));
+			});
+		}
+		container.insert(profilesWrap);
+		return container;
+	},
+
+	printV2:function(event) {
+		if (event) {
+			Event.stop(event);
+		}
+		ArmyforgeUI.resetViews();
+		$('printV2Div').update(ArmyforgeUI.renderPrintV2());
+		ArmyforgeUI.enterPrintV2Mode();
+		window.print();
+		ArmyforgeUI.exitPrintV2Mode();
 	},
 
 	toggleFormationDetails:function(formation, forceToggle) {

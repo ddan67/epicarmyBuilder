@@ -135,6 +135,94 @@ tr.mandatory > td {
 	cursor:auto;
 	color:#363;
 }
+#printV2Div {
+	display:none;
+	padding:0;
+	font-family:sans-serif;
+	color:#000;
+}
+body.printV2Mode {
+	background-color:#fff;
+	margin:0.35in;
+}
+body.printV2Mode #armyList,
+body.printV2Mode #controls,
+body.printV2Mode #orbatDiv {
+	display:none;
+}
+body.printV2Mode #printV2Div {
+	display:block;
+}
+.printV2Sheet {
+	width:100%;
+}
+.printV2Header {
+	border-bottom:1px solid #000;
+	padding-bottom:0.25em;
+	margin-bottom:0.45em;
+}
+.printV2Title {
+	font-size:1.25em;
+	font-weight:bold;
+}
+.printV2Meta {
+	font-size:0.9em;
+	color:#000;
+	margin-top:0.2em;
+}
+.printV2Summary {
+	width:100%;
+	font-size:0.85em;
+	border-collapse:collapse;
+}
+.printV2Summary th,
+.printV2Summary td {
+	padding:0.2em 0.3em;
+	border-bottom:1px solid #000;
+	vertical-align:top;
+}
+.printV2Summary th {
+	text-align:left;
+	background:transparent;
+}
+.printV2Points {
+	text-align:right;
+	white-space:nowrap;
+}
+.printV2PageBreak {
+	page-break-after:always;
+	break-after:page;
+	height:0;
+}
+.printV2Profiles {
+	overflow:hidden;
+}
+.printV2Profiles .profileCard {
+	width:48%;
+	float:left;
+	margin:0 2% 0.45em 0;
+	box-sizing:border-box;
+	page-break-inside:avoid;
+	break-inside:avoid;
+	border:1px solid #000;
+	background:transparent;
+}
+.printV2Profiles .profileCard:nth-child(2n) {
+	margin-right:0;
+}
+.printV2Profiles .profileName {
+	font-size:0.95em;
+	font-weight:bold;
+	color:#000;
+}
+.printV2Profiles .profileStats,
+.printV2Profiles .profileSubheading {
+	font-size:0.8em;
+	color:#000;
+}
+.printV2Profiles ul {
+	font-size:0.75em;
+}
 #controls {
 	font-family:monospace;
 	font-size:small;
@@ -222,8 +310,35 @@ div.dropDown .listDiv table td {
 	body {
 		background-color:white;
 	}
+	body.printV2Mode #armyList,
+	body.printV2Mode #controls,
+	body.printV2Mode #orbatDiv,
 	#armyList, #controls, div.dropDown, #notes {
 		display:none;
+	}
+	body.printV2Mode #printV2Div {
+		display:block !important;
+		padding:0;
+	}
+	body.printV2Mode .printV2Header,
+	body.printV2Mode .printV2Summary th,
+	body.printV2Mode .printV2Summary td,
+	body.printV2Mode .printV2Profiles .profileCard {
+		background:transparent !important;
+		color:#000 !important;
+	}
+	body.printV2Mode .printV2Profiles .profileCard {
+		break-inside:avoid;
+		page-break-inside:avoid;
+	}
+	body.printV2Mode .printV2Profiles .profileCard {
+		border:1px solid #000;
+	}
+	body.printV2Mode .printV2Profiles .profileSubheading {
+		margin-top:0.15em;
+	}
+	body.printV2Mode .printV2Profiles ul {
+		margin:0.1em 0 0.2em 1.1em;
 	}
 	#orbat {
 		width:100%;
