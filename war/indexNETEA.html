@@ -118,6 +118,52 @@ document.querySelectorAll('.list a').forEach(link => {
   });
 });
 </script>
+<script>
+var supportedStatArmys = {
+  'AMTL_gryphons_NETEA': true,
+  'AMTL_knight_world_NETEA': true,
+  'AMTL_skitarii_NETEA': true,
+  'CHAOS_black_legion_NETEA': true,
+  'CHAOS_corsairs_NETEA': true,
+  'CHAOS_corsairs_playtestNETEA': true,
+  'CHAOS_damned_NETEA': true,
+  'CHAOS_ec_NETEA': true,
+  'CHAOS_emperors_children_NETEA': true,
+  'CHAOS_iron_warriors_NETEA': true,
+  'CHAOS_ironwarriors_NETEA': true,
+  'CHAOS_latd_redux_NetEA': true,
+  'CHAOS_legion_NETEA': true,
+  'CHAOS_red_corsairs_NETEA': true,
+  'EL_dark_NETEA': true,
+  'IG_krieg_NETEA': true,
+  'IG_minervan_NETEA': true,
+  'IG_siege_NETEA': true,
+  'IG_steelLegion_NETEA': true,
+  'INQ_ordo_xenos_NETEA': true,
+  'ORK_feral_NETEA': true,
+  'ORK_gargant_NETEA': true,
+  'ORK_ghazgkhull_NETEA': true,
+  'ORK_kult_NETEA': true,
+  'SM_Raven_Guard_NETEA': true,
+  'SM_codex_NETEA': true,
+  'SM_impfists_NETEA': true,
+  'SM_salamanders_NETEA': true,
+  'SM_scars_NETEA': true,
+  'SM_scions_NETEA': true,
+  'SM_spacewolves_NETEA': true,
+  'XENOS_necron_NETEA': true,
+  'XENOS_nids_NETEA': true,
+  'XENOS_squats_NETEA': true,
+  'XENOS_tau_NETEA': true,
+  'XENOS_tau_Viorla_NETEA': true,
+  'XENOS_tau_developmental_NETEA': true
+};
+document.querySelectorAll('.list a').forEach(function(link) {
+  var match = link.href.match(/[?&]list=([^&]+)/);
+  if (match && supportedStatArmys[match[1]]) {
+    link.classList.add('hasStats');
+  }
+});
 </script>
 </body>
 </html>

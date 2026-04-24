@@ -83,6 +83,10 @@ img.icon {
 	text-decoration:none;
 	color:black;
 }
+.list a.hasStats,
+.list a.hasStats:hover {
+	color:#b00000;
+}
 .list a span {
 	text-align:center;
 	float:left;
