@@ -194,6 +194,59 @@ body.printV2Mode #printV2Div {
 	break-after:page;
 	height:0;
 }
+.printV2RulesAppendix {
+	page-break-before:always;
+	break-before:page;
+	font-size:0.82em;
+}
+.printV2AppendixTitle {
+	font-size:1.05em;
+	font-weight:bold;
+	margin-bottom:0.35em;
+	padding-bottom:0.15em;
+	border-bottom:1px solid #000;
+}
+.printV2RulesSection {
+	margin-bottom:0.8em;
+}
+.printV2RulesSectionTitle {
+	font-size:0.95em;
+	font-weight:bold;
+	margin-bottom:0.25em;
+}
+.printV2RulesEmpty {
+	border:1px solid #000;
+	padding:0.25em 0.35em;
+}
+.printV2RuleCard {
+	border:1px solid #000;
+	margin-bottom:0.35em;
+	padding:0.25em 0.35em;
+	background:transparent;
+	page-break-inside:avoid;
+	break-inside:avoid;
+}
+.printV2RuleHead {
+	display:flex;
+	justify-content:space-between;
+	gap:0.5em;
+	border-bottom:1px solid #000;
+	padding-bottom:0.12em;
+	margin-bottom:0.18em;
+}
+.printV2RuleName {
+	font-weight:bold;
+}
+.printV2RuleSource {
+	font-size:0.75em;
+	white-space:nowrap;
+}
+.printV2RuleBody p {
+	margin:0 0 0.18em 0;
+}
+.printV2RuleBody p:last-child {
+	margin-bottom:0;
+}
 .printV2Profiles {
 	overflow:hidden;
 }
@@ -333,6 +386,19 @@ div.dropDown .listDiv table td {
 	}
 	body.printV2Mode .printV2Profiles .profileCard {
 		border:1px solid #000;
+	}
+	body.printV2Mode .printV2RulesAppendix,
+	body.printV2Mode .printV2RuleCard,
+	body.printV2Mode .printV2RulesEmpty {
+		background:transparent !important;
+		color:#000 !important;
+	}
+	body.printV2Mode .printV2RulesAppendix,
+	body.printV2Mode .printV2RuleCard {
+		border-color:#000;
+	}
+	body.printV2Mode .printV2RuleBody p {
+		margin:0 0 0.18em 0;
 	}
 	body.printV2Mode .printV2Profiles .profileSubheading {
 		margin-top:0.15em;

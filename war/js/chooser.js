@@ -28,6 +28,11 @@ Array.prototype.empty = function() {
 
 var ArmyforgeUI = {
 	urlData:{},
+	printV2Data:{
+		loaded:false,
+		globalRules:null,
+		armyRules:null
+	},
 	activate:function(id) {
 		var msgDiv = $('menuItemMsg' + id);
 		msgDiv.hide();	
@@ -394,12 +399,38 @@ var ArmyforgeUI = {
 		return tokens;
 	},
 
+	specialTitanProfileNameForFormation:function(formation) {
+		if (!formation || !formation.type || !formation.type.name) {
+			return null;
+		}
+		if (ArmyforgeUI.normalizeUnitToken(formation.type.name) != 'Emperor Titan') {
+			return null;
+		}
+		var selectedProfile = null;
+		formation.upgrades.uniq().each(function(u) {
+			var normalizedUpgrade = ArmyforgeUI.normalizeUnitToken(u.name);
+			if (!selectedProfile && normalizedUpgrade == 'Warmonger Configuration') {
+				selectedProfile = 'Warmonger Class Titan';
+			}
+			else if (!selectedProfile && normalizedUpgrade == 'Imperator Configuration') {
+				selectedProfile = 'Imperator Class Titan';
+			}
+		});
+		return selectedProfile;
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
 		var profiles = [];
 
-		candidates.push(formation.type.name);
+		var specialTitanProfileName = ArmyforgeUI.specialTitanProfileNameForFormation(formation);
+		if (specialTitanProfileName) {
+			candidates.push(specialTitanProfileName);
+		}
+		else {
+			candidates.push(formation.type.name);
+		}
 		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
 		formation.upgrades.uniq().each(function(u) {
 			candidates.push(u.name);
@@ -833,6 +864,25 @@ var ArmyforgeUI = {
 		$('printV2Div').show();
 	},
 
+	restoreAfterPrintV2:function(afterPrintHandler) {
+		if (ArmyforgeUI.printV2Restored) {
+			return;
+		}
+		ArmyforgeUI.printV2Restored = true;
+		if (afterPrintHandler) {
+			if (window.removeEventListener) {
+				window.removeEventListener('afterprint', afterPrintHandler, false);
+			}
+			else if (window.detachEvent) {
+				window.detachEvent('onafterprint', afterPrintHandler);
+			}
+			else if (window.onafterprint == afterPrintHandler) {
+				window.onafterprint = null;
+			}
+		}
+		ArmyforgeUI.viewTable();
+	},
+
 	printV2FormationCompositionText:function(formation) {
 		var parts = [];
 		if (formation.type.units) {
@@ -888,10 +938,281 @@ var ArmyforgeUI = {
 		return profiles;
 	},
 
+	printV2NormalizeText:function(text) {
+		if (!text) {
+			return '';
+		}
+		return String(text).toLowerCase()
+			.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+			.replace(/[’']/g, '')
+			.replace(/[^a-z0-9]+/g, ' ')
+			.replace(/\s+/g, ' ')
+			.strip();
+	},
+
+	printV2LoadJson:function(url) {
+		var responseText = null;
+		new Ajax.Request(url, {
+			method:'get',
+			asynchronous:false,
+			onSuccess:function(response) {
+				responseText = response.responseText;
+			}
+		});
+		return responseText ? JSON.parse(responseText) : null;
+	},
+
+	printV2LoadData:function() {
+		if (ArmyforgeUI.printV2Data.loaded) {
+			return;
+		}
+		ArmyforgeUI.printV2Data.globalRules = ArmyforgeUI.printV2LoadJson('./source-json/tournament-pack-global-rules.json');
+		ArmyforgeUI.printV2Data.armyRules = ArmyforgeUI.printV2LoadJson('./source-json/tournament-pack-army-rules.json');
+		ArmyforgeUI.printV2Data.loaded = true;
+	},
+
+	printV2FamilyRuleKeysForListId:function(listId) {
+		var keys = [];
+		if (!listId) {
+			return keys;
+		}
+		if (/^EL_dark_/i.test(listId)) {
+			keys.push('dark_eldar_forces');
+		}
+		else if (/^EL_/.test(listId)) {
+			keys.push('eldar_forces');
+		}
+		else if (/^XENOS_tau_/i.test(listId)) {
+			keys.push('tau_forces');
+		}
+		else if (/^XENOS_nids_/i.test(listId) || /^XENOS_Nidtitan_/i.test(listId) || /^XENOS_hivefleetbehemoth_/i.test(listId)) {
+			keys.push('tyranid_forces');
+		}
+		else if (/^XENOS_necron_/i.test(listId) || /^XENOS_sautekh_/i.test(listId)) {
+			keys.push('necron_forces');
+		}
+		else if (/^XENOS_squats_/i.test(listId) || /^SQ_/i.test(listId)) {
+			keys.push('squat_forces');
+		}
+		else if (/^SM_/i.test(listId)) {
+			keys.push('space_marine_forces');
+		}
+		else if (/^ORK_/i.test(listId)) {
+			keys.push('ork_forces');
+		}
+		else if (/^CHAOS_legion_/i.test(listId)) {
+			keys.push('black_legion_forces');
+		}
+		return keys;
+	},
+
+	printV2ArmyRulesForCurrentList:function() {
+		var allRules = (ArmyforgeUI.printV2Data && ArmyforgeUI.printV2Data.armyRules && ArmyforgeUI.printV2Data.armyRules.army_rules) ? ArmyforgeUI.printV2Data.armyRules.army_rules : [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		var title = ArmyList && ArmyList.data ? ArmyList.data.id : '';
+		var normalizedTitle = ArmyforgeUI.printV2NormalizeText(title);
+		var wantedKeys = {};
+		ArmyforgeUI.printV2FamilyRuleKeysForListId(listId).each(function(key) {
+			wantedKeys[key] = true;
+		});
+		allRules.each(function(rule) {
+			var normalizedKey = ArmyforgeUI.printV2NormalizeText(rule.army_key);
+			var normalizedName = ArmyforgeUI.printV2NormalizeText(rule.army_name);
+			if (normalizedTitle && (normalizedKey.indexOf(normalizedTitle) !== -1 || normalizedName.indexOf(normalizedTitle) !== -1 || normalizedTitle.indexOf(normalizedKey) !== -1 || normalizedTitle.indexOf(normalizedName) !== -1)) {
+				wantedKeys[rule.army_key] = true;
+			}
+		});
+		var seen = {};
+		var selected = [];
+		allRules.each(function(rule) {
+			if (wantedKeys[rule.army_key] && !seen[rule.army_key + '|' + rule.rule_name + '|' + rule.source_section]) {
+				seen[rule.army_key + '|' + rule.rule_name + '|' + rule.source_section] = true;
+				selected.push(rule);
+			}
+		});
+		return selected;
+	},
+
+	printV2RuleTextBlocksFromText:function(text) {
+		return String(text || '').split(/\n\s*\n/).collect(function(block) {
+			return ArmyforgeUI.printV2NormalizeText(block) ? block.strip() : '';
+		}).findAll(function(block) {
+			return !!block;
+		});
+	},
+
+	printV2RuleMatchesProfileText:function(rule, text) {
+		var haystack = ' ' + ArmyforgeUI.printV2NormalizeText(text) + ' ';
+		if (!haystack.strip()) {
+			return false;
+		}
+		var candidates = [];
+		if (rule.name) {
+			candidates.push(rule.name);
+		}
+		if (rule.aliases) {
+			candidates = candidates.concat(rule.aliases);
+		}
+		var extraAliases = {
+			'characters': ['Character'],
+			'commanders': ['Commander'],
+			'fearless': ['Fearless'],
+			'infiltrators': ['Infiltrator'],
+			'inspiring': ['Inspiring'],
+			'invulnerable_saves': ['Invulnerable Save'],
+			'jump_packs': ['Jump Packs'],
+			'leaders': ['Leader'],
+			'light_vehicles': ['Light Vehicle'],
+			'mounted': ['Mounted'],
+			'reinforced_armour': ['Reinforced Armour'],
+			'scouts': ['Scout'],
+			'skimmers': ['Skimmer'],
+			'sniper': ['Sniper'],
+			'supreme_commanders': ['Supreme Commander'],
+			'thick_rear_armour': ['Thick Rear Armour'],
+			'teleport': ['Teleport'],
+			'walkers': ['Walker'],
+			'slow_and_steady': ['Slow and Steady'],
+			'support_craft': ['Support Craft'],
+			'self_planetfall': ['Planetfall', 'Self Planetfall'],
+			'expendable': ['Expendable'],
+			'tunneler': ['Tunneler'],
+			'self_reliant': ['Self-Reliant', 'Self Reliant'],
+			'anti_aircraft_weapons': ['AA', 'Anti-aircraft Weapons'],
+			'disrupt': ['Disrupt'],
+			'extra_attacks': ['EA', 'Extra Attacks'],
+			'first_strike': ['FS', 'First Strike'],
+			'ignore_cover': ['IC', 'Ignore Cover'],
+			'macro_weapons': ['MW', 'Macro-Weapons'],
+			'single_shot': ['Single Shot'],
+			'slow_firing': ['Slw', 'Slow Firing'],
+			'titan_killers': ['TK', 'Titan Killers'],
+			'indirect_fire': ['Ind', 'Indirect Fire'],
+			'imperial_void_shields': ['Void Shield', 'Void Shields']
+		};
+		if (rule.id && extraAliases[rule.id]) {
+			candidates = candidates.concat(extraAliases[rule.id]);
+		}
+		var tokenSet = {};
+		haystack.strip().split(' ').each(function(token) {
+			if (token) {
+				tokenSet[token] = true;
+			}
+		});
+		var matched = false;
+		candidates.each(function(candidate) {
+			if (matched || !candidate) {
+				return;
+			}
+			var needle = ArmyforgeUI.printV2NormalizeText(candidate);
+			if (!needle) {
+				return;
+			}
+			if (needle.length <= 3) {
+				if (tokenSet[needle]) {
+					matched = true;
+				}
+			}
+			else if (haystack.indexOf(' ' + needle + ' ') !== -1 || haystack.indexOf(needle) !== -1) {
+				matched = true;
+			}
+		});
+		return matched;
+	},
+
+	printV2UsedGlobalRules:function(profiles) {
+		var rules = (ArmyforgeUI.printV2Data && ArmyforgeUI.printV2Data.globalRules && ArmyforgeUI.printV2Data.globalRules.rules) ? ArmyforgeUI.printV2Data.globalRules.rules : [];
+		var matched = [];
+		var seen = {};
+		profiles.each(function(profile) {
+			var textBits = [];
+			if (profile.abilities) {
+				textBits = textBits.concat(profile.abilities);
+			}
+			if (profile.weapons) {
+				profile.weapons.each(function(weapon) {
+					textBits.push(weapon.name);
+					textBits.push(weapon.range);
+					textBits.push(weapon.firepower);
+					if (weapon.notes) {
+						textBits = textBits.concat(weapon.notes);
+					}
+				});
+			}
+			var text = textBits.join(' | ');
+			rules.each(function(rule) {
+				if (!seen[rule.id] && ArmyforgeUI.printV2RuleMatchesProfileText(rule, text)) {
+					seen[rule.id] = true;
+					matched.push(rule);
+				}
+			});
+		});
+		return matched;
+	},
+
+	printV2RenderRuleBlocks:function(blocks) {
+		var wrap = new Element('div', {'class':'printV2RuleBody'});
+		blocks.each(function(block) {
+			wrap.insert(new Element('p').update(block));
+		});
+		return wrap;
+	},
+
+	printV2RenderRuleCard:function(rule, bodyBlocks) {
+		var card = new Element('div', {'class':'printV2RuleCard'});
+		var head = new Element('div', {'class':'printV2RuleHead'});
+		head.insert(new Element('div', {'class':'printV2RuleName'}).update(rule.name));
+		if (rule.source_section) {
+			head.insert(new Element('div', {'class':'printV2RuleSource'}).update(rule.source_section));
+		}
+		card.insert(head);
+		card.insert(ArmyforgeUI.printV2RenderRuleBlocks(bodyBlocks));
+		return card;
+	},
+
+	printV2RenderRulesSection:function(title, rules, bodyBlocksGetter) {
+		var section = new Element('div', {'class':'printV2RulesSection'});
+		section.insert(new Element('div', {'class':'printV2RulesSectionTitle'}).update(title));
+		if (!rules || rules.length < 1) {
+			section.insert(new Element('div', {'class':'printV2RulesEmpty'}).update('None'));
+			return section;
+		}
+		rules.each(function(rule) {
+			section.insert(ArmyforgeUI.printV2RenderRuleCard(rule, bodyBlocksGetter(rule)));
+		});
+		return section;
+	},
+
+	renderPrintV2RulesAppendix:function(profiles) {
+		var appendix = new Element('div', {'class':'printV2RulesAppendix'});
+		appendix.insert(new Element('div', {'class':'printV2AppendixTitle'}).update('Rules appendix'));
+		var armyRules = ArmyforgeUI.printV2ArmyRulesForCurrentList();
+		var usedGlobalRules = ArmyforgeUI.printV2UsedGlobalRules(profiles);
+		appendix.insert(ArmyforgeUI.printV2RenderRulesSection('Army-specific rules', armyRules, function(rule) {
+			return rule.text_blocks || [];
+		}));
+		appendix.insert(ArmyforgeUI.printV2RenderRulesSection('Used unit/global rules', usedGlobalRules, function(rule) {
+			return ArmyforgeUI.printV2RuleTextBlocksFromText(rule.text);
+		}));
+		return appendix;
+	},
+
+	printV2TitleText:function() {
+		var armyName = $('orbatName') ? $('orbatName').innerHTML.strip() : '';
+		var listName = $('orbatListName') ? $('orbatListName').innerHTML.strip() : '';
+		if (armyName && armyName != '...click to edit name...') {
+			return armyName.unescapeHTML();
+		}
+		if (listName) {
+			return listName.unescapeHTML();
+		}
+		return Force.name;
+	},
+
 	renderPrintV2:function() {
 		var container = new Element('div', {'class':'printV2Sheet'});
 		var header = new Element('div', {'class':'printV2Header'});
-		header.insert(new Element('div', {'class':'printV2Title'}).update(Force.name));
+		header.insert(new Element('div', {'class':'printV2Title'}).update(ArmyforgeUI.printV2TitleText()));
 		header.insert(new Element('div', {'class':'printV2Meta'}).update(Force.calcPoints() + ' points'));
 		container.insert(header);
 		container.insert(ArmyforgeUI.printV2SummaryTable());
@@ -908,6 +1229,8 @@ var ArmyforgeUI = {
 			});
 		}
 		container.insert(profilesWrap);
+		container.insert(new Element('div', {'class':'printV2PageBreak'}));
+		container.insert(ArmyforgeUI.renderPrintV2RulesAppendix(profiles));
 		return container;
 	},
 
@@ -916,10 +1239,24 @@ var ArmyforgeUI = {
 			Event.stop(event);
 		}
 		ArmyforgeUI.resetViews();
+		ArmyforgeUI.printV2LoadData();
 		$('printV2Div').update(ArmyforgeUI.renderPrintV2());
+		ArmyforgeUI.printV2Restored = false;
+		var afterPrintHandler = function() {
+			ArmyforgeUI.restoreAfterPrintV2(afterPrintHandler);
+		};
+		if (window.addEventListener) {
+			window.addEventListener('afterprint', afterPrintHandler, false);
+		}
+		else if (window.attachEvent) {
+			window.attachEvent('onafterprint', afterPrintHandler);
+		}
+		else {
+			window.onafterprint = afterPrintHandler;
+		}
 		ArmyforgeUI.enterPrintV2Mode();
 		window.print();
-		ArmyforgeUI.exitPrintV2Mode();
+		setTimeout(afterPrintHandler, 0);
 	},
 
 	toggleFormationDetails:function(formation, forceToggle) {
