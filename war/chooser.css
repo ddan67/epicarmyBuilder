@@ -185,9 +185,29 @@ body.printV2Mode #printV2Div {
 	text-align:left;
 	background:transparent;
 }
+.printV2Summary .printV2SummaryTotal td {
+	font-weight:bold;
+	border-top:2px solid #777;
+	border-bottom:0;
+	background:#f5f5f5;
+}
 .printV2Points {
 	text-align:right;
 	white-space:nowrap;
+}
+.printV2ArmySummary {
+	margin:0.45em 0 0;
+	padding:0.4em 0.55em;
+	border:1px solid #c7c7c7;
+	background:#f8f8f8;
+	font-size:0.8em;
+	line-height:1.3;
+	color:#111;
+	-webkit-print-color-adjust:exact;
+	print-color-adjust:exact;
+}
+.printV2ArmySummary p {
+	margin:0;
 }
 .printV2PageBreak {
 	page-break-after:always;
@@ -248,33 +268,140 @@ body.printV2Mode #printV2Div {
 	margin-bottom:0;
 }
 .printV2Profiles {
-	overflow:hidden;
+	font-size:10px;
+	line-height:1.25;
+	column-count:2;
+	column-gap:4mm;
 }
 .printV2Profiles .profileCard {
-	width:48%;
-	float:left;
-	margin:0 2% 0.45em 0;
+	display:inline-block;
+	width:100%;
+	margin:0 0 3mm 0;
 	box-sizing:border-box;
 	page-break-inside:avoid;
 	break-inside:avoid;
-	border:1px solid #000;
-	background:transparent;
+	border:1px solid #8c8c8c;
+	background:#fff;
+	border-radius:2px;
+	overflow:hidden;
+	-webkit-print-color-adjust:exact;
+	print-color-adjust:exact;
 }
-.printV2Profiles .profileCard:nth-child(2n) {
-	margin-right:0;
-}
-.printV2Profiles .profileName {
-	font-size:0.95em;
+.printV2Profiles .profileCardHeader {
+	background:#f5f5f5;
+	color:#000;
+	font-size:1.05em;
 	font-weight:bold;
-	color:#000;
+	letter-spacing:0.02em;
+	padding:0.45em 0.6em;
+	border-bottom:1px solid #bdbdbd;
 }
-.printV2Profiles .profileStats,
-.printV2Profiles .profileSubheading {
-	font-size:0.8em;
-	color:#000;
+.printV2Profiles .profileStatsGrid {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+	border-bottom:1px solid #d0d0d0;
+	background:#f1f1f1;
 }
-.printV2Profiles ul {
-	font-size:0.75em;
+.printV2Profiles .profileStatItem {
+	display:table-cell;
+	padding:0.35em 0.2em 0.4em;
+	text-align:center;
+	border-right:1px solid #d0d0d0;
+}
+.printV2Profiles .profileStatItem:last-child {
+	border-right:0;
+}
+.printV2Profiles .profileStatLabel {
+	font-size:0.68em;
+	font-weight:bold;
+	letter-spacing:0.04em;
+	text-transform:uppercase;
+	color:#555;
+}
+.printV2Profiles .profileStatValue {
+	font-size:0.92em;
+	font-weight:bold;
+	color:#111;
+}
+.printV2Profiles .profileSection {
+	margin:0.45em 0.45em 0.4em;
+	border:1px solid #d3d3d3;
+	background:#f7f7f7;
+	page-break-inside:avoid;
+	break-inside:avoid;
+}
+.printV2Profiles .profileSectionTitle {
+	padding:0.22em 0.45em;
+	border-bottom:1px solid #d3d3d3;
+	background:#e6e6e6;
+	font-size:0.72em;
+	font-weight:bold;
+	letter-spacing:0.05em;
+	text-transform:uppercase;
+	color:#333;
+}
+.printV2Profiles .profileWeaponsTable {
+	width:100%;
+	border-collapse:collapse;
+	table-layout:fixed;
+	font-size:0.76em;
+	background:#fff;
+}
+.printV2Profiles .profileWeaponsTable th,
+.printV2Profiles .profileWeaponsTable td {
+	padding:0.28em 0.42em;
+	border-bottom:1px solid #e0e0e0;
+	vertical-align:top;
+	text-align:left;
+}
+.printV2Profiles .profileWeaponsTable th {
+	background:#efefef;
+	font-size:0.88em;
+	font-weight:bold;
+	color:#333;
+}
+.printV2Profiles .profileWeaponsTable tbody tr:last-child td {
+	border-bottom:0;
+}
+.printV2Profiles .profileWeaponsTable th:nth-child(1),
+.printV2Profiles .profileWeaponsTable td:nth-child(1) {
+	width:46%;
+}
+.printV2Profiles .profileWeaponsTable th:nth-child(2),
+.printV2Profiles .profileWeaponsTable td:nth-child(2) {
+	width:22%;
+}
+.printV2Profiles .profileWeaponsTable th:nth-child(3),
+.printV2Profiles .profileWeaponsTable td:nth-child(3) {
+	width:32%;
+}
+.printV2Profiles .profileWeaponName {
+	font-weight:bold;
+	color:#111;
+}
+.printV2Profiles .profileWeaponNotes {
+	margin-top:0.15em;
+	font-size:0.92em;
+	font-weight:normal;
+	color:#555;
+}
+.printV2Profiles .profileCompactText {
+	padding:0.28em 0.45em 0.34em;
+	background:#fff;
+}
+.printV2Profiles .profileCompactText p {
+	margin:0 0 0.22em 0;
+	font-size:0.77em;
+	line-height:1.25;
+	text-indent:0;
+}
+.printV2Profiles .profileCompactText p:last-child {
+	margin-bottom:0;
+}
+.printV2Profiles .profileCompactEmpty {
+	font-style:italic;
+	color:#666;
 }
 #controls {
 	font-family:monospace;
@@ -376,16 +503,21 @@ div.dropDown .listDiv table td {
 	body.printV2Mode .printV2Header,
 	body.printV2Mode .printV2Summary th,
 	body.printV2Mode .printV2Summary td,
-	body.printV2Mode .printV2Profiles .profileCard {
-		background:transparent !important;
+	body.printV2Mode .printV2Profiles .profileCard,
+	body.printV2Mode .printV2ArmySummary {
 		color:#000 !important;
 	}
 	body.printV2Mode .printV2Profiles .profileCard {
 		break-inside:avoid;
 		page-break-inside:avoid;
 	}
-	body.printV2Mode .printV2Profiles .profileCard {
-		border:1px solid #000;
+	body.printV2Mode .printV2Profiles .profileCard,
+	body.printV2Mode .printV2Profiles .profileSection,
+	body.printV2Mode .printV2Profiles .profileWeaponsTable,
+	body.printV2Mode .printV2Profiles .profileWeaponsTable th,
+	body.printV2Mode .printV2Profiles .profileWeaponsTable td {
+		-webkit-print-color-adjust:exact;
+		print-color-adjust:exact;
 	}
 	body.printV2Mode .printV2RulesAppendix,
 	body.printV2Mode .printV2RuleCard,
@@ -400,11 +532,32 @@ div.dropDown .listDiv table td {
 	body.printV2Mode .printV2RuleBody p {
 		margin:0 0 0.18em 0;
 	}
-	body.printV2Mode .printV2Profiles .profileSubheading {
-		margin-top:0.15em;
+	body.printV2Mode .printV2Summary .printV2SummaryTotal td {
+		background:#f5f5f5 !important;
+		border-top-color:#777 !important;
 	}
-	body.printV2Mode .printV2Profiles ul {
-		margin:0.1em 0 0.2em 1.1em;
+	body.printV2Mode .printV2ArmySummary {
+		background:#f8f8f8 !important;
+		border-color:#c7c7c7 !important;
+	}
+	body.printV2Mode .printV2Profiles .profileCardHeader {
+		background:#f5f5f5 !important;
+		color:#000 !important;
+	}
+	body.printV2Mode .printV2Profiles .profileStatsGrid {
+		background:#f1f1f1 !important;
+	}
+	body.printV2Mode .printV2Profiles .profileSection {
+		background:#f7f7f7 !important;
+		border-color:#cfcfcf !important;
+	}
+	body.printV2Mode .printV2Profiles .profileSectionTitle,
+	body.printV2Mode .printV2Profiles .profileWeaponsTable th {
+		background:#e6e6e6 !important;
+	}
+	body.printV2Mode .printV2Profiles .profileCompactText,
+	body.printV2Mode .printV2Profiles .profileWeaponsTable {
+		background:#fff !important;
 	}
 	#orbat {
 		width:100%;

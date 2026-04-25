@@ -419,10 +419,156 @@ var ArmyforgeUI = {
 		return selectedProfile;
 	},
 
+	cloneProfileForDisplay:function(profile) {
+		return {
+			name:profile.name,
+			type:profile.type,
+			speed:profile.speed,
+			armour:profile.armour,
+			cc:profile.cc,
+			ff:profile.ff,
+			weapons:(profile.weapons || []).collect(function(weapon) {
+				return {
+					name:weapon.name,
+					range:weapon.range,
+					firepower:weapon.firepower,
+					notes:(weapon.notes || []).slice()
+				};
+			}),
+			abilities:(profile.abilities || []).slice()
+		};
+	},
+
+	profileSignature:function(profile) {
+		return [
+			profile.name,
+			profile.type,
+			profile.speed,
+			profile.armour,
+			profile.cc,
+			profile.ff,
+			(profile.weapons || []).collect(function(weapon) {
+				return [
+					weapon.name,
+					weapon.range,
+					weapon.firepower,
+					(weapon.notes || []).join(',')
+				].join('~');
+			}).join('|'),
+			(profile.abilities || []).join('|')
+		].join('||');
+	},
+
+	gargantWeaponUpgradeConstraintsForFormation:function(formation) {
+		if (!formation || !formation.type || !formation.type.upgradeConstraints) {
+			return [];
+		}
+		return formation.type.upgradeConstraints.findAll(function(constraint) {
+			return /weapon/i.test(constraint.name || '');
+		});
+	},
+
+	gargantWeaponMergeForFormation:function(formation) {
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'ORK_gargant_NETEA' || !formation) {
+			return null;
+		}
+
+		var constraints = ArmyforgeUI.gargantWeaponUpgradeConstraintsForFormation(formation);
+		if (!constraints.length) {
+			return null;
+		}
+
+		var baseProfile = ArmyforgeUI.findUnitProfileByName(formation.type.name);
+		if (!baseProfile || baseProfile.type != 'WE') {
+			return null;
+		}
+
+		var allowedUpgradeIds = {};
+		var optionProfiles = [];
+		var selectedProfiles = [];
+		var mergedUpgradeNames = {};
+		var missingProfileNames = [];
+
+		constraints.each(function(constraint) {
+			constraint.from.each(function(upgradeType) {
+				allowedUpgradeIds[upgradeType.id] = true;
+				var optionProfile = ArmyforgeUI.findUnitProfileByName(upgradeType.name);
+				if (optionProfile) {
+					optionProfiles.push(optionProfile);
+				}
+				else if (!missingProfileNames.include(upgradeType.name)) {
+					missingProfileNames.push(upgradeType.name);
+				}
+			});
+		});
+
+		formation.upgrades.each(function(upgradeType) {
+			if (!allowedUpgradeIds[upgradeType.id]) {
+				return;
+			}
+			mergedUpgradeNames[upgradeType.name] = true;
+			var selectedProfile = ArmyforgeUI.findUnitProfileByName(upgradeType.name);
+			if (selectedProfile) {
+				selectedProfiles.push(selectedProfile);
+			}
+			else if (!missingProfileNames.include(upgradeType.name)) {
+				missingProfileNames.push(upgradeType.name);
+			}
+		});
+
+		if (!selectedProfiles.length) {
+			return null;
+		}
+
+		if (missingProfileNames.length) {
+			console.log('Missing Gargant weapon profiles for ' + formation.type.name + ': ' + missingProfileNames.join(', '));
+		}
+
+		var replaceableWeaponNames = {};
+		optionProfiles.each(function(profile) {
+			(profile.weapons || []).each(function(weapon) {
+				replaceableWeaponNames[weapon.name] = true;
+			});
+		});
+
+		var mergedProfile = ArmyforgeUI.cloneProfileForDisplay(baseProfile);
+		mergedProfile.weapons = (mergedProfile.weapons || []).findAll(function(weapon) {
+			return !replaceableWeaponNames[weapon.name];
+		});
+
+		selectedProfiles.each(function(profile) {
+			(profile.weapons || []).each(function(weapon) {
+				mergedProfile.weapons.push({
+					name:weapon.name,
+					range:weapon.range,
+					firepower:weapon.firepower,
+					notes:(weapon.notes || []).slice()
+				});
+			});
+			(profile.abilities || []).each(function(ability) {
+				if (!mergedProfile.abilities.include(ability)) {
+					mergedProfile.abilities.push(ability);
+				}
+			});
+		});
+
+		return {
+			profile:mergedProfile,
+			mergedUpgradeNames:mergedUpgradeNames
+		};
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
 		var profiles = [];
+		var gargantWeaponMerge = ArmyforgeUI.gargantWeaponMergeForFormation(formation);
+
+		if (gargantWeaponMerge) {
+			seen[gargantWeaponMerge.profile.name] = true;
+			profiles.push(gargantWeaponMerge.profile);
+		}
 
 		var specialTitanProfileName = ArmyforgeUI.specialTitanProfileNameForFormation(formation);
 		if (specialTitanProfileName) {
@@ -433,6 +579,9 @@ var ArmyforgeUI = {
 		}
 		candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(formation.type.units));
 		formation.upgrades.uniq().each(function(u) {
+			if (gargantWeaponMerge && gargantWeaponMerge.mergedUpgradeNames[u.name]) {
+				return;
+			}
 			candidates.push(u.name);
 			candidates = candidates.concat(ArmyforgeUI.unitTokensFromText(u.name));
 		});
@@ -469,6 +618,74 @@ var ArmyforgeUI = {
 		});
 		card.insert(new Element('div', {'class':'profileSubheading'}).update('Abilities / Notes'));
 		card.insert(abilities);
+
+		return card;
+	},
+
+	createPrintV2ProfileCard:function(profile) {
+		var card = new Element('div', {'class':'profileCard profileCardPrint'});
+		card.insert(new Element('div', {'class':'profileCardHeader'}).update(profile.name));
+
+		var stats = new Element('div', {'class':'profileStatsGrid'});
+		[
+			['Type', profile.type],
+			['Speed', profile.speed],
+			['Armour', profile.armour],
+			['CC', profile.cc],
+			['FF', profile.ff]
+		].each(function(stat) {
+			var item = new Element('div', {'class':'profileStatItem'});
+			item.insert(new Element('div', {'class':'profileStatLabel'}).update(stat[0]));
+			item.insert(new Element('div', {'class':'profileStatValue'}).update(stat[1]));
+			stats.insert(item);
+		});
+		card.insert(stats);
+
+		var weaponsSection = new Element('div', {'class':'profileSection'});
+		weaponsSection.insert(new Element('div', {'class':'profileSectionTitle'}).update('Weapons'));
+		if (profile.weapons && profile.weapons.length) {
+			var weaponsTable = new Element('table', {'class':'profileWeaponsTable'});
+			weaponsTable.insert(
+				new Element('thead').insert(
+					new Element('tr')
+						.insert(new Element('th').update('Weapon'))
+						.insert(new Element('th').update('Range'))
+						.insert(new Element('th').update('Firepower'))
+				)
+			);
+			var weaponsBody = new Element('tbody');
+			profile.weapons.each(function(w) {
+				var row = new Element('tr');
+				var weaponCell = new Element('td', {'class':'profileWeaponName'}).update(w.name);
+				if (w.notes && w.notes.length) {
+					weaponCell.insert(new Element('div', {'class':'profileWeaponNotes'}).update(w.notes.join('; ')));
+				}
+				row.insert(weaponCell);
+				row.insert(new Element('td', {'class':'profileWeaponRange'}).update(w.range || '-'));
+				row.insert(new Element('td', {'class':'profileWeaponFirepower'}).update(w.firepower || '-'));
+				weaponsBody.insert(row);
+			});
+			weaponsTable.insert(weaponsBody);
+			weaponsSection.insert(weaponsTable);
+		}
+		else {
+			weaponsSection.insert(new Element('div', {'class':'profileCompactText profileCompactEmpty'}).update('None'));
+		}
+		card.insert(weaponsSection);
+
+		var abilitiesSection = new Element('div', {'class':'profileSection'});
+		abilitiesSection.insert(new Element('div', {'class':'profileSectionTitle'}).update('Abilities / Notes'));
+		if (profile.abilities && profile.abilities.length) {
+			var abilityBody = new Element('div', {'class':'profileCompactText'});
+			profile.abilities.each(function(a) {
+				abilityBody.insert(new Element('p').update(a));
+			});
+			abilitiesSection.insert(abilityBody);
+		}
+		else {
+			abilitiesSection.insert(new Element('div', {'class':'profileCompactText profileCompactEmpty'}).update('None'));
+		}
+		card.insert(abilitiesSection);
 
 		return card;
 	},
@@ -920,17 +1137,24 @@ var ArmyforgeUI = {
 		Force.formations.each(function(formation) {
 			body.insert(ArmyforgeUI.printV2SummaryRow(formation));
 		});
+		body.insert(
+			new Element('tr', {'class':'printV2SummaryTotal'})
+				.insert(new Element('td').update('Total'))
+				.insert(new Element('td', {'class':'printV2Points'}).update(Force.calcPoints()))
+				.insert(new Element('td').update(''))
+		);
 		table.insert(body);
 		return table;
 	},
 
 	printV2Profiles:function() {
 		var profiles = [];
-		var seen = [];
+		var seen = {};
 		Force.formations.each(function(formation) {
 			ArmyforgeUI.uniqueProfilesForFormation(formation).each(function(profile) {
-				if (profile && !seen.include(profile)) {
-					seen.push(profile);
+				var signature = profile ? ArmyforgeUI.profileSignature(profile) : null;
+				if (profile && !seen[signature]) {
+					seen[signature] = true;
 					profiles.push(profile);
 				}
 			});
@@ -968,7 +1192,178 @@ var ArmyforgeUI = {
 		}
 		ArmyforgeUI.printV2Data.globalRules = ArmyforgeUI.printV2LoadJson('./source-json/tournament-pack-global-rules.json');
 		ArmyforgeUI.printV2Data.armyRules = ArmyforgeUI.printV2LoadJson('./source-json/tournament-pack-army-rules.json');
+		ArmyforgeUI.printV2Data.armySources = [];
+		ArmyforgeUI.printV2ArmySourceFiles().each(function(fileName) {
+			var data = ArmyforgeUI.printV2LoadJson('./source-json/' + fileName);
+			if (data) {
+				ArmyforgeUI.printV2Data.armySources.push({
+					fileName:fileName,
+					data:data
+				});
+			}
+		});
 		ArmyforgeUI.printV2Data.loaded = true;
+	},
+
+	printV2ArmySourceFiles:function() {
+		return [
+			'adeptus-mechanicus-knight-world.json',
+			'adeptus-mechanicus-skitarii-legion.json',
+			'adeptus-mechanicus-titan-legion.json',
+			'blood-angels-v3.1-normalized-codex-style.json',
+			'chaos-cultist-slaves-to-darkness.json',
+			'chaos-cultist-stigmatus-covenant.json',
+			'chaos-space-marine-black-legion.json',
+			'chaos-space-marine-emperors-children.json',
+			'chaos-space-marine-iron-warriors.json',
+			'chaos-space-marine-red-corsairs.json',
+			'dark-eldar.json',
+			'eldar-alaitoc.json',
+			'eldar-biel-tan.json',
+			'eldar-iyanden.json',
+			'eldar-saim-hann.json',
+			'imperial-guard-baran-siegemasters.json',
+			'imperial-guard-death-korps-of-krieg.json',
+			'imperial-guard-minervan-tank-legion.json',
+			'imperial-guard-steel-legion.json',
+			'inquisition-ordo-xenos.json',
+			'necron.json',
+			'ork-feral-orks.json',
+			'ork-gargant-mob.json',
+			'ork-speed-freeks.json',
+			'ork-war-horde.json',
+			'space-marine-codex-astartes.json',
+			'space-marine-imperial-fists.json',
+			'space-marine-raven-guard.json',
+			'space-marine-salamanders.json',
+			'space-marine-scions-of-iron.json',
+			'space-marine-space-wolves.json',
+			'space-marine-white-scars.json',
+			'squat.json',
+			'tau.json',
+			'tyranid.json'
+		];
+	},
+
+	printV2ArmySourceLookupTokens:function(text) {
+		var stopWords = {
+			'nettea':true,
+			'epicuk':true,
+			'ferc':true,
+			'epicau':true,
+			'epicau':true,
+			'epic':true,
+			'approved':true,
+			'playtest':true,
+			'draft':true,
+			'test':true,
+			'developmental':true,
+			'json':true,
+			'list':true,
+			'amtl':true,
+			'chaos':true,
+			'inq':true,
+			'ork':true,
+			'xenos':true
+		};
+		var tokens = [];
+		ArmyforgeUI.printV2NormalizeText(text).split(' ').each(function(token) {
+			if (!token || token.length <= 2 || stopWords[token]) {
+				return;
+			}
+			tokens.push(token);
+			if (token.length > 3 && /s$/.test(token)) {
+				tokens.push(token.replace(/s$/, ''));
+			}
+		});
+		return tokens.uniq();
+	},
+
+	printV2CurrentArmySourceData:function() {
+		var sources = (ArmyforgeUI.printV2Data && ArmyforgeUI.printV2Data.armySources) ? ArmyforgeUI.printV2Data.armySources : [];
+		if (!sources.length) {
+			return null;
+		}
+		var title = ArmyList && ArmyList.data ? ArmyList.data.id : '';
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : '';
+		var titleNeedle = ArmyforgeUI.printV2NormalizeText(title);
+		var listTokens = ArmyforgeUI.printV2ArmySourceLookupTokens(listId);
+		var titleTokens = ArmyforgeUI.printV2ArmySourceLookupTokens(title);
+		var best = null;
+		var bestScore = -1;
+
+		sources.each(function(source) {
+			var metadata = source.data && source.data.metadata ? source.data.metadata : {};
+			var haystack = ArmyforgeUI.printV2NormalizeText([
+				metadata.army_name,
+				metadata.page_title,
+				metadata.source_url,
+				source.fileName
+			].join(' '));
+			var score = 0;
+
+			if (titleNeedle) {
+				if (haystack == titleNeedle) {
+					score += 300;
+				}
+				else if (haystack.indexOf(titleNeedle) !== -1 || titleNeedle.indexOf(haystack) !== -1) {
+					score += 120;
+				}
+			}
+
+			titleTokens.each(function(token) {
+				if (haystack.indexOf(token) !== -1) {
+					score += 18;
+				}
+			});
+			listTokens.each(function(token) {
+				if (haystack.indexOf(token) !== -1) {
+					score += 10;
+				}
+			});
+
+			if (score > bestScore) {
+				bestScore = score;
+				best = source.data;
+			}
+		});
+
+		return bestScore > 0 ? best : null;
+	},
+
+	printV2InitiativeScopeText:function(scope) {
+		var value = String(scope || '').strip();
+		if (!value) {
+			return 'These formations';
+		}
+		if (/\bformations?\b/i.test(value)) {
+			return value;
+		}
+		return value + ' formations';
+	},
+
+	printV2ArmySummaryText:function() {
+		var armyData = ArmyforgeUI.printV2CurrentArmySourceData();
+		var metadata = armyData && armyData.metadata ? armyData.metadata : null;
+		var stats = armyData && armyData.army_stats ? armyData.army_stats : null;
+		var initiative = stats && stats.initiative_rating ? stats.initiative_rating : null;
+		var entries = initiative && initiative.entries ? initiative.entries : null;
+
+		if (!metadata || !metadata.army_name || !stats || !stats.strategy_rating || !entries || !entries.length) {
+			return 'Army-level strategy and initiative data is not available for this list.';
+		}
+
+		var sentences = [metadata.army_name + ' armies have a strategy rating of ' + stats.strategy_rating + '.'];
+		entries.each(function(entry) {
+			sentences.push(ArmyforgeUI.printV2InitiativeScopeText(entry.scope) + ' have an initiative rating of ' + entry.value + '.');
+		});
+		return sentences.join(' ');
+	},
+
+	renderPrintV2ArmySummary:function() {
+		var box = new Element('div', {'class':'printV2ArmySummary'});
+		box.insert(new Element('p').update(ArmyforgeUI.printV2ArmySummaryText()));
+		return box;
 	},
 
 	printV2FamilyRuleKeysForListId:function(listId) {
@@ -1216,6 +1611,7 @@ var ArmyforgeUI = {
 		header.insert(new Element('div', {'class':'printV2Meta'}).update(Force.calcPoints() + ' points'));
 		container.insert(header);
 		container.insert(ArmyforgeUI.printV2SummaryTable());
+		container.insert(ArmyforgeUI.renderPrintV2ArmySummary());
 		container.insert(new Element('div', {'class':'printV2PageBreak'}));
 
 		var profiles = ArmyforgeUI.printV2Profiles();
@@ -1225,7 +1621,7 @@ var ArmyforgeUI = {
 		}
 		else {
 			profiles.each(function(profile) {
-				profilesWrap.insert(ArmyforgeUI.createProfileCard(profile));
+				profilesWrap.insert(ArmyforgeUI.createPrintV2ProfileCard(profile));
 			});
 		}
 		container.insert(profilesWrap);
