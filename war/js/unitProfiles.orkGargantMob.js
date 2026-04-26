@@ -40,13 +40,13 @@ ArmyforgeUnitProfiles.orkGargantMob = {
 		supa_zzap_gun: {name:'Supa-Zzap-Gun', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Supa-Zzap-Gun', range:'60cm', firepower:'MW3+', notes:['TK(D3)']}], abilities:[]},
 		twin_soopagun: {name:'Twin Soopagun', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Twin Soopagun', range:'60cm', firepower:'3BP', notes:['MW']}], abilities:[]},
 		ultra_lobba: {name:'Ultra-Lobba', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Ultra-Lobba', range:'60cm', firepower:'2D3+3BP', notes:[]}], abilities:[]},
-		big_gun_or_skorcha_head: {name:'Big Gun or Skorcha Head', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a Gargant head upgrade that swaps the head armament.']},
-		banna: {name:'Banna', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a Gargant command/banner upgrade.']},
-		eavy_armour: {name:'Eavy Armour', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for an armour upgrade that improves the Gargant chassis.']},
-		flak_gunz: {name:'Flak Gunz', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[{name:'Flak Gunz', range:'30cm', firepower:'D3+1x AA6+', notes:[]}], abilities:[]},
-		gork_or_mork_head: {name:'Gork or Mork Head', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a distinctive Gargant head upgrade.']},
-		kart: {name:'Kart', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a transport/kart upgrade option.']},
-		ordz_duruk: {name:'Ordz Duruk', type:'Kustom Upgrade', speed:'n/a', armour:'n/a', cc:'n/a', ff:'n/a', weapons:[], abilities:['Reference card for a named Gargant upgrade option.']}
+		big_gun_or_skorcha_head: {name:'Big Gun or Skorcha Head', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[{name:'0-1x Big Gun', range:'45cm', firepower:'AP5+/AT5+', notes:[]},{name:'0-1x Skorcha', range:'15cm', firepower:'AP4+', notes:['IC']},{name:'0-1x Skorcha', range:'(15cm)', firepower:'Small Arms', notes:['EA(+1)','IC']}], abilities:['Armed with either a Big Gun or Skorcha.']},
+		banna: {name:'Banna', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[], abilities:['Leader']},
+		eavy_armour: {name:'\'Eavy Armour', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[], abilities:['Increase the unit\'s starting damage capacity by D3.']},
+		flak_gunz: {name:'Flak Gunz', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[{name:'Flak Gunz', range:'30cm', firepower:'D3+1x AA6+', notes:[]}], abilities:[]},
+		gork_or_mork_head: {name:'Gork or Mork Head', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[], abilities:['The unit may add its current DC to the unit count of all Ork formations for the purposes of Mob Rule , so long as it has a line of fire to and is within 15cm of a single unit in the formation. If the unit is destroyed all Ork formations receive a Blast marker if a single unit in the formation is within 15cm of the unit and has a line of fire to it.']},
+		kart: {name:'Kart', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[], abilities:['For every point of starting damage capacity the unit may transport: two infantry units without Jump Packs or Mounted , light vehicle units, Killa Kans, or Dreadnoughts; plus one unit of Grotz. Light vehicles and Dreadnoughts count as two units each. A maximum of one unit of Big Gunz may be transported.']},
+		ordz_duruk: {name:'Ordz Duruk', type:'CH', speed:'n/a', armour:'n/a', cc:'n/a', ff:'-', weapons:[], abilities:['D3 Power Fields']}
 	},
 	nameToKey: {
 		'mekboy big boss':'mekboy_big_boss','big gunz':'big_gunz','boyz':'boyz','boyz grotz':'boyz','grotz':'grotz','nobz':'nobz',
