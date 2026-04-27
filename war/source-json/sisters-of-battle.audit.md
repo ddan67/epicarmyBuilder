@@ -1,0 +1,51 @@
+# Sisters of Battle Audit
+
+- Total formations found: 15
+- Total upgrades found: 10
+- Total profiles found: 31
+- Profiles with parse_confidence lower than high:
+  - None
+- Parse warnings:
+  - `Repentance`: normalized OCR typo in upgrade text from `Transpot` to `Transport`.
+  - `0-1 Inquisitorial Strike Force`: normalized OCR typo from `Assasins` to `Assassins`.
+  - `Lightning Squadron`: normalized formation name from OCR `Lighting Squadron` to `Lightning Squadron`.
+  - `Superior`: normalized OCR spelling from `Palantine` to `Palatine`.
+  - `Specialist`: normalized OCR typos from `Celestican` to `Celestian` and `ubits` to `units`.
+  - `Canoness`: normalized `Invunderable save` to `Invulnerable Save`.
+  - `Palatine`: normalized `Invunerable Save` to `Invulnerable Save`.
+  - `Priest`: normalized `Invunerable Save` to `Invulnerable Save`.
+  - `Inquisitor`: normalized `Invunerable Save` to `Invulnerable Save`.
+  - `Living Saint`: normalized OCR spellings affecting `Invulnerable Save` and `Jump Pack`.
+  - `Battle Sister`: source row clearly aligns to `Heavy Flamers`; preserved as printed.
+  - `Celestian Sister`: preserved separate close-range Small Arms line from `and (15cm) Small Arms, Macro Weapon`.
+  - `Retributor Sister`: preserved separate close-range Small Arms line from `and (15cm) Small Arms, Ignore Cover`.
+  - `Seraphim Sister`: normalized `Jum Pack` to `Jump Pack`.
+  - `Inq Veteran Warrior Acolyte`: profile name reconstructed from split OCR lines.
+  - `Death Cult Assassin`: normalized `Invunerable Save` to `Invulnerable Save`.
+  - `Pentinent Engine`: normalized `Invunerable Save` to `Invulnerable Save`.
+  - `Rhino`: normalized weapon name from `Stormbolter` to `Storm Bolter`.
+  - `Repressor`: normalized weapon name from `Stormbolter` to `Storm Bolter`.
+  - `Immolator`: preserved separate close-range Small Arms line from `and (15cm) Small Arms, MW`.
+  - `Cathedral of Purification`: profile name reconstructed from split OCR lines and `imobilising` normalized to `immobilising`.
+  - `Lightning Strike Fighter`: aircraft speed preserved from source abbreviation `F`.
+  - `Marauder Bomber`: aircraft speed preserved from source abbreviation `B`.
+  - `Lunar Class Spaceship`: normalized `TKD3` to `TK(D3)`.
+- Formation names that do not have an obvious matching profile name:
+  - `Mission`
+  - `Exorcism`
+  - `Choir`
+  - `Retribution`
+  - `Coven`
+  - `Repentance`
+  - `Purgeance`
+  - `Pentinence`
+  - `Crusaders`
+  - `Conclave`
+  - `0-1 Inquisitorial Strike Force`
+  - `Lightning Squadron`
+  - `Marauder Squadron`
+  - `Orbital Support`
+- Source rows that could not be parsed safely:
+  - None beyond the OCR normalizations and split-row reconstructions listed above.
+- Costs that were hard to match because the PDF extraction separated costs from rows:
+  - None. The coordinate-based extraction aligned all formation and upgrade costs clearly.

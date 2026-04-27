@@ -227,7 +227,7 @@ var ArmyforgeUI = {
 			'XENOS_sautekh_necron_NETEA': ArmyforgeUnitProfiles.findSautekhNecronProfileByName,
 			'XENOS_tau_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
 			'XENOS_tau_developmental_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
-			'XENOS_tau_Viorla_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
+			'XENOS_tau_Viorla_NETEA': ArmyforgeUnitProfiles.findViorlaTauProfileByName,
 			'EL_dark_NETEA': ArmyforgeUnitProfiles.findDarkEldarProfileByName,
 			'XENOS_nids_NETEA': ArmyforgeUnitProfiles.findTyranidProfileByName,
 			'EL_bieltan_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
@@ -240,12 +240,14 @@ var ArmyforgeUI = {
 			'IG_minervan_NETEA': ArmyforgeUnitProfiles.findIgMinervanTankLegionProfileByName,
 			'XENOS_squats_NETEA': ArmyforgeUnitProfiles.findSquatProfileByName,
 			'INQ_ordo_xenos_NETEA': ArmyforgeUnitProfiles.findInquisitionOrdoXenosProfileByName,
+			'INQ_sisters2018_NETEA': ArmyforgeUnitProfiles.findSistersOfBattleProfileByName,
 			'ORK_ghazgkhull_NETEA': ArmyforgeUnitProfiles.findOrkWarHordeProfileByName,
 			'ORK_feral_NETEA': ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName,
 			'ORK_gargant_NETEA': ArmyforgeUnitProfiles.findOrkGargantMobProfileByName,
 			'ORK_kult_NETEA': ArmyforgeUnitProfiles.findOrkSpeedFreeksProfileByName,
 			'SM_codex_NETEA': ArmyforgeUnitProfiles.findSmCodexAstartesProfileByName,
 			'SM_bloodAngels_NETEA': ArmyforgeUnitProfiles.findBloodAngelsProfileByName,
+			'SM_DarkAngels_NETEA': ArmyforgeUnitProfiles.findDarkAngelsProfileByName,
 			'SM_impfists_NETEA': ArmyforgeUnitProfiles.findSmImperialFistsProfileByName,
 			'SM_Raven_Guard_NETEA': ArmyforgeUnitProfiles.findSmRavenGuardProfileByName,
 			'SM_salamanders_NETEA': ArmyforgeUnitProfiles.findSmSalamandersProfileByName,
@@ -597,6 +599,402 @@ var ArmyforgeUI = {
 		return extras;
 	},
 
+	sistersOfBattleFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	sistersOfBattleAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'INQ_sisters2018_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^Mission$/i.test(formationName)) {
+			extras.push('Battle Sister');
+		}
+		else if (/^Exorcism$/i.test(formationName)) {
+			extras.push('Exorcist');
+		}
+		else if (/^Choir$/i.test(formationName)) {
+			extras.push('Seraphim Sister');
+		}
+		else if (/^Retribution$/i.test(formationName)) {
+			extras.push('Retributor Sister');
+		}
+		else if (/^Coven$/i.test(formationName)) {
+			extras.push('Dominion Sister');
+			extras.push('Rhino');
+		}
+		else if (/^Repentance$/i.test(formationName)) {
+			extras.push('Repentia Sister');
+			extras.push('Mistress');
+		}
+		else if (/^Purgeance$/i.test(formationName)) {
+			if (!ArmyforgeUI.sistersOfBattleFormationHasUpgrade(formation, /(immolator|repressor)/i)) {
+				extras.push('Immolator');
+			}
+		}
+		else if (/^Pentinence$/i.test(formationName)) {
+			extras.push('Pentinent Engine');
+		}
+		else if (/^Crusaders$/i.test(formationName)) {
+			extras.push('Redemptionists');
+			extras.push('Priest');
+		}
+		else if (/^Conclave$/i.test(formationName)) {
+			extras.push('Arco-Flagellants');
+		}
+		else if (/^(0-1 Inquisitorial Strike Force|Inquisitor Hereticus Retinue)$/i.test(formationName)) {
+			extras.push('Inq Storm Troopers');
+			extras.push('Inquisitor');
+		}
+		else if (/^Cathedral of Purification$/i.test(formationName)) {
+			extras.push('Cathedral of Purification');
+		}
+		else if (/^Orbital Support$/i.test(formationName)) {
+			extras.push('Lunar Class Spaceship');
+		}
+
+		formation.upgrades.each(function(u) {
+			var upgradeName = u && u.name ? u.name : '';
+			if (/celestian/i.test(upgradeName)) {
+				extras.push('Celestian Sister');
+			}
+			if (/dominion/i.test(upgradeName)) {
+				extras.push('Dominion Sister');
+			}
+			if (/retribution|retributor/i.test(upgradeName)) {
+				extras.push('Retributor Sister');
+			}
+			if (/battle sister/i.test(upgradeName)) {
+				extras.push('Battle Sister');
+			}
+		});
+
+		return extras.uniq();
+	},
+
+	viorlaTauFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	viorlaTauAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'XENOS_tau_Viorla_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^Fire Warrior Breacher Cadre$/i.test(formationName)) {
+			extras.push('Fire Warrior Breachers');
+			if (ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /pathfinder/i)) {
+				extras.push('Pathfinders');
+			}
+			if (ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /devilfish/i)) {
+				extras.push('Devilfish');
+			}
+		}
+		else if (/^(Pathfinders|Pathfinder Group)$/i.test(formationName)) {
+			extras.push('Pathfinders');
+			if (!ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /\b6 pathfinder units\b/i) ||
+				ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /devilfish/i)) {
+				extras.push('Devilfish');
+			}
+		}
+		else if (/^(Vior.?la XV8 Crisis Suit Formation|Vior.?la XV8 Crisis Suit Cadre|Crisis Suit Formation)$/i.test(formationName)) {
+			extras.push('Vior’la XV8 Crisis Battlesuit');
+			extras.push('Shas’el Commander');
+		}
+		else if (/^(Heavy Battlesuit formation|Heavy Battlesuit Cadre)$/i.test(formationName)) {
+			extras.push('Shas’el Commander');
+			if (ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /riptide/i)) {
+				extras.push('XV104 Riptide Battlesuit');
+			}
+			if (ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /r.?varna/i)) {
+				extras.push('XV107 R’Varna Battlesuit');
+			}
+			if (ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /y.?vahra/i)) {
+				extras.push('XV109 Y’vahra Battlesuit');
+			}
+			if (!ArmyforgeUI.viorlaTauFormationHasUpgrade(formation, /(riptide|r.?varna|y.?vahra)/i)) {
+				extras.push('XV104 Riptide Battlesuit');
+				extras.push('XV107 R’Varna Battlesuit');
+				extras.push('XV109 Y’vahra Battlesuit');
+			}
+		}
+		else if (/^(KV128 Stormsurge formation|KV128 Stormsurge Formation)$/i.test(formationName)) {
+			extras.push('KX128 Stormsurge Battlesuit');
+		}
+		else if (/^(KV139 Supremacy formation|KX139 Ta.?unar Supremacy)$/i.test(formationName)) {
+			extras.push('KX139 Supremacy Suit');
+		}
+		else if (/^(XV88 Broadside|Broadside Group)$/i.test(formationName)) {
+			extras.push('XV88 Broadside Battlesuit');
+		}
+		else if (/^Stealth Group$/i.test(formationName)) {
+			extras.push('XV15 Stealth Battlesuit');
+		}
+		else if (/^Razorshark Squadron$/i.test(formationName)) {
+			extras.push('Razorshark Fighter');
+		}
+		else if (/^(Sunshark Squadron|Sun Shark Squadron)$/i.test(formationName)) {
+			extras.push('Sunshark Bomber');
+		}
+		else if (/^(Vior.?la Assault Orca|Orca Dropship)$/i.test(formationName)) {
+			extras.push('Vior’la Orca Dropship');
+		}
+		else if (/^Spacecraft$/i.test(formationName)) {
+			extras.push('Protector II Class Cruiser');
+		}
+		else if (/^Manta Dropship$/i.test(formationName)) {
+			extras.push('Manta');
+		}
+
+		formation.upgrades.each(function(u) {
+			var upgradeName = u && u.name ? u.name : '';
+			if (/bonded team/i.test(upgradeName)) {
+				extras.push('Bonded Team');
+			}
+			if (/shas.?o|shaso/i.test(upgradeName)) {
+				extras.push('Shas’O Supreme Commander');
+			}
+			if (/shas.?el|shasel/i.test(upgradeName)) {
+				extras.push('Shas’el Commander');
+			}
+			if (/fireblade/i.test(upgradeName)) {
+				extras.push('Fireblade');
+			}
+			if (/ethereal/i.test(upgradeName)) {
+				extras.push('Ethereal');
+			}
+			if (/gun drones?|2 gun drones?/i.test(upgradeName)) {
+				extras.push('Gun Drones');
+			}
+			if (/skyray/i.test(upgradeName)) {
+				extras.push('Skyray Missile Defence Gunship');
+			}
+			if (/broadside/i.test(upgradeName)) {
+				extras.push('XV88 Broadside Battlesuit');
+			}
+			if (/crisis battlesuit|crisis suit/i.test(upgradeName)) {
+				extras.push('Vior’la XV8 Crisis Battlesuit');
+			}
+			if (/fire warrior breacher|fire warriors?/i.test(upgradeName)) {
+				extras.push('Fire Warrior Breachers');
+			}
+			if (/pathfinder/i.test(upgradeName)) {
+				extras.push('Pathfinders');
+			}
+			if (/devilfish/i.test(upgradeName)) {
+				extras.push('Devilfish');
+			}
+			if (/ghostkeel/i.test(upgradeName)) {
+				extras.push('XV95 Ghostkeel Battlesuit');
+			}
+			if (/riptide/i.test(upgradeName)) {
+				extras.push('XV104 Riptide Battlesuit');
+			}
+			if (/r.?varna/i.test(upgradeName)) {
+				extras.push('XV107 R’Varna Battlesuit');
+			}
+			if (/y.?vahra/i.test(upgradeName)) {
+				extras.push('XV109 Y’vahra Battlesuit');
+			}
+		});
+
+		return extras.uniq();
+	},
+
+	darkAngelsFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	darkAngelsAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'SM_DarkAngels_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^Tacticals$/i.test(formationName)) {
+			extras.push('Tactical Marines');
+			if (!ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /drop pods?/i)) {
+				extras.push('Rhino');
+			}
+		}
+		else if (/^Land Raiders$/i.test(formationName)) {
+			extras.push('Land Raider');
+		}
+		else if (/^(Scouts|Scout Infiltrators)$/i.test(formationName)) {
+			extras.push('Sniper Scouts');
+			extras.push('Rhino');
+		}
+		else if (/^Assaults$/i.test(formationName)) {
+			extras.push('Dark Angels Assault Marines');
+			extras.push('Dark Angels Captain');
+		}
+		else if (/^Devastators$/i.test(formationName)) {
+			extras.push('Dark Angels Devastators');
+			if (!ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /drop pods?/i)) {
+				extras.push('Rhino');
+			}
+		}
+		else if (/^Predators$/i.test(formationName)) {
+			extras.push('Predator Destructor');
+		}
+		else if (/^Siege Breachers$/i.test(formationName)) {
+			extras.push('Land Raider Ares');
+		}
+		else if (/^Whirlwinds$/i.test(formationName)) {
+			extras.push('Whirlwind');
+		}
+		else if (/^Deathwing Terminators$/i.test(formationName)) {
+			extras.push('Deathwing Terminators');
+		}
+		else if (/^Ravenwing Attack$/i.test(formationName)) {
+			extras.push('Ravenwing Black Knights');
+			extras.push('Ravenwing Land Speeder');
+			if (ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /attack bike/i)) {
+				extras.push('Ravenwing Attack Bike');
+			}
+			else {
+				extras.push('Ravenwing Assault Bikes');
+			}
+		}
+		else if (/^Deathwing Overwatch$/i.test(formationName)) {
+			extras.push('Deathwing Cyclone Terminators');
+		}
+		else if (/^Deathwing Knights$/i.test(formationName)) {
+			extras.push('Deathwing Knights');
+			extras.push('Deathwing Terminators');
+			extras.push('Interrogator Chaplain');
+			extras.push('Librarian');
+		}
+		else if (/^Deathwing Dreadnoughts$/i.test(formationName)) {
+			extras.push('Deathwing Dreadnought');
+			if (!ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /drop pods?/i)) {
+				extras.push('Rhino');
+			}
+		}
+		else if (/^Deathwing Land Raiders$/i.test(formationName)) {
+			extras.push('Deathwing Land Raider');
+		}
+		else if (/^Ravenwing Support$/i.test(formationName)) {
+			if (ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /venegance|vengeance/i)) {
+				extras.push('Ravenwing Land Speeder Venegance');
+			}
+			else {
+				extras.push('Ravenwing Land Speeder Tornado');
+			}
+		}
+		else if (/^Relic Deimos$/i.test(formationName)) {
+			extras.push('Deimos Predator Executioner');
+			extras.push('Deimos Vindicator Laser Destroyer');
+		}
+		else if (/^Relic Glaive$/i.test(formationName)) {
+			extras.push('Glaive');
+		}
+		else if (/^Ravenwing Nephilim$/i.test(formationName)) {
+			extras.push('Ravenwing Nephilim Interceptor');
+		}
+		else if (/^Ravenwing Dark Talon$/i.test(formationName)) {
+			extras.push('Ravenwing Dark Talon');
+		}
+		else if (/^Thunderhawk Transporter$/i.test(formationName)) {
+			extras.push('Dark Angels Thunderhawk Transporter');
+		}
+		else if (/^(Strike Cruiser|0-1 Swordwing|Swordwing)$/i.test(formationName)) {
+			if (ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /battle barge/i)) {
+				extras.push('Battle Barge');
+			}
+			else if (ArmyforgeUI.darkAngelsFormationHasUpgrade(formation, /strike cruiser/i)) {
+				extras.push('Strike Cruiser');
+			}
+			else {
+				extras.push('Hunter Class Destroyer');
+			}
+		}
+
+		formation.upgrades.each(function(u) {
+			var upgradeName = u && u.name ? u.name : '';
+			if (/dark angels captain|(^|\b)captain(\b|$)/i.test(upgradeName)) {
+				extras.push('Dark Angels Captain');
+			}
+			if (/librarian/i.test(upgradeName)) {
+				extras.push('Librarian');
+			}
+			if (/interrogator chaplain|(^|\b)interrogator(\b|$)/i.test(upgradeName)) {
+				extras.push('Interrogator Chaplain');
+			}
+			if (/grand master/i.test(upgradeName)) {
+				extras.push('Grand Master');
+			}
+			if (/razorback/i.test(upgradeName)) {
+				extras.push('Dark Angels Razorback');
+			}
+			if (/mortis/i.test(upgradeName)) {
+				extras.push('Mortis Dreadnought');
+			}
+			if (/vindicator/i.test(upgradeName)) {
+				extras.push('Vindicator');
+			}
+			if (/stalker/i.test(upgradeName)) {
+				extras.push('Dark Angels Stalker');
+			}
+			if (/hunters?/i.test(upgradeName)) {
+				extras.push('Hunter');
+			}
+			if (/6 tacticals?/i.test(upgradeName)) {
+				extras.push('Tactical Marines');
+			}
+			if (/deathwing land raider|deathwing transport/i.test(upgradeName)) {
+				extras.push('Deathwing Land Raider');
+			}
+			if (/ravenwing attack bike|attack bikes?/i.test(upgradeName)) {
+				extras.push('Ravenwing Attack Bike');
+			}
+			if (/venegance|vengeance/i.test(upgradeName)) {
+				extras.push('Ravenwing Land Speeder Venegance');
+			}
+			if (/glaive/i.test(upgradeName)) {
+				extras.push('Glaive');
+			}
+			if (/thunderhawk transporter|(^|\b)transporter(\b|$)/i.test(upgradeName)) {
+				extras.push('Dark Angels Thunderhawk Transporter');
+			}
+			if (/strike cruiser/i.test(upgradeName)) {
+				extras.push('Strike Cruiser');
+			}
+			if (/battle barge/i.test(upgradeName)) {
+				extras.push('Battle Barge');
+			}
+			if (/drop pods?/i.test(upgradeName)) {
+				extras.push('Drop Pods');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -647,6 +1045,30 @@ var ArmyforgeUI = {
 		}
 
 		ArmyforgeUI.bloodAngelsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.sistersOfBattleAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.viorlaTauAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.darkAngelsAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -1280,6 +1702,7 @@ var ArmyforgeUI = {
 			'chaos-space-marine-emperors-children.json',
 			'chaos-space-marine-iron-warriors.json',
 			'chaos-space-marine-red-corsairs.json',
+			'dark-angels.json',
 			'dark-eldar.json',
 			'eldar-alaitoc.json',
 			'eldar-biel-tan.json',
@@ -1290,6 +1713,7 @@ var ArmyforgeUI = {
 			'imperial-guard-minervan-tank-legion.json',
 			'imperial-guard-steel-legion.json',
 			'inquisition-ordo-xenos.json',
+			'sisters-of-battle.json',
 			'necron.json',
 			'sautekh-necron.json',
 			'ork-feral-orks.json',
@@ -1305,6 +1729,7 @@ var ArmyforgeUI = {
 			'space-marine-white-scars.json',
 			'squat.json',
 			'tau.json',
+			'tau-viorla.json',
 			'tyranid.json'
 		];
 	},
@@ -1313,7 +1738,10 @@ var ArmyforgeUI = {
 		var sourceFilesByListId = {
 			'XENOS_necron_NETEA': 'necron.json',
 			'XENOS_sautekh_necron_NETEA': 'sautekh-necron.json',
-			'SM_bloodAngels_NETEA': 'blood-angels.json'
+			'XENOS_tau_Viorla_NETEA': 'tau-viorla.json',
+			'SM_DarkAngels_NETEA': 'dark-angels.json',
+			'SM_bloodAngels_NETEA': 'blood-angels.json',
+			'INQ_sisters2018_NETEA': 'sisters-of-battle.json'
 		};
 		return sourceFilesByListId[listId] || null;
 	},

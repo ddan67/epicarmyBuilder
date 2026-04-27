@@ -1,0 +1,1421 @@
+{
+  "metadata": {
+    "army_name": "Imperial Inquisition – Adepta Sororitas",
+    "page_title": "Imperial Inquisition – Adepta Sororitas 2.1",
+    "source_url": null,
+    "list_id": "INQ_sisters2018_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Adepta Sororitas formations",
+          "value": "1+"
+        },
+        {
+          "scope": "Inquisitorial Warband, Conclave, Crusaders, Pentinence, Imperial Navy and War Engines",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Act of Faith",
+      "text": "Any unit with the Faithful special rule may choose to perform an Act of Faith when it takes an action roll. The formation receives a -1 penalty to this roll, cumulative with any other modifiers. If the action test is passed, the formation carries out the chosen action as usual. In addition, all units in the formation gain Fearless and Invulnerable Save until the end of the turn."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Mission",
+      "cost": "275 points",
+      "units_text": "8 Battle Sister units",
+      "upgrades_or_options_text": "Exorcist, Priest, Superior, Specialist, Transport, Chapel",
+      "restrictions_or_notes": null,
+      "raw_text": "Mission | 8 Battle Sister units | Exorcist, Priest, Superior, Specialist, Transport, Chapel | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Exorcism",
+      "cost": "250 points",
+      "units_text": "5 Exorcists",
+      "upgrades_or_options_text": "Exorcist, Hunter",
+      "restrictions_or_notes": null,
+      "raw_text": "Exorcism | 5 Exorcists | Exorcist, Hunter | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Choir",
+      "cost": "225 points",
+      "units_text": "6 Seraphim Sister units",
+      "upgrades_or_options_text": "Superior",
+      "restrictions_or_notes": null,
+      "raw_text": "Choir | 6 Seraphim Sister units | Superior | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Retribution",
+      "cost": "250 points",
+      "units_text": "6 Retributor Sister units",
+      "upgrades_or_options_text": "Priest, Superior, Specialist, Transport, Chapel",
+      "restrictions_or_notes": null,
+      "raw_text": "Retribution | 6 Retributor Sister units | Priest, Superior, Specialist, Transport, Chapel | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Coven",
+      "cost": "200 points",
+      "units_text": "4 Dominion Sister units and 2 Rhinos",
+      "upgrades_or_options_text": "Specialist, Transport",
+      "restrictions_or_notes": null,
+      "raw_text": "Coven | 4 Dominion Sister units and 2 Rhinos | Specialist, Transport | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Repentance",
+      "cost": "225 points",
+      "units_text": "6 Repentia Sister units and 1 Mistress character",
+      "upgrades_or_options_text": "Chapel, Engines, Transport",
+      "restrictions_or_notes": null,
+      "raw_text": "Repentance | 6 Repentia Sister units and 1 Mistress character | Chapel, Engines, Transport | 225 points",
+      "parse_warnings": [
+        "Normalized OCR typo in upgrade text from 'Transpot' to 'Transport'."
+      ]
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Purgeance",
+      "cost": "250 points",
+      "units_text": "6 Immolators or Repressors",
+      "upgrades_or_options_text": "Hunter",
+      "restrictions_or_notes": null,
+      "raw_text": "Purgeance | 6 Immolators or Repressors | Hunter | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Auxiliary Formations",
+      "entry_type": "formation",
+      "name": "Pentinence",
+      "cost": "175 points",
+      "units_text": "4 Pentinent Engines",
+      "upgrades_or_options_text": "Engines",
+      "restrictions_or_notes": null,
+      "raw_text": "Pentinence | 4 Pentinent Engines | Engines | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Auxiliary Formations",
+      "entry_type": "formation",
+      "name": "Crusaders",
+      "cost": "200 points",
+      "units_text": "10 Redemptionist units and 1 Priest Character",
+      "upgrades_or_options_text": "Chimeras, Engines",
+      "restrictions_or_notes": null,
+      "raw_text": "Crusaders | 10 Redemptionist units and 1 Priest Character | Chimeras, Engines | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Auxiliary Formations",
+      "entry_type": "formation",
+      "name": "Conclave",
+      "cost": "250 points",
+      "units_text": "6 Arco-Flagellant units",
+      "upgrades_or_options_text": "Engines, Transport",
+      "restrictions_or_notes": null,
+      "raw_text": "Conclave | 6 Arco-Flagellant units | Engines, Transport | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Auxiliary Formations",
+      "entry_type": "formation",
+      "name": "0-1 Inquisitorial Strike Force",
+      "cost": "200 points",
+      "units_text": "6 Inquisitorial Storm Troopers and 1 Inquisitor",
+      "upgrades_or_options_text": "Chimeras, Valkyries, Priest",
+      "restrictions_or_notes": "Replace 2 Inquisitorial Storm Troopers with 2 Deathcult Assassins for 35 points. Replace 1 Inquisitorial Storm Trooper with 1 Inquisitorial Support Staff for 25 points. Replace 1-2 Inquisitorial Storm Troopers with 2 Inquisitorial Veteran Warrior Acolytes for free.",
+      "raw_text": "0-1 Inquisitorial Strike Force | 6 Inquisitorial Storm Troopers and 1 Inquisitor | Chimeras, Valkyries, Priest | 200 points",
+      "parse_warnings": [
+        "Normalized OCR typo in restriction text from 'Assasins' to 'Assassins'."
+      ]
+    },
+    {
+      "category": "Imperial Navy & War Engine Formations",
+      "entry_type": "formation",
+      "name": "Lightning Squadron",
+      "cost": "150 points",
+      "units_text": "2 Lightning Strike Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lightning Squadron | 2 Lightning Strike Fighters | 150 points",
+      "parse_warnings": [
+        "Normalized formation name from OCR 'Lighting Squadron' to 'Lightning Squadron' to match the unit name."
+      ]
+    },
+    {
+      "category": "Imperial Navy & War Engine Formations",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "250 points",
+      "units_text": "2 Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | 2 Marauder Bombers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy & War Engine Formations",
+      "entry_type": "formation",
+      "name": "Cathedral of Purification",
+      "cost": "550 points",
+      "units_text": "1 Cathedral of Purification",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Cathedral of Purification | 1 Cathedral of Purification | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy & War Engine Formations",
+      "entry_type": "formation",
+      "name": "Orbital Support",
+      "cost": "150 points",
+      "units_text": "1 Lunar Class Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Orbital Support | 1 Lunar Class Cruiser | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chimeras",
+      "cost": "25 points each",
+      "units_text": "Add any number of Chimeras",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "You must take exactly enough units to carry all units in the formation after any upgrades have been added. No transport spaces will be left over if possible.",
+      "raw_text": "Chimeras | Add any number of Chimeras | 25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Engines",
+      "cost": "35 points each",
+      "units_text": "Add 1-3 Pentinent Engines",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Engines | Add 1-3 Pentinent Engines | 35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Exorcist",
+      "cost": "35 points each",
+      "units_text": "Add 1-2 Exorcists",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Exorcist | Add 1-2 Exorcists | 35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "50 points",
+      "units_text": "Add 1 Hunter",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add 1 Hunter | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Priest",
+      "cost": "50 points",
+      "units_text": "Add 1 Priest character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Priest | Add 1 Priest character | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Superior",
+      "cost": "100 points / 75 points / 50 points",
+      "units_text": "Add 0-1 Canoness character per army",
+      "upgrades_or_options_text": "OR add 0-1 Living Saint character per army OR add 1 Palatine Character",
+      "restrictions_or_notes": "Canoness and Living Saint options are each 0-1 per army.",
+      "raw_text": "Superior | Add 0-1 Canoness character per army OR add 0-1 Living Saint character per army OR add 1 Palantine Character | 100 / 75 / 50 points",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Palantine' to 'Palatine'."
+      ]
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Specialist",
+      "cost": "25 points / 15 points",
+      "units_text": "Replace 2 units with Celestian Sisters for 25 points",
+      "upgrades_or_options_text": "Replace 2 units with Dominion or Retributor units for 15 points",
+      "restrictions_or_notes": null,
+      "raw_text": "Specialist | Replace 2 units with Celestian Sisters for 25 points OR replace 2 units with Dominion or Retributor units for 15 points",
+      "parse_warnings": [
+        "Normalized OCR typos from 'Celestican' to 'Celestian' and 'ubits' to 'units'."
+      ]
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Transport",
+      "cost": "Free / 25 points each",
+      "units_text": "Add any number of the following transports: Rhinos (Free), Immolator or Repressor (25 points each)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "You must take exactly enough units to carry all units in the formation after any upgrades have been added. No transport spaces will be left over if possible.",
+      "raw_text": "Transport | Add any number of the following transports: Rhinos (Free), Immolator or Repressor (25 points each)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Valkyries",
+      "cost": "150 points",
+      "units_text": "Add 4 Valkyries to the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Valkyries | Add 4 Valkyries to the formation | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chapel",
+      "cost": "125 points",
+      "units_text": "Add 1 Emperors Chapel to the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chapel | Add 1 Emperors Chapel to the formation | 125 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Canoness",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Blessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunderable save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mistress",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Neural Whip",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Palatine",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Blessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunerable Save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Priest",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Eviscerator",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Inspiring"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunerable Save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitor",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunerable Save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Living Saint",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Ardent Blade",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Teleport",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Invulnerable Save",
+        "Inspiring",
+        "Leader",
+        "Jump Pack"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spellings from 'Invunerable Save' to 'Invulnerable Save' and 'Jump Pack' from OCR line wrapping."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Arco-Flagellants",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Combat Flails",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Fearless"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Sister",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source stats sheet clearly aligns the Battle Sister row with 'Heavy Flamers'; preserved as printed."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Celestian Sister",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Multimelta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Multimelta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Separate close-range Small Arms line preserved from source 'and (15cm) Small Arms, Macro Weapon'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dominion Sister",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Meltaguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Scout"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Retributor Sister",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Separate close-range Small Arms line preserved from source 'and (15cm) Small Arms, Ignore Cover'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Repentia Sister",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Eviscerator",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Infiltrators"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Seraphim Sister",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Boltpistols",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Jump Pack",
+        "Teleport"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Jum Pack' to 'Jump Pack'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inq Support Staff",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Chainswords",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Scourging",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW",
+            "First Strike"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inq Veteran Warrior Acolyte",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Hot-Shot Laserguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Profile name reconstructed from split OCR lines 'Inq Veteran Warrior' and 'Acolyte'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Cult Assassin",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Invulnerable Save"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunerable Save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inq Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Redemptionists",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Exterminators",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pentinent Engine",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Power Saws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Fearless",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR spelling from 'Invunerable Save' to 'Invulnerable Save'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Exorcist",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Exorcist Launcher",
+          "range": "45cm",
+          "firepower": "2x AP6+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Transport(2)"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized weapon name from OCR 'Stormbolter' to 'Storm Bolter'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sororitas Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter Killer",
+          "range": "60cm",
+          "firepower": "AT4+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Repressor",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Storm Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Walker",
+        "Transport(2)"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized weapon name from OCR 'Stormbolter' to 'Storm Bolter'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Immolator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Multimelta",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Twin Multimelta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Faithful",
+        "Transport(1)"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Separate close-range Small Arms line preserved from source 'and (15cm) Small Arms, MW'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport(2)"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "One shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport(2)"
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperors Chapel",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Gun",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "IC",
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC",
+            "R Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC",
+            "L Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armour",
+        "Fearless",
+        "Walker",
+        "Transport(8)",
+        "Critical Hit Effect: The Emperors Chapel is destroyed and any units within 5cm of the model suffer a hit on a D6 roll of 6."
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cathedral of Purification",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Promethion Cannon",
+          "range": "45cm",
+          "firepower": "4BP",
+          "notes": [
+            "IC",
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "Excommunicator",
+          "range": "30cm",
+          "firepower": "3x AP6+/AT4+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC",
+            "L Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC",
+            "R Arc"
+          ]
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "2 Void Shields",
+        "Reinforced Armour",
+        "Fearless",
+        "Inspiring",
+        "Walker",
+        "Transport(12)",
+        "Critical Hit Effect: The Cathedral's tracks are damaged, immobilising it. Further critical hits inflict an additional point of damage."
+      ],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Profile name reconstructed from split OCR lines 'Cathedral of' and 'Purification'.",
+        "Normalized OCR spelling from 'imobilising' to 'immobilising'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "AC",
+      "speed": "F",
+      "armour": "6",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FF Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Aircraft speed preserved from source abbreviation 'F'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "B",
+      "armour": "4",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2x Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FF Arc"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FF Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Aircraft speed preserved from source abbreviation 'B'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Spaceship",
+      "type": "SC",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin Point attack",
+          "range": "-",
+          "firepower": "MW2+",
+          "notes": [
+            "MW",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Sisters of Battle Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized OCR shorthand from 'TKD3' to 'TK(D3)'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Support Formations",
+      "text": "Up to 2 Support Formations may be taken for each Core Formation taken."
+    },
+    {
+      "name": "Auxiliary Formations",
+      "text": "Up to 2 Auxiliary Formations may be taken for each Core Formation taken."
+    },
+    {
+      "name": "Imperial Navy & War Engine Formations",
+      "text": "Up to 1/3 of the total points available may be spent on Imperial Navy & War Engine Formations."
+    },
+    {
+      "name": "Transport Restrictions",
+      "text": "If using transports from the Chimeras or Transport upgrades, you must take exactly enough units to carry all units in the formation after any upgrades have been added. No transport spaces will be left over if possible."
+    }
+  ],
+  "extraction_warnings": [
+    "SOB_.21_Stats.pdf has poor OCR/text extraction. Profile rows were reconstructed conservatively from text coordinates rather than from raw plain-text output alone.",
+    "Pentinence and Pentinent Engine were preserved as printed and as used by the existing builder list, rather than normalized to Penitence or Penitent."
+  ]
+}

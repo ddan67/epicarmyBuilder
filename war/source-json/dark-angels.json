@@ -1,0 +1,1650 @@
+{
+  "metadata": {
+    "army_name": "Dark Angels",
+    "source_url": null,
+    "page_title": "NetEA Dark Angels version 1.97b",
+    "list_id": "SM_DarkAngels_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "5",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All Dark Angels formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Unforgiven",
+      "text": "The Dark Angel's secret is theirs alone. No Imperial Allies can be taken in this Dark Angel Force."
+    },
+    {
+      "name": "Optional Special Victory Condition - Hunt for the Fallen",
+      "text": "May only be used if the Dark Angels army contains at least one Interrogator-Chaplain and/or a Grand Master character in a Ravenwing Attack formation. Before deployment: The Dark Angels player decides whether to use the Hunt for the Fallen Victory Condition. If it is used, the opponent must choose one formation that has either at least one infantry unit or a character upgrade and designates that formation as the one containing the Fallen. The Dark Angels player must destroy this formation completely to score the Hunt for the Fallen VC. If the formation is off the table during turn 3 and afterwards, it counts as destroyed. Replaces the Break Their Spirits (BTS) objective."
+    },
+    {
+      "name": "Teleport Homer",
+      "text": "Teleporting models may re-roll Teleport Mishap 1s if their base is within 15cm of an unbroken unit with the \"Teleport Homer\" special rule."
+    },
+    {
+      "name": "Coordinated Teleport",
+      "text": "Formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or they may choose to perform a Coordinated Teleport during the activation of the space ship. A Coordinated Teleport functions like an ordinary Teleport except that all models in the formation must be placed so that they benefit from the Teleport Homer special rule. If they are unable to benefit from Teleport Homer, they cannot carry out a Coordinated Teleport but must wait and teleport normally in later turns. Coordinated Teleports happen after Barrage, Planetfall and Deathwind have been resolved. All Coordinated Teleports counts as taking place simultaneously, not one after the other."
+    },
+    {
+      "name": "Deathwing",
+      "text": "Formations containing at least one model with the rule \"Deathwing\" removes an additional blast marker whenever that formation rallies or regroups."
+    },
+    {
+      "name": "Space Marine Transports",
+      "text": "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from. Before each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the “plus transport” aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
+    },
+    {
+      "name": "ATSKNF",
+      "text": "It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\nSpace Marine formations are only broken if they have 2 Blast markers per unit in the formation.\nSpace Marines formations only count half their number of Blast markers in assault resolution (rounding down - note that in assault resolution Space Marines will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down).\nHalve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\nWhen a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Dark Angels Core Detachments",
+      "entry_type": "formation",
+      "name": "Tacticals",
+      "cost": "275 points",
+      "units_text": "6 Tacticals plus Transport",
+      "upgrades_or_options_text": "Razorbacks, Stalkers, Mortis, Commander, Grand Master",
+      "restrictions_or_notes": null,
+      "raw_text": "Tacticals | 6 Tacticals plus Transport | Razorbacks, Stalkers, Mortis, Commander, Grand Master | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Core Detachments",
+      "entry_type": "formation",
+      "name": "Land Raiders",
+      "cost": "250 points",
+      "units_text": "3 Land Raiders",
+      "upgrades_or_options_text": "Tacticals, Commander, Grand Master",
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | 3 Land Raiders | Tacticals, Commander, Grand Master | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Scouts",
+      "cost": "200 points",
+      "units_text": "4 Sniper Scouts, 2 Rhinos",
+      "upgrades_or_options_text": "Razorbacks",
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Scouts | 4 Sniper Scouts, 2 Rhinos | Razorbacks | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Assaults",
+      "cost": "275 points",
+      "units_text": "6 Dark Angels Assault Marines, 1 Dark Angels Captain",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Assaults | 6 Dark Angels Assault Marines, 1 Dark Angels Captain | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Devastators",
+      "cost": "250 points",
+      "units_text": "4 Dark Angels Devastators plus Transport",
+      "upgrades_or_options_text": "Razorbacks, Stalkers, Mortis, Commander",
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Devastators | 4 Dark Angels Devastators plus Transport | Razorbacks, Stalkers, Mortis, Commander | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Predators",
+      "cost": "200 points",
+      "units_text": "4 Predator Destructors",
+      "upgrades_or_options_text": "Commander, Stalkers",
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Predators | 4 Predator Destructors | Commander, Stalkers | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Siege Breachers",
+      "cost": "275 points",
+      "units_text": "3 Land Raider Ares",
+      "upgrades_or_options_text": "Vindicators, Commander",
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Siege Breachers | 3 Land Raider Ares | Vindicators, Commander | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Support Detachments",
+      "entry_type": "formation",
+      "name": "Whirlwinds",
+      "cost": "275 points",
+      "units_text": "4 Whirlwinds",
+      "upgrades_or_options_text": "Hunters",
+      "restrictions_or_notes": "Four Support Detachments may be taken for each Dark Angels Core Detachment.",
+      "raw_text": "Whirlwinds | 4 Whirlwinds | Hunters | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Strike Detachments",
+      "entry_type": "formation",
+      "name": "Deathwing Terminators",
+      "cost": "350 points",
+      "units_text": "4 Deathwing Terminators",
+      "upgrades_or_options_text": "Deathwing Transport, Commander or Interrogator Chaplain, Grand Master",
+      "restrictions_or_notes": null,
+      "raw_text": "Deathwing Terminators | 4 Deathwing Terminators | Deathwing Transport, Commander or Interrogator Chaplain, Grand Master | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Strike Detachments",
+      "entry_type": "formation",
+      "name": "Ravenwing Attack",
+      "cost": "325 points",
+      "units_text": "1 Ravenwing Black Knights, 4 Ravenwing Assault Bikes and 3 Ravenwing Land Speeders",
+      "upgrades_or_options_text": "Attack Bikes, Interrogator Chaplain, Grand Master",
+      "restrictions_or_notes": null,
+      "raw_text": "Ravenwing Attack | 1 Ravenwing Black Knights, 4 Ravenwing Assault Bikes and 3 Ravenwing Land Speeders | Attack Bikes, Interrogator Chaplain, Grand Master | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Specialist Detachments",
+      "entry_type": "formation",
+      "name": "Deathwing Overwatch",
+      "cost": "350 points",
+      "units_text": "4 Deathwing Cyclone Terminators",
+      "upgrades_or_options_text": "Commander",
+      "restrictions_or_notes": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment.",
+      "raw_text": "Deathwing Overwatch | 4 Deathwing Cyclone Terminators | Commander | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Specialist Detachments",
+      "entry_type": "formation",
+      "name": "Deathwing Knights",
+      "cost": "375 points",
+      "units_text": "3 Deathwing Knights, 1 Deathwing Terminators, 1 Interrogator Chaplain, 1 Librarian",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment.",
+      "raw_text": "Deathwing Knights | 3 Deathwing Knights, 1 Deathwing Terminators, 1 Interrogator Chaplain, 1 Librarian | 375 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Specialist Detachments",
+      "entry_type": "formation",
+      "name": "Deathwing Dreadnoughts",
+      "cost": "300 points",
+      "units_text": "5 Deathwing Dreadnoughts plus Transport",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment.",
+      "raw_text": "Deathwing Dreadnoughts | 5 Deathwing Dreadnoughts plus Transport | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Specialist Detachments",
+      "entry_type": "formation",
+      "name": "Deathwing Land Raiders",
+      "cost": "275 points",
+      "units_text": "3 Deathwing Land Raiders",
+      "upgrades_or_options_text": "Commander",
+      "restrictions_or_notes": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment.",
+      "raw_text": "Deathwing Land Raiders | 3 Deathwing Land Raiders | Commander | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathwing & Ravenwing Specialist Detachments",
+      "entry_type": "formation",
+      "name": "Ravenwing Support",
+      "cost": "200 points",
+      "units_text": "5 Ravenwing Land Speeder Tornado",
+      "upgrades_or_options_text": "Venegance",
+      "restrictions_or_notes": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment.",
+      "raw_text": "Ravenwing Support | 5 Ravenwing Land Speeder Tornado | Venegance | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dreadwing Relic Detachments",
+      "entry_type": "formation",
+      "name": "Relic Deimos",
+      "cost": "400 points",
+      "units_text": "4 Deimos Predator Executioners and 3 Deimos Vindicator Laser Destroyers",
+      "upgrades_or_options_text": "Hunters",
+      "restrictions_or_notes": "The army may contain up to one Dreadwing Relic Detachment.",
+      "raw_text": "Relic Deimos | 4 Deimos Predator Executioners and 3 Deimos Vindicator Laser Destroyers | Hunters | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dreadwing Relic Detachments",
+      "entry_type": "formation",
+      "name": "Relic Glaive",
+      "cost": "550 points",
+      "units_text": "2 Glaives",
+      "upgrades_or_options_text": "Glaive",
+      "restrictions_or_notes": "The army may contain up to one Dreadwing Relic Detachment.",
+      "raw_text": "Relic Glaive | 2 Glaives | Glaive | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Aircraft and Swordwing",
+      "entry_type": "formation",
+      "name": "Ravenwing Nephilim",
+      "cost": "225 points",
+      "units_text": "2 Ravenwing Nephilim Interceptors",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Max 33% of total points.",
+      "raw_text": "Ravenwing Nephilim | 2 Ravenwing Nephilim Interceptors | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Aircraft and Swordwing",
+      "entry_type": "formation",
+      "name": "Ravenwing Dark Talon",
+      "cost": "225 points",
+      "units_text": "2 Ravenwing Dark Talon",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Max 33% of total points.",
+      "raw_text": "Ravenwing Dark Talon | 2 Ravenwing Dark Talon | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Aircraft and Swordwing",
+      "entry_type": "formation",
+      "name": "Thunderhawk Transporter",
+      "cost": "175 points",
+      "units_text": "1 Dark Angels Thunderhawk Transporter",
+      "upgrades_or_options_text": "Transporter",
+      "restrictions_or_notes": "Max 33% of total points.",
+      "raw_text": "Thunderhawk Transporter | 1 Dark Angels Thunderhawk Transporter | Transporter | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Aircraft and Swordwing",
+      "entry_type": "formation",
+      "name": "0-1 Swordwing",
+      "cost": "125 points",
+      "units_text": "Hunter Class Destroyer",
+      "upgrades_or_options_text": "Strike Cruiser",
+      "restrictions_or_notes": "Max 33% of total points.",
+      "raw_text": "0-1 Swordwing | Hunter Class Destroyer | Strike Cruiser | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Commander",
+      "cost": "50 points",
+      "units_text": "Add 1 Dark Angels Captain or Librarian character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Commander | Add 1 Dark Angels Captain or Librarian character | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Interrogator",
+      "cost": "50 points",
+      "units_text": "Add 1 Interrogator Chaplain character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Interrogator | Add 1 Interrogator Chaplain character | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "0-1 Grand Master",
+      "cost": "50 points",
+      "units_text": "Upgrade 1 Dark Angels Captain in the army to a Grand Master",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Grand Master | Upgrade 1 Dark Angels Captain in the army to a Grand Master | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Razorbacks",
+      "cost": "25 points each",
+      "units_text": "Add a maximum of 6 Dark Angels Razorbacks, but no more than required to transport the entire formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Razorbacks | Add a maximum of 6 Dark Angels Razorbacks, but no more than required to transport the entire formation | 25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Mortis",
+      "cost": "75 points",
+      "units_text": "Add 2 Mortis Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mortis | Add 2 Mortis Dreadnoughts | 75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "100 points",
+      "units_text": "Add 3 Vindicators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vindicators | Add 3 Vindicators | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Stalker",
+      "cost": "100 points",
+      "units_text": "Add 2 Dark Angels Stalkers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Stalker | Add 2 Dark Angels Stalkers | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "125 points",
+      "units_text": "Add 2 Hunters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add 2 Hunters | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Tacticals",
+      "cost": "175 points",
+      "units_text": "Add 6 Tacticals",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tacticals | Add 6 Tacticals | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Deathwing Transport",
+      "cost": "225 points",
+      "units_text": "Add 4 Deathwing Land Raiders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Deathwing Transport | Add 4 Deathwing Land Raiders | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Attack Bikes",
+      "cost": "Free",
+      "units_text": "Replace any number of Ravenwing Assault Bikes with Ravenwing Attack Bikes",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Attack Bikes | Replace any number of Ravenwing Assault Bikes with Ravenwing Attack Bikes | Free",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Venegance",
+      "cost": "50 points",
+      "units_text": "Replace 5 Land Speeder Tornado with 5 Land Speeder Venegance",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Venegance | Replace 5 Land Speeder Tornado with 5 Land Speeder Venegance | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Glaive",
+      "cost": "250 points",
+      "units_text": "Add 1 Glaive",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Glaive | Add 1 Glaive | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Transporter",
+      "cost": "100 points each",
+      "units_text": "Add up to two Dark Angels Thunderhawk Transporters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Transporter | Add up to two Dark Angels Thunderhawk Transporters | 100 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Dark Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Strike Cruiser",
+      "cost": "75 points",
+      "units_text": "Replace the Hunter Class Destroyer with a Strike Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Strike Cruiser | Replace the Hunter Class Destroyer with a Strike Cruiser | 75 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Grand Master",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Captain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Invulnerable Save",
+        "Teleport Homer"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Interrogator Chaplain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Librarian",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Smite",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tactical Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper Scouts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Sniper"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Infiltrators"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Assault Marines",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Devastators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2 x Plasma Cannons",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwing Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2 x Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fists",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Deathwing",
+        "Teleport",
+        "Reinforced Armour",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwing Cyclone Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Cyclone Missile Launchers",
+          "range": "45cm",
+          "firepower": "3 x AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Fists",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Deathwing",
+        "Teleport",
+        "Reinforced Armour",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwing Knights",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Maces, Thunderhammers & Storm Shields",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Deathwing",
+        "Teleport",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Black Knights",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Talons",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Corvus Hammers",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Mounted",
+        "Scout",
+        "Commander"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Assault Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Mounted"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Attack Bike",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Teleport Homer"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Land Speeder",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Multi-Melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Scout",
+        "Teleport Homer"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The printed 'and (small arms)' line was represented as a separate Small Arms weapon entry."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Land Speeder Tornado",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Scout",
+        "Teleport Homer"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Land Speeder Venegance",
+      "type": "LV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Storm Battery",
+          "range": "30cm",
+          "firepower": "2 x AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Scout",
+        "Teleport Homer"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mortis Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2 x Mortis Twin Autocannons",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwing Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Deathwing"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 2 Tacticals or Devastators."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Razorback",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Plasma Gun",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 1 Tacticals, Devastators, or Scouts."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Predator Destructor",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2 x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Whirlwind",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Whirlwind Missile Launcher",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Indirect Fire"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter-Killer",
+          "range": "60cm",
+          "firepower": "AT4+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Stalker",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Dual Icarus Stormcannons",
+          "range": "45cm",
+          "firepower": "2 x AP5+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2 x Twin Lascannons",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport 2 Tacticals."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathwing Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2 x Twin Lascannons",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Deathwing",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May transport 1 Deathwing Terminator."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider Ares",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2 x Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2 x Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Walker"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The printed 'and (small arms)' line was represented as a separate Small Arms weapon entry."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deimos Predator Executioner",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Plasma Destroyer",
+          "range": "60cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2 x Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deimos Vindicator Laser Destroyer",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Laser Destroyer",
+          "range": "60cm",
+          "firepower": "AT4+",
+          "notes": [
+            "Lance"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Glaive",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Volkite Carronade",
+          "range": "45cm",
+          "firepower": "4 x AP3+/AT4+",
+          "notes": [
+            "IC",
+            "D"
+          ]
+        },
+        {
+          "name": "Quad Lascannon",
+          "range": "45cm",
+          "firepower": "2 x AT4+",
+          "notes": [
+            "Left Arc"
+          ]
+        },
+        {
+          "name": "Quad Lascannon",
+          "range": "45cm",
+          "firepower": "2 x AT4+",
+          "notes": [
+            "Right Arc"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Reinforced Armour",
+        "Critical Hit Effect: The Glaive is destroyed. All units within 5cm suffer a hit on a 6+."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Nephilim Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Blacksword Missiles",
+          "range": "45cm",
+          "firepower": "AP5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravenwing Dark Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Rift Cannon",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Hurricane Bolters",
+          "range": "15cm",
+          "firepower": "AP5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Stasis Bomb",
+          "range": "15cm",
+          "firepower": "1BP",
+          "notes": [
+            "IC",
+            "D",
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dark Angels Thunderhawk Transporter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2 x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left Arc"
+          ]
+        },
+        {
+          "name": "2 x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May carry up to two of the following: Hunters, Stalkers, Predators, Razorbacks, Rhinos and Vindicators, or one Land Raider of any type. In addition it may transport infantry equal to the transport capacity of the vehicle(s) it carries.",
+        "The entire Thunderhawk Transporter formation is counted as one War Engine for both the War Engine transport rule (e.g. one transported formation can be split between multiple aircraft within one Thunderhawk Transporter formation) and for the allocation of hits.",
+        "Critical Hit Effect: The Thunderhawk Transporter's control surfaces are damaged. The Thunderhawk Transporter crashes to the ground, killing all on board."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The printed type shorthand 'AC/WE/B' was normalized to type 'AC/WE' with speed 'Bomber'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter Class Destroyer",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "1BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May transport 4 Terminators and one Thunderhawk Transporter along with its cargo."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May transport 20 infantry units or Dreadnoughts; plus 20 armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Transporters and enough Drop Pods to transport any other units being carried."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Drop Pods",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Deathwind",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport: May transport one formation of only the following units: Tacticals, Devastators, Dreadnoughts.",
+        "After the Drop Pod lands, it attacks all enemy units within 15cm. Then any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod.",
+        "Drop pod models should be removed from the board once the formation they transport has disembarked."
+      ],
+      "source_section": "Dark Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Support Detachments",
+      "text": "Four Support Detachments may be taken for each Dark Angels Core Detachment."
+    },
+    {
+      "name": "Specialist Detachments",
+      "text": "Four Specialist Detachments may be taken for each Deathwing & Ravenwing Core Detachment."
+    },
+    {
+      "name": "Dreadwing Relic Detachments",
+      "text": "The army may contain up to one Dreadwing Relic Detachment."
+    },
+    {
+      "name": "Aircraft and Swordwing",
+      "text": "Dark Angels Aircraft and Swordwing are max 33% of total points."
+    },
+    {
+      "name": "Unforgiven",
+      "text": "No Imperial Allies can be taken in this Dark Angels force."
+    }
+  ],
+  "extraction_warnings": [
+    "The existing Dark Angels list id SM_DarkAngels_NETEA was reused from the repository.",
+    "Space Marine transport handling and ATSKNF text were taken directly from the Dark Angels PDF page 1 and lightly normalized for spacing and obvious OCR punctuation."
+  ]
+}

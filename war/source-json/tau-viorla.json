@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "army_name": "Vior’la Tau",
+    "source_url": null,
+    "page_title": "Vior’la Tau Army List V.5.1",
+    "list_id": "XENOS_tau_Viorla_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Heavy Battlesuit, Crisis Suit, and Manta formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "Markerlights may not be used to confer a bonus to any barrage attack. Certain units and weapons have special abilities described in Coordinated Fire, Markerlights, Tau Jet Packs, Tau Deflector Shield, and Guided Missiles."
+    },
+    {
+      "name": "Markerlights and Barrage Attacks",
+      "text": "Markerlights may not be used to confer a bonus to any barrage attack."
+    },
+    {
+      "name": "Coordinated Fire",
+      "text": "Some units are noted as being able to call in coordinated fire . These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action. Make a single initiative roll for all formations, counting a single -1 modifier if any have blast markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action. There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation. Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre."
+    },
+    {
+      "name": "Tau Deflector Shield",
+      "text": "Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+."
+    },
+    {
+      "name": "Guided Missiles",
+      "text": "Guided missiles may only be fired at a target formation that is marked , but guided missiles may be fired without line of fire if the target is marked."
+    },
+    {
+      "name": "Markerlights",
+      "text": "All enemy formations with at least one unit within 30cm range and line of fire (Line of Fire) of at least one Tau unit with the markerlights ability is considered to be marked . When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a marked enemy may not be used when making Anti-Aircraft attacks. A Tau formation that is broken or marched this turn may not mark an enemy formation."
+    },
+    {
+      "name": "Tau Jet Packs",
+      "text": "Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Vior’la Core Formations",
+      "entry_type": "formation",
+      "name": "Fire Warrior Breacher Cadre",
+      "cost": "225 points",
+      "units_text": "Eight Vior’la Fire Warriors OR Six Vior’la Fire Warriors and three Devilfish",
+      "upgrades_or_options_text": "Bonded Teams, Fireblade, Shas’O, Ethereal, Broadsides, Gun Drones, Fire Warriors, Skyray, Pathfinders",
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Warrior Breacher Cadre | Eight Vior’la Fire Warriors OR Six Vior’la Fire Warriors and three Devilfish | Bonded Teams, Fireblade, Shas’O, Ethereal, Broadsides, Gun Drones, Fire Warriors, Skyray, Pathfinders | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Core Formations",
+      "entry_type": "formation",
+      "name": "Pathfinders",
+      "cost": "200 points",
+      "units_text": "Four Pathfinder units and two Devilfish",
+      "upgrades_or_options_text": "Gun Drones",
+      "restrictions_or_notes": null,
+      "raw_text": "Pathfinders | Four Pathfinder units and two Devilfish | Gun Drones | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Core Formations",
+      "entry_type": "formation",
+      "name": "Vior’la XV8 Crisis Suit Formation",
+      "cost": "325 points",
+      "units_text": "Six Vior’la XV8 Crisis Suits and one Shas’el",
+      "upgrades_or_options_text": "Crisis Suits, Gun Drones",
+      "restrictions_or_notes": null,
+      "raw_text": "Vior’la XV8 Crisis Suit Formation | Six Vior’la XV8 Crisis Suits and one Shas’el | Crisis Suits, Gun Drones | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Support Formations",
+      "entry_type": "formation",
+      "name": "Heavy Battlesuit formation",
+      "cost": "350 points",
+      "units_text": "One Shas’el character and three heavy battlesuits chosen from XV104 Riptide, XV107 R’Varna, XV109 Y’vahra",
+      "upgrades_or_options_text": "Heavy Battlesuit",
+      "restrictions_or_notes": "Two support formations may be taken per Vior’la Core Formation.",
+      "raw_text": "Heavy Battlesuit formation | One Shas’el character and three heavy battlesuits chosen from XV104 Riptide, XV107 R’Varna, XV109 Y’vahra | Heavy Battlesuit | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Support Formations",
+      "entry_type": "formation",
+      "name": "KV128 Stormsurge formation",
+      "cost": "250 points",
+      "units_text": "Two KV128 Stormsurge units",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": "Two support formations may be taken per Vior’la Core Formation.",
+      "raw_text": "KV128 Stormsurge formation | Two KV128 Stormsurge units | none | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Support Formations",
+      "entry_type": "formation",
+      "name": "KV139 Supremacy formation",
+      "cost": "225 points",
+      "units_text": "One KV139 Supremacy unit armed with either a Heavy Rail Cannon or Nexus Missile Array or Pulse Ordnance Multi Driver",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": "Two support formations may be taken per Vior’la Core Formation.",
+      "raw_text": "KV139 Supremacy formation | One KV139 Supremacy unit armed with either a Heavy Rail Cannon or Nexus Missile Array or Pulse Ordnance Multi Driver | none | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Support Formations",
+      "entry_type": "formation",
+      "name": "XV88 Broadside",
+      "cost": "300 points",
+      "units_text": "Six XV88 Broadside units",
+      "upgrades_or_options_text": "Gun Drones",
+      "restrictions_or_notes": "Two support formations may be taken per Vior’la Core Formation.",
+      "raw_text": "XV88 Broadside | Six XV88 Broadside units | Gun Drones | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Support Formations",
+      "entry_type": "formation",
+      "name": "Stealth Group",
+      "cost": "225 points",
+      "units_text": "Six XV15 Stealth Battlesuit units",
+      "upgrades_or_options_text": "XV95 Ghostkeel",
+      "restrictions_or_notes": "Two support formations may be taken per Vior’la Core Formation.",
+      "raw_text": "Stealth Group | Six XV15 Stealth Battlesuit units | XV95 Ghostkeel | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Caste Formations",
+      "entry_type": "formation",
+      "name": "Razorshark Squadron",
+      "cost": "200 points",
+      "units_text": "Three Razorshark Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to a third of the total points value of the army may be spent on Air Caste formations.",
+      "raw_text": "Razorshark Squadron | Three Razorshark Fighters | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Caste Formations",
+      "entry_type": "formation",
+      "name": "Sunshark Squadron",
+      "cost": "200 points",
+      "units_text": "Two Sunshark Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to a third of the total points value of the army may be spent on Air Caste formations.",
+      "raw_text": "Sunshark Squadron | Two Sunshark Bombers | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Caste Formations",
+      "entry_type": "formation",
+      "name": "Vior’la Assault Orca",
+      "cost": "150 points",
+      "units_text": "One Orca Dropship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to a third of the total points value of the army may be spent on Air Caste formations.",
+      "raw_text": "Vior’la Assault Orca | One Orca Dropship | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Caste Formations",
+      "entry_type": "formation",
+      "name": "Spacecraft",
+      "cost": "225 points",
+      "units_text": "One Protector II Class Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to a third of the total points value of the army may be spent on Air Caste formations.",
+      "raw_text": "Spacecraft | One Protector II Class Cruiser | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Caste Formations",
+      "entry_type": "formation",
+      "name": "Manta Dropship",
+      "cost": "600 points",
+      "units_text": "One Manta",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to a third of the total points value of the army may be spent on Air Caste formations.",
+      "raw_text": "Manta Dropship | One Manta | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Shas’O Supreme Commander",
+      "cost": "100 points",
+      "units_text": "Add one Shas’O character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Max one per army.",
+      "raw_text": "Shas’O Supreme Commander | Add one Shas’O character (max one per army) | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fireblade",
+      "cost": "50 points each",
+      "units_text": "Add one Fireblade character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fireblade | Add one Fireblade character | 50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ethereal",
+      "cost": "50 points",
+      "units_text": "Add one Ethereal character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Max one per army.",
+      "raw_text": "Ethereal | Add one Ethereal character (max one per army) | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Bonded Team",
+      "cost": "25 points",
+      "units_text": "Formation counts as having an additional leader and removes one additional blast marker when rallying or regrouping",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "This ability is not tied to any one unit in the formation.",
+      "raw_text": "Bonded Team | Formation counts as having an additional leader and removes one additional blast marker when rallying or regrouping, this ability is not tied to any one unit in the formation | 25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "XV8 Vior’la Crisis Suits",
+      "cost": "50 points / 75 points",
+      "units_text": "Add one Vior’la XV8 Crisis Suit",
+      "upgrades_or_options_text": "OR add two Vior’la XV8 Crisis Suits",
+      "restrictions_or_notes": null,
+      "raw_text": "XV8 Vior’la Crisis Suits | Add one Vior’la XV8 Crisis Suit OR add two Vior’la XV8 Crisis Suits | 50 points / 75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Warriors",
+      "cost": "50 points / 75 points",
+      "units_text": "Add two Vior’la Fire Warriors",
+      "upgrades_or_options_text": "OR add two Vior’la Fire Warriors and one Devilfish",
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Warriors | Add two Vior’la Fire Warriors OR add two Vior’la Fire Warriors and one Devilfish | 50 points / 75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Skyray Missile Defence Gunship",
+      "cost": "100 points",
+      "units_text": "Add one Skyray Missile Defence Gunship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Skyray Missile Defence Gunship | Add one Skyray Missile Defence Gunship | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Heavy Battlesuit",
+      "cost": "100 points",
+      "units_text": "Add one XV104 Riptide Battlesuit OR one XV107 R’Varna Battlesuit OR one XV109 Y’vahra Battlesuit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Battlesuit | Add one XV104 Riptide Battlesuit OR one XV107 R’Varna Battlesuit OR one XV109 Y’vahra Battlesuit | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "XV95 Ghostkeel Battlesuit unit",
+      "cost": "25 points each",
+      "units_text": "Replace up to three XV15 Stealthsuit units with XV95 Ghostkeel Battlesuit units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "XV95 Ghostkeel Battlesuit unit | Replace up to three XV15 Stealthsuit units with XV95 Ghostkeel Battlesuit units | 25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "XV88 Broadside Battlesuit units",
+      "cost": "150 points",
+      "units_text": "Add three XV88 Broadside Battlesuit units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "XV88 Broadside Battlesuit units | Add three XV88 Broadside Battlesuit units | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gun Drones",
+      "cost": "25 points",
+      "units_text": "Add two Gun Drone units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gun Drones | Add two Gun Drone units | 25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vior’la Upgrades",
+      "entry_type": "upgrade",
+      "name": "Pathfinders",
+      "cost": "75 points / 100 points",
+      "units_text": "Add two Pathfinders",
+      "upgrades_or_options_text": "OR add two Pathfinders and one Devilfish",
+      "restrictions_or_notes": null,
+      "raw_text": "Pathfinders | Add two Pathfinders OR add two Pathfinders and one Devilfish | 75 points / 100 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Shas’O Supreme Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Experimental Weapons",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Coordinated Fire",
+        "Invulnerable Save"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Shas’el Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Character",
+        "Commander",
+        "Leader",
+        "Coordinated Fire"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fireblade",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Experimental Weapons",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Inspiring",
+        "Leader",
+        "Coordinated Fire"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ethereal",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Honour Blade",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Leader",
+        "All units in a formation joined by an Ethereal gain Fearless. If the Ethereal is killed then all these units lose Fearless and the formation receives an additional D3 blast markers."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Warrior Breachers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Pulse Blasters",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pathfinders",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rail Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Sniper"
+          ]
+        },
+        {
+          "name": "Pulse Carbines",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Markerlights",
+        "Coordinated Fire"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Devilfish",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Burst Cannon and Drones",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Seeker Missiles",
+          "range": "90cm",
+          "firepower": "AT6+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport (may carry two of either Fire Warrior Breachers or Pathfinders)"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skyray Missile Defence Gunship",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Smart Missile System",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "2x Hunter Missiles",
+          "range": "60cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "2x Seeker Missiles",
+          "range": "90cm",
+          "firepower": "AT6+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Markerlights",
+        "Skimmer"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vior’la XV8 Crisis Battlesuit",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Linked Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Twin Plasma Rifles",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Fusion Blasters",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Tau Jet Packs"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV88 Broadside Battlesuit",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Railguns",
+          "range": "60cm",
+          "firepower": "AT3+",
+          "notes": []
+        },
+        {
+          "name": "Smart Missile System",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV15 Stealth Battlesuit",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Silenced Burst Cannons",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Markerlights",
+        "First Strike",
+        "Teleport",
+        "Reinforced Armour",
+        "Tau Jet Packs"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV95 Ghostkeel Battlesuit",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Fusion Blasters",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Cyclic Ion Raker",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "First Strike",
+        "Teleport",
+        "Reinforced Armour",
+        "Tau Jet Packs"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV104 Riptide Battlesuit",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Ion Accelerator",
+          "range": "45cm",
+          "firepower": "MW3+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Twin Missile Pods",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Velocity Tracker",
+          "range": "30cm",
+          "firepower": "AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Thick Rear Armour",
+        "Tau Jet Packs",
+        "Damage Capacity 2",
+        "Critical Effect: Destroyed, any units within 5cm take a hit on a 6+."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV107 R’Varna Battlesuit",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Pulse Submunition Cannon",
+          "range": "45cm",
+          "firepower": "2x AP3+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Walker",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Damage Capacity 2",
+        "Critical Effect: Destroyed, any units within 5cm take a hit on a 6+."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "XV109 Y’vahra Battlesuit",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Flamer",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW",
+            "TK(1)",
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Plasma Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "EMP Discharge Cannon",
+          "range": "15cm",
+          "firepower": "AT4+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Thick Rear Armour",
+        "Tau Jet Packs",
+        "Damage Capacity 2",
+        "Critical Effect: Destroyed, any units within 5cm take a hit on a 6+."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The close-range Small Arms line was reconstructed from OCR text that read as a continuation of the Plasma Flamer entry."
+      ],
+      "ambiguity_reasons": [
+        "One weapon line on the reference sheet OCR was partially collapsed."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "KX128 Stormsurge Battlesuit",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Pulse Driver Cannon",
+          "range": "75cm",
+          "firepower": "MW3+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Destroyer Missiles",
+          "range": "90cm",
+          "firepower": "AT5+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        },
+        {
+          "name": "Burst Cannon and Drones",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Damage Capacity 2",
+        "Critical Effect: Destroyed, any units within 5cm take a hit on a 6+."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "KX139 Supremacy Suit",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Seeker Missiles",
+          "range": "90cm",
+          "firepower": "AT6+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        },
+        {
+          "name": "Heavy Rail Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "MW",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Nexus Missile Array",
+          "range": "90cm",
+          "firepower": "3x MW5+",
+          "notes": [
+            "MW",
+            "Guided Missiles"
+          ]
+        },
+        {
+          "name": "Pulse Ordnance Multi Driver",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "Ind"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Damage Capacity 3",
+        "Critical Effect: Destroyed, any units within 5cm take a hit on a 6+."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Heavy Rail Cannon, Nexus Missile Array, and Pulse Ordnance Multi Driver are mutually exclusive loadouts and were preserved as separate weapon entries."
+      ],
+      "ambiguity_reasons": [
+        "The reference sheet prints mutually exclusive main weapons on one profile."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Gun Drones",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Pulse Carbines",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Tau Jet Packs"
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The source abbreviated the secondary weapon trait as 'D'; it was normalized to 'Disrupt' to match existing Tau source-json style."
+      ],
+      "ambiguity_reasons": [
+        "One weapon trait was abbreviated in the OCR text."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Razorshark Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Quad Ion Turret",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": [
+            "FA"
+          ]
+        },
+        {
+          "name": "Twin Burst Cannons",
+          "range": "15cm",
+          "firepower": "AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sunshark Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Pulse Bomb Generator",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Missile Pods",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Burst Cannons",
+          "range": "15cm",
+          "firepower": "AA6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vior’la Orca Dropship",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Twin Burst Cannons",
+          "range": "15cm",
+          "firepower": "AA6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Missile Pods",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Aircraft Seeker Missiles",
+          "range": "45cm",
+          "firepower": "AT6+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport (up to 12 of the following: Vior’la Fire Warriors, Pathfinders, Broadsides, Stealth suits, Gun Drones, Ghostkeels, Crisis Suits; Ghostkeels and Crisis Suits take up 2 slots each)",
+        "Damage Capacity 2",
+        "Critical Effect: The Orca and any transported units are destroyed."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Protector II Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Pinpoint Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "MW",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "1x Gravitic Tracer Salvo",
+          "range": "n/a",
+          "firepower": "3x MW3+",
+          "notes": [
+            "MW",
+            "Guided Missiles"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport. May transport three of the following units and the units being transported on them: Orca, Manta; Manta counts as three units each.",
+        "The Gravitic Tracer Salvo may be fired at a marked formation of any type."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The profile was preserved with both Pinpoint Attack and Gravitic Tracer Salvo entries from the reference sheet; the sheet presentation may imply alternate attack modes."
+      ],
+      "ambiguity_reasons": [
+        "The spacecraft attack presentation is compressed on the reference sheet."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Manta",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Heavy Rail Cannons",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "MW",
+            "FxF",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "3x Heavy Ion Phalanx",
+          "range": "75cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "4x Twin Manta Burst Cannons",
+          "range": "30cm",
+          "firepower": "AP5+/AA6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Missile Pods",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Seeker Missiles",
+          "range": "90cm",
+          "firepower": "AT6+",
+          "notes": [
+            "Guided Missiles"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Deflector Shield",
+        "Fearless",
+        "Markerlights",
+        "Planetfall",
+        "Reinforced Armour",
+        "Support Craft",
+        "Transport. May transport 20 infantry units or Broadside Battlesuits; plus four armoured vehicle or light vehicle units (except Broadside Battlesuits); Tetra count as one-third unit each, rounding up. Crisis Battlesuits and Ghostkeels count as two units each. Heavy Battlesuits count as four units each.",
+        "Critical Effect: The unit loses Tau Deflector Shield, subsequent critical hits cause an extra point of damage."
+      ],
+      "source_section": "Tau Vior’la Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Obvious OCR issues in the source were normalized for 'Damage Capacity', 'Missiles', and 'loses'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Support Formations",
+      "text": "Two support formations may be taken per Vior’la Core Formation."
+    },
+    {
+      "name": "Air Caste Formations",
+      "text": "Up to a third of the total points value of the army may be spent on Air Caste formations."
+    },
+    {
+      "name": "Markerlights",
+      "text": "Markerlights may not confer a bonus to any barrage attack."
+    },
+    {
+      "name": "Upgrades",
+      "text": "Up to four upgrades may be taken per formation."
+    }
+  ],
+  "extraction_warnings": [
+    "The full text for Coordinated Fire, Tau Deflector Shield, Guided Missiles, Markerlights, and Tau Jet Packs was reused from war/source-json/tournament-pack-army-rules.json because the Vior’la PDF references these rules but does not print them in full.",
+    "The Vior’la reference sheet OCR was partially unreliable; visible table values were used where OCR collapsed or abbreviated weapon text."
+  ]
+}
