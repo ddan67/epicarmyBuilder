@@ -245,6 +245,7 @@ var ArmyforgeUI = {
 			'ORK_gargant_NETEA': ArmyforgeUnitProfiles.findOrkGargantMobProfileByName,
 			'ORK_kult_NETEA': ArmyforgeUnitProfiles.findOrkSpeedFreeksProfileByName,
 			'SM_codex_NETEA': ArmyforgeUnitProfiles.findSmCodexAstartesProfileByName,
+			'SM_bloodAngels_NETEA': ArmyforgeUnitProfiles.findBloodAngelsProfileByName,
 			'SM_impfists_NETEA': ArmyforgeUnitProfiles.findSmImperialFistsProfileByName,
 			'SM_Raven_Guard_NETEA': ArmyforgeUnitProfiles.findSmRavenGuardProfileByName,
 			'SM_salamanders_NETEA': ArmyforgeUnitProfiles.findSmSalamandersProfileByName,
@@ -560,6 +561,42 @@ var ArmyforgeUI = {
 		};
 	},
 
+	bloodAngelsFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	bloodAngelsAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'SM_bloodAngels_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		var hasJumpPacks = ArmyforgeUI.bloodAngelsFormationHasUpgrade(formation, /jump packs/i);
+		var hasDropPods = ArmyforgeUI.bloodAngelsFormationHasUpgrade(formation, /drop pods?/i);
+		var hasAlternateTransport = ArmyforgeUI.bloodAngelsFormationHasUpgrade(formation, /(razorback|land raider|stormraven|storm raven|landing craft)/i);
+		var needsDefaultRhino = /^(Death Company|Tactical Detachment|Devastator Detachment|Scout Detachment)$/i.test(formationName);
+
+		if (/^Death Company$/i.test(formationName)) {
+			extras.push('Chaplain');
+		}
+
+		if (hasDropPods) {
+			extras.push('Drop Pod');
+		}
+		else if (needsDefaultRhino && !hasJumpPacks && !hasAlternateTransport) {
+			extras.push('Rhino');
+		}
+
+		return extras;
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -608,6 +645,14 @@ var ArmyforgeUI = {
 				}
 			}
 		}
+
+		ArmyforgeUI.bloodAngelsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
 
 		return profiles;
 	},
@@ -1228,6 +1273,7 @@ var ArmyforgeUI = {
 			'adeptus-mechanicus-skitarii-legion.json',
 			'adeptus-mechanicus-titan-legion.json',
 			'blood-angels-v3.1-normalized-codex-style.json',
+			'blood-angels.json',
 			'chaos-cultist-slaves-to-darkness.json',
 			'chaos-cultist-stigmatus-covenant.json',
 			'chaos-space-marine-black-legion.json',
@@ -1266,7 +1312,8 @@ var ArmyforgeUI = {
 	printV2ArmySourceFileByListId:function(listId) {
 		var sourceFilesByListId = {
 			'XENOS_necron_NETEA': 'necron.json',
-			'XENOS_sautekh_necron_NETEA': 'sautekh-necron.json'
+			'XENOS_sautekh_necron_NETEA': 'sautekh-necron.json',
+			'SM_bloodAngels_NETEA': 'blood-angels.json'
 		};
 		return sourceFilesByListId[listId] || null;
 	},

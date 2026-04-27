@@ -1,0 +1,25 @@
+# Blood Angels Audit
+
+- Total formations found: 14
+- Total upgrades found: 9
+- Total profiles found: 32
+- Profiles with parse_confidence lower than high:
+  - `Predator Infernus` (`medium`)
+  - `Furioso Dreadnought` (`medium`)
+- Parse warnings:
+  - `Blood Angels Attack Bike`: Corrected formatting issue in source text: `Blood AngelsAttack Bike` to `Blood Angels Attack Bike`.
+  - `Land Speeder`: Combined `AND Small Arms MW` weapon text was represented as a separate Small Arms entry.
+  - `Rhino`: Normalized weapon name to match existing Space Marine source-json style: `Stormbolter` to `Storm Bolter`.
+  - `Baal Predator`: Combined `AND Small Arms, Ignore Cover` weapon text was represented as a separate Small Arms entry.
+  - `Predator Infernus`: Mutually exclusive Magna Melta and Flamestorm Cannon loadouts were represented as separate weapon entries.
+  - `Predator Infernus`: The Flamestorm Cannon loadout changes the unit's FF to 3+, preserved as `4+ (3+)`.
+  - `Predator Infernus`: Combined `AND Small Arms` weapon text was represented as separate Small Arms entries where applicable.
+  - `Razorback`: Mutually exclusive Twin Heavy Bolter and Twin Lascannon loadouts were represented as separate weapon entries.
+  - `Land Raider Redeemer`: Combined `AND Small Arms, Ignore Cover` weapon text was represented as a separate Small Arms entry.
+  - `Furioso Dreadnought`: Mutually exclusive two-power-fists and power-fist-plus-frag-cannon loadouts were represented as separate weapon entries.
+  - `Furioso Dreadnought`: The Frag Cannon loadout changes the unit's FF to 4+, preserved as `5+ (4+)`.
+- Formation names that do not have an obvious matching profile name:
+  - None
+- Source rows that could not be parsed safely:
+  - `Predator Infernus`: mutually exclusive Magna Melta / Flamestorm Cannon loadout with FF change.
+  - `Furioso Dreadnought`: mutually exclusive armament options with FF change.

@@ -1,0 +1,1430 @@
+{
+  "metadata": {
+    "army_name": "Blood Angels",
+    "source_url": null,
+    "page_title": "Blood Angels Army List V3.1 – NetEA Developmental",
+    "list_id": "SM_bloodAngels_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "5",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All Blood Angels formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Space Marine Transport and They Shall Know No Fear rules apply to Blood Angels armies. Blood Angels units have the Red Thirst rule. Units marked as having Lucifer Pattern Engines may add +5cm to their movement when carrying out an engage action."
+    },
+    {
+      "name": "Space Marine Transport",
+      "text": "If a formation comes with Rhinos, and can also take Land Raiders and Razorbacks via upgrades, how do you determine how many Rhinos the formation receives?\nAdd any Land Raiders to a formation first. Next, add any number of Razorbacks to the formation, up to the number required to transport those units not being transported in Land Raiders. Finally, the formation receives Rhinos to transport those units not being transported in Land Raiders or Razorbacks.\nThe Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!\nNote that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite.\nAlso note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall ). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from.\nBefore each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
+    },
+    {
+      "name": "They Shall Know No Fear",
+      "text": "How many Blast markers does a broken Space Marine unit count as having when working out the result of an assault?\nOne per unit.\nSpace Marines are renowned for their tenacity and bravery. This is represented by the following rules:\n* It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n* Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.\n* Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines.\n* When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
+    },
+    {
+      "name": "Lucifer Pattern Engines",
+      "text": "Units marked as having Lucifer Pattern Engines may add +5cm to their movement when carrying out an engage action."
+    },
+    {
+      "name": "Red Thirst",
+      "text": "Blood Angels units have the Red Thirst Rule: If any stand in the formation could reach base contact with an enemy unit, the formation receives a -1 penalty to activate using any order other than Engage. If an Engage order is chosen, the formation automatically passes the activation roll regardless of any other modifiers or penalties, such as for blast markers or retaining the initiative. (Note that there is no subsequent requirement to reach base contact if the player does not wish to)."
+    },
+    {
+      "name": "Statement of Theme",
+      "text": "This list represents the Blood Angels and successor chapters, it contains options for the unique formations and specialist unit types typical of the Blood Angels and successors, it loses some of the standard ranged options of the codex marines list and has units, weapons and statistics to emphasise the bloody close assaults favoured by the sons of Sanguinius."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "1 Death Company",
+      "cost": "300 points",
+      "units_text": "One Blood Angels Chaplain Character and four Death Company stands plus transport",
+      "upgrades_or_options_text": "Death Company Dreadnought",
+      "restrictions_or_notes": "Formation may exchange transport for jump packs for +25 points.",
+      "raw_text": "1 Death Company | One Blood Angels Chaplain Character and four Death Company stands plus transport (formation may exchange transport for jump packs for +25pts) | Death Company Dreadnought | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Tactical",
+      "cost": "275 points",
+      "units_text": "Six Blood Angels Tactical Marine units plus transport",
+      "upgrades_or_options_text": "Character, Hunter, Razorback, Land Raider, Storm Raven, Dreadnought, Vindicator",
+      "restrictions_or_notes": null,
+      "raw_text": "Tactical | Six Blood Angels Tactical Marine units plus transport | Character, Hunter, Razorback, Land Raider, Storm Raven, Dreadnought, Vindicator | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Devastator",
+      "cost": "250 points",
+      "units_text": "Four Blood Angels Devastator marine units plus transport",
+      "upgrades_or_options_text": "Character, Hunter, Razorback, Land Raider, Dreadnought",
+      "restrictions_or_notes": null,
+      "raw_text": "Devastator | Four Blood Angels Devastator marine units plus transport | Character, Hunter, Razorback, Land Raider, Dreadnought | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Assault",
+      "cost": "200 points",
+      "units_text": "Four Blood Angels Assault marine units",
+      "upgrades_or_options_text": "Character, Dreadnought, Vindicator, Storm Ravens",
+      "restrictions_or_notes": "May add two additional stands for +50 points.",
+      "raw_text": "Assault | Four Blood Angels Assault marine units | Character, Dreadnought, Vindicator, Storm Ravens | 200 points (may add two additional stands for +50 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Terminator",
+      "cost": "350 points",
+      "units_text": "Four Blood Angels Terminator units",
+      "upgrades_or_options_text": "Character, Land Raider, Storm Raven, Dreadnought, Vindicator",
+      "restrictions_or_notes": null,
+      "raw_text": "Terminator | Four Blood Angels Terminator units | Character, Land Raider, Storm Raven, Dreadnought, Vindicator | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Scout",
+      "cost": "150 points",
+      "units_text": "Four Blood Angels Scout units plus transport",
+      "upgrades_or_options_text": "Character, Sniper, Razorback",
+      "restrictions_or_notes": null,
+      "raw_text": "Scout | Four Blood Angels Scout units plus transport | Character, Sniper, Razorback | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Predator",
+      "cost": "275 points",
+      "units_text": "Four Baal or Infernus Predators",
+      "upgrades_or_options_text": "Character, Hunter, Vindicator",
+      "restrictions_or_notes": null,
+      "raw_text": "Predator | Four Baal or Infernus Predators | Character, Hunter, Vindicator | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Bike",
+      "cost": "200 points",
+      "units_text": "Five Blood Angels Bike units",
+      "upgrades_or_options_text": "Character",
+      "restrictions_or_notes": "May replace any number of bikes with attack bikes for free.",
+      "raw_text": "Bike | Five Blood Angels Bike units | Character | 200 points (may replace any number of bikes with attack bikes for free)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Land Speeder",
+      "cost": "200 points",
+      "units_text": "Five Land Speeder units",
+      "upgrades_or_options_text": "Character",
+      "restrictions_or_notes": "May replace any number of land speeders with Tornados for free, or Typhoons for +10 points each.",
+      "raw_text": "Land Speeder | Five Land Speeder units | Character | 200 points (may replace any number of land speeders with Tornados for free, or Typhoons for +10 points each)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Storm Raven",
+      "cost": "300 points",
+      "units_text": "Four Storm Raven units",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Raven | Four Storm Raven units | None | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "Landing Craft",
+      "cost": "350 points",
+      "units_text": "One Landing Craft",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Landing Craft | One Landing Craft | None | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Formations",
+      "entry_type": "formation",
+      "name": "0-1 Spacecraft",
+      "cost": "200 points",
+      "units_text": "One Strike Cruiser",
+      "upgrades_or_options_text": "Upgrade to Battle Barge for +150 points",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Spacecraft | One Strike Cruiser | Upgrade to Battle Barge for +150 points | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Character",
+      "cost": "+50 points / +100 points",
+      "units_text": "Add one Chaplain, Captain or Librarian character",
+      "upgrades_or_options_text": "OR add one Supreme Commander character",
+      "restrictions_or_notes": "Supreme Commander option is max one per army.",
+      "raw_text": "Character | Add one Chaplain, Captain or Librarian character OR add one Supreme Commander character (max one per army) | +50 points / +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Company Dreadnought",
+      "cost": "+75 points each",
+      "units_text": "Add up to two Death Company Dreadnoughts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Company Dreadnought | Add up to two Death Company Dreadnoughts | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadnought",
+      "cost": "+50 points each",
+      "units_text": "Add up to two Furioso Dreadnoughts of either type",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Dreadnought | Add up to two Furioso Dreadnoughts of either type | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "+75 points",
+      "units_text": "Add one Hunter",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add one Hunter | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each / +125 points for two",
+      "units_text": "Add up to four Land Raiders of either type",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to four Land Raiders of either type | +75 points each / +125 points for two",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Razorback",
+      "cost": "+25 points each",
+      "units_text": "Add up to one Razorback of either type for each infantry unit in the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Razorback | Add up to one Razorback of either type for each infantry unit in the formation | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+50 points / +75 points",
+      "units_text": "Add one Vindicator",
+      "upgrades_or_options_text": "OR two Vindicators",
+      "restrictions_or_notes": null,
+      "raw_text": "Vindicators | Add one Vindicator OR two Vindicators | +50 points / +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Storm Raven",
+      "cost": "+75 points each",
+      "units_text": "Add up to four Storm Raven Gunships",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Raven | Add up to four Storm Raven Gunships | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Blood Angels Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sniper",
+      "cost": "+50 points",
+      "units_text": "All units in the formation gain the sniper ability",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sniper | All units in the formation gain the sniper ability | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Support",
+      "entry_type": "formation",
+      "name": "Storm Talon fighter-bombers",
+      "cost": "200 points",
+      "units_text": "Two Storm Talon fighter-bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two Storm Talon fighter-bombers | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Air Support",
+      "entry_type": "formation",
+      "name": "Thunderhawk Gunship",
+      "cost": "200 points",
+      "units_text": "One Thunderhawk Gunship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One Thunderhawk Gunship | 200 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Supreme Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Supreme Commander",
+        "Invulnerable Save"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Captain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Commander",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaplain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Inspiring",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Librarian",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Smite",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Character",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Company",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Rending Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Jump Packs increase move to 30cm"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Devastators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "2x Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Assault Marines",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Chainswords",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Tacticals",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Missile Launchers",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Scouts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Shotguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Attack Bike",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected formatting issue in source text: 'Blood AngelsAttack Bike' to 'Blood Angels Attack Bike'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blood Angels Bikes",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Chainswords",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi Melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Multi Melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Combined 'AND Small Arms MW' weapon text was represented as a separate Small Arms entry."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder Tornado",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Speeder Typhoon",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Typhoon Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Company Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker",
+        "Invulnerable Save"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Transport",
+        "May carry up to two of the following: Death Company, Devastators, Tacticals, Scouts."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized weapon name to match existing Space Marine source-json style: 'Stormbolter' to 'Storm Bolter'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter-killer",
+          "range": "60cm",
+          "firepower": "AT4+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vindicator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Walker"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Baal Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Combined 'AND Small Arms, Ignore Cover' weapon text was represented as a separate Small Arms entry."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Predator Infernus",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+ (3+)",
+      "weapons": [
+        {
+          "name": "Magna Melta",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Magna Melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Flamestorm Cannon",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Flamestorm Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "All models in the formation may be armed with either a Magna Melta or Flamestorm Cannon, not both.",
+        "Flamestorm Cannon improves FF to 3+."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Mutually exclusive Magna Melta and Flamestorm Cannon loadouts were represented as separate weapon entries.",
+        "The Flamestorm Cannon loadout changes the unit's FF to 3+, preserved as '4+ (3+)'.",
+        "Combined 'AND Small Arms' weapon text was represented as separate Small Arms entries where applicable."
+      ],
+      "ambiguity_reasons": [
+        "Mutually exclusive loadouts change the effective FF value."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Razorback",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Lucifer Pattern Engines",
+        "Transport",
+        "May carry one stand of Tacticals, Devastators or Scouts.",
+        "May be armed with either a Twin Heavy Bolter or a Twin Lascannon, not both."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Mutually exclusive Twin Heavy Bolter and Twin Lascannon loadouts were represented as separate weapon entries."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May carry up to two stands of Tacticals or Devastators or one stand of Terminators."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Flamestorm Cannons",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Flamestorm Cannons",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Frag Launchers",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May carry up to two stands of Tacticals or Devastators or one stand of Terminators."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Combined 'AND Small Arms, Ignore Cover' weapon text was represented as a separate Small Arms entry."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Furioso Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+ (4+)",
+      "weapons": [
+        {
+          "name": "2x Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Frag Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "May be armed with either two power fists or one power fist and a frag cannon, not both.",
+        "Frag Cannon improves FF to 4+."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Mutually exclusive two-power-fists and power-fist-plus-frag-cannon loadouts were represented as separate weapon entries.",
+        "The Frag Cannon loadout changes the unit's FF to 4+, preserved as '5+ (4+)'."
+      ],
+      "ambiguity_reasons": [
+        "Mutually exclusive loadouts change the effective FF value."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Storm Raven Gunship",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Bloodstrike Missiles",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2x Hurricane Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer",
+        "Planetfall",
+        "Transport",
+        "May transport one Dreadnought and up to two stands of Tacticals, Devastators or Assault Marines, or one stand of Terminators."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Drop Pod",
+      "type": "AV",
+      "speed": "Immobile",
+      "armour": "N/A",
+      "cc": "N/A",
+      "ff": "N/A",
+      "weapons": [
+        {
+          "name": "Deathwind",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May carry one formation which includes only units from the following: Tacticals, Devastators, Dreadnoughts.",
+        "Place the Drop Pod marker using the Planetfall rules (4.4). After the marker is placed, its Deathwind attacks all enemy units within 15cm of the centre of the marker. Then any troops carried in the pod must disembark (which can trigger overwatch) in coherency, completely within 15cm of the Drop Pod and outside enemy zones of control.",
+        "The Drop Pod is not a unit."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderhawk Gunship",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right Arc"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May carry up to eight of the following: Tacticals, Devastators, Assault Marines, Scouts, Death Company, Bikes. Terminators and Dreadnoughts may also be transported but take up two slots each.",
+        "Damage Capacity 2",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Landing Craft",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "3x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport",
+        "May carry up to twelve of the following: Tacticals, Devastators, Assault Marines, Scouts, Death Company, Bikes. Terminators and Dreadnoughts may also be transported but take up two slots each. May additionally transport up to four Land Raiders of any type, or up to six Rhinos, Razorbacks, Hunters, Predators or Vindicators.",
+        "Damage Capacity 4",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport up to twenty of the following: Tacticals, Devastators, Assault Marines, Scouts, Terminators, plus up to twenty of the following: Rhinos, Razorbacks, Predators, Vindicators, Hunters and Land Raiders, plus up to six Thunderhawks and enough Drop Pods or Landing Craft to transport any other units on board."
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Barge",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "14BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport up to sixty of the following: Tacticals, Devastators, Assault Marines, Scouts, Terminators, plus up to sixty of the following: Rhinos, Razorbacks, Predators, Vindicators, Hunters and Land Raiders, plus up to nine Thunderhawks and enough Drop Pods or Landing Craft to transport any other units on board.",
+        "Slow and Steady"
+      ],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Storm Talon fighter-bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "N/A",
+      "ff": "N/A",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+/AA5+",
+          "notes": [
+            "FA"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Blood Angels Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Air Support",
+      "text": "Up to 1/3 of the total points available may be spent on Air Support formations."
+    }
+  ],
+  "extraction_warnings": [
+    "Space Marine Transport and They Shall Know No Fear full texts were reused exactly from war/source-json/space-marine-codex-astartes.json, as permitted."
+  ]
+}
