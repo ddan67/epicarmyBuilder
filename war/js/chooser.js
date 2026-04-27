@@ -240,6 +240,7 @@ var ArmyforgeUI = {
 			'IG_minervan_NETEA': ArmyforgeUnitProfiles.findIgMinervanTankLegionProfileByName,
 			'XENOS_squats_NETEA': ArmyforgeUnitProfiles.findSquatProfileByName,
 			'INQ_ordo_xenos_NETEA': ArmyforgeUnitProfiles.findInquisitionOrdoXenosProfileByName,
+			'INQ_gk2018_NETEA': ArmyforgeUnitProfiles.findGreyKnightsProfileByName,
 			'INQ_sisters2018_NETEA': ArmyforgeUnitProfiles.findSistersOfBattleProfileByName,
 			'ORK_ghazgkhull_NETEA': ArmyforgeUnitProfiles.findOrkWarHordeProfileByName,
 			'ORK_feral_NETEA': ArmyforgeUnitProfiles.findOrkFeralOrksProfileByName,
@@ -995,6 +996,234 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	greyKnightsFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	greyKnightsAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'INQ_gk2018_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		var hasGrandMasterWithEscort = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /grand master with paladin escort/i);
+		var hasGrandMaster = hasGrandMasterWithEscort || ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /grand master/i);
+		var hasLibrarian = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /librarian|command/i);
+		var hasBrotherCaptain = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /brother captain/i);
+		var hasDeathCult = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /death cult assassins?/i);
+		var hasRhinos = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /(^|\b)rhinos?(\b|$)|4 rhinos/i);
+		var hasDropPods = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /drop pods?/i);
+		var hasStormraven = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /stormraven|storm raven/i);
+		var hasRazorback = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /razorback/i);
+		var hasLandRaider = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /land raider/i);
+		var hasValkyrie = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /valkyries?|4 valkyries/i);
+		var hasDreadnought = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /grey knights dreadnought/i);
+		var hasNemesisDreadknight = ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /nemesis dreadknight/i);
+
+		var addCommandProfile = function() {
+			if (hasGrandMaster) {
+				extras.push('Grand Master');
+			}
+			else if (hasLibrarian) {
+				extras.push('Grey Knight Librarian');
+			}
+			else if (hasBrotherCaptain || /^(Grey Knights Strike Team|Grey Knights Terminators|Grey Knights Interceptor Squad|Grey Knights Purgation Squad|Grey Knight Purifiers|Grey Knights Land Raider)$/i.test(formationName)) {
+				extras.push('Brother Captain');
+			}
+			if (hasGrandMasterWithEscort || ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /paladin escort/i)) {
+				extras.push('Paladin Escort');
+			}
+		};
+
+		if (/^(Grey Knights Strike Team|Strike Squad)$/i.test(formationName)) {
+			extras.push('Strike Squad');
+			addCommandProfile();
+		}
+		else if (/^Inquisitorial Warband$/i.test(formationName)) {
+			extras.push('Inquisitorial Warrior Acolytes');
+			extras.push('Inquisitor');
+			extras.push('Chimera');
+		}
+		else if (/^(Grey Knights Terminators|Terminators)$/i.test(formationName)) {
+			extras.push('Grey Knight Terminators');
+			addCommandProfile();
+		}
+		else if (/^(Grey Knight Purifiers|0-1 Purifier Squad|Purifier Squad)$/i.test(formationName)) {
+			extras.push('Purifier Squad');
+			addCommandProfile();
+		}
+		else if (/^(Eternal Warrior Formation|Eternal Warrior Formation - Grey Knight Dreadnoughts)$/i.test(formationName)) {
+			extras.push('Grey Knight Dreadnought');
+			if (/^Eternal Warrior Formation$/i.test(formationName)) {
+				extras.push('Eternal Warrior Formation');
+				extras.push('Nemesis Dreadknight');
+			}
+		}
+		else if (/^Eternal Warrior Formation - Nemesis Dreadknights$/i.test(formationName)) {
+			extras.push('Nemesis Dreadknight');
+		}
+		else if (/^(Grey Knights Interceptor Squad|Interceptor Squad)$/i.test(formationName)) {
+			extras.push('Interceptors');
+			addCommandProfile();
+		}
+		else if (/^(Grey Knights Purgation Squad|Purgation Squad)$/i.test(formationName)) {
+			extras.push('Purgation Squad');
+			addCommandProfile();
+		}
+		else if (/^(Grey Knights Land Raider|Land Raiders)$/i.test(formationName)) {
+			addCommandProfile();
+			if (ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /land raider crusader/i)) {
+				extras.push('Land Raider Crusader');
+			}
+			if (ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /land raider redeemer/i)) {
+				extras.push('Land Raider Redeemer');
+			}
+			if (ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /(^|\b)land raider(\b|$)/i)) {
+				extras.push('Land Raider');
+			}
+			if (!ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /land raider|crusader|redeemer/i)) {
+				extras.push('Land Raider');
+				extras.push('Land Raider Crusader');
+				extras.push('Land Raider Redeemer');
+			}
+		}
+		else if (/^(Grey Knights Space Craft|0-1 Strike Cruisers|Strike Cruiser|Strike Cruisers)$/i.test(formationName)) {
+			if (ArmyforgeUI.greyKnightsFormationHasUpgrade(formation, /battle ?barge/i)) {
+				extras.push('Battle Barge');
+			}
+			else {
+				extras.push('Strike Cruiser');
+			}
+		}
+		else if (/^(Stormraven Flight|Storm Raven Flight)$/i.test(formationName)) {
+			extras.push('Stormraven Gunship');
+		}
+		else if (/^(Inquisitorial Stormtroopers|Inquisitorial Storm Troopers)$/i.test(formationName)) {
+			extras.push('Inquisitorial Storm Troopers');
+			extras.push('Inquisitor');
+			if (hasValkyrie) {
+				extras.push('Valkyrie');
+			}
+			else {
+				extras.push('Rhino');
+			}
+		}
+		else if (/^Inquisitorial Hellhound Platoon$/i.test(formationName)) {
+			extras.push('Inquisitorial Hellhound');
+		}
+		else if (/^Inquisitorial Tank Company$/i.test(formationName)) {
+			extras.push('Inquisitorial Leman Russ Tank');
+		}
+		else if (/^Thunderhawk Gunship$/i.test(formationName)) {
+			extras.push('Thunderhawk Gunship');
+		}
+		else if (/^(Thunderhawk Transporters|Thunderhawk Transporter)$/i.test(formationName)) {
+			extras.push('Thunderhawk Transporter');
+		}
+		else if (/^Landing Craft$/i.test(formationName)) {
+			extras.push('Landing Craft');
+		}
+		else if (/^(Stormtalons|Stormtalon Gunship)$/i.test(formationName)) {
+			extras.push('Stormtalon Fighter-Bomber');
+		}
+
+		formation.upgrades.each(function(u) {
+			var upgradeName = u && u.name ? u.name : '';
+			if (/grand master with paladin escort/i.test(upgradeName)) {
+				extras.push('Grand Master');
+				extras.push('Paladin Escort');
+			}
+			else if (/grand master/i.test(upgradeName)) {
+				extras.push('Grand Master');
+			}
+			if (/librarian|command/i.test(upgradeName)) {
+				extras.push('Grey Knight Librarian');
+			}
+			if (/brother captain/i.test(upgradeName)) {
+				extras.push('Brother Captain');
+			}
+			if (/death cult assassins?/i.test(upgradeName)) {
+				extras.push('Death Cult Assassin');
+			}
+			if (/grey knights dreadnought/i.test(upgradeName)) {
+				extras.push('Grey Knight Dreadnought');
+			}
+			if (/nemesis dreadknight/i.test(upgradeName)) {
+				extras.push('Nemesis Dreadknight');
+			}
+			if (/paladin escort/i.test(upgradeName)) {
+				extras.push('Paladin Escort');
+			}
+			if (/hunter/i.test(upgradeName)) {
+				extras.push('Hunter');
+			}
+			if (/land raider crusader/i.test(upgradeName)) {
+				extras.push('Land Raider Crusader');
+			}
+			if (/land raider redeemer/i.test(upgradeName)) {
+				extras.push('Land Raider Redeemer');
+			}
+			if (/(^|\b)land raider(\b|$)/i.test(upgradeName)) {
+				extras.push('Land Raider');
+			}
+			if (/razorback/i.test(upgradeName)) {
+				extras.push('Grey Knight Razorback');
+			}
+			if (/(^|\b)rhinos?(\b|$)|4 rhinos/i.test(upgradeName)) {
+				extras.push('Rhino');
+			}
+			if (/stormraven|storm raven/i.test(upgradeName)) {
+				extras.push('Stormraven Gunship');
+			}
+			if (/valkyries?|4 valkyries/i.test(upgradeName)) {
+				extras.push('Valkyrie');
+			}
+			if (/battle ?barge/i.test(upgradeName)) {
+				extras.push('Battle Barge');
+			}
+			if (/strike cruiser/i.test(upgradeName)) {
+				extras.push('Strike Cruiser');
+			}
+			if (/drop pods?/i.test(upgradeName)) {
+				extras.push('Grey Knights Drop Pod');
+			}
+			if (/3 chimeras/i.test(upgradeName)) {
+				extras.push('Chimera');
+			}
+		});
+
+		if (hasDeathCult) {
+			extras.push('Death Cult Assassin');
+		}
+		if (hasDreadnought) {
+			extras.push('Grey Knight Dreadnought');
+		}
+		if (hasNemesisDreadknight) {
+			extras.push('Nemesis Dreadknight');
+		}
+		if (hasDropPods) {
+			extras.push('Grey Knights Drop Pod');
+		}
+		if (hasStormraven) {
+			extras.push('Stormraven Gunship');
+		}
+		if (hasRazorback) {
+			extras.push('Grey Knight Razorback');
+		}
+		if (hasRhinos && !hasValkyrie && !hasDropPods && !hasStormraven && !hasLandRaider) {
+			extras.push('Rhino');
+		}
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -1069,6 +1298,14 @@ var ArmyforgeUI = {
 		});
 
 		ArmyforgeUI.darkAngelsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.greyKnightsAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -1712,6 +1949,7 @@ var ArmyforgeUI = {
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
 			'imperial-guard-steel-legion.json',
+			'grey-knights.json',
 			'inquisition-ordo-xenos.json',
 			'sisters-of-battle.json',
 			'necron.json',
@@ -1741,6 +1979,7 @@ var ArmyforgeUI = {
 			'XENOS_tau_Viorla_NETEA': 'tau-viorla.json',
 			'SM_DarkAngels_NETEA': 'dark-angels.json',
 			'SM_bloodAngels_NETEA': 'blood-angels.json',
+			'INQ_gk2018_NETEA': 'grey-knights.json',
 			'INQ_sisters2018_NETEA': 'sisters-of-battle.json'
 		};
 		return sourceFilesByListId[listId] || null;

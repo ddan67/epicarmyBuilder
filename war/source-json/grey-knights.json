@@ -1,0 +1,1505 @@
+{
+  "metadata": {
+    "army_name": "Imperial Inquisition – Grey Knights",
+    "source_url": null,
+    "page_title": "Imperial Inquisition – Grey Knights (V2.2)",
+    "list_id": "INQ_gk2018_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "5",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All Grey Knights formations",
+          "value": "1+"
+        },
+        {
+          "scope": "Inquisitorial formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The They Shall Know No Fear rule applies to all Grey Knights formations except Inquisitorial forces (see They Shall Know No Fear)."
+    },
+    {
+      "name": "Grey Knights Transport",
+      "text": "The Grey Knights are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation; you can’t take extras along to cover any losses.\n\nNote that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list.\n\nAlso note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so.\n\nIn addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall. Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the Drop Pods from."
+    },
+    {
+      "name": "They Shall Know No Fear",
+      "text": "Grey Knights are renowned for their tenacity and bravery. This is represented by the following rules:\n\n- It takes 2 Blast markers to suppress a Grey Knight unit or kill a unit in a broken formation (ignore any leftover Blast markers).\n- Grey Knight formations are only broken if they have 2 Blast markers per unit in the formation.\n- Grey Knight formations only count half their number of Blast markers in assault resolution (rounding down; note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Grey Knight formation that loses an assault, rounding down in favour of the Grey Knights.\n- When a broken Grey Knight formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Grey Knights with the Leader special ability remove 2 Blast markers instead of 1."
+    },
+    {
+      "name": "Into the Maw of the Beast",
+      "text": "Grey Knight battle doctrine frequently requires rapid insertion into the heart of battle where the fighting is the thickest to subdue a demon incursion. Because of this experience combined with their access to greater technology over the standard Adeptus Astartes chapter, units with Teleport may choose to enter the battlefield using Self-Planetfall. Announce the choice at the beginning of the game and plot accordingly per the rules of Self-Planetfall."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Grey Knight Core Formations",
+      "entry_type": "formation",
+      "name": "Strike Squad",
+      "cost": "325 points",
+      "units_text": "6 Grey Knights Strike units and 1 Captain",
+      "upgrades_or_options_text": "Command, Eternal Warriors, Hunter, Land Raiders, Transport, Razorbacks, Grand Master",
+      "restrictions_or_notes": null,
+      "raw_text": "Strike Squad | 6 Grey Knights Strike units and 1 Captain | Command, Eternal Warriors, Hunter, Land Raiders, Transport, Razorbacks, Grand Master | 325 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Core Formations",
+      "entry_type": "formation",
+      "name": "Inquisitorial Warband",
+      "cost": "200 points",
+      "units_text": "Six Warrior Acolyte units, 1 Inquisitor and 3 Chimeras",
+      "upgrades_or_options_text": "Death Cult Assassins",
+      "restrictions_or_notes": null,
+      "raw_text": "Inquisitorial Warband | Six Warrior Acolyte units, 1 Inquisitor and 3 Chimeras | Death Cult Assassins | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Elite Formations",
+      "entry_type": "formation",
+      "name": "Terminators",
+      "cost": "375 points",
+      "units_text": "4 Grey Knight Terminator units and 1 Captain",
+      "upgrades_or_options_text": "Command, Eternal Warriors, Grand Master, Land Raiders, Storm Raven",
+      "restrictions_or_notes": null,
+      "raw_text": "Terminators | 4 Grey Knight Terminator units and 1 Captain | Command, Eternal Warriors, Grand Master, Land Raiders, Storm Raven | 375 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Elite Formations",
+      "entry_type": "formation",
+      "name": "0-1 Purifier Squad",
+      "cost": "350 points",
+      "units_text": "4 Grey Knight Purifier units and 1 Captain",
+      "upgrades_or_options_text": "Command, Eternal Warriors, Grand Master, Land Raiders, Storm Raven, Hunter, Transport, Razorbacks",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Purifier Squad | 4 Grey Knight Purifier units and 1 Captain | Command, Eternal Warriors, Grand Master, Land Raiders, Storm Raven, Hunter, Transport, Razorbacks | 350 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Elite Formations",
+      "entry_type": "formation",
+      "name": "Eternal Warrior Formation - Grey Knight Dreadnoughts",
+      "cost": "225 points",
+      "units_text": "4 Grey Knight Dreadnoughts",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "This row in the source PDF presents two mutually exclusive Eternal Warrior Formation options with different costs.",
+      "raw_text": "Eternal Warrior Formation | 4 Grey Knight Dreadnoughts OR 4 Grey Knight Nemesis Dreadknights | None | 225 pts / 375 pts",
+      "parse_warnings": [
+        "Split from a single source row to preserve the printed Dreadnought option and its separate cost."
+      ]
+    },
+    {
+      "category": "Grey Knight Elite Formations",
+      "entry_type": "formation",
+      "name": "Eternal Warrior Formation - Nemesis Dreadknights",
+      "cost": "375 points",
+      "units_text": "4 Grey Knight Nemesis Dreadknights",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "This row in the source PDF presents two mutually exclusive Eternal Warrior Formation options with different costs.",
+      "raw_text": "Eternal Warrior Formation | 4 Grey Knight Dreadnoughts OR 4 Grey Knight Nemesis Dreadknights | None | 225 pts / 375 pts",
+      "parse_warnings": [
+        "Split from a single source row to preserve the printed Nemesis Dreadknight option and its separate cost."
+      ]
+    },
+    {
+      "category": "Grey Knight Support Formations",
+      "entry_type": "formation",
+      "name": "Interceptor Squad",
+      "cost": "225 points",
+      "units_text": "4 Grey Knights Interceptor units and 1 Captain",
+      "upgrades_or_options_text": "Command, Eternal Warriors, Grand Master, Storm Raven",
+      "restrictions_or_notes": null,
+      "raw_text": "Interceptor Squad | 4 Grey Knights Interceptor units and 1 Captain | Command, Eternal Warriors, Grand Master, Storm Raven | 225 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Support Formations",
+      "entry_type": "formation",
+      "name": "Purgation Squad",
+      "cost": "275 points",
+      "units_text": "4 Grey Knight Purgation units and 1 Captain",
+      "upgrades_or_options_text": "Command, Eternal Warriors, Grand Master, Hunter, Storm Raven, Land Raiders, Transport, Razorbacks",
+      "restrictions_or_notes": null,
+      "raw_text": "Purgation Squad | 4 Grey Knight Purgation units and 1 Captain | Command, Eternal Warriors, Grand Master, Hunter, Storm Raven, Land Raiders, Transport, Razorbacks | 275 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Support Formations",
+      "entry_type": "formation",
+      "name": "Land Raiders",
+      "cost": "350 points",
+      "units_text": "1 Captain and 4 Land Raiders in any combination of Grey Knights Land Raiders, Grey Knights Land Raider Crusaders, Grey Knights Land Raider Redeemers",
+      "upgrades_or_options_text": "Command, Hunter",
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | 1 Captain and 4 Land Raiders in any combination of Grey Knights Land Raiders, Grey Knights Land Raider Crusaders, Grey Knights Land Raider Redeemers | Command, Hunter | 350 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Support Formations",
+      "entry_type": "formation",
+      "name": "0-1 Strike Cruisers",
+      "cost": "200 points",
+      "units_text": "1 Grey Knights Strike Cruiser",
+      "upgrades_or_options_text": "Upgrade to a Battle Barge +150 points",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Strike Cruisers | 1 Grey Knights Strike Cruiser | Upgrade to a Battlebarge +150 points | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Support Formations",
+      "entry_type": "formation",
+      "name": "Storm Raven Flight",
+      "cost": "325 points",
+      "units_text": "4 Grey Knights Storm Ravens",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Raven Flight | 4 Grey Knights Storm Ravens | None | 325 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Inquisition Support Formations",
+      "entry_type": "formation",
+      "name": "Inquisitorial Storm Troopers",
+      "cost": "200 points",
+      "units_text": "8 Inquisitorial Storm Troopers, 1 Inquisitor, and 4 Rhinos",
+      "upgrades_or_options_text": "Valkyries",
+      "restrictions_or_notes": null,
+      "raw_text": "Inquisitorial Storm Troopers | 8 Inquisitorial Storm Troopers, 1 Inquisitor, and 4 Rhinos | Valkyries | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Inquisition Support Formations",
+      "entry_type": "formation",
+      "name": "Inquisitorial Hellhound Platoon",
+      "cost": "250 points",
+      "units_text": "6 Inquisitorial Hellhound tanks",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Inquisitorial Hellhound Platoon | 6 Inquisitorial Hellhound tanks | None | 250 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Inquisition Support Formations",
+      "entry_type": "formation",
+      "name": "Inquisitorial Tank Company",
+      "cost": "400 points",
+      "units_text": "6 Leman Russ tanks",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Inquisitional Tank Company | 6 Leman Russ tanks | None | 400 pts",
+      "parse_warnings": [
+        "Normalized formation name to 'Inquisitorial Tank Company'; PDF extraction rendered 'Inquisitional Tank Company'."
+      ]
+    },
+    {
+      "category": "Grey Knight Aircraft",
+      "entry_type": "formation",
+      "name": "Thunderhawk Gunship",
+      "cost": "200 points",
+      "units_text": "1 Thunderhawk Gunship",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderhawk Gunship | 1 Thunderhawk Gunship | None | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Aircraft",
+      "entry_type": "formation",
+      "name": "Landing Craft",
+      "cost": "350 points",
+      "units_text": "1 Landing Craft aircraft",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Landing Craft | 1 Landing Craft aircraft | None | 350 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Aircraft",
+      "entry_type": "formation",
+      "name": "Thunderhawk Transporter",
+      "cost": "175 points",
+      "units_text": "1 Grey Knight Thunderhawk Transporter",
+      "upgrades_or_options_text": "Additional 1 Thunderhawk Transporter for 100 points each",
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderhawk Transporter | 1 Grey Knight Thunderhawk Transporter | Additional 1 Thunderhawk Transporter for 100 point each | 175 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Grey Knight Aircraft",
+      "entry_type": "formation",
+      "name": "Stormtalon Gunship",
+      "cost": "200 points",
+      "units_text": "2 Stormtalon Gunship",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Stormtalon Gunship | 2 Stormtalon Gunship | None | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Command",
+      "cost": "50 points",
+      "units_text": "Swap Grey Knight Captain for a Grey Knight Librarian",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Command | Swap Grey Knight Captain for a Grey Knight Librarian | 50 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Cult Assassins",
+      "cost": "25 points each",
+      "units_text": "Replace 1 to 2 Warrior Acolyte with Death Cult Assassins",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Cult Assassins | Replace 1 to 2 Warrior Acolyte with Death Cult Assassins | 25 pts each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Eternal Warriors",
+      "cost": "50 points / 75 points",
+      "units_text": "Add up to 2 in any combination of Grey Knights Dreadnought and Nemesis Dreadknight",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Grey Knights Dreadnought: 50 points. Nemesis Dreadknight: 75 points.",
+      "raw_text": "Eternal Warriors | Add up to 2 in any combination of the following: Grey Knights Dreadnought, Nemesis Dreadknight | 50 pts / 75 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Grand Master",
+      "cost": "75 points",
+      "units_text": "Replace a Captain in a formation with a Grand Master",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Grand Master | Replace a Captain in a formation with a Grand Master | 75 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Grey Knight Paladin Escort",
+      "cost": "50 points",
+      "units_text": "Add a Paladin Escort to a Grand Master stand/unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Grey Knight Paladin Escort | Add a Paladin Escort to a Grand Master stand/unit | 50 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Hunter",
+      "cost": "75 points",
+      "units_text": "Add 1 Hunter",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hunter | Add 1 Hunter | 75 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "75 points each / 125 points for a pair",
+      "units_text": "Add up to 4 Grey Knight Land Raiders and/or Land Raider Redeemers and/or Land Raider Crusaders",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to 4 Grey Knight Land Raiders and/or Land Raider Redeemers and/or Land Raider Crusaders | 75 pts each / 125 pts for a pair",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Razorbacks",
+      "cost": "25 points each",
+      "units_text": "Add Grey Knight Razorbacks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Razorbacks | Add Grey Knight Razorbacks | 25 pts each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "Free",
+      "units_text": "Add as many Grey Knight Rhinos as required to transport the entire formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add as many Grey Knight Rhinos as required to transport the entire formation | Free",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Storm Ravens",
+      "cost": "75 points each",
+      "units_text": "Add as many Grey Knight Storm Ravens as required to transport the entire formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Ravens | Add as many Grey Knight Storm Ravens as required to transport the entire formation | 75 pts each",
+      "parse_warnings": []
+    },
+    {
+      "category": "upgrades",
+      "entry_type": "upgrade",
+      "name": "Valkyries",
+      "cost": "150 points",
+      "units_text": "Replace 4 Rhinos with 4 Valkyries",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Valkyries | Replace 4 Rhinos with 4 Valkyries | 150 pts",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Brother Captain",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Anointed Blade",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grand Master",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Nemesis Force Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Supreme Commander",
+        "Leader"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Knight Librarian",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Smite",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "TK(1)"
+          ]
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Leader",
+        "Inspiring"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitor",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Paladin Escort",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Anointed Blade",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Cult Assassin",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Power Weapons",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "S",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The source abbreviates one Death Cult Assassin weapon trait as 'S'; preserved as printed because the intended expansion is not completely clear in context."
+      ],
+      "ambiguity_reasons": [
+        "Compressed weapon-trait abbreviation in the PDF reference sheet."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Knight Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Nemesis Force Weapons",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Psycannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour",
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitorial Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Hot Shot Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitorial Warrior Acolytes",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Hot Shot Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scouts"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Interceptors",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Nemesis Force Weapons",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Incinerator",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Incinerator",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Teleport",
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Purgation Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "2x Psycannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Purifier Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Nemesis Force Weapons",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Incinerator",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "2x Heavy Incinerator",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Psycannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May carry 2 Inquisitorial Warrior Acolytes and/or Death Cult Assassin units."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Knight Razorback",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May carry 1 of the following Grey Knights units: Purgation Squad, Strike Squad, Purifier Squad."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Knight Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x TL Auto Cannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Doom Fist",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Heavy Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Counts as Dreadnought for transport purposes."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "This profile includes mutually exclusive Grey Knight Dreadnought loadouts: either 2x TL Auto Cannon or Doom Fist and Heavy Psycannon."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hunter",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Hunter-Killer",
+          "range": "60cm",
+          "firepower": "AT4+/AA4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitorial Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Inquisitorial Leman Russ Tank",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x TL Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "TL Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport: May transport one Terminator unit or two infantry units without Jump Packs or Mounted.",
+        "Counts as Land Raider for transport purposes."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider Crusader",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Hurricane Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "TL Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Frag Launchers",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport: May transport two Terminator units or three infantry units without Jump Packs or Mounted.",
+        "Counts as Land Raider for transport purposes."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Flamestorm Cannons",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "TL Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Frag Launchers",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport: May transport one Terminator unit or two infantry units without Jump Packs or Mounted.",
+        "Counts as Land Raider for transport purposes."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nemesis Dreadknight",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Nemesis Daemon Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Heavy Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Incinerator",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Incinerator",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Invulnerable Save",
+        "Teleport",
+        "Walker",
+        "Counts as Dreadnought for transport purposes."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May carry 2 of the following: Purgation Squad, Strike Squad, Purifier Squad, Inquisitorial Storm Trooper."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormraven Gunship",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "TL Psycannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "TL Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "TL Missiles",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hurricane Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Planetfall",
+        "Skimmer",
+        "Transport: May carry 1 Grey Knights Dreadnought or 2 of the following: Interceptor, Purgation Squad, Strike Squad, Purifier Squad."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "D",
+            "SS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Transport: May transport two infantry units without Jump Packs or Mounted."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Valkyrie Rocket Pod line uses the source abbreviation 'SS'; preserved as printed because the intended expansion is not explicitly stated on the page."
+      ],
+      "ambiguity_reasons": [
+        "Compressed weapon-trait abbreviation in the PDF reference sheet."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormtalon Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Assault Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+/AA5+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderhawk Gunship",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Left Arc"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "Right Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport: May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each.",
+        "Critical Hit Effect: The unit and all units being carried are destroyed."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Landing Craft",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x TL Lascannons",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "3x TL Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Fearless",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport: May transport twelve infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each; plus any six armoured vehicle units (except Dreadnoughts); Land Raiders count as one and a half units each, rounding up.",
+        "Critical Hit Effect: The unit and all units being carried are destroyed. All units within 5cm suffer a hit."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderhawk Transporter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Psycannon",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport: May carry 1 Land Raider or 2 of the following units: Hunter, Nemesis Dreadknight, Razorback, Rhino, plus any infantry units carried in the transported vehicles.",
+        "Critical Hit Effect: The unit and all units being carried are destroyed."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Knights Drop Pod",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Deathwind",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport: May transport one formation of only the following units: Purgation Squad, Strike Squad, Purifier Squad, Dreadnought or Nemesis Dreadknight.",
+        "After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast marker for coming under fire, and an extra Blast marker for each casualty.",
+        "Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod.",
+        "Drop Pod models should be removed from the board once the formation they transport has disembarked."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Strike Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport: May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 light vehicles or armoured vehicle units (except Attack Bikes and Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods, or Landing Craft to transport any other units being carried."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Barge",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "14BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport: May transport 60 infantry units, Attack Bikes, or Dreadnoughts; plus 60 armoured vehicle units (except Dreadnoughts); plus nine Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried."
+      ],
+      "source_section": "Grey Knight Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    "A Grey Knight army must contain at least one Strike Force.",
+    "Each Core Formation unlocks one Elite Formation, two Grey Knight Support Formations, and two Inquisition Support Formations.",
+    "A Grey Knight army may take one Elite Formation for each Core Formation.",
+    "Up to two Grey Knight Support formations may be taken for each Core Formation.",
+    "Up to two Inquisition Support formations may be taken for each Core Formation.",
+    "Grey Knight Aircraft total cost cannot exceed one third of total army cost.",
+    "Up to three upgrades may be taken per Grey Knight formation.",
+    "Each upgrade may be taken once per formation unless otherwise noted.",
+    "Inquisitorial forces do not benefit from They Shall Know No Fear."
+  ],
+  "extraction_warnings": [
+    "Used existing repo list id INQ_gk2018_NETEA.",
+    "The Eternal Warrior Formation source row was split into two formation entries to preserve the two printed alternatives and their different costs.",
+    "Some profile abbreviations were preserved conservatively where the PDF was compressed: Death Cult Assassin weapon trait 'S' and Valkyrie Rocket Pod trait 'SS'.",
+    "The formation name 'Inquisitional Tank Company' from extracted PDF text was normalized to 'Inquisitorial Tank Company'."
+  ]
+}
