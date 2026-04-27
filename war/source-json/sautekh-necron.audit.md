@@ -1,0 +1,43 @@
+# Sautekh Legion Audit
+
+- Total formations found: 23
+- Total profiles found: 31
+- Profiles with parse_confidence lower than high:
+  - Deathmarks (`medium`): weapon notes column truncated in extraction; `Sniper` inferred from source token `S`.
+- Parse warnings:
+  - Formation `0-1 Overlord`: No standalone points cost is printed for the Overlord row; the source only states the one-per-army restriction.
+  - Profile `Necron Lord`: Corrected OCR errors in source text: `Staff o Light` to `Staff of Light` and `Leaader` to `Leader`.
+  - Profile `Deathmarks`: Corrected OCR error `Synaptic Desintigrator` to `Synaptic Disintegrator`.
+  - Profile `Deathmarks`: Weapon note parsed as `Sniper` from a truncated source token (`S`).
+  - Profile `Sautekh Flayed Ones`: Normalized plural OCR forms in source notes: `Infiltrators` to `Infiltrator` and `Scouts` to `Scout`.
+  - Profile `Tomb Blades`: Corrected OCR errors in source text: `Tw-linked` to `Twin-linked` and `Tessla` to `Tesla`.
+  - Profile `Triarch Praetorian`: Corrected OCR error `Triarch Preatorian` to `Triarch Praetorian`.
+  - Profile `Wraiths`: Corrected OCR error `Jumpacks` to `Jump Packs` where needed.
+  - Profile `Annihilation Barge`: Corrected OCR error `Tessla Cannon` to `Tesla Cannon`.
+  - Profile `Tomb Spyder`: Corrected OCR error `Leder` to `Leader`.
+  - Profile `C’tan Shard`: Corrected OCR errors in source text: `Transdimentional` to `Transdimensional` and `Jumpacks` to `Jump Packs`.
+  - Profile `Pylon`: Corrected OCR error `Gauss Flux Ark` to `Gauss Flux Arc`.
+  - Profile `Warbarque`: Corrected OCR error `looses` to `loses` in the critical hit text.
+  - Profile `Night Scythe`: The Gate Projector Array special rule was represented as a special weapon entry plus a clarifying note.
+- Formation names without an obvious matching profile name:
+  - 0-1 Tomb Complex
+  - 0-1 Overlord
+  - Warrior Phalanx
+  - Ghost Ark Phalanx
+  - Immortal Phalanx
+  - Blade Maniple
+  - Iudicium Maniple
+  - Eques Maniple
+  - Letum Maniple
+  - Monolith Maniple
+  - Venator Maniple
+  - Stalker Maniple
+  - Sentry Maniple
+  - Triarch Phalanx
+  - Space Craft
+  - Warbarques
+  - Doom Scythes
+  - Night Scythes
+- Source rows that could not be parsed safely:
+  - `0-1 Overlord` formation row: no standalone points cost printed.
+  - `Deathmarks` profile row: weapon notes column truncated to `S` in extracted text.

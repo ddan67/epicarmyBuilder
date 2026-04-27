@@ -1,0 +1,1448 @@
+{
+  "metadata": {
+    "army_name": "Sautekh Legion",
+    "source_url": null,
+    "page_title": "Sautekh Legion Army List"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Special Rules",
+      "text": "The Implacable Advance rule (5.15.2) applies to all Necron formations. Additionally, certain units and weapons have special abilities described in Necron Technology."
+    },
+    {
+      "name": "Necron Technology",
+      "text": "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet."
+    },
+    {
+      "name": "Necron",
+      "text": "Units with the Necron ability that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove blast markers or both (e.g., if you rolled a ‘2’ you could return 2 units to play, remove 2 blast markers, or return 1 unit and remove 1 blast marker). Formations off board are restricted to using their regroup function to remove blast markers only."
+    },
+    {
+      "name": "Sautekh Portals",
+      "text": "Necron Sautekh Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Necron Portals can only be used by Armored Vehicles with the walker ability, Infantry, or Light Vehicles. Each portal can be used only once per turn.\nAdditionally formations may leave through an unused portal when moving and re-enter through another unused portal on the board as part of the same movement, both portals count as having being used that turn. Sautekh Portals may not be used to go back into reserves.\nFormations moving through a portal of a broken formation gain a blast marker. If for any reason, at the end of the movement a unit is unable to enter the board or is found out of formation it is destroyed (see core rule 1.7.4)."
+    },
+    {
+      "name": "Living Metal",
+      "text": "Units made of living metal receive a Reinforced Armour saving throw against normal weapons, lance weapons, and even macro-weapons. In addition, their save is not reduced by sniper abilities. Living Metal units are permitted a single armour save against Titan killer attacks, this save has to be taken against each point of TK damage."
+    },
+    {
+      "name": "Implacable Advance",
+      "text": "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum.\nNecron formations receive a +1 bonus to Marshal Actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
+    },
+    {
+      "name": "Ponderous",
+      "text": "Units with this rule are very slow even by necron standards. When broken they may only make a single withdrawal move, not the usual two."
+    },
+    {
+      "name": "Necron Reserves",
+      "text": "Any Necron formation may be held back “in reserve” (with the exception of the Æonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have the Teleport ability will only be able to enter play through Portals.\nAny Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit victory condition."
+    },
+    {
+      "name": "Garrisons",
+      "text": "The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex Necron Individual. To represent that a Tomb may contain active Necron, the player may choose to garrison up to two Phalanx formations at the Tomb Complex."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Necron Individuals",
+      "entry_type": "formation",
+      "name": "0-1 Tomb Complex",
+      "cost": "75 points",
+      "units_text": "One Tomb Complex objective",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
+      "raw_text": "0-1 Tomb Complex | The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point. | 75 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Necron Individuals",
+      "entry_type": "formation",
+      "name": "0-1 Overlord",
+      "cost": null,
+      "units_text": "One Necron Overlord character, taken only where an Overlord replacement option is listed",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "A maximum of one Overlord may be taken per army.",
+      "raw_text": "0-1 Overlord | A maximum of one Overlord may be taken per army.",
+      "parse_warnings": [
+        "No standalone points cost is printed for the Overlord row; the source only states the one-per-army restriction."
+      ]
+    },
+    {
+      "category": "Sautekh Phalanxes",
+      "entry_type": "formation",
+      "name": "Warrior Phalanx",
+      "cost": "200 points",
+      "units_text": "Six Sautekh Warrior units, one with a Lord character",
+      "upgrades_or_options_text": "Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add up to four warriors for +25 pts each; add up to three Tomb Spyders for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army).",
+      "restrictions_or_notes": null,
+      "raw_text": "Warrior Phalanx | Six Sautekh Warrior units, one with a Lord character | Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add up to four warriors for +25 pts each; add up to three Tomb Spyders for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army). | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Phalanxes",
+      "entry_type": "formation",
+      "name": "Ghost Ark Phalanx",
+      "cost": "275 points",
+      "units_text": "Three Ghost Arks, six Sautekh Warrior units, one with a Lord character",
+      "upgrades_or_options_text": "Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add up to three Annihilation Barges for +50 pts each; add up to three Doomsday Arks for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army).",
+      "restrictions_or_notes": null,
+      "raw_text": "Ghost Ark Phalanx | Three Ghost Arks, six Sautekh Warrior units, one with a Lord character | Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add up to three Annihilation Barges for +50 pts each; add up to three Doomsday Arks for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army). | 275 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Phalanxes",
+      "entry_type": "formation",
+      "name": "Immortal Phalanx",
+      "cost": "275 points",
+      "units_text": "Six Immortal units, one with a Lord character",
+      "upgrades_or_options_text": "Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add two immortals for +75 pts; add up to three Tomb Spyders for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army).",
+      "restrictions_or_notes": null,
+      "raw_text": "Immortal Phalanx | Six Immortal units, one with a Lord character | Replace one Lord Character with an Overlord for +75 pts; add one Cryptek for +50 pts; add two immortals for +75 pts; add up to three Tomb Spyders for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army). | 275 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Blade Maniple",
+      "cost": "200 points",
+      "units_text": "6 Tomb Blade units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Blade Maniple | 6 Tomb Blade units | - | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Iudicium Maniple",
+      "cost": "250 points",
+      "units_text": "Any five of the following units: Doomsday Ark, Obelisk, Annihilation Barge units",
+      "upgrades_or_options_text": "Add one Command barge with a Lord Character for +50 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Iudicium Maniple | Any five of the following units: Doomsday Ark, Obelisk, Annihilation Barge units | Add one Command barge with a Lord Character for +50 pts. | 250 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Eques Maniple",
+      "cost": "300 points",
+      "units_text": "Any six of the following units: Destroyers, Heavy Destroyers",
+      "upgrades_or_options_text": "Add one Lord character for +25 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Eques Maniple | Any six of the following units: Destroyers, Heavy Destroyers | Add one Lord character for +25 pts. | 300 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Letum Maniple",
+      "cost": "175 points",
+      "units_text": "4 Deathmark Units",
+      "upgrades_or_options_text": "Add one Lord character for +25 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Letum Maniple | 4 Deathmark Units | Add one Lord character for +25 pts. | 175 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Monolith Maniple",
+      "cost": "175 points",
+      "units_text": "2 Sautekh Monolith",
+      "upgrades_or_options_text": "Add up to 3 Obelisk for +50 pts each; add up to 2 Monoliths for +75 pts each.",
+      "restrictions_or_notes": null,
+      "raw_text": "Monolith Maniple | 2 Sautekh Monolith | Add up to 3 Obelisk for +50 pts each; add up to 2 Monoliths for +75 pts each. | 175 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Venator Maniple",
+      "cost": "200 points",
+      "units_text": "Six Flayed Ones Units",
+      "upgrades_or_options_text": "Add up to three Wraiths for +50 pts each.",
+      "restrictions_or_notes": null,
+      "raw_text": "Venator Maniple | Six Flayed Ones Units | Add up to three Wraiths for +50 pts each. | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Stalker Maniple",
+      "cost": "200 points",
+      "units_text": "4 Triarch Stalkers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Stalker Maniple | 4 Triarch Stalkers | - | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Sentry Maniple",
+      "cost": "250 points",
+      "units_text": "4 Sentry Pylons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sentry Maniple | 4 Sentry Pylons | - | 250 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Support Formations",
+      "entry_type": "formation",
+      "name": "Triarch Phalanx",
+      "cost": "275 points",
+      "units_text": "4 Triarch Praetorian Units",
+      "upgrades_or_options_text": "Add one Lord to a Triarch Praetorian unit for +25 pts; replace one Lord character with an Overlord for +75 pts; add one Cryptek to a Triarch Praetorian unit for +50 pts; add two Triarch Praetorian units for +125 pts; add up to three Annihilation Barges for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army).",
+      "restrictions_or_notes": null,
+      "raw_text": "Triarch Phalanx | 4 Triarch Praetorian Units | Add one Lord to a Triarch Praetorian unit for +25 pts; replace one Lord character with an Overlord for +75 pts; add one Cryptek to a Triarch Praetorian unit for +50 pts; add two Triarch Praetorian units for +125 pts; add up to three Annihilation Barges for +50 pts each; add up to three Wraith units for +50 pts each; add up to three Triarch Stalkers for +50 pts each; add one C’tan Shard for +125 pts (max 1 may be taken per army). | 275 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Æonic Orb",
+      "cost": "600 points",
+      "units_text": "One Æonic Orb",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Æonic Orb | One Æonic Orb | - | 600 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Abattoir",
+      "cost": "700 points",
+      "units_text": "One Abattoir",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Abattoir | One Abattoir | - | 700 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Space Craft",
+      "cost": "325 points",
+      "units_text": "One Scythe Class Harvester",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Space Craft | One Scythe Class Harvester | - | 325 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Warbarques",
+      "cost": "300 points",
+      "units_text": "One Warbarque",
+      "upgrades_or_options_text": "Add an Overlord character for +75 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Warbarques | One Warbarque | Add an Overlord character for +75 pts. | 300 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Pylon",
+      "cost": "200 points",
+      "units_text": "One Pylon",
+      "upgrades_or_options_text": "Add two Sentry Pylons for +100 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Pylon | One Pylon | Add two Sentry Pylons for +100 pts. | 200 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "0-1 Tesseract Vault",
+      "cost": "300 points",
+      "units_text": "One Tesseract Vault unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Tesseract Vault | One Tesseract Vault unit | - | 300 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Doom Scythes",
+      "cost": "225 points",
+      "units_text": "Two Doom Scythe units",
+      "upgrades_or_options_text": "Add one Doom Scythe for +100 pts.",
+      "restrictions_or_notes": null,
+      "raw_text": "Doom Scythes | Two Doom Scythe units | Add one Doom Scythe for +100 pts. | 225 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Night Scythes",
+      "cost": "175 points",
+      "units_text": "Two Night Scythe units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Night Scythes | Two Night Scythe units | - | 175 pts",
+      "parse_warnings": []
+    },
+    {
+      "category": "Sautekh Necron Harvesters and Aircraft",
+      "entry_type": "formation",
+      "name": "Night Shroud Bomber",
+      "cost": "275 points",
+      "units_text": "Two Night Shroud Bomber units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Night Shroud Bomber | Two Night Shroud Bomber units | - | 275 pts",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Necron Overlord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Gauntlet of Fire",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "War Scythe",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Invulnerable Save"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Necron Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Staff of Light",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Staff of Light",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR errors in source text: 'Staff o Light' to 'Staff of Light' and 'Leaader' to 'Leader'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cryptek",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Abyssal Staff",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Inspiring",
+        "Invulnerable Save"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathmarks",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Synaptic Disintegrator",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "Sniper"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Necron",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Corrected OCR error 'Synaptic Desintigrator' to 'Synaptic Disintegrator'.",
+        "Weapon note parsed as 'Sniper' from a truncated source token ('S')."
+      ],
+      "ambiguity_reasons": [
+        "The weapon notes column on the PDF text extraction was truncated for Deathmarks."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Destroyers",
+      "type": "INF",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Necron",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy Destroyers",
+      "type": "INF",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AT3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Necron",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Immortals",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gauss Blasters",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sautekh Flayed Ones",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Necron",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Normalized plural OCR forms in source notes: 'Infiltrators' to 'Infiltrator' and 'Scouts' to 'Scout'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sautekh Warriors",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gauss Flayers",
+          "range": "15cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tomb Blades",
+      "type": "INF",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin-linked Tesla Carbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR errors in source text: 'Tw-linked' to 'Twin-linked' and 'Tessla' to 'Tesla'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Triarch Praetorian",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rods of Covenant",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Rods of Covenant",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Jump Packs",
+        "Necron"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'Triarch Preatorian' to 'Triarch Praetorian'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Wraiths",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "First Strike",
+        "Invulnerable Save",
+        "Jump Packs"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'Jumpacks' to 'Jump Packs' where needed."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Annihilation Barge",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Twin Tesla Destructor",
+          "range": "30cm",
+          "firepower": "2x AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Tesla Cannon",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'Tessla Cannon' to 'Tesla Cannon'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catacomb Command Barge",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer",
+        "Commander"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Doomsday Ark",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Doomsday Cannon",
+          "range": "75cm",
+          "firepower": "AP3+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "Gauss Flayers Array",
+          "range": "15cm",
+          "firepower": "2x AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ghost Ark",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Gauss Flayers Array",
+          "range": "15cm",
+          "firepower": "2x AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Reinforced Armour",
+        "Skimmer",
+        "Transport (2 Sautekh Warrior units)"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sautekh Monolith",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Particle Whip",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Portal",
+        "Fearless",
+        "Living Metal",
+        "Ponderous",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Obelisk",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Particle Flail",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Teleport",
+        "Thick Rear Armour",
+        "Skimmer"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tomb Spyder",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Scarab Swarm",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Scarab Swarm",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Scarab Swarm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Leader",
+        "Skimmer",
+        "Walker"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'Leder' to 'Leader'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Triarch Stalker",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heat Ray",
+          "range": "30cm",
+          "firepower": "MW5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heat Ray",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Infiltrator",
+        "Walker"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sentry Pylons",
+      "type": "AV",
+      "speed": "10cm",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Gauss Exterminator",
+          "range": "75cm",
+          "firepower": "AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Fearless",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Abattoir",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "3x Scarab Swarm",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "3x Scarab Swarm",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "3x Scarab Swarm",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Harvesters",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Infiltrator",
+        "Living Metal",
+        "Ponderous",
+        "Sautekh Portal",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: A capacitor explosion causes an automatic hit to the Abattoir and also inflicts a hit to any unit within 5cm on a 5+, saves are allowed as normal."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Æonic Orb",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Solar Flare",
+          "range": "90cm",
+          "firepower": "MW3+",
+          "notes": [
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Solar Flare",
+          "range": "90cm",
+          "firepower": "12BP",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Living Metal",
+        "Ponderous",
+        "Sautekh Portal",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: Center the barrage template that is 12cm across on the unit and resolve the effect as if it were a 3BP macro weapon barrage."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "C’tan Shard",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Transdimensional Bolt",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": []
+        },
+        {
+          "name": "Entropic Touch",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(1)"
+          ]
+        },
+        {
+          "name": "Pyreshards",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Inspiring",
+        "Fearless",
+        "Jump Packs",
+        "Living Metal",
+        "Teleport",
+        "Walker",
+        "C’tan Shards can use Necron Portals.",
+        "Critical Hit Effect: The C’tan Shard explodes inflicting a hit on every unit in base contact (armour saves allowed)."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR errors in source text: 'Transdimentional' to 'Transdimensional' and 'Jumpacks' to 'Jump Packs'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pylon",
+      "type": "WE",
+      "speed": "Immobile",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Particle Accelerator",
+          "range": "120cm",
+          "firepower": "MW4+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Particle Accelerator",
+          "range": "90cm",
+          "firepower": "AA4+",
+          "notes": [
+            "TK(1)"
+          ]
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Living Metal",
+        "Teleport",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'Gauss Flux Ark' to 'Gauss Flux Arc'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tesseract Vault",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Sky of Falling Stars",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Wave of Withering",
+          "range": "30cm",
+          "firepower": "2x MW3+",
+          "notes": [
+            "TK(1)",
+            "IC"
+          ]
+        },
+        {
+          "name": "Wave of Withering",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "TK(1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Living Metal",
+        "Ponderous",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The node matrices of the Tesseract Vault suffer a temporary breach and a big wave of energy floods out. Place the small blast marker centered on the unit and resolve as if it were a 3BP barrage. The tesseract itself is hit automatically (so two hits for being under the center)."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warbarque",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Particle Cannon",
+          "range": "60cm",
+          "firepower": "AP4+/AT3+",
+          "notes": []
+        },
+        {
+          "name": "2x War Cannon",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Gauss Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Gauss Flux Arc",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Commander",
+        "Fearless",
+        "Living Metal",
+        "Ponderous",
+        "Sautekh Portal",
+        "Skimmer",
+        "Teleport",
+        "Thick Rear Armour",
+        "Critical Hit Effect: The unit loses the Portal ability. Subsequent critical hits destroy the unit."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Corrected OCR error 'looses' to 'loses' in the critical hit text."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Doom Scythe",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Tesla Destructor",
+          "range": "15cm",
+          "firepower": "2x AP4+/AT5+/AA5+",
+          "notes": [
+            "FFA"
+          ]
+        },
+        {
+          "name": "Death Ray",
+          "range": "15cm",
+          "firepower": "MW3+",
+          "notes": [
+            "FFA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Night Scythe",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Tesla Destructor",
+          "range": "15cm",
+          "firepower": "2x AP4+/AT5+/AA5+",
+          "notes": [
+            "FFA"
+          ]
+        },
+        {
+          "name": "Gate Projector Array",
+          "range": "(bc)",
+          "firepower": "Special",
+          "notes": [
+            "Sautekh Portal"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "When performing a ground attack action the Night Scythe formation may choose to use the Gate Projector Array instead of firing. Choose one Night Scythe in the formation; treat that unit's base as a portal until the end of the turn."
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The Gate Projector Array special rule was represented as a special weapon entry plus a clarifying note."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Night Shroud Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Tesla Destructor",
+          "range": "15cm",
+          "firepower": "2x AP4+/AT5+/AA5+",
+          "notes": [
+            "FFA"
+          ]
+        },
+        {
+          "name": "Death Spheres",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Scythe Class Harvester",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "4BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Pin Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Necron Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Necron Individuals",
+      "text": "Up to one of each type may be taken per army."
+    },
+    {
+      "name": "Sautekh Phalanxes",
+      "text": "Any number of phalanxes may be taken."
+    },
+    {
+      "name": "Sautekh Necron Support Formations",
+      "text": "Each phalanx you include in the army allows you to field any three support formations."
+    },
+    {
+      "name": "Sautekh Necron Harvesters and Aircraft",
+      "text": "Up to a third of the points available may be spent on these formations."
+    },
+    {
+      "name": "Necron Technology FAQ",
+      "text": "Q: What happens if I have a Phalanx in reserves that fails its activation roll?\nA: The formation is left with limited options through the hold action. Since shooting is not possible off board and regrouping is not allowed off-board, the Phalanx would only be able to move through an available portal or choose not to activate.\n\nQ: If the unit of Night Scythes has blast markers equal to the number of models in the unit are they considered broken when using their portal?\nA: Yes.\n\nQ: Does a leader function allow additional units to regenerate under the Necron rule?\nA: Yes, a unit with leader ability could add an additional unit with the Necron ability to regenerate back into its original formation, or remove an additional Blast Marker as per the core rules. Just as with regular leader units, this function is cumulative.\n\nQ: Can a Monolith that is part of a broken formation still use its portal?\nA: Yes, as long as it has not been used already during the current turn. The same rule applies to Abattoirs and Warbarques and their respective portals.\n\nQ: Can a Necron portal be blocked?\nA: As with Eldar portals, there are differing viewpoints on how to handle blocked portals. The current NetERC ruling is that if a portal is covered by an enemy’s Zone-of-Control, the formation exiting the portal would be forced to assault that enemy, moving into base-to-base contact, and then resolving the attack. Tacticalwargames.net has an active Epic community where rules questions are posed and discussed. It is our recommendation that you cover this subject with your opponent during the warm-up phase of your game.\n\nQ: If a formation is using the portal of a broken formation to move to a different portal on the board that is also broken do I get only one BM?\nA: No you get a BM for each portal used if that portal is on a formation that is broken. In this case the moving unit would get 2 BMs."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from the Sautekh Legion v1.1 PDF. Minor OCR normalization was applied for obvious spelling and spacing errors only.",
+    "The '0-1 Overlord' army list row does not print a standalone points cost in the source PDF."
+  ]
+}

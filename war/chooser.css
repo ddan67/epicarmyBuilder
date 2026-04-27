@@ -92,6 +92,10 @@ tr.mandatory > td {
 	margin:0.25em 0;
 	background:#fafafa;
 }
+.formationDetailsContent .profileCardReference {
+	border-style:dashed;
+	background:#fffdf2;
+}
 .formationDetailsContent .formationComposition {
 	margin:0.15em 0 0.45em;
 	color:#444;

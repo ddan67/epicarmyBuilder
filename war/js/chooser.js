@@ -224,6 +224,7 @@ var ArmyforgeUI = {
 			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
 			'XENOS_necron_NETEA': ArmyforgeUnitProfiles.findNecronProfileByName,
+			'XENOS_sautekh_necron_NETEA': ArmyforgeUnitProfiles.findSautekhNecronProfileByName,
 			'XENOS_tau_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
 			'XENOS_tau_developmental_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
 			'XENOS_tau_Viorla_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
@@ -594,11 +595,26 @@ var ArmyforgeUI = {
 			}
 		});
 
+		if ((ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null) == 'XENOS_sautekh_necron_NETEA' &&
+			formation && formation.type && formation.type.name == 'Pylon') {
+			var pylonUpgradeCount = formation.upgrades.findAll(function(u) {
+				return u && u.name == 'Pylon';
+			}).length;
+			if (pylonUpgradeCount > 1) {
+				var sentryPylonsProfile = ArmyforgeUI.findUnitProfileByName('Sentry Pylons');
+				if (sentryPylonsProfile && !seen[sentryPylonsProfile.name]) {
+					seen[sentryPylonsProfile.name] = true;
+					profiles.push(sentryPylonsProfile);
+				}
+			}
+		}
+
 		return profiles;
 	},
 
 	createProfileCard:function(profile) {
-		var card = new Element('div', {'class':'profileCard'});
+		var cardClassName = 'profileCard' + (profile.type == 'Formation' ? ' profileCardReference' : '');
+		var card = new Element('div', {'class':cardClassName});
 		card.insert(new Element('div', {'class':'profileName'}).update(profile.name));
 		card.insert(new Element('div', {'class':'profileStats'}).update(
 			'Type: ' + profile.type + ' | Speed: ' + profile.speed + ' | Armour: ' + profile.armour + ' | CC: ' + profile.cc + ' | FF: ' + profile.ff
@@ -623,7 +639,8 @@ var ArmyforgeUI = {
 	},
 
 	createPrintV2ProfileCard:function(profile) {
-		var card = new Element('div', {'class':'profileCard profileCardPrint'});
+		var cardClassName = 'profileCard profileCardPrint' + (profile.type == 'Formation' ? ' profileCardReference' : '');
+		var card = new Element('div', {'class':cardClassName});
 		card.insert(new Element('div', {'class':'profileCardHeader'}).update(profile.name));
 
 		var stats = new Element('div', {'class':'profileStatsGrid'});
@@ -1228,6 +1245,7 @@ var ArmyforgeUI = {
 			'imperial-guard-steel-legion.json',
 			'inquisition-ordo-xenos.json',
 			'necron.json',
+			'sautekh-necron.json',
 			'ork-feral-orks.json',
 			'ork-gargant-mob.json',
 			'ork-speed-freeks.json',
@@ -1243,6 +1261,27 @@ var ArmyforgeUI = {
 			'tau.json',
 			'tyranid.json'
 		];
+	},
+
+	printV2ArmySourceFileByListId:function(listId) {
+		var sourceFilesByListId = {
+			'XENOS_necron_NETEA': 'necron.json',
+			'XENOS_sautekh_necron_NETEA': 'sautekh-necron.json'
+		};
+		return sourceFilesByListId[listId] || null;
+	},
+
+	printV2ArmySourceDataByFileName:function(fileName) {
+		var sources = (ArmyforgeUI.printV2Data && ArmyforgeUI.printV2Data.armySources) ? ArmyforgeUI.printV2Data.armySources : [];
+		var matchedSource = null;
+		sources.find(function(source) {
+			if (source.fileName == fileName) {
+				matchedSource = source.data;
+				return true;
+			}
+			return false;
+		});
+		return matchedSource;
 	},
 
 	printV2ArmySourceLookupTokens:function(text) {
@@ -1286,6 +1325,13 @@ var ArmyforgeUI = {
 		}
 		var title = ArmyList && ArmyList.data ? ArmyList.data.id : '';
 		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : '';
+		var explicitSourceFile = ArmyforgeUI.printV2ArmySourceFileByListId(listId);
+		if (explicitSourceFile) {
+			var explicitSourceData = ArmyforgeUI.printV2ArmySourceDataByFileName(explicitSourceFile);
+			if (explicitSourceData) {
+				return explicitSourceData;
+			}
+		}
 		var titleNeedle = ArmyforgeUI.printV2NormalizeText(title);
 		var listTokens = ArmyforgeUI.printV2ArmySourceLookupTokens(listId);
 		var titleTokens = ArmyforgeUI.printV2ArmySourceLookupTokens(title);
@@ -1690,6 +1736,36 @@ var ArmyforgeUI = {
 			}
 		});
 	}
+};
+
+window.checkSourceProfilesForList = window.checkSourceProfilesForList || function(listId) {
+	var activeListId = ArmyforgeUI && ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+	if (listId && activeListId && listId != activeListId) {
+		return {
+			ok:false,
+			message:'Load chooser.html?list=' + listId + ' before running this helper.'
+		};
+	}
+	if (!window.Force || !Force.formations) {
+		return {
+			ok:false,
+			message:'No active force loaded.'
+		};
+	}
+	var report = Force.formations.collect(function(formation) {
+		var profiles = ArmyforgeUI.uniqueProfilesForFormation(formation).collect(function(profile) {
+			return profile.name;
+		});
+		return {
+			formation:formation.type ? formation.type.name : 'Unknown formation',
+			profiles:profiles,
+			hasProfiles:profiles.length > 0
+		};
+	});
+	if (window.console && console.table) {
+		console.table(report);
+	}
+	return report;
 };
 
 // runtime safety: ensure dedicated details toggling is always available on ArmyforgeUI
