@@ -19,6 +19,32 @@ Array.prototype.empty = function() {
 	return this.length == 0;
 }
 
+function trackArmyBuilderEvent(eventName, params) {
+	try {
+		if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+			window.gtag('event', eventName, params || {});
+		}
+	}
+	catch (err) {
+		// Analytics must never break army builder behaviour.
+	}
+}
+
+function armyBuilderEventParams(actionSource) {
+	var listId = ArmyforgeUI && ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : '';
+	var armyName = ArmyList && ArmyList.data ? (ArmyList.data.name || ArmyList.data.id || '') : '';
+	var params = {
+		list_id: listId || ''
+	};
+	if (armyName) {
+		params.army_name = armyName;
+	}
+	if (actionSource) {
+		params.action_source = actionSource;
+	}
+	return params;
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -41,7 +67,7 @@ var ArmyforgeUI = {
 		row.addClassName('interactive');
 	},
 
-	addFormation:function(formationType, noDefaults) {
+	addFormation:function(formationType, noDefaults, actionSource, formationCategory) {
 		//alert('add formation');
 		var formation = Force.addFormation(formationType);
 		// todo remove delete listener...
@@ -49,14 +75,32 @@ var ArmyforgeUI = {
 		ArmyforgeUI.updatePoints();
 		ArmyforgeUI.checkUpgradeMenuItems();
 		ArmyforgeUI.checkFormationMenuItems();
-		ArmyforgeUI.checkWarnings();		
+		ArmyforgeUI.checkWarnings();
+		if (formation && actionSource) {
+			var eventParams = armyBuilderEventParams(actionSource);
+			eventParams.formation_name = formation.type && formation.type.name ? formation.type.name : '';
+			eventParams.formation_points = formation.calcPoints();
+			if (formationCategory) {
+				eventParams.formation_category = formationCategory;
+			}
+			trackArmyBuilderEvent('select_formation', eventParams);
+		}
 	},
 
-	addUpgrade:function(formation, upgradeType) {
+	addUpgrade:function(formation, upgradeType, actionSource) {
 		formation.upgrades.push( upgradeType );
 		ArmyforgeUI.updateUpgrade(formation, upgradeType);
-		ArmyforgeUI.checkUpgradeMenuItems();		
-		ArmyforgeUI.checkWarnings();		
+		ArmyforgeUI.checkUpgradeMenuItems();
+		ArmyforgeUI.checkWarnings();
+		if (actionSource) {
+			var eventParams = armyBuilderEventParams(actionSource);
+			eventParams.formation_name = formation && formation.type && formation.type.name ? formation.type.name : '';
+			eventParams.upgrade_name = upgradeType && upgradeType.name ? upgradeType.name : '';
+			if (typeof upgradeType.pts === 'number') {
+				eventParams.upgrade_points = upgradeType.pts;
+			}
+			trackArmyBuilderEvent('select_upgrade', eventParams);
+		}
 	},
 
 	checkWarnings:function() {
@@ -168,7 +212,7 @@ var ArmyforgeUI = {
 			 // should this be done after the table is inserted in the DOM?
 			menuItem.observe('click', 
 					ArmyforgeUI.wrapActivatableHandler(menuItem, ArmyforgeUI.addFormation)
-						.bindAsEventListener(this, f));
+						.bindAsEventListener(this, f, false, 'chooser', section.name));
 		});
 		var menu = ArmyforgeUI.createMenu(section.name,menuItems);
 
@@ -182,7 +226,7 @@ var ArmyforgeUI = {
 			menuItems.push(menuItem);
 			menuItem.observe('click',
 					ArmyforgeUI.wrapActivatableHandler(menuItem, ArmyforgeUI.addUpgrade)
-						.bindAsEventListener(this, formation, u));
+						.bindAsEventListener(this, formation, u, 'upgrade_panel'));
 		});
 		var menu = ArmyforgeUI.createMenu('UPGRADES',menuItems);
 		var dropDown = new Element('div', {'class':'dropDown'}).update(menu);
@@ -1513,8 +1557,13 @@ var ArmyforgeUI = {
 		ArmyforgeUI.viewTable();		
 	},	
 
-	removeFormation:function(formation) {
+	removeFormation:function(formation, actionSource) {
             if (Force.canRemove(formation)) {
+		var eventParams = actionSource ? armyBuilderEventParams(actionSource) : null;
+		if (eventParams) {
+			eventParams.formation_name = formation && formation.type && formation.type.name ? formation.type.name : '';
+			eventParams.formation_points = formation.calcPoints();
+		}
 		Force.formations.remove( formation );
 		ArmyforgeUI.upgradeRowsFor(formation).each( Element.remove );
 		var detailsRow = ArmyforgeUI.formationDetailsRowFor(formation);
@@ -1526,15 +1575,29 @@ var ArmyforgeUI = {
 		ArmyforgeUI.checkUpgradeMenuItems();
 		ArmyforgeUI.checkFormationMenuItems();
 		ArmyforgeUI.checkWarnings();
+		if (eventParams) {
+			trackArmyBuilderEvent('remove_formation', eventParams);
+		}
             }
 	},
 
-	removeUpgrade:function(upgradeType, formation) {
+	removeUpgrade:function(upgradeType, formation, actionSource) {
 		if (formation.canRemove(upgradeType)) {
+			var eventParams = actionSource ? armyBuilderEventParams(actionSource) : null;
+			if (eventParams) {
+				eventParams.formation_name = formation && formation.type && formation.type.name ? formation.type.name : '';
+				eventParams.upgrade_name = upgradeType && upgradeType.name ? upgradeType.name : '';
+				if (typeof upgradeType.pts === 'number') {
+					eventParams.upgrade_points = upgradeType.pts;
+				}
+			}
 			formation.upgrades.remove( upgradeType );
 			ArmyforgeUI.updateUpgrade(formation, upgradeType);
-			ArmyforgeUI.checkUpgradeMenuItems();		
+			ArmyforgeUI.checkUpgradeMenuItems();
 			ArmyforgeUI.checkWarnings();
+			if (eventParams) {
+				trackArmyBuilderEvent('remove_upgrade', eventParams);
+			}
 		}
 	},
 
@@ -1604,7 +1667,7 @@ var ArmyforgeUI = {
 		// preserve existing row-click behavior (remove formation) and also toggle details row
 		newRow.observe('click', function() {
 			if (Force.canRemove(formation)) {
-				ArmyforgeUI.removeFormation(formation);
+				ArmyforgeUI.removeFormation(formation, 'army_list');
 			}
 			else {
 				ArmyforgeUI.toggleFormationDetails(formation);
@@ -1658,7 +1721,7 @@ var ArmyforgeUI = {
 	
 
 		// delete event
-		newRow.observe('click', ArmyforgeUI.removeUpgrade.bind(this, upgradeType, formation));	
+		newRow.observe('click', ArmyforgeUI.removeUpgrade.bind(this, upgradeType, formation, 'army_list'));	
 		// dropdown
 		if (formation.type.replaceable(upgradeType)) {
 			var dropDown = ArmyforgeUI.createSwapPopup(formation, formation.type.optionsFor(upgradeType), upgradeType);
@@ -1688,8 +1751,8 @@ var ArmyforgeUI = {
 	},
 
 	swapUpgrade:function(formation, upgradeType, upgradeType2) {	
-		ArmyforgeUI.addUpgrade(formation, upgradeType);
-		ArmyforgeUI.removeUpgrade(upgradeType2, formation);
+		ArmyforgeUI.addUpgrade(formation, upgradeType, 'upgrade_panel');
+		ArmyforgeUI.removeUpgrade(upgradeType2, formation, 'upgrade_panel');
 	},
 
 	toggleNameEditor:function() {
