@@ -16,6 +16,7 @@
       "army_name": "Titan Legion Forces",
       "rule_name": "Imperial Void Shields",
       "source_section": "5.4.1 Imperial Void Shields",
+      "summary": "Each void shield automatically stops one point of damage and then goes down; no armour save or Blast marker is taken for stopped damage. Close combat ignores void shields, while firefight must knock shields down first. One downed shield repairs in each End phase, and regroup rolls may repair shields and/or remove Blast markers.",
       "text_blocks": [
         "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan’s datasheet. Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan. Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast markers or repair 1 shield and remove 1 Blast marker)."
       ],
@@ -59,6 +60,7 @@
       "army_name": "Eldar Forces",
       "rule_name": "Farsight",
       "source_section": "5.6.1 Farsight",
+      "summary": "A formation with a Farsight unit ignores the -1 penalty for retaining initiative. Once per turn the Eldar player may retain the initiative twice in a row, but a Farsight unit must still be on the battlefield.",
       "text_blocks": [
         "Eldar Farseers are able to partially unravel the threads of time, allowing them to foresee events that may affect his army, and act to counter them. To represent this, any Eldar formation that includes a unit with Farsight may ignore the -1 Action test penalty when they try to retain the initiative. In addition, once per turn the Eldar player may attempt to retain the initiative twice in a row (i.e. the Eldar player can retain the initiative and take another action after having successfully retained the initiative once already). Any Eldar formation may be chosen, including those that do not include a unit with Farsight, but at least one unit with Farsight must still be in play and on the battlefield. The formation must still pass an initiative test in order to carry out the action, and will suffer the -1 modifier for retaining the initiative unless it includes a unit with Farsight. Once the action has been taken the initiative returns to the opposing player."
       ],
@@ -69,6 +71,7 @@
       "army_name": "Eldar Forces",
       "rule_name": "Hit & Run Tactics",
       "source_section": "5.6.2 Hit & Run Tactics",
+      "summary": "Eldar formations taking advance or double actions may shoot either before or after each move, but only once per action. If they win an assault, they may consolidate up to their full Speed instead of 5cm.",
       "text_blocks": [
         "The Eldar are a dying race, and any loss is deeply mourned. Because of this they have developed tactics that, when combined with their highly advanced technology, allows them to attack the enemy and then quickly retire in order to avoid any return fire. This special ability is reflected by the following special rules, which apply to all formations in an Eldar army. Eldar formations that take advance or double actions may choose to shoot either before or after each move. However, they may still only shoot once during the action. For example, an Eldar formation taking an advance action could shoot and then move or move and then shoot, while a formation taking a double action could shoot and move twice, move twice and then shoot, or move then shoot and then move again. In addition Eldar formations that wins an assault are allowed to move any distance up to their speed value when they consolidate, rather than being limited to a move of 5cm as would normally be the case."
       ],
@@ -79,6 +82,7 @@
       "army_name": "Eldar Forces",
       "rule_name": "Eldar Technology",
       "source_section": "5.6.3 Eldar Technology",
+      "summary": "Holofields give Titans a 3+ save that also works against assault, Macro-Weapon, and Titan Killer hits, with one save against each Titan Killer attack. Lance prevents Reinforced Armour re-rolls. Webway Portals can keep up to three formations off-table and let them enter play through any portal, with one formation per portal per turn.",
       "text_blocks": [
         "The Eldar are a technologically sophisticated race that make use of a number of devices that have capabilities far in advance of anything used by the other races in the galaxy. These technological advantages are represented in Epic by the following special rules: Holofield Eldar Titans are protected by a Holofield that is projected from special wing-like structures on the Titan’s carapace. These fracture the image of the Titan making it appear as a swirling cloud of coloured motes to the naked eye, while at the same time disrupting any targeting devices attempting to lock onto the Titan. The overall result is to make the Titan a very hard target to hit! Holofields provide Titans with a special 3+ saving throw that can be taken instead of the Titan’s normal saving throw. This save may always be taken, even against hits in an assault or against Titan Killer or Macro-weapons attacks. Make a single saving against weapons with the Titan Killer ability, rather than a separate save for each point of damage. If a vehicle with a Holofield also has Reinforced Armour, then it is allowed to re-roll its saving throw unless hit by Lance, Macro-weapon or Titan Killer attacks, but the re-roll must be made using the units armour save rather than the Holofield save. No Blast markers are placed for hits that are saved by a Holofield. Lance A Lance uses a highly concentrated beam of laser energy to destroy heavily armoured targets. A unit with Reinforced Armour that is hit by a Lance weapon is not allowed to re-roll its saving throw. Webway Portal Webway portals are used by the Eldar to safely travel through the Warp. Each Webway Portal included in the army allows the Eldar player to pick up to three other formations, and keep them back on the Craftworld. Any formation’s that are kept on the Craftworld may enter play via the Webway Portal, by taking an action that allows them to make a move, and then measuring their first move from the position that a Webway Portal occupies on the tabletop. Note that the formation may appear through any Webway Portal, not just the one that was used to allow the formation to be kept off-board. No more than one formation may travel through each Webway Portal each turn. In the Epic Tournament Game Rules formations in reserve with multiple deployment options must have a designated deployment method during setup (e.g. Webway Portal, air transport or teleport)."
       ],
@@ -105,6 +109,7 @@
       "army_name": "Feral Ork Forces",
       "rule_name": "Mob Rule",
       "source_section": "5.8.1 Mob Rule",
+      "summary": "Feral Ork formations get +1 to Rally rolls if they have more than 5 eligible units, or +2 if they have more than 10. Do not count Grotz or Squig Katapultz. War Engines count each point of starting DC as one unit.",
       "text_blocks": [
         "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up too is ideal) then there’s always a chance that they’ll prevail, no matter the odds. To represent this Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Grotz or Squig Katapultz units, receive a +1 modifier to any Rally rolls they make, and formations with more than 10 such units receive a +2 modifier. For the purposes of this rule War Engines count each point of starting damage capacity as a unit."
       ],
@@ -115,6 +120,7 @@
       "army_name": "Feral Ork Forces",
       "rule_name": "Power of the Waaagh!",
       "source_section": "5.8.2 Power of the Waaagh!",
+      "summary": "Ork formations get +2 to Action tests when attempting Charge or Double actions.",
       "text_blocks": [
         "Orks are not noted for their organisational abilities, and thus usually have a pretty low Initiative rating. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up. Because of this Ork formations that are attempting to take Charge or Double actions receive a +2 modifier to their Action test roll."
       ],
@@ -147,6 +153,7 @@
       "army_name": "Dark Eldar Forces",
       "rule_name": "Hit & Run Tactics",
       "source_section": "5.13.1 Hit & Run Tactics",
+      "summary": "Dark Eldar formations taking advance or double actions may shoot either before or after each move, but only once per action. If they win an assault, they may consolidate up to their full movement instead of 5cm.",
       "text_blocks": [
         "The Dark Eldar are piratical raiders from the depths of the Dark City and the treacherous expanses of space. Due to their limited population, losses simply cannot be sustained at length. Because of this they have developed tactics that when combined with their highly advanced technology allows them to attack the enemy and then quickly retire in order to avoid any return fire. This ability is reflected by the following special rules, which apply to all formations in a Dark Eldar army: Dark Eldar formations that take advance or double actions may choose to shoot either before or after each move. However, they may still only shoot once during the action. For example, a Dark Eldar formation taking an advance action could shoot and then move or move and then shoot, while a formation taking a double action could shoot and move twice, move twice and then shoot, or move then shoot and then move again. In addition, a Dark Eldar formation that wins an assault is allowed to move up to their full movement when they consolidate, rather than being limited to a move of 5cm as would normally be the case."
       ],
@@ -157,6 +164,7 @@
       "army_name": "Dark Eldar Forces",
       "rule_name": "Fleet of Foot",
       "source_section": "5.13.2 Fleet of Foot",
+      "summary": "Dark Eldar formations do not suffer the usual penalties after a March action. They may still support assaults, claim crossfire, and fire flak after marching.",
       "text_blocks": [
         "With eons in which to practice pirating techniques upon the mon-keigh of the galaxy, the Dark Kin have honed the skill of squeezing every bit of advantage from a lightning style attack. To represent this, Dark Eldar formations do not incur the typical penalties that other races would after taking a March action. Dark Eldar formations that have marched may lend support in assaults, help claim a crossfire bonus, and even fire flak shots."
       ],
@@ -167,6 +175,7 @@
       "army_name": "Dark Eldar Forces",
       "rule_name": "Dark Eldar Technology",
       "source_section": "5.13.3 Dark Eldar Technology",
+      "summary": "Webway Portals let up to three formations stay in Commorragh and enter through any portal, with one formation per portal per turn; Wraithgates are limited to infantry, light vehicles, and walkers, except Kashnarak. Shadowfields absorb one hit without a Blast marker, regenerate one field each rally phase while any remain, and give the war engine cover while active.",
       "text_blocks": [
         "Webway Portals These smallish portals are used by the Dark Eldar as much as the Eldar. Allowing safe travel through the Warp, each Webway portal included in the army allows the Dark Eldar player to keep up to three formations back in Commorragh. Any of these reserve formations may enter play via a Webway portal by taking an action that allows them to move, then measuring its first move from the portal on the tabletop. No more than one formation may travel through a single portal each turn. Wraithgate use is limited to formations made up exclusively of infantry, light vehicles, and armored vehicles with the walker ability (The feared Kashnarak is the exception to the rule). Shadowfields Dark Eldar war engines are shrouded in light absorbing energy fields which serve as a powerful defence against the massed guns of their cornered prey. Each shadowfield will absorb one successful hit before going down; no blast markers are caused for this hit (this includes firefight but not close combat). A war engine with at least one shadowfield remaining automatically regains an additional field at the end of the rally phase of each turn. If the shadowfields are completely knocked out, they will not return for the remainder of the game. The war engine can never have more shadowfields than originally allotted. In addition an active Shadowfield always counts as being in cover (apply -1 cover modifier). This has no effect on their engagements, however, either in close combat or firefight."
       ],
@@ -179,6 +188,7 @@
       "army_name": "Necron Forces",
       "rule_name": "Necron Technology",
       "source_section": "5.15.1 Necron Technology",
+      "summary": "Necron units with Necron can regenerate destroyed units in the End phase and can use regroup rolls to return units, remove Blast markers, or both; off-board formations may only remove Blast markers. Necron Portals let reserves enter or leave through a portal, with only one portal use per turn per portal, and Living Metal gives a 4+ save like Invulnerable Saves.",
       "text_blocks": [
         "Necron Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet. Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn, before all formations attempt to rally, either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove blast markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 blast markers, or return 1 unit and remove 1 blast marker). Formations off board are restricted to using their regroup function to remove blast markers only. Portal Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves. Necron Portals can only be used by armoured vehicles with walker , infantry, or light vehicles units. Each portal can be used only once per turn for either entering or exiting the battlefield, not for both. Thus a formation may enter one portal with part of their movement, and exit from a second, unused portal, continuing their movement from that portal. If, at the end of the movement, a unit is out of formation it is destroyed (see Formations ). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t. Living Metal Units made of living metal receive a second save. This save functions exactly like an invulnerable save except that it is a 4+ save rather than a 6+."
       ],
@@ -191,6 +201,7 @@
       "army_name": "Necron Forces",
       "rule_name": "Implacable Advance",
       "source_section": "5.15.2 Implacable Advance",
+      "summary": "Necron formations get +1 to Marshal actions and cannot take March actions.",
       "text_blocks": [
         "The Necron are an offensive army, always on the advance, stopping only to eliminate enemy positions before moving on to harvest others. While subject to disruption from losses and enemy fire, the mechanical nature of the Necron permits them to easily reorganize to maintain the offensive momentum. Necron formations receive a +1 bonus to Marshal actions. Due to their steady, deliberate, nature Necron formations cannot take a March action."
       ],
@@ -203,6 +214,7 @@
       "army_name": "Necron Forces",
       "rule_name": "Phase Out",
       "source_section": "5.15.3 Phase Out",
+      "summary": "Broken Necron formations are removed to reserves in the End phase, then rally there and may re-enter by teleport or portal. If no portal is available they stay in reserves, and only C’tan and Necron War Engines can ignore phase out.",
       "text_blocks": [
         "When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence. In the end phase of the turn, remove the formation from the board into the reserves, but keep it away from any destroyed units. The formation will roll to rally in the end phase, handling blast markers as per the core rules. It may re-enter by teleporting, or through a portal. If there are not enough portals to deal with all the off-table formations, then the formation must remain off the table until a portal is available for it to use. If the rally roll fails, the formation must remain in the reserves until it rallies. Note that with the exception of the C’tan, no Necron War Engines may phase out."
       ],
@@ -226,6 +238,7 @@
       "army_name": "Tau Forces",
       "rule_name": "Coordinated Fire",
       "source_section": "5.19.1 Coordinated Fire",
+      "summary": "A unit with Coordinated Fire can call up to two other eligible formations within 15cm to follow its advance, double, or sustained fire action. One initiative test covers all formations; if it fails only the calling formation takes a Blast marker and holds, and if it passes all formations act and must fire at the same target.",
       "text_blocks": [
         "Some units are noted as being able to call in coordinated fire . These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action. Make a single initiative roll for all formations, counting a single -1 modifier if any have blast markers. If the test is failed then the original formation (containing the unit calling for coordinated fire) receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn). If the test is passed then all formations concerned are allowed to take either an advance, double or sustained fire action. There is no obligation for all formations to take the same action, and these actions may be resolved in any order, but they must all fire at the same target formation. The formations don’t have to stay within a given distance of each other and will complete their actions one after the other. Each formations action is declared and resolved (including testing to see if the target formation is broken) before moving on to the next Tau formation. Note that units with this ability confer the coordinated fire ability to any formation that they join. For example, a Pathfinder upgrade purchased to be added to a Fire Warrior Cadre, adds the coordinated fire ability to all units in the Cadre."
       ],
@@ -236,6 +249,7 @@
       "army_name": "Tau Forces",
       "rule_name": "Tau Technology",
       "source_section": "5.19.2 Tau Technology",
+      "summary": "Deflector Shields are 5+ invulnerable saves. Guided Missiles need a marked target and line of fire can be ignored if marked. Markerlights mark enemy formations within 30cm and line of fire, giving +1 to hit with ranged attacks except AA, and broken or marched Tau cannot mark. Tau Jet Packs follow Jump Pack rules and add a 10cm post-move after advance, double, or march.",
       "text_blocks": [
         "Deflector Shield Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+. Guided Missiles Guided missiles may only be fired at a target formation that is marked , but guided missiles may be fired without line of fire if the target is marked. Markerlights All enemy formations with at least one unit within 30cm range and line of fire (Line of Fire) of at least one Tau unit with the markerlights ability is considered to be marked . When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll. This bonus for shooting at a marked enemy may not be used when making Anti-Aircraft attacks. A Tau formation that is broken or marched this turn may not mark an enemy formation. Tau Jet Packs Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or march. In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move."
       ],
@@ -248,6 +262,7 @@
       "army_name": "Tyranid Forces",
       "rule_name": "Xeno-Sociology",
       "source_section": "5.21.1 Xeno-Sociology",
+      "summary": "Brood units destroyed go to the swarm pool and can be returned by swarming using brood values. Synapse formations generate swarm points after regrouping or in the End phase; if broken or within 30cm of enemies, swarm points are halved, and if both apply the formation cannot swarm. Returned units must be placed within 5cm, not in enemy ZOC or impassable terrain.",
       "text_blocks": [
         "A Tyranid invasion is more akin to an infestation. Lesser creatures are everywhere, whether because they were separated from a swarm or because they just made planetfall via a Mycetic Spore. These creatures instinctively seek out the psychic conduits of the Hive Mind that are the synapse creatures. This is represented by the following rules: Brood Units with brood (brood units) are placed in the army’s off-board swarm pool when they are destroyed. These units may be returned to play via swarming for a number of swarm points equal to their brood value. This is the number in parenthesis after Brood . Synapse Formations that contain at least one unit with synapse (a synapse unit) may return brood units from the swarm pool to play via swarming. Each synapse unit has a synapse value, the number in parenthesis after Synapse . Some characters are noted as having Synapse (+x). These increase the synapse value of the unit they are added to by a number equal to x . Swarming After a formation regroups, or in the End phase after all formations have rallied, a formation with at least one synapse unit may swarm . Total up all the synapse values in the formation, this is the number of swarm points available to the formation. Units with brood in the swarm pool may be returned to play for a number of swarm points equal to their brood value. If a formation is broken or within 30cm of enemy units halve the number of swarm points available to it, rounding up. If a formation is broken and within 30cm of enemy units then it may not swarm. All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to swarming. These units may not be placed in enemy zone of control or in impassable terrain. Not all of the swarm points available need to be used, but any leftover are discarded."
       ],
@@ -260,6 +275,7 @@
       "army_name": "Tyranid Forces",
       "rule_name": "Xeno-Biology",
       "source_section": "5.21.2 Xeno-Biology",
+      "summary": "Brood Nests let up to three formations remain in reserve and enter through a nest, with one formation per nest per turn and special handling if the entry point is in enemy ZOC. Tyranid armored vehicles and war engines ignore dangerous terrain, light vehicles count as infantry for terrain, and Regeneration restores 1 DC in the End phase up to starting DC.",
       "text_blocks": [
         "The biology of Tyranids gives them certain benefits on the field of battle which are represented by the following rules: Brood Nest Each Brood Nest included in the army allows the Tyranid player to pick up to three formations to be kept off-board, in reserve, and enter play through a Brood Nest. These formations may enter play by taking an action that allows them to make a move, and then measuring their first move from a point on a Brood Nest declared at the start of the game. No more than one formation may enter play through each Brood Nest each turn. If the entry point on a Brood Nest is in the zone of control of enemy units a formation may only enter play via an engage action and must move into base contact with all enemy units that have the entry point in their zone of control. Once these enemy units are contacted and lose their zone of control any remaining units that are entering play may use their charge move without this additional restriction. If a formation fails the action test that would bring it on to the board, it must use the hold action to move on to the board if it is able. If this is not possible due to the entry point being in an enemy unit’s zone of control then the formation takes a Blast marker and loses its action. In the Epic tournament game rules formations in reserve with multiple deployment options (e.g. Brood Nest, teleport, tunneler) must be declared at the start of the game to be entering play only via one of these options. Mobility Tyranid armored vehicle and war engine units do not take dangerous terrain tests. In addition, Tyranid light vehicle units count as infantry for the purposes of terrain (see Terrain ). Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally. Regeneration War engine units with regeneration can regain lost damage capacity points. Each unit with regeneration regains one damage capacity point at the beginning of each turn’s end phase. Regeneration cannot be used by a destroyed unit nor may it increase a unit’s damage capacity beyond the starting amount."
       ],
@@ -273,6 +289,7 @@
       "army_name": "Adeptus Mechanicus Titan Legion Forces",
       "rule_name": "Automaton",
       "source_section": "5.22.1 Automaton",
+      "summary": "Automaton units do not give their formation a Blast marker when destroyed, including first crossfire casualty and out-of-formation destruction. Disrupt hits on Automaton still place Blast markers. Automaton units can save against broken-formation Blast marker hits and count as kills in assault results.",
       "text_blocks": [
         "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however. If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker (see Blast Markers and Broken Formations ) then it may attempt to save normally. Automaton units killed in an assault count for the purposes of working out its result (see Work Out Result )."
       ],
@@ -285,6 +302,7 @@
       "army_name": "Adeptus Mechanicus Titan Legion Forces",
       "rule_name": "Weapon Mount",
       "source_section": "5.22.2 Weapon Mount",
+      "summary": "A weapon mount may be fitted with one weapon; when mounted, it gains that weapon’s abilities and special rules while retaining its own.",
       "text_blocks": [
         "Weapon Mounts are areas on a unit that may be fitted with weapon systems. When a weapon mount is mounted with a weapon (a character unit) it gains all the abilities and special rules of the weapon while retaining any of its own. A weapon mount may only be mounted with one weapon."
       ],
@@ -360,6 +378,7 @@
       "army_name": "Space Wolf Forces",
       "rule_name": "Pack Mentality",
       "source_section": "5.26.1 Pack Mentality",
+      "summary": "Space Wolf units with Commander can order up to three formations to join an assault if each has a unit within 10cm of the commander’s formation.",
       "text_blocks": [
         "Space Wolves prefer to fight up close to the enemy and therefore never back down when a friendly pack needs help during an engagement. Space Wolf units with Commander can order up to three formations of troops to follow them when they make an assault, as long as all the formations have at least one unit within 10cm of a unit from the commander’s formation."
       ],
@@ -392,6 +411,7 @@
       "army_name": "Squat Forces",
       "rule_name": "Directed",
       "source_section": "5.36.1 Directed",
+      "summary": "Directed weapons can fire without line of fire at enemy units seen by a Spotter in their formation; if doing so, minimum range is 30cm.",
       "text_blocks": [
         "Directed weapons do not require a line of fire to enemy units that a Spotter (see Spotter ) in their unit’s formation has a line of fire to. If firing without a line of fire at one of these units then the weapon has a minimum range of 30cm."
       ],
@@ -402,6 +422,7 @@
       "army_name": "Squat Forces",
       "rule_name": "Spotter",
       "source_section": "5.36.2 Spotter",
+      "summary": "A Spotter allows Directed weapons in its formation to fire at enemy units the Spotter can see.",
       "text_blocks": [
         "A Spotter allows Directed weapons (see Directed ) on units in their formation to fire at enemy units that it has a line of fire to."
       ],
@@ -434,6 +455,7 @@
       "army_name": "Ghazghkull Mag Uruk Thraka’s Ork War Horde",
       "rule_name": "Ork Warlords",
       "source_section": "6.5.1 Ork Warlords",
+      "summary": "Every Ork army gets a free Warlord Supreme Commander. If the army has Great Gargants it must join one; otherwise it joins a Nobz or Gargant unit.",
       "text_blocks": [
         "Every Ork army must include a Supreme Command character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. If the army includes any Great Gargants, then the Warlord must be placed in one of them. If there are no Great Gargants in the army then the Warlord will join a Nobz or a Gargant unit."
       ],
@@ -444,6 +466,7 @@
       "army_name": "Ghazghkull Mag Uruk Thraka’s Ork War Horde",
       "rule_name": "Battlefortresses & Gunfortresses",
       "source_section": "6.5.2 Battlefortresses & Gunfortresses",
+      "summary": "In tournament games, Battlefortresses and Gunfortresses may only transport units from their own formation.",
       "text_blocks": [
         "In tournament games, these units may only transport units from their own formation (i.e., the rules for War Engine transports do not apply to them when using the tournament army lists)."
       ],
@@ -454,6 +477,7 @@
       "army_name": "Eldar Biel-Tan Craftworld",
       "rule_name": "May Not Garrison",
       "source_section": "6.6.1 May Not Garrison",
+      "summary": "Only Eldar Rangers and War Walkers may garrison objectives in the Epic tournament game scenario.",
       "text_blocks": [
         "The Eldar are a highly mobile army, and rarely have enough forces to try to take and hold ground. Because of this, instead of maintaining a heavily garrisoned front line, they will usually rely on a screen of Rangers and War Walkers to warn of the approach of any enemy forces. Meanwhile the bulk of the highly mobile Eldar army will be held back in reserve, where it will be ready to move quickly to any threatened sector. This tactic allows the Eldar to hold large areas of ground with relatively few troops. To represent these tactics, only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
       ],
@@ -488,6 +512,7 @@
       "army_name": "Warlord Snagga Snagga’s Feral Ork Horde",
       "rule_name": "Feral Ork Epic Tournament Special Rules",
       "source_section": "6.8.1 Feral Ork Epic Tournament Special Rules",
+      "summary": "Every Feral Ork army includes a free Warlord Supreme Commander, assigned to the formation with the most units; War Engines count starting DC for this, and ties are chosen by the player. Orkeosaurus in warbands may only transport units from their own formation. The army may field a Trappa formation, and all units in it have Scout.",
       "text_blocks": [
         "Every Ork army must include a Supreme Command character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. The Warlord will join the formation with the most units in the army. War Engines count their starting Damage Capacity towards the formation size. If there is a tie you may choose which warband the Warlord will join. Orkeosaurus that are part of a warband may only transport units from their own formation. Feral Ork armies are allowed to field a Trappa formation. This formation represents Ork Wildboyz using their skills to scout ahead of the main army. Because of this all units in the formation have scout ."
       ],
@@ -509,6 +534,7 @@
       "army_name": "Burning Death Speed Freeks",
       "rule_name": "Speed Freek Epic Tournament Special Rules",
       "source_section": "6.10.1 Speed Freek Epic Tournament Special Rules",
+      "summary": "Every Speed Freek army includes a free Mekboy Bad Ork Bikerboy that may be added to any formation. Every unit must either have Speed 30cm+ or be transported in a 30cm+ unit. The army may field a Warbike Outriders formation, and all units in it have Scout.",
       "text_blocks": [
         "Every Speed Freek Ork army must include a Mekboy Bad Ork Bikerboy unit. The unit is free, you don’t have to pay any points for him, and it can be added to any formation in the army. Every unit in a Speed Freek army must either have a speed of 30cms plus, or be transported in a unit with a speed of 30cm plus. In other words, formations may not include units with a speed of less than 30cm unless they also have a transport vehicle capable of carrying the unit around. Burning Death Speed Freek armies are allowed to field a Warbike Outriders formation. All units in the formation have scout ."
       ],
@@ -565,6 +591,7 @@
       "army_name": "Kabal of Pain’s Way Dark Eldar",
       "rule_name": "Kabal of Pain’s Way Epic Tournament Special Rules",
       "source_section": "6.13.1 Kabal of Pain’s Way Epic Tournament Special Rules",
+      "summary": "Dark Eldar may not garrison formations in the Epic tournament game scenario. Corsair Class Escorts form a single squadron and may combine their Orbital Bombardments into one strike or fire separately without overlapping templates.",
       "text_blocks": [
         "Dark Eldar forces are raiders by nature and rarely have an interest in holding ground. The swiftness of their vehicles and the deadly nature of their attacks are revealed quickly to their victims who watch the Dark Eldar disappear as quickly as they came. To represent these tactics, the Dark Eldar are forbidden from garrisoning any formations in the Epic tournament game scenario. Corsair Class Escorts form a single squadron and act in the same manner as a single spacecraft. They may combine their Orbital Bombardments into a single strike, or fire separately (templates may not overlap)."
       ],
@@ -575,6 +602,7 @@
       "army_name": "Kabal of Pain’s Way Dark Eldar",
       "rule_name": "Dark Eldar Transport",
       "source_section": "6.13.2 Dark Eldar Transport",
+      "summary": "Plus-transport formations may choose from the Dark Eldar transport section, but only enough units to carry the formation may be taken and unused transport space should be avoided. The Slavebringer must be assigned to one formation during army creation.",
       "text_blocks": [
         "Any Dark Eldar formation that includes plus transport may choose from the Dark Eldar Transport section. You may only take as many transport units as are required to carry the entire formation, including upgrades, with no extra spaces if possible. You may select no transport at all if desired. The Slavebringer is an independent war engine that must be assigned to a specific Dark Eldar formation during army creation."
       ],
@@ -608,6 +636,7 @@
       "army_name": "Scarab Conflict Necron",
       "rule_name": "Scarab Conflict Necron Army Epic Tournament Special Rules",
       "source_section": "6.15.1 Scarab Conflict Necron Army Epic Tournament Special Rules",
+      "summary": "Necron formations may be held in reserve, but non-teleport formations can only enter by portals. Any formation in reserves or broken counts as destroyed for tiebreak and Break Their Spirit. Tomb Complexes are the only garrison exception, and they may garrison up to two Infantry Phalanxes.",
       "text_blocks": [
         "Necron Reserves Any Necron formation may be held back in reserve (with the exception of the Aeonic Orb and Abattoir) if you are playing the Epic Tournament scenario. Note that formations that do not have teleport will only be able to enter play through portals. Any Necron formation in the reserves for any reason (either because it has not yet entered play or it is broken) is considered destroyed for the purpose of tiebreak, or the Break Their Spirit goal. Garrisons The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. To represent that a tomb may contain active Necron, the player may choose to garrison up to two Infantry Phalanx formations at the Tomb Complex."
       ],
@@ -644,6 +673,7 @@
       "army_name": "Tau Third Phase Expansion",
       "rule_name": "Tiger Shark Gun Drones",
       "source_section": "6.19.1 Tiger Shark Gun Drones",
+      "summary": "Tiger Shark Squadrons may carry Gun Drone formations, which can be split across multiple Tiger Sharks. Tiger Sharks cannot land, engage, or embark, but can disembark the Gun Drones after an approach move; the drones activate when they disembark and do not generate Blast markers for destruction until then.",
       "text_blocks": [
         "Tiger Shark Squadrons may be given a Gun Drone formation to transport. Transported Gun Drone formations may be split across multiple Tiger Sharks as an exception to the normal aircraft transport rules. The Tiger Sharks cannot land, make an engagement, or embark units, but can disembark transported Gun Drones after an approach move. The Gun Drone formation may shoot when it disembarks as normal (see Transporting Ground Units ), and counts as having activated for that turn. After this initial deployment the Gun Drones are a completely independent formation. Gun Drones being transported by Tiger Sharks do not generate blast markers for being destroyed until after they are disembarked."
       ],
@@ -654,6 +684,7 @@
       "army_name": "Eldar Alaitoc Craftworld",
       "rule_name": "Trail Blazing",
       "source_section": "6.20.1 Trail Blazing",
+      "summary": "Only Alaitoc Pathfinders, Rangers, and War Walkers may garrison objectives. Alaitoc Rangers count as Guardians for transport purposes.",
       "text_blocks": [
         "Only Alaitoc Eldar Pathfinders, Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario. Additionally, Alaitoc Ranger units count as Guardians for the purposes of transport."
       ],
@@ -666,6 +697,7 @@
       "army_name": "Hive Fleet Onachus Tyranid",
       "rule_name": "The Hive Mind",
       "source_section": "6.21.1 The Hive Mind",
+      "summary": "Synapse swarms ignore brood units for tiebreaks. A synapse swarm with no synapse units has Initiative 3+ and cannot capture objectives; with synapse units it ignores the broken rally penalty and may absorb other empty synapse swarms at the end of its action, destroying the absorbed formation for tiebreak and Break Their Spirit.",
       "text_blocks": [
         "The Hive Mind of the Tyranids is a single coordinating sentience. Its influence is projected through synapse creatures that communicate with their lesser kin via a form of telepathy. Under the control of synapse creatures the slave organisms act in perfect unison. However, should the synapse creatures be slain the basic creatures revert to their animalistic behaviors until other synapse creatures can exert control over them. This is represented by the following rules for synapse swarm, not independent swarm or war engine , formations: Synapse swarms ignore brood units for the purposes of determining formation strength during tiebreak. A synapse swarm with no synapse units has an initiative of 3+ and may not capture objectives. A synapse swarm with at least one synapse unit ignores the -2 modifier for being broken when it is attempting to rally. Additionally, it can absorb other synapse swarm formations with no synapse units at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and blast markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tiebreak and the Break Their Spirit goal."
       ],
@@ -676,6 +708,7 @@
       "army_name": "Hive Fleet Onachus Tyranid",
       "rule_name": "Vanguard Organisms",
       "source_section": "6.21.2 Vanguard Organisms",
+      "summary": "Only Genestealer and Lictor Swarm formations may start the game as garrisons.",
       "text_blocks": [
         "Only Genestealer and Lictor Swarm formations may be set up on the table as garrisons at the start of the Epic tournament game scenario."
       ],
@@ -686,6 +719,7 @@
       "army_name": "War Griffons Titan Legion",
       "rule_name": "War Griffons Epic Tournament Special Rules",
       "source_section": "6.22.1 War Griffons Epic Tournament Special Rules",
+      "summary": "All Weapon Mounts in Scout or Battle Titan formations must be fitted, and each such formation must select at least two different weapons or pay +25 points.",
       "text_blocks": [
         "All Weapon Mounts in a Scout or Battle Titan formation must be mounted with a weapon. In addition, each Scout or Battle Titan formation must select at least two different weapons or pay a surcharge of an additional +25 points."
       ],
@@ -698,6 +732,7 @@
       "army_name": "House Lakar Knight World Defense Force",
       "rule_name": "Bravery",
       "source_section": "6.23.1 Bravery",
+      "summary": "Knight Household and Support Household formations get +1 to Engage action tests and +1 to rally tests.",
       "text_blocks": [
         "Knight Household and Support Household formations receive a +1 modifier to their action test when carrying out an engage action, and a +1 modifier to their rally test."
       ],
@@ -741,6 +776,7 @@
       "army_name": "Emperor's Children Chaos Space Marine",
       "rule_name": "Emperor's Children Epic Tournament Special Rules",
       "source_section": "6.27.1 Emperor's Children Epic Tournament Special Rules",
+      "summary": "All formations owe allegiance to Slaanesh. The army uses the daemon summoning cost table below for lesser and greater daemons.",
       "text_blocks": [
         "All formations in an Emperor’s Children army owe allegiance to Slaanesh. The summoning point costs for an Emperor’s Children army are below. Lesser Daemons Summoning Points Daemonettes 1 Fiends of Slaanesh 1 Steeds of Slaanesh 2 Greater Daemons Summoning Points Keeper of Secrets 8"
       ],
@@ -751,6 +787,7 @@
       "army_name": "Eldar Saim-Hann Craftworld Army List",
       "rule_name": "Saim-Hann Epic Tournament Special Rules",
       "source_section": "6.28.1 Saim-Hann Epic Tournament Special Rules",
+      "summary": "Aspect Warrior infantry other than Swooping Hawks and Warp Spiders must be transported in Wave Serpents or Falcons, or enter via a Webway Portal. Only Scout Rider formations may garrison objectives.",
       "text_blocks": [
         "All infantry units in Aspect Warrior formations (apart from Swooping Hawks and Warp Spiders) must be transported in Wave Serpents and/or Falcons, or be entering play via a Webway Portal. Only Scout Rider formations are allowed to garrison objectives in the Epic tournament game scenario."
       ],
@@ -761,6 +798,7 @@
       "army_name": "Red Corsairs",
       "rule_name": "Red Corsairs Epic Tournament Special Rules",
       "source_section": "6.29.1 Red Corsairs Epic Tournament Special Rules",
+      "summary": "All formations owe allegiance to Chaos Undivided. The army uses the daemon summoning cost table below for lesser and greater daemons.",
       "text_blocks": [
         "All formations in a Red Corsairs army owe allegiance to Chaos Undivided. The summoning point costs for a Red Corsairs army are below. Lesser Daemons Summoning Points Minor Daemons 1 Greater Daemons Summoning Points Greater Daemon 6"
       ],
@@ -784,6 +822,7 @@
       "army_name": "Gryphonne IV Skitarii Legion",
       "rule_name": "Gryphonne IV Skitarii Legion Epic Tournament Special Rules",
       "source_section": "6.32.1 Gryphonne IV Skitarii Legion Epic Tournament Special Rules",
+      "summary": "All Weapon Mounts in Mechanicus ally formations or on Ordinatus Minorus units must be fitted. Ordinatus Minorus mounts must use Battle Titan Weapons, with surcharges for a Carapace Landing Pad and Quake Cannon.",
       "text_blocks": [
         "All Weapon Mounts in a Mechanicus ally formation or on an Ordinatus Minorus unit must be mounted with a weapon. Ordinatus Minorus Weapon Mounts must be Battle Titan Weapons; and pay surcharges of an additional +50 points for a Carapace Landing Pad and +25 points for a Quake Cannon."
       ],
@@ -833,6 +872,7 @@
       "army_name": "Ordo Xenos Inquisition",
       "rule_name": "Deathwatch Transports",
       "source_section": "6.35.1 Deathwatch Transports",
+      "summary": "Deathwatch formations with plus transport get the minimum Rhinos needed after upgrades, with no extras. They may instead deploy on foot, in a Thunderhawk, or replace Rhinos with Deathwatch Drop Pods before each game. Drop Pod planetfall formations may add Corvus Blackstars that planetfall alongside them and do not need separate transport.",
       "text_blocks": [
         "The Deathwatch is a highly mobile army. Because of this, the points cost of certain formations includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover the loss of other transports. Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Formations that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so. You may choose to replace a formation’s Rhinos with Deathwatch Drop Pods before each game, after the opposing army is known but before objectives are placed. Formations making a planetfall via Deathwatch Drop Pods (or by another unit with that ability) may be upgraded with Corvus Blackstars, these are assumed to make planetfall alongside the infantry and do not need to be transported in another unit with planetfall ."
       ],
@@ -843,6 +883,7 @@
       "army_name": "Ordo Xenos Inquisition",
       "rule_name": "Ordo Xenos Epic Tournament Special Rules",
       "source_section": "6.35.2 Ordo Xenos Epic Tournament Special Rules",
+      "summary": "Landing Craft and Thunderhawk Gunships may only transport Deathwatch detachments.",
       "text_blocks": [
         "Landing Craft and Thunderhawk Gunships may only transport Deathwatch detachments. They are not configured to transport inducted Imperial Guard vehicles nor are Imperial Guardsmen or Inquisitorial agents trained in the proper boarding procedures for Adeptus Astartes aircraft."
       ],
@@ -853,6 +894,7 @@
       "army_name": "Grindel Stronghold Squat",
       "rule_name": "Iron-willed",
       "source_section": "6.36.1 Iron-willed",
+      "summary": "All formations except Guild Robot Squadrons get +1 to rally tests.",
       "text_blocks": [
         "All formations except for Guild Robot Squadrons receive a +1 modifier to their Rally tests."
       ],
@@ -863,6 +905,7 @@
       "army_name": "Grindel Stronghold Squat",
       "rule_name": "Squat Transports",
       "source_section": "6.36.2 Squat Transports",
+      "summary": "Brotherhood Rhino, Termite, and Mole upgrades must be the minimum required after other upgrades. Termites and Moles may be combined, but Rhinos may not be combined with Termites or Moles.",
       "text_blocks": [
         "If a Squat Brotherhood takes Rhino upgrades it must be the minimum number required to transport the entire formation after all other upgrades have been added. The same holds true for Termite and Mole upgrades. While Termites and Moles may be taken together, Rhinos may not be taken with Termites and Moles."
       ],
@@ -873,6 +916,7 @@
       "army_name": "Grindel Stronghold Squat",
       "rule_name": "Grindel Stronghold Squat Army Epic Tournament Special Rules",
       "source_section": "6.36.3 Grindel Stronghold Squat Army Epic Tournament Special Rules",
+      "summary": "Guild Robot Squadron units may not capture objectives. In tournament games, Moles may only transport units from their own formation.",
       "text_blocks": [
         "Guild Robot Squadron Units in Guild Robot Squadron formations may not capture objectives. Moles In tournament games, Moles may only transport units from their own formation (the rules in Transport War Engines do not apply to them)."
       ],
