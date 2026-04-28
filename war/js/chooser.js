@@ -2196,6 +2196,28 @@ var ArmyforgeUI = {
 		});
 	},
 
+	printV2RuleBodyBlocks:function(rule) {
+		if (!rule) {
+			return [];
+		}
+		if (rule.summary) {
+			return ArmyforgeUI.printV2RuleTextBlocksFromText(rule.summary);
+		}
+		if (rule.text_blocks && rule.text_blocks.length) {
+			return rule.text_blocks;
+		}
+		if (rule.text) {
+			return ArmyforgeUI.printV2RuleTextBlocksFromText(rule.text);
+		}
+		if (rule.body) {
+			return ArmyforgeUI.printV2RuleTextBlocksFromText(rule.body);
+		}
+		if (rule.body_blocks && rule.body_blocks.length) {
+			return rule.body_blocks;
+		}
+		return [];
+	},
+
 	printV2RuleMatchesProfileText:function(rule, text) {
 		var haystack = ' ' + ArmyforgeUI.printV2NormalizeText(text) + ' ';
 		if (!haystack.strip()) {
@@ -2341,13 +2363,27 @@ var ArmyforgeUI = {
 	renderPrintV2RulesAppendix:function(profiles) {
 		var appendix = new Element('div', {'class':'printV2RulesAppendix'});
 		appendix.insert(new Element('div', {'class':'printV2AppendixTitle'}).update('Rules appendix'));
+		appendix.insert(new Element('div', {'class':'printV2RulesNote'}).update('Rules are condensed for play reference. Check the official rules text for edge cases.'));
 		var armyRules = ArmyforgeUI.printV2ArmyRulesForCurrentList();
+		var uniqueArmyRules = [];
+		var seenArmyRules = {};
+		armyRules.each(function(rule) {
+			var identity = [
+				ArmyforgeUI.printV2NormalizeText(rule.army_key || rule.name || rule.rule_name || ''),
+				ArmyforgeUI.printV2NormalizeText(rule.source_section || ''),
+				ArmyforgeUI.printV2NormalizeText(rule.summary || rule.text || (rule.text_blocks || []).join(' '))
+			].join('|');
+			if (!seenArmyRules[identity]) {
+				seenArmyRules[identity] = true;
+				uniqueArmyRules.push(rule);
+			}
+		});
 		var usedGlobalRules = ArmyforgeUI.printV2UsedGlobalRules(profiles);
-		appendix.insert(ArmyforgeUI.printV2RenderRulesSection('Army-specific rules', armyRules, function(rule) {
-			return rule.text_blocks || [];
+		appendix.insert(ArmyforgeUI.printV2RenderRulesSection('Army-specific rules', uniqueArmyRules, function(rule) {
+			return ArmyforgeUI.printV2RuleBodyBlocks(rule);
 		}));
 		appendix.insert(ArmyforgeUI.printV2RenderRulesSection('Used unit/global rules', usedGlobalRules, function(rule) {
-			return ArmyforgeUI.printV2RuleTextBlocksFromText(rule.text);
+			return ArmyforgeUI.printV2RuleBodyBlocks(rule);
 		}));
 		return appendix;
 	},

@@ -5,6 +5,7 @@
       "army_name": "Space Marine Forces",
       "rule_name": "They Shall Know No Fear",
       "source_section": "5.1.1 They Shall Know No Fear",
+      "summary": "It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation. Space Marine formations count half their Blast markers in assaults, halve extra hits suffered when losing an assault, rally with Blast markers equal to the number of units, and units with Leader remove 2 Blast markers instead of 1.",
       "text_blocks": [
         "Space Marines are renowned for their tenacity and bravery. This is represented by the following rules: It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers). Space Marine formations are only broken if they have 2 Blast markers per unit in the formation. Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in favour of the Space Marines. When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader special ability remove 2 Blast markers instead of 1."
       ],
@@ -25,6 +26,7 @@
       "army_name": "Ork Forces",
       "rule_name": "Mob Rule",
       "source_section": "5.5.1 Mob Rule",
+      "summary": "Ork formations get +1 to rally rolls if they have more than 5 eligible units, or +2 if they have more than 10. Do not count Gretchin or Big Gunz. War engines count each point of starting DC as one unit.",
       "text_blocks": [
         "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than 10 such units receive a +2 modifier. For the purposes of this rule war engine’s count each point of starting damage capacity as a unit."
       ],
@@ -35,6 +37,7 @@
       "army_name": "Ork Forces",
       "rule_name": "Power of the Waaagh!",
       "source_section": "5.5.2 Power of the Waaagh!",
+      "summary": "Ork formations get +2 to action tests when attempting Engage or Double actions. Ork Flyboyz get +2 to action tests when attempting Interception or Ground Attack actions.",
       "text_blocks": [
         "Orks are not noted for their organisational abilities, and thus usually have a pretty low initiative rating. However, if there is one thing that will galvanise an Ork warband, it’s the thought of a good punch-up! Because of this, Ork formations that are attempting to take engage or double actions receive a +2 modifier to their action test roll. Ork flyboyz similarly relish the chance to shoot things up, and receive a +2 modifier to their action test roll when attempting to carry out interception or ground attack actions (see Aircraft )."
       ],
@@ -45,6 +48,7 @@
       "army_name": "Ork Forces",
       "rule_name": "Power Fields",
       "source_section": "5.5.3 Power Fields",
+      "summary": "Work like Imperial Void Shields, except they cannot be repaired once knocked down.",
       "text_blocks": [
         "Some Ork war engines are protected by banks of power fields. The number each war engine has is noted on its datasheet. Power fields work in exactly the same manner as Imperial Void Shields (see Imperial Void Shields ), with the sole exception that they may not be repaired once they have been knocked down by a hit, and will instead remain down for the remainder of the battle."
       ],
@@ -90,6 +94,7 @@
       "army_name": "Baran Siegemaster Forces",
       "rule_name": "Baran Siegemaster Fortified Positions",
       "source_section": "5.7.1 Baran Siegemaster Fortified Positions",
+      "summary": "Bunkers, gun emplacements and trenches are set up after objectives and before spacecraft and garrisons, unless they are listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Bunker Counts as Fortifications (see Terrain Effects ). Can hold three units. Units in a bunker may not be barged by a war engine. Gun Emplacement Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see Infantry Cover Saves ). Can hold one unit. Units in a gun emplacement may not be barged by a war engine. Trench Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine. Fortified Position Effects Table Terrain Infantry Vehicle War Engine Bunker 3+ Cover Save Dangerous Dangerous Gun Emplacement 4+ Cover Save 5+ Cover Save No Effect Razor Wire Dangerous No Effect No Effect Trench 4+ Cover Save Dangerous No Effect"
       ],
@@ -120,6 +125,7 @@
       "army_name": "Black Legion Forces",
       "rule_name": "Augmented Summoning",
       "source_section": "5.11.1 Augmented Summoning",
+      "summary": "Units with Augmented Summoning add the listed bonus to their summoning points when their formation summons daemons. The bonus stacks with the formation’s normal summoning roll.",
       "text_blocks": [
         "Some chaos units are noted as having Augmented Summoning (+x) . Units with this ability add a number of summoning points equal to x when the formation they are in summons daemons (see Summoned Units ). For example, a unit noted as having Augmented Summoning (+2D3) would allow a formation with a Daemonic Pact to roll 4D3 for summoning points as opposed to the usual 2D3."
       ],
@@ -130,6 +136,7 @@
       "army_name": "Black Legion Forces",
       "rule_name": "Daemonic Focus",
       "source_section": "5.11.2 Daemonic Focus",
+      "summary": "Units with Daemonic Focus may keep summoned units in play after rallying, but not if the formation is broken.",
       "text_blocks": [
         "Certain Chaos units are noted as having Daemonic Focus . Units with this ability may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Chaos units with daemonic Focus may not be used to keep summoned units in play if the formation is broken."
       ],
@@ -208,6 +215,7 @@
       "army_name": "Death Korps of Krieg Forces",
       "rule_name": "Death Korps of Krieg Fortified Positions",
       "source_section": "5.16.1 Death Korps of Krieg Fortified Positions",
+      "summary": "Bunkers, gun emplacements and trenches are set up after objectives and before spacecraft and garrisons, unless listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Bunker Counts as Fortifications (see Terrain Effects ). Can hold three units. Units in a bunker may not be barged by a war engine. Gun Emplacement Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see Infantry Cover Saves ). Can hold one unit. Units in a gun emplacement may not be barged by a war engine. Trench Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine. Trenchworks Effects Table Terrain Infantry Vehicle War Engine Bunker 3+ Cover Save Dangerous Dangerous Gun Emplacement 4+ Cover Save 5+ Cover Save No Effect Trench 4+ Cover Save Dangerous No Effect"
       ],
@@ -289,6 +297,7 @@
       "army_name": "Knight World Forces",
       "rule_name": "Knight Technology",
       "source_section": "5.23.1 Knight Technology",
+      "summary": "Knight Shield units save on 4+ instead of Armour and ignore modifiers, macro-weapon, lance and titan killer hits. Titan killer damage is saved point by point, reinforced armour can re-roll non-special hits, and none of these benefits apply against crossfire or supporting fire. Power Lance and Shock Lance only work if the formation carried out an Engage action.",
       "text_blocks": [
         "Knight Shield Units with a Knight Shield may make a saving throw on a 4+ when they are hit instead of using their armour value. No modifiers ever apply to this saving throw and it is unaffected by macro-weapon, lance and titan killer hits. However, each point of damage from a titan killer hit must be saved separately. If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a macro-weapon, lance or titan killer. Finally, none of these benefits apply to units in a crossfire or to hits from supporting fire. Power Lance and Shock Lance The Power Lance and Shock Lance may only be used if the unit’s formation carried out an engage action."
       ],
@@ -301,6 +310,7 @@
       "army_name": "Knight World Forces",
       "rule_name": "Knight World Fortified Positions",
       "source_section": "5.23.2 Knight World Fortified Positions",
+      "summary": "Gun emplacements, trenches and minefields are set up after objectives and before spacecraft and garrisons, unless listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Gun Emplacement Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see Infantry Cover Saves ). Can hold one unit. Units in a gun emplacement may not be barged by a war engine. Trench Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine. Fortified Position Effects Table Terrain Infantry Vehicle War Engine Gun Emplacement 4+ Cover Save 5+ Cover Save No Effect Razor Wire Dangerous No Effect No Effect Trench 4+ Cover Save Dangerous No Effect"
       ],
@@ -311,6 +321,7 @@
       "army_name": "Imperial Fist Forces",
       "rule_name": "Masters of Siege",
       "source_section": "5.25.1 Masters of Siege",
+      "summary": "Imperial Fists may start three garrisoned formations on overwatch instead of two. Their units count as having Walker for minefields and dangerous terrain, and infantry in trenches gain First Strike while infantry in bunkers gain a 4+ Reinforced Armour save. See the full text for the bunker and trench effects.",
       "text_blocks": [
         "The Imperial Fists have a special expertise in siege warfare and mass shock assaults. This is represented by the following rules: An Imperial Fists army may start three garrisoned formations on overwatch instead of two. All units count as having walker when making a dangerous terrain test for entering or starting to move on minefields that have been purchased as part of the army. All infantry units gain first strike when within trenches purchased as part of the army. All infantry units gain a 4+ save with reinforced armour when within bunkers purchased as part of the army. This replaces both their regular save and the 3+ bunker cover save. This save is lost if the unit suffers an ignore cover hit."
       ],
@@ -325,6 +336,7 @@
       "army_name": "Imperial Fist Forces",
       "rule_name": "Imperial Fist Fortified Positions",
       "source_section": "5.25.2 Imperial Fist Fortified Positions",
+      "summary": "Bunkers, gun emplacements, minefields and trenches are set up after objectives and before spacecraft and garrisons, unless listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Bunker Counts as Fortifications (see Terrain Effects ). Can hold three units. Units in a bunker may not be barged by a war engine. Gun Emplacement Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see Infantry Cover Saves ). Can hold one unit. Units in a gun emplacement may not be barged by a war engine. Minefield Enemy units with Jumps Packs or Skimmer must take dangerous tests for Minefields. Enemy units may not re-roll failed dangerous terrain tests for minefields. Trench Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine. Fortified Position Effects Table Terrain Infantry Vehicle War Engine Bunker 3+ Cover Save Dangerous Dangerous Gun Emplacement 4+ Cover Save 5+ Cover Save No Effect Minefield Dangerous Dangerous Dangerous Trench 4+ Cover Save Dangerous No Effect"
       ],
@@ -335,6 +347,7 @@
       "army_name": "Imperial Fist Forces",
       "rule_name": "Automata",
       "source_section": "5.25.3 Automata",
+      "summary": "Pure Automata formations can only marshal, overwatch, and sustained fire, and they cannot capture objectives. Mixed formations do not gain Blast markers for destroyed Automata units, and Automata destroyed by Disrupt do not add Blast markers; lost Automata also do not count in assault resolution.",
       "text_blocks": [
         "Formations that are comprised completely of units with automata may only carry out marshal, overwatch and sustained fire actions. They also cannot capture objectives in the Epic tournament game rules. Formations that include at least one unit without automata do not receive a Blast marker when a unit with automata is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Also, if an automata unit is hit by a weapon with disrupt it does not inflict a Blast marker. Finally, don’t count units with automata that are lost in an assault when working out who has won the combat."
       ],
@@ -357,6 +370,7 @@
       "army_name": "Iron Warrior Forces",
       "rule_name": "Iron Warrior Fortified Positions",
       "source_section": "5.31.1 Iron Warrior Fortified Positions",
+      "summary": "Gun emplacements and trenches are set up after objectives and before spacecraft and garrisons, unless listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Gun Emplacement Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see Infantry Cover Saves ). Can hold one unit. Units in a gun emplacement may not be barged by a war engine. Fortified Position Effects Table Terrain Infantry Vehicle War Engine Gun Emplacement 4+ Cover Save 5+ Cover Save No Effect"
       ],
@@ -367,6 +381,7 @@
       "army_name": "Gargant Mob Forces",
       "rule_name": "Mob Rule",
       "source_section": "5.34.1 Mob Rule",
+      "summary": "Ork formations get +1 to rally rolls if they have more than 5 eligible units, or +2 if they have more than 10. Do not count Gretchin or Big Gunz. Gargants count as more than 10 units, Supa-Stompas count as more than 5 units, and other war engines count starting DC as units.",
       "text_blocks": [
         "Orks believe that as long as there’s a bunch of them still fighting together (slightly more than they can count up to is ideal!) then there’s always a chance that they’ll prevail, no matter the odds. To represent this, Ork formations with more than five units (i.e., too many to count on the fingers of one hand), not including Gretchin or Big Gunz units, receive a +1 modifier to any rally rolls they make, and formations with more than ten such units receive a +2 modifier. For the purposes of this rule Gargants count as having more than ten units and Supa-Stompa’s count as having more than five units. All other war engine’s count each point of starting damage capacity as a unit."
       ],
@@ -397,6 +412,7 @@
       "army_name": "Codex Astartes Space Marine",
       "rule_name": "Space Marine Transports",
       "source_section": "6.3.1 Space Marine Transports",
+      "summary": "A detachment usually includes enough Rhinos to carry it and any upgrades. Work out the Rhinos needed after upgrades are chosen. Units may be deployed on foot, in Thunderhawks, or with Drop Pods if the list allows it, but the formation must still be able to carry all of its units.",
       "text_blocks": [
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so. In addition, you may choose to replace a detachment’s Rhinos with Drop Pods. If you do this then the detachment will enter play in a Drop Pod using the rules for Planetfall (see Planetfall ). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from. Before each game, after the opposing army is known but before objectives are placed, the Space Marine player may choose which formations with the plus transport aspect are deployed in Rhinos, Drop Pods or on foot. If the formation has any units unable to deploy in Drop Pods then that option cannot be selected."
       ],
@@ -407,6 +423,7 @@
       "army_name": "Armageddon Steel Legion Imperial Guard",
       "rule_name": "Commissars",
       "source_section": "6.4.1 Commissars",
+      "summary": "One Commissar may be included per 500 points or part thereof. Add them at the start of the battle before either side sets up; if the army has a Supreme Commander, the first Commissar must join that formation. No formation may have more than one Commissar, Commissars cannot join Imperial Allies, and any excess is lost.",
       "text_blocks": [
         "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points. Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander’s formation. Any further Commissars may be attached to any other formations. You may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
       ],
@@ -449,6 +466,7 @@
       "army_name": "Baran Siegemasters Imperial Guard",
       "rule_name": "Regimental HQs",
       "source_section": "6.7.1 Regimental HQs",
+      "summary": "A Siegemaster army must include a Regimental HQ. Destroying it, or the most expensive formation if that is easier, counts as Break Their Spirit.",
       "text_blocks": [
         "When playing Epic tournament games, a Siegemaster army must include a Regimental HQ. The enemy count as having achieved the Break Their Spirit goal by destroying this formation or by destroying the most expensive formation in the army (see Victory Conditions )."
       ],
@@ -459,6 +477,7 @@
       "army_name": "Baran Siegemasters Imperial Guard",
       "rule_name": "Fortified Positions",
       "source_section": "6.7.2 Fortified Positions",
+      "summary": "Fortified positions are set up after objectives and before spacecraft and garrisons, unless they are listed as part of a formation. Place them only where a vehicle could deploy on your half of the table, keep each group chained within 5cm, and let any unit use them once placed. See the full text for the effects table.",
       "text_blocks": [
         "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up. The only exception to this are fortified positions that are listed as part of a formation’s units . While they are not actually units, they are set up with the formation they are part of. Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a chain without any gaps of more than 5cm. Additionally, if a group of fortified positions is part of a formation then at least one piece must be within 5cm of a unit from the formation when they are set up. Once set up, fortified positions may be used by any unit (including enemy units)."
       ],
@@ -479,6 +498,7 @@
       "army_name": "White Scars Space Marine",
       "rule_name": "White Scars Transport",
       "source_section": "6.9.1 White Scars Transport",
+      "summary": "Detachments usually include the minimum transports needed. White Scars must take their transports unless they deploy from a Thunderhawk, and any use of Drop Pods must replace all transported detachments in the army. Drop Pods require at least one Strike Cruiser or Battle Barge.",
       "text_blocks": [
         "The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raiders if the detachment is Terminators, Rhinos for any other form of detachment. Note that many formations don’t receive transports, usually because they can’t fit into them. Detachments that come with vehicles will be noted as having plus transport in the Units section of the detachment list below. White Scars detachments must take the transport vehicles for a detachment—you cannot leave them behind in order to use the unit as a garrison. You can only choose to ignore this if the detachment is instead to be deployed from a Thunderhawk gunship. In addition you may choose to replace a detachment’s vehicles with drop pods before each game, after the opposing army is known but before objectives are placed. If you choose to do this, all transported detachments in the army must deploy from drop pods—you can’t have some in transport vehicles and some deploying from drop pods. If you do choose to use drop pods, then the affected detachments will enter play in drop pods using the rules for Planetfall (see Planetfall ). Note that you will require at least one Space Marine strike cruiser or battle barge to deploy the drop pods from."
       ],
@@ -499,6 +519,7 @@
       "army_name": "13 th Black Crusade Black Legion",
       "rule_name": "13 th Black Crusade Black Legion Epic Tournament Special Rules",
       "source_section": "6.11.1 13th Black Crusade Black Legion Epic Tournament Special Rules",
+      "summary": "The army uses the daemon summoning cost tables below. Formations owe allegiance to Chaos Undivided or a specific god, and the table gives the summoning points for lesser and greater daemons.",
       "text_blocks": [
         "The summoning point costs for a 13 th Black Crusade Black Legion army are below. If a row contains a point cost in parentheses than this is the cost for formations that owe allegiance to Chaos Undivided. Lesser Daemon Summoning Point Costs Daemon Faction Summoning Points Daemonic Beasts Any 1 Bloodletters Khorne 1 (2) Plaguebearers Nurgle 1 (2) Daemonettes Slaanesh 1 (2) Flamers Tzeentch 1 (2) Greater Daemon Summoning Point Costs Daemon Faction Summoning Points Bloodthirster Khorne 8 Great Unclean One Nurgle 8 Keeper of Secrets Slaanesh 8 Lord of Change Tzeentch 8"
       ],
@@ -509,6 +530,7 @@
       "army_name": "13 th Black Crusade Black Legion",
       "rule_name": "Fickle Masters",
       "source_section": "6.11.2 Fickle Masters",
+      "summary": "In the strategy phase, a roll of 6 adds 1D3 lesser daemons to the Daemon Pool and a roll of 1 removes D3 lesser daemons. If the pool is empty, there is no effect.",
       "text_blocks": [
         "The Chaos Powers are quick to punish or reward their champions. In the strategy phase if the Chaos player rolls a 6 they are rewarded for their tactical acumen with an additional 1D3 lesser daemons to add to the Daemon Pool (see Summoned Units ). If the Chaos player rolls 1 their patron Powers withdraw their support and the Chaos player must remove D3 lesser daemons from the Daemon Pool. If the Chaos player has no remaining daemons in their Daemon Pool then there is no further effect."
       ],
@@ -519,6 +541,7 @@
       "army_name": "13 th Black Crusade Black Legion",
       "rule_name": "Summoned Units",
       "source_section": "6.11.3 Summoned Units",
+      "summary": "Declare allegiance before the battle. Unbroken Daemonic Pact formations summon before choosing an action, generate 2D3 summoning points, and place daemons within 5cm without entering enemy ZOC or impassable terrain. Only one greater daemon of each allegiance can be on the battlefield at once, summoned units return to the Daemon Pool in the End phase, destroyed or broken daemons are removed from play, and returned war engines keep their current DC.",
       "text_blocks": [
         "Each formation in a Chaos army owes allegiance to Chaos Undivided or one of the four chaos gods: Khorne, Nurgle, Slaanesh or Tzeentch. The Chaos player must declare each formation’s allegiance before the battle, noting it down on their army list. Unbroken formations with Daemonic Pact are able to summon daemons with a similar allegiance (or daemons of any allegiance if the formation owes allegiance to Chaos Undivided) to the battlefield from the Daemon Pool. Daemons in the Daemon Pool are noted only as being lesser or greater daemons when they are purchased, they should be thought of as markers. The Chaos player must declare the number of lesser and greater daemons in the Daemon Pool in some fashion that is easily apparent to their opponent at all times. The Daemon Pool is kept off the board and daemons are removed from it as formations summon daemons to the battlefield. A formation may summon daemonic units from the Daemon Pool as part of its action before declaring which action it will carry out. The formation generates 2d3 summoning points that can be used to move daemons from the Daemon Pool to the battlefield where they are converted to actual daemonic units. The allegiance of the summoning formation determines which daemonic units it may summon, while the daemonic units available to summon (and their respective summoning point costs) are defined in the specific Chaos army lists. Summoning points must be used immediately or lost, but un-summoned daemons in the Daemon Pool remain to be summoned by other formations or on later turns. Summoned daemonic units must be placed within 5cm of a unit from the formation that was there prior to summoning, you may not place a “chain” of summoned units. They also may not be placed in enemy zone of control or in impassable terrain. Finally, an army may only have one greater daemon with a given allegiance on the battlefield at any one time. Summoned daemonic units count as part of the formation that summoned them while they remain on the battlefield. Daemonic units that are destroyed are removed from play and not put back into the Daemon Pool. If a formation with daemonic units is broken then all the daemonic units are removed from play as well. If a formation with daemonic units loses an assault (see Work Out Result) the extra hits it suffers occur before it becomes broken and the daemonic units are removed from play. Also note that daemonic units do count towards the “For each kill you have inflicted during the assault” assault modifier of your opponent. In the End phase, after all rally tests, all summoned daemonic units are converted back into daemon markers and returned to the Daemon Pool. Note that this may lead to the formation breaking. War Engine units that are returned to the Daemon Pool keep their current DC and do not heal back to full DC. If they are summoned again they will have the same DC they had before being returned to the Daemon Pool."
       ],
@@ -529,6 +552,7 @@
       "army_name": "Stigmatus Covenant Chaos Cultist",
       "rule_name": "Stigmatus Covenant Epic Tournament Special Rules",
       "source_section": "6.12.1 Stigmatus Covenant Epic Tournament Special Rules",
+      "summary": "The army must include a free Arch-Heretic, who may join a Daemon Prince, Demagogue or Chaos Marine Aspiring Champion unit. Plague Zombie Infestation formations deploy via teleport, roll 3+2D6 for their size after the first unit is placed, and may contest but not control objectives. The full text contains the daemonic summoning cost table.",
       "text_blocks": [
         "Every Stigmatus Covenant Chaos Cultist army must include an Arch-Heretic character. The Arch-Heretic character is free, you don’t have to pay any points for it, and may be added to any Daemon Prince, Demagogue or Chaos Marine Aspiring Champion unit. Plague Zombie Infestation formations must be deployed via teleport . After placing the first unit roll 3+2D6 to see how many units are in the formation. Plague Zombie Infestation formations may contest, but not control, objectives. The summoning point costs for a Stigmatus Covenant Chaos Cultist army are below. If a row contains a point cost in parentheses than this is the cost for formations that owe allegiance to Chaos Undivided. Lesser Daemon Summoning Point Costs Daemon Faction Summoning Points Daemonic Beasts Any 1 Bloodletters Khorne 1 (2) Plaguebearers Nurgle 1 (2) Daemonettes Slaanesh 1 (2) Flamers Tzeentch 1 (2) Greater Daemon Summoning Point Costs Daemon Faction Summoning Points Bloodthirster Khorne 8 Great Unclean One Nurgle 8 Keeper of Secrets Slaanesh 8 Lord of Change Tzeentch 8"
       ],
@@ -573,6 +597,7 @@
       "army_name": "Minervan Tank Legion Imperial Guard",
       "rule_name": "Amphibious",
       "source_section": "6.14.1 Amphibious",
+      "summary": "For every 1,000 points, one Tank Company may be designated amphibious before setup. Amphibious companies treat marshes as No Effect and rivers as Dangerous.",
       "text_blocks": [
         "The Armoured Legions of Minerva are able to convert many of their vehicles on the fly for amphibious use. For every 1,000 points one Tank Company may be designated as amphibious before being set up on the table. Amphibious companies count marshes as No Effect and river as Dangerous ."
       ],
@@ -595,6 +620,7 @@
       "army_name": "Scions of Iron Space Marine",
       "rule_name": "Scions of Iron Transports",
       "source_section": "6.18.1 Scions of Iron Transports",
+      "summary": "Detachments usually include the minimum Rhinos needed after upgrades are chosen. Terminators must take Teleport or Land Raiders and may not start on foot.",
       "text_blocks": [
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that Terminators must take either Teleport or have Land Raiders. They may not start the game as foot infantry."
       ],
@@ -607,6 +633,7 @@
       "army_name": "Scions of Iron Space Marine",
       "rule_name": "Thunderhawk Transporter",
       "source_section": "6.18.2 Thunderhawk Transporter",
+      "summary": "Counts as a single war engine for transport purposes and can carry another formation as long as the entire formation fits inside.",
       "text_blocks": [
         "The entire Thunderhawk Transporter detachment is counted as a single war engine for the purposes of war engine transport (see Transport War Engines ), e.g. a Thunderhawk Transporter detachment can carry units from another formation, as long as the entire formation can fit inside the Thunderhawk Transporters."
       ],
@@ -681,6 +708,7 @@
       "army_name": "Imperial Fists Space Marine",
       "rule_name": "Imperial Fists Transport",
       "source_section": "6.25.1 Imperial Fists Transport",
+      "summary": "Detachments usually include the minimum Rhinos needed after upgrades are chosen. Devastator or Tactical detachments may replace their Rhinos with two Bunkers and 52cm of Trenches or Minefields before the game.",
       "text_blocks": [
         "The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the detachment list below. In addition you may choose to replace a Devastator or Tactical detachment’s Rhinos with two Bunkers and 52cm of Trenches or Minefields before each game, after the opposing army is known but before objectives are placed."
       ],
@@ -691,6 +719,7 @@
       "army_name": "Space Wolves Space Marine",
       "rule_name": "Space Wolves Transport",
       "source_section": "6.26.1 Space Wolves Transport",
+      "summary": "Detachments usually include the minimum Rhinos needed after upgrades are chosen. Space Wolves may instead deploy on foot, in a Thunderhawk, or by replacing Rhinos with Drop Pods; Drop Pods require a Strike Cruiser or Battle Barge, and illegal units cannot be assigned to the chosen transport option.",
       "text_blocks": [
         "The Space Wolves are a highly mobile army. Because of this, the points cost of a formation usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having plus transport in the units section of the army list opposite. Also note that you don’t have to take Rhinos if you don’t want to. If you’d rather field the formation on foot instead, so it can act as a garrison for example, or be transported in a Thunderhawk Gunship, then you may do so. In addition, you may choose to replace a detachment’s Rhinos with Space Wolf Drop Pods. If you do this then the detachment will enter play in a Space Wolf Drop Pod using the rules for Planetfall (see Planetfall ). Note that if you choose to do this you will also require at least one Space Marine Strike Cruiser or Battle Barge to deploy the drop pods from. Before each game, after the opposing army is known but before objectives are placed, the Space Wolf player may choose which formations with the plus transport aspect are deployed in Rhinos, Space Wolf Drop Pods or on foot. If the formation has any units unable to deploy in Space Wolf Drop Pods then that option cannot be selected. If the formation has any units unable to be transported in Rhinos then do not count them when determining the number of Rhinos needed."
       ],
@@ -701,6 +730,7 @@
       "army_name": "Space Wolves Space Marine",
       "rule_name": "Unblooded",
       "source_section": "6.26.2 Unblooded",
+      "summary": "Blood Claw, Skyclaw and Swiftclaw formations get +1 to Engage action tests and must make their full counter-charge move unless they reach base contact earlier.",
       "text_blocks": [
         "Blood Claws are most eager to prove themselves in battle. All Blood Claw, Skyclaw and Swiftclaw formations that are attempting to take engage actions receive a +1 modifier to their action test roll. Additionally, they must always make their complete counter charge move (unless they reach base contact with an enemy unit before then) so long as they remain a legal formation."
       ],
@@ -741,6 +771,7 @@
       "army_name": "Raven Guard Space Marine",
       "rule_name": "Raven Guard Transport",
       "source_section": "6.30.1 Raven Guard Transport",
+      "summary": "Certain formations include the minimum Rhinos needed after upgrades are chosen. Raven Guard must take transports unless entering by planetfall, self-planetfall, or aircraft; Drop Pods may be taken instead, and Land Speeders may accompany formations making planetfall.",
       "text_blocks": [
         "The Raven Guard are a highly mobile army. Because of this, the points cost of certain formations includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can’t take extras along to cover the loss of other transports. Formations that come with Rhinos will be noted as having plus transport in the units section of the army list. Raven Guard formations must take transport vehicles, you cannot leave them behind in order to garrison the formation. You can only choose to ignore this if the formation is entering play via a special rule (e.g. planetfall or self planetfall) or an aircraft. You may choose to replace a formation’s Rhinos with Drop Pods before each game, after the opposing army is known but before objectives are placed. Formations making a planetfall via Drop Pods (or by another unit with that ability) may be upgraded with Land Speeders, these are assumed to make planetfall alongside the infantry and do not need to be transported by Drop Pods or another unit with planetfall."
       ],
@@ -765,6 +796,7 @@
       "army_name": "Slaves to Darkness Chaos Cultist",
       "rule_name": "Slaves to Darkness Epic Tournament Special Rules",
       "source_section": "6.33.1 Slaves to Darkness Epic Tournament Special Rules",
+      "summary": "The army must include a free Arch-Heretic, who may join a Daemon Prince, Demagogue or Chaos Marine Aspiring Champion unit. Plague Zombie Infestation formations deploy via teleport, roll 3+2D6 for their size after the first unit is placed, and may contest but not control objectives. The full text contains the daemonic summoning cost table.",
       "text_blocks": [
         "Every Slaves to Darkness Chaos Cultist army must include an Arch-Heretic character. The Arch-Heretic character is free, you don’t have to pay any points for it, and may be added to any Daemon Prince, Demagogue or Chaos Marine Aspiring Champion unit. Plague Zombie Infestation formations must be deployed via teleport . After placing the first unit roll 3+2D6 to see how many units are in the formation. Plague Zombie Infestation formations may contest, but not control, objectives. The summoning point costs for a Slaves to Darkness Chaos Cultist army are below. If a row contains a point cost in parentheses than this is the cost for formations that owe allegiance to Chaos Undivided. Lesser Daemon Summoning Point Costs Daemon Faction Summoning Points Daemonic Beasts Any 1 Bloodletters Khorne 1 (2) Plaguebearers Nurgle 1 (2) Daemonettes Slaanesh 1 (2) Flamers Tzeentch 1 (2) Greater Daemon Summoning Point Costs Daemon Faction Summoning Points Bloodthirster Khorne 8 Great Unclean One Nurgle 8 Keeper of Secrets Slaanesh 8 Lord of Change Tzeentch 8"
       ],
@@ -777,6 +809,7 @@
       "army_name": "Orkimedes' Gargant Big Mob",
       "rule_name": "Orkimedes' Gargant Big Mob Epic Tournament Special Rules",
       "source_section": "6.34.1 Orkimedes' Gargant Big Mob Epic Tournament Special Rules",
+      "summary": "Every Orkimedes’ Gargant Big Mob army includes a free Mekboy Big Boss supreme commander. It joins the most expensive Gargant formation. All weapon mounts in Supa-Stompa Mob and Gargant formations must have a weapon.",
       "text_blocks": [
         "Every Orkimedes’ Gargant Big Mob army must include a supreme commander character called a Mekboy Big Boss. The Mekboy Big Boss character is free, you don’t have to pay any points for it. The Mekboy Big Boss will join the most expensive Gargant formation in the army. All Weapon Mounts in Supa-Stompa Mob and Gargant formations must be mounted with a weapon."
       ],
@@ -789,6 +822,7 @@
       "army_name": "Orkimedes' Gargant Big Mob",
       "rule_name": "'Ere We Go!",
       "source_section": "6.34.2 'Ere We Go!",
+      "summary": "Before passing an action test, a Gargant, Great Gargant or Mega Gargant formation may declare ’Ere We Go!. Its war engines gain +5cm Speed until the end of the action. For each move in that action, each war engine suffers its critical hit effect, even if it moves 0cm.",
       "text_blocks": [
         "Before passing an action test a Gargant, Great Gargant or Mega Gargant formation may declare that it is using ‘Ere We Go! . Formations using ‘Ere We Go! increase the Speed value of all their War Engine units by +5cm until the conclusion of their action. However, for each move of the action each War Engine unit suffers its critical hit effect. For example, if a Great Gargant formation carries out a double action then the Great Gargant unit catches fire twice and resolves the effects of those fires in the end phase. Whether a unit moves 0cm or less than its increased Speed value does not matter, it is still considered a move for the purposes of this rule."
       ],
