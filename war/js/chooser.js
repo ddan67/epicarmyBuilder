@@ -369,7 +369,18 @@ var ArmyforgeUI = {
 		return match;
 	},
 
+	normalizeTextForFormatting:function(text) {
+		if (Object.prototype.toString.call(text) == '[object Array]') {
+			return text.join('\n');
+		}
+		if (text == null) {
+			return '';
+		}
+		return String(text);
+	},
+
 	normalizeUnitToken:function(text) {
+		text = ArmyforgeUI.normalizeTextForFormatting(text);
 		if (!text) {
 			return '';
 		}
@@ -383,10 +394,11 @@ var ArmyforgeUI = {
 	},
 
 	unitTokensFromText:function(text) {
+		text = ArmyforgeUI.normalizeTextForFormatting(text);
 		if (!text) {
 			return [];
 		}
-		var normalized = text.replace(/\b(?:and|or)\b/gi, ',');
+		var normalized = text.replace(/\r?\n+/g, ',').replace(/\b(?:and|or)\b/gi, ',');
 		var parts = normalized.split(',');
 		var tokens = [];
 		parts.each(function(part) {
