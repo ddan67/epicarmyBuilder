@@ -1630,8 +1630,8 @@ var ArmyforgeUI = {
 			'class':'detailsToggle',
 			'data-details-row-id':detailsRowId,
 			'aria-expanded':'false',
-			'title':'Show/hide unit profiles'
-		}).update('[+]');
+			'title':'Expand'
+		}).update('Expand');
 		detailsToggle.observe('click', function(event) {
 			Event.stop(event);
 			ArmyforgeUI.toggleFormationDetails(formation);
@@ -2591,8 +2591,9 @@ if (!ArmyforgeUI.toggleDetailsRow) {
 		var willExpand = (typeof forceToggle === 'boolean') ? forceToggle : (detailsRow.getStyle('display') == 'none');
 		detailsRow.setStyle({display: willExpand ? 'table-row' : 'none'});
 		if (toggleControl) {
-			toggleControl.update(willExpand ? '[-]' : '[+]');
+			toggleControl.update(willExpand ? 'Collapse' : 'Expand');
 			toggleControl.writeAttribute('aria-expanded', willExpand ? 'true' : 'false');
+			toggleControl.writeAttribute('title', willExpand ? 'Collapse' : 'Expand');
 		}
 	};
 }
