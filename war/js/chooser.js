@@ -282,6 +282,7 @@ var ArmyforgeUI = {
 			'IG_cadian_NETEA': ArmyforgeUnitProfiles.findCadianShockTroopsProfileByName,
 			'IG_Elysian_NETEA': ArmyforgeUnitProfiles.findElysianDropTroopsProfileByName,
 			'IG_harakoni_NETEA_fixed': ArmyforgeUnitProfiles.findHarakoniWarhawksProfileByName,
+			'IG_miraliSkyraiders_NETEA': ArmyforgeUnitProfiles.findMiraliSkyraidersProfileByName,
 			'IG_steelLegion_NETEA': ArmyforgeUnitProfiles.findIgSteelLegionProfileByName,
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
@@ -2189,6 +2190,117 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	miraliSkyraidersFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	miraliSkyraidersAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_miraliSkyraiders_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^(0-1 Air Cavalry RHQ|Air Cavalry RHQ)$/i.test(formationName)) {
+			extras.push('Imperial Guard Supreme Commander');
+			extras.push('Imperial Guard Infantry');
+			extras.push('Valkyrie');
+		}
+		else if (/^Mirali HQ Company$/i.test(formationName)) {
+			extras.push('Imperial Guard Supreme Commander');
+			extras.push('Imperial Guard Infantry');
+			extras.push('Bunker');
+		}
+		else if (/^Air Cavalry Company$/i.test(formationName)) {
+			extras.push('Imperial Guard Commander');
+			extras.push('Imperial Guard Infantry');
+			var hasVendettaOnly = ArmyforgeUI.miraliSkyraidersFormationHasUpgrade(formation, /mirali vendetta/i) &&
+				!ArmyforgeUI.miraliSkyraidersFormationHasUpgrade(formation, /valkyrie/i);
+			if (hasVendettaOnly) {
+				extras.push('Mirali Vendetta');
+			}
+			else {
+				extras.push('Valkyrie');
+			}
+		}
+		else if (/^Vulture Squadron$/i.test(formationName)) {
+			extras.push('Vulture');
+		}
+		else if (/^Vulture Punisher Squadron$/i.test(formationName)) {
+			extras.push('Vulture Punisher');
+		}
+		else if (/^Regimental Artillery Battery$/i.test(formationName)) {
+			extras.push('Howitzer Weapon Platform');
+			extras.push('Gun Emplacement');
+		}
+		else if (/^Regimental Anti-Air Battery$/i.test(formationName)) {
+			extras.push('Blitzen AA Platform');
+			extras.push('Gun Emplacement');
+		}
+		else if (/^Deathstrike Missile Battery$/i.test(formationName)) {
+			extras.push('Gun Emplacement');
+		}
+		else if (/^Firebase Defense Company$/i.test(formationName)) {
+			extras.push('Imperial Guard Commander');
+			extras.push('Imperial Guard Infantry');
+			extras.push('Bunker');
+		}
+		else if (/^Mirali Trackers Company$/i.test(formationName)) {
+			extras.push('Mirali Trackers');
+		}
+		else if (/^Vulture Slick Squadron$/i.test(formationName)) {
+			extras.push('Vulture Slick');
+		}
+		else if (/^Thunderbolt Flight$/i.test(formationName)) {
+			extras.push('Thunderbolt Fighter');
+		}
+		else if (/^Lightning Strike Flight$/i.test(formationName)) {
+			extras.push('Lightning Strike Fighter');
+		}
+		else if (/^Marauder$/i.test(formationName)) {
+			extras.push('Heavy Marauder Bomber');
+		}
+		else if (/^Marauder Destroyer$/i.test(formationName)) {
+			extras.push('Mirali Heavy Marauder Destroyer');
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/fire support/i.test(upgradeName)) {
+				extras.push('Fire Support');
+			}
+			if (/infantry/i.test(upgradeName) && !/commander/i.test(upgradeName)) {
+				extras.push('Imperial Guard Infantry');
+			}
+			if (/sniper/i.test(upgradeName)) {
+				extras.push('Sniper');
+			}
+			if (/mirali vendetta/i.test(upgradeName)) {
+				extras.push('Mirali Vendetta');
+			}
+			if (/valkyrie/i.test(upgradeName) && !/mirali vendetta/i.test(upgradeName)) {
+				extras.push('Valkyrie');
+			}
+			if (/bunker/i.test(upgradeName)) {
+				extras.push('Bunker');
+			}
+			if (/^1 vulture$|attached vulture.*vulture\)?$/i.test(upgradeName)) {
+				extras.push('Vulture');
+			}
+			if (/vulture punisher/i.test(upgradeName)) {
+				extras.push('Vulture Punisher');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -2317,6 +2429,13 @@ var ArmyforgeUI = {
 			}
 		});
 		ArmyforgeUI.harakoniWarhawksAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+		ArmyforgeUI.miraliSkyraidersAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2979,6 +3098,7 @@ var ArmyforgeUI = {
 			'cadian-shock-troops.json',
 			'elysian-drop-troops.json',
 			'harakoni-warhawks.json',
+			'mirali-skyraiders.json',
 			'imperial-guard-baran-siegemasters.json',
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
@@ -3021,6 +3141,7 @@ var ArmyforgeUI = {
 			'IG_cadian_NETEA': 'cadian-shock-troops.json',
 			'IG_Elysian_NETEA': 'elysian-drop-troops.json',
 			'IG_harakoni_NETEA_fixed': 'harakoni-warhawks.json',
+			'IG_miraliSkyraiders_NETEA': 'mirali-skyraiders.json',
 			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};

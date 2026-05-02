@@ -1,0 +1,901 @@
+{
+  "metadata": {
+    "army_name": "Mirali Skyraiders",
+    "page_title": "Mirali Skyraiders v1.0",
+    "source_url": null,
+    "list_id": "IG_miraliSkyraiders_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "commissars": "1 Commissar per 500 points available",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Mirali Fortified Positions",
+      "text": "Bunkers are Fortifications, see EA 1.8.4. Gun Emplacements provide vehicles with a cover save that works like an infantry cover save, see EA 1.8.3. Gun Emplacements can hold one unit. Bunkers can hold three units."
+    },
+    {
+      "name": "Commissar Allowance",
+      "text": "Mirali Skyraiders armies are allowed 1 Commissar per 500 points available."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Core Companies",
+      "entry_type": "formation",
+      "name": "0-1 Air Cavalry RHQ",
+      "cost": "475 points",
+      "units_text": "One Imperial Guard Supreme Commander unit, eight Imperial Guard Infantry units, five Valkyries",
+      "upgrades_or_options_text": "Core Company Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Air Cavalry RHQ | One Imperial Guard Supreme Commander unit, eight Imperial Guard Infantry units, five Valkyries | Core Company Upgrades | 475 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Companies",
+      "entry_type": "formation",
+      "name": "Air Cavalry Company",
+      "cost": "375 points",
+      "units_text": "One Imperial Guard Commander unit, eight Imperial Guard Infantry units, five Valkyries",
+      "upgrades_or_options_text": "Core Company Upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Air Cavalry Company | One Imperial Guard Commander unit, eight Imperial Guard Infantry units, five Valkyries | Core Company Upgrades | 375 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support Platoon",
+      "cost": "+100 points",
+      "units_text": "Two Fire Support units, one Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support Platoon | Two Fire Support units, one Valkyrie | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Platoon",
+      "cost": "+75 points",
+      "units_text": "Two Imperial Guard Infantry units, one Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Platoon | Two Imperial Guard Infantry units, one Valkyrie | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers",
+      "cost": "+100 points",
+      "units_text": "Two Sniper units, one Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Snipers | Two Sniper units, one Valkyrie | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Attached Vulture (Vulture)",
+      "cost": "+75 points",
+      "units_text": "One Vulture",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Attached Vulture upgrade entry.",
+      "raw_text": "Attached Vulture | One of the following: Vulture | +75 points",
+      "parse_warnings": [
+        "The source prints Attached Vulture as a one-of upgrade with distinct costs; the alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Attached Vulture (Vulture Punisher)",
+      "cost": "+100 points",
+      "units_text": "One Vulture Punisher",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Attached Vulture upgrade entry.",
+      "raw_text": "Attached Vulture | One of the following: Vulture Punisher | +100 points",
+      "parse_warnings": [
+        "The source prints Attached Vulture as a one-of upgrade with distinct costs; the alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Core Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vendettas",
+      "cost": "+25 points each",
+      "units_text": "Replace up to two Valkyries with Mirali Vendettas",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vendettas | Replace up to two Valkyries with Mirali Vendettas | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Vulture Squadron",
+      "cost": "300 points",
+      "units_text": "Four Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Squadron | Four Vultures | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Vulture Punisher Squadron",
+      "cost": "400 points",
+      "units_text": "Four Vulture Punishers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Punisher Squadron | Four Vulture Punishers | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Regimental Artillery Battery",
+      "cost": "150 points",
+      "units_text": "Three Howitzer Weapons Platforms, plus three Gun Emplacements",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Regimental Artillery Battery | Three Howitzer Weapons Platforms, plus three Gun Emplacements | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Regimental Anti-Air Battery",
+      "cost": "125 points",
+      "units_text": "Three Blitzen Weapons Platforms, plus three Gun Emplacements",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Regimental Anti-Air Battery | Three Blitzen Weapons Platforms, plus three Gun Emplacements | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Firebase Defense Company",
+      "cost": "250 points",
+      "units_text": "Eight Imperial Guard Infantry units and one Imperial Guard Commander unit, plus three Bunkers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Firebase Defense Company | Eight Imperial Guard Infantry units and one Imperial Guard Commander unit, plus three Bunkers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Mirali Trackers Company",
+      "cost": "200 points",
+      "units_text": "Six Mirali Trackers units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mirali Trackers Company | Six Mirali Trackers units | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Vulture Slick Squadron",
+      "cost": "125 points",
+      "units_text": "Four Vulture Slicks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Slick Squadron | Four Vulture Slicks | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy Allies",
+      "entry_type": "formation",
+      "name": "Thunderbolt Flight",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Flight | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy Allies",
+      "entry_type": "formation",
+      "name": "Lightning Strike Flight",
+      "cost": "200 points",
+      "units_text": "Two Lightning Strike Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lightning Strike Flight | Two Lightning Strike Fighters | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy Allies",
+      "entry_type": "formation",
+      "name": "Marauder",
+      "cost": "150 points",
+      "units_text": "One Heavy Marauder Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder | One Heavy Marauder Bomber | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Navy Allies",
+      "entry_type": "formation",
+      "name": "Marauder Destroyer",
+      "cost": "175 points",
+      "units_text": "One Mirali Heavy Marauder Destroyer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Destroyer | One Mirali Heavy Marauder Destroyer | 175 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Mirali Trackers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Sniper"
+          ]
+        },
+        {
+          "name": "Booby Traps",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Mirali Combat Blades",
+          "range": "(base)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout",
+        "Teleport"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Page 2 is rotated in the PDF; the Mirali Trackers row was cross-checked against the visible rendered table.",
+        "The OCR prints 'Miral Combat Blades'; this was normalized conservatively to 'Mirali Combat Blades'."
+      ],
+      "ambiguity_reasons": [
+        "The rotated page OCR partially degrades the Mirali Trackers weapon column."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Mirali Vendetta",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "3x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Transport",
+        "May transport two infantry units."
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The OCR prints 'MIrali Vendetta'; capitalization was normalized to 'Mirali Vendetta'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Punisher",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Punisher Cannon",
+          "range": "30cm",
+          "firepower": "4x AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Slick",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Page 2 is rotated in the PDF; the Vulture Slick row was cross-checked against the visible rendered table."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Howitzer Weapon Platform",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "range": "90cm",
+          "firepower": "1BP",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blitzen AA Platform",
+      "type": "LV",
+      "speed": "0cm",
+      "armour": "-",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Blitzen",
+          "range": "60cm",
+          "firepower": "AP6+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Wingtip Lascannon",
+          "range": "30cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Page 2 is rotated in the PDF; the Lightning Strike Fighter row was cross-checked against the visible rendered table."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy Marauder Bomber",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2x Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Destroyed"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Page 2 is rotated in the PDF; the Heavy Marauder Bomber row was cross-checked against the visible rendered table."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mirali Heavy Marauder Destroyer",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "3x Twin Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "2x Assault Cannon",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": [
+            "Rear Arc"
+          ]
+        },
+        {
+          "name": "4x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Destroyed"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Page 2 is rotated in the PDF; the Mirali Heavy Marauder Destroyer row was cross-checked against the visible rendered table.",
+        "The OCR partially degraded the first autocannon firepower token; it was normalized conservatively to the standard-looking 'AP4+/AT5+'."
+      ],
+      "ambiguity_reasons": [
+        "The rotated page OCR partially reorders the Mirali Heavy Marauder Destroyer weapon rows."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Gun Emplacement",
+      "type": "Terrain",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Infantry: 4+ cover save",
+        "Vehicles: 5+ cover save",
+        "War Engines: no effect",
+        "Can hold one unit"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bunker",
+      "type": "Terrain",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Fortification",
+        "Infantry: 3+ cover save",
+        "Vehicles: dangerous",
+        "War Engines: impassable",
+        "Can hold three units"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/tallarn-desert-raiders.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/tallarn-desert-raiders.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has an Autocannon."
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/tallarn-desert-raiders.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted."
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/cadian-shock-troops.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Support",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/tallarn-desert-raiders.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/tallarn-desert-raiders.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellstrike Missiles",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer"
+      ],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/cadian-shock-troops.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mirali Skyraiders Reference Sheet (generic profile reused from war/source-json/cadian-shock-troops.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Core Companies",
+      "text": "You may select any number of Core Companies."
+    },
+    {
+      "name": "Support Formation Limit",
+      "text": "You may select 0-1 Support Formations for every Core Company chosen."
+    },
+    {
+      "name": "Core Company Upgrades",
+      "text": "You may add 0-3 Upgrade choices to each Core Company Formation. No upgrade may be chosen more than once."
+    },
+    {
+      "name": "Imperial Navy Allies",
+      "text": "Up to one third of your army may be composed of Imperial Navy formations."
+    },
+    {
+      "name": "Terrain Table - Gun Emplacement",
+      "text": "Infantry 4+ cover save, Vehicle 5+ cover save, War Engine no effect."
+    },
+    {
+      "name": "Terrain Table - Bunker",
+      "text": "Infantry 3+ cover save, Vehicle dangerous, War Engine impassable."
+    }
+  ],
+  "extraction_warnings": [
+    "Page 2 of the Mirali PDF is rotated; the profile rows were cross-checked against the visible rendered table rather than trusting OCR order alone.",
+    "Generic profile 'Imperial Guard Supreme Commander' was reused from war/source-json/tallarn-desert-raiders.json.",
+    "Generic profile 'Imperial Guard Commander' was reused from war/source-json/tallarn-desert-raiders.json.",
+    "Generic profile 'Imperial Guard Infantry' was reused from war/source-json/tallarn-desert-raiders.json.",
+    "Generic profile 'Valkyrie' was reused from war/source-json/cadian-shock-troops.json.",
+    "Generic profile 'Fire Support' was reused from war/source-json/tallarn-desert-raiders.json.",
+    "Generic profile 'Sniper' was reused from war/source-json/tallarn-desert-raiders.json.",
+    "Generic profile 'Vulture' was reused from war/source-json/cadian-shock-troops.json.",
+    "Generic profile 'Thunderbolt Fighter' was reused from war/source-json/cadian-shock-troops.json."
+  ]
+}
