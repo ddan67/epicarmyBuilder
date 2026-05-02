@@ -221,7 +221,7 @@ var supportedStatArmys = {
 
 
 
-};
+
 document.querySelectorAll('.list a').forEach(function(link) {
   var match = link.href.match(/[?&]list=([^&]+)/);
   if (match && supportedStatArmys[match[1]]) {
