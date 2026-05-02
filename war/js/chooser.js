@@ -282,6 +282,7 @@ var ArmyforgeUI = {
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
 			'IG_minervan_NETEA': ArmyforgeUnitProfiles.findIgMinervanTankLegionProfileByName,
+			'IG_Tallarn_NETEA': ArmyforgeUnitProfiles.findTallarnDesertRaidersProfileByName,
 			'XENOS_squats_NETEA': ArmyforgeUnitProfiles.findSquatProfileByName,
 			'INQ_ordo_xenos_NETEA': ArmyforgeUnitProfiles.findInquisitionOrdoXenosProfileByName,
 			'INQ_gk2018_NETEA': ArmyforgeUnitProfiles.findGreyKnightsProfileByName,
@@ -1280,6 +1281,100 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	tallarnDesertRaidersFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	tallarnDesertRaidersAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_Tallarn_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^Infantry Company$/i.test(formationName)) {
+			extras.push(ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^supreme commander$/i) ? 'Imperial Guard Supreme Commander' : 'Imperial Guard Commander');
+			extras.push('Imperial Guard Infantry');
+			extras.push('Sniper');
+		}
+		else if (/^Mechanized Infantry Company$/i.test(formationName)) {
+			extras.push(ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^supreme commander$/i) ? 'Imperial Guard Supreme Commander' : 'Imperial Guard Commander');
+			extras.push('Imperial Guard Infantry');
+			extras.push('Sniper');
+			extras.push('Chimera');
+		}
+		else if (/^Mukaali Assault Company$/i.test(formationName)) {
+			extras.push(ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^cavalry supreme commander$/i) ? 'Cavalry Supreme Commander' : 'Cavalry Commander');
+			if (ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^mukaali cavalry support$/i)) {
+				extras.push('Mukaali Support Cavalry');
+			}
+			if (ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^mukaali cavalry\s*$/i)) {
+				extras.push('Mukaali Cavalry');
+			}
+			if (!ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /^mukaali cavalry(\s+support)?\s*$/i)) {
+				extras.push('Mukaali Cavalry');
+				extras.push('Mukaali Support Cavalry');
+			}
+		}
+		else if (/^Sentinel Platoon$/i.test(formationName)) {
+			extras.push('Tallarn Sentinel');
+		}
+		else if (/^Fire Support Platoon$/i.test(formationName)) {
+			extras.push('Fire Support');
+			if (ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /2 chimeras/i)) {
+				extras.push('Chimera');
+			}
+		}
+		else if (/^Light Artillery Platoon$/i.test(formationName)) {
+			extras.push('Chimera');
+			extras.push('Thudd Gun');
+		}
+		else if (/^Desert Raiders Platoon$/i.test(formationName)) {
+			extras.push('Stormtrooper');
+			extras.push('Sniper');
+			if (ArmyforgeUI.tallarnDesertRaidersFormationHasUpgrade(formation, /4 chimeras/i)) {
+				extras.push('Chimera');
+			}
+		}
+		else if (/^Hellhound Squadron$/i.test(formationName)) {
+			extras.push('Hellhound');
+		}
+		else if (/^Griffon Squadron$/i.test(formationName)) {
+			extras.push('Griffon');
+		}
+		else if (/^Anti-Aircraft Platoon$/i.test(formationName)) {
+			extras.push('Sabre Platform');
+			extras.push('Chimera');
+		}
+		else if (/^Rough Rider Platoon$/i.test(formationName)) {
+			extras.push('Cavalry Commander');
+			extras.push('Rough Rider');
+		}
+		else if (/^Tauros Platoon$/i.test(formationName)) {
+			extras.push('Tauros');
+			extras.push('Tauros Venator');
+		}
+		else if (/^Conqueror Platoon$/i.test(formationName)) {
+			extras.push('Leman Russ Conqueror');
+		}
+		else if (/^Thunderbolt Squadron$/i.test(formationName)) {
+			extras.push('Thunderbolt Fighter-Bomber');
+		}
+		else if (/^Destroyer Squadron$/i.test(formationName)) {
+			extras.push('Marauder Destroyer');
+		}
+		else if (/^(Knight House Banner|Questoris Knights)$/i.test(formationName)) {
+			extras.push('Questoris Knight');
+		}
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -1362,6 +1457,14 @@ var ArmyforgeUI = {
 		});
 
 		ArmyforgeUI.greyKnightsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.tallarnDesertRaidersAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2024,6 +2127,7 @@ var ArmyforgeUI = {
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
 			'imperial-guard-steel-legion.json',
+			'tallarn-desert-raiders.json',
 			'grey-knights.json',
 			'inquisition-ordo-xenos.json',
 			'sisters-of-battle.json',
@@ -2055,7 +2159,8 @@ var ArmyforgeUI = {
 			'SM_DarkAngels_NETEA': 'dark-angels.json',
 			'SM_bloodAngels_NETEA': 'blood-angels.json',
 			'INQ_gk2018_NETEA': 'grey-knights.json',
-			'INQ_sisters2018_NETEA': 'sisters-of-battle.json'
+			'INQ_sisters2018_NETEA': 'sisters-of-battle.json',
+			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};
 		return sourceFilesByListId[listId] || null;
 	},

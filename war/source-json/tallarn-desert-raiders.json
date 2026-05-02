@@ -1,0 +1,1052 @@
+{
+  "metadata": {
+    "army_name": "Tallarn Desert Raiders",
+    "source_url": null,
+    "page_title": "Tallarn Desert Raiders Army List v0.8",
+    "list_id": "IG_Tallarn_NETEA",
+    "status_note": "Experimental, nay Super Unstable"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations except Knight formations",
+          "value": "2+"
+        },
+        {
+          "scope": "Knight formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Towed Guns",
+      "text": "Tallarn Chimeras may transport one Sabre Platform or one Thudd Gun, if they transport no other units."
+    },
+    {
+      "name": "Lightning Raid",
+      "text": "For every complete 1500 points of army selected, the Tallarn player may choose to garrison one formation that is not normally eligible to garrison. Formations that garrison using this rule may not start the game on Overwatch."
+    },
+    {
+      "name": "Commissars",
+      "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points. Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations. You may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Tallarn Companies",
+      "entry_type": "formation",
+      "name": "Infantry Company",
+      "cost": "250 points",
+      "units_text": "1 Imperial Guard Commander unit, 10 Imperial Guard Infantry units, 2 Sniper units",
+      "upgrades_or_options_text": "Any",
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Company | 1 Imperial Guard Commander unit, 10 Imperial Guard Infantry units, 2 Sniper units | Any | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Companies",
+      "entry_type": "formation",
+      "name": "Mechanized Infantry Company",
+      "cost": "400 points",
+      "units_text": "1 Imperial Guard Commander unit, 10 Imperial Guard Infantry units, 2 Sniper units, 7 Chimeras",
+      "upgrades_or_options_text": "Any",
+      "restrictions_or_notes": null,
+      "raw_text": "Mechanized Infantry Company | 1 Imperial Guard Commander unit, 10 Imperial Guard Infantry units, 2 Sniper units, 7 Chimeras | Any | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Companies",
+      "entry_type": "formation",
+      "name": "Mukaali Assault Company",
+      "cost": "300 points",
+      "units_text": "1 Cavalry Commander Character, and 10 Mukaali Cavalry or Mukaali Cavalry Support units in any combination",
+      "upgrades_or_options_text": "Any",
+      "restrictions_or_notes": null,
+      "raw_text": "Mukaali Assault Company | 1 Cavalry Commander Character, and 10 Mukaali Cavalry or Mukaali Cavalry Support units in any combination | Any | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers",
+      "cost": "+25 points each",
+      "units_text": "Add 1 or 2 Sniper units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add transport Chimera for +25 points.",
+      "raw_text": "Snipers | Add 1 or 2 sniper units (add transport Chimera) | +25 points each (+25 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Flak",
+      "cost": "+25 points",
+      "units_text": "Add 1 Sabre Platform",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add transport Chimera for +25 points.",
+      "raw_text": "Flak | Add 1 Sabre Platform (add transport Chimera) | +25 points (+25 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Griffon Squadron",
+      "cost": "+50 points",
+      "units_text": "Add 3 Griffons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Griffon Squadron | Add 3 Griffons | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhound",
+      "cost": "+100 points",
+      "units_text": "Add 3 Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound | Add 3 Hellhounds | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "0-1 Supreme Commander",
+      "cost": "+50 points",
+      "units_text": "Replace 1 Commander unit with a Supreme Commander unit OR replace one Cavalry Commander character with a Cavalry Supreme Commander Character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Supreme Commander | Replace 1 Commander unit with a Supreme Commander unit OR replace one Cavalry Commander character with a Cavalry Supreme Commander Character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support",
+      "cost": "+100 points",
+      "units_text": "Add 4 Fire Support units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add transport Chimera for +25 points.",
+      "raw_text": "Fire Support | Add 4 Fire Support units (add transport Chimera) | +100 points (+25 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Sentinel Platoon",
+      "cost": "150 points",
+      "units_text": "8 Tallarn Sentinels",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinel Platoon | 8 Tallarn Sentinels | none | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Fire Support Platoon",
+      "cost": "100 points",
+      "units_text": "4 Fire Support units",
+      "upgrades_or_options_text": "Flak, Griffon Squadron",
+      "restrictions_or_notes": "Add 2 transport Chimeras for +50 points.",
+      "raw_text": "Fire Support Platoon | 4 Fire Support units (add 2 transport Chimera) | Flak, Griffon Squadron | 100 points (+50 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Light Artillery Platoon",
+      "cost": "200 points",
+      "units_text": "4 Chimeras and 4 Thudd Gun units",
+      "upgrades_or_options_text": "Flak, Griffon Squadron",
+      "restrictions_or_notes": null,
+      "raw_text": "Light Artillery Platoon | 4 Chimeras and 4 Thudd Gun units | Flak, Griffon Squadron | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Desert Raiders Platoon",
+      "cost": "175 points",
+      "units_text": "4 Stormtrooper units and 4 Sniper units",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": "Add Teleport to every unit in the formation for +50 points OR add 4 Chimeras for +100 points.",
+      "raw_text": "Desert Raiders Platoon | 4 Stormtrooper units and 4 Sniper units | none | 175 points (+50 points Teleport OR +100 points for 4 Chimeras)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Hellhound Squadron",
+      "cost": "150 points",
+      "units_text": "3 Hellhounds",
+      "upgrades_or_options_text": "Flak",
+      "restrictions_or_notes": "Add 3 Hellhounds for +100 points.",
+      "raw_text": "Hellhound Squadron | 3 Hellhounds (add 3 Hellhounds) | Flak | 150 points (+100 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Griffon Squadron",
+      "cost": "100 points",
+      "units_text": "3 Griffons",
+      "upgrades_or_options_text": "Flak",
+      "restrictions_or_notes": "Add 3 Griffons for +75 points.",
+      "raw_text": "Griffon Squadron | 3 Griffons (add 3 Griffons) | Flak | 100 points (+75 points)",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Anti-Aircraft Platoon",
+      "cost": "175 points",
+      "units_text": "4 Sabre Platforms and 4 transport Chimeras",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": null,
+      "raw_text": "Anti-Aircraft Platoon | 4 Sabre Platforms and 4 transport Chimeras | none | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Rough Rider Platoon",
+      "cost": "175 points",
+      "units_text": "1 Cavalry Commander character, and 6 Rough Rider units",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": null,
+      "raw_text": "Rough Rider Platoon | 1 Cavalry Commander character, and 6 Rough Rider units | none | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Tauros Platoon",
+      "cost": "200 points",
+      "units_text": "4 Tauros and 4 Tauros Venator",
+      "upgrades_or_options_text": "none",
+      "restrictions_or_notes": null,
+      "raw_text": "Tauros Platoon | 4 Tauros and 4 Tauros Venator | none | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Tallarn Support Formations",
+      "entry_type": "formation",
+      "name": "Conqueror Platoon",
+      "cost": "325 points",
+      "units_text": "6 Leman Russ Conquerors",
+      "upgrades_or_options_text": "Any",
+      "restrictions_or_notes": null,
+      "raw_text": "Conqueror Platoon | 6 Leman Russ Conquerors | Any | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Allied Forces",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "175 points",
+      "units_text": "2 Thunderbolt Fighter-Bombers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | 2 Thunderbolt Fighter-Bombers | None | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Allied Forces",
+      "entry_type": "formation",
+      "name": "Destroyer Squadron",
+      "cost": "275 points",
+      "units_text": "2 Marauder Destroyers",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Destroyer Squadron | 2 Marauder Destroyers | None | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Allied Forces",
+      "entry_type": "formation",
+      "name": "Knight House Banner",
+      "cost": "350 points",
+      "units_text": "2 Questoris Knights",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Add 1 additional knight for +175 points.",
+      "raw_text": "Knight House Banner | 2 Questoris Knights (add 1 additional knight) | None | 350 points (+175 points)",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Mukaali Cavalry",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Las Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Shock Lance",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "First Strike",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Walker",
+        "Mounted",
+        "May not march"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mukaali Support Cavalry",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Plasma Gun",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Walker",
+        "Mounted",
+        "May not march"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tallarn Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Support Pod",
+          "range": "45cm",
+          "firepower": "AT6+/AP6+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cavalry Supreme Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cavalry Commander",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Cavalry Sword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sabre Platform",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Flak Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thudd Gun",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Quad Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Indirect Fire"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tauros",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Grenade Launcher",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tauros Venator",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Conqueror",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Conqueror Cannon",
+          "range": "40cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Questoris Knight",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Knight Chainsword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Shock Field",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Heavy Stubber",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Rapid Battlecannon",
+          "range": "60cm",
+          "firepower": "2x AP4+/AT4+",
+          "notes": [
+            "pick-one main gun option"
+          ]
+        },
+        {
+          "name": "Gatling Cannon",
+          "range": "60cm",
+          "firepower": "6x AP6+/AT6+",
+          "notes": [
+            "pick-one main gun option"
+          ]
+        },
+        {
+          "name": "Thermal Cannon",
+          "range": "30cm",
+          "firepower": "MW3+",
+          "notes": [
+            "pick-one main gun option"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Effect: Destroyed",
+        "Reinforced Armour",
+        "Knight Shield",
+        "Walker"
+      ],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Questoris Knight row is OCR-collapsed around the small-arms lines and the AND/pick-one main gun block; weapon entries were separated conservatively from visible text."
+      ],
+      "ambiguity_reasons": [
+        "Shock Field and Heavy Stubber are printed on adjacent collapsed small-arms lines in the extracted PDF text.",
+        "Rapid Battlecannon, Gatling Cannon, and Thermal Cannon are preserved as mutually exclusive main gun options rather than as simultaneous weapons."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Marauder Destroyer",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "3x Twin Autocannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Assault Cannons",
+          "range": "15cm",
+          "firepower": "AA4+",
+          "notes": [
+            "Rear"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Tallarn Desert Raiders Reference Sheet",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has an Autocannon."
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Sniper"
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/js/unitProfiles.igSteelLegion.js)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted ."
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Support",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Korps of Krieg Forces (reused from war/source-json/imperial-guard-death-korps-of-krieg.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Griffon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Mortar",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Ind"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces (reused from war/source-json/imperial-guard-steel-legion.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormtrooper",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/js/unitProfiles.igSteelLegion.js)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rough Rider",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laspistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Lances",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Mounted",
+        "Scout"
+      ],
+      "source_section": "Imperial Guard Forces (reused from war/js/unitProfiles.igSteelLegion.js)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Guard Forces (reused from war/js/unitProfiles.igSteelLegion.js)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Tallarn Companies",
+      "text": "A Tallarn army may contain any number of companies."
+    },
+    {
+      "name": "Tallarn Company Upgrades",
+      "text": "Each Core Formation may select 0-3 upgrades. Each Core Formation may not select each upgrade type more than once."
+    },
+    {
+      "name": "Tallarn Support Formations",
+      "text": "Two Support Formations may be selected for each Core Formation in your army list."
+    },
+    {
+      "name": "Allied Forces",
+      "text": "No more than 1/3 of the army's points may be spent on Allies."
+    },
+    {
+      "name": "Rationale",
+      "text": "This is a list attempting to create a Desert Rats WW1/2 light raider force. Forgoing heavier vehicles, light armour and infiltrators must be used to achieve activation superiority and maintain initiative. Think Lawrence of Arabia, but in SPAAAAAACE....",
+      "raw_text": "This is a list attempting to create a Desert Rats WW1/2 light raider force. Forgoing heavier vehicles, light armour and infiltrators must be used to achieve activation superiority and maintain initiative. Think Laurence of Arabia, but in SPAAAAAACE...."
+    },
+    {
+      "name": "Design Rationale",
+      "text": "The core themes of this list are intended to focus on Light Infantry, and the Tallarn style of raid-based warfare.\nFor this end, this list lacks all of the normal Imperial Guard main battle tanks, war engines, heavy artillery, Deathstrikes, VTOL skimmers, etc.\nInstead it concentrates on a few core types of infantry, with an emphasis on snipers, and also cavalry and aircraft with an emphasis on close air support.\nWhat vehicles are present, are all either transports, or scouting/raiding type vehicles. Instead of heavy Titans in the Allies section, the Tallarn army only has access to the Questoris Knight. Again, this helps form part of the \"lighter, faster\" theme of the list."
+    },
+    {
+      "name": "EpicUK Leman Russ Conqueror Option",
+      "text": "Some players may prefer to use the EpicUK stats for the Leman Russ Conqueror.\nEpicUK version: AV 25cm, A:5+, C:6+, F:5+, Reinforced Armour, +1 to Action Tests for Double orders, 250 points for 6."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from the local PDF C:/Users/fliff/Downloads/Tallarn Desert Raiders-0.8.pdf via pypdf plain-text extraction.",
+    "source_url was left null because no reliable Tallarn source URL was confirmed from the repository during this task.",
+    "The Questoris Knight row on page 3 is OCR-collapsed around its small-arms lines and mutually exclusive main gun options; the JSON preserves a conservative parse and flags that profile as ambiguous.",
+    "Generic profile 'Imperial Guard Commander' was reused from war/source-json/imperial-guard-steel-legion.json (profile 'Commander').",
+    "Generic profile 'Imperial Guard Supreme Commander' was reused from war/source-json/imperial-guard-steel-legion.json (profile 'Supreme Commander').",
+    "Generic profile 'Imperial Guard Infantry' was reused from war/source-json/imperial-guard-steel-legion.json (profile 'Infantry').",
+    "Generic profile 'Sniper' was reused from war/js/unitProfiles.igSteelLegion.js (profile 'Snipers').",
+    "Generic profile 'Chimera' was reused from war/source-json/imperial-guard-steel-legion.json.",
+    "Generic profile 'Fire Support' was reused from war/source-json/imperial-guard-death-korps-of-krieg.json.",
+    "Generic profile 'Griffon' was reused from war/source-json/imperial-guard-steel-legion.json.",
+    "Generic profile 'Hellhound' was reused from war/source-json/imperial-guard-steel-legion.json.",
+    "Generic profile 'Stormtrooper' was reused from war/js/unitProfiles.igSteelLegion.js (profile 'Storm Troopers').",
+    "Generic profile 'Rough Rider' was reused from war/js/unitProfiles.igSteelLegion.js (profile 'Rough Riders').",
+    "Generic profile 'Thunderbolt Fighter-Bomber' was reused from war/js/unitProfiles.igSteelLegion.js (profile 'Thunderbolt Fighter').",
+    "Obvious source typos were normalized in descriptive text only: Rational -> Rationale, Laurence -> Lawrence in the rationale note, Calvary -> Cavalry, and Conqueor -> Conqueror."
+  ]
+}
