@@ -281,6 +281,7 @@ var ArmyforgeUI = {
 			'IG_catachan_NETEA': ArmyforgeUnitProfiles.findCatachanDeathworldVeteransProfileByName,
 			'IG_cadian_NETEA': ArmyforgeUnitProfiles.findCadianShockTroopsProfileByName,
 			'IG_Elysian_NETEA': ArmyforgeUnitProfiles.findElysianDropTroopsProfileByName,
+			'IG_harakoni_NETEA_fixed': ArmyforgeUnitProfiles.findHarakoniWarhawksProfileByName,
 			'IG_steelLegion_NETEA': ArmyforgeUnitProfiles.findIgSteelLegionProfileByName,
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
@@ -2011,6 +2012,183 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	harakoniWarhawksFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	harakoniWarhawksAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_harakoni_NETEA_fixed' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^(Harakoni Strike Company|Strike Company|Airmobile Company|Storm Company)$/i.test(formationName)) {
+			extras.push('Harakoni Commander');
+			extras.push('Warhawks');
+			extras.push('Storm Troopers');
+			if (/^Airmobile Company$/i.test(formationName) || ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /valkyr/i)) {
+				extras.push('Valkyrie');
+			}
+		}
+		else if (/^Reconnaissance Squadron$/i.test(formationName)) {
+			extras.push('Sentinel');
+		}
+		else if (/^Demolition Specialists$/i.test(formationName)) {
+			extras.push('Sappers');
+			extras.push('Tech Priest');
+		}
+		else if (/^Tank Hunter Squadron$/i.test(formationName)) {
+			var hasVulture = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /vulture gunship|^vulture$|^vultures$/i);
+			var hasVendetta = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /vendetta/i);
+			var hasPunisher = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /punisher/i);
+			if (hasVulture || hasVendetta || hasPunisher) {
+				if (hasVulture) {
+					extras.push('Vulture');
+				}
+				if (hasVendetta) {
+					extras.push('Vendetta');
+				}
+				if (hasPunisher) {
+					extras.push('Vulture Punisher');
+				}
+			}
+			else {
+				extras.push('Vulture');
+				extras.push('Vendetta');
+				extras.push('Vulture Punisher');
+			}
+		}
+		else if (/^(Harakoni Light Artillery Squadron|Light Artillery Battery)$/i.test(formationName)) {
+			extras.push('Support Sentinel');
+		}
+		else if (/^Spacecraft$/i.test(formationName)) {
+			var hasOnero = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /onero/i);
+			var hasLunar = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /lunar/i);
+			var hasEmperor = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /emperor/i);
+			if (hasOnero || hasLunar || hasEmperor) {
+				if (hasOnero) {
+					extras.push('Onero Overflight');
+				}
+				if (hasLunar) {
+					extras.push('Lunar Class Cruiser');
+				}
+				if (hasEmperor) {
+					extras.push('Emperor Class Battleship');
+				}
+			}
+			else {
+				extras.push('Onero Overflight');
+				extras.push('Lunar Class Cruiser');
+				extras.push('Emperor Class Battleship');
+			}
+		}
+		else if (/^Fighter Squadron$/i.test(formationName)) {
+			var hasInterceptor = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /lightning interceptor/i);
+			var hasThunderbolt = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /thunderbolt/i);
+			var hasStrike = ArmyforgeUI.harakoniWarhawksFormationHasUpgrade(formation, /lightning strike/i);
+			if (hasInterceptor || hasThunderbolt || hasStrike) {
+				if (hasInterceptor) {
+					extras.push('Lightning Interceptor');
+				}
+				if (hasThunderbolt) {
+					extras.push('Thunderbolt Fighter');
+				}
+				if (hasStrike) {
+					extras.push('Lightning Strike Fighter');
+				}
+			}
+			else {
+				extras.push('Lightning Interceptor');
+				extras.push('Thunderbolt Fighter');
+				extras.push('Lightning Strike Fighter');
+			}
+		}
+		else if (/^Marauder Heavy Bomber$/i.test(formationName)) {
+			extras.push('Marauder Heavy Bomber');
+		}
+		else if (/^Marauder Destroyer$/i.test(formationName)) {
+			extras.push('Marauder Destroyer');
+		}
+		else if (/^(Marauder Spectre|Maurader Spectre)$/i.test(formationName)) {
+			extras.push('Marauder Spectre');
+		}
+		else if (/^(Linebreaker Relief Column|Linebreaker Relief Coloumn|Linebreaker Formation)$/i.test(formationName)) {
+			extras.push('Imperial Guard Infantry');
+			extras.push('Chimera');
+			extras.push('Leman Russ Conqueror');
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/regimental command|regimental commander/i.test(upgradeName)) {
+				extras.push('Harakoni Supreme Commander');
+			}
+			if (/fire support/i.test(upgradeName)) {
+				extras.push('Harakoni Fire Support');
+			}
+			if (/warhawks?/i.test(upgradeName)) {
+				extras.push('Warhawks');
+			}
+			if (/stormtrooper|storm trooper/i.test(upgradeName)) {
+				extras.push('Storm Troopers');
+			}
+			if (/forward observer|artillery liaison/i.test(upgradeName)) {
+				extras.push('Forward Observer');
+			}
+			if (/grav[\s-]?glider/i.test(upgradeName)) {
+				extras.push('Grav-Glider');
+			}
+			if (/valkyr/i.test(upgradeName)) {
+				extras.push('Valkyrie');
+			}
+			if (/vendetta/i.test(upgradeName)) {
+				extras.push('Vendetta');
+			}
+			if (/vulture gunship|^2 vultures$|^vultures$|^vulture$/i.test(upgradeName)) {
+				extras.push('Vulture');
+			}
+			if (/punisher/i.test(upgradeName)) {
+				extras.push('Vulture Punisher');
+			}
+			if (/sentinel/i.test(upgradeName) && !/support sentinel/i.test(upgradeName)) {
+				extras.push('Sentinel');
+			}
+			if (/support sentinel/i.test(upgradeName)) {
+				extras.push('Support Sentinel');
+			}
+			if (/onero/i.test(upgradeName)) {
+				extras.push('Onero Overflight');
+			}
+			if (/lunar/i.test(upgradeName)) {
+				extras.push('Lunar Class Cruiser');
+			}
+			if (/emperor/i.test(upgradeName)) {
+				extras.push('Emperor Class Battleship');
+			}
+			if (/lightning interceptor/i.test(upgradeName)) {
+				extras.push('Lightning Interceptor');
+			}
+			if (/thunderbolt/i.test(upgradeName)) {
+				extras.push('Thunderbolt Fighter');
+			}
+			if (/lightning strike/i.test(upgradeName)) {
+				extras.push('Lightning Strike Fighter');
+			}
+			if (/conqueror/i.test(upgradeName)) {
+				extras.push('Leman Russ Conqueror');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -2132,6 +2310,13 @@ var ArmyforgeUI = {
 			}
 		});
 		ArmyforgeUI.elysianDropTroopsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+		ArmyforgeUI.harakoniWarhawksAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2793,6 +2978,7 @@ var ArmyforgeUI = {
 			'catachan-deathworld-veterans.json',
 			'cadian-shock-troops.json',
 			'elysian-drop-troops.json',
+			'harakoni-warhawks.json',
 			'imperial-guard-baran-siegemasters.json',
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
@@ -2834,6 +3020,7 @@ var ArmyforgeUI = {
 			'IG_catachan_NETEA': 'catachan-deathworld-veterans.json',
 			'IG_cadian_NETEA': 'cadian-shock-troops.json',
 			'IG_Elysian_NETEA': 'elysian-drop-troops.json',
+			'IG_harakoni_NETEA_fixed': 'harakoni-warhawks.json',
 			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};

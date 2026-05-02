@@ -1,0 +1,1225 @@
+{
+  "metadata": {
+    "army_name": "Harakoni Warhawks",
+    "page_title": "Harakoni Warhawks Imperial Guard Army List",
+    "source_url": null,
+    "list_id": "IG_harakoni_NETEA_fixed",
+    "version": "v1.4.2"
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Commissars",
+      "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.\nCommissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations.\nYou may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
+    },
+    {
+      "name": "Skyborne",
+      "text": "Harakoni Warhawks train extensively to function as rapid-deploying heavy infantry, acting as shock troops to open holes in an enemies defense. Warhawks use the Skitarii Hypaspists profile. Commanders, Sappers, and Fire Support teams gain a 5+ Armour Save. Fire Support teams replace both Autocannons with Lascannons. All infantry and Light Vehicles gain Planetfall. All Skimmers gain Planetfall."
+    },
+    {
+      "name": "CAP Garrison",
+      "text": "Rather than placing one ground garrison on overwatch a Harakoni army may place one fighter formation on CAP. The player may still place as many ground garrisons as their army allows, but only one may start the game on overwatch. The fighters follow the setup rules for CAP, but this is done during the garrisoning phase of the pre-game setup."
+    },
+    {
+      "name": "Air Cavalry",
+      "text": "Units in any Strike Company formation with assigned Valkyrie transports may use their transport slots as normal. Unless otherwise specified, light vehicles count as two models for the purposes of transport."
+    },
+    {
+      "name": "Expendable",
+      "text": "Formations do not receive blast markers when Expendable units are killed, nor are they counted as casualties for assault resolution."
+    },
+    {
+      "name": "Playtest Rule – Marauder Drop",
+      "text": "Marauder Heavy Bombers gain \"Transport (1 formation consisting only of Infantry or Light Vehicles)\". While transporting units, the Marauder is unable to use its Bomb Racks. Marauder Heavy Bombers are unable to conduct an Air-Assault, and can never load any troops after the game begins. When transported troops disembark from the Marauder during a Ground Attack action, the Bomber does not count as \"landed,\" and Infantry or units with the Skimmer special rule may deploy as if they were equipped with Jump Packs."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Harakoni Companies",
+      "entry_type": "formation",
+      "name": "Harakoni Strike Company",
+      "cost": "250 points base",
+      "units_text": "1 Commander, 3 Warhawks, 2 Stormtroopers, and one of the listed formation options",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": "Choose one of: 4 Warhawks for +25 points; 3 Valkyries for +75 points, then add additional Valkyries up to the minimum required to transport the formation at +25 points each; or 2 Stormtroopers for free.",
+      "raw_text": "Harakoni Strike Company | 1 Commander, 3 Warhawks, 2 Stormtroopers, and one of the following: 4 Warhawks (+25 points), 3 Valkyries (must add additional Valkyries up to minimum required to transport formation at +25 each, +75 points), 2 Stormtroopers (free) | base 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "0-1 Regimental Command",
+      "cost": "+100 points",
+      "units_text": "Replace Commander with Supreme Commander",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Regimental Command | Replace Commander with Supreme Commander | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support",
+      "cost": "+100 points",
+      "units_text": "Add 4 Fire Support teams",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support | Add 4 Fire Support teams | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Warhawk Infantry",
+      "cost": "+75 points",
+      "units_text": "Add 4 Warhawks to the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhawk Infantry | Add 4 Warhawks to the formation | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Harakoni Veterans",
+      "cost": "+50 points",
+      "units_text": "Add 2 Stormtroopers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harakoni Veterans | Add 2 Stormtroopers | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Artillery Liaison Officer",
+      "cost": "+100 points",
+      "units_text": "Add 1 Forward Observer character to a Warhawks base in the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per 2000 points.",
+      "raw_text": "Artillery Liaison Officer | Add 1 Forward Observer character to a Warhawks base in the formation | +100 points | 0-1 per 2000 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Grav-Glider",
+      "cost": "+50 points",
+      "units_text": "Add 1 Grav-Glider to the formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Grav-Glider | Add 1 Grav-Glider to the formation | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Close Air Support",
+      "cost": "+125 points",
+      "units_text": "Add 2 Vultures. Replace with Punishers for 50 points",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "The source prints this as a replacement option rather than a split cost row.",
+      "raw_text": "Close Air Support | Add 2 Vultures. Replace with Punishers for 50 points | +125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Support Formations",
+      "entry_type": "formation",
+      "name": "Reconnaissance Squadron",
+      "cost": "150 points",
+      "units_text": "6 Sentinels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May add 3 additional Sentinels for +50 points.",
+      "raw_text": "Reconnaissance Squadron | 6 Sentinels | 150 points | May add 3 additional Sentinels for +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Support Formations",
+      "entry_type": "formation",
+      "name": "Demolition Specialists",
+      "cost": "200 points",
+      "units_text": "Seven Sappers and one Tech Priest",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add 4 Vendettas for +150 points. May add a Grav-Glider for +50 points.",
+      "raw_text": "Demolition Specialists | Seven Sappers and one Tech Priest | 200 points | add 4 Vendettas for +150 points; may add a Grav-Glider for +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Support Formations",
+      "entry_type": "formation",
+      "name": "Tank Hunter Squadron",
+      "cost": "300 points",
+      "units_text": "Four Vultures or Vendettas",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to two additional Vultures or Vendettas for +75 points each. Replace up to two with Vulture Punishers for +25 points each.",
+      "raw_text": "Tank Hunter Squadron | Four Vultures or Vendettas | 300 points | Add up to two additional Vultures or Vendettas for +75 points each; replace up to two with Vulture Punishers for +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Harakoni Support Formations",
+      "entry_type": "formation",
+      "name": "Harakoni Light Artillery Squadron",
+      "cost": "200 points",
+      "units_text": "Four Support Sentinels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per Reconnaissance Squadron.",
+      "raw_text": "Harakoni Light Artillery Squadron | Four Support Sentinels | 200 points | 0-1 per Reconnaissance Squadron",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "0-1 Spacecraft - Onero Overflight",
+      "cost": "150 points",
+      "units_text": "One Onero Overflight",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from the one-of Spacecraft row.",
+      "raw_text": "0-1 Spacecraft | One Onero Overflight | 150 points",
+      "parse_warnings": [
+        "The source prints multiple spacecraft alternatives with distinct costs under a single row; these were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "0-1 Spacecraft - Lunar Cruiser",
+      "cost": "150 points",
+      "units_text": "One Lunar Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from the one-of Spacecraft row.",
+      "raw_text": "0-1 Spacecraft | One Lunar cruiser | 150 points",
+      "parse_warnings": [
+        "The source prints multiple spacecraft alternatives with distinct costs under a single row; these were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "0-1 Spacecraft - Emperor Battleship",
+      "cost": "300 points",
+      "units_text": "One Emperor Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Slow and Steady special rule only applies to turn 1. Split from the one-of Spacecraft row.",
+      "raw_text": "0-1 Spacecraft | One Emperor Battleship (Slow and Steady special rule only applies to turn 1) | 300 points",
+      "parse_warnings": [
+        "The source prints multiple spacecraft alternatives with distinct costs under a single row; these were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "Fighter Squadron",
+      "cost": "150 points",
+      "units_text": "Two Lightning Interceptors, Two Thunderbolts, or Two Lightning Strike Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May add up to two more Interceptors for +75 points. May replace any number with Thunderbolts or Lightning Strikes for +25 points each.",
+      "raw_text": "Fighter Squadron | Two Lightning Interceptors, Two Thunderbolts, or Two Lightning Strike Fighters | 150 points | May add up to two more Interceptors for +75 points; may replace any number with Thunderbolts or Lightning Strikes for +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "Marauder Heavy Bomber",
+      "cost": "175 points",
+      "units_text": "One Marauder Heavy Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Heavy Bomber | One Marauder Heavy Bomber | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "Marauder Destroyer",
+      "cost": "175 points",
+      "units_text": "One Marauder Destroyer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Destroyer | One Marauder Destroyer | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "Marauder Spectre",
+      "cost": "225 points",
+      "units_text": "One Marauder Spectre",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Spectre | One Marauder Spectre | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Allies",
+      "entry_type": "formation",
+      "name": "Linebreaker Relief Column",
+      "cost": "300 points",
+      "units_text": "Six Imperial Infantry, three Chimera transports, and three Conquerors",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May add 3 Conquerors for 150 points.",
+      "raw_text": "Linebreaker Relief Coloumn | Six Imperial Infantry, three Chimera transports, and three Conquerors | 300 points | May add 3 Conquerors for 150 points",
+      "parse_warnings": [
+        "Normalized formation name from source 'Linebreaker Relief Coloumn' to 'Linebreaker Relief Column'."
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Warhawks",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascarbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Skyborne: uses the Skitarii Hypaspists profile"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harakoni Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascarbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Planetfall",
+        "Skyborne 5+ Armour Save"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tech Priest",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Augmentations",
+          "range": "(contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Commander",
+        "Invulnerable Save",
+        "Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Tech Priest close-combat row is overlapped by adjacent OCR text; the visible 'Augmentations' assault weapon line was preserved conservatively and any extra traits beyond EA(+1) were not invented."
+      ],
+      "ambiguity_reasons": [
+        "Tech Priest weapon row overlaps with the adjacent Sappers row in the PDF extraction."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Sappers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Melta Bombs",
+          "range": "(contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Planetfall",
+        "Skyborne 5+ Armour Save"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harakoni Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascarbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Planetfall",
+        "Skyborne 5+ Armour Save"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harakoni Fire Support",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Lascannons",
+          "range": "45cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Skyborne 5+ Armour Save",
+        "Skyborne replaces both Autocannons with Lascannons"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Fire Support firepower line is visibly degraded in the PDF extraction; the row clearly shows '2 x Lascannons' at 45cm, but the firepower was preserved as visible text 'AP5+' rather than normalized beyond the source."
+      ],
+      "ambiguity_reasons": [
+        "Harakoni Fire Support firepower OCR is partially degraded."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Hellguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Plasma Guns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Forward Observer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Basilisk Company Vox-Link",
+          "range": "60cm",
+          "firepower": "6BP",
+          "notes": [
+            "Slow Firing"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker",
+        "Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Support Rocket Launcher",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker",
+        "Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "One-Shot"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Self-Planetfall",
+        "Transport",
+        "May carry 2 Infantry, or 1 Light Vehicle"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellstrike Missiles",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "One-Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Self-Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Punisher",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Punisher Cannons",
+          "range": "30cm",
+          "firepower": "4x AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Self-Planetfall"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vendetta",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "3x Twin Lascannons",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Self-Planetfall",
+        "Transport",
+        "May transport two infantry units"
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grav-Glider",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "One-Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 1",
+        "Reinforced Armor",
+        "Expendable",
+        "Transport",
+        "May carry 12 of the following units: Warhawks, Commanders, Supreme Commanders, Stormtroopers, Forward Observer, Fire Support, Tech-Priest, Sappers, all Sentinels. All Light Vehicles take up 2 spaces each."
+      ],
+      "source_section": "Harakoni Warhawks Army Specific Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "n/a",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May carry up to 2 Imperial Guard Infantry"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Lightning Autocannon",
+          "range": "30cm",
+          "firepower": "AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Wingtip Lascannons",
+          "range": "30cm",
+          "firepower": "AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Lightning Interceptor firepower text is partially reordered by OCR; the visible row was preserved conservatively as Lightning Autocannon AA5+ FxF and Wingtip Lascannons AT6+/AA5+ FxF."
+      ],
+      "ambiguity_reasons": [
+        "Lightning Interceptor firepower tokens are partially reordered in the extracted text."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Wingtip Lascannons",
+          "range": "30cm",
+          "firepower": "AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter / Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Stormbolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Heavy Bomber",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Engines seriously damaged, aircraft crashes",
+        "Transport (1 formation consisting only of Infantry or Light Vehicles) while using the Marauder Drop playtest rule",
+        "While transporting units, Bomb Racks may not be used"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Destroyer",
+      "type": "WE/AC",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "3x Twin Autocannons",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "2x Assault Cannons",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": [
+            "Rear Arc"
+          ]
+        },
+        {
+          "name": "4x Hellstrike Missiles",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Engines seriously damaged, aircraft crashes"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Spectre",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Spinal Volcano Cannon",
+          "range": "45cm",
+          "firepower": "AT2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit Effect: Engines seriously damaged, aircraft crashes"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "Spacecraft",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Lunar Class Cruiser row is visibly collapsed in the PDF extraction; Orbital Bombardment and Pin-Point Attack were separated conservatively from the rendered table."
+      ],
+      "ambiguity_reasons": [
+        "Lunar Class Cruiser weapon labels and firepower tokens are partially concatenated by OCR."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "Spacecraft",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady-ish (may not be used on turn one of a battle unless the scenario specifically says otherwise)"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Onero Overflight",
+      "type": "Spacecraft",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "4x AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May carry up to 20 Skimmers and any troops transported on them, as well as any number of units with GravChutes"
+      ],
+      "source_section": "Imperial / Allied Units",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Onero Overflight row is partially reordered by OCR; the visible rendered table confirms a Transport note and a '2x Pin-Point Attack' weapon line at '4x AT4+'."
+      ],
+      "ambiguity_reasons": [
+        "Onero Overflight weapon row is partially reordered in the extracted text."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Leman Russ Conqueror",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Conqueror Cannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Reused Imperial Guard Profile",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Strike Companies",
+      "text": "A Harakoni army may contain any number of Strike Companies."
+    },
+    {
+      "name": "Company Upgrades",
+      "text": "Up to three upgrades may be added to each Strike Company."
+    },
+    {
+      "name": "Support Formations",
+      "text": "Two support formations may be taken for each company."
+    },
+    {
+      "name": "Imperial Allies",
+      "text": "Up to one third of army points may be spent on Imperial Allies formations."
+    },
+    {
+      "name": "OCR Note",
+      "text": "The PDF OCR was messy and page 1 and page 2 rows were cross-checked against the rendered PDF table before normalizing the source JSON."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from the local PDF C:/Users/fliff/Downloads/Harakoni Warhawks v1.4.2.pdf via pypdf plain-text and layout extraction.",
+    "source_url was left null because no reliable Harakoni Warhawks source URL was confirmed from the repository during this task.",
+    "The PDF text extraction is messy and several page 1 and page 2 rows were partially reordered or overlapped; the JSON was cross-checked against the visible rendered table and ambiguous rows were preserved conservatively with parse warnings.",
+    "The Commissars rule text was reused from war/source-json/mobile-catachans.json because the Harakoni PDF references the standard Imperial Guard Commissars special rule rather than reprinting the full text.",
+    "The Leman Russ Conqueror profile was reused from war/source-json/elysian-drop-troops.json because the Harakoni list references Conquerors in Linebreaker Relief Column but the profile table does not reprint a separate Conqueror row.",
+    "Linebreaker Relief Column was normalized from source OCR 'Linebreaker Relief Coloumn'; the raw_text preserves the original wording.",
+    "The Spacecraft row was split into three explicit formation entries for Onero Overflight, Lunar Cruiser, and Emperor Battleship because the source prints one-of alternatives with distinct costs.",
+    "The Fighter Squadron row preserves the available fighter choices and replacement text as restrictions_or_notes rather than collapsing them into a single invented profile."
+  ]
+}
