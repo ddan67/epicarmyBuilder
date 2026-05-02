@@ -1,0 +1,1260 @@
+{
+  "metadata": {
+    "army_name": "Elysian Drop Troop Regiment",
+    "source_url": null,
+    "page_title": "Elysian Drop Troop Army List V4.3.2",
+    "list_id": "IG_Elysian_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All units",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Commissars",
+      "text": "You may include 1 Commissar for every 500 points. The first must join the Regimental HQ Company. Commissars cannot join the Grey Ghosts. Any that does tend to die from mysterious accidents. Once all core formations have a Commissar, support formations may have a Commissar allocated to them."
+    },
+    {
+      "name": "Drop Troops",
+      "text": "Any Elysian unit with this rule arrives via Grav Chutes using Planetfall rules. Air Cav Response Platoons do not benefit from this rule."
+    },
+    {
+      "name": "Iron Discipline",
+      "text": "All Elysian units, excluding Imperial Navy and allies, do not incur a -1 while rallying if an enemy is within 30cm."
+    },
+    {
+      "name": "Masters of Stealth",
+      "text": "Grey Ghosts add 1 to their cover save, gain First Strike in engagements, have Scout and Sniper, can call in artillery strikes, and are limited to one formation."
+    },
+    {
+      "name": "Limited Garrisons",
+      "text": "Only Elysian Drop Scout Sentinels and Grey Ghosts may garrison."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Elysian Drop Troop Companies",
+      "entry_type": "formation",
+      "name": "0-1 Elysian Regimental HQ",
+      "cost": "300 points",
+      "units_text": "1 Elysian Supreme Commander, 11 Drop Troops",
+      "upgrades_or_options_text": "May have 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each.",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Elysian Regimental HQ | 1 Elysian Supreme Commander, 11 Drop Troops | May have 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each. | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Troop Companies",
+      "entry_type": "formation",
+      "name": "Elysian Drop Troop Company",
+      "cost": "275 points",
+      "units_text": "1 Elysian Commander, 11 Elysian Drop Troops",
+      "upgrades_or_options_text": "May have 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each.",
+      "restrictions_or_notes": null,
+      "raw_text": "Elysian Drop Troop Company | 1 Elysian Commander, 11 Elysian Drop Troops | May have 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each. | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Troop Companies",
+      "entry_type": "formation",
+      "name": "Elysian Drop Mortar Company",
+      "cost": "275 points",
+      "units_text": "1 Elysian Commander, 7 Elysian Drop Troop, 4 Elysian Mortar units",
+      "upgrades_or_options_text": "May take 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each.",
+      "restrictions_or_notes": "Limit 1 per 3000 points.",
+      "raw_text": "Elysian Drop Mortar Company | 1 Elysian Commander, 7 Elysian Drop Troop, 4 Elysian Mortar units | May take 6 Valkyries for 150 points. Replace Valkyries with Vendettas for +25 points each. | 275 points | Limit 1 per 3000 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Elysian Anti-tank Platoon",
+      "cost": "250 points",
+      "units_text": "1 Elysian Commander, 7 Elysian Special Weapons Troops",
+      "upgrades_or_options_text": "May take 4 Valkyries for 100 points. Replace Valkyries with Vendettas for +25 points each.",
+      "restrictions_or_notes": "Only one per Drop Troop Company.",
+      "raw_text": "Elysian Anti-tank Platoon | 1 Elysian Commander, 7 Elysian Special Weapons Troops | May take 4 Valkyries for 100 points. Replace Valkyries with Vendettas for +25 points each. | 250 points | Only one per Drop Troop Company",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Elysian droppable Sabre Battery",
+      "cost": "75 points",
+      "units_text": "4 droppable Sabre AA Platforms",
+      "upgrades_or_options_text": "May take 2 Valkyries for 50 points.",
+      "restrictions_or_notes": null,
+      "raw_text": "Elysian droppable Sabre Battery | 4 droppable Sabre AA Platforms | May take 2 Valkyries for 50 points. | 75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Vulture Squadron",
+      "cost": "300 points",
+      "units_text": "4 Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May replace Hellstrike Missiles and Autocannon with Punisher Cannons for 25 points less each.",
+      "raw_text": "Vulture Squadron | 4 Vultures | 300 points | May replace Hellstrike Missiles and Autocannon with Punisher Cannons for 25 points less each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Elysian Drop Sentinel Squadron",
+      "cost": "150 points",
+      "units_text": "6 Drop Sentinels",
+      "upgrades_or_options_text": "May take 3 Sky Talons for 75 points.",
+      "restrictions_or_notes": null,
+      "raw_text": "Elysian Drop Sentinel Squadron | 6 Drop Sentinels | May take 3 Sky Talons for 75 points. | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Elysian Drop Rocket Sentinels",
+      "cost": "150 points",
+      "units_text": "6 Elysian Drop Rocket Sentinels",
+      "upgrades_or_options_text": "May take 3 Sky Talons for 75 points.",
+      "restrictions_or_notes": "Limit 1 per 1000 points.",
+      "raw_text": "Elysian Drop Rocket Sentinels | 6 Elysian Drop Rocket Sentinels | May take 3 Sky Talons for 75 points. | 150 points | Limit 1 per 1000 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Tauros Squadron",
+      "cost": "150 points",
+      "units_text": "6 Tauros or Venator in any combination",
+      "upgrades_or_options_text": "May take 6 Sky Talons for 150 points.",
+      "restrictions_or_notes": null,
+      "raw_text": "Tauros Squadron | 6 Tauros or Venator in any combination | May take 6 Sky Talons for 150 points. | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Storm Trooper Company",
+      "cost": "200 points",
+      "units_text": "1 Storm Trooper Commander, 7 Storm Troopers",
+      "upgrades_or_options_text": "May take 4 Valkyries for 100 points. May replace Valkyries with Vendettas for +25 points each.",
+      "restrictions_or_notes": null,
+      "raw_text": "Storm Trooper Company | 1 Storm Trooper Commander, 7 Storm Troopers | May take 4 Valkyries for 100 points. May replace Valkyries with Vendettas for +25 points each. | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Drop Support Platoons/Squadrons",
+      "entry_type": "formation",
+      "name": "Grey Ghosts Platoon",
+      "cost": "300 points",
+      "units_text": "8 Grey Ghost",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per army.",
+      "raw_text": "Grey Ghosts Platoon | 8 Grey Ghost | 300 points | 0-1 per army",
+      "parse_warnings": []
+    },
+    {
+      "category": "Drop Troop Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Drop Hardened Veterans",
+      "cost": "+25 points",
+      "units_text": "2 Drop Hardened Veterans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Drop Hardened Veterans | 2 Drop Hardened Veterans | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Drop Troop Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Drop Fire Support",
+      "cost": "+25 points",
+      "units_text": "2 Drop Fire Support units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Drop Fire Support | 2 Drop Fire Support units | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Drop Troop Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Elysian Cyclops",
+      "cost": "+25 points",
+      "units_text": "2 Elysian Cyclops Units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Elysian Cyclops | 2 Elysian Cyclops Units | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Space Ship",
+      "cost": "150 points",
+      "units_text": "0-1 Lunar Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Space Ship | 0-1 Lunar Cruiser | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Lightning Wing",
+      "cost": "150 points",
+      "units_text": "2 Lightning Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lightning Wing | 2 Lightning Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Lightning Strike",
+      "cost": "150 points",
+      "units_text": "2 Lightning Strike Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lightning Strike | 2 Lightning Strike Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Marauder Destroyer",
+      "cost": "175 points",
+      "units_text": "1 Marauder Destroyer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Destroyer | 1 Marauder Destroyer | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Marauder Bomber",
+      "cost": "150 points",
+      "units_text": "1 Marauder Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Bomber | 1 Marauder Bomber | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elysian Air and Allied Units",
+      "entry_type": "formation",
+      "name": "Line Breaker Column",
+      "cost": "300 points",
+      "units_text": "6 Imperial infantry units, 3 Chimeras, 3 Conquerors",
+      "upgrades_or_options_text": "May add 3 Conquerors for 150 points.",
+      "restrictions_or_notes": "Limit 1 per army.",
+      "raw_text": "Line Breaker Column | 6 Imperial infantry units, 3 Chimeras, 3 Conquerors | May add 3 Conquerors for 150 points. | 300 points | Limit 1 per army",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Elysian Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Drop Troops",
+        "Infiltrate"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Drop Troops",
+        "Infiltrate"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Power Sword",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Fearless",
+        "Inspiring"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Drop Troop Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Drop Troops",
+        "Infiltrate",
+        "Plasma Cannon every 2nd unit"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Drop Hardened Veterans",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Las Carbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Machetes",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Drop Troops",
+        "Infiltrate"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source folds 'Las Carbines and Machetes' across two lines; this was normalized into separate Las Carbines and Machetes weapon entries."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Grey Ghosts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Las Carbines",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "First Strike"
+          ]
+        },
+        {
+          "name": "Machetes",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "First Strike"
+          ]
+        },
+        {
+          "name": "Sniper Rifle",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Called in artillery",
+          "range": "45cm",
+          "firepower": "3BP",
+          "notes": [
+            "Indirect",
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Masters of Stealth (+1 to their cover save)",
+        "Sniper",
+        "Scout"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source OCR read the speed as 'I5cm'; this was normalized to '15cm'.",
+        "The source folds 'LasCarbines & Machetes' across two lines; this was normalized into separate Las Carbines and Machetes weapon entries."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Storm Troopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Hellguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Teleport"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Support Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Missile Launchers",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Drop Troops"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Mortar Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Paired Mortars",
+          "range": "60cm",
+          "firepower": "2x AP4+/AT5+",
+          "notes": [
+            "Indirect"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Drop Troops",
+        "No minimum or double range for Indirect"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Cyclops",
+      "type": "LV",
+      "speed": "25cm",
+      "armour": "6+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Demo Charges",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "One Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrate",
+        "Drop Troops",
+        "Removed from play after it attacks",
+        "Expendable"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Taurus",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Grenade Launcher",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Scout"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Taurus Venator",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Laser",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "alternative weapon option"
+          ]
+        },
+        {
+          "name": "TL Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "alternative weapon option"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Scout"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source prints 'Multi-Laser or TLLascannon'; 'TLLascannon' was normalized to 'TL Lascannon' and preserved as an alternative weapon option."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Drop Rocket Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Support Rocket Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "Disrupt",
+            "Indirect"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "No minimum or double range for Indirect",
+        "Walker",
+        "Drop Troops"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Drop Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Small Arms",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Multi-Melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Drop Troops",
+        "Walker"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source prints 'Small Arms and Multi-Melta' across one collapsed weapon label; this was normalized into separate Small Arms and Multi-Melta entries."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Sabre Platform",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Flak AC 30mm",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Drop Troops",
+        "Walker"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source concatenates 'Drop troops.Walker' in the notes; this was normalized into separate Drop Troops and Walker abilities."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Elysian Valkyrie Transport",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pods",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "One Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Transport",
+        "May transport 2 Infantry only."
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Gunship",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "TL Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "alternative weapon package"
+          ]
+        },
+        {
+          "name": "2x Hellstrike Missiles",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "One Shot",
+            "alternative weapon package"
+          ]
+        },
+        {
+          "name": "TL Punisher Cannon",
+          "range": "30cm",
+          "firepower": "4x AP4+",
+          "notes": [
+            "alternative weapon package"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source prints the TL Punisher Cannon as a replacement option for the TL Autocannon and 2x Hellstrike Missiles; this was preserved as an alternative weapon package rather than simultaneous weapons."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "Transports 2 IG Infantry Units"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Conqueror",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Conqueror Cannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source prints 'Reinforce Armour'; this was normalized to 'Reinforced Armour'."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "IG Infantry unit",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Every second unit has an Autocannon"
+      ],
+      "source_section": "Elysian Drop Army Unit Statistic",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "Space Ship",
+      "speed": "N/A",
+      "armour": "N/A",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "N/A",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin Point Attack",
+          "range": "N/A",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Elysian Aerospace Assets",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source OCR reads the Pin Point Attack firepower as 'MN 2+ TK (D3)'; this was normalized to 'MW2+ TK(D3)' because the visible row is clearly a macro-weapon pin-point attack."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Fighter",
+      "type": "Aircraft",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Long Barrelled A/C",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Wingtip Lascannon",
+          "range": "30cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Elysian Aerospace Assets",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "Aircraft",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Wingtip Lascannon",
+          "range": "30cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Elysian Aerospace Assets",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "Aircraft/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Long Barrelled AC",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "TL Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x TL Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit: Bomber Destroyed"
+      ],
+      "source_section": "Elysian Aerospace Assets",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Destroyer",
+      "type": "Aircraft/WE",
+      "speed": "Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "3x TL Autocannon",
+          "range": "30cm",
+          "firepower": "AT4+/AP5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "TL Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "TL Assault Cannon",
+          "range": "15cm",
+          "firepower": "AA4+",
+          "notes": [
+            "Right Arc"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxR"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Critical Hit: Bomber Destroyed"
+      ],
+      "source_section": "Elysian Aerospace Assets",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The source prints the Underwing Rockets note as 'FxR'; this uncommon fire arc token was preserved verbatim."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vendetta",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "3x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two Infantry units (Ogryns count as two units) or one Sentinel of any type."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces (reused from war/source-json/mobile-catachans.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie Sky Talon",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two Sentinels of any type."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces (reused from war/source-json/mobile-catachans.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Design Notes",
+      "text": "Elysian drop army is a lightly armed fast assault drop army. The core of the army is deployed via grav chutes (Hi/Low) from Valkyries, while a reactionary force of reserves follow up supported directly by their Valkyrie transported troops, Vultures, Sentinels, Taurus/Tauros and Venators. Aircraft provide top cover and strafing runs."
+    },
+    {
+      "name": "Army Weaknesses",
+      "text": "The army has almost nothing in the way of MW, and none of it ranged. It has no TK unless it takes a space ship, no War Engines, limited artillery, and most of the force is unarmoured or lightly armoured. It relies on the initial hammer blow of its grav assault."
+    },
+    {
+      "name": "Support Formation Limit",
+      "text": "Up to 0-3 Elysian Drop Support Platoons/Squadrons may be taken per Drop Company."
+    },
+    {
+      "name": "Upgrade Limits",
+      "text": "Drop Troop Company upgrades may be taken only once."
+    },
+    {
+      "name": "Allies Limit",
+      "text": "Up to 1/3 of army points may be spent on Elysian Air and Allied units."
+    },
+    {
+      "name": "Units of Note - Grey Ghosts",
+      "text": "These troops make Catachans look bad. They are supplied with heat dissipating ghillie suits camouflaged to suit the local terrain. They can move through the densest terrain without any noise, all comms are quiet, they can live off the land, they are masters of ambush and booby traps, and each squad has a medic, sniper, sergeant or corporal, and signaller, with cross training across the squad. They carry AP and AT mines and are usually sent ahead of a proposed drop assault by a couple days up to a week to gather information and target key personnel or objectives."
+    },
+    {
+      "name": "Units of Note - Rocket Sentinels",
+      "text": "Apart from the medium mortars and limited called-in artillery fire from the Grey Ghosts, Elysians rely on mobile Rocket Sentinels for mid-ranged disrupt support fire. Even though they are vulnerable, they can be dropped in close to where they are needed."
+    },
+    {
+      "name": "Units of Note - Elysian Hardened Veterans",
+      "text": "These grizzled and surly veterans of many campaigns have slowly upgraded their weapons loadout to suit their desire to close with the enemy. Each squad has the standard issue plasma gun, but they have replaced their lasrifles with easier to carry lascarbines and carry machetes or other large blades. They have spent a lot of time developing their close combat skills, and when they get a little older and more experienced, they become platoon sergeants."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from local PDFs via pypdf layout extraction: C:/Users/fliff/Downloads/Elysian Drop Troop Regiment Army List V4.3.2.pdf and C:/Users/fliff/Downloads/Elysian Drop Army Unit Statistic ver 4.3.2.pdf.",
+    "source_url was left null because no reliable Elysian Drop Troop Regiment source URL was confirmed from the repository during this task.",
+    "No distinct 'Elysian Special Weapons Troops' profile was found in the statistics PDF; the formation term will need later aliasing to 'Elysian Drop Troop Infantry' unless another repo source is chosen.",
+    "The army list uses 'Tauros' and 'Venator' while the statistics PDF prints the profiles as 'Taurus' and 'Taurus Venator'; later wiring will need aliases.",
+    "The army list uses 'Drop Troops' while the statistics PDF prints the profile as 'Elysian Drop Troop Infantry'; later wiring will need aliases.",
+    "The army list uses 'Drop Fire Support' while the statistics PDF prints the profile as 'Elysian Support Squad'; later wiring will need aliases.",
+    "The army list uses 'Valkyries' while the statistics PDF prints the profile as 'Elysian Valkyrie Transport'; later wiring will need aliases.",
+    "The army list uses 'Vultures' while the statistics PDF prints the profile as 'Vulture Gunship'; later wiring will need aliases.",
+    "The army list uses 'Space Ship' and 'Lunar Cruiser' while the statistics PDF prints the profile as 'Lunar Class Cruiser'; later wiring will need aliases.",
+    "The army list uses 'Imperial infantry units' while the statistics PDF prints the profile as 'IG Infantry unit'; later wiring will need aliases.",
+    "The army list uses 'Conquerors' while the statistics PDF prints the profile as 'Leman Russ Conqueror'; later wiring will need aliases.",
+    "The statistics PDF does not include a Vendetta profile; 'Vendetta' was reused from war/source-json/mobile-catachans.json.",
+    "The statistics PDF does not include a Sky Talon profile; 'Valkyrie Sky Talon' was reused from war/source-json/mobile-catachans.json.",
+    "Obvious OCR and formatting issues were normalized conservatively: 'I5cm' -> '15cm', 'TLLascannon' -> 'TL Lascannon', 'IND' -> 'Indirect', 'OS' -> 'One Shot', and the Lunar Class Cruiser pin-point attack OCR 'MN 2+' was normalized to 'MW2+' with a profile parse warning."
+  ]
+}

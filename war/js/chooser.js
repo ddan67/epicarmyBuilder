@@ -280,6 +280,7 @@ var ArmyforgeUI = {
 			'EL_alaitoc_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
 			'IG_catachan_NETEA': ArmyforgeUnitProfiles.findCatachanDeathworldVeteransProfileByName,
 			'IG_cadian_NETEA': ArmyforgeUnitProfiles.findCadianShockTroopsProfileByName,
+			'IG_Elysian_NETEA': ArmyforgeUnitProfiles.findElysianDropTroopsProfileByName,
 			'IG_steelLegion_NETEA': ArmyforgeUnitProfiles.findIgSteelLegionProfileByName,
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
@@ -1858,6 +1859,158 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	elysianDropTroopsFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	elysianDropTroopsAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_Elysian_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^(0-1 Elysian Regimental HQ|Elysian Regimental HQ|Regimental HQ)$/i.test(formationName)) {
+			extras.push('Elysian Supreme Commander');
+			extras.push('Elysian Drop Troop Infantry');
+		}
+		else if (/^(Elysian Drop Troop Company|Drop Troop Company)$/i.test(formationName)) {
+			extras.push('Elysian Commander');
+			extras.push('Elysian Drop Troop Infantry');
+		}
+		else if (/^Elysian Drop Mortar Company$/i.test(formationName)) {
+			extras.push('Elysian Commander');
+			extras.push('Elysian Drop Troop Infantry');
+			extras.push('Elysian Mortar Squad');
+		}
+		else if (/^Elysian Anti-tank Platoon$/i.test(formationName)) {
+			extras.push('Elysian Commander');
+			extras.push('Elysian Drop Troop Infantry');
+		}
+		else if (/^(Elysian droppable Sabre Battery|Elysian Droppable Sabre Battery)$/i.test(formationName)) {
+			extras.push('Elysian Sabre Platform');
+		}
+		else if (/^Vulture Squadron$/i.test(formationName)) {
+			extras.push('Vulture Gunship');
+		}
+		else if (/^(Elysian Drop Sentinel Squadron|Drop Sentinel Squadron)$/i.test(formationName)) {
+			extras.push('Elysian Drop Sentinel');
+		}
+		else if (/^Elysian Drop Rocket Sentinels$/i.test(formationName)) {
+			extras.push('Elysian Drop Rocket Sentinel');
+		}
+		else if (/^Tauros Squadron$/i.test(formationName)) {
+			var hasTauros = ArmyforgeUI.elysianDropTroopsFormationHasUpgrade(formation, /^tauros$/i);
+			var hasVenator = ArmyforgeUI.elysianDropTroopsFormationHasUpgrade(formation, /venator/i);
+			if (hasTauros || hasVenator) {
+				if (hasTauros) {
+					extras.push('Taurus');
+				}
+				if (hasVenator) {
+					extras.push('Taurus Venator');
+				}
+			}
+			else {
+				extras.push('Taurus');
+				extras.push('Taurus Venator');
+			}
+		}
+		else if (/^(Storm Trooper Company|Storm Trooper Platoon)$/i.test(formationName)) {
+			extras.push('Storm Troopers');
+			if (ArmyforgeUI.elysianDropTroopsFormationHasUpgrade(formation, /valkyr|vendetta/i)) {
+				extras.push('Elysian Valkyrie Transport');
+			}
+		}
+		else if (/^Grey Ghosts Platoon$/i.test(formationName)) {
+			extras.push('Grey Ghosts');
+		}
+		else if (/^(Space Ship|Spacecraft)$/i.test(formationName)) {
+			if (ArmyforgeUI.elysianDropTroopsFormationHasUpgrade(formation, /emperor class battleship/i)) {
+				extras.push('Emperor Class Battleship');
+			}
+			else {
+				extras.push('Lunar Class Cruiser');
+			}
+		}
+		else if (/^(Lightning Wing|Lightning Squadron)$/i.test(formationName)) {
+			extras.push('Lightning Fighter');
+		}
+		else if (/^(Lightning Strike|Strike Squadron)$/i.test(formationName)) {
+			extras.push('Lightning Strike Fighter');
+		}
+		else if (/^(Marauder Destroyer|Destroyer Squadron)$/i.test(formationName)) {
+			extras.push('Marauder Destroyer');
+		}
+		else if (/^Marauder Bomber$/i.test(formationName)) {
+			extras.push('Marauder Bomber');
+		}
+		else if (/^Line Breaker Column$/i.test(formationName)) {
+			extras.push('IG Infantry unit');
+			extras.push('Chimera');
+			extras.push('Leman Russ Conqueror');
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/drop sentinel platoon|drop sentinels/i.test(upgradeName)) {
+				extras.push('Elysian Drop Sentinel');
+			}
+			if (/fire support platoon|elysian support squad/i.test(upgradeName)) {
+				extras.push('Elysian Support Squad');
+			}
+			if (/hardened veteran/i.test(upgradeName)) {
+				extras.push('Elysian Drop Hardened Veterans');
+			}
+			if (/infantry platoon|elysian drop troop infantry/i.test(upgradeName)) {
+				extras.push('Elysian Drop Troop Infantry');
+			}
+			if (/mortar platoon|mortar squad/i.test(upgradeName)) {
+				extras.push('Elysian Mortar Squad');
+			}
+			if (/elysian cyclops/i.test(upgradeName)) {
+				extras.push('Elysian Cyclops');
+			}
+			if (/sky talon/i.test(upgradeName)) {
+				extras.push('Valkyrie Sky Talon');
+			}
+			if (/vendetta/i.test(upgradeName)) {
+				extras.push('Vendetta');
+			}
+			if (/valkyr/i.test(upgradeName)) {
+				extras.push('Elysian Valkyrie Transport');
+			}
+			if (/^tauros$/i.test(upgradeName)) {
+				extras.push('Taurus');
+			}
+			if (/venator/i.test(upgradeName)) {
+				extras.push('Taurus Venator');
+			}
+			if (/^4 vultures$|2 vultures, 2 vulture punishers/i.test(upgradeName)) {
+				extras.push('Vulture Gunship');
+			}
+			if (/lunar class cruiser/i.test(upgradeName)) {
+				extras.push('Lunar Class Cruiser');
+			}
+			if (/emperor class battleship/i.test(upgradeName)) {
+				extras.push('Emperor Class Battleship');
+			}
+			if (/conqueror/i.test(upgradeName)) {
+				extras.push('Leman Russ Conqueror');
+			}
+			if (/^commissar$/i.test(upgradeName)) {
+				extras.push('Commissar');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -1972,6 +2125,13 @@ var ArmyforgeUI = {
 		});
 
 		ArmyforgeUI.catachanDeathworldVeteransAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+		ArmyforgeUI.elysianDropTroopsAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2632,6 +2792,7 @@ var ArmyforgeUI = {
 			'eldar-saim-hann.json',
 			'catachan-deathworld-veterans.json',
 			'cadian-shock-troops.json',
+			'elysian-drop-troops.json',
 			'imperial-guard-baran-siegemasters.json',
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
@@ -2672,6 +2833,7 @@ var ArmyforgeUI = {
 			'INQ_sisters2018_NETEA': 'sisters-of-battle.json',
 			'IG_catachan_NETEA': 'catachan-deathworld-veterans.json',
 			'IG_cadian_NETEA': 'cadian-shock-troops.json',
+			'IG_Elysian_NETEA': 'elysian-drop-troops.json',
 			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};
