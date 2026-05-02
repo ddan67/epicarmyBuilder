@@ -1,0 +1,1199 @@
+{
+  "metadata": {
+    "army_name": "Catachan Deathworld Veterans",
+    "page_title": "Catachan Deathworld Veterans Imperial Guard Army List v2.7",
+    "source_url": null,
+    "list_id": "IG_catachan_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Oops! Sorry, sir!",
+      "text": "Catachan Deathworld Veteran armies include one Commissar for every 1000 points. If a Supreme Commander is present, the first Commissar must join that formation. Subsequent Commissars can be allocated to any unit in any order, though no formation may have more than one Commissar. Excess Commissars are lost."
+    },
+    {
+      "name": "Booby Traps",
+      "text": "When defending during the first round of an assault, one unit in two with the Booby Traps rule gains First Strike on all weapons. Count units in the formation with Booby Traps and divide by two, rounding up, to find how many units gain First Strike."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Deathworld Veterans Companies",
+      "entry_type": "formation",
+      "name": "0-1 Deathworld Air Cavalry Company",
+      "cost": "450 points",
+      "units_text": "1 Imperial Guard Commander unit, plus 9 Catachan Infantry units, plus 5 Catachan Valkyries",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": "Any infantry upgrades must be equipped with Catachan Valkyries.",
+      "raw_text": "0-1 Deathworld Air Cavalry Company | 1 Imperial Guard Commander unit, plus 9 Catachan Infantry units, plus 5 Catachan Valkyries | company upgrades | 450 points | Any infantry upgrades must be equipped with Catachan Valkyries",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Companies",
+      "entry_type": "formation",
+      "name": "Deathworld Infantry Company",
+      "cost": "200 points",
+      "units_text": "1 Imperial Guard Commander unit, plus 9 Catachan Infantry units",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Deathworld Infantry Company | 1 Imperial Guard Commander unit, plus 9 Catachan Infantry units | company upgrades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Companies",
+      "entry_type": "formation",
+      "name": "0-1 Deathworld Regimental HQ",
+      "cost": "300 points",
+      "units_text": "1 Supreme Commander unit, plus 9 Catachan Infantry units",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Deathworld Regimental HQ | 1 Supreme Commander unit, plus 9 Catachan Infantry units | company upgrades | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Platoon",
+      "cost": "+100 points",
+      "units_text": "Add 6 Catachan Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May include up to 3 Valkyries for +50 points each, up to minimum transport requirement.",
+      "raw_text": "Infantry Platoon | Add 6 Catachan Infantry units | +100 points | May include up to 3 Valkyries for +50 points each, up to minimum transport requirement",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support Platoon",
+      "cost": "+100 points",
+      "units_text": "Add 4 Support Squad units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May include up to 3 Valkyries for +50 points each, up to minimum transport requirement.",
+      "raw_text": "Fire Support Platoon | Add 4 Support Squad units | +100 points | May include up to 3 Valkyries for +50 points each, up to minimum transport requirement",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Missile Team",
+      "cost": "+25 points",
+      "units_text": "Add 1 Catachan Missile Team unit",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May include up to 3 Valkyries for +50 points each, up to minimum transport requirement.",
+      "raw_text": "Missile Team | Add 1 Catachan Missile Team unit | +25 points | May include up to 3 Valkyries for +50 points each, up to minimum transport requirement",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Mortar Section",
+      "cost": "+25 points",
+      "units_text": "Add 2 Catachan Mortar Squad units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mortar Section | Add 2 Catachan Mortar Squad units | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers",
+      "cost": "+50 points",
+      "units_text": "Add 2 Sniper units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May include up to 3 Valkyries for +50 points each, up to minimum transport requirement.",
+      "raw_text": "Snipers | Add 2 Sniper units | +50 points | May include up to 3 Valkyries for +50 points each, up to minimum transport requirement",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ogryns",
+      "cost": "+50 points",
+      "units_text": "Add 2 Ogryn units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May include up to 3 Valkyries for +50 points each, up to minimum transport requirement.",
+      "raw_text": "Ogryns | Add 2 Ogryn units | +50 points | May include up to 3 Valkyries for +50 points each, up to minimum transport requirement",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vulture Support",
+      "cost": "+150 points",
+      "units_text": "Add 2 Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Support | Add 2 Vultures | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Armor Support",
+      "cost": "+50 points each",
+      "units_text": "Add up to 2 Leman Russ Demolishers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May not be added to a Deathworld Air Cavalry Company.",
+      "raw_text": "Armor Support | Add up to 2 Leman Russ Demolishers | +50 points each | May not be added to a Deathworld Air Cavalry Company",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhounds",
+      "cost": "+50 points each",
+      "units_text": "Add up to 2 Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May not be added to a Deathworld Air Cavalry Company.",
+      "raw_text": "Hellhounds | Add up to 2 Hellhounds | +50 points each | May not be added to a Deathworld Air Cavalry Company",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Company Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hydra",
+      "cost": "+50 points",
+      "units_text": "Add 1 Hydra Flak Tank",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May not be added to a Deathworld Air Cavalry Company.",
+      "raw_text": "Hydra | Add 1 Hydra Flak Tank | +50 points | May not be added to a Deathworld Air Cavalry Company",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Catachan Devils",
+      "cost": "300 points",
+      "units_text": "6 Catachan Devil units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per 1000 points. These units may be split up and added to the Regimental HQ and/or one or more Infantry Companies in the army, or fielded as a single formation of their own.",
+      "raw_text": "Catachan Devils | 6 Catachan Devil units | 300 points | 0-1 per 1000 points; may be split up and added to the Regimental HQ and/or one or more Infantry Companies in the army, or fielded as a single formation of their own",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Deathworld Mortar Platoon",
+      "cost": "75 points",
+      "units_text": "Six Catachan Mortar Squads",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Deathworld Mortar Platoon | Six Catachan Mortar Squads | 75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Ogryn Platoon",
+      "cost": "200 points",
+      "units_text": "Six Ogryn units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per 1000 points.",
+      "raw_text": "Ogryn Platoon | Six Ogryn units | 200 points | 0-1 per 1000 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Deathworld Sentinel Squadron",
+      "cost": "150 points",
+      "units_text": "Six Catachan Sentinels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Deathworld Sentinel Squadron | Six Catachan Sentinels | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Deathworld Veterans Platoon",
+      "cost": "200 points",
+      "units_text": "6 Deathworld Veterans units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May have 3 Catachan Valkyrie transport vehicles for +100 points.",
+      "raw_text": "Deathworld Veterans Platoon | 6 Deathworld Veterans units | 200 points | May have 3 Catachan Valkyrie transport vehicles for +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Hellhound Platoon",
+      "cost": "250 points",
+      "units_text": "6 Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound Platoon | 6 Hellhounds | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Support Tank Squadron",
+      "cost": "275 points",
+      "units_text": "4 Leman Russ Demolishers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Support Tank Squadron | 4 Leman Russ Demolishers | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Vulture Squadron",
+      "cost": "300 points",
+      "units_text": "4 Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Squadron | 4 Vultures | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Artillery Firebase",
+      "cost": "325 points",
+      "units_text": "6 Earthshaker platforms",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May have 6 Gun Emplacements, see Death Korps of Krieg Terrain, for free.",
+      "raw_text": "Artillery Firebase | 6 Earthshaker platforms | 325 points | May have 6 Gun Emplacements, see Death Korps of Krieg Terrain, for free",
+      "parse_warnings": []
+    },
+    {
+      "category": "Deathworld Veterans Support Formations",
+      "entry_type": "formation",
+      "name": "Traitor's Bane",
+      "cost": "225 points",
+      "units_text": "1 Traitor's Bane Hellhammer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per army.",
+      "raw_text": "\"Traitor's Bane\" | 1 Traitor's Bane Hellhammer | 225 points | 0-1 per army",
+      "parse_warnings": []
+    },
+    {
+      "category": "Naval Support",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "250 points",
+      "units_text": "Two Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | Two Marauder Bombers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Naval Support",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thunderbolt Squadron | Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Naval Support",
+      "entry_type": "formation",
+      "name": "Orbital Support - Lunar Class Cruiser",
+      "cost": "150 points",
+      "units_text": "1 Lunar Class Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from the source Orbital Support row to preserve the separate costed alternative.",
+      "raw_text": "Orbital Support | Choose one: 1 Lunar Class Cruiser | 150 points",
+      "parse_warnings": [
+        "The source row includes an Emperor Class Battleship alternative with a different cost; the alternatives were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Naval Support",
+      "entry_type": "formation",
+      "name": "Orbital Support - Emperor Class Battleship",
+      "cost": "300 points",
+      "units_text": "1 Emperor Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from the source Orbital Support row to preserve the separate costed alternative.",
+      "raw_text": "Orbital Support | Choose one: 1 Emperor Class Battleship | 300 points",
+      "parse_warnings": [
+        "The source row includes a Lunar Class Cruiser alternative with a different cost; the alternatives were split into separate formation entries."
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Fearless",
+        "Inspiring"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Devils",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Catachan Knives",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Meltaguns",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Meltaguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Teleport",
+        "Infiltrator",
+        "Booby Traps"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deathworld Veterans",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Demolition Charges",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)",
+            "One-Shot"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Infiltrator",
+        "Booby Traps"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Chainswords",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Booby Traps"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Booby Traps"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Catachan Knives",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Booby Traps",
+        "Heavy Bolters (One in two has a Heavy Bolter - count the non-suppressed Catachan Infantry units in the formation and divide by two, rounding up, to find the number of Heavy Bolter shots)"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Mortar Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Lasguns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Mortars",
+          "range": "30cm",
+          "firepower": "1 BP per two bases (rounding up)",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mortars (Count the non-suppressed Catachan Mortar Squads in the formation and divide by two, rounding up, to find the number of Barrage Points)"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Missile Team",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Missile Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Sniper"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ogryns",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Ogryn Weapons",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Ripper Guns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Chainsaw",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Earthshaker Platform",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Earthshaker",
+          "range": "120cm",
+          "firepower": "1BP",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhound",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armor"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Rocket Pod",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "One-Shot"
+          ]
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Transport",
+        "May carry 2 of the following units: Deathworld Veterans, Imperial Guard Commander, Catachan Infantry, Catachan Missile Team, Catachan Mortar Squad, Support Squad, Sniper; or 1 Ogryn."
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellstrike",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "One-Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout"
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Traitor's Bane Hellhammer",
+      "type": "SH",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "2+",
+      "weapons": [
+        {
+          "name": "Hellhammer Cannon",
+          "range": "45cm",
+          "firepower": "AP3+/AT3+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "4x Lascannons",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "Ignore Cover",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "4x Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "4x Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Reinforced Armor",
+        "Leader",
+        "Inspiring",
+        "Fearless",
+        "Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of a 6+."
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Quad Heavy Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Autocannons",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The plain-text PDF extraction dropped the speed and defence columns for the Marauder Bomber row; these values were aligned to the same standard Marauder Bomber profile already used elsewhere in the repo."
+      ],
+      "ambiguity_reasons": [
+        "Speed and defence columns were truncated in plain-text extraction."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-point Attack",
+          "range": "-",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "May not be used on turns 1 and 2 unless scenario states."
+      ],
+      "source_section": "Catachan Deathworld Veterans Imperial Guard Army Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Companies",
+      "text": "A Deathworld Veterans Imperial Guard army may contain any number of Companies."
+    },
+    {
+      "name": "Company Upgrades",
+      "text": "Up to three company upgrades may be added to each Deathworld Veterans Company, once per Company."
+    },
+    {
+      "name": "Support Formations",
+      "text": "Up to two support formations may be taken for each Deathworld Veterans Company."
+    },
+    {
+      "name": "Naval Support",
+      "text": "Up to 1/3 of army points may be spent on Naval Support."
+    },
+    {
+      "name": "Upgradeable Valkyrie Transport",
+      "text": "Infantry Platoon, Fire Support Platoon, Missile Team, Snipers, and Ogryns upgrades may include up to 3 Valkyries for +50 points each, up to minimum transport requirement."
+    },
+    {
+      "name": "Air Cavalry Upgrade Restrictions",
+      "text": "Armor Support, Hellhounds, and Hydra upgrades may not be added to a Deathworld Air Cavalry Company."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from the local PDF C:/Users/fliff/Downloads/Catachan 2.7 (2).pdf via pypdf plain-text extraction.",
+    "source_url was left null because no reliable Catachan Deathworld Veterans source URL was confirmed from the repository during this task.",
+    "The user initially mentioned IG_cadian_NETEA, but this PDF is Catachan Deathworld Veterans and the existing repo list id IG_catachan_NETEA was used instead.",
+    "Orbital Support was split into separate Lunar Class Cruiser and Emperor Class Battleship formation entries because the source prints explicit alternatives with distinct costs.",
+    "The Marauder Bomber row lost some columns in plain-text extraction; its speed and defence values were aligned to the same standard Marauder Bomber profile already present elsewhere in the repo."
+  ]
+}

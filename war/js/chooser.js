@@ -278,6 +278,8 @@ var ArmyforgeUI = {
 			'EL_saimhann_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
 			'EL_iyanden_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
 			'EL_alaitoc_NETEA': ArmyforgeUnitProfiles.findEldarCraftworldProfileByName,
+			'IG_catachan_NETEA': ArmyforgeUnitProfiles.findCatachanDeathworldVeteransProfileByName,
+			'IG_cadian_NETEA': ArmyforgeUnitProfiles.findCadianShockTroopsProfileByName,
 			'IG_steelLegion_NETEA': ArmyforgeUnitProfiles.findIgSteelLegionProfileByName,
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
@@ -1550,6 +1552,312 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	cadianShockTroopsFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	cadianShockTroopsAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_cadian_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^(0-1 Cadian Regimental HQ|Cadian Regimental HQ|Cadian Regimental Headquarters)$/i.test(formationName)) {
+			extras.push('Supreme Commander');
+			extras.push('Kasrkin');
+			extras.push('Leviathan Mobile Command Center');
+		}
+		else if (/^Kasrkin Infantry Company$/i.test(formationName)) {
+			extras.push('Commander');
+			extras.push('Kasrkin');
+		}
+		else if (/^(Cadian Infantry Company|0-1 Whiteshield Company|Whiteshield Company|Cadian Whiteshield Company)$/i.test(formationName)) {
+			extras.push('Commander');
+			extras.push('Infantry');
+		}
+		else if (/^Artillery Battery$/i.test(formationName)) {
+			var hasBasilisk = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /basilisk/i);
+			var hasBombard = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /bombard/i);
+			var hasManticore = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /manticore/i);
+			if (hasBasilisk || hasBombard || hasManticore) {
+				if (hasBasilisk) {
+					extras.push('Basilisk');
+				}
+				if (hasBombard) {
+					extras.push('Bombard');
+				}
+				if (hasManticore) {
+					extras.push('Manticore');
+				}
+			}
+			else {
+				extras.push('Basilisk');
+				extras.push('Bombard');
+				extras.push('Manticore');
+			}
+		}
+		else if (/^Flak Battery$/i.test(formationName)) {
+			extras.push('Hydra');
+		}
+		else if (/^Griffon Platoon$/i.test(formationName)) {
+			extras.push('Griffon');
+		}
+		else if (/^Hellhound Platoon$/i.test(formationName)) {
+			extras.push('Hellhound');
+		}
+		else if (/^(Mechanized Kasrkin|Mechanized Kasrkin - Valkyries|Mechanized Kasrkin - Chimeras)$/i.test(formationName)) {
+			extras.push('Commander');
+			extras.push('Kasrkin');
+			if (/Valkyries$/i.test(formationName) || ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /valkyr/i)) {
+				extras.push('Valkyrie');
+			}
+			if (/Chimeras$/i.test(formationName) || ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /chimera/i)) {
+				extras.push('Chimera');
+			}
+			if (!/Valkyries$/i.test(formationName) && !/Chimeras$/i.test(formationName) &&
+				!ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /valkyr|chimera/i)) {
+				extras.push('Valkyrie');
+				extras.push('Chimera');
+			}
+		}
+		else if (/^Sentinel Squadron$/i.test(formationName)) {
+			extras.push('Cadian Sentinel');
+		}
+		else if (/^(Super-heavy Tank Platoon|Super Heavy Tank Platoon)$/i.test(formationName)) {
+			var hasBaneblade = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /baneblade/i);
+			var hasShadowsword = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /shadowsword/i);
+			var hasStormsword = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /stormsword/i);
+			if (hasBaneblade || hasShadowsword || hasStormsword) {
+				if (hasBaneblade) {
+					extras.push('Baneblade');
+				}
+				if (hasShadowsword) {
+					extras.push('Shadowsword');
+				}
+				if (hasStormsword) {
+					extras.push('Stormsword');
+				}
+			}
+			else {
+				extras.push('Baneblade');
+				extras.push('Shadowsword');
+				extras.push('Stormsword');
+			}
+		}
+		else if (/^Tank Platoon$/i.test(formationName)) {
+			var hasLemanRuss = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /le[h]?man russ tanks?|leman russ tanks?/i);
+			var hasDemolisher = ArmyforgeUI.cadianShockTroopsFormationHasUpgrade(formation, /le[h]?man russ demolisher tanks?|leman russ demolisher/i);
+			if (hasLemanRuss || hasDemolisher) {
+				if (hasLemanRuss) {
+					extras.push('Leman Russ');
+				}
+				if (hasDemolisher) {
+					extras.push('Leman Russ Demolisher');
+				}
+			}
+			else {
+				extras.push('Leman Russ');
+				extras.push('Leman Russ Demolisher');
+			}
+		}
+		else if (/^Vulture Squadron$/i.test(formationName)) {
+			extras.push('Vulture');
+		}
+		else if (/^(0-1 Deathstrike Battery|Deathstrike Battery)$/i.test(formationName)) {
+			extras.push('Deathstrike');
+		}
+		else if (/^(Marauder Colossus|Colossus Squadron)$/i.test(formationName)) {
+			extras.push('Marauder Colossus');
+		}
+		else if (/^(Marauder Squadron|Marauder Bombers)$/i.test(formationName)) {
+			extras.push('Marauder Bomber');
+		}
+		else if (/^(Thunderbolt Squadron|Thunderbolt Fighters)$/i.test(formationName)) {
+			extras.push('Thunderbolt Fighter');
+		}
+		else if (/^(0-1 Ordinatus|Ordinatus|Ordinatus Cadia)$/i.test(formationName)) {
+			extras.push('Ordinatus Cadia');
+		}
+		else if (/^(Reaver|Reaver Class Titan)$/i.test(formationName)) {
+			extras.push('Reaver Class Titan');
+		}
+		else if (/^(Warlord|Warlord Class Titan)$/i.test(formationName)) {
+			extras.push('Warlord Class Titan');
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/fire support platoon|support squad/i.test(upgradeName)) {
+				extras.push('Support Squad');
+			}
+			if (/infantry platoon|imperial guard infantry/i.test(upgradeName)) {
+				extras.push('Infantry');
+			}
+			if (/kasrkin platoon|kasrkin/i.test(upgradeName)) {
+				extras.push('Kasrkin');
+			}
+			if (/sanctioned psyker|battle psyker/i.test(upgradeName)) {
+				extras.push('Battle Psykers');
+			}
+			if (/sabre platform/i.test(upgradeName)) {
+				extras.push('Sabre Platform');
+			}
+			if (/sniper/i.test(upgradeName)) {
+				extras.push('Snipers');
+			}
+			if (/assault transport|stormlord/i.test(upgradeName)) {
+				extras.push('Stormlord');
+			}
+			if (/4 chimeras/i.test(upgradeName)) {
+				extras.push('Chimera');
+			}
+			if (/4 valkyries/i.test(upgradeName)) {
+				extras.push('Valkyrie');
+			}
+			if (/^commissar$/i.test(upgradeName)) {
+				extras.push('Commissar');
+			}
+		});
+
+		return extras.uniq();
+	},
+
+	catachanDeathworldVeteransFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	catachanDeathworldVeteransAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_catachan_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^(0-1 Deathworld Air Cavalry Company|Deathworld Air Cavalry Company)$/i.test(formationName)) {
+			extras.push('Imperial Guard Commander');
+			extras.push('Catachan Infantry');
+			extras.push('Catachan Valkyrie');
+		}
+		else if (/^Deathworld Infantry Company$/i.test(formationName)) {
+			extras.push('Imperial Guard Commander');
+			extras.push('Catachan Infantry');
+		}
+		else if (/^(0-1 Deathworld Regimental HQ|Deathworld Regimental HQ)$/i.test(formationName)) {
+			extras.push('Imperial Guard Supreme Commander');
+			extras.push('Catachan Infantry');
+		}
+		else if (/^Catachan Devils$/i.test(formationName)) {
+			extras.push('Catachan Devils');
+		}
+		else if (/^Deathworld Mortar Platoon$/i.test(formationName)) {
+			extras.push('Catachan Mortar Squad');
+		}
+		else if (/^Ogryn Platoon$/i.test(formationName)) {
+			extras.push('Ogryns');
+		}
+		else if (/^Deathworld Sentinel Squadron$/i.test(formationName)) {
+			extras.push('Catachan Sentinel');
+		}
+		else if (/^Deathworld Veterans Platoon$/i.test(formationName)) {
+			extras.push('Deathworld Veterans');
+			if (ArmyforgeUI.catachanDeathworldVeteransFormationHasUpgrade(formation, /catachan valkyr/i)) {
+				extras.push('Catachan Valkyrie');
+			}
+		}
+		else if (/^Hellhound Platoon$/i.test(formationName)) {
+			extras.push('Hellhound');
+		}
+		else if (/^Support Tank Squadron$/i.test(formationName)) {
+			extras.push('Leman Russ Demolisher');
+		}
+		else if (/^Vulture Squadron$/i.test(formationName)) {
+			extras.push('Vulture');
+		}
+		else if (/^Artillery Firebase$/i.test(formationName)) {
+			extras.push('Earthshaker Platform');
+		}
+		else if (/^(Traitor's Bane|"Traitor's Bane")$/i.test(formationName)) {
+			extras.push('Traitor\'s Bane Hellhammer');
+		}
+		else if (/^(Marauder Squadron|Marauder Bombers)$/i.test(formationName)) {
+			extras.push('Marauder Bomber');
+		}
+		else if (/^(Thunderbolt Squadron|Thunderbolt Fighters)$/i.test(formationName)) {
+			extras.push('Thunderbolt Fighter-Bomber');
+		}
+		else if (/^Orbital Support$/i.test(formationName)) {
+			var hasLunar = ArmyforgeUI.catachanDeathworldVeteransFormationHasUpgrade(formation, /lunar class cruiser/i);
+			var hasEmperor = ArmyforgeUI.catachanDeathworldVeteransFormationHasUpgrade(formation, /emperor class battleship/i);
+			if (hasLunar || hasEmperor) {
+				if (hasLunar) {
+					extras.push('Lunar Class Cruiser');
+				}
+				if (hasEmperor) {
+					extras.push('Emperor Class Battleship');
+				}
+			}
+			else {
+				extras.push('Lunar Class Cruiser');
+				extras.push('Emperor Class Battleship');
+			}
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/catachan infantry/i.test(upgradeName)) {
+				extras.push('Catachan Infantry');
+			}
+			if (/support squad/i.test(upgradeName)) {
+				extras.push('Support Squad');
+			}
+			if (/catachan missile team/i.test(upgradeName)) {
+				extras.push('Catachan Missile Team');
+			}
+			if (/catachan mortar (squad|team)/i.test(upgradeName)) {
+				extras.push('Catachan Mortar Squad');
+			}
+			if (/sniper/i.test(upgradeName)) {
+				extras.push('Sniper');
+			}
+			if (/ogryn/i.test(upgradeName)) {
+				extras.push('Ogryns');
+			}
+			if (/vulture/i.test(upgradeName)) {
+				extras.push('Vulture');
+			}
+			if (/leman russ demolisher/i.test(upgradeName)) {
+				extras.push('Leman Russ Demolisher');
+			}
+			if (/hellhound/i.test(upgradeName)) {
+				extras.push('Hellhound');
+			}
+			if (/hydra flak tank|(^|\b)hydra(\b|$)/i.test(upgradeName)) {
+				extras.push('Hydra');
+			}
+			if (/catachan valkyr/i.test(upgradeName)) {
+				extras.push('Catachan Valkyrie');
+			}
+			if (/^commissar$/i.test(upgradeName)) {
+				extras.push('Commissar');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -1648,6 +1956,22 @@ var ArmyforgeUI = {
 		});
 
 		ArmyforgeUI.mobileCatachansAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.cadianShockTroopsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.catachanDeathworldVeteransAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2306,6 +2630,8 @@ var ArmyforgeUI = {
 			'eldar-biel-tan.json',
 			'eldar-iyanden.json',
 			'eldar-saim-hann.json',
+			'catachan-deathworld-veterans.json',
+			'cadian-shock-troops.json',
 			'imperial-guard-baran-siegemasters.json',
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
@@ -2344,6 +2670,8 @@ var ArmyforgeUI = {
 			'SM_bloodAngels_NETEA': 'blood-angels.json',
 			'INQ_gk2018_NETEA': 'grey-knights.json',
 			'INQ_sisters2018_NETEA': 'sisters-of-battle.json',
+			'IG_catachan_NETEA': 'catachan-deathworld-veterans.json',
+			'IG_cadian_NETEA': 'cadian-shock-troops.json',
 			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};
