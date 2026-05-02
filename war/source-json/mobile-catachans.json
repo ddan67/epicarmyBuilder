@@ -1,0 +1,1176 @@
+{
+  "metadata": {
+    "army_name": "Mobile Forces of Catachan",
+    "source_url": null,
+    "page_title": "Imperial Guard – Mobile Forces of Catachan – 0.4.3",
+    "list_id": "IG_MobileCatachans_NETEA"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Commissars",
+      "text": "An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.\nCommissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander's formation. Any further Commissars may be attached to any other formations.\nYou may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
+    },
+    {
+      "name": "Watch your step, Sir!",
+      "text": "Commissars attached to Catachan armies are renowned for having \"accidents\". As a result of this, armies from Catachan include fewer Commissars than usual.\nTo represent this fact, remove one Commissar from your available Commissars before the game."
+    },
+    {
+      "name": "May Not Garrison",
+      "text": "The Mobile Forces of Catachan are a highly mobile army, and rarely have enough forces to try to take and hold ground. Because of this, instead of maintaining a heavily garrisoned front line, they will usually rely on a couple of advanced scout units, transmitting vital information about the area back to the main forces. The bulk of this highly mobile army will be held back in reserve where it will be ready to move quickly to any threatened sector. This allows them to hold large areas of ground without relying on dug in infantry and other garrisoned forces.\nTo represent these tactics, only Vultures, Sentinels and Veterans are allowed to garrison objectives in the Epic tournament game scenario."
+    },
+    {
+      "name": "The sky is ours!",
+      "text": "The mobile tactics of this army results in a critical absence of ground based anti-air units. This is compensated by a higher degree of naval support granted to this force than usual.\nTo represent these tactics, a single fighter formation may be placed on Combat Air Patrol. The player may still set up as many garrisons as their army and the special rule above allows, but only one of those may start the game on overwatch. The aircraft follow all the rules for CAP, but are setup during the pre-game garrisoning phase."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Mobile Forces of Catachan Companies",
+      "entry_type": "formation",
+      "name": "Airborne Regimental HQ",
+      "cost": "350 points",
+      "units_text": "7 Imperial Guard Infantry units, 1 Imperial Guard Supreme Commander and 4 Valkyries",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Airborne Regimental HQ | 7 Imperial Guard Infantry units, 1 Imperial Guard Supreme Commander and 4 Valkyries | company upgrades | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Companies",
+      "entry_type": "formation",
+      "name": "Airborne Infantry Company",
+      "cost": "250 points",
+      "units_text": "7 Imperial Guard Infantry units, 1 Imperial Guard Commander and 4 Valkyries",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Airborne Infantry Company | 7 Imperial Guard Infantry units, 1 Imperial Guard Commander and 4 Valkyries | company upgrades | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Companies",
+      "entry_type": "formation",
+      "name": "Airborne Ogryn Company",
+      "cost": "325 points",
+      "units_text": "5 Ogryns, 1 Imperial Guard Commander, 6 Valkyries",
+      "upgrades_or_options_text": "company upgrades",
+      "restrictions_or_notes": null,
+      "raw_text": "Airborne Ogryn Company | 5 Ogryns, 1 Imperial Guard Commander, 6 Valkyries | company upgrades | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support",
+      "cost": "+75 points",
+      "units_text": "Add two Fire Support Squad units and a Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support | Add two Fire Support Squad units and a Valkyrie | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Mortar Support",
+      "cost": "+75 points",
+      "units_text": "Add two Mortar units and a Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mortar Support | Add two Mortar units and a Valkyrie | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Platoon",
+      "cost": "+150 points",
+      "units_text": "Add six Imperial Guard Infantry units and 3 Valkyries",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Platoon | Add six Imperial Guard Infantry units and 3 Valkyries | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sentinels",
+      "cost": "+50 points",
+      "units_text": "Add two Catachan Sentinels, Drop Sentinels or Support Sentinels in any combination",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinels | Add two Catachan Sentinels, Drop Sentinels or Support Sentinels in any combination | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ogryns (one Ogryn and a Valkyrie)",
+      "cost": "+50 points",
+      "units_text": "Add one Ogryn and a Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Ogryns upgrade entry.",
+      "raw_text": "Ogryns | Add one Ogryn and a Valkyrie | +50 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ogryns (two Ogryns and two Valkyries)",
+      "cost": "+100 points",
+      "units_text": "Add two Ogryns and two Valkyries",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Ogryns upgrade entry.",
+      "raw_text": "Ogryns | Add two Ogryns and two Valkyries | +100 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers (one Sniper and a Valkyrie)",
+      "cost": "+50 points",
+      "units_text": "Add one Sniper and a Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Snipers upgrade entry.",
+      "raw_text": "Snipers | Add one Sniper and a Valkyrie | +50 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Snipers (two Snipers and a Valkyrie)",
+      "cost": "+75 points",
+      "units_text": "Add two Snipers and a Valkyrie",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Snipers upgrade entry.",
+      "raw_text": "Snipers | Add two Snipers and a Valkyrie | +75 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sky Talons",
+      "cost": "+25 points each",
+      "units_text": "Add enough Sky Talons to transport the whole formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sky Talons | Add enough Sky Talons to transport the whole formation | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vendettas",
+      "cost": "free",
+      "units_text": "Up to two Valkyries may be exchanged for Vendettas",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vendettas | Up to two Valkyries may be exchanged for Vendettas | free",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vultures (add two Vulture Punishers)",
+      "cost": "+75 points",
+      "units_text": "Add two Vulture Punishers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Vultures upgrade entry.",
+      "raw_text": "Vultures | Add two Vulture Punishers | +75 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vultures (add two Vultures)",
+      "cost": "+100 points",
+      "units_text": "Add two Vultures",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Alternative Vultures upgrade entry.",
+      "raw_text": "Vultures | Add two Vultures | +100 points",
+      "parse_warnings": [
+        "The source prints this as an OR-cost upgrade; alternatives were split into separate upgrade entries."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vulture Tornado",
+      "cost": "free",
+      "units_text": "Up to two Vultures may be exchanged for Vulture Tornados",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Tornado | Up to two Vultures may be exchanged for Vulture Tornados | free",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "Sentinel Patrol",
+      "cost": "125 points",
+      "units_text": "4 Catachan Sentinels, Drop Sentinels or Support Sentinels in any combination",
+      "upgrades_or_options_text": "Sentinels, Sky Talons",
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinel Patrol | 4 Catachan Sentinels, Drop Sentinels or Support Sentinels in any combination | Sentinels, Sky Talons | 125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "Airborne Support Platoon",
+      "cost": "225 points",
+      "units_text": "4 Imperial Guard Fire Support Units OR 4 Imperial Guard Mortar Units, 1 Imperial Guard Infantry Unit, 1 Imperial Guard Commander and 3 Valkyries",
+      "upgrades_or_options_text": "Infantry Platoon, Sentinels, Ogryns, Snipers, Sky Talons, Vendettas, Vultures, Vulture Tornado",
+      "restrictions_or_notes": null,
+      "raw_text": "Airborne Support Platoon | 4 Imperial Guard Fire Support Units OR 4 Imperial Guard Mortar Units, 1 Imperial Guard Infantry Unit, 1 Imperial Guard Commander and 3 Valkyries | Infantry Platoon, Sentinels, Ogryns, Snipers, Sky Talons, Vendettas, Vultures, Vulture Tornado | 225 points",
+      "parse_warnings": [
+        "The source prints a core-unit OR choice between Fire Support Units and Mortar Units."
+      ]
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "0-1 Veterans",
+      "cost": "200 points",
+      "units_text": "8 Veteran Units",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Veterans | 8 Veteran Units | None | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "Airborne Stormtroopers",
+      "cost": "350 points",
+      "units_text": "8 Stormtrooper Units, 4 Valkyries",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Airborne Stormtroopers | 8 Stormtrooper Units, 4 Valkyries | None | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "Vulture Punishers",
+      "cost": "300 points",
+      "units_text": "6 Vulture Punisher",
+      "upgrades_or_options_text": "Vultures, Vulture Tornados",
+      "restrictions_or_notes": null,
+      "raw_text": "Vulture Punishers | 6 Vulture Punisher | Vultures, Vulture Tornados | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Mobile Forces of Catachan Support Formations",
+      "entry_type": "formation",
+      "name": "Vultures",
+      "cost": "300 points",
+      "units_text": "4 Vultures",
+      "upgrades_or_options_text": "Vultures, Vulture Tornados",
+      "restrictions_or_notes": null,
+      "raw_text": "Vultures | 4 Vultures | Vultures, Vulture Tornados | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "Lightning Squadron",
+      "cost": "150 points",
+      "units_text": "Two Lightning Strike Fighter",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lightning Squadron | Two Lightning Strike Fighter | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "Marauder Squadron",
+      "cost": "225 points",
+      "units_text": "Two Marauder Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Marauder Squadron | Two Marauder Bombers | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron - Two Thunderbolt Fighters",
+      "cost": "150 points",
+      "units_text": "Two Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from a multi-cost Any one of the following row.",
+      "raw_text": "Thunderbolt Squadron | Any one of the following units: Two Thunderbolt Fighters | 150 points",
+      "parse_warnings": [
+        "The source prints multiple costs under a single Thunderbolt Squadron row; alternatives were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "Thunderbolt Squadron - Three Thunderbolt Fighters",
+      "cost": "225 points",
+      "units_text": "Three Thunderbolt Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from a multi-cost Any one of the following row.",
+      "raw_text": "Thunderbolt Squadron | Any one of the following units: Three Thunderbolt Fighters | 225 points",
+      "parse_warnings": [
+        "The source prints multiple costs under a single Thunderbolt Squadron row; alternatives were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "0-1 Orbital Support - Lunar Class Cruiser",
+      "cost": "125 points",
+      "units_text": "Lunar Class Cruiser",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from a multi-cost Any one of the following row.",
+      "raw_text": "0-1 Orbital Support | Any one of the following units: Lunar Class Cruiser | 125 points",
+      "parse_warnings": [
+        "The source prints multiple costs under a single Orbital Support row; alternatives were split into separate formation entries."
+      ]
+    },
+    {
+      "category": "Imperial Ally Formations",
+      "entry_type": "formation",
+      "name": "0-1 Orbital Support - Emperor Class Battleship",
+      "cost": "200 points",
+      "units_text": "Emperor Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Split from a multi-cost Any one of the following row.",
+      "raw_text": "0-1 Orbital Support | Any one of the following units: Emperor Class Battleship | 200 points",
+      "parse_warnings": [
+        "The source prints multiple costs under a single Orbital Support row; alternatives were split into separate formation entries."
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Leader",
+        "Inspiring"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fire Support Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every two has an Autocannon."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Imperial Guard Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mortar Team",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "2x Mortar",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ogryns",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Ripper Guns",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Ogryn Combat Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sniper",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scouts",
+        "Sniper"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Stormtroopers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Blastguns",
+          "range": "15cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scouts"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Veterans",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Sniper Rifles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Sniper"
+          ]
+        },
+        {
+          "name": "Demolition Charges",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Demolition Charges",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scouts",
+        "Teleport"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Catachan Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Support Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Rocket System",
+          "range": "45cm",
+          "firepower": "2x AP5+/AT6+",
+          "notes": [
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker",
+        "The range is not doubled when the Multi-Rocket System is fired indirectly, nor is there a minimum range."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The plain-text extraction truncated the Support Sentinel firepower as '2xAP5+/A6+'; it was normalized conservatively to '2x AP5+/AT6+' based on the visible weapon row."
+      ],
+      "ambiguity_reasons": [
+        "Support Sentinel firepower OCR truncation"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Drop Sentinel",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-Melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multilaser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Rocket Pods",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two Infantry units (Ogryns count as two units) or one Sentinel of any type."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valkyrie Sky Talon",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two Sentinels of any type."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vendetta",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "3x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer",
+        "Transport",
+        "May transport two Infantry units (Ogryns count as two units) or one Sentinel of any type."
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Autocannons",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "2x Hellfire",
+          "range": "120cm",
+          "firepower": "AT2+",
+          "notes": [
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Tornado",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Multi-Melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "2x Multi-Melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vulture Punisher",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "2x Punisher Gatling",
+          "range": "45cm",
+          "firepower": "AP3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Skimmer"
+      ],
+      "source_section": "Mobile Forces of Catachan Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+/AA5+",
+          "notes": [
+            "FF"
+          ]
+        },
+        {
+          "name": "2x Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Bomb Racks",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Twin Heavy Bolter",
+          "range": "15cm",
+          "firepower": "AA5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Storm Bolters",
+          "range": "15cm",
+          "firepower": "AP4+/AA5+",
+          "notes": [
+            "FF"
+          ]
+        },
+        {
+          "name": "Multi Laser",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+/AA5+",
+          "notes": [
+            "FF"
+          ]
+        },
+        {
+          "name": "Underwing Rockets",
+          "range": "30cm",
+          "firepower": "AT4+",
+          "notes": [
+            "FF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-point Attack",
+          "range": "-",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "8BP",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Imperial Navy Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Datasheets",
+      "text": "The list uses Mobile Forces of Catachan Forces and Imperial Navy Forces datasheets."
+    },
+    {
+      "name": "Support Formations",
+      "text": "Each company unlocks any two support formations."
+    },
+    {
+      "name": "Company Upgrades",
+      "text": "Companies may be given up to three company upgrades."
+    },
+    {
+      "name": "Upgrade Limits",
+      "text": "Each company upgrade type may only be taken once by a company."
+    },
+    {
+      "name": "Support Upgrade Restriction",
+      "text": "Support formations may not be given company upgrades unless stated otherwise."
+    },
+    {
+      "name": "Imperial Ally Formations",
+      "text": "Up to a third of the points available may be spent on Imperial Ally formations."
+    },
+    {
+      "name": "Stand-in Use",
+      "text": "This list can also be used as a stand-in for other high-mobile Imperial Guard forces like Elysian-style troops."
+    },
+    {
+      "name": "Using The Army List",
+      "text": "The following army list allows you to field an Imperial Guard army based on a very mobile force of Catachan soldiers, riding into battle on Valkyries, supported by Vultures, Imperial Navy and a couple of ground assets. It can also be used as a stand-in army list for other high-mobile Imperial Guard forces that don't stem from Catachan, like troops from Elysia."
+    },
+    {
+      "name": "Company Structure",
+      "text": "Steel Legion formations come in two types: companies and support formations. Each company you include in the army allows you to field any two support formations. Although you can only take a support formation if you first take a company, they are treated as separate independent formations during a battle and do not have to move around together."
+    },
+    {
+      "name": "Up to three company upgrades may be taken once per company",
+      "text": "In addition, companies may be given up to three company upgrades. Each type of upgrade can only be taken once by a company. Upgrades are added to the company and are not a separate formation. Support formations may not be given company upgrades unless stated otherwise. Each upgrade that is taken adds to the cost of the company or support formation, as shown on the upgrade chart."
+    }
+  ],
+  "extraction_warnings": [
+    "Source extracted from the local PDF C:/Users/fliff/Downloads/Mobile Forces of Catachan Army List 0.4.3.pdf via pypdf plain-text extraction.",
+    "source_url was left null because no reliable Mobile Forces of Catachan source URL was confirmed from the repository during this task.",
+    "The PDF prose uses 'Steel Legion formations' in the army-list instructions; this was preserved in army notes as printed even though the list is Mobile Forces of Catachan.",
+    "The Support Sentinel firepower line was partially truncated by plain-text extraction and was normalized conservatively with a parse warning on that profile.",
+    "Thunderbolt Squadron and 0-1 Orbital Support were split into separate formation entries because the source prints multiple unit alternatives with distinct costs under a single row.",
+    "Ogryns, Snipers, and Vultures upgrades were split into separate upgrade entries because the source prints OR-cost alternatives.",
+    "Obvious source typos were normalized in prose only: absense -> absence, garrissons -> garrisons, renown -> renowned, and FXF -> FxF."
+  ]
+}

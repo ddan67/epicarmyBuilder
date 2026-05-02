@@ -282,6 +282,7 @@ var ArmyforgeUI = {
 			'IG_siege_NETEA': ArmyforgeUnitProfiles.findIgBaranSiegeMastersProfileByName,
 			'IG_krieg_NETEA': ArmyforgeUnitProfiles.findIgDeathKorpsOfKriegProfileByName,
 			'IG_minervan_NETEA': ArmyforgeUnitProfiles.findIgMinervanTankLegionProfileByName,
+			'IG_MobileCatachans_NETEA': ArmyforgeUnitProfiles.findMobileCatachansProfileByName,
 			'IG_Tallarn_NETEA': ArmyforgeUnitProfiles.findTallarnDesertRaidersProfileByName,
 			'XENOS_squats_NETEA': ArmyforgeUnitProfiles.findSquatProfileByName,
 			'INQ_ordo_xenos_NETEA': ArmyforgeUnitProfiles.findInquisitionOrdoXenosProfileByName,
@@ -1375,6 +1376,180 @@ var ArmyforgeUI = {
 		return extras.uniq();
 	},
 
+	mobileCatachansFormationHasUpgrade:function(formation, pattern) {
+		if (!formation || !formation.upgrades || !pattern) {
+			return false;
+		}
+		return formation.upgrades.any(function(u) {
+			return u && u.name && pattern.test(u.name);
+		});
+	},
+
+	mobileCatachansAdditionalProfilesForFormation:function(formation) {
+		var extras = [];
+		var listId = ArmyforgeUI.urlData ? ArmyforgeUI.urlData.list : null;
+		if (listId != 'IG_MobileCatachans_NETEA' || !formation || !formation.type) {
+			return extras;
+		}
+
+		var formationName = formation.type.name || '';
+		if (/^Airborne Regimental HQ$/i.test(formationName)) {
+			extras.push('Imperial Guard Infantry');
+			extras.push('Imperial Guard Supreme Commander');
+			extras.push('Valkyrie');
+		}
+		else if (/^Airborne Infantry Company$/i.test(formationName)) {
+			extras.push('Imperial Guard Infantry');
+			extras.push('Imperial Guard Commander');
+			extras.push('Valkyrie');
+		}
+		else if (/^Airborne Ogryn Company$/i.test(formationName)) {
+			extras.push('Ogryns');
+			extras.push('Imperial Guard Commander');
+			extras.push('Valkyrie');
+		}
+		else if (/^(Sentinels|Sentinel Patrol)$/i.test(formationName)) {
+			var hasCatachan = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /catachan sentinel/i);
+			var hasDrop = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /drop sentinel/i);
+			var hasSupport = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /support sentinel/i);
+			if (hasCatachan || hasDrop || hasSupport) {
+				if (hasCatachan) {
+					extras.push('Catachan Sentinel');
+				}
+				if (hasDrop) {
+					extras.push('Drop Sentinel');
+				}
+				if (hasSupport) {
+					extras.push('Support Sentinel');
+				}
+			}
+			else {
+				extras.push('Catachan Sentinel');
+				extras.push('Drop Sentinel');
+				extras.push('Support Sentinel');
+			}
+		}
+		else if (/^Airborne Support Platoons?$/i.test(formationName)) {
+			var hasFireSupport = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /fire support units?/i);
+			var hasMortars = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /mortar units?/i);
+			if (hasFireSupport) {
+				extras.push('Fire Support Squad');
+			}
+			if (hasMortars) {
+				extras.push('Mortar Team');
+			}
+			if (!hasFireSupport && !hasMortars) {
+				extras.push('Fire Support Squad');
+				extras.push('Mortar Team');
+			}
+			extras.push('Imperial Guard Infantry');
+			extras.push('Imperial Guard Commander');
+			extras.push('Valkyrie');
+		}
+		else if (/^0-1 Veterans$/i.test(formationName)) {
+			extras.push('Veterans');
+		}
+		else if (/^(Airborne Stormtroopers|Airborne Storm Trooper Platoon)$/i.test(formationName)) {
+			extras.push('Stormtroopers');
+			extras.push('Valkyrie');
+		}
+		else if (/^Vulture Punishers$/i.test(formationName)) {
+			extras.push('Vulture Punisher');
+		}
+		else if (/^Vultures$/i.test(formationName)) {
+			var hasVulture = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /^vulture$/i);
+			var hasTornado = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /^vulture tornado$/i);
+			if (hasVulture || hasTornado) {
+				if (hasVulture) {
+					extras.push('Vulture');
+				}
+				if (hasTornado) {
+					extras.push('Vulture Tornado');
+				}
+			}
+			else {
+				extras.push('Vulture');
+			}
+		}
+		else if (/^Lightning Squadron$/i.test(formationName)) {
+			extras.push('Lightning Strike Fighter');
+		}
+		else if (/^(Marauder Squadron|Marauder Bombers)$/i.test(formationName)) {
+			extras.push('Marauder Bomber');
+		}
+		else if (/^Thunderbolt Squadron$/i.test(formationName)) {
+			extras.push('Thunderbolt Fighter');
+		}
+		else if (/^(Spacecraft|0-1 Orbital Support)/i.test(formationName)) {
+			var hasLunar = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /lunar class cruiser/i);
+			var hasEmperor = ArmyforgeUI.mobileCatachansFormationHasUpgrade(formation, /emperor class battleship/i);
+			if (hasLunar || hasEmperor) {
+				if (hasLunar) {
+					extras.push('Lunar Class Cruiser');
+				}
+				if (hasEmperor) {
+					extras.push('Emperor Class Battleship');
+				}
+			}
+			else {
+				extras.push('Lunar Class Cruiser');
+				extras.push('Emperor Class Battleship');
+			}
+		}
+
+		formation.upgrades.uniq().each(function(upgrade) {
+			var upgradeName = upgrade && upgrade.name ? upgrade.name : '';
+			if (/fire support squad/i.test(upgradeName) || /^fire support$/i.test(upgradeName)) {
+				extras.push('Fire Support Squad');
+				extras.push('Valkyrie');
+			}
+			if (/mortar/i.test(upgradeName) || /^mortar support$/i.test(upgradeName)) {
+				extras.push('Mortar Team');
+				extras.push('Valkyrie');
+			}
+			if (/six imperial guard infantry units and 3 valkyries/i.test(upgradeName) || /^infantry platoon$/i.test(upgradeName)) {
+				extras.push('Imperial Guard Infantry');
+				extras.push('Valkyrie');
+			}
+			if (/ogryn/i.test(upgradeName)) {
+				extras.push('Ogryns');
+				if (/valkyrie/i.test(upgradeName)) {
+					extras.push('Valkyrie');
+				}
+			}
+			if (/sniper/i.test(upgradeName)) {
+				extras.push('Sniper');
+				if (/valkyrie/i.test(upgradeName)) {
+					extras.push('Valkyrie');
+				}
+			}
+			if (/sky talon/i.test(upgradeName)) {
+				extras.push('Valkyrie Sky Talon');
+			}
+			if (/vendetta/i.test(upgradeName)) {
+				extras.push('Vendetta');
+			}
+			if (/add 2 vulture punishers/i.test(upgradeName)) {
+				extras.push('Vulture Punisher');
+			}
+			if (/add 2 vultures/i.test(upgradeName)) {
+				extras.push('Vulture');
+			}
+			if (/add 1 vulture,\s*1 vulture tornado/i.test(upgradeName)) {
+				extras.push('Vulture');
+				extras.push('Vulture Tornado');
+			}
+			else if (/vulture tornado/i.test(upgradeName)) {
+				extras.push('Vulture Tornado');
+			}
+			if (/^commissar$/i.test(upgradeName)) {
+				extras.push('Commissar');
+			}
+		});
+
+		return extras.uniq();
+	},
+
 	uniqueProfilesForFormation:function(formation) {
 		var candidates = [];
 		var seen = {};
@@ -1465,6 +1640,14 @@ var ArmyforgeUI = {
 		});
 
 		ArmyforgeUI.tallarnDesertRaidersAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+
+		ArmyforgeUI.mobileCatachansAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -2127,6 +2310,7 @@ var ArmyforgeUI = {
 			'imperial-guard-death-korps-of-krieg.json',
 			'imperial-guard-minervan-tank-legion.json',
 			'imperial-guard-steel-legion.json',
+			'mobile-catachans.json',
 			'tallarn-desert-raiders.json',
 			'grey-knights.json',
 			'inquisition-ordo-xenos.json',
@@ -2160,6 +2344,7 @@ var ArmyforgeUI = {
 			'SM_bloodAngels_NETEA': 'blood-angels.json',
 			'INQ_gk2018_NETEA': 'grey-knights.json',
 			'INQ_sisters2018_NETEA': 'sisters-of-battle.json',
+			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};
 		return sourceFilesByListId[listId] || null;
