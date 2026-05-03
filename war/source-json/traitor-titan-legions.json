@@ -1,0 +1,5318 @@
+{
+  "metadata": {
+    "army_name": "Traitor Titan Legions",
+    "page_title": "Traitor Titan Legions",
+    "display_name": "Chaos Titans",
+    "source_url": null,
+    "list_id": "CHAOS_titans_NETEA",
+    "builder_source_file": "war/lists/CHAOS_titans_NETEA.json",
+    "primary_pdf_source": "Traitor Titan Legions v2,31 Beta.pdf",
+    "secondary_pdf_sources": [
+      "Traitor Titan Legions v2,2.pdf",
+      "Traitor Titan Legions 2,2 QRS.pdf"
+    ],
+    "version_note": "Existing builder list is a hybrid; formation costs/counts are preserved from war/lists/CHAOS_titans_NETEA.json."
+  },
+  "army_stats": {
+    "strategy_rating": "3",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Battle Titans and Chaos Warhounds",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Eternal Animosity",
+      "text": "Each non-Chaos Navy formation owes allegiance to one Chaos faction or Chaos Undivided. Khorne and Slaanesh cannot mix; Nurgle and Tzeentch cannot mix."
+    },
+    {
+      "name": "Summoned Units",
+      "text": "Formations may summon daemons from a purchased Daemon Pool. Summoning uses 2D3 summoning points, units must be placed within 5cm of the summoning formation, summoned units are Expendable, and they are removed at the end phase unless retained by Daemonic Focus."
+    },
+    {
+      "name": "Augment Summoning",
+      "text": "Units with Augment Summoning add their bonus to the formation's summoning roll."
+    },
+    {
+      "name": "Daemonic Focus",
+      "text": "Units with Daemonic Focus may keep summoned units in play after rallying if the formation is not broken."
+    },
+    {
+      "name": "Fickle Masters",
+      "text": "On a strategy roll of 6, add 1D3 summoning points to the Daemon Pool; on a 1, remove 1D3 summoning points."
+    },
+    {
+      "name": "Unity of Command",
+      "text": "If the army is mono-faction and includes at least one Supreme Commander, it gains the relevant faction bonus."
+    },
+    {
+      "name": "Hell-forged Weaponry",
+      "text": "Battle titans select an appropriate number of Battle and/or Scout weapons according to titan class and faction."
+    },
+    {
+      "name": "Heretek Tech",
+      "text": "Shield Piercer ignores Power Fields, Knight Shields, Ion Shields, Void Shields and Shadowfields; Shadowfields still provide cover from shooting."
+    },
+    {
+      "name": "Towering Incarnations of Chaos",
+      "text": "Destroyed Chaos Warlords and Imperators inflict Blast Markers on friendly formations as specified by the rule."
+    },
+    {
+      "name": "Split Fire",
+      "text": "DC8+ war engines may Split Fire on Sustain Fire with an extra -1 activation penalty and special target allocation limits."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Carrion Lord Class",
+      "cost": "1125 points",
+      "units_text": "1 Chaos Emperor Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Chaos Plasma Cremator (Chaos Undivided Only (Arm Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "CARRION LORD   (Chaos Emperor Titan of Chaos Undivided) | 1 Chaos Emperor Titan, 1 Greater Daemon Possession | 1125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Skullhoarder",
+      "cost": "1125 points",
+      "units_text": "1 Chaos Emperor Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Hellstrike Cannon (Khorne Support Weapon (Arm)); Hellstrike Cannon (Khorne Support Weapon (Carapace)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Doom Burner (Khorne Battle Weapon (Arm)); Doom Burner (Khorne Battle Weapon (Carapace)); Doom Fist (Khorne Close Combat Battle Weapon (Arm Only)); Mangler (Khorne Close Combat Battle Weapon (Carapace Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Death Storm (Khorne Scout Weapon (Arm)); Death Storm (Khorne Scout Weapon (Carapace)); Ursus Claw (Khorne Scout Weapon (Arm Only))",
+      "restrictions_or_notes": null,
+      "raw_text": "SKULLHOARDER   (Chaos Emperor Titan of Khorne) | 1 Chaos Emperor Titan, 1 Greater Daemon Possession | 1125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Vicekeeper",
+      "cost": "1125 points",
+      "units_text": "1 Chaos Emperor Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Beam of Ecstasy (Slaanesh Support Weapon (Arm Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Sonic Devastator (Slaanesh Battle Weapon (Arm)); Sonic Devastator (Slaanesh Battle Weapon (Carapace)); Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Castigator Cannon (Slaanesh Scout Weapon (Arm)); Castigator Cannon (Slaanesh Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "VICEKEEPER   (Chaos Emperor Titan of Slaanesh) | 1 Chaos Emperor Titan, 1 Greater Daemon Possession | 1125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Blightspreader",
+      "cost": "1125 points",
+      "units_text": "1 Chaos Emperor Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Corruption Cannon (Nurgle Battle Weapon (Carapace Only)); Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only)); Rot Cannon (Nurgle Battle Weapon (Arm)); Rot Cannon (Nurgle Battle Weapon (Carapace)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Pus Cannon (Nurgle Scout Weapon (Arm)); Pus Cannon (Nurgle Scout Weapon (Carapace)); Boil Cannon (Nurgle Scout Weapon (Arm)); Boil Cannon (Nurgle Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle) | 1 Chaos Emperor Titan, 1 Greater Daemon Possession | 1125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Giftgranter",
+      "cost": "1125 points",
+      "units_text": "1 Chaos Emperor Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Beam of Change (Tzeentch Support Weapon (Carapace Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only)); Coruscant Hail (Tzeentch Battle Weapon (Arm)); Coruscant Hail (Tzeentch Battle Weapon (Carapace)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Gaze of Tzeentch (Tzeentch Scout Weapon (Arm)); Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace)); Arcane Cannons (Tzeentch Scout Weapon (Arm)); Arcane Cannons (Tzeentch Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "GIFTGRANTER   (Chaos Emperor Titan of Tzeentch) | 1 Chaos Emperor Titan, 1 Greater Daemon Possession | 1125 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Forgelord Class",
+      "cost": "800 points",
+      "units_text": "1 Chaos Warlord Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Chaos Plasma Cremator (Chaos Undivided Only (Arm Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace)); Greater Daemon Possession; Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm)); Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace)); Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only)); Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only)); Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only)); Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm)); Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace)); Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only)); Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only)); Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only)); Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm)); Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace)); Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only)); Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only)); Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm)); Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Carapace)); Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm)); Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace)); Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only)); Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm)); Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace)); Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm)); Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace)); Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm)); Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace)); Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm)); Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace)); Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm)); Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace)); Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm)); Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "FORGELORD   (Chaos Warlord Titan of Chaos Undivided) | 1 Chaos Warlord Titan, 1 Greater Daemon Possession | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Banelord",
+      "cost": "800 points",
+      "units_text": "1 Chaos Warlord Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Hellstrike Cannon (Khorne Support Weapon (Arm)); Hellstrike Cannon (Khorne Support Weapon (Carapace)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Doom Fist (Khorne Close Combat Battle Weapon (Arm Only)); Mangler (Khorne Close Combat Battle Weapon (Carapace Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Death Storm (Khorne Scout Weapon (Arm)); Death Storm (Khorne Scout Weapon (Carapace)); Greater Daemon Possession; Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "BANELORD (Chaos Warlord Titan of Khorne) | 1 Chaos Warlord Titan, 1 Greater Daemon Possession | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Painlord",
+      "cost": "800 points",
+      "units_text": "1 Chaos Warlord Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Beam of Ecstasy (Slaanesh Support Weapon (Arm Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Sonic Devastator (Slaanesh Battle Weapon (Arm)); Sonic Devastator (Slaanesh Battle Weapon (Carapace)); Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only)); Castigator Cannon (Slaanesh Scout Weapon (Arm)); Castigator Cannon (Slaanesh Scout Weapon (Carapace)); Greater Daemon Possession; Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "PAINLORD  (Chaos Warlord Titan of Slaanesh) | 1 Chaos Warlord Titan, 1 Greater Daemon Possession | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Plaguelord",
+      "cost": "800 points",
+      "units_text": "1 Chaos Warlord Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Corruption Cannon (Nurgle Battle Weapon (Carapace Only)); Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only)); Rot Cannon (Nurgle Battle Weapon (Arm)); Rot Cannon (Nurgle Battle Weapon (Carapace)); Pus Cannon (Nurgle Scout Weapon (Arm)); Pus Cannon (Nurgle Scout Weapon (Carapace)); Boil Cannon (Nurgle Scout Weapon (Arm)); Boil Cannon (Nurgle Scout Weapon (Carapace)); Greater Daemon Possession; Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "PLAGUELORD (Chaos Warlord Titan of Nurgle) | 1 Chaos Warlord Titan, 1 Greater Daemon Possession | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Warplord",
+      "cost": "800 points",
+      "units_text": "1 Chaos Warlord Titan, 1 Greater Daemon Possession",
+      "upgrades_or_options_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)); Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)); Beam of Change (Tzeentch Support Weapon (Carapace Only)); Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only)); Coruscant Hail (Tzeentch Battle Weapon (Arm)); Coruscant Hail (Tzeentch Battle Weapon (Carapace)); Gaze of Tzeentch (Tzeentch Scout Weapon (Arm)); Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace)); Arcane Cannons (Tzeentch Scout Weapon (Arm)); Arcane Cannons (Tzeentch Scout Weapon (Carapace)); Greater Daemon Possession; Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "WARPLORD  (Chaos Warlord Titan of Tzeentch) | 1 Chaos Warlord Titan, 1 Greater Daemon Possession | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Herald Class",
+      "cost": "600 points",
+      "units_text": "1 Chaos Reaver Titan, 1 Eye of the Gods",
+      "upgrades_or_options_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Chaos Plasma Cremator (Chaos Undivided Only (Arm Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)); Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)); Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only); Eye of the Gods & Plasma Incinerator (Chaos Undivided Support Weapon (Army Only)",
+      "restrictions_or_notes": null,
+      "raw_text": "HERALD (Chaos Reaver Titan of Chaos Undivided) | 1 Chaos Reaver Titan, 1 Eye of the Gods | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Ravager",
+      "cost": "600 points",
+      "units_text": "1 Chaos Reaver Titan, 1 Eye of the Gods",
+      "upgrades_or_options_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Doom Burner (Khorne Battle Weapon (Carapace)); Doom Fist (Khorne Close Combat Battle Weapon (Arm Only)); Mangler (Khorne Close Combat Battle Weapon (Carapace Only)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)); Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)); Hellmouth (Chaos Undivided Scout Weapon (Arm)); Hellmouth (Chaos Undivided Scout Weapon (Carapace)); Death Storm (Khorne Scout Weapon (Arm)); Death Storm (Khorne Scout Weapon (Carapace)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)); Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only); Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Arm)); Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Carapace))",
+      "restrictions_or_notes": null,
+      "raw_text": "RAVAGER (Chaos Reaver Titan of Khorne) | 1 Chaos Reaver Titan, 1 Eye of the Gods | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Reviler",
+      "cost": "600 points",
+      "units_text": "1 Chaos Reaver Titan, 1 Eye of the Gods",
+      "upgrades_or_options_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Sonic Devastator (Slaanesh Battle Weapon (Arm)); Sonic Devastator (Slaanesh Battle Weapon (Carapace)); Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only)); Castigator Cannon (Slaanesh Scout Weapon (Arm)); Castigator Cannon (Slaanesh Scout Weapon (Carapace)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)); Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only); Eye of the Gods & Beam of Ecstasy (Chaos Undivided Support Weapon (Arm Only))",
+      "restrictions_or_notes": null,
+      "raw_text": "REVILER (Chaos Reaver Titan of Slaanesh) | 1 Chaos Reaver Titan, 1 Eye of the Gods | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Repugnant",
+      "cost": "600 points",
+      "units_text": "1 Chaos Reaver Titan, 1 Eye of the Gods",
+      "upgrades_or_options_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Corruption Cannon (Nurgle Battle Weapon (Carapace Only)); Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only)); Rot Cannon (Nurgle Battle Weapon (Arm)); Rot Cannon (Nurgle Battle Weapon (Carapace)); Pus Cannon (Nurgle Scout Weapon (Arm)); Pus Cannon (Nurgle Scout Weapon (Carapace)); Boil Cannon (Nurgle Scout Weapon (Arm)); Boil Cannon (Nurgle Scout Weapon (Carapace)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)); Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only); Eye of the Gods & Heavy Plague Mortar (Chaos Undivided Support Weapon (Carapace Only))",
+      "restrictions_or_notes": null,
+      "raw_text": "REPUGNANT (Chaos Reaver Titan of Nurgle) | 1 Chaos Reaver Titan, 1 Eye of the Gods | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Battle Titans",
+      "entry_type": "formation",
+      "name": "Mutator",
+      "cost": "600 points",
+      "units_text": "1 Chaos Reaver Titan, 1 Eye of the Gods",
+      "upgrades_or_options_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)); Infernal Projector (Chaos Undivided Battle Weapon (Carapace)); Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)); Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)); Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)); Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only)); Coruscant Hail (Tzeentch Battle Weapon (Arm)); Coruscant Hail (Tzeentch Battle Weapon (Carapace)); Gaze of Tzeentch (Tzeentch Scout Weapon (Arm)); Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace)); Arcane Cannons (Tzeentch Scout Weapon (Arm)); Arcane Cannons (Tzeentch Scout Weapon (Carapace)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)); Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)); Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)); Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)); Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only); Eye of the Gods & Beam of Change (Chaos Undivided Support Weapon (Carapace Only))",
+      "restrictions_or_notes": null,
+      "raw_text": "MUTATOR (Chaos Reaver Titan of Tzeentch) | 1 Chaos Reaver Titan, 1 Eye of the Gods | 600 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Forgehound Class",
+      "cost": "300 points",
+      "units_text": "1-2 Chaos Warhound Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Feral Warhounds of Khorne may only be taken in pairs.. One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "FORGEHOUND (Chaos Warhound of Chaos Undivided) | 1-2 Chaos Warhound Titans | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Forgehound Pack",
+      "cost": "550 points",
+      "units_text": "2 Chaos Warhound Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Feral Warhounds of Khorne may only be taken in pairs.. One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided) | 2 Chaos Warhound Titans | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Feral Warhound Pack",
+      "cost": "550 points",
+      "units_text": "2 Chaos Warhounds of Khorne",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "FERAL WARHOUND Pack (Chaos Warhounds of Khorne) | 2 Chaos Warhounds of Khorne | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Plaguehound",
+      "cost": "300 points",
+      "units_text": "1 Chaos Warhound Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "PLAGUEHOUND (Chaos Warhound of Nurgle) | 1 Chaos Warhound Titan | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Plaguehound Pack",
+      "cost": "550 points",
+      "units_text": "2 Chaos Warhounds of Nurgle",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "PLAGUEHOUND Pack (Chaos Warhounds of Nurgle) | 2 Chaos Warhounds of Nurgle | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Warphound",
+      "cost": "300 points",
+      "units_text": "1 Chaos Warhound Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "WARPHOUND (Chaos Warhound of Tzeentch) | 1 Chaos Warhound Titan | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Warphound Pack",
+      "cost": "550 points",
+      "units_text": "2 Chaos Warhounds of Tzeentch",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "WARPHOUND Pack (Chaos Warhounds of Tzeentch) | 2 Chaos Warhounds of Tzeentch | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Retlaxi Pattern Death Wheel",
+      "cost": "275 points",
+      "units_text": "1-2 Retlaxi Death Wheels",
+      "upgrades_or_options_text": "One additional Death Wheel; Two additional Death Wheels",
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "DEATH WHEEL (Chaos Undivided) | 1-2 Retlaxi Death Wheels | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Lord of Battles",
+      "cost": "400 points",
+      "units_text": "1-2 Lord of Battles",
+      "upgrades_or_options_text": "One additional Lord of Battles",
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "LORD OF BATTLES (Khorne) | 1-2 Lord of Battles | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Greater Brass Scorpion",
+      "cost": "200 points",
+      "units_text": "1-3 Greater Brass Scorpions",
+      "upgrades_or_options_text": "One additional Greater Brass Scorpion; Two additional Greater Brass Scorpions",
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "GREATER BRASS SCORPION (Khorne) | 1-3 Greater Brass Scorpions | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Subjugator Titan",
+      "cost": "225 points",
+      "units_text": "1-2 Subjugators",
+      "upgrades_or_options_text": "One additional Subjugator Scout Titan",
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "SUBJUGATOR (Slaanesh) | 1-2 Subjugators | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Greater Daemon Engines",
+      "entry_type": "formation",
+      "name": "Questor Titan",
+      "cost": "275 points",
+      "units_text": "1-2 Questors",
+      "upgrades_or_options_text": "One additional Questor Scout Titan",
+      "restrictions_or_notes": "One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession. These do not have to belong to the same faction.",
+      "raw_text": "QUESTOR (Slaanesh) | 1-2 Questors | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Daemon Knights of Slaanesh - Hell-Scourges",
+      "cost": "225 points",
+      "units_text": "2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders",
+      "upgrades_or_options_text": "One additional Hell-Scourge; Two additional Hell-Scourges",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DAEMON KNIGHTS Hell-Scourges (Slaanesh) | 2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Daemon Knights of Slaanesh - Hell-Knights",
+      "cost": "225 points",
+      "units_text": "2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders",
+      "upgrades_or_options_text": "One additional Hell-Knight; Two additional Hell-Knights",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DAEMON KNIGHTS Hell-Knights (Slaanesh) | 2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Daemon Knights of Slaanesh - Hell-Striders",
+      "cost": "225 points",
+      "units_text": "2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders",
+      "upgrades_or_options_text": "One additional Hell-Strider; Two additional Hell-Striders",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DAEMON KNIGHTS Hell-Striders (Slaanesh) | 2 Hell-Scourges or 3 Hell-Knights or 6 Hell-Striders | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Chaos Knights (Chaos Undivided)",
+      "cost": "225 points",
+      "units_text": "2 Renegade Knights",
+      "upgrades_or_options_text": "One additional Renegade Knight; Two additional Renegade Knights",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "CHAOS KNIGHTS (Chaos Undivided) | 2 Renegade Knights | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Chaos Knights (Khorne)",
+      "cost": "225 points",
+      "units_text": "2 Mauler Knights",
+      "upgrades_or_options_text": "One additional Mauler Knight; Two additional Mauler Knights",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "CHAOS KNIGHTS (Khorne) | 2 Mauler Knights | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Chaos Knights (Nurgle)",
+      "cost": "225 points",
+      "units_text": "2 Decay Knights",
+      "upgrades_or_options_text": "One additional Decay Knight; Two additional Decay Knights",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "CHAOS KNIGHTS (Nurgle) | 2 Decay Knights | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Chaos Knights (Tzeentch)",
+      "cost": "225 points",
+      "units_text": "2 Change Knights",
+      "upgrades_or_options_text": "One additional Change Knight; Two additional Change Knights",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "CHAOS KNIGHTS (Tzeentch) | 2 Change Knights | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Daemonic Assault Engine",
+      "cost": "225 points",
+      "units_text": "4 Daemonic Assault Engines",
+      "upgrades_or_options_text": "One additional Daemonic Assault Engine; Two additional Daemonic Assault Engines",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DAEMON ASSAULT ENGINES (Khorne) | 4 Daemonic Assault Engines | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Retlaxi Pattern Defiler (Chaos Undivided)",
+      "cost": "200 points",
+      "units_text": "4 Retlaxi Pattern Defilers with Mark of Chaos Undivided",
+      "upgrades_or_options_text": "One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided; Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DEFILERS (Chaos Undivided) | 4 Retlaxi Pattern Defilers with Mark of Chaos Undivided | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Retlaxi Pattern Defiler (Nurgle)",
+      "cost": "200 points",
+      "units_text": "4 Retlaxi Pattern Defilers with Trappings of Nurgle",
+      "upgrades_or_options_text": "One additional Retlaxi-Pattern Defiler with Trappings of Nurgle; Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DEFILERS (Nurgle) | 4 Retlaxi Pattern Defilers with Trappings of Nurgle | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Retlaxi Pattern Defiler (Tzeentch)",
+      "cost": "200 points",
+      "units_text": "4 Retlaxi Pattern Defilers with Gifts of Tzeentch",
+      "upgrades_or_options_text": "One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch; Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DEFILERS (Tzeentch) | 4 Retlaxi Pattern Defilers with Gifts of Tzeentch | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Lesser Daemon Engines",
+      "entry_type": "formation",
+      "name": "Cannon of Khorne",
+      "cost": "200 points",
+      "units_text": "4 Cannons of Khorne",
+      "upgrades_or_options_text": "One additional Cannon of Khorne; Two additional Cannons of Khorne",
+      "restrictions_or_notes": "One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model. These do not have to belong to the same faction.",
+      "raw_text": "DAEMONIC ARTILLERY (Khorne) | 4 Cannons of Khorne | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Daemon Pool",
+      "entry_type": "formation",
+      "name": "Lesser Daemon Pool",
+      "cost": "0 points",
+      "units_text": "Any number of Lesser Daemons",
+      "upgrades_or_options_text": "Lesser Daemons",
+      "restrictions_or_notes": "Lesser Daemons cost 15 points each.",
+      "raw_text": "LESSER DAEMON POOL | Any number of Lesser Daemons | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Hell Blade Squadron",
+      "cost": "200 points",
+      "units_text": "3 Hell Blade Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to one quarter of the total army points may be spent on Chaos Navy formations.",
+      "raw_text": "HELL BLADE SQUADRON | 3 Hell Blade Fighters | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Hell Talon Squadron",
+      "cost": "225 points",
+      "units_text": "2 Hell Talon Fighter-Bombers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to one quarter of the total army points may be spent on Chaos Navy formations.",
+      "raw_text": "HELL TALON SQUADRON | 2 Hell Talon Fighter-Bombers | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Harbringer Bomber",
+      "cost": "375 points",
+      "units_text": "1 Harbringer Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Up to one quarter of the total army points may be spent on Chaos Navy formations.",
+      "raw_text": "HARBRINGER BOMBER | 1 Harbringer Bomber | 375 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Chaos Battleship",
+      "cost": "200 points",
+      "units_text": "1 Despoiler Class Battleship",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 formation.. Up to one quarter of the total army points may be spent on Chaos Navy formations.",
+      "raw_text": "CHAOS BATTLESHIP | 1 Despoiler Class Battleship | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Cannon of Chaos (Chaos Undivided Support Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Plasma Incinerator (Chaos Undivided Only Support Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellstrike Cannon (Khorne Support Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellstrike Cannon (Khorne Support Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellstrike Cannon (Khorne Support Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellstrike Cannon (Khorne Support Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Beam of Change (Tzeentch Support Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Beam of Change (Tzeentch Support Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Beam of Ecstasy (Slaanesh Support Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Beam of Ecstasy (Slaanesh Support Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infernal Projector (Chaos Undivided Battle Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infernal Projector (Chaos Undivided Battle Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infernal Projector (Chaos Undivided Battle Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infernal Projector (Chaos Undivided Battle Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Plasma Cremator (Chaos Undivided Only (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Plasma Cremator (Chaos Undivided Only (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Doom Burner (Khorne Battle Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Doom Burner (Khorne Battle Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Doom Burner (Khorne Battle Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Doom Burner (Khorne Battle Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Doom Fist (Khorne Close Combat Battle Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Doom Fist (Khorne Close Combat Battle Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Mangler (Khorne Close Combat Battle Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mangler (Khorne Close Combat Battle Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tzeentch Cannon (Tzeentch Battle Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Coruscant Hail (Tzeentch Battle Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Coruscant Hail (Tzeentch Battle Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Coruscant Hail (Tzeentch Battle Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Coruscant Hail (Tzeentch Battle Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Corruption Cannon (Nurgle Battle Weapon (Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Corruption Cannon (Nurgle Battle Weapon (Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Plague Flail (Nurgle Close Combat Battle Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Rot Cannon (Nurgle Battle Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rot Cannon (Nurgle Battle Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Rot Cannon (Nurgle Battle Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rot Cannon (Nurgle Battle Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sonic Devastator (Slaanesh Battle Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sonic Devastator (Slaanesh Battle Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sonic Devastator (Slaanesh Battle Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sonic Devastator (Slaanesh Battle Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Musk Flail (Slaanesh Close Combat Battle Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter (Chaos Undivided Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth (Chaos Undivided Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth (Chaos Undivided Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth (Chaos Undivided Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth (Chaos Undivided Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Storm (Khorne Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Storm (Khorne Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Storm (Khorne Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Storm (Khorne Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ursus Claw (Khorne Scout Weapon (Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ursus Claw (Khorne Scout Weapon (Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gaze of Tzeentch (Tzeentch Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gaze of Tzeentch (Tzeentch Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Arcane Cannons (Tzeentch Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Arcane Cannons (Tzeentch Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Arcane Cannons (Tzeentch Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Arcane Cannons (Tzeentch Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Pus Cannon (Nurgle Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Pus Cannon (Nurgle Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Pus Cannon (Nurgle Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Pus Cannon (Nurgle Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Boil Cannon (Nurgle Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Boil Cannon (Nurgle Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Boil Cannon (Nurgle Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Boil Cannon (Nurgle Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Castigator Cannon (Slaanesh Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Castigator Cannon (Slaanesh Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Castigator Cannon (Slaanesh Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Castigator Cannon (Slaanesh Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Hellmouth",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Hellmouth | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Chaos Plasma Furnace",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Chaos Plasma Furnace | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Chaos Plasma Furnace",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Chaos Plasma Furnace | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Plasma Furnace x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Plasma Furnace x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Death Storm",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Death Storm | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Ursus Claw",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Ursus Claw | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Death Storm",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Death Storm | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Ursus Claw",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Ursus Claw | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Death Storm + Ursus Claw",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Death Storm + Ursus Claw | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Gaze of Tzeentch",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Gaze of Tzeentch | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Arcane Cannons",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Arcane Cannons | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Gaze of Tzeentch",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Gaze of Tzeentch | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Arcane Cannons",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Arcane Cannons | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gaze of Tzeentch + Arcane Cannons",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gaze of Tzeentch + Arcane Cannons | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gaze of Tzeentch x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gaze of Tzeentch x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Arcane Cannons x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Arcane Cannons x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Pus Cannon",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Pus Cannon | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Reaper Mega Bolter + Boil cannon",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Reaper Mega Bolter + Boil cannon | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Pus Cannon",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Pus Cannon | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellmouth + Boil Cannon",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellmouth + Boil Cannon | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Pus Cannon + Boild Cannon",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Pus Cannon + Boild Cannon | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Pus cannon x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Pus cannon x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Boil Cannon x 2",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Boil Cannon x 2 | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace))",
+      "cost": "+50 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace)) | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Beam of Change (Tzeentch Support Weapon(Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Heavy Plague Mortar (Nurgle Support Weapon(Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Beam of Ecstasy (Slaanesh Support Weapon(Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Burner (Khorne Battle Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Doom Fist (Khorne Close Combat Battle Weapon(Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Mangler (Khorne Close Combat Battle Weapon(Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Tzeentch Cannon (Tzeentch Battle Weapon(Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Coruscant Hail (Tzeentch Battle Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Corruption Cannon (Nurgle Battle Weapon(Carapace Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Plague Flail (Nurgle Close Combat Battle Weapon(Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Rot Cannon (Nurgle Battle Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Sonic Devastator (Slaanesh Battle Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Musk Flail (Slaanesh Close Combat Battle Weapon(Arm Only)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Death Storm (Khorne Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Gaze of Tzeentch (Tzeentch Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Arcane Cannons (Tzeentch Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Pus Cannon (Nurgle Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Boil Cannon (Nurgle Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Arm)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Daemon Possession & Castigator Cannon (Slaanesh Scout Weapon(Carapace)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Arm)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Retlaxi Cyclone (Chaos Undivided Support Weapon (Carapace)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Cannons of Chaos (Chaos Undivided Support Weapon (Arm Onlynly)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Havoc Vortex Missiles (Chaos Undivided Support Weapon (Carapace Only)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only)",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Havoc Warp Missiles (Chaos Undivided Support Weapon (Carapace Only) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Plasma Incinerator (Chaos Undivided Support Weapon (Army Only)",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Plasma Incinerator (Chaos Undivided Support Weapon (Army Only) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Arm))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Arm)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Carapace))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Hellstrike Cannon (Khorne Support Weapon (Carapace)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Beam of Change (Chaos Undivided Support Weapon (Carapace Only))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Beam of Change (Chaos Undivided Support Weapon (Carapace Only)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Heavy Plague Mortar (Chaos Undivided Support Weapon (Carapace Only))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Heavy Plague Mortar (Chaos Undivided Support Weapon (Carapace Only)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Eye of the Gods & Beam of Ecstasy (Chaos Undivided Support Weapon (Arm Only))",
+      "cost": "+25 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Eye of the Gods & Beam of Ecstasy (Chaos Undivided Support Weapon (Arm Only)) | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Command Head (Chaos Undivided (Head))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Command Head (Chaos Undivided (Head)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Battle Head (Chaos Undivided (Head))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Battle Head (Chaos Undivided (Head)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Void Head (Chaos Undivided (Head))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Void Head (Chaos Undivided (Head)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemon Maw (Tzeentch (Head))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemon Maw (Tzeentch (Head)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Plague Maw (Nurgle (Head))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Plague Maw (Nurgle (Head)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Gun Tail (Chaos Undivided (Tail))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Gun Tail (Chaos Undivided (Tail)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Razor Tail (Chaos Undivided (Tail))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Razor Tail (Chaos Undivided (Tail)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Barrage Tail (Chaos Undivided (Tail))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Barrage Tail (Chaos Undivided (Tail)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Mace Tail (Khorne (Tail))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Mace Tail (Khorne (Tail)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Lust Lash (Slaanesh (Tail))",
+      "cost": "0 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lust Lash (Slaanesh (Tail)) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Death Wheel",
+      "cost": "+225 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Death Wheel | +225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Death Wheels",
+      "cost": "+450 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Death Wheels | +450 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Lord of Battles",
+      "cost": "+325 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Lord of Battles | +325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Greater Brass Scorpion",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Greater Brass Scorpion | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Greater Brass Scorpions",
+      "cost": "+300 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Greater Brass Scorpions | +300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Subjugator Scout Titan",
+      "cost": "+175 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Subjugator Scout Titan | +175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Questor Scout Titan",
+      "cost": "+225 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Questor Scout Titan | +225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Hell-Scourge",
+      "cost": "+75 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Hell-Scourge | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Hell-Scourges",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Hell-Scourges | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Hell-Knight",
+      "cost": "+65 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Hell-Knight | +65 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Hell-Knights",
+      "cost": "+130 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Hell-Knights | +130 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Hell-Strider",
+      "cost": "+55 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Hell-Strider | +55 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Hell-Striders",
+      "cost": "+110 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Hell-Striders | +110 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Renegade Knight",
+      "cost": "+75 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Renegade Knight | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Renegade Knights",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Renegade Knights | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Mauler Knight",
+      "cost": "+75 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Mauler Knight | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Mauler Knights",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Mauler Knights | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Decay Knight",
+      "cost": "+75 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Decay Knight | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Decay Knights",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Decay Knights | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Change Knight",
+      "cost": "+75 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Change Knight | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Change Knights",
+      "cost": "+150 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Change Knights | +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Daemonic Assault Engine",
+      "cost": "+55 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Daemonic Assault Engine | +55 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Daemonic Assault Engines",
+      "cost": "+110 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Daemonic Assault Engines | +110 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided",
+      "cost": "+45 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided | +45 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided",
+      "cost": "+90 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided | +90 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Retlaxi-Pattern Defiler with Trappings of Nurgle",
+      "cost": "+45 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Retlaxi-Pattern Defiler with Trappings of Nurgle | +45 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle",
+      "cost": "+90 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle | +90 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch",
+      "cost": "+45 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch | +45 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch",
+      "cost": "+90 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch | +90 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "One additional Cannon of Khorne",
+      "cost": "+45 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "One additional Cannon of Khorne | +45 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Two additional Cannons of Khorne",
+      "cost": "+90 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Two additional Cannons of Khorne | +90 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Upgrades",
+      "entry_type": "upgrade",
+      "name": "Lesser Daemons",
+      "cost": "+15 points",
+      "units_text": null,
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lesser Daemons | +15 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Chaos Emperor Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heretek Temple",
+          "range": "45cm",
+          "firepower": "3 x AT4+/AA5+",
+          "notes": [
+            "Augment Summoning (+3)",
+            "Daemonic Focus",
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AT4+/AP4+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "Carapace weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Arm Weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 12",
+        "Void Shields 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "Transport (6)",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Carrion Lord of Chaos Undivided: may select one Head weapon and three Tail weapons.",
+        "Skullhoarder of Khorne: Close Combat 2+; may select one Head weapon and one Tail weapon; critical hit effect: Rampage.",
+        "Vicekeeper of Slaanesh: may select one Head weapon and three Tail weapons.",
+        "Blightspreader of Nurgle: Damage Capacity 14; may not March; may select one Head weapon.",
+        "Giftgranter of Tzeentch: Close Combat 5+; Fire Fight 3+; may select two Head weapons."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Warlord Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Carapace weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Arm Weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Void Shields 6",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Walker",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Forgelord of Chaos Undivided: may select one Head weapon and one Tail weapon.",
+        "Banelord of Khorne: may select one Head weapon and one Tail weapon; critical hit effect: Rampage.",
+        "Painlord of Slaanesh: may select one Head weapon and one Tail weapon.",
+        "Plaguelord of Nurgle: Damage Capacity 9; may not March; may select one Head weapon.",
+        "Warplord of Tzeentch: Close Combat 3+; may select one Head weapon."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Reaver Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Carapace weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Arm Weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Void Shields 4",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Herald of Chaos Undivided: may select one Head weapon and one Tail weapon.",
+        "Ravager of Khorne: may select one Head weapon and one Tail weapon.",
+        "Reviler of Slaanesh: may select one Head weapon and one Tail weapon.",
+        "Repugnant of Nurgle: Damage Capacity 7; may not March; may select one Head weapon.",
+        "Mutator of Tzeentch: Close Combat 4+; may select one Head weapon."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Warhound Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Arm Weapon",
+          "range": "Varies",
+          "firepower": "Varies",
+          "notes": [
+            "Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Void Shields 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Forgehound of Chaos Undivided: may select one Head weapon and one Tail weapon.",
+        "Feral Warhound of Khorne: may select one Head weapon; may not be equipped with two Scout weapons of the same type.",
+        "Plaguehound of Nurgle: Damage Capacity 4; Speed 25cm; may not March.",
+        "Warphound of Tzeentch: Close combat 6+; Fire Fight 4+; may select one Head weapon."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Retlaxi Pattern Death Wheel",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2 x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Left Arc"
+          ]
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Left Arc"
+          ]
+        },
+        {
+          "name": "2 x Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Right Arc"
+          ]
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Right Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Void Shields 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Faction: Chaos Undivided",
+        "Critical Hit Effect: Fatal wobble; move 3D6cm in a random direction, then destroyed; units moved over or contacted suffer hits on a 4+."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lord of Battles",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2 x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "Death Storm",
+          "range": "45cm",
+          "firepower": "4 x AP4+/AT4+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "Chainfist",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attacks (+3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Faction: Khorne",
+        "Critical Hit Effect: Enraging blow; rampage 3D6cm and take an additional point of damage; units contacted suffer hits on a 4+."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Greater Brass Scorpion",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Greater Scorpion Cannon",
+          "range": "45cm",
+          "firepower": "2 x AP3+/AT5+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "Ignore Cover",
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Hellmaw Cannon",
+          "range": "15cm",
+          "firepower": "2 x AP4+",
+          "notes": [
+            "Ignore Cover",
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attacks (+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Infiltrator",
+        "Reinforced Armour",
+        "Invulnerable Save",
+        "Walker",
+        "Faction: Khorne",
+        "Critical Hit Effect: destroyed."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Subjugator Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2 x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "2 x Hellclaw",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Titan Killer (D3)",
+            "Extra Attack (+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Void Shields 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Faction: Slaanesh",
+        "Critical Hit Effect: Staggering blow."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Questor Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2 x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "360° Arc"
+          ]
+        },
+        {
+          "name": "2 x Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3 x AP3+/AT5+",
+          "notes": [
+            "360° Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Void Shields 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker",
+        "May step over units and impassable or dangerous terrain that is lower than the titan's knees and up to 2cm wide.",
+        "Faction: Slaanesh",
+        "Critical Hit Effect: Staggering blow."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Scourge",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3 x AP3+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Faction: Slaanesh",
+        "Damage Capacity 2",
+        "Critical Hit Effect: destroyed."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Knight",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Lance",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": []
+        },
+        {
+          "name": "Thermal Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Faction: Slaanesh",
+        "Damage Capacity 2",
+        "Critical Hit Effect: destroyed."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Strider",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Lascannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Scout",
+        "Walker",
+        "Faction: Slaanesh",
+        "Armoured Vehicle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Renegade Knight of Chaos Undivided",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Forward Arc"
+          ]
+        },
+        {
+          "name": "Renegade Chainsword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attack (+1)"
+          ]
+        },
+        {
+          "name": "Heretek Anyon Ray",
+          "range": "30cm",
+          "firepower": "2 x AP6+/AT6+/AA6+",
+          "notes": [
+            "360° Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mauler Knight of Khorne",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Melta Guns",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attack (+1)"
+          ]
+        },
+        {
+          "name": "Renegade Chainsword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attack (+1)"
+          ]
+        },
+        {
+          "name": "Doom Gauntlet",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Small Arms",
+            "Titan Killer (1)",
+            "Extra Attack (+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Faction: Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Decay Knight of Nurgle",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heretek Anyon Cannon",
+          "range": "30cm",
+          "firepower": "4 x AP5+/AT5+",
+          "notes": [
+            "Forward Arc"
+          ]
+        },
+        {
+          "name": "Renegade Chainsword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attack (+1)"
+          ]
+        },
+        {
+          "name": "Pus Launcher Pod",
+          "range": "30cm",
+          "firepower": "1 BP",
+          "notes": [
+            "Disrupt",
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Faction: Nurgle",
+        "May not March"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Change Knight of Tzeentch",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Forward Arc"
+          ]
+        },
+        {
+          "name": "Heretek Anyon Cannon",
+          "range": "30cm",
+          "firepower": "4 x AP5+/AT5+",
+          "notes": [
+            "Forward Arc"
+          ]
+        },
+        {
+          "name": "Warp Blast Pod",
+          "range": "30cm",
+          "firepower": "1 BP",
+          "notes": [
+            "Ignore Cover",
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Faction: Tzeentch",
+        "Critical Hit Effect: destroyed."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonic Assault Engine",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Blood Cannon",
+          "range": "30cm",
+          "firepower": "2 x AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Daemonic Blades",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Extra Attacks (+D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Faction: Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Retlaxi Pattern Defiler",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy Cannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Flamers",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "Extra Attack (+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Infiltrator",
+        "Walker",
+        "Mark of Chaos Undivided: faction: Chaos Undivided",
+        "Trappings of Nurgle: Armour 3+, Close Combat 4+, Faction: Nurgle, may not March",
+        "Gifts of Tzeentch: Close Combat 5+ and Fire Fight 3+, Faction: Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cannon of Khorne",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Hellfire Cannon",
+          "range": "75cm",
+          "firepower": "MW2+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Faction: Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Greater Daemon Possession",
+      "type": "CH",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Inspiring",
+        "Daemonic Focus",
+        "Augment Summoning (+2)",
+        "On a Chaos Undivided formation, may ignore all factional restrictions for a single weapon.",
+        "Formations of other factions may ignore the \"Chaos Undivided only\" restriction for a single weapon."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Eye of the Gods",
+      "type": "CH",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Leader",
+        "May replace a single non-close combat Battle weapon with a Support weapon."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bloodletters of Khorne",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Hellblades",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "Extra Attack (+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (1) for Khorne formations",
+        "Summoning Cost (2) for Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonettes of Slaanesh",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Daemonic Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (1) for Slaanesh formations",
+        "Summoning Cost (2) for Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flamers of Tzeentch",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Flames of Tzeentch",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Flames of Tzeentch",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (1) for Tzeentch formations",
+        "Summoning Cost (2) for Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguebearers of Nurgle",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Plague Swords",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Cloud of Flies",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (1) for Nurgle formations",
+        "Summoning Cost (2) for Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonic Beasts of Chaos Undivided",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws and Fangs",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (2) for Nurgle formations",
+        "Summoning Cost (2) for Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Screamers of Tzeentch",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Pack",
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (2) for Tzeentch formations"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Flesh Hounds of Khorne",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Claws and Fangs",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrators",
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (2) for Khorne formations"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonettes on Steeds",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Daemonic Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Infiltrators",
+        "Invulnerable Save",
+        "Expendable",
+        "Summoning Cost (2) for Slaanesh formations"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "2 x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "2 BP",
+          "notes": [
+            "Ignore Cover",
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Harbringer Bomber",
+      "type": "WE",
+      "speed": "5+",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Incendiary Bombs",
+          "range": "15cm",
+          "firepower": "6 BP",
+          "notes": [
+            "Ignore Cover",
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA6+",
+          "notes": [
+            "Fixed Forward Arc"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA6+",
+          "notes": [
+            "Right Arc"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA6+",
+          "notes": [
+            "Left Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 4",
+        "Reinforced Armour",
+        "Critical Hit: destroyed."
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "-",
+          "firepower": "3 BP",
+          "notes": [
+            "Macro Weapon"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "-",
+          "firepower": "MW2+",
+          "notes": [
+            "Titan Killer (D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Retlaxi Cyclone",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Retlaxi Cyclone",
+          "range": "75cm",
+          "firepower": "5 x AP4+/AT4+",
+          "notes": [
+            "Arm & Carapace"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Beam Blaster",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Beam Blaster",
+          "range": "60cm",
+          "firepower": "5 x AP5+/AT3+",
+          "notes": [
+            "Arm & Carapace"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cannons of Chaos",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Cannons of Chaos",
+          "range": "90cm",
+          "firepower": "4 BP",
+          "notes": [
+            "Macro Weapon",
+            "Slow Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havoc Vortex Missiles",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Havoc Vortex Missiles",
+          "range": "60cm",
+          "firepower": "3 x 1 BP",
+          "notes": [
+            "Titan Killer",
+            "Ignore Cover",
+            "Indirect",
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havoc Warp Missiles",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Havoc Warp Missiles",
+          "range": "60cm",
+          "firepower": "3 x MW4+",
+          "notes": [
+            "TK(D3)",
+            "Single Shot",
+            "Shield Piercer: Ignores Fields and Shields"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Plasma Incinerator",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Chaos Plasma Incinerator",
+          "range": "75cm",
+          "firepower": "5 x MW3+",
+          "notes": [
+            "Slow Fire",
+            "Chaos Undivided only"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellstrike Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Hellstrike Cannon",
+          "range": "60cm",
+          "firepower": "3 BP",
+          "notes": [
+            "Macro Weapon",
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Beam of Change",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Beam of Change",
+          "range": "60cm",
+          "firepower": "3 x MW3+",
+          "notes": [
+            "Titan Killer (1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace, Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heavy Plague Mortar",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Heavy Plague Mortar",
+          "range": "60cm",
+          "firepower": "6 BP",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Beam of Ecstasy",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Beam of Ecstasy",
+          "range": "75cm",
+          "firepower": "MW2+",
+          "notes": [
+            "Titan Killer (D3+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm, Slaanesh"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Retlaxi Trident",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Retlaxi Trident",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attack (+1)",
+            "Titan Killer (D3+1)",
+            "Shield Piercer: Ignores Fields and Shields",
+            "Chaos Undivided only"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Heretek Shrine",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Heretek Shrine",
+          "range": "45cm",
+          "firepower": "2 x AT4+/AA5+",
+          "notes": [
+            "Transport (2)",
+            "Augment Summoning (+2)",
+            "Daemonic Focus",
+            "360° Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Titan CC Weapon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Battle Titan CC Weapon",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Titan Killer (D3+1)",
+            "Extra Attacks (+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Havoc Barrage Missiles",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Havoc Barrage Missiles",
+          "range": "60cm",
+          "firepower": "3 x 2 BP",
+          "notes": [
+            "Indirect Fire",
+            "Single Shot"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Plasma Cremator",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Chaos Plasma Cremator",
+          "range": "45cm",
+          "firepower": "5 x MW3+",
+          "notes": [
+            "Slow Fire",
+            "Chaos Undivided only"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Doom Burner",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Doom Burner",
+          "range": "45cm",
+          "firepower": "MW2+",
+          "notes": [
+            "Titan Killer (D3)",
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Doom Fist",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Doom Fist",
+          "range": "30cm / (base contact)",
+          "firepower": "4 x AP4+/AT4+ / Assault Weapon",
+          "notes": [
+            "Titan Killer (D3)",
+            "Extra Attacks (+2)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm, Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mangler",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Mangler",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Titan Killer (D3)",
+            "Extra Attacks (+3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace, Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tzeentch Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Tzeentch Cannon",
+          "range": "60cm",
+          "firepower": "3 x AP3+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm, Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Coruscant Hail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Coruscant Hail",
+          "range": "60cm",
+          "firepower": "3 BP",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Corruption Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Corruption Cannon",
+          "range": "30cm",
+          "firepower": "4 x MW4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Carapace, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Flail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Plague Flail",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Titan Killer (1)",
+            "Extra Attacks (+3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Rot Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Rot Cannon",
+          "range": "45cm",
+          "firepower": "4 x AP3+/AT5+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sonic Devastator",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Sonic Devastator",
+          "range": "45cm",
+          "firepower": "4 x AP3+/AT4+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Slaanesh"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Musk Flail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Musk Flail",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Macro Weapon",
+            "First Strike",
+            "Extra Attacks (+3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm, Slaanesh"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Reaper Mega Bolter",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Chaos Reaper Mega Bolter",
+          "range": "45cm",
+          "firepower": "4 x AP3+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellmouth",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Hellmouth",
+          "range": "30cm",
+          "firepower": "3 BP",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Chaos Undivided"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Plasma Furnace",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Chaos Plasma Furnace",
+          "range": "30cm",
+          "firepower": "4 x MW3+",
+          "notes": [
+            "Slow Fire",
+            "Chaos Undivided only"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Storm",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Death Storm",
+          "range": "45cm",
+          "firepower": "4 x AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Khorne"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ursus Claw",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Ursus Claw",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attack (+1)",
+            "Titan Killer (D3)",
+            "Shield Piercer: Ignores Fields and Shields",
+            "Feral Warhounds of Khorne only"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gaze of Tzeentch",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Gaze of Tzeentch",
+          "range": "30cm",
+          "firepower": "3 x MW4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Arcane Cannons",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Arcane Cannons",
+          "range": "45cm",
+          "firepower": "3 x AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Tzeentch"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pus Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Pus Cannon",
+          "range": "30cm",
+          "firepower": "3 BP",
+          "notes": [
+            "Disrupt",
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Boil Cannon",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Boil Cannon",
+          "range": "30cm",
+          "firepower": "4 x AP3+/AT6+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Arm & Carapace, Nurgle"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Command Head",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Command Head",
+          "range": "-",
+          "firepower": "-",
+          "notes": [
+            "Commander",
+            "Leader",
+            "Chaos Undivided only",
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Head"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Battle Head",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Battle Head",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attacks (+2)",
+            "Chaos Undivided only",
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Head"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Void Head",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Void Head",
+          "range": "-",
+          "firepower": "-",
+          "notes": [
+            "Add 1 Void Shield",
+            "Chaos Undivided only",
+            "Fixed Forward Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Head"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Maw",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Daemon Maw",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attacks (+2)",
+            "Ignore Cover",
+            "Fixed Forward Arc",
+            "Tzeentch"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Head"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Maw",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Plague Maw",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attacks (+2)",
+            "Disrupt",
+            "Ignore Cover",
+            "Fixed Forward Arc",
+            "Nurgle"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Head"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gun Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Gun Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Extra Attack (+1)",
+            "360° Arc",
+            "Chaos Undivided"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Gun Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Gun Tail",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Extra Attack (+1)",
+            "360° Arc",
+            "Chaos Undivided"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Razor Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Razor Tail",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Extra Attacks (+2)",
+            "360° Arc",
+            "Chaos Undivided"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Razor Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Razor Tail",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "Extra Attacks (+2)",
+            "360° Arc",
+            "Chaos Undivided"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Barrage Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Barrage Tail",
+          "range": "15cm",
+          "firepower": "2 BP",
+          "notes": [
+            "360° Arc",
+            "Chaos Undivided"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mace Tail",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Mace Tail",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "MW",
+            "Extra Attacks (+2)",
+            "360° Arc",
+            "Khorne"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lust Lash",
+      "type": "Reference",
+      "speed": "-",
+      "armour": "-",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Lust Lash",
+          "range": "(base contact)",
+          "firepower": "Assault Weapon",
+          "notes": [
+            "First Strike",
+            "Extra Attacks (+2)",
+            "360° Arc",
+            "Slaanesh"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Mount: Tail"
+      ],
+      "source_section": "Traitor Titan Legions v2.31b",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Builder Source Of Truth",
+      "text": "Formation names, costs, allowed counts, upgrade costs, constraints and list structure are preserved from war/lists/CHAOS_titans_NETEA.json."
+    },
+    {
+      "name": "PDF Reference Priority",
+      "text": "Traitor Titan Legions v2.31b is the primary profile/rules source; v2.2 and the QRS were used only as cross-checks."
+    },
+    {
+      "name": "Hybrid Mismatch",
+      "text": "The builder list is a hybrid and does not exactly match either uploaded PDF."
+    },
+    {
+      "name": "Chaos Navy Limit",
+      "text": "Up to one quarter of the total army points may be spent on Chaos Navy formations."
+    },
+    {
+      "name": "Faction Selection",
+      "text": "Faction selection affects allowed weapons and formations."
+    },
+    {
+      "name": "Battle Titan Weapons",
+      "text": "Battle Titans may choose Hell-forged weapon options according to titan class and faction."
+    },
+    {
+      "name": "Pdf Mismatch Notes",
+      "text": "Builder Carrion Lord 1125, Forgelord 800 and Herald 600 do not match v2.31b or v2.2; builder Lord of Battles 400/725 does not match either PDF; builder Harbringer 375 does not match either PDF; builder Greater Brass Scorpion count/cost matches v2.2 rather than v2.31b."
+    },
+    {
+      "name": "Rule Difference Note",
+      "text": "v2.2 includes Crippling Damage, while v2.31b uses Towering Incarnations of Chaos and Split Fire. The builder does not explicitly expose either rule set, so v2.31b wording is used for profile and rule reference."
+    }
+  ],
+  "extraction_warnings": [
+    "Existing builder list is a hybrid and does not exactly match v2.2 or v2.31b.",
+    "Builder formation counts and costs were taken from war/lists/CHAOS_titans_NETEA.json, not directly from the PDFs.",
+    "v2.31b was used for profile and rule wording; v2.2 and QRS were used only to cross-check unclear areas.",
+    "Builder Carrion Lord 1125, Forgelord 800, Herald 600, Lord of Battles 400/725 and Harbringer 375 do not match either PDF.",
+    "Builder Greater Brass Scorpion count/cost matches v2.2 rather than v2.31b.",
+    "The PDF and builder differ on rule framing: v2.2 has Crippling Damage, while v2.31b has Towering Incarnations of Chaos and Split Fire.",
+    "Chaos Navy is limited to 25% of army points by the builder.",
+    "The builder list uses 199 upgrade entries; they are represented in the formations array as upgrade records."
+  ]
+}

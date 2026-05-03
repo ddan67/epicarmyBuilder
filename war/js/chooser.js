@@ -266,6 +266,9 @@ var ArmyforgeUI = {
 			'CHAOS_corsairs_playtestNETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineRedCorsairsProfileByName,
 			'CHAOS_dg_NETEA': ArmyforgeUnitProfiles.findDeathGuardProfileByName,
 			'CHAOS_House_Devine_NETEA': ArmyforgeUnitProfiles.findHedonicCrusadeProfileByName,
+			'CHAOS_ts_NETEA': ArmyforgeUnitProfiles.findThousandSonsProfileByName,
+			'CHAOS_titans_NETEA': ArmyforgeUnitProfiles.findTraitorTitanLegionsProfileByName,
+			'CHAOS_VraksianTraitors_NETEA': ArmyforgeUnitProfiles.findVraksianTraitorsProfileByName,
 			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
 			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
@@ -2445,6 +2448,20 @@ var ArmyforgeUI = {
 				profiles.push(extraProfile);
 			}
 		});
+		ArmyforgeUnitProfiles.thousandSonsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+		ArmyforgeUnitProfiles.vraksianTraitorsAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
 		ArmyforgeUnitProfiles.deathGuardAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
@@ -2453,6 +2470,13 @@ var ArmyforgeUI = {
 			}
 		});
 		ArmyforgeUnitProfiles.hedonicCrusadeAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
+		ArmyforgeUnitProfiles.traitorTitanLegionsAdditionalProfilesForFormation(formation).each(function(name) {
 			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
 			if (extraProfile && !seen[extraProfile.name]) {
 				seen[extraProfile.name] = true;
@@ -3100,6 +3124,9 @@ var ArmyforgeUI = {
 			'explorator-fleet.json',
 			'death-guard.json',
 			'hedonic-crusade.json',
+			'thousand-sons.json',
+			'vraksian-traitors.json',
+			'traitor-titan-legions.json',
 			'blood-angels-v3.1-normalized-codex-style.json',
 			'blood-angels.json',
 			'chaos-cultist-slaves-to-darkness.json',
@@ -3162,6 +3189,9 @@ var ArmyforgeUI = {
 			'IG_Elysian_NETEA': 'elysian-drop-troops.json',
 			'IG_harakoni_NETEA_fixed': 'harakoni-warhawks.json',
 			'IG_miraliSkyraiders_NETEA': 'mirali-skyraiders.json',
+			'CHAOS_ts_NETEA': 'thousand-sons.json',
+			'CHAOS_VraksianTraitors_NETEA': 'vraksian-traitors.json',
+			'CHAOS_titans_NETEA': 'traitor-titan-legions.json',
 			'IG_MobileCatachans_NETEA': 'mobile-catachans.json',
 			'IG_Tallarn_NETEA': 'tallarn-desert-raiders.json'
 		};

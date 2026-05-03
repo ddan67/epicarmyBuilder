@@ -1,0 +1,1513 @@
+{
+  "metadata": {
+    "army_name": "Vraksian Traitors",
+    "page_title": "Vraksian Traitor Army List",
+    "source_url": null,
+    "list_id": "CHAOS_VraksianTraitors_NETEA",
+    "version": "1.081"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Alpha Legion and Chaos Titan formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Imperial Void Shields",
+      "text": "Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on its datasheet. Each void shield automatically stops one point of damage and then goes down. Do not make saves for damage stopped by void shields and do not allocate blast markers. Once all shields are down, the Titan may be damaged normally. Close combat hits ignore void shields, but firefight hits must first knock down shields. Void shields can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. If a Titan regroups, it can use the dice roll to either repair shields or remove blast markers."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "1.1 Regimental HQ",
+      "cost": "375 points",
+      "units_text": "One Vraksian Supreme Commander unit and twelve Imperial Guard Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "May add seven Chimeras for +150 points.",
+      "raw_text": "1.1 Regimental HQ | One Vraksian Supreme Commander unit and twelve Imperial Guard Infantry units | 375 points | May add seven Chimeras for +150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Infantry Company",
+      "cost": "250 points",
+      "units_text": "One Vraksian Commander unit and twelve Imperial Guard Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Company | One Vraksian Commander unit and twelve Imperial Guard Infantry units | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Leman Russ Tank Company",
+      "cost": "625 points",
+      "units_text": "Ten Leman Russ Tanks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 Leman Russ may be exchanged for a Leman Russ Vanquisher for +25 points.",
+      "raw_text": "Leman Russ Tank Company | Ten Leman Russ Tanks | 625 points | 0-1 Leman Russ may be exchanged for a Leman Russ Vanquisher for +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "0-1 Malcador Tank Company",
+      "cost": "650 points",
+      "units_text": "Ten Malcador, Malcador Annihilator, or Malcador Defender tanks in any combination",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Malcador Tank Company | Ten Malcador, Malcador Annihilator, or Malcador Defender tanks in any combination | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Artillery Company 0-1",
+      "cost": "650 points",
+      "units_text": "Nine Basilisks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Company 0-1 | Nine Basilisks | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Artillery Squadron",
+      "cost": "250 points",
+      "units_text": "Three Basilisks, Bombards or Manticores",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Artillery Squadron | Three Basilisks, Bombards or Manticores | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Sentinel Squadron",
+      "cost": "100 points",
+      "units_text": "Four Sentinels",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sentinel Squadron | Four Sentinels | 100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Flak Battery",
+      "cost": "150 points",
+      "units_text": "Three Hydras",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak Battery | Three Hydras | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Disciples of Xaphan",
+      "cost": "300 points",
+      "units_text": "Eight Disciples of Xaphan plus four Chimeras",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Disciples of Xaphan | Eight Disciples of Xaphan plus four Chimeras | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Heavy Artillery Squadron",
+      "cost": "350 points",
+      "units_text": "Three Minotaur Artillery Tanks",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Heavy Artillery Squadron | Three Minotaur Artillery Tanks | 350 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Tank Hunter Squadron - Valdor Tank Hunters",
+      "cost": "200 points",
+      "units_text": "Three Valdor Tank Hunters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tank Hunter Squadron - Valdor Tank Hunters | Three Valdor Tank Hunters | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Tank Hunter Squadron - Leman Russ Destroyers",
+      "cost": "250 points",
+      "units_text": "Three Leman Russ Destroyers Tank Hunters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tank Hunter Squadron - Leman Russ Destroyers | Three Leman Russ Destroyers Tank Hunters | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Armored Fist Company",
+      "cost": "325 points",
+      "units_text": "Ten Imperial Guard Infantry units, five Chimeras, and one Salamander Command Vehicle",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Armored Fist Company | Ten Imperial Guard Infantry units, five Chimeras, and one Salamander Command Vehicle | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "0-1 Deathstrike Battery",
+      "cost": "200 points",
+      "units_text": "Two Deathstrike missile launchers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Deathstrike Battery | Two Deathstrike missile launchers | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Fire Support Platoon",
+      "cost": "+100 points",
+      "units_text": "Add four Support Squads",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Fire Support Platoon | Add four Support Squads | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Infantry Reinforcements",
+      "cost": "+100 points",
+      "units_text": "Add six Infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Infantry Reinforcements | Add six Infantry units | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Tank Squadron",
+      "cost": "+200 points",
+      "units_text": "Add three Leman Russ, Leman Russ Demolisher, Malcadors, Malcador Defender, or Malcador Annihilators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Tank Squadron | Add three Leman Russ, Leman Russ Demolisher, Malcadors, Malcador Defender, or Malcador Annihilators | +200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Hellhound Squadron",
+      "cost": "+25 points each",
+      "units_text": "Add up to three Hellhounds",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hellhound Squadron | Add up to three Hellhounds | +25 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Griffon Squadron",
+      "cost": "+50 points",
+      "units_text": "Add three Griffons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Griffon Squadron | Add three Griffons | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Ogryn Beserkers",
+      "cost": "+50 points each",
+      "units_text": "Add up to three Ogryn Berserkers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ogryn Beserkers | Add up to three Ogryn Berserkers | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Formation Upgrades",
+      "entry_type": "upgrade",
+      "name": "Flak",
+      "cost": "+50 points each",
+      "units_text": "Add up to two Hydras",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Flak | Add up to two Hydras | +50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Alpha Legion Retinue",
+      "cost": "325 points",
+      "units_text": "Eight Alpha Legion Space Marine units with one Alpha Legion Lord, plus four Rhinos",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Initiative 1+",
+      "raw_text": "Alpha Legion Retinue | Eight Alpha Legion Space Marine units with one Alpha Legion Lord, plus four Rhinos | 325 points | Initiative 1+",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Hell Blade Squadron",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Blade Squadron | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Hell Talon Squadron",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Hell Talon Squadron | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Harbinger Bomber",
+      "cost": "400 points",
+      "units_text": "One Harbinger",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Harbinger Bomber | One Harbinger | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Chaos Warhounds",
+      "cost": "275 points",
+      "units_text": "One Chaos Warhound (Vraks Configurations)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add a second Chaos Warhound for +225 points. Initiative 1+.",
+      "raw_text": "Chaos Warhounds | One Chaos Warhound (Vraks Configurations) | 275 points | Add a second Chaos Warhound for +225 points. Initiative 1+.",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Chaos Reaver Titan",
+      "cost": "650 points",
+      "units_text": "One Chaos Reaver Titan (Vraks Configuration)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Initiative 1+.",
+      "raw_text": "Chaos Reaver Titan | One Chaos Reaver Titan (Vraks Configuration) | 650 points | Initiative 1+.",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Ally Formations",
+      "entry_type": "formation",
+      "name": "Chaos Warlord Titan",
+      "cost": "825 points",
+      "units_text": "One Chaos Warlord Titan (Vraks Configuration)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Initiative 1+.",
+      "raw_text": "Chaos Warlord Titan | One Chaos Warlord Titan (Vraks Configuration) | 825 points | Initiative 1+.",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Supreme Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Base Contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Rogue Pysker",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commander",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Base Contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Rogue Pysker",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Enforcer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Base Contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Inspiring",
+        "Fearless"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The CH row omits stat columns in the extracted table; n/a values were preserved."
+      ],
+      "ambiguity_reasons": [
+        "The PDF layout compresses the CH stat line; only the name, weapon and special rule text were clear."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Alpha Legion Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Base Contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Invulnerable Save 6+",
+        "Commander"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The CH row omits stat columns in the extracted table; n/a values were preserved."
+      ],
+      "ambiguity_reasons": [
+        "The PDF layout compresses the CH stat line; only the name, weapon and special rule text were clear."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Alpha Legion Space Marine",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "4 Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Alpha Legion Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "6 Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 2 INF Stands. No pack or mounts"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Varksian Infantry",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "none",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "One unit in every 2 has an Autocannon"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Varksian Fire Support Squad",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "none",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Disciples of Xaphan",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "none",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        },
+        {
+          "name": "Meltagun",
+          "range": "(15cm)",
+          "firepower": "MW",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scouts"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Orygns Berserkers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Large Implements",
+          "range": "Base Contact",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+ / AT4+",
+          "notes": []
+        },
+        {
+          "name": "LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Tank Destroyer",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Laser Destroyer",
+          "range": "75cm",
+          "firepower": "AT3+, MW",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+ / AT4+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Plasma Cannon",
+          "range": "30cm",
+          "firepower": "AP4+ / AT4+",
+          "notes": [
+            "Slow"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Vanquisher Cannon",
+          "range": "30cm",
+          "firepower": "AP4+ / AT2+",
+          "notes": []
+        },
+        {
+          "name": "LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Malcador Tank",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+ / AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Malcador Defender Tank",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "3x Twin Heavy Boter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+ / AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Malcador Annihilator Tank",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin LasCannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+ / AT4+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Valdor Tank Hunter",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Nuetron Laser Projector",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": [
+            "Disrupt"
+          ]
+        },
+        {
+          "name": "LasCannon",
+          "range": "45cm",
+          "firepower": "AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Minotaur Artillary Tank",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Minotaur Earthshaker Cannon",
+          "range": "120cm",
+          "firepower": "2BP",
+          "notes": [
+            "ID"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armor"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Salamander Commander Vehicle",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Scout"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chimera",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Laser",
+          "range": "30cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 2 INF Stands. No pack or mounts"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sentinal",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Multi-Laser",
+          "range": "30cm",
+          "firepower": "AP5+ / AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hydra",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "2x Twin Hydra Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellhounds",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Inferno Cannon",
+          "range": "30cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Griffon",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Heavy Mortor",
+          "range": "30cm",
+          "firepower": "1BP",
+          "notes": [
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Strike Laucher",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Death Strike Missile",
+          "range": "unlimited",
+          "firepower": "MW2+",
+          "notes": [
+            "Indirect",
+            "Slow",
+            "TK(D6)"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Basilisk",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Earthshaker Cannon",
+          "range": "120cm",
+          "firepower": "1BP / AP4+/AT4+",
+          "notes": [
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Bombard",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Siege Mortor",
+          "range": "45cm",
+          "firepower": "BP2",
+          "notes": [
+            "IC",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Manticores",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rocket Laucher",
+          "range": "150cm",
+          "firepower": "2BP",
+          "notes": [
+            "Disrupt",
+            "Indirect",
+            "Slow"
+          ]
+        },
+        {
+          "name": "Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "HellBlade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Fixed FWD"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Helltalon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "Fixed FWD"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Fixed FWD"
+          ]
+        },
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP, IC",
+          "notes": [
+            "Fixed FWD"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Bringer",
+      "type": "WE",
+      "speed": "n/a",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Fixed FWD"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Fixed Right"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "Fixed Left"
+          ]
+        },
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "6BP, IC",
+          "notes": [
+            "Fixed forward"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "DC4",
+        "Critical Hit Effect: Destroyed"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The bomber row is compressed in the extracted layout; the profile was reconstructed conservatively from the visible table."
+      ],
+      "ambiguity_reasons": [
+        "The PDF table wraps the bomber line and does not show a clean stat block in text extraction."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vraks Warhound",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Vulcan Megabolter",
+          "range": "45cm",
+          "firepower": "4x AP3+ / AT5+",
+          "notes": []
+        },
+        {
+          "name": "Inferno Gun",
+          "range": "30cm",
+          "firepower": "BP3",
+          "notes": [
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC3",
+        "Void Shields 2",
+        "Reinforced Armour",
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vraks Reaver",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Gatling Blaster",
+          "range": "60cm",
+          "firepower": "4x AP4+ / AT4+",
+          "notes": []
+        },
+        {
+          "name": "Laser Blaster",
+          "range": "60cm",
+          "firepower": "6x AP5+ / AT3+",
+          "notes": []
+        },
+        {
+          "name": "Apoc Missile Launcher",
+          "range": "60cm",
+          "firepower": "BP3",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "DC6",
+        "Void Shields 4",
+        "Reinforced Armour",
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vraks Warlord",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "2+",
+      "weapons": [
+        {
+          "name": "Quake Cannon",
+          "range": "90cm",
+          "firepower": "BP3 MW",
+          "notes": []
+        },
+        {
+          "name": "Laser Blaster",
+          "range": "60cm",
+          "firepower": "6x AP5+ / AT3+",
+          "notes": []
+        },
+        {
+          "name": "2x Vulcan Mega Bolter",
+          "range": "45cm",
+          "firepower": "4x AP3+ / AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "DC8",
+        "Void Shields 6",
+        "Reinforced Armour",
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Vraksian Traitors Reference 1.081",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Support Formations",
+      "text": "Two Support Formations may be selected for each Core Formation."
+    },
+    {
+      "name": "Core Upgrades",
+      "text": "Each Core Formation may select 0–3 upgrades."
+    },
+    {
+      "name": "Upgrade Limits",
+      "text": "Each Core Formation may not select each upgrade type more than once."
+    },
+    {
+      "name": "Chaos Allies",
+      "text": "Up to a third of the points available may be spent on Chaos Ally formations."
+    },
+    {
+      "name": "Initiative",
+      "text": "Alpha Legion and Chaos Titan formations have initiative 1+."
+    }
+  ],
+  "extraction_warnings": [
+    "The live builder list uses Harbinger Bomber / Chaos Warhound / Chaos Reaver Titan / Chaos Warlord Titan names, while the reference PDF spells the corresponding profiles as Hell Bringer / Vraks Warhound / Vraks Reaver / Vraks Warlord.",
+    "The PDF contains obvious OCR typos such as Rogue Pysker, Orygns Berserkers, Sentinal, Death Strike Laucher, Minotaur Artillary, HellBlade, Helltalon, Manticores and Ogryn Beserkers; the source JSON preserves the printed text and documents the alias mismatches for later wiring."
+  ]
+}

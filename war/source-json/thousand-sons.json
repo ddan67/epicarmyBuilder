@@ -1,0 +1,1365 @@
+{
+  "metadata": {
+    "army_name": "Thousand Sons",
+    "page_title": "Thousand Sons Army List",
+    "source_url": null,
+    "list_id": "CHAOS_ts_NETEA",
+    "version": "6.1.2",
+    "status_note": "Under Development"
+  },
+  "army_stats": {
+    "strategy_rating": "5",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Aircraft and Silver Tower formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    },
+    "allegiance": "Tzeentch"
+  },
+  "special_rules": [
+    {
+      "name": "TS1 Strategy Rating",
+      "text": "A Thousand Sons Chaos Space Marine army has a Strategy rating of 5."
+    },
+    {
+      "name": "TS2 Initiative Rating",
+      "text": "Aircraft and Silver Tower formations have an initiative rating of 2+. All other formations have 1+."
+    },
+    {
+      "name": "TS3 Summoned Units",
+      "text": "Unbroken formations with Daemonic Pact may summon daemons from the Daemon Pool by rolling 2D6 summoning points. The allegiance of the summoning formation determines what may be summoned. Summoned units are placed within 5cm of the formation, may not be chained, may not be placed in enemy zone of control or impassable terrain, and count as part of the formation while they remain in play. If the formation is broken, summoned units are removed from play. In the End phase, after rally tests, summoned daemons return to the Daemon Pool; war engine daemons keep their current DC when they return."
+    },
+    {
+      "name": "TS4 Augment Summoning",
+      "text": "Units with Augmented Summoning (+x) add x summoning points to the roll when the formation summons daemons."
+    },
+    {
+      "name": "TS5 Rubric",
+      "text": "Units affected by the Rubric of Ahriman are treated as automatons. They may not take March actions, and when making a withdrawal move they may only make a single move rather than two. A Rubric unit’s special rule is one-shot only when it is listed as such."
+    },
+    {
+      "name": "TS6 Daemonic Focus",
+      "text": "Units with Daemonic Focus may keep summoned units in play after the formation rallies, but not if the formation is broken."
+    },
+    {
+      "name": "TS7 Fickle Masters",
+      "text": "In the strategy phase, if the Chaos player rolls a 6, add 1D3 lesser daemons to the Daemon Pool. If the Chaos player rolls a 1, remove D3 lesser daemons from the Daemon Pool. If no daemons remain in the Daemon Pool, there is no further effect."
+    },
+    {
+      "name": "TS8 Webway Portal",
+      "text": "Wraithgate is a webway portal reference item. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units, or armoured vehicle units with the Walker ability may use a Wraithgate to enter play."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Individuals",
+      "entry_type": "formation",
+      "name": "Wraithgate",
+      "cost": "50 points",
+      "units_text": "One Wraithgate",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Reference / portal item. Only formations consisting completely of infantry units, light vehicles, or walkers may use it to enter play.",
+      "raw_text": "Wraithgate | One Wraithgate | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Daemon Pool",
+      "entry_type": "formation",
+      "name": "Thousand Sons Daemon Pool",
+      "cost": "0 points",
+      "units_text": "Any number of Lesser Daemon units (Tzeentch Flamers, Tzeentch Horrors, Tzeentch Screamers) and any number of Greater Daemons (Lord of Change)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Only Tzeentch daemons may be purchased for the Daemon Pool.",
+      "raw_text": "Thousand Sons Daemon Pool | Any number of Lesser Daemon units (Tzeentch Flamers, Tzeentch Horrors, Tzeentch Screamers) and any number of Greater Daemons (Lord of Change) | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Retinues",
+      "entry_type": "formation",
+      "name": "Scarab Occult",
+      "cost": "400 points",
+      "units_text": "5 Thousand Sons Adeptus",
+      "upgrades_or_options_text": "Sorcerer Lord, Daemonic Pact, Chaos Dreadnought, Dreadclaw, Icon Bearer, Rhinos, Land Raiders, Champion of Tzeentch",
+      "restrictions_or_notes": null,
+      "raw_text": "Scarab Occult | 5 Thousand Sons Adeptus | Sorcerer Lord, Daemonic Pact, Chaos Dreadnought, Dreadclaw, Icon Bearer, Rhinos, Land Raiders, Champion of Tzeentch | 400 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Retinues",
+      "entry_type": "formation",
+      "name": "Ahriman's Chosen",
+      "cost": "450 points",
+      "units_text": "Sorcerer, 9 Thousand Sons Marines units. All have the Teleport ability",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Ahriman's Chosen | Sorcerer, 9 Thousand Sons Marines units. All have the Teleport ability | 450 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Retinues",
+      "entry_type": "formation",
+      "name": "Rubric Fellowship",
+      "cost": "300 points",
+      "units_text": "Sorcerer, 6 Thousand Sons Marines units",
+      "upgrades_or_options_text": "Daemonic Pact, Chaos Dreadnought, Dreadclaw, Icon Bearer, Rhinos, Land Raiders, Champion of Tzeentch",
+      "restrictions_or_notes": null,
+      "raw_text": "Rubric Fellowship | Sorcerer, 6 Thousand Sons Marines units | Daemonic Pact, Chaos Dreadnought, Dreadclaw, Icon Bearer, Rhinos, Land Raiders, Champion of Tzeentch | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Retinues",
+      "entry_type": "formation",
+      "name": "Thousand Sons Armor",
+      "cost": "0 points",
+      "units_text": "4 to 9 Thousand Sons Predators and/or Thousand Sons Land Raiders",
+      "upgrades_or_options_text": "Thousand Sons Predator, Thousand Sons Land Raider, Thousand Sons Dreadnought",
+      "restrictions_or_notes": "Live builder spelling uses Armor; source aliases to Armour.",
+      "raw_text": "Thousand Sons Armor | 4 to 9 Thousand Sons Predators and/or Thousand Sons Land Raiders | Thousand Sons Predator, Thousand Sons Land Raider, Thousand Sons Dreadnought | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Retinues",
+      "entry_type": "formation",
+      "name": "Silver Tower Company",
+      "cost": "25 points",
+      "units_text": "4 Silver Towers",
+      "upgrades_or_options_text": "Silver Tower",
+      "restrictions_or_notes": null,
+      "raw_text": "Silver Tower Company | 4 Silver Towers | Silver Tower | 25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Support Formations",
+      "entry_type": "formation",
+      "name": "Thousand Sons Warcoven",
+      "cost": "0 points",
+      "units_text": "1 Sorcerer Lord and 4 to 6 Thousand Sons Terminators",
+      "upgrades_or_options_text": "Daemonic Pact, Deceiver, Dreadclaw, Icon Bearer, Land Raiders, Champion of Tzeentch",
+      "restrictions_or_notes": null,
+      "raw_text": "Thousand Sons Warcoven | 1 Sorcerer Lord and 4 to 6 Thousand Sons Terminators | Daemonic Pact, Deceiver, Dreadclaw, Icon Bearer, Land Raiders, Champion of Tzeentch | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Support Formations",
+      "entry_type": "formation",
+      "name": "Sekhmet Disc Riders",
+      "cost": "35 points",
+      "units_text": "1 Sorcerer Lord and 9 Disc Riders",
+      "upgrades_or_options_text": "Daemonic Pact, Disc Rider",
+      "restrictions_or_notes": null,
+      "raw_text": "Sekhmet Disc Riders | 1 Sorcerer Lord and 9 Disc Riders | Daemonic Pact, Disc Rider | 35 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Support Formations",
+      "entry_type": "formation",
+      "name": "Neophyte Class",
+      "cost": "175 points",
+      "units_text": "1 Sorcerer and 9 Neophyte units",
+      "upgrades_or_options_text": "Daemonic Pact, Icon Bearer, Rhinos, Champion of Tzeentch",
+      "restrictions_or_notes": null,
+      "raw_text": "Neophyte Class | 1 Sorcerer and 9 Neophyte units | Daemonic Pact, Icon Bearer, Rhinos, Champion of Tzeentch | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Support Formations",
+      "entry_type": "formation",
+      "name": "Deceivers Formation",
+      "cost": "275 points",
+      "units_text": "4 Deceiver units",
+      "upgrades_or_options_text": "Chaos Dreadnought",
+      "restrictions_or_notes": null,
+      "raw_text": "Deceivers Formation | 4 Deceiver units | Chaos Dreadnought | 275 points",
+      "parse_warnings": [
+        "The live list uses both Deceiver and Decievers/Deceivers wording across drafts."
+      ]
+    },
+    {
+      "category": "War Engines of Tzeentch",
+      "entry_type": "formation",
+      "name": "Greater Spires of Tzeentch",
+      "cost": "0 points",
+      "units_text": "1 to 3 Greater Spires of Tzeentch",
+      "upgrades_or_options_text": "Daemonic Pact, Thralls",
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Spires of Tzeentch | 1 to 3 Greater Spires of Tzeentch | Daemonic Pact, Thralls | 0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines of Tzeentch",
+      "entry_type": "formation",
+      "name": "Warp Palace of Tzeentch",
+      "cost": "550 points",
+      "units_text": "1 Warp Palace of Tzeentch",
+      "upgrades_or_options_text": "Daemonic Pact, Thralls",
+      "restrictions_or_notes": null,
+      "raw_text": "Warp Palace of Tzeentch | 1 Warp Palace of Tzeentch | Daemonic Pact, Thralls | 550 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy and Spacecraft",
+      "entry_type": "formation",
+      "name": "Doomwing fighters",
+      "cost": "150 points",
+      "units_text": "3 Doomwing Fighters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Doomwing fighters | 3 Doomwing Fighters | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy and Spacecraft",
+      "entry_type": "formation",
+      "name": "Firelord Bombers",
+      "cost": "50 points",
+      "units_text": "2 Firelord Bombers",
+      "upgrades_or_options_text": "Add one Firelord Bomber for +100 points",
+      "restrictions_or_notes": "The live builder exposes the formation as a single entry with a model-count choice.",
+      "raw_text": "Firelord Bombers | 2 Firelord Bombers | Add one Firelord Bomber for +100 points | 50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sorcerer Lord",
+      "cost": "+0 points",
+      "units_text": "Replace one unit in the formation with a Thousand Sons Sorcerer Lord character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per formation.",
+      "raw_text": "Sorcerer Lord | Replace one unit in the formation with a Thousand Sons Sorcerer Lord character | +0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemon Prince of Tzeentch",
+      "cost": "+50 points",
+      "units_text": "Replace a Sorcerer Lord with a Daemon Prince of Tzeentch",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemon Prince of Tzeentch | Replace a Sorcerer Lord with a Daemon Prince of Tzeentch | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemonic Pact",
+      "cost": "+25 points",
+      "units_text": "Add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemonic Pact | Add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Chaos Dreadnought",
+      "cost": "+50 points",
+      "units_text": "Add one Thousand Sons Dreadnought",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Chaos Dreadnought | Add one Thousand Sons Dreadnought | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Deceiver",
+      "cost": "+75 points",
+      "units_text": "Add one Deceiver",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Deceiver | Add one Deceiver | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Dreadclaw",
+      "cost": "+5 points",
+      "units_text": "Add a Dreadclaw",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Take enough Dreadclaws to transport the entire formation.",
+      "raw_text": "Dreadclaw | Add a Dreadclaw | +5 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Icon Bearer",
+      "cost": "+25 points",
+      "units_text": "Add one Icon Bearer character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Icon Bearer | Add one Icon Bearer character | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhino",
+      "cost": "+10 points",
+      "units_text": "Add a Thousand Sons Rhino for every two infantry units",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhino | Add a Thousand Sons Rhino for every two infantry units | +10 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raider",
+      "cost": "+75 points",
+      "units_text": "Add a Thousand Sons Land Raider",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raider | Add a Thousand Sons Land Raider | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Champion of Tzeentch",
+      "cost": "+50 points",
+      "units_text": "Add one Champion of Tzeentch character",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Champion of Tzeentch | Add one Champion of Tzeentch character | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Predator",
+      "cost": "+50 points",
+      "units_text": "Add a Thousand Sons Predator",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Predator | Add a Thousand Sons Predator | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Silver Tower",
+      "cost": "+75 points",
+      "units_text": "Add a Silver Tower",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Silver Tower | Add a Silver Tower | +75 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Thousand Sons Terminator",
+      "cost": "+100 points",
+      "units_text": "Add Thousand Sons Terminators",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Thousand Sons Terminator | Add Thousand Sons Terminators | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater daemon (Lord of Change)",
+      "cost": "+50 points",
+      "units_text": "Add one Lord of Change to the Daemon Pool",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater daemon (Lord of Change) | Add one Lord of Change to the Daemon Pool | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Lesser Daemons (Horror, Screamer, Flamer and Daemonic Beast units)",
+      "cost": "+15 points",
+      "units_text": "Add Tzeentch Flamers, Tzeentch Horrors or Tzeentch Screamers to the Daemon Pool",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Lesser Daemons (Horror, Screamer, Flamer and Daemonic Beast units) | Add Tzeentch Flamers, Tzeentch Horrors or Tzeentch Screamers to the Daemon Pool | +15 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Greater Spire of Tzeentch",
+      "cost": "+200 points",
+      "units_text": "Add one Greater Spire of Tzeentch",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Greater Spire of Tzeentch | Add one Greater Spire of Tzeentch | +200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Firelord Bombers",
+      "cost": "+100 points",
+      "units_text": "Add one Firelord Bomber",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Firelord Bombers | Add one Firelord Bomber | +100 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Sorcerer",
+      "cost": "+0 points",
+      "units_text": "Replace one unit with a Thousand Sons Sorcerer",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Sorcerer | Replace one unit with a Thousand Sons Sorcerer | +0 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Thousand Sons Upgrades",
+      "entry_type": "upgrade",
+      "name": "Disc Rider",
+      "cost": "+35 points",
+      "units_text": "Add a Disc Rider",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Disc Rider | Add a Disc Rider | +35 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Wraithgate",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Webway Portal reference item.",
+        "May not be destroyed.",
+        "Only formations consisting completely of infantry units, light vehicle units, or armoured vehicle units with the Walker ability may use a Wraithgate to enter play."
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Reference-only entry reconstructed from the live list and portal rules."
+      ],
+      "ambiguity_reasons": [
+        "No Thousand Sons-specific Wraithgate profile was available in the local source files."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Thousand Sons Sorcerer Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Sorcerer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolts",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Older compendium source labels this role as Preceptor/Sorceror in some drafts."
+      ],
+      "ambiguity_reasons": [
+        "The current live list uses 'Sorcerer' while older sources use 'Preceptor' wording."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Rubric"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Adeptus",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Sorcerous Weapons",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "First Strike",
+        "Invulnerable Save",
+        "Teleport"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Sorcerous Powers",
+          "range": "30cm",
+          "firepower": "2x AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Combi-Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Power Weapons",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Reinforced Armour",
+        "Rubric",
+        "Teleport",
+        "Thick Rear Armour"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sekhmet Disc Riders",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Sorcerer Powers",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Mounted",
+        "Skimmer"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The current live list uses 'Sekhmet Disc Riders' while older source snippets use slightly different Thousand Sons reference wording."
+      ],
+      "ambiguity_reasons": [
+        "The exact weapon naming is reconstructed from legacy compendium snippets."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Neophyte",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Psychic Abilities",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Bolt Pistols",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "Legacy compendium text is cramped and only partially exposes the Neophyte entry."
+      ],
+      "ambiguity_reasons": [
+        "The source text is a compressed OCR snippet and the exact weapon naming is not fully explicit."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Deceiver",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Tzeentch Cannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Combi-Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May carry 2 of the following units: Thousand Sons Marines, Thousand Sons Adeptus, Thousand Sons Neophyte."
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Land Raider",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Transport",
+        "May carry 1 Thousand Sons Terminators or 2 of the following units: Thousand Sons Marines, Thousand Sons Adeptus, Thousand Sons Neophyte."
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Predator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The current Thousand Sons compendium text compresses the Predator entry; the statline here follows the visible legacy snippet."
+      ],
+      "ambiguity_reasons": [
+        "Weapon formatting is reconstructed from a legacy compendium OCR snippet."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Thousand Sons Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Walker"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Silver Tower",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Arcane Cannons",
+          "range": "45cm",
+          "firepower": "3x AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Beam of Power",
+          "range": "60cm",
+          "firepower": "MW5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Skimmer"
+      ],
+      "source_section": "Chaos Cultist Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Dreadclaw",
+      "type": "Special",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Planetfall",
+        "Transport",
+        "May transport one formation of infantry units and Chaos Dreadnoughts. The Dreadclaw does not scatter 2D6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Champion of Tzeentch",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemon Prince of Tzeentch",
+      "type": "INF",
+      "speed": "15cm (30cm)",
+      "armour": "3+ (4+)",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Warp Blast",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Possessed Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Fearless",
+        "Leader",
+        "Reinforced Armour",
+        "Teleport",
+        "A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tzeentch Flamers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Flames of Tzeentch",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Chaos Cultist Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tzeentch Horrors",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Warpfire",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Tzeentch Horrors are reconstructed from the daemon pool text and older compendium references."
+      ],
+      "ambiguity_reasons": [
+        "The local source files did not contain a Thousand Sons-specific Horror profile."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tzeentch Screamers",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Lamprey Bites",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save",
+        "Skimmer"
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "low",
+      "parse_warnings": [
+        "Tzeentch Screamers are reconstructed from the daemon pool text and older compendium references."
+      ],
+      "ambiguity_reasons": [
+        "The local source files did not contain a Thousand Sons-specific Screamer profile."
+      ],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Lord of Change",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Withering Gaze",
+          "range": "45cm",
+          "firepower": "2x MW3+",
+          "notes": []
+        },
+        {
+          "name": "Bedlam Staff",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Jump Packs",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Chaos Cultist Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Lord of Change."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Doomwing",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Flame Cannon",
+          "range": "15cm",
+          "firepower": "2x AP4+/AT5+/AA6+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Chaos Cultist Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Firelord",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": "4+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Flame Cannon",
+          "range": "15cm",
+          "firepower": "2x AP4+/AT5+/AA6+",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Firestorm Bombs",
+          "range": "15cm",
+          "firepower": "D3BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Chaos Cultist Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "3BP",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "3x Pin-Point Attack",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Slow and Steady",
+        "Transport",
+        "May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+      ],
+      "source_section": "Black Legion Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Greater Spires of Tzeentch",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "3x Tzeentch Cannons",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Beam of Power",
+          "range": "60cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Fate of Tzeentch",
+          "range": "30cm",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Daemonic Focus",
+        "Fearless",
+        "Invulnerable Save",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: Destroyed; each unit within 5cm takes a MW hit on a roll of 6."
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warp Palace of Tzeentch",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "4x Tzeentch Cannons",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "2x Beam of Power",
+          "range": "60cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Warp Fire of Tzeentch",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "TK(D3)",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Daemonic Focus",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Skimmer",
+        "Thick Rear Armour",
+        "Critical Hit Effect: One of the Silver Runes that channel the power of the warp is shattered, releasing a storm of warp energy. It takes an extra point of damage; each unit within 5cm takes a MW hit on a roll of 6."
+      ],
+      "source_section": "Thousand Sons Reference",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "List Notes",
+      "text": "This list is rated Under Development. List must contain at least one Rubric Fellowship formation."
+    },
+    {
+      "name": "Formation Structure",
+      "text": "You may include any number of Retinues. In addition, formations may be given up to four upgrades and each upgrade may only be taken once per formation."
+    },
+    {
+      "name": "Transport Warning",
+      "text": "If taking Dreadclaws, you must take just enough to transport the entire formation."
+    },
+    {
+      "name": "Army Allegiance",
+      "text": "All formations in the army belong to the Chaos faction, Tzeentch."
+    },
+    {
+      "name": "War Engines and Navy",
+      "text": "Up to a third of the army's points may be spent on Chaos Navy and War Engine formations."
+    }
+  ],
+  "extraction_warnings": [
+    "Several Thousand Sons-specific profiles are reconstructed from the legacy NetEA compendium snippets because the local repository did not contain a Thousand Sons source JSON before this task.",
+    "Wraithgate is treated as a reference-only portal item and may render as a compact note card rather than a full unit profile card.",
+    "Sekhmet Disc Riders, Thousand Sons Neophyte, Thousand Sons Predator, Greater Spires of Tzeentch, and Warp Palace of Tzeentch are partially reconstructed from legacy compendium snippets and should be reviewed against a rendered PDF if one becomes available.",
+    "Tzeentch Horrors and Tzeentch Screamers are placeholder daemon pool profiles created so the builder can show a non-broken card for lesser daemon selections."
+  ]
+}
