@@ -1,0 +1,1788 @@
+{
+  "metadata": {
+    "army_name": "Death Guard",
+    "page_title": "Death Guard Army List v0.7.2",
+    "source_url": null,
+    "list_id": "CHAOS_dg_NETEA",
+    "version": "0.7.2",
+    "status_note": "Plaguereaper Company version"
+  },
+  "army_stats": {
+    "strategy_rating": "4",
+    "faction": "Chaos, Nurgle",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Aircraft, Spacecraft, Contagion Tower, Plague Tower, Blight Drone, and Plague Zombie Infestation formations",
+          "value": "2+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "1+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Implacable Advance",
+      "text": "No formations can March. All formations in the army receive a +1 modifier to their action test roll when attempting a Marshal action."
+    },
+    {
+      "name": "Nurgle's Rot",
+      "text": "If a formation with Nurgle’s Rot assaults or is assaulted, and causes any enemy casualties during the activation Step 1.12.5 Resolve Attacks, add one Lesser Daemon to the Death Guard Daemon Pool after step 1.12.9 Winner consolidates. It has no effect if the enemy formation belongs to the Chaos faction, Nurgle."
+    },
+    {
+      "name": "Transport",
+      "text": "Death Guard Rhino may transport two infantry units except Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, and Chaos Spawn. Death Guard Land Raider may transport two infantry units; Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, and Chaos Spawn take up two spaces each. Plague Tower may transport sixteen Great Unclean Ones or infantry units; Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle, Chaos Spawn, and Great Unclean Ones take up two spaces each."
+    },
+    {
+      "name": "Nurgling Swarms transport rule",
+      "text": "Any Armoured Vehicle in the Death Guard list can transport one Nurgling Swarm unit in addition to any transport capacity it may already have. Any War Engine in the list can transport as many Nurgling Swarm units as its starting Damage Capacity in addition to any transport capacity it may already have."
+    },
+    {
+      "name": "Daemonic Pact",
+      "text": "The formation may summon daemons from the Daemon Pool. One Lesser Daemon is added to the Death Guard Daemon Pool. The formation has Nurgle's Rot."
+    },
+    {
+      "name": "Daemonic Focus",
+      "text": "Units with Daemonic Focus may keep summoned units in play when the formation rallies, provided the formation is not broken."
+    },
+    {
+      "name": "Augment Summoning",
+      "text": "Units with Augment Summoning add the listed bonus to their summoning points when the formation summons daemons. The bonus stacks with the formation's normal summoning roll."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Death Guard Core Formations",
+      "entry_type": "formation",
+      "name": "1+ Plague Marine Retinue",
+      "cost": "300 points",
+      "units_text": "7 Plague Marines, one with a Vectorium Lord or Plaguecaster Lord character",
+      "upgrades_or_options_text": "All",
+      "restrictions_or_notes": null,
+      "raw_text": "1+ Plague Marine Retinue | 7 Plague Marines, one with a Vectorium Lord or Plaguecaster Lord character | All | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Core Formations",
+      "entry_type": "formation",
+      "name": "Armoured Assault Company",
+      "cost": "250 points",
+      "units_text": "6 Death Guard Vindicators",
+      "upgrades_or_options_text": "Nurgling Infestation, Vindicators, Walkers",
+      "restrictions_or_notes": null,
+      "raw_text": "Armoured Assault Company | 6 Death Guard Vindicators | Nurgling Infestation, Vindicators, Walkers | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Elite Formations",
+      "entry_type": "formation",
+      "name": "Blightlord Terminators",
+      "cost": "325 points",
+      "units_text": "4 Blightlord Terminators, one with a Vectorium Lord or Plaguecaster Lord character",
+      "upgrades_or_options_text": "Champion of Nurgle, Daemon Prince, Daemonic Pact, Icon Bearer, Land Raiders, Nurgle Warlord, Nurgle's Rot, Nurgling Infestation, Teleportarium, Walkers",
+      "restrictions_or_notes": "Up to one Elite Formation may be included for each Plague Marine Retinue.",
+      "raw_text": "Blightlord Terminators | 4 Blightlord Terminators, one with a Vectorium Lord or Plaguecaster Lord character | Champion of Nurgle, Daemon Prince, Daemonic Pact, Icon Bearer, Land Raiders, Nurgle Warlord, Nurgle's Rot, Nurgling Infestation, Teleportarium, Walkers | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Elite Formations",
+      "entry_type": "formation",
+      "name": "Blight Drone Swarm - 4 Blight Drones",
+      "cost": "200 points",
+      "units_text": "4 Blight Drones",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Blight Drone Swarm* | 4 Blight Drones | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Elite Formations",
+      "entry_type": "formation",
+      "name": "Blight Drone Swarm - 6 Blight Drones",
+      "cost": "300 points",
+      "units_text": "6 Blight Drones",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Blight Drone Swarm* | 6 Blight Drones | 300 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Armoured Company",
+      "cost": "50 points per Predator, 75 points per Land Raider",
+      "units_text": "4 to 7 Armoured vehicles: Death Guard Predators, Death Guard Land Raiders",
+      "upgrades_or_options_text": "Nurgling Infestation, Vindicators, Walkers",
+      "restrictions_or_notes": "Up to two Support Formations may be included for each Plague Marine Retinue.",
+      "raw_text": "Armoured Company | 4 to 7 Armoured vehicles: Death Guard Predators, Death Guard Land Raiders | Nurgling Infestation, Vindicators, Walkers | 50 points per Predator / 75 points per Land Raider",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Plague Marine Chosen",
+      "cost": "175 points",
+      "units_text": "4 Plague Marine Chosen",
+      "upgrades_or_options_text": "Beasts, Champion of Nurgle, Daemonic Pact, Nurgle's Rot, Icon Bearer, Rhinos, Walkers",
+      "restrictions_or_notes": null,
+      "raw_text": "Plague Marine Chosen | 4 Plague Marine Chosen | Beasts, Champion of Nurgle, Daemonic Pact, Nurgle's Rot, Icon Bearer, Rhinos, Walkers | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Walker Horde",
+      "cost": "275 points",
+      "units_text": "4 Walkers in any combination: Defiler, Desecrator, Plague Hulk",
+      "upgrades_or_options_text": "Beasts, Walkers",
+      "restrictions_or_notes": null,
+      "raw_text": "Walker Horde | 4 Walkers in any combination: Defiler, Desecrator, Plague Hulk | Beasts, Walkers | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Contagion Towers",
+      "cost": "325 points",
+      "units_text": "4 Contagion Towers",
+      "upgrades_or_options_text": "Plague Towers, Walkers",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Contagion Towers* | 4 Contagion Towers | Plague Towers, Walkers | 325 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Plague Towers",
+      "cost": "350 points each",
+      "units_text": "1-3 Plague Towers",
+      "upgrades_or_options_text": "Contagion Towers, Walkers",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Plague Towers* | 1-3 Plague Towers | Contagion Towers, Walkers | 350 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Plague Zombie Infestation",
+      "cost": "175 points",
+      "units_text": "2D6+3 Plague Zombies",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Plague Zombie Infestation* | 2D6+3 Plague Zombies | None | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Support Formations",
+      "entry_type": "formation",
+      "name": "Plaguereaper Company",
+      "cost": "200 points for first, 175 points for each additional",
+      "units_text": "1-3 Plaguereapers",
+      "upgrades_or_options_text": "Contagion Towers, Nurgling Infestation, Walkers",
+      "restrictions_or_notes": null,
+      "raw_text": "Plaguereaper Company | 1-3 Plaguereapers | Contagion Towers, Nurgling Infestation, Walkers | 200 points for first, 175 points for each additional",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Beasts",
+      "cost": "+30 points each",
+      "units_text": "Add up to 3 Chaos Spawn or Beasts of Nurgle to the formation in any combination.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Beasts | Add up to 3 Chaos Spawn or Beasts of Nurgle to the formation in any combination. | +30 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Champion of Nurgle",
+      "cost": "+50 points",
+      "units_text": "Add 1 Champion of Nurgle character to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Champion of Nurgle | Add 1 Champion of Nurgle character to the formation. | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Contagion Towers",
+      "cost": "+75 points each",
+      "units_text": "Add up to 3 Contagion Towers to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Contagion Towers | Add up to 3 Contagion Towers to the formation. | +75 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "0-1 Daemon Prince",
+      "cost": "+50 points",
+      "units_text": "Replace the unit the Vectorium Lord/Plaguecaster Lord/Lord of Contagion character is in with a Death Guard Daemon Prince.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "If a Lord of Contagion was replaced, the Daemon Prince gains the Supreme Commander ability.",
+      "raw_text": "0-1 Daemon Prince | Replace the unit the Vectorium Lord/Plaguecaster Lord/Lord of Contagion character is in with a Death Guard Daemon Prince. If a Lord of Contagion was replaced, the Daemon Prince gains the Supreme Commander ability. | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Daemonic Pact",
+      "cost": "+25 points",
+      "units_text": "Allows the formation to summon daemons from the Daemon Pool. 1 Lesser Daemon is added to the Daemon Pool. The formation has Nurgle's Rot.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemonic Pact | Allows the formation to summon daemons from the Daemon Pool. 1 Lesser Daemon is added to the Daemon Pool. The formation has Nurgle's Rot. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Nurgle's Rot",
+      "cost": "+20 points",
+      "units_text": "The formation has Nurgle's Rot.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Nurgle's Rot | The formation has Nurgle's Rot. | +20 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Havocs",
+      "cost": "+25 points",
+      "units_text": "Replace 3 Plague Marines with Plague Marine Havocs.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Havocs | Replace 3 Plague Marines with Plague Marine Havocs. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Icon Bearer",
+      "cost": "+25 points",
+      "units_text": "Add 1 Blightbringer Icon Bearer character to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Icon Bearer | Add 1 Blightbringer Icon Bearer character to the formation. | +25 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Land Raiders",
+      "cost": "+75 points each, or +125 points per pair",
+      "units_text": "Add up to 4 Death Guard Land Raiders to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Land Raiders | Add up to 4 Death Guard Land Raiders to the formation. | +75 points each; +125 points per pair",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Nurgling Infestation",
+      "cost": "+40 points",
+      "units_text": "Add 3 Nurgling Swarms to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Nurgling Infestation | Add 3 Nurgling Swarms to the formation. | +40 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "0-1 Nurgle Warlord",
+      "cost": "+50 points",
+      "units_text": "Add one Lord of Contagion character per army to a Daemon Prince, or to a unit with a Vectorium Lord or Plaguecaster Lord character.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "0-1 Nurgle Warlord | Add one Lord of Contagion character per army to a Daemon Prince, or to a unit with a Vectorium Lord or Plaguecaster Lord character. | +50 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Plague Towers",
+      "cost": "+325 points each",
+      "units_text": "Add up to 3 Plague Towers to the formation. This upgrade uses up a Support Formation slot.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Plague Towers | Add up to 3 Plague Towers to the formation. This upgrade uses up a Support Formation slot. | +325 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Rhinos",
+      "cost": "+10 points each",
+      "units_text": "Add up to 4 Death Guard Rhinos. You may only take the minimum number required to carry the entire formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Rhinos | Add up to 4 Death Guard Rhinos. You may only take the minimum number required to carry the entire formation. | +10 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Teleportarium",
+      "cost": "+50 points",
+      "units_text": "All Deathshroud Terminator and Blightlord Terminator units in the formation gain Teleport.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Teleportarium | All Deathshroud Terminator and Blightlord Terminator units in the formation gain Teleport. | +50 points",
+      "parse_warnings": [
+        "Deathshroud Terminator is mentioned in the upgrade text but no standalone profile appears in the source PDF."
+      ]
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Vindicators",
+      "cost": "+35 points each",
+      "units_text": "Add up to 3 Death Guard Vindicators to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Vindicators | Add up to 3 Death Guard Vindicators to the formation. | +35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Death Guard Upgrades",
+      "entry_type": "upgrade",
+      "name": "Walkers",
+      "cost": "+50 points per Dreadnought, +75 points per Defiler/Desecrator/Plague Hulk",
+      "units_text": "Add up to 3 Defilers, Desecrators, Plague Hulks or Death Guard Dreadnoughts in any combination to the formation.",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Walkers | Add up to 3 Defilers, Desecrators, Plague Hulks or Death Guard Dreadnoughts in any combination to the formation. | +50 points per Dreadnought; +75 points per Defiler/Desecrator/Plague Hulk",
+      "parse_warnings": []
+    },
+    {
+      "category": "Daemon Pool",
+      "entry_type": "formation",
+      "name": "Daemon Pool",
+      "cost": "Plaguebearers 15 points each; Great Unclean One 50 points each",
+      "units_text": "Any number of Lesser Daemon units (Plaguebearers), any number of Greater Daemons (Great Unclean One)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Daemon Pool | Any number of Lesser Daemon units (Plaguebearers) Any number of Greater Daemons (Great Unclean One) | 15 points each / 50 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Plague Reapers",
+      "cost": "200 points for first, 175 points for each additional",
+      "units_text": "1-3 Plague Reapers",
+      "upgrades_or_options_text": "Nurgling Infestation",
+      "restrictions_or_notes": null,
+      "raw_text": "Plague Reapers | 1-3 Plague Reapers | Nurgling Infestation | 200 points for first, 175 points for each additional",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Fester Titan",
+      "cost": "275 points",
+      "units_text": "1 Fester Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Fester Titan | 1 Fester Titan | None | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Repugnant Titan",
+      "cost": "625 points",
+      "units_text": "1 Repugnant Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Repugnant Titan | 1 Repugnant Titan | None | 625 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Plaguelord Titan",
+      "cost": "850 points",
+      "units_text": "1 Plaguelord Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Plaguelord Titan | 1 Plaguelord Titan | None | 850 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Hellblades",
+      "cost": "200 points",
+      "units_text": "3 Death Guard Hellblades",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Hellblades* | 3 Death Guard Hellblades | None | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "Helltalons",
+      "cost": "225 points",
+      "units_text": "2 Death Guard Helltalons",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "Helltalons* | 2 Death Guard Helltalons | None | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "War Engines and Chaos Navy",
+      "entry_type": "formation",
+      "name": "0-1 Plague Ship",
+      "cost": "200 points",
+      "units_text": "1 Plague Ship",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 2+",
+      "raw_text": "0-1 Plague Ship* | 1 Plague Ship | None | 200 points",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Lord of Contagion",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Manreaper",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Nurgle's Rot",
+        "Supreme Commander"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Vectorium Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Manreaper",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguecaster Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bolt of Decay",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Daemon Prince",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Sword of Corruption",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Plague of Blood Flies",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW",
+            "FS",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader",
+        "Fearless",
+        "Nurgle's Rot",
+        "Reinforced Armour",
+        "Teleport",
+        "May have wings: gains Jump Pack. Speed increased to 30cm, armour reduced to 4+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Winged option is represented as a profile note; the printed table compresses the base and winged values."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Champion of Nurgle",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Plague of Flies",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "IC"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augment Summoning (+2d3)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blightbringer Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Leader",
+        "Daemonic Focus",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plague Knives",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Bolters",
+          "range": "(base contact)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Marine Chosen",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plague Knives",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Scout"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Marine Havocs",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2x Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blightlord Terminators",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Baleswords & Flails",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "2x Plaguespewer",
+          "range": "15cm",
+          "firepower": "AP4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Mounted",
+        "Reinforced Armour",
+        "Walker",
+        "Invulnerable Save 5+",
+        "Cataphractii: no Thick Rear Armour."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The printed table compresses the invulnerable save and weapon rows; the visible table was used conservatively."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Beast of Nurgle, non-summoned",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Slobbering Affection",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Trails of Slime",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Mounted",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Spawn",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Horrific Mutations",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Nurgling Swarm",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Small Sharp Teeth",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save",
+        "Teleport",
+        "Nurgling Swarms that are lost in an assault do not count for combat resolution."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Zombies",
+      "type": "INF",
+      "speed": "10cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Claws and Teeth",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infestation (Teleport)",
+        "Infiltrator",
+        "Zombies may contest, but not control, objectives."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Blight Drone",
+      "type": "AV",
+      "speed": "35cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Maw Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Skimmer"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Contagion Tower",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Vomit Cannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Plague Catapult",
+          "range": "45cm",
+          "firepower": "1BP",
+          "notes": [
+            "Disrupt",
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Rhino",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi Bolters",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Transport",
+        "May transport two infantry units except Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle and Chaos Spawn."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Predator",
+      "type": "AV",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Land Raider",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "30cm",
+          "firepower": "AP4+",
+          "notes": []
+        },
+        {
+          "name": "2x Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "Invulnerable Save",
+        "Transport",
+        "May transport two infantry units. Terminators, Death Guard Daemon Princes, Death Guard Beasts of Nurgle and Chaos Spawn take up two spaces each."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Dreadnought",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Power Fist",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Twin Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Heavy Chem Launchers",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Walker",
+        "Armed with Heavy Chem Launchers OR Powerfist and Twin Autocannon."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Death Guard Vindicator",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Demolisher",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Defiler",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Reaper Autocannon",
+          "range": "30cm",
+          "firepower": "AP4+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Desecrator",
+      "type": "AV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "2x Desecrator Cannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Vomit Launcher",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "Disrupt"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The source page includes visible edit marks and compressed columns; the final visible Desecrator row was preserved conservatively."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Hulk",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Pus Launcher",
+          "range": "30cm",
+          "firepower": "AP3+/AT6+",
+          "notes": [
+            "Disrupt"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Daemon Sword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Hulk (test 070)",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Rancid Vomiter",
+          "range": "45cm",
+          "firepower": "2 x AP4+/AT6+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Warpsword",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The test 070 variant row is OCR-compressed; the visible table was used for the alternate weapons."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguereaper",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Pus Cannon",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "Disrupt",
+            "Ignore Cover",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Demolisher Cannon",
+          "range": "30cm",
+          "firepower": "AP3+/AT4+",
+          "notes": [
+            "Ignore Cover",
+            "FxF"
+          ]
+        },
+        {
+          "name": "3x Twin Heavy Bolters",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Lascannon",
+          "range": "45cm",
+          "firepower": "AP4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "DC3",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Destroyed. Any units within 5cm of the model suffer a hit on a D6 roll of 4+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The printed weapon columns are compressed; the Plaguereaper rows were reconstructed conservatively from the visible table."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Tower",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plague Mortar",
+          "range": "60cm",
+          "firepower": "3+D3BP",
+          "notes": [
+            "Disrupt",
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Rot Cannon",
+          "range": "90cm",
+          "firepower": "AP3+/AT5+",
+          "notes": [
+            "Ignore Cover",
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC6",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Fearless",
+        "Transport (16)",
+        "Critical Hit Effect: One extra point of DC and D3 units being transported are killed; no armour saves allowed (owners choice)."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Fester Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Pus Cannon",
+          "range": "30cm",
+          "firepower": "3BP",
+          "notes": [
+            "Disrupt",
+            "Ignore Cover",
+            "Fwd"
+          ]
+        },
+        {
+          "name": "Decay Cannon",
+          "range": "30cm",
+          "firepower": "3x AP3+/AT5+",
+          "notes": [
+            "Disrupt",
+            "Fwd"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC4",
+        "Void Shields 2",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Move it D6cm in a random direction. If it hits impassable terrain or another unit it stops and suffers an extra point of damage. If it staggers into or over any units they take a hit on a D6 roll of 6+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Repugnant Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plague Mortar",
+          "range": "60cm",
+          "firepower": "3+D3BP",
+          "notes": [
+            "Disrupt",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Putrifier Cannon",
+          "range": "60cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": [
+            "Disrupt",
+            "Fwd"
+          ]
+        },
+        {
+          "name": "Plague Flail",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK(1)",
+            "Fwd"
+          ]
+        },
+        {
+          "name": "Cloud of Pestilence",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC7",
+        "Void Shields 4",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Loses an extra point of damage and all units within 5cm suffer a hit on a 5+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguelord Titan",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "2+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Liquefier Cannon",
+          "range": "75cm",
+          "firepower": "3x MW3+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "2x Putrifier Cannon",
+          "range": "60cm",
+          "firepower": "4x AP3+/AT5+",
+          "notes": [
+            "Disrupt",
+            "Fwd"
+          ]
+        },
+        {
+          "name": "Plague Claw",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D6)",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Cloud of Pestilence",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC9",
+        "Void Shields 6",
+        "Fearless",
+        "Reinforced Armour",
+        "Critical Hit Effect: Loses an extra point of damage and all units within 5cm suffer a hit on a 4+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plague Ship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Orbital bombardment",
+          "range": "-",
+          "firepower": "4BP",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Plague Zombies are placed after the barrage as close as possible to the bombardment coordinates, using normal ZoC rules, then treating them as if they had arrived via Teleport."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Plague Ship row is very compressed in the source and the post-bombardment plague zombie note was preserved from the visible page 3 text."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hellblade",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": "6+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2x Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "Ignore Cover",
+            "FxF"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Plaguebearers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "6+",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Plague Swords",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        },
+        {
+          "name": "Cloud of Flies",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Expendable",
+        "Invulnerable Save",
+        "Summon: 1 Point"
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Great Unclean One",
+      "type": "WE",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Nurgling Swarm",
+          "range": "(base contact)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "name": "Stream of Corruption",
+          "range": "15cm",
+          "firepower": "3BP",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "AND",
+          "range": "(small arms)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "DC4",
+        "Daemonic Focus",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Summon: 8 Point",
+        "Critical Hit Effect: The unit is destroyed; all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Death Guard Reference (0.7.2)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Faction",
+      "text": "All formations in the army belong to the Chaos faction, Nurgle."
+    },
+    {
+      "name": "Core / Elite / Support",
+      "text": "You may include any number of Core Formations, but only Plague Marine Retinues unlock Elite and Support Formations."
+    },
+    {
+      "name": "Elite Limit",
+      "text": "Up to one Elite Formation may be included for each Plague Marine Retinue."
+    },
+    {
+      "name": "Support Limit",
+      "text": "Up to two Support Formations may be included for each Plague Marine Retinue."
+    },
+    {
+      "name": "Upgrade Limit",
+      "text": "Each formation may take up to four allowed upgrades once per formation."
+    },
+    {
+      "name": "War Engines & Navy",
+      "text": "Up to one third of the army's total points may be spent on War Engines and Chaos Navy."
+    },
+    {
+      "name": "Initiative 2+",
+      "text": "Blight Drone Swarm, Contagion Towers, Plague Towers, Plague Zombie Infestation, Hellblades, Helltalons, and Plague Ship formations have initiative 2+."
+    },
+    {
+      "name": "Source Edits",
+      "text": "The PDF has visible red/blue strike-through edits on page 1; the final visible/current rows were preserved and any uncertain edits were documented in the audit."
+    }
+  ],
+  "extraction_warnings": [
+    "The PDF contains visible red/blue strike-through edits on page 1; the final visible/current rows were preserved and uncertain edits were documented.",
+    "Plaguereaper Company and Plague Reapers are both present in the source but appear to refer to the same model family with different naming/spelling; both were preserved.",
+    "Deathshroud Terminator is mentioned in the Teleportarium upgrade text but no standalone Deathshroud profile appears on pages 2-3.",
+    "Desecrator, Plague Hulk, Plague Hulk (test 070), Plaguereaper, and Plague Ship rows are OCR-compressed and were reconstructed conservatively from the visible table text.",
+    "The shared Chaos rule wording for Daemonic Pact / Daemonic Focus / Augment Summoning was reused in short form where helpful; the profile abilities carry the rest of the details."
+  ]
+}

@@ -1,0 +1,1440 @@
+{
+  "metadata": {
+    "army_name": "Adeptus Mechanicus – Explorator Fleet",
+    "page_title": "ADEPTUS MECHANICUS – Explorator Fleet",
+    "source_url": null,
+    "list_id": "AMTL_MarsPrime_NETEA",
+    "version": "1.1",
+    "status_note": "Developmental"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "All formations unless otherwise noted",
+          "value": "2+"
+        }
+      ]
+    }
+  },
+  "special_rules": [
+    {
+      "name": "Automaton",
+      "text": "A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt do take a Blast marker however. If a hit is inflicted on an automaton unit because it is in a broken formation which is receiving a Blast marker (see Blast Markers and Broken Formations) then it may attempt to save normally. Automaton units killed in an assault count for the purposes of working out its result (see Work Out Result)."
+    },
+    {
+      "name": "Master of the Machine",
+      "text": "Whenever a formation successfully rallies or regroups, and it contains a unit with Master of Machines. It may return (x) Armoured Vehicles or Light Vehicles previously lost back to the formation. (x) being the amount described one the unit’s data sheet “Master of the Machine (x). Formations may only return units previously lost from its own formation and may not grow above its starting size."
+    }
+  ],
+  "formations": [
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Vanguard Maniple",
+      "cost": "250 points",
+      "units_text": "Twelve Skitarii Vanguard",
+      "upgrades_or_options_text": "Arch Magos, Commander, Skitarii Rangers, Skorpius Duneriders, Skorpius Disintegrator, Secutarii Hoplites, Secutarii Peltasts",
+      "restrictions_or_notes": null,
+      "raw_text": "Vanguard Maniple | Twelve Skitarii Vanguard | Arch Magos, Commander, Skitarii Rangers, Skorpius Duneriders, Skorpius Disintegrator, Secutarii Hoplites, Secutarii Peltasts | 250 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "formation",
+      "name": "Skorpius Cohort",
+      "cost": "200 points",
+      "units_text": "Five Skorpius Disintegrators",
+      "upgrades_or_options_text": "Skorpius Disintegrator",
+      "restrictions_or_notes": null,
+      "raw_text": "Skorpius Cohort | Five Skorpius Disintegrators | Skorpius Disintegrator | 200 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Ranger Centuria",
+      "cost": "125 points",
+      "units_text": "Four Skitarii Rangers",
+      "upgrades_or_options_text": "Skitarii Rangers",
+      "restrictions_or_notes": null,
+      "raw_text": "Ranger Centuria | Four Skitarii Rangers | Skitarii Rangers | 125 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Ironstrider Cavaliers",
+      "cost": "150 points",
+      "units_text": "Four Ironstrider Ballistarius",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to four Ironstriders for 25 points each.",
+      "raw_text": "Ironstrider Cavaliers | Four Ironstrider Ballistarius | Add up to four Ironstriders for 25 points each | 150 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Support Formations",
+      "entry_type": "formation",
+      "name": "Sydonian Dragoons",
+      "cost": "150 points",
+      "units_text": "Four Sydonian Dragoons",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Add up to four Dragoons for 25 points each.",
+      "raw_text": "Sydonian Dragoons | Four Sydonian Dragoons | Add up to four Dragoons for 25 points each | 150 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Ruststalker Killclade",
+      "cost": "250 points",
+      "units_text": "Eight Sicarian Ruststalkers",
+      "upgrades_or_options_text": "Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters",
+      "restrictions_or_notes": null,
+      "raw_text": "Ruststalker Killclade | Eight Sicarian Ruststalkers | Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters | 250 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Infiltrator Killclade",
+      "cost": "250 points",
+      "units_text": "Eight Sicarian Infiltrators",
+      "upgrades_or_options_text": "Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters",
+      "restrictions_or_notes": null,
+      "raw_text": "Infiltrator Killclade | Eight Sicarian Infiltrators | Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters | 250 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Fulgurite Maniple",
+      "cost": "250 points",
+      "units_text": "Eight Fulgurite Electro-Priests",
+      "upgrades_or_options_text": "Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters",
+      "restrictions_or_notes": null,
+      "raw_text": "Fulgurite Maniple | Eight Fulgurite Electro-Priests | Commander, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator, Archaeopters | 250 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Hounds",
+      "cost": "150 points",
+      "units_text": "Six Serberys Sulphurhounds",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Hounds | Six Serberys Sulphurhounds | None | 150 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Pteraxii Maniple",
+      "cost": "200 points",
+      "units_text": "Six Pteraxii",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Pteraxii Maniple | Six Pteraxii | None | 200 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Onager Cohort",
+      "cost": "250 points",
+      "units_text": "Five Onager Dunecrawler",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Max 2 may have an Icarus array per formation. Add up to two Onagers for 50 points each.",
+      "raw_text": "Onager Cohort | Five Onager Dunecrawler | Max 2 may have an Icarus array per formation. Add up to two Onagers for 50 points each | 250 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Kastelan Maniple",
+      "cost": "275 points",
+      "units_text": "Five Kastelan Robots and one Cybernetica Datasmith",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Kastelan Maniple | Five Kastelan Robots and one Cybernetica Datasmith | None | 275 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Destroyer Maniple",
+      "cost": "225 points",
+      "units_text": "Six Kataphron Destroyers",
+      "upgrades_or_options_text": "Commander, Subterranean Assault",
+      "restrictions_or_notes": null,
+      "raw_text": "Destroyer Maniple | Six Kataphron Destroyers | Commander, Subterranean Assault | 225 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Elite Formations",
+      "entry_type": "formation",
+      "name": "Breacher Maniple",
+      "cost": "200 points",
+      "units_text": "Six Kataphron Breachers",
+      "upgrades_or_options_text": "Commander, Subterranean Assault",
+      "restrictions_or_notes": null,
+      "raw_text": "Breacher Maniple | Six Kataphron Breachers | Commander, Subterranean Assault | 200 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Knight Support",
+      "entry_type": "formation",
+      "name": "Knights",
+      "cost": "25 points plus values listed",
+      "units_text": "A combination of 3 of the following knights: Knight Paladin (90 points each), Knight Errant (100 points each)",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "Knight rules taken from the Knight World list. Add 1 Seneschal for 25 points. Add up to 2 additional Knights at listed points value.",
+      "raw_text": "Knights | A combination of 3 of the following knights: Knight Paladin (90 Points Each), Knight Errant (100 Points Each) | Knight rules taken from the Knight World list. Add 1 Seneschal for 25 points. Add up to 2 additional Knights at points value listed. | 25 Points plus values listed.",
+      "parse_warnings": []
+    },
+    {
+      "category": "Collegia Titanica Support",
+      "entry_type": "formation",
+      "name": "Warhound Class Titan",
+      "cost": "275 points",
+      "units_text": "Warhound Pack",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound Class Titan | Warhound Pack | 275 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Collegia Titanica Support",
+      "entry_type": "formation",
+      "name": "Warhound Pack",
+      "cost": "500 points",
+      "units_text": "Two Warhound Class Titans",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Warhound Pack | Two Warhound Class Titans | 500 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Collegia Titanica Support",
+      "entry_type": "formation",
+      "name": "Reaver",
+      "cost": "650 points",
+      "units_text": "One Reaver Class Titan",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Reaver | One Reaver Class Titan | 650 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Explorator Fleet Navy and Spacecraft",
+      "entry_type": "formation",
+      "name": "Avenger Strike Fighters",
+      "cost": "200 points",
+      "units_text": "2 Avenger Strike Fighters",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Avenger Strike Fighters | 2 Avenger Strike Fighters | None | 200 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Explorator Fleet Navy and Spacecraft",
+      "entry_type": "formation",
+      "name": "Ark Mechanicus Battleship",
+      "cost": "200 points",
+      "units_text": "1 Ark Mechanicus Battleship",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Weapon options are 0-1 2x Pinpoint OR 0-1 Orbital Bombardment.",
+      "raw_text": "Ark Mechanicus Battleship | 1 Ark Mechanicus Battleship | None | 200 Points | 0-1 2x Pinpoint or 0-1 Orbital Bombardment",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Arch Magos",
+      "cost": "75 points",
+      "units_text": "Replaces a unit in the formation with Explorator Archmagos",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": "0-1 per army. May not be added to a formation containing a Tech Priest Dominus or Explorator Magos.",
+      "raw_text": "Arch Magos | Replaces a unit in the formation with Explorator Archmagos | 75 Points | 0-1 per army. May not be added to a formation containing a Tech Priest Dominus or Explorator Magos.",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Commander",
+      "cost": "25 points",
+      "units_text": "Replaces a unit in the formation with either Tech-Priest Dominus or Explorator Magos",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Commander | Replaces a unit in the formation with either Tech-Priest Dominus or Explorator Magos | 25 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Skitarii Rangers",
+      "cost": "25 points each",
+      "units_text": "Add up to two Skitarii Rangers",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Skitarii Rangers | Add up to two Skitarii Rangers | 25 Points Each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Skorpius Disintegrator",
+      "cost": "35 points each",
+      "units_text": "Add up to three Skorpius Disintegrators to a formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Skorpius Disintegrator | Add up to three Skorpius Disintegrators to a formation | 35 points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Secutarii Hoplites",
+      "cost": "50 points",
+      "units_text": "Replace 4 Vanguard with Secutarii Hoplites",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Secutarii Hoplites | Replace 4 Vanguard with Secutarii Hoplites | 50 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Secutarii Peltasts",
+      "cost": "50 points",
+      "units_text": "Replace 4 Vanguard with Secutarii Peltasts",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Secutarii Peltasts | Replace 4 Vanguard with Secutarii Peltasts | 50 Points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Skorpius Dunerider",
+      "cost": "15 points each",
+      "units_text": "Add enough Skorpius Duneriders to transport the entire formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Skorpius Dunerider | Add enough Skorpius Duneriders to transport the entire formation | 15 Points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Subterranean Assault",
+      "cost": "15 points each",
+      "units_text": "Add Termite Assault Drills to carry the entire formation",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Subterranean Assault | Add Termite Assault Drills to carry the entire formation | 15 Points each",
+      "parse_warnings": []
+    },
+    {
+      "category": "Core Formations",
+      "entry_type": "upgrade",
+      "name": "Archaeopters",
+      "cost": "15 points each",
+      "units_text": "Transport the entire formation with Archaeopters",
+      "upgrades_or_options_text": null,
+      "restrictions_or_notes": null,
+      "raw_text": "Archaeopters | Transport the Entire formation with Archaeopters | 15 Points each",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Explorator Archmagos",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "3+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Solar atomiser",
+          "range": "15cm",
+          "firepower": "MW4+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Omnissian axe",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Supreme Commander",
+        "Fearless",
+        "Inspiring",
+        "Master of the Machine (2)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Explorator Magos",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Eradication ray",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Omnissian axe",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Commander",
+        "Leader",
+        "Master of the Machine (1)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Tech-Priest Dominus",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Eradication ray",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Omnissian axe",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Master of the Machine (2)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cybernetica Datasmith",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Power Fist",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Leader",
+        "Master of the Machine (1)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skitarii Vanguard",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Radium Carbine",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        },
+        {
+          "name": "Ark Rifle",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Secutarii Peltasts",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gavanic Caster",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Secutarii Hoplite",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Arc Lance",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Each Secutarii Hoplite may forfeit their attack for a single CC attack that hits on a 6+ which is TK(1) and automatically causes a critical hit."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kataphron Breacher",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy arc rifle",
+          "range": "45cm",
+          "firepower": "AP5+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Hydraulic claw",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Kataphron Destroyer",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Plasma culverin",
+          "range": "45cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Cognis flamer",
+          "range": "15cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Cognis flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skitarii Rangers",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Transuranic Arquebus",
+          "range": "45cm",
+          "firepower": "AP5+",
+          "notes": [
+            "Disrupt"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Electro-Priests",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Electroleech stave",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Electro charges",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Invulnerable Save"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sicarian Infiltrators",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "5+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Stubcarbine",
+          "range": "15cm",
+          "firepower": "2xAP5+",
+          "notes": []
+        },
+        {
+          "name": "Taser Goad",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sicarian Ruststalkers",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Transonic Blades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA+1"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Serberys Sulphurhounds",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Radium Carbine",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Infiltrator"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Pteraxii",
+      "type": "INF",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Jump Packs",
+        "Teleport"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The page 2 OCR compresses the Pteraxii row; the visible rendered table was used to preserve the heavy flamer and jump pack/teleport notes."
+      ],
+      "ambiguity_reasons": [
+        "Page 2 OCR partially reorders the Pteraxii row."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Kastelan Robots",
+      "type": "LV",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Heavy phosphor blaster",
+          "range": "30cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Incendine combustor",
+          "range": "15cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "Ignore Cover"
+          ]
+        },
+        {
+          "name": "Kastelan fists",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Automaton",
+        "Walker"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ironstrider Ballistarius",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "0-1x Twin Cognis Autocannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Twin Cognis Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sydonian Dragoon",
+      "type": "LV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Radium Jezzail",
+          "range": "30cm",
+          "firepower": "AP6+",
+          "notes": [
+            "Sniper"
+          ]
+        },
+        {
+          "name": "Taser lance",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Infiltrator",
+        "Scout",
+        "Walker"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Sydonian Dragoon melee row is OCR-truncated; the visible text was used conservatively."
+      ],
+      "ambiguity_reasons": [
+        "The rotated OCR compresses the taser lance row."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Archaeopter",
+      "type": "LV",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Linked Heavy Stubbers",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Skimmer",
+        "Scout",
+        "Transport",
+        "May transport one infantry unit without Jump Packs or Mounted."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Onager Dunecrawler",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Cognis Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Icarus array",
+          "range": "45cm",
+          "firepower": "2 x AP4+/AT5+/AA5+",
+          "notes": []
+        },
+        {
+          "name": "0-1x Neutron Laser",
+          "range": "60cm",
+          "firepower": "MW3+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Onager row prints two optional weapon mounts; both have been preserved as separate weapon entries."
+      ],
+      "ambiguity_reasons": [
+        "The PDF uses a compact OR layout for the optional Onager weapon mount."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Skorpius Dunerider",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Heavy Stubber",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker",
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Skorpius Disintegrator",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Disruptor Missiles",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        },
+        {
+          "name": "Belleros Energy Cannon",
+          "range": "30cm",
+          "firepower": "AP5+/AT5+",
+          "notes": [
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Belleros Energy Cannon",
+          "range": "45cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Walker"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Belleros Energy Cannon row is an OR-mode weapon line and was split conservatively into distinct range/profile entries."
+      ],
+      "ambiguity_reasons": [
+        "The PDF compresses the Belleros Energy Cannon OR modes into one row."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Termite Assault Drill",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Volkite Charges",
+          "range": "30cm",
+          "firepower": "AP5+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "Tunneler",
+        "May transport two infantry units without Jump Packs or Mounted."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Warhound Class Titan",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Plasma Blastgun",
+          "range": "45cm",
+          "firepower": "2× MW2+",
+          "notes": [
+            "FwA",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Vulcan Mega-Bolter",
+          "range": "45cm",
+          "firepower": "4× AP3+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Reaver Class Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "2× Turbo-Laser Destructor",
+          "range": "60cm",
+          "firepower": "4× AP5+/AT3+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Rocket Launcher",
+          "range": "60cm",
+          "firepower": "3BP",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Avenger Strike Fighters",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": "5+",
+      "cc": "-",
+      "ff": "-",
+      "weapons": [
+        {
+          "name": "Avenger Bolt Cannon",
+          "range": "30cm",
+          "firepower": "2× AP3+/AT5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "TL Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Heavy Stubber",
+          "range": "15cm",
+          "firepower": "AA6+",
+          "notes": [
+            "Rear Arc"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ark Mechanicus Battleship",
+      "type": "SC",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "0-1x Pinpoint",
+          "range": "n/a",
+          "firepower": "MW2+",
+          "notes": [
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "0-1x Orbital Bombardment",
+          "range": "n/a",
+          "firepower": "5BP",
+          "notes": [
+            "Macro"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Spacecraft",
+        "Support Craft",
+        "Armed with either Pin-point Attacks or Orbital Bombardment."
+      ],
+      "source_section": "Explorator Fleet - Unit Stats",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Ark Mechanicus row is an OR weapon choice line and was preserved as separate weapon entries."
+      ],
+      "ambiguity_reasons": [
+        "The PDF compresses the Ark Mechanicus OR weapon choice into one row."
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Seneschal",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader"
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Paladin",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Chainsword",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Shock Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Knight Errant",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "5+",
+      "cc": "4+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Cannon",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Thermal Cannon",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Power Gauntlet",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK"
+          ]
+        },
+        {
+          "name": "Shock Lance",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Knight Shield",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Knight World Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "Boolean weapon line folded into previous weapon for Knight Errant."
+      ],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Commissar",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Power Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW",
+            "EA(+1)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Leader",
+        "Inspiring"
+      ],
+      "source_section": "Explorator Fleet - Unit Stats (reused from war/source-json/mobile-catachans.json)",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Support Formations",
+      "text": "1 Support formation per 1 Vanguard Maniple."
+    },
+    {
+      "name": "Elite Formations",
+      "text": "2 Elite formations per 1 Vanguard Maniple."
+    },
+    {
+      "name": "Allies/Aircraft",
+      "text": "1/3 of the army may be spent on Allies."
+    },
+    {
+      "name": "Knight Rules",
+      "text": "Knight rules are taken from the Knight World list."
+    },
+    {
+      "name": "Onager Cohort",
+      "text": "Max 2 Onagers may have an Icarus array per formation."
+    },
+    {
+      "name": "Upgrade Limit",
+      "text": "Each upgrade may be taken once per formation."
+    },
+    {
+      "name": "Ark Mechanicus Battleship",
+      "text": "Ark Mechanicus Battleship weapon options are 0-1 2x Pinpoint OR 0-1 Orbital Bombardment."
+    }
+  ],
+  "extraction_warnings": [
+    "Confirmed list id found in repo: AMTL_MarsPrime_NETEA.",
+    "Generic profile Commissar was reused from war/source-json/mobile-catachans.json.",
+    "Page 2 is text-heavy and the optional weapon rows for Onager Dunecrawler, Skorpius Disintegrator, Ark Mechanicus Battleship, Pteraxii, and Sydonian Dragoon were preserved conservatively from the extracted PDF text.",
+    "Adeptus Mechanicus fleet formation names do not map one-to-one to unit profile names; later wiring will need aliases such as Electro-Priests/Fulgurite Electro-Priests, Secutarii Hoplite/Hoplites, Avenger Strike Fighters, Knight Paladin/Errant, and Warhound Class Titan/Warhound Pack."
+  ]
+}

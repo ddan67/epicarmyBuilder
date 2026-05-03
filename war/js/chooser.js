@@ -264,9 +264,11 @@ var ArmyforgeUI = {
 			'CHAOS_ec_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineEmperorsChildrenProfileByName,
 			'CHAOS_ironwarriors_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineIronWarriorsProfileByName,
 			'CHAOS_corsairs_playtestNETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineRedCorsairsProfileByName,
+			'CHAOS_dg_NETEA': ArmyforgeUnitProfiles.findDeathGuardProfileByName,
 			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
 			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
+			'AMTL_MarsPrime_NETEA': ArmyforgeUnitProfiles.findExploratorFleetProfileByName,
 			'XENOS_necron_NETEA': ArmyforgeUnitProfiles.findNecronProfileByName,
 			'XENOS_sautekh_necron_NETEA': ArmyforgeUnitProfiles.findSautekhNecronProfileByName,
 			'XENOS_tau_NETEA': ArmyforgeUnitProfiles.findTauProfileByName,
@@ -2442,6 +2444,13 @@ var ArmyforgeUI = {
 				profiles.push(extraProfile);
 			}
 		});
+		ArmyforgeUnitProfiles.deathGuardAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
 
 		return profiles;
 	},
@@ -3080,6 +3089,8 @@ var ArmyforgeUI = {
 			'adeptus-mechanicus-knight-world.json',
 			'adeptus-mechanicus-skitarii-legion.json',
 			'adeptus-mechanicus-titan-legion.json',
+			'explorator-fleet.json',
+			'death-guard.json',
 			'blood-angels-v3.1-normalized-codex-style.json',
 			'blood-angels.json',
 			'chaos-cultist-slaves-to-darkness.json',
