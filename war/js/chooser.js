@@ -265,6 +265,7 @@ var ArmyforgeUI = {
 			'CHAOS_ironwarriors_NETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineIronWarriorsProfileByName,
 			'CHAOS_corsairs_playtestNETEA': ArmyforgeUnitProfiles.findChaosSpaceMarineRedCorsairsProfileByName,
 			'CHAOS_dg_NETEA': ArmyforgeUnitProfiles.findDeathGuardProfileByName,
+			'CHAOS_House_Devine_NETEA': ArmyforgeUnitProfiles.findHedonicCrusadeProfileByName,
 			'AMTL_knight_world_NETEA': ArmyforgeUnitProfiles.findKnightWorldProfileByName,
 			'AMTL_skitarii_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusSkitariiLegionProfileByName,
 			'AMTL_gryphons_NETEA': ArmyforgeUnitProfiles.findAdeptusMechanicusTitanLegionProfileByName,
@@ -2451,6 +2452,13 @@ var ArmyforgeUI = {
 				profiles.push(extraProfile);
 			}
 		});
+		ArmyforgeUnitProfiles.hedonicCrusadeAdditionalProfilesForFormation(formation).each(function(name) {
+			var extraProfile = ArmyforgeUI.findUnitProfileByName(name);
+			if (extraProfile && !seen[extraProfile.name]) {
+				seen[extraProfile.name] = true;
+				profiles.push(extraProfile);
+			}
+		});
 
 		return profiles;
 	},
@@ -3091,6 +3099,7 @@ var ArmyforgeUI = {
 			'adeptus-mechanicus-titan-legion.json',
 			'explorator-fleet.json',
 			'death-guard.json',
+			'hedonic-crusade.json',
 			'blood-angels-v3.1-normalized-codex-style.json',
 			'blood-angels.json',
 			'chaos-cultist-slaves-to-darkness.json',

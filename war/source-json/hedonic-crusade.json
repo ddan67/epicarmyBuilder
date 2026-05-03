@@ -1,0 +1,1196 @@
+{
+  "metadata": {
+    "army_name": "Hedonic Crusade Slaanesh Cultist",
+    "page_title": "Hedonic Crusade Slaanesh Cultist Army List",
+    "source_url": null,
+    "list_id": "CHAOS_House_Devine_NETEA",
+    "source_file": "hedonic_crusade-2023-08-22.pdf"
+  },
+  "army_stats": {
+    "strategy_rating": "2",
+    "initiative_rating": {
+      "entries": [
+        {
+          "scope": "Noise Marine, Ravisher and Painlord formations",
+          "value": "1+"
+        },
+        {
+          "scope": "All other formations",
+          "value": "2+"
+        }
+      ]
+    },
+    "allegiance": "Slaanesh"
+  },
+  "special_rules": [
+    {
+      "name": "Hedonic Crusade Epic Tournament Special Rules",
+      "text": "All formations in a Hedonic Crusade Slaanesh Cultist army owe allegiance to Slaanesh and may summon Daemonettes, Fiends of Slaanesh, Steeds of Slaanesh or Keeper of Secrets if they are unbroken and have Daemonic Pact. Lesser Daemons: Daemonettes 1, Fiends of Slaanesh 1, Steeds of Slaanesh 2. Greater Daemons: Keeper of Secrets 8."
+    },
+    {
+      "name": "Fickle Masters",
+      "text": "In the strategy phase, if the Chaos player rolls a 6, add 1D3 lesser daemons to the Daemon Pool. If the Chaos player rolls a 1, remove D3 lesser daemons from the Daemon Pool. If no daemons remain in the Daemon Pool, there is no further effect."
+    },
+    {
+      "name": "Summoned Units",
+      "text": "Chaos formations must declare allegiance before the battle. Unbroken formations with Daemonic Pact may summon daemons from the Daemon Pool by rolling 2D3 summoning points; the allegiance of the summoning formation determines what may be summoned. Summoned daemons are placed within 5cm of the formation, may not be chained, may not be placed in enemy zone of control or impassable terrain, and only one greater daemon of a given allegiance may be on the battlefield at once. Summoned units count as part of the formation that summoned them. Destroyed daemons are removed from play. If the formation is broken, all summoned daemons are removed from play. In the End phase, after rally tests, summoned daemons return to the Daemon Pool; war engine daemons keep their current DC when they return."
+    },
+    {
+      "name": "Augmented Summoning",
+      "text": "Units with Augmented Summoning (+x) add x summoning points to the roll when the formation summons daemons."
+    },
+    {
+      "name": "Daemonic Focus",
+      "text": "Units with Daemonic Focus may keep summoned units in play after the formation rallies, but not if the formation is broken."
+    }
+  ],
+  "formations": [
+    {
+      "category": "House Devine Households",
+      "entry_type": "formation",
+      "name": "Knight Household",
+      "cost": "250 points",
+      "units_text": "Any three of the following units: Hell-Knight, Hell-Slicer",
+      "upgrades_or_options_text": "Add up to three Hell-Knights or Hell-Slicers for +65 points each; replace any number of Hell-Knights with an equal number of Hell-Scourges for +15 points each; add one Voluptuary character for +25 points or one Arch-Hedonist per army for +150 points",
+      "restrictions_or_notes": null,
+      "raw_text": "Knight Household | Any three of the following units: Hell-Knight, Hell-Slicer | Add up to three Hell-Knights or Hell-Slicers for +65 points each; replace any number of Hell-Knights with an equal number of Hell-Scourges for +15 points each; add one Voluptuary character for +25 points or one Arch-Hedonist per army for +150 points | 250 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "House Devine Households",
+      "entry_type": "formation",
+      "name": "Hell-Strider Household",
+      "cost": "150 points",
+      "units_text": "Three Hell-Striders",
+      "upgrades_or_options_text": "Add up to three Hell-Striders for +50 points each; add one Voluptuary character for +25 points",
+      "restrictions_or_notes": null,
+      "raw_text": "Hell-Strider Household | Three Hell-Striders | Add up to three Hell-Striders for +50 points each; add one Voluptuary character for +25 points | 150 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vassal Formations",
+      "entry_type": "formation",
+      "name": "Cultist",
+      "cost": "175 points",
+      "units_text": "One Demagogue or Chaos Marine Aspiring Champion and any eleven of Cultists or Mutants",
+      "upgrades_or_options_text": "Add up to eight Cultists or Mutants for +10 points each; add just enough Land Transporters to transport the entire formation for +10 points each; add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool for +25 points; add one Icon Bearer character for +25 points; add up to three Debasers for +50 points each",
+      "restrictions_or_notes": null,
+      "raw_text": "Cultist | One Demagogue or Chaos Marine Aspiring Champion and any eleven of Cultists or Mutants | Add up to eight Cultists or Mutants for +10 points each; add just enough Land Transporters to transport the entire formation for +10 points each; add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool for +25 points; add one Icon Bearer character for +25 points; add up to three Debasers for +50 points each | 175 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vassal Formations",
+      "entry_type": "formation",
+      "name": "Debaser",
+      "cost": "275 points",
+      "units_text": "Four Debasers",
+      "upgrades_or_options_text": "Add up to two Debasers for +50 points each",
+      "restrictions_or_notes": null,
+      "raw_text": "Debaser | Four Debasers | Add up to two Debasers for +50 points each | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Vassal Formations",
+      "entry_type": "formation",
+      "name": "Noise Marine",
+      "cost": "275 points",
+      "units_text": "Six Noise Marines, one with a Chaos Lord or Sorcerer Lord character",
+      "upgrades_or_options_text": "Add three Chaos Rhinos for +25 points; add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool for +25 points; add one Icon Bearer character for +25 points; add one Champion of Slaanesh character for +50 points; add up to three Debasers for +50 points each",
+      "restrictions_or_notes": null,
+      "raw_text": "Noise Marine | Six Noise Marines, one with a Chaos Lord or Sorcerer Lord character | Add three Chaos Rhinos for +25 points; add Daemonic Pact to the formation and one Lesser Daemon to the Daemon Pool for +25 points; add one Icon Bearer character for +25 points; add one Champion of Slaanesh character for +50 points; add up to three Debasers for +50 points each | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Hell Blade",
+      "cost": "200 points",
+      "units_text": "Three Hell Blades",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Hell Blade | Three Hell Blades | 200 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos Navy",
+      "entry_type": "formation",
+      "name": "Hell Talon",
+      "cost": "225 points",
+      "units_text": "Two Hell Talons",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Hell Talon | Two Hell Talons | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos War Engines",
+      "entry_type": "formation",
+      "name": "Questor",
+      "cost": "275 points",
+      "units_text": "One Questor Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Questor | One Questor Titan | 275 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos War Engines",
+      "entry_type": "formation",
+      "name": "Subjugator",
+      "cost": "225 points",
+      "units_text": "One Subjugator Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Subjugator | One Subjugator Titan | 225 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos War Engines",
+      "entry_type": "formation",
+      "name": "Ravisher",
+      "cost": "650 points",
+      "units_text": "One Ravisher Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 1+; Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Ravisher | One Ravisher Titan | 650 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Chaos War Engines",
+      "entry_type": "formation",
+      "name": "Painlord",
+      "cost": "800 points",
+      "units_text": "One Painlord Titan",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": "Initiative 1+; Chaos Navy and War Engine formations may make up to one third of the points available to the army.",
+      "raw_text": "Painlord | One Painlord Titan | 800 points",
+      "parse_warnings": []
+    },
+    {
+      "category": "Daemon Pool",
+      "entry_type": "formation",
+      "name": "Daemon Pool",
+      "cost": "Greater Daemon +50 points each; Lesser Daemon +15 points each",
+      "units_text": "Greater Daemon markers (Keeper of Secrets); Lesser Daemon markers (Daemonettes, Fiends of Slaanesh, Steeds of Slaanesh)",
+      "upgrades_or_options_text": "None",
+      "restrictions_or_notes": null,
+      "raw_text": "Daemon Pool | Greater Daemon +50 points each; Lesser Daemon +15 points each",
+      "parse_warnings": []
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Champion of Slaanesh",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Icon Bearer",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Sorcerer Lord",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Warp Bolt",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Voluptuary",
+      "type": "CH",
+      "speed": "n/a",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Commander",
+        "Leader"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Marine Aspiring Champion",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Autocannon",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Commander",
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Cultists",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "-",
+      "cc": "5+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Weapons",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Daemonettes",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "First Strike",
+        "Invulnerable Save"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Demagogue",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "5+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Heavy Weapons",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        },
+        {
+          "name": "Arcane Powers",
+          "range": "30cm",
+          "firepower": "MW6+",
+          "notes": []
+        },
+        {
+          "name": "Daemon Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Augmented Summoning (+2D3)",
+        "Invulnerable Save"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Demagogue row is line-wrapped in the source table; weapon rows were reconstructed conservatively."
+      ],
+      "ambiguity_reasons": [
+        "line wrapped source row"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Fiends of Slaanesh",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "Infiltrator",
+        "Invulnerable Save"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Mutants",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "6+",
+      "cc": "4+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Firearms",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Noise Marines",
+      "type": "INF",
+      "speed": "15cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Blastmaster",
+          "range": "30cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Steeds of Slaanesh",
+      "type": "INF",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "-",
+      "weapons": [],
+      "abilities_or_notes": [
+        "Expendable",
+        "First Strike",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Mounted"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Land Transporter",
+      "type": "LV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Heavy Weapons",
+          "range": "30cm",
+          "firepower": "AP6+/AT6+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units without Jump Packs or Mounted."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "6+",
+      "weapons": [
+        {
+          "name": "Combi-Bolter",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Transport",
+        "May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Debaser",
+      "type": "AV",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "4+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Raucous Array",
+          "range": "45cm",
+          "firepower": "AP3+/AT4+/AA5+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Blastmaster",
+          "range": "30cm",
+          "firepower": "AP4+/AT5+",
+          "notes": [
+            "D"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": "15cm",
+          "firepower": "AP3+",
+          "notes": [
+            "IC"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Infiltrator",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Strider",
+      "type": "AV",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Twin Lascannon",
+          "range": "45cm",
+          "firepower": "AT4+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "15cm",
+          "firepower": "MW5+",
+          "notes": []
+        },
+        {
+          "name": "Multi-melta",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Fearless",
+        "Invulnerable Save",
+        "Walker"
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Arch-Hedonist",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Lance",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Supreme Commander",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The Arch-Hedonist row is line-wrapped in the source table; weapon rows were reconstructed conservatively."
+      ],
+      "ambiguity_reasons": [
+        "line wrapped source row"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Hell-Knight",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Thermal Lance",
+          "range": "30cm",
+          "firepower": "MW4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "MW"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Scourge",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "6+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3× AP3+/AT5+",
+          "notes": [
+            "FwA"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell-Slicer",
+      "type": "WE",
+      "speed": "30cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": [
+            "FwA"
+          ]
+        },
+        {
+          "name": "Battle Claws",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 2",
+        "Fearless",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: Destroyed."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Keeper of Secrets",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "4+",
+      "weapons": [
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "30cm",
+          "firepower": "3× MW4+",
+          "notes": []
+        },
+        {
+          "name": "Gaze of Slaanesh",
+          "range": "(15cm)",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        },
+        {
+          "name": "Lash of Torment",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "FS",
+            "MW"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Daemonic Focus",
+        "Damage Capacity 3",
+        "Expendable",
+        "Fearless",
+        "Inspiring",
+        "Invulnerable Save",
+        "Reinforced Armour",
+        "Walker",
+        "Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [
+        "The Keeper of Secrets row is line-wrapped in the source table; weapon rows were reconstructed conservatively."
+      ],
+      "ambiguity_reasons": [
+        "line wrapped source row"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Painlord Titan",
+      "type": "WE",
+      "speed": "20cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Energy Whip",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+2D3)",
+            "FS",
+            "MW"
+          ]
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "60cm",
+          "firepower": "3× MW2+",
+          "notes": [
+            "FwA",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Volcano Cannon",
+          "range": "90cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FwA",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Cacophonous Exhibition",
+          "range": "60cm",
+          "firepower": "6BP",
+          "notes": [
+            "FxF",
+            "D"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 8",
+        "Fearless",
+        "Reinforced Armour",
+        "Thick Rear Armour",
+        "6 Void Shields",
+        "Walker",
+        "Armed with either an Energy Whip or a Plasma Cannon.",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Painlord Titan row is line-wrapped in the source table; optional weapons were reconstructed conservatively."
+      ],
+      "ambiguity_reasons": [
+        "line wrapped source row",
+        "optional weapons"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Questor Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "5+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Castigator Cannon",
+          "range": "45cm",
+          "firepower": "3× AP3+/AT5+",
+          "notes": []
+        },
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Ravisher Titan",
+      "type": "WE",
+      "speed": "25cm",
+      "armour": "4+",
+      "cc": "3+",
+      "ff": "3+",
+      "weapons": [
+        {
+          "name": "Close Combat Weapon",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+3)",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Plasma Cannon",
+          "range": "60cm",
+          "firepower": "3× MW2+",
+          "notes": [
+            "FwA",
+            "Slw"
+          ]
+        },
+        {
+          "name": "Melta Cannon",
+          "range": "30cm",
+          "firepower": "MW2+",
+          "notes": [
+            "FwA",
+            "TK(D3)"
+          ]
+        },
+        {
+          "name": "Gatling Blaster",
+          "range": "60cm",
+          "firepower": "Small Arms",
+          "notes": [
+            "EA(+1)",
+            "TK(D6)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 6",
+        "Fearless",
+        "Reinforced Armour",
+        "4 Void Shields",
+        "Walker",
+        "Armed with either a Close Combat Weapon or a Plasma Cannon.",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "medium",
+      "parse_warnings": [
+        "The Ravisher Titan row is line-wrapped in the source table; optional weapons were reconstructed conservatively."
+      ],
+      "ambiguity_reasons": [
+        "line wrapped source row",
+        "optional weapons"
+      ],
+      "is_reference_or_ambiguous": true
+    },
+    {
+      "name": "Subjugator Titan",
+      "type": "WE",
+      "speed": "35cm",
+      "armour": "5+",
+      "cc": "3+",
+      "ff": "5+",
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": "75cm",
+          "firepower": "AP4+/AT4+",
+          "notes": []
+        },
+        {
+          "name": "Hellblades",
+          "range": "(bc)",
+          "firepower": "Assault Weapons",
+          "notes": [
+            "EA(+1)",
+            "TK(D3)"
+          ]
+        }
+      ],
+      "abilities_or_notes": [
+        "Damage Capacity 3",
+        "Fearless",
+        "Reinforced Armour",
+        "2 Void Shields",
+        "Walker",
+        "May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide.",
+        "Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+      ],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Blade",
+      "type": "AC Fighter",
+      "speed": "6+",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "2× Reaper Autocannon",
+          "range": "15cm",
+          "firepower": "AP4+/AT6+/AA5+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    },
+    {
+      "name": "Hell Talon",
+      "type": "AC Fighter-Bomber",
+      "speed": "5+",
+      "armour": "n/a",
+      "cc": "n/a",
+      "ff": "n/a",
+      "weapons": [
+        {
+          "name": "Bombs",
+          "range": "15cm",
+          "firepower": "2BP",
+          "notes": [
+            "FxF",
+            "IC"
+          ]
+        },
+        {
+          "name": "Twin Lascannon",
+          "range": "30cm",
+          "firepower": "AT4+/AA4+",
+          "notes": [
+            "FxF"
+          ]
+        },
+        {
+          "name": "Havoc Launcher",
+          "range": "45cm",
+          "firepower": "AP5+/AT6+",
+          "notes": [
+            "FxF"
+          ]
+        }
+      ],
+      "abilities_or_notes": [],
+      "source_section": "Hedonic Crusade Forces",
+      "parse_confidence": "high",
+      "parse_warnings": [],
+      "ambiguity_reasons": [],
+      "is_reference_or_ambiguous": false
+    }
+  ],
+  "army_notes": [
+    {
+      "name": "Background",
+      "text": "The list is based on the Hedonic Crusade launched by House Devine in the early 41st Millennium."
+    },
+    {
+      "name": "Datasheets",
+      "text": "The army uses datasheets from the Hedonic Crusade Forces section."
+    },
+    {
+      "name": "Formations",
+      "text": "Formations are House Devine Households and vassal formations."
+    },
+    {
+      "name": "Household / Vassal",
+      "text": "Each House Devine Household included allows any one vassal formation."
+    },
+    {
+      "name": "Daemon Pool",
+      "text": "The army has a Daemon Pool."
+    },
+    {
+      "name": "Chaos Navy / Engines",
+      "text": "Up to a third of points may be spent on Chaos Navy and War Engine formations."
+    },
+    {
+      "name": "Artwork",
+      "text": "Page 3 is artwork only and contains no army data."
+    }
+  ],
+  "extraction_warnings": [
+    "Confirmed existing repo list id: CHAOS_House_Devine_NETEA.",
+    "House Devine is the builder route used by the repo for this PDF; no new chooser route was invented.",
+    "Some formation option text is represented inline in the formation rows rather than as separate upgrade rows.",
+    "A few profile rows are line-wrapped in the source PDF and were reconstructed conservatively from the visible table text."
+  ]
+}
