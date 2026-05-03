@@ -127,57 +127,101 @@ document.querySelectorAll('.list a').forEach(link => {
 </script>
 <script>
 var supportedStatArmys = {
+  // Space Marines
+  'SM_bloodAngels_NETEA': true,
+  'SM_codex_NETEA': true,
+  'SM_impfists_NETEA': true,
+  'SM_Raven_Guard_NETEA': true,
+  'SM_salamanders_NETEA': true,
+  'SM_scions_NETEA': true,
+  'SM_spacewolves_NETEA': true,
+  'SM_scars_NETEA': true,
+  'SM_DarkAngels_NETEA': true,
+  'SM_IronHands_v1.1_NETEA': false,
+
+  // Imperial Guard
+  'IG_siege_NETEA': true,
+  'IG_cadian_NETEA': true,
+  'IG_catachan_NETEA': true,
+  'IG_krieg_NETEA': true,
+  'IG_Elysian_NETEA': true,
+  'IG_minervan_NETEA': true,
+  'IG_harakoni_NETEA_fixed': true,
+  'IG_saranesExpCrusade_NETEA': false,
+  'IG_steelLegion_NETEA': true,
+  'IG_MobileCatachans_NETEA': true,
+  'IG_miraliSkyraiders_NETEA': true,
+  'IG_Tallarn_NETEA': true,
+
+  // AMTL / Mechanicus / Knights
   'AMTL_gryphons_NETEA': false,
   'AMTL_knight_world_NETEA': true,
+  'AMTL_knight_crusade_NETEA': false,
   'AMTL_skitarii_NETEA': true,
-  'CHAOS_black_legion_NETEA': true,
-  'CHAOS_corsairs_NETEA': true,
-  'CHAOS_corsairs_playtestNETEA': true,
-  'CHAOS_damned_NETEA': true,
-  'CHAOS_ec_NETEA': true,
-  'CHAOS_emperors_children_NETEA': true,
-  'CHAOS_iron_warriors_NETEA': true,
-  'CHAOS_ironwarriors_NETEA': true,
-  'CHAOS_latd_redux_NetEA': true,
-  'CHAOS_legion_NETEA': true,
-  'CHAOS_red_corsairs_NETEA': true,
-  'EL_dark_NETEA': true,
-  'IG_krieg_NETEA': true,
-  'IG_minervan_NETEA': true,
-  'IG_siege_NETEA': true,
-  'IG_steelLegion_NETEA': true,
+  'AMTL_MarsPrime_NETEA': true,
+
+  // Inquisition
+  'INQ_sisters2018_NETEA': true,
+  'INQ_gk2018_NETEA': true,
+  'INQ_dw_NETEA': false,
   'INQ_ordo_xenos_NETEA': true,
+
+  // Orks
   'ORK_feral_NETEA': true,
   'ORK_gargant_NETEA': true,
   'ORK_ghazgkhull_NETEA': true,
   'ORK_kult_NETEA': true,
-  'SM_Raven_Guard_NETEA': true,
-  'SM_codex_NETEA': true,
-  'SM_impfists_NETEA': true,
-  'SM_salamanders_NETEA': true,
-  'SM_scars_NETEA': true,
-  'SM_scions_NETEA': true,
-  'SM_spacewolves_NETEA': true,
-  'XENOS_necron_NETEA': true,
-  'XENOS_nids_NETEA': true,
-  'XENOS_squats_NETEA': true,
-  'XENOS_tau_NETEA': true,
-  'XENOS_tau_Viorla_NETEA': false,
+
+  // Chaos
+  'CHAOS_legion_NETEA': true,
+  'CHAOS_black_legion_NETEA': true,
+  'CHAOS_dg_NETEA': false,
+  'CHAOS_ec_NETEA': true,
+  'CHAOS_emperors_children_NETEA': true,
+  'CHAOS_ironwarriors_NETEA': true,
+  'CHAOS_iron_warriors_NETEA': true,
+  'CHAOS_damned_NETEA': true,
+  'CHAOS_latd_redux_NetEA': true,
+  'CHAOS_House_Devine_NETEA': false,
+  'CHAOS_VraksianTraitors_NETEA': false,
+  'CHAOS_corsairs_playtestNETEA': true,
+  'CHAOS_corsairs_NETEA': true,
+  'CHAOS_red_corsairs_NETEA': true,
+  'CHAOS_ts_NETEA': false,
+  'CHAOS_titans_NETEA': false,
+  'CHAOS_wordbearers_NETEA': false,
+  'CHAOS_we_NETEA': false,
+  'CHAOS_di_NETEA': false,
+
+  // Eldar / Dark Eldar
+  'EL_alaitoc_NETEA': true,
+  'EL_bieltan_NETEA': true,
+  'EL_exodites_NETEA': false,
+  'EL_firiolarion_NETEA': false,
+  'EL_greatcourt_NETEA': false,
+  'EL_iyanden_NETEA': true,
+  'EL_iybraesil_NETEA': false,
+  'EL_Lugganath_NETEA': false,
+  'EL_saimhann_NETEA': true,
+  'EL_ulthwe_NETEA': false,
+  'EL_ymeloc_NETEA': false,
+  'EL_dark_NETEA': true,
+  'EL_darkPlaytest_NETEA': false,
+  'EL_Dark_2017_NETEA': false,
+
+  // Tau / Xenos
   'XENOS_tau_developmental_NETEA': true,
-    'SM_bloodAngels_NETEA': true,
-  'SM_DarkAngels_NETEA': true,
-  'INQ_sisters2018_NETEA': true,
-  'INQ_gk2018_NETEA': true,
+  'XENOS_tau_NETEA': true,
   'XENOS_tau_Viorla_NETEA': true,
+  'XENOS_nids_NETEA': true,
+  'XENOS_necron_NETEA': true,
   'XENOS_sautekh_necron_NETEA': true,
-  'EL_bieltan_NETEA' : true,
-  'EL_alaitoc_NETEA' : true,
-  'EL_iyanden_NETEA' : true,
-  'EL_saimhann_NETEA' : true
-
-
-
+  'XENOS_squats_NETEA': true
 };
+
+
+
+
 document.querySelectorAll('.list a').forEach(function(link) {
   var match = link.href.match(/[?&]list=([^&]+)/);
   if (match && supportedStatArmys[match[1]]) {
