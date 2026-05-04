@@ -111,7 +111,7 @@ ArmyforgeUnitProfiles.traitorTitanLegions = ArmyforgeUnitProfiles.traitorTitanLe
 		}
 	}
 
-	function lookupCanonicalProfile(canonicalName) {
+	ArmyforgeUnitProfiles.traitorTitanLegionsLookupCanonicalProfile = function(canonicalName) {
 		if (!canonicalName) {
 			return null;
 		}
@@ -121,9 +121,9 @@ ArmyforgeUnitProfiles.traitorTitanLegions = ArmyforgeUnitProfiles.traitorTitanLe
 			return null;
 		}
 		return ArmyforgeUnitProfiles.traitorTitanLegions.profiles[key] || null;
-	}
+	};
 
-	function resolveExactBuilderName(displayName) {
+	ArmyforgeUnitProfiles.traitorTitanLegionsResolveExactBuilderName = function(displayName) {
 		var text = displayName ? String(displayName) : '';
 		if (!text) {
 			return null;
@@ -182,7 +182,7 @@ ArmyforgeUnitProfiles.traitorTitanLegions = ArmyforgeUnitProfiles.traitorTitanLe
 			return false;
 		});
 		return match;
-	}
+	};
 
 	function mergeWeapon(existingWeapons, incomingWeapons) {
 		var seen = {};
@@ -494,9 +494,9 @@ ArmyforgeUnitProfiles.findTraitorTitanLegionsProfileByName = function(displayNam
 	if (listId && !ArmyforgeUnitProfiles.traitorTitanLegions.armyIds.member(listId)) {
 		return null;
 	}
-	var exactMatch = resolveExactBuilderName(displayName);
+	var exactMatch = ArmyforgeUnitProfiles.traitorTitanLegionsResolveExactBuilderName(displayName);
 	if (exactMatch) {
-		var exactProfile = lookupCanonicalProfile(exactMatch);
+		var exactProfile = ArmyforgeUnitProfiles.traitorTitanLegionsLookupCanonicalProfile(exactMatch);
 		if (exactProfile) {
 			return exactProfile;
 		}
